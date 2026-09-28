@@ -1,0 +1,77 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nature.com/articles/s41598-023-28179-x
+Type: HTML
+Pattern: PR-AUC|best F1|F1|auto-?correlation|RCA|past|history|years|benchmark|activation|threshold|feature (186 matches in 131015 chars)
+
+--- Content ---
+
+2473:...23-28179-x/metrics)
+
+
+
+
+## Abstract
+
+Economic complexity methods, and in particular relatedness measures, lack a systematic evaluation and comparison framework. We argue that out-of-sample forecast exercises should play this role, and we compare various machine learning models to set the prediction benchmark. We find that the key object to forecast is the activation of new products, and that tree-based algorithms clearly outperform both the quite strong auto-correlation benchmark and the other supervised algorithms. Interestingly, we find that the best results are obtained in a cross-validation setting, when data about the predicted country was excluded from the training set. Our approach has direct policy implications, providing a quantitative and scientifically tested mea...
+--
+6291:...n which models are every time aligned and selected, in contrast with the _vertical_ view of hard sciences, in which models are selected by comparing them with empirical evidence, leads to the challenging issue of distinguishing which models are wrong. While this situation can be viewed as a natural feature of economic and, more in general, complex systems[6](/articles/s41598-023-28179-x#ref-CR6 "Rodrik, D. Economics Rules: The Rights and Wrongs of the Dismal Science \(WW Norton & Company, 2015\)."), a number of scholars coming from hard sciences have recently tackled these issues, trying to introduce...
+--
+14565:...rix completion. Note that their test of the goodness of their approach is based on the reconstruction of the country-product pairs that have been removed from the data; the approach used here, instead, consists into looking at how good the proposed model is to guess new exports of countries after 5 years. So once again the performances are not comparable, as it is evident by looking, for instance, at the respective magnitude of the reported F1 scores.
+
+The examples just discussed clarify why we believe that it is fundamental to introduce elements of falsifiability in order to compare the different existing models, and that such comparison should be made by looking at the performances in out-of-sample forecasting, that is the focus of the...
+--
+15764:...41598-023-28179-x#ref-CR34 "Hausmann, R., Hwang, J. & Rodrik, D. What you export matters. J. Econ. Growth 12, 1–25 \(2007\).") but also for the immediate policy implications of the capability to be able, for instance, to predict in which industrial sector a country will be competitive, say, in five years.
+
+In this paper, we propose a procedure to systematically compare different prediction approaches and, as a consequence, to scientifically validate or falsify the underlying models. Indeed, some attempts to use complex networks or econometric approaches to predict exports exist[32](/articles/s41598...
+--
+16933:...t set, or even which indicator to use to evaluate the predictive performance. In the following, we will systematically scrutiny the steps to build a scientifically sound testing procedure to predict the evolution of the export basket of countries. In particular, we will forecast the presence or the activation of a binary matrix element \\(M_{cp}\\), that indicates whether the country _c_ competitively exports product _p_ in the Revealed Comparative Advantage sense[38](/articles/s41598-023-28179-x#ref-CR38 "Balassa, B. Trade liberalisation and “revealed” comparative advantage 1.  Manchester Sch. 33, 99–1...
+--
+17761:...it is natural to argue whether machine learning algorithm might play a role and build comparable or even better measures. In particular, given the present ubiquitous and successful use of artificial intelligence in many different contexts, it is natural to use machine learning algorithms to set the benchmark. A relevant by-product of this analysis is the investigation of the statistical properties of the database (namely, the strong auto-correlation and class imbalance), that has deep consequences on the choice of the most suitable algorithms, testing exercises, and performance indicators.
+
+Applying these methods we find two interesting results: 
+
+  1. 1.
+
+The best performing models for this task are based on decision trees. A fundamental prop...
+--
+19974:...volution of export baskets has a number of practical and theoretical applications. First, predicting the time evolution of the export basket of a country needs, as an intermediate step, an assessment of the likelihood that the single product will be competitively exported by the country in the next years. This likelihood can be seen as a measure of the _feasibility_ of that product, given the present situation of that country. The possibility to investigate with such a great level of detail which product is relatively _close_ to a country and which one is out of reach has immediate implications in ...
+--
+22369:...erties of the country-product network
+
+**Figure 1**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/1)
+
+Left: transition probabilities between the binary states of the export matrix **M**. The strong persistency implies the importance of the study of the appearance of new products (called _activations_) with respect to the unconditional presence of one matrix element (in the following, _full matrix_). Right: the fraction of nonzero elements in **M** as a function of time. A strong class imbalance is present.
+
+A key result of the present investigation is a clear-cut methodology to compare differ...
+--
+23748:... exporters’ declarations (see “[Methods](/articles/s41598-023-28179-x#Sec9)”). We compute the Revealed Comparative Advantage[38](/articles/s41598-023-28179-x#ref-CR38 "Balassa, B. Trade liberalisation and “revealed” comparative advantage 1.  Manchester Sch. 33, 99–123 \(1965\).") to obtain a set of RCA matrices \\({\textbf {R}}\\) and, by applying a threshold equal to 1, a set of matrices \\({\textbf {M}}\\) whose binary elements are equal to 1 if the given country competitively exports the given product. Here and in the following we use “competitively” in the Balassa sense, that is, \\(R_{cp}>1\\). In this paper we will discuss the prediction of two different situations: the unconditional presence of a “1” element in the \\({\textbf {M}}\\) matrix and the _appearance_ of such an element requiring that the RCA values were below a non-significance threshold t=0.25 in all the previous years. We will refer to the first case as the _full matrix_ and to the new product event as an _activation_. The definition of the activation is somehow arbitrary: one could think, for instance, to change the threshold t or the number of inactive years. We find however our choice to be a good trade-off to have both a good numerosity of the test set and avoid the influence of trivial 0/1 flips. We point out that our final aim is to detect, as much as possible, the appearance of really new products in the export basket of countries.
+
+In Fig. [1](/articles/s41598-023-28179-x#Fig1), left, we plot the probability that a matrix element \\(M_{cp}\\) in 1996 will change or not change its binary value in the future years. One can easily see that even after 5 years the probability that a country remains competitive in a product is relatively high (\\(\sim 0.64\\)); being the probability that a country remains not competitive \\(\sim 0.95\\), we conclude that there is a very strong auto-correlation: this is a reflection of the persistent nature of both the capabilities and the market conditions that are needed to competitively export a product. Moreover, the appearance of a new product in the export basket of a country is a rare event: the empirical frequency is about 0.047 after 5 years. A consequence of this persistence is that we can safely predict the presence of a 1 in the \\({\textbf {M}}\\) matrices by simply looking at the previous years, while the appearance of a new product that was not previously exported by a country is much more difficult and, in a sense, more interesting from an economical point of view, since it depends more on the presence of suitable, but unrevealed, capabilities in the country; but these capabilities can be traced by looking at the other products that country exports. Not least, an early detection of a future activation of a new product has a number of practical policy implications. Note in passing that, since machine learning based smoothing procedures[10](/articles/s41598-023-28179-x#ref-CR10 "Tacchella, A., Mazzilli, D. & Pietronero, L. A dynamical systems approach to gross domestic product forecasting. Nat. Phys. 14, 861–865 \(2018\)."),[44](/articles/s41598-023-28179-x#ref-CR44 "Angelini, O. & Di Matteo, T. Complexity of products: The effect of data regularisation. Entropy 20, 814 \(2018\).") may introduce extra spurious correlations, they should be avoided in prediction exercises, and so only the RCA values directly computed from the raw export data are considered.
+
+On the right side of Fig.[1](/articles/s41598-023-28179-x#Fig1) we plot the density of the matrices \\({\textbf {M}}\\), that is the number of nonzero elements with respect to the total number of elements. This ratio is roughly \\(10\%\\). This means that both the prediction of the _full_ , unconditional matrix elements and the prediction of the so-called _activations_ (i.e., conditioning to that element being 0 and with RCA below 0.25 in all the previous years) show a strong class imbalance. This has deep consequences regarding the choice of the performance indicators to compare the different predictive algorithms. For instance, the ROC-AUC score[45](/articles/s41598-023-28179-x#ref-CR45 "Fawcett, T. An introduction to roc analysis. Pattern Recognit. Let...
+--
+28716:...023-28179-x#Sec9)” section. Here we just point out that the training set is composed by the matrices \\({\textbf {R}}^{(y)}\\) with \\(y \in [1996\dots 2013]\\), and the test is performed against \\({\textbf {M}}^{(2018)}\\), so we try to predict the export basket of countries after \\(\Delta =5\\) years.
+
+The algorithms we tested are XGBoost[47](/articles/s41598-023-28179-x#ref-CR47 "Friedman, J. H. Greedy function approximation: A gradient boosting machine. Ann. Stat. 1189–1232 \(2001\)."),[48](/articles/s41598-023-28179-x#ref-CR48 "Chen, T. & Guestrin, C. Xgboost: A scalable tree boosting system...
+--
+31354:...).") and references therein and, in the following sections, we will elaborate more on the algorithms based on decision trees, which result to be the most performing ones.
+
+**Figure 2**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/2)
+
+An example of successful prediction. On the left, the RCA of Bhutan in electrical transformers as a function of time. Already in 2012, with RCA stably below 1, the progression probability of that matrix element was well above its country average, as shown by the histogram in the figure on the right. Bhutan will start to competitively export electrical transformers after 5 years.
+
+In Fig. [2](/articles/s41598-023-28179-x#Fig2) we show an example of the dynamics that our approach is able to unveil. On the left we show the RCA of Bhutan for the export of Electrical Transformers as a function of time. RCA is zero from 1996 to 2016, when a sharp increase begins. Was it possible to predict the activation of this matrix element? Let us train our machine learning algorithm XGBoost using the data from 1996 to 2012 to predict which products will Bhutan likely export in the future. The result is a set of scores, or _progression probabilities_ , one score for each possible product. Each of these scores m...
+--
+32796:...n the right. The progression probability for Electrical Transformers was much higher than average, as shown by the arrow: this means that, already in 2012, Bhutan was very close to this product. Indeed, as shown by the figure on the left, Bhutan will start to export that specific product in about 5 years. Obviously, this is just an example, so we need a set of quantitative tools to measure the prediction performance on the whole test set on a statistical basis.
+
+**Figure 3**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/3)
+
+Comparison of the prediction performance of different algorithms...
+--
+[146 more matches not shown]

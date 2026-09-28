@@ -1,0 +1,8 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://epjdatascience.springeropen.com/counter/pdf/10.1140/epjds/s13688-019-0210-z
+Type: HTML
+Pattern: AUC|RCA|threshold|knowledge density|exit|lose|abandon|activat|predict (0 matches in 290 chars)
+
+--- Content ---
+
+No matches found for pattern: AUC|RCA|threshold|knowledge density|exit|lose|abandon|activat|predict
