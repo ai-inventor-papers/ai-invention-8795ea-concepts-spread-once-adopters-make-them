@@ -1,0 +1,13 @@
+{
+ "credits_used": 156,
+ "usd": 0.015599999999999961,
+ "n_calls": 156,
+ "n_cache_hits": 74,
+ "last_remaining": "842",
+ "cost_by_kind": {
+  "or_test": 8,
+  "global": 3,
+  "yearly": 145
+ },
+ "stop_new_downloads": false
+}
