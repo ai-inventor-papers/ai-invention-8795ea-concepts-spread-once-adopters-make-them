@@ -1,0 +1,9 @@
+[project]
+name = "concept-recognition-events"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "pandas", "pyarrow", "aiohttp", "loguru", "lxml", "rapidfuzz", "lemminflect",
+  "rdflib", "openai", "tenacity", "scikit-learn", "requests", "beautifulsoup4",
+  "sentence-transformers", "numpy", "psutil", "pyyaml", "pymupdf",
+]

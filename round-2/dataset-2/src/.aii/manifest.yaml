@@ -1,0 +1,27 @@
+entries:
+- path: .venv/
+  delete: regenerable
+  source: 'bash restore.sh  # uv venv .venv --python=3.12; uv pip install torch (CPU wheel) and -r pyproject.toml'
+- path: .venv_io/
+  delete: regenerable
+  source: uv venv .venv_io --python=3.12 && uv pip install --python .venv_io/bin/python pandas pyarrow aiohttp loguru lemminflect lxml rapidfuzz
+- path: scripts/__pycache__/
+  delete: regenerable
+  source: python bytecode, recreated on import
+- path: cache/raw/concepts_legacy/
+  delete: redownloadable
+  source: https://openalex.s3.amazonaws.com/legacy-data/concepts/ (S3 listing; see restore.sh)
+- path: cache/raw/mesh/
+  delete: redownloadable
+  source: https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz and supp2026.gz
+- path: cache/raw/research_fronts/
+  delete: redownloadable
+  source: http://english.casisd.cas.cn/research/rp/ (Research Fronts 2016-2025 English PDFs; URLs in scripts/research_fronts_urls.txt; see restore.sh)
+- path: work/concept_label_emb.npy
+  delete: regenerable
+  source: 'cd scripts && ../.venv/bin/python s7_candidates.py  # MiniLM label embeddings'
+- path: work/concept_rows.pkl
+  delete: regenerable
+  source: cd scripts && ../.venv/bin/python s8_assemble.py
+- path: work/concept_keys.parquet
+  keep: join-key table built from the kept Wikidata cache; small and read by s7-s9

@@ -1,0 +1,27 @@
+17:56:20|INFO   |58932 titles, 0 cached, 1179 calls
+17:56:48|INFO   |29/1179 calls, 27s, pace 1.00/s, 429s 0
+17:57:38|INFO   |79/1179 calls, 77s, pace 1.00/s, 429s 0
+17:58:28|INFO   |129/1179 calls, 127s, pace 1.00/s, 429s 0
+17:59:18|INFO   |179/1179 calls, 177s, pace 1.00/s, 429s 0
+18:00:08|INFO   |229/1179 calls, 227s, pace 1.00/s, 429s 0
+18:00:58|INFO   |279/1179 calls, 277s, pace 1.00/s, 429s 0
+18:01:46|INFO   |329/1179 calls, 326s, pace 1.05/s, 429s 0
+18:02:34|INFO   |379/1179 calls, 374s, pace 1.05/s, 429s 0
+18:03:22|INFO   |429/1179 calls, 421s, pace 1.05/s, 429s 0
+18:04:09|INFO   |479/1179 calls, 469s, pace 1.05/s, 429s 0
+18:04:57|INFO   |529/1179 calls, 516s, pace 1.05/s, 429s 0
+18:05:45|INFO   |579/1179 calls, 564s, pace 1.05/s, 429s 0
+18:06:31|INFO   |629/1179 calls, 610s, pace 1.10/s, 429s 0
+18:07:16|INFO   |679/1179 calls, 656s, pace 1.10/s, 429s 0
+18:08:02|INFO   |729/1179 calls, 701s, pace 1.10/s, 429s 0
+18:08:47|INFO   |779/1179 calls, 747s, pace 1.10/s, 429s 0
+18:09:32|INFO   |829/1179 calls, 792s, pace 1.10/s, 429s 0
+18:10:18|INFO   |879/1179 calls, 837s, pace 1.10/s, 429s 0
+18:11:02|INFO   |929/1179 calls, 882s, pace 1.16/s, 429s 0
+18:11:45|INFO   |979/1179 calls, 925s, pace 1.16/s, 429s 0
+18:12:28|INFO   |1029/1179 calls, 968s, pace 1.16/s, 429s 0
+18:13:11|INFO   |1079/1179 calls, 1011s, pace 1.16/s, 429s 0
+18:13:55|INFO   |1129/1179 calls, 1054s, pace 1.16/s, 429s 0
+18:14:38|INFO   |1179/1179 calls, 1097s, pace 1.16/s, 429s 0
+18:14:39|INFO   |1179/1179 calls, 1098s, pace 1.16/s, 429s 0
+18:14:39|INFO   |pageids done

@@ -1,0 +1,9 @@
+{"annotator": "executor (Claude), read item-by-item on 2026-09-28; relation relative to the external entry",
+ "verdicts": ["narrower_entry","related","different","same","broader_entry","related","broader_entry","narrower_entry","different","narrower_entry",
+              "related","related","narrower_entry","related","different","broader_entry","related","related","narrower_entry","different",
+              "narrower_entry","different","narrower_entry","different","same","narrower_entry","related","broader_entry","narrower_entry","narrower_entry",
+              "same","same","broader_entry","same","narrower_entry","same","same","same","narrower_entry","same",
+              "related","same","narrower_entry","narrower_entry","narrower_entry","same","narrower_entry","same","narrower_entry","narrower_entry",
+              "same","same","same","same","narrower_entry","same","same","same","same","broader_entry"],
+ "notes": {"5": "JEL R23 bundles several topics; concept 'Population' is generic", "35": "concept is a Wikidata disambiguation item",
+           "40": "acculturation is not the same as assimilation", "50": "MeSH Leg vs lower limb: near-synonym"}}
