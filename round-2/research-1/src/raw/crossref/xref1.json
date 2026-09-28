@@ -1,0 +1,1282 @@
+[
+ {
+  "doi": "10.1007/s41109-017-0035-2",
+  "status": "ok",
+  "first_author": "Renoust, Benjamin",
+  "n_auth": 3,
+  "authors": [
+   "Benjamin Renoust",
+   "Vivek Claver",
+   "Jean-Fran\u00e7ois Baffier"
+  ],
+  "year": 2017,
+  "title": "Multiplex flows in citation networks",
+  "venue": "Applied Network Science",
+  "vol": "2",
+  "issue": "1",
+  "page": "23",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-016-0017-9",
+  "status": "ok",
+  "first_author": "De Domenico, Manlio",
+  "n_auth": 3,
+  "authors": [
+   "Manlio De Domenico",
+   "Elisa Omodei",
+   "Alex Arenas"
+  ],
+  "year": 2016,
+  "title": "Quantifying the diaspora of knowledge in the last century",
+  "venue": "Applied Network Science",
+  "vol": "1",
+  "issue": "1",
+  "page": "15",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-024-00618-2",
+  "status": "ok",
+  "first_author": "Fontaine, Sylvain",
+  "n_auth": 4,
+  "authors": [
+   "Sylvain Fontaine",
+   "Floriana Gargiulo",
+   "Michel Dubois",
+   "Paola Tubaro"
+  ],
+  "year": 2024,
+  "title": "Epistemic integration and social segregation of AI in neuroscience",
+  "venue": "Applied Network Science",
+  "vol": "9",
+  "issue": "1",
+  "page": "8",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00769-w",
+  "status": "ok",
+  "first_author": "Du, Anbang",
+  "n_auth": 3,
+  "authors": [
+   "Anbang Du",
+   "Michael Head",
+   "Markus Brede"
+  ],
+  "year": 2025,
+  "title": "Journal publications in medicine: ranking vs. interdisciplinarity",
+  "venue": "Applied Network Science",
+  "vol": "11",
+  "issue": "1",
+  "page": "11",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00725-8",
+  "status": "ok",
+  "first_author": "Correia, Luiz Gabriel",
+  "n_auth": 2,
+  "authors": [
+   "Luiz Gabriel Correia",
+   "Jes\u00fas P. Mena-Chalco"
+  ],
+  "year": 2025,
+  "title": "The impact factor game: an agent-based exploration of self-citation influence and interdisciplinary dynamics on impact metrics",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "50",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00766-z",
+  "status": "ok",
+  "first_author": "Chacko, George",
+  "n_auth": 6,
+  "authors": [
+   "George Chacko",
+   "Minhyuk Park",
+   "Vikram Ramavarapu",
+   "Ananth Grama",
+   "Pablo Robles-Granda",
+   "Tandy Warnow"
+  ],
+  "year": 2026,
+  "title": "An agent-based model of citation behavior",
+  "venue": "Applied Network Science",
+  "vol": "11",
+  "issue": "1",
+  "page": "10",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00691-1",
+  "status": "ok",
+  "first_author": "Castillo-Castillo, Pedro",
+  "n_auth": 6,
+  "authors": [
+   "Pedro Castillo-Castillo",
+   "Enrique Stevens-Navarro",
+   "Ulises Pineda-Rico",
+   "Abel Garcia-Barrientos",
+   "Francisco R. Castillo-Soria",
+   "Jesus Acosta-Elias"
+  ],
+  "year": 2025,
+  "title": "A growth model for citations networks",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "3",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-018-0074-3",
+  "status": "ok",
+  "first_author": "Salnikov, Vsevolod",
+  "n_auth": 4,
+  "authors": [
+   "Vsevolod Salnikov",
+   "Daniele Cassese",
+   "Renaud Lambiotte",
+   "Nick S. Jones"
+  ],
+  "year": 2018,
+  "title": "Co-occurrence simplicial complexes in mathematics: identifying the holes of knowledge",
+  "venue": "Applied Network Science",
+  "vol": "3",
+  "issue": "1",
+  "page": "37",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-023-00572-5",
+  "status": "ok",
+  "first_author": "Holmgren, Anton",
+  "n_auth": 3,
+  "authors": [
+   "Anton Holmgren",
+   "Daniel Edler",
+   "Martin Rosvall"
+  ],
+  "year": 2023,
+  "title": "Mapping change in higher-order networks with multilevel and overlapping communities",
+  "venue": "Applied Network Science",
+  "vol": "8",
+  "issue": "1",
+  "page": "42",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-021-00371-w",
+  "status": "ok",
+  "first_author": "Fitzgerald, John",
+  "n_auth": 3,
+  "authors": [
+   "John Fitzgerald",
+   "Sanna Ojanper\u00e4",
+   "Neave O\u2019Clery"
+  ],
+  "year": 2021,
+  "title": "Is academia becoming more localised? The growth of regional knowledge networks within international research collaboration",
+  "venue": "Applied Network Science",
+  "vol": "6",
+  "issue": "1",
+  "page": "38",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-016-0020-1",
+  "status": "ok",
+  "first_author": "Wang, Shufan",
+  "n_auth": 3,
+  "authors": [
+   "Shufan Wang",
+   "Mariam Avagyan",
+   "Per Sebastian Skardal"
+  ],
+  "year": 2017,
+  "title": "Evolving network structure of academic institutions",
+  "venue": "Applied Network Science",
+  "vol": "2",
+  "issue": "1",
+  "page": "1",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-018-0090-3",
+  "status": "ok",
+  "first_author": "Gao, Yuan",
+  "n_auth": 4,
+  "authors": [
+   "Yuan Gao",
+   "Zhen Zhu",
+   "Raja Kali",
+   "Massimo Riccaboni"
+  ],
+  "year": 2018,
+  "title": "Community evolution in patent networks: technological change and network dynamics",
+  "venue": "Applied Network Science",
+  "vol": "3",
+  "issue": "1",
+  "page": "26",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-022-00517-4",
+  "status": "ok",
+  "first_author": "Cunningham, Eoghan",
+  "n_auth": 3,
+  "authors": [
+   "Eoghan Cunningham",
+   "Barry Smyth",
+   "Derek Greene"
+  ],
+  "year": 2022,
+  "title": "Author multidisciplinarity and disciplinary roles in field of study networks",
+  "venue": "Applied Network Science",
+  "vol": "7",
+  "issue": "1",
+  "page": "78",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-017-0034-3",
+  "status": "ok",
+  "first_author": "Larson, Jennifer M.",
+  "n_auth": 1,
+  "authors": [
+   "Jennifer M. Larson"
+  ],
+  "year": 2017,
+  "title": "The weakness of weak ties for novel information diffusion",
+  "venue": "Applied Network Science",
+  "vol": "2",
+  "issue": "1",
+  "page": "14",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-019-0126-3",
+  "status": "ok",
+  "first_author": "Doonan, William",
+  "n_auth": 4,
+  "authors": [
+   "William Doonan",
+   "Kyle W. Higham",
+   "Michele Governale",
+   "Ulrich Z\u00fclicke"
+  ],
+  "year": 2019,
+  "title": "Community structure in co-inventor networks affects time to first citation for patents",
+  "venue": "Applied Network Science",
+  "vol": "4",
+  "issue": "1",
+  "page": "17",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-020-00325-8",
+  "status": "ok",
+  "first_author": "L\u0151rincz, L\u00e1szl\u00f3",
+  "n_auth": 6,
+  "authors": [
+   "L\u00e1szl\u00f3 L\u0151rincz",
+   "Guilherme Kenji Chihaya",
+   "Anik\u00f3 Hann\u00e1k",
+   "D\u00e1vid Tak\u00e1cs",
+   "Bal\u00e1zs Lengyel",
+   "Rikard Eriksson"
+  ],
+  "year": 2020,
+  "title": "Global connections and the structure of skills in local co-worker networks",
+  "venue": "Applied Network Science",
+  "vol": "5",
+  "issue": "1",
+  "page": "78",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-022-00477-9",
+  "status": "ok",
+  "first_author": "Bl\u00f6cker, Christopher",
+  "n_auth": 3,
+  "authors": [
+   "Christopher Bl\u00f6cker",
+   "Juan Carlos Nieves",
+   "Martin Rosvall"
+  ],
+  "year": 2022,
+  "title": "Map equation centrality: community-aware centrality based on the map equation",
+  "venue": "Applied Network Science",
+  "vol": "7",
+  "issue": "1",
+  "page": "56",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00698-8",
+  "status": "ok",
+  "first_author": "Duanmu, Jing-Lin",
+  "n_auth": 2,
+  "authors": [
+   "Jing-Lin Duanmu",
+   "Wei Koong Chai"
+  ],
+  "year": 2025,
+  "title": "Modelling innovation adoption spreading in complex networks",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "10",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-018-0100-5",
+  "status": "ok",
+  "first_author": "Milli, Letizia",
+  "n_auth": 4,
+  "authors": [
+   "Letizia Milli",
+   "Giulio Rossetti",
+   "Dino Pedreschi",
+   "Fosca Giannotti"
+  ],
+  "year": 2018,
+  "title": "Active and passive diffusion processes in complex networks",
+  "venue": "Applied Network Science",
+  "vol": "3",
+  "issue": "1",
+  "page": "42",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-022-00492-w",
+  "status": "ok",
+  "first_author": "Kostr\u00e9, Margarita",
+  "n_auth": 4,
+  "authors": [
+   "Margarita Kostr\u00e9",
+   "Vikram Sunkara",
+   "Christof Sch\u00fctte",
+   "Nata\u0161a Djurdjevac Conrad"
+  ],
+  "year": 2022,
+  "title": "Understanding the romanization spreading on historical interregional networks in Northern Tunisia",
+  "venue": "Applied Network Science",
+  "vol": "7",
+  "issue": "1",
+  "page": "53",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-019-0135-2",
+  "status": "ok",
+  "first_author": "Oida, Kazumasa",
+  "n_auth": 1,
+  "authors": [
+   "Kazumasa Oida"
+  ],
+  "year": 2019,
+  "title": "Impact of network density on cascade size and community growth",
+  "venue": "Applied Network Science",
+  "vol": "4",
+  "issue": "1",
+  "page": "29",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-021-00358-7",
+  "status": "ok",
+  "first_author": "Barnes, Kate",
+  "n_auth": 6,
+  "authors": [
+   "Kate Barnes",
+   "Tiernon Riesenmy",
+   "Minh Duc Trinh",
+   "Eli Lleshi",
+   "N\u00f3ra Balogh",
+   "Roland Molontay"
+  ],
+  "year": 2021,
+  "title": "Dank or not? Analyzing and predicting the popularity of memes on Reddit",
+  "venue": "Applied Network Science",
+  "vol": "6",
+  "issue": "1",
+  "page": "21",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-018-0080-5",
+  "status": "ok",
+  "first_author": "B\u00e9res, Ferenc",
+  "n_auth": 4,
+  "authors": [
+   "Ferenc B\u00e9res",
+   "R\u00f3bert P\u00e1lovics",
+   "Anna Ol\u00e1h",
+   "Andr\u00e1s A. Bencz\u00far"
+  ],
+  "year": 2018,
+  "title": "Temporal walk based centrality metric for graph streams",
+  "venue": "Applied Network Science",
+  "vol": "3",
+  "issue": "1",
+  "page": "32",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-019-0238-9",
+  "status": "ok",
+  "first_author": "Cherifi, Hocine",
+  "n_auth": 4,
+  "authors": [
+   "Hocine Cherifi",
+   "Gergely Palla",
+   "Boleslaw K. Szymanski",
+   "Xiaoyan Lu"
+  ],
+  "year": 2019,
+  "title": "On community structure in complex networks: challenges and opportunities",
+  "venue": "Applied Network Science",
+  "vol": "4",
+  "issue": "1",
+  "page": "117",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-018-0073-4",
+  "status": "ok",
+  "first_author": "Parisi, Federica",
+  "n_auth": 3,
+  "authors": [
+   "Federica Parisi",
+   "Guido Caldarelli",
+   "Tiziano Squartini"
+  ],
+  "year": 2018,
+  "title": "Entropy-based approach to missing-links prediction",
+  "venue": "Applied Network Science",
+  "vol": "3",
+  "issue": "1",
+  "page": "17",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-022-00456-0",
+  "status": "ok",
+  "first_author": "Gargiulo, Floriana",
+  "n_auth": 4,
+  "authors": [
+   "Floriana Gargiulo",
+   "Maria Castaldo",
+   "Tommaso Venturini",
+   "Paolo Frasca"
+  ],
+  "year": 2022,
+  "title": "Distribution of labor, productivity and innovation in collaborative science",
+  "venue": "Applied Network Science",
+  "vol": "7",
+  "issue": "1",
+  "page": "19",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-016-0015-y",
+  "status": "ok",
+  "first_author": "Kuzmin, Konstantin",
+  "n_auth": 6,
+  "authors": [
+   "Konstantin Kuzmin",
+   "Xiaoyan Lu",
+   "Partha Sarathi Mukherjee",
+   "Juntao Zhuang",
+   "Chris Gaiteri",
+   "Boleslaw K. Szymanski"
+  ],
+  "year": 2016,
+  "title": "Supporting novel biomedical research via multilayer collaboration networks",
+  "venue": "Applied Network Science",
+  "vol": "1",
+  "issue": "1",
+  "page": "11",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00710-1",
+  "status": "ok",
+  "first_author": "Wang, Cheng",
+  "n_auth": 3,
+  "authors": [
+   "Cheng Wang",
+   "Omar Lizardo",
+   "David S. Hachen"
+  ],
+  "year": 2025,
+  "title": "Temporal dynamics of the friendship paradox in a smartphone communication network",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "16",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00742-7",
+  "status": "ok",
+  "first_author": "Dillion, Danica",
+  "n_auth": 3,
+  "authors": [
+   "Danica Dillion",
+   "Kevin Lewis",
+   "Kurt Gray"
+  ],
+  "year": 2025,
+  "title": "Social network density predicts partisan animosity",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "57",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s41109-025-00731-w",
+  "status": "ok",
+  "first_author": "Girardini, Nicol\u00f2 Alessandro",
+  "n_auth": 6,
+  "authors": [
+   "Nicol\u00f2 Alessandro Girardini",
+   "Antonio Longa",
+   "Gaia Trebucchi",
+   "Giulia Cencetti",
+   "Andrea Passerini",
+   "Bruno Lepri"
+  ],
+  "year": 2025,
+  "title": "Community aware temporal network generation",
+  "venue": "Applied Network Science",
+  "vol": "10",
+  "issue": "1",
+  "page": "43",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s11192-016-2125-9",
+  "status": "ok",
+  "first_author": "Guevara, Miguel R.",
+  "n_auth": 5,
+  "authors": [
+   "Miguel R. Guevara",
+   "Dominik Hartmann",
+   "Manuel Aristar\u00e1n",
+   "Marcelo Mendoza",
+   "C\u00e9sar A. Hidalgo"
+  ],
+  "year": 2016,
+  "title": "The research space: using career paths to predict the evolution of the research output of individuals, institutions, and nations",
+  "venue": "Scientometrics",
+  "vol": "109",
+  "issue": "3",
+  "page": "1695-1709",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1126/science.1144581",
+  "status": "ok",
+  "first_author": "Hidalgo, C. A.",
+  "n_auth": 4,
+  "authors": [
+   "C. A. Hidalgo",
+   "B. Klinger",
+   "A.-L. Baraba\u0301si",
+   "R. Hausmann"
+  ],
+  "year": 2007,
+  "title": "The Product Space Conditions the Development of Nations",
+  "venue": "Science",
+  "vol": "317",
+  "issue": "5837",
+  "page": "482-487",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/978-3-319-96661-8_46",
+  "status": "ok",
+  "first_author": "Hidalgo, C\u00e9sar A.",
+  "n_auth": 15,
+  "authors": [
+   "C\u00e9sar A. Hidalgo",
+   "Pierre-Alexandre Balland",
+   "Ron Boschma",
+   "Mercedes Delgado",
+   "Maryann Feldman",
+   "Koen Frenken",
+   "Edward Glaeser",
+   "Canfei He",
+   "Dieter F. Kogler",
+   "Andrea Morrison",
+   "Frank Neffke",
+   "David Rigby",
+   "Scott Stern",
+   "Siqi Zheng",
+   "Shengjun Zhu"
+  ],
+  "year": 2018,
+  "title": "The Principle of Relatedness",
+  "venue": "Springer Proceedings in Complexity",
+  "vol": null,
+  "issue": null,
+  "page": "451-457",
+  "type": "book-chapter"
+ },
+ {
+  "doi": "10.1111/j.1944-8287.2011.01121.x",
+  "status": "ok",
+  "first_author": "Neffke, Frank",
+  "n_auth": 3,
+  "authors": [
+   "Frank Neffke",
+   "Martin Henning",
+   "Ron Boschma"
+  ],
+  "year": 2011,
+  "title": "How Do Regions Diversify over Time? Industry Relatedness and the Development of New Growth Paths in Regions",
+  "venue": "Economic Geography",
+  "vol": "87",
+  "issue": "3",
+  "page": "237-265",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.respol.2022.104323",
+  "status": "404"
+ },
+ {
+  "doi": "10.1140/epjds/s13688-019-0210-z",
+  "status": "ok",
+  "first_author": "Chinazzi, Matteo",
+  "n_auth": 4,
+  "authors": [
+   "Matteo Chinazzi",
+   "Bruno Gon\u00e7alves",
+   "Qian Zhang",
+   "Alessandro Vespignani"
+  ],
+  "year": 2019,
+  "title": "Mapping the physics research space: a machine learning approach",
+  "venue": "EPJ Data Science",
+  "vol": "8",
+  "issue": "1",
+  "page": "33",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/s42256-023-00735-0",
+  "status": "ok",
+  "first_author": "Krenn, Mario",
+  "n_auth": 16,
+  "authors": [
+   "Mario Krenn",
+   "Lorenzo Buffoni",
+   "Bruno Coutinho",
+   "Sagi Eppel",
+   "Jacob Gates Foster",
+   "Andrew Gritsevskiy",
+   "Harlin Lee",
+   "Yichao Lu",
+   "Jo\u00e3o P. Moutinho",
+   "Nima Sanjabi",
+   "Rishi Sonthalia",
+   "Ngoc Mai Tran",
+   "Francisco Valente",
+   "Yangxinyu Xie",
+   "Rose Yu",
+   "Michael Kopp"
+  ],
+  "year": 2023,
+  "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network",
+  "venue": "Nature Machine Intelligence",
+  "vol": "5",
+  "issue": "11",
+  "page": "1326-1335",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/s41598-020-68774-w",
+  "status": "ok",
+  "first_author": "Sun, Ye",
+  "n_auth": 2,
+  "authors": [
+   "Ye Sun",
+   "Vito Latora"
+  ],
+  "year": 2020,
+  "title": "The evolution of knowledge within and across fields in modern physics",
+  "venue": "Scientific Reports",
+  "vol": "10",
+  "issue": "1",
+  "page": "12097",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/srep02522",
+  "status": "ok",
+  "first_author": "Weng, Lilian",
+  "n_auth": 3,
+  "authors": [
+   "Lilian Weng",
+   "Filippo Menczer",
+   "Yong-Yeol Ahn"
+  ],
+  "year": 2013,
+  "title": "Virality Prediction and Community Structure in Social Networks",
+  "venue": "Scientific Reports",
+  "vol": "3",
+  "issue": "1",
+  "page": "2522",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1086/521848",
+  "status": "ok",
+  "first_author": "Centola, Damon",
+  "n_auth": 2,
+  "authors": [
+   "Damon Centola",
+   "Michael Macy"
+  ],
+  "year": 2007,
+  "title": "Complex Contagions and the Weakness of Long Ties",
+  "venue": "American Journal of Sociology",
+  "vol": "113",
+  "issue": "3",
+  "page": "702-734",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1126/science.1185231",
+  "status": "ok",
+  "first_author": "Centola, Damon",
+  "n_auth": 1,
+  "authors": [
+   "Damon Centola"
+  ],
+  "year": 2010,
+  "title": "The Spread of Behavior in an Online Social Network Experiment",
+  "venue": "Science",
+  "vol": "329",
+  "issue": "5996",
+  "page": "1194-1197",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1177/00031224231166955",
+  "status": "ok",
+  "first_author": "Cheng, Mengjie",
+  "n_auth": 6,
+  "authors": [
+   "Mengjie Cheng",
+   "Daniel Scott Smith",
+   "Xiang Ren",
+   "Hancheng Cao",
+   "Sanne Smith",
+   "Daniel A. McFarland"
+  ],
+  "year": 2023,
+  "title": "How New Ideas Diffuse in Science",
+  "venue": "American Sociological Review",
+  "vol": "88",
+  "issue": "3",
+  "page": "522-561",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1002/asi.21419",
+  "status": "ok",
+  "first_author": "Boyack, Kevin W.",
+  "n_auth": 2,
+  "authors": [
+   "Kevin W. Boyack",
+   "Richard Klavans"
+  ],
+  "year": 2010,
+  "title": "Co\u2010citation analysis, bibliographic coupling, and direct citation: Which citation approach represents the research front most accurately?",
+  "venue": "Journal of the American Society for Information Science and Technology",
+  "vol": "61",
+  "issue": "12",
+  "page": "2389-2404",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.7717/peerj-cs.119",
+  "status": "ok",
+  "first_author": "Salatino, Angelo A.",
+  "n_auth": 3,
+  "authors": [
+   "Angelo A. Salatino",
+   "Francesco Osborne",
+   "Enrico Motta"
+  ],
+  "year": 2017,
+  "title": "How are topics born? Understanding the research dynamics preceding the emergence of new areas",
+  "venue": "PeerJ Computer Science",
+  "vol": "3",
+  "issue": null,
+  "page": "e119",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1002/asi.20317",
+  "status": "ok",
+  "first_author": "Chen, Chaomei",
+  "n_auth": 1,
+  "authors": [
+   "Chaomei Chen"
+  ],
+  "year": 2005,
+  "title": "CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature",
+  "venue": "Journal of the American Society for Information Science and Technology",
+  "vol": "57",
+  "issue": "3",
+  "page": "359-377",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1002/asi.21694",
+  "status": "ok",
+  "first_author": "Chen, Chaomei",
+  "n_auth": 1,
+  "authors": [
+   "Chaomei Chen"
+  ],
+  "year": 2011,
+  "title": "Predictive effects of structural variation on citation counts",
+  "venue": "Journal of the American Society for Information Science and Technology",
+  "vol": "63",
+  "issue": "3",
+  "page": "431-449",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.respol.2015.06.006",
+  "status": "ok",
+  "first_author": "Rotolo, Daniele",
+  "n_auth": 3,
+  "authors": [
+   "Daniele Rotolo",
+   "Diana Hicks",
+   "Ben R. Martin"
+  ],
+  "year": 2015,
+  "title": "What is an emerging technology?",
+  "venue": "Research Policy",
+  "vol": "44",
+  "issue": "10",
+  "page": "1827-1843",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1023/A:1016078331752",
+  "status": "ok",
+  "first_author": "Rinia, Ed J.",
+  "n_auth": 5,
+  "authors": [
+   "Ed J. Rinia",
+   "Thed N. van Leeuwen",
+   "Eppo E. W. Bruins",
+   "Hendrik G. van Vuren",
+   "Anthony F. J. van Raan"
+  ],
+  "year": 2002,
+  "title": "Measuring knowledge transfer between fields of science",
+  "venue": "Scientometrics",
+  "vol": "54",
+  "issue": "3",
+  "page": "347-362",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.joi.2012.11.001",
+  "status": "ok",
+  "first_author": "Prathap, Gangan",
+  "n_auth": 1,
+  "authors": [
+   "Gangan Prathap"
+  ],
+  "year": 2013,
+  "title": "Bornmann's alternative to the h index",
+  "venue": "Journal of Informetrics",
+  "vol": "7",
+  "issue": "1",
+  "page": "209",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1140/epjds/s13688-016-0068-2",
+  "status": "ok",
+  "first_author": "Ciotti, Valerio",
+  "n_auth": 5,
+  "authors": [
+   "Valerio Ciotti",
+   "Moreno Bonaventura",
+   "Vincenzo Nicosia",
+   "Pietro Panzarasa",
+   "Vito Latora"
+  ],
+  "year": 2016,
+  "title": "Homophily and missing links in citation networks",
+  "venue": "EPJ Data Science",
+  "vol": "5",
+  "issue": "1",
+  "page": "7",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.joi.2010.05.003",
+  "status": "ok",
+  "first_author": "Leydesdorff, Loet",
+  "n_auth": 2,
+  "authors": [
+   "Loet Leydesdorff",
+   "Tobias Opthof"
+  ],
+  "year": 2010,
+  "title": "Normalization at the field level: Fractional counting of citations",
+  "venue": "Journal of Informetrics",
+  "vol": "4",
+  "issue": "4",
+  "page": "644-646",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.physa.2005.06.074",
+  "status": "ok",
+  "first_author": "Jo, Hang-Hyun",
+  "n_auth": 3,
+  "authors": [
+   "Hang-Hyun Jo",
+   "Seung Ki Baek",
+   "Hie-Tae Moon"
+  ],
+  "year": 2006,
+  "title": "Immunization dynamics on a two-layer network model",
+  "venue": "Physica A: Statistical Mechanics and its Applications",
+  "vol": "361",
+  "issue": "2",
+  "page": "534-542",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1007/s11192-007-1834-5",
+  "status": "ok",
+  "first_author": "Cho, Soo-Ryun",
+  "n_auth": 1,
+  "authors": [
+   "Soo-Ryun Cho"
+  ],
+  "year": 2008,
+  "title": "New evaluation indexes for articles and authors\u2019 academic achievements based on Open Access Resources",
+  "venue": "Scientometrics",
+  "vol": "77",
+  "issue": "1",
+  "page": "91-112",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1098/rspb.2006.3754",
+  "status": "ok",
+  "first_author": "Wallinga, J",
+  "n_auth": 2,
+  "authors": [
+   "J Wallinga",
+   "M Lipsitch"
+  ],
+  "year": 2006,
+  "title": "How generation intervals shape the relationship between growth rates and reproductive numbers",
+  "venue": "Proceedings of the Royal Society B: Biological Sciences",
+  "vol": "274",
+  "issue": "1609",
+  "page": "599-604",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1093/biomet/58.1.83",
+  "status": "ok",
+  "first_author": "HAWKES, ALAN G.",
+  "n_auth": 1,
+  "authors": [
+   "ALAN G. HAWKES"
+  ],
+  "year": 1971,
+  "title": "Spectra of some self-exciting and mutually exciting point processes",
+  "venue": "Biometrika",
+  "vol": "58",
+  "issue": "1",
+  "page": "83-90",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1142/S2382626615500057",
+  "status": "ok",
+  "first_author": "Bacry, Emmanuel",
+  "n_auth": 3,
+  "authors": [
+   "Emmanuel Bacry",
+   "Iacopo Mastromatteo",
+   "Jean-Fran\u00e7ois Muzy"
+  ],
+  "year": 2015,
+  "title": "Hawkes Processes in Finance",
+  "venue": "Market Microstructure and Liquidity",
+  "vol": "01",
+  "issue": "01",
+  "page": "1550005",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1097/EDE.0b013e3181d61eeb",
+  "status": "ok",
+  "first_author": "Lipsitch, Marc",
+  "n_auth": 3,
+  "authors": [
+   "Marc Lipsitch",
+   "Eric Tchetgen Tchetgen",
+   "Ted Cohen"
+  ],
+  "year": 2010,
+  "title": "Negative Controls",
+  "venue": "Epidemiology",
+  "vol": "21",
+  "issue": "3",
+  "page": "383-388",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1046/j.1472-4642.2000.00083.x",
+  "status": "ok",
+  "first_author": "Richardson, David M.",
+  "n_auth": 6,
+  "authors": [
+   "David M. Richardson",
+   "Petr Py\u0161ek",
+   "Marcel Rejm\u00e1nek",
+   "Michael G. Barbour",
+   "F. Dane Panetta",
+   "Carol J. West"
+  ],
+  "year": 2000,
+  "title": "Naturalization and invasion of alien plants: concepts and definitions",
+  "venue": "Diversity and Distributions",
+  "vol": "6",
+  "issue": "2",
+  "page": "93-107",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1016/j.tree.2011.03.023",
+  "status": "ok",
+  "first_author": "Blackburn, Tim M.",
+  "n_auth": 8,
+  "authors": [
+   "Tim M. Blackburn",
+   "Petr Py\u0161ek",
+   "Sven Bacher",
+   "James T. Carlton",
+   "Richard P. Duncan",
+   "Vojt\u011bch Jaro\u0161\u00edk",
+   "John R.U. Wilson",
+   "David M. Richardson"
+  ],
+  "year": 2011,
+  "title": "A proposed unified framework for biological invasions",
+  "venue": "Trends in Ecology &amp; Evolution",
+  "vol": "26",
+  "issue": "7",
+  "page": "333-339",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/s41598-019-41695-z",
+  "status": "ok",
+  "first_author": "Traag, V. A.",
+  "n_auth": 3,
+  "authors": [
+   "V. A. Traag",
+   "L. Waltman",
+   "N. J. van Eck"
+  ],
+  "year": 2019,
+  "title": "From Louvain to Leiden: guaranteeing well-connected communities",
+  "venue": "Scientific Reports",
+  "vol": "9",
+  "issue": "1",
+  "page": "5233",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1023/A:1024940629314",
+  "status": "ok",
+  "first_author": "Kleinberg, Jon",
+  "n_auth": 1,
+  "authors": [
+   "Jon Kleinberg"
+  ],
+  "year": 2003,
+  "title": "Bursty and Hierarchical Structure in Streams",
+  "venue": "Data Mining and Knowledge Discovery",
+  "vol": "7",
+  "issue": "4",
+  "page": "373-397",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.2307/1935620",
+  "status": "ok",
+  "first_author": "Brown, James H.",
+  "n_auth": 2,
+  "authors": [
+   "James H. Brown",
+   "Astrid Kodric-Brown"
+  ],
+  "year": 1977,
+  "title": "Turnover Rates in Insular Biogeography: Effect of Immigration on Extinction",
+  "venue": "Ecology",
+  "vol": "58",
+  "issue": "2",
+  "page": "445-449",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/23876",
+  "status": "ok",
+  "first_author": "Hanski, Ilkka",
+  "n_auth": 1,
+  "authors": [
+   "Ilkka Hanski"
+  ],
+  "year": 1998,
+  "title": "Metapopulation dynamics",
+  "venue": "Nature",
+  "vol": "396",
+  "issue": "6706",
+  "page": "41-49",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/s42254-020-00275-1",
+  "status": "ok",
+  "first_author": "Hidalgo, C\u00e9sar A.",
+  "n_auth": 1,
+  "authors": [
+   "C\u00e9sar A. Hidalgo"
+  ],
+  "year": 2021,
+  "title": "Economic complexity theory and applications",
+  "venue": "Nature Reviews Physics",
+  "vol": "3",
+  "issue": "2",
+  "page": "92-113",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1038/s41562-017-0078",
+  "status": "ok",
+  "first_author": "Jia, Tao",
+  "n_auth": 3,
+  "authors": [
+   "Tao Jia",
+   "Dashun Wang",
+   "Boleslaw K. Szymanski"
+  ],
+  "year": 2017,
+  "title": "Quantifying patterns of research-interest evolution",
+  "venue": "Nature Human Behaviour",
+  "vol": "1",
+  "issue": "4",
+  "page": "0078",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1073/pnas.0706851105",
+  "status": "ok",
+  "first_author": "Rosvall, Martin",
+  "n_auth": 2,
+  "authors": [
+   "Martin Rosvall",
+   "Carl T. Bergstrom"
+  ],
+  "year": 2008,
+  "title": "Maps of random walks on complex networks reveal community structure",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "vol": "105",
+  "issue": "4",
+  "page": "1118-1123",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1371/journal.pone.0008694",
+  "status": "ok",
+  "first_author": "Rosvall, Martin",
+  "n_auth": 2,
+  "authors": [
+   "Martin Rosvall",
+   "Carl T. Bergstrom"
+  ],
+  "year": 2010,
+  "title": "Mapping Change in Large Networks",
+  "venue": "PLoS ONE",
+  "vol": "5",
+  "issue": "1",
+  "page": "e8694",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1002/asi.20614",
+  "status": "ok",
+  "first_author": "Leydesdorff, Loet",
+  "n_auth": 1,
+  "authors": [
+   "Loet Leydesdorff"
+  ],
+  "year": 2007,
+  "title": "Betweenness centrality as an indicator of the interdisciplinarity of scientific journals",
+  "venue": "Journal of the American Society for Information Science and Technology",
+  "vol": "58",
+  "issue": "9",
+  "page": "1303-1319",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1126/science.aao0185",
+  "status": "ok",
+  "first_author": "Fortunato, Santo",
+  "n_auth": 14,
+  "authors": [
+   "Santo Fortunato",
+   "Carl T. Bergstrom",
+   "Katy B\u00f6rner",
+   "James A. Evans",
+   "Dirk Helbing",
+   "Sta\u0161a Milojevi\u0107",
+   "Alexander M. Petersen",
+   "Filippo Radicchi",
+   "Roberta Sinatra",
+   "Brian Uzzi",
+   "Alessandro Vespignani",
+   "Ludo Waltman",
+   "Dashun Wang",
+   "Albert-L\u00e1szl\u00f3 Barab\u00e1si"
+  ],
+  "year": 2018,
+  "title": "Science of science",
+  "venue": "Science",
+  "vol": "359",
+  "issue": "6379",
+  "page": "eaao0185",
+  "type": "journal-article"
+ },
+ {
+  "doi": "10.1073/pnas.0510527103",
+  "status": "404"
+ }
+]

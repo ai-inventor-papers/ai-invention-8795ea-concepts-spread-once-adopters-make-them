@@ -1,0 +1,11 @@
+How academic hot topics emerge a bipartite mutualistic network analysis Scientometrics
+Hopkinson Nowell White 2013 The transmission of technological skills in the Palaeolithic insights from metapopulation ecology
+Krenn Zeilinger 2020 Predicting research trends with semantic and neural networks with an application in quantum physics PNAS
+Gu Krenn Forecasting high-impact research topics via machine learning on evolving knowledge graphs
+Hausmann Klinger 2007 The structure of the product space and the evolution of comparative advantage
+Besedes Prusa 2006 Product differentiation and duration of US import trade
+Uzzi Mukherjee Stringer Jones 2013 Atypical combinations and scientific impact Science
+Rosvall Bergstrom 2011 Multilevel compression of random walks on networks reveals hierarchical organization in large integrated systems
+Boschma Minondo Navarro 2013 The emergence of new industries at the regional level in Spain product relatedness Economic Geography
+Pulliam 1988 Sources, sinks, and population regulation American Naturalist
+Levins 1969 Some demographic and genetic consequences of environmental heterogeneity for biological control
