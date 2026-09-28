@@ -1,0 +1,24 @@
+{
+ "parts": [
+  {
+   "file": "full_data_out_1.json",
+   "n_examples_seen": 32836,
+   "n_concept_recognition": 32836,
+   "n_kept": 6211
+  },
+  {
+   "file": "full_data_out_2.json",
+   "n_examples_seen": 32190,
+   "n_concept_recognition": 32190,
+   "n_kept": 6288
+  },
+  {
+   "file": "full_data_out_3.json",
+   "n_examples_seen": 0,
+   "n_concept_recognition": 0,
+   "n_kept": 0
+  }
+ ],
+ "n_frame": 12499,
+ "n_joined": 12499
+}
