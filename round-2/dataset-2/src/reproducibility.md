@@ -63,7 +63,7 @@ cd scripts && ../.venv/bin/python s8_assemble.py && cd .. && uv run data.py
 ## 5. Validate
 
 ```bash
-SKILL_DIR=/ai-inventor/.claude/skills/aii-json   # or your copy of the aii-json validator
+SKILL_DIR=../../../tools/aii-json   # or your copy of the aii-json validator
 for f in full_data_out/full_data_out_*.json mini_data_out.json preview_data_out.json; do
   $SKILL_DIR/../.ability_client_venv/bin/python $SKILL_DIR/scripts/aii_json_validate_schema.py --format exp_sel_data_out --file "$PWD/$f"
 done

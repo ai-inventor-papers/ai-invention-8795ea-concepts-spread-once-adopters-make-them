@@ -230,7 +230,7 @@ def mixed_icc(df: pd.DataFrame, fixed: list[str], vcs: list[str]) -> dict:
 def slice_gateways(bb: H.Backbone) -> dict:
     """26-field backbones for exp3 slices 2000-04 and 2005-09 from topic-pair counts (scan/ckpt.npz)."""
     import networkx as nx
-    e3 = lib.ITER1 / "gen_art_experiment_3"
+    e3 = lib.ITER1 / "experiment-3/src"
     z = np.load(e3 / "scan" / "ckpt.npz")
     tids = json.loads((e3 / "scan" / "topic_ids.json").read_text())
     nt = len(tids)
@@ -444,8 +444,8 @@ def main() -> None:
               H.E1 / "outcomes.csv", H.E1 / "field_features.csv", H.E1 / "screen_result.json",
               H.E3 / "field_outcomes.csv", H.E3 / "outcomes.csv", H.E3 / "field_names.csv",
               H.E3 / "screen_result.json", H.E3 / "topic_meta.csv",
-              lib.ITER1 / "gen_art_experiment_3" / "scan" / "ckpt.npz",
-              lib.ITER1 / "gen_art_experiment_3" / "scan" / "topic_ids.json"]:
+              lib.ITER1 / "experiment-3/src" / "scan" / "ckpt.npz",
+              lib.ITER1 / "experiment-3/src" / "scan" / "topic_ids.json"]:
         if not p.exists():
             missing.append(str(p.relative_to(lib.ITER1)))
     logger.info(f"missing inputs: {missing}")

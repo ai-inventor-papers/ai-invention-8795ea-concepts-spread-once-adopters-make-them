@@ -22,7 +22,7 @@ from scipy.stats import rankdata
 
 HERE = Path(__file__).resolve().parent
 ITER1 = Path(os.environ.get("AII_ITER1", HERE.parent.parent.parent / "round-1" / "."))
-E4 = ITER1 / "gen_art_experiment_4"
+E4 = ITER1 / "experiment-4/src"
 GROUPS = ["CS", "Eng", "BGM", "Med"]
 
 
