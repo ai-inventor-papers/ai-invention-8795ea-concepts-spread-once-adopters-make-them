@@ -1,0 +1,93 @@
+{
+  "figure_id": "fig3",
+  "renderer": "make_fig3.py (hand-written forest with diamond pooled row; house style from aii-data-fig-gen)",
+  "title": "Retained-frontier entry across held-out domains",
+  "xlabel": "Retained-frontier coefficient d0 (log-odds per SD)",
+  "xlim": [
+    -0.2,
+    0.6
+  ],
+  "null_line": 0.0,
+  "aspect": "16:9",
+  "interval": "95% Wald CI, point +/- 1.96 x concept-clustered sandwich SE (the SE the DL pooling uses)",
+  "source_artifact": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/frontier_result.json (path relative to the run root)",
+  "artifact_verdict": "PARTIAL: persistence confounded with volume",
+  "volume_matched_contrast": {
+    "est": -0.028,
+    "ci": [
+      -0.105,
+      0.046
+    ],
+    "source_key": "step2_heldout/pooled4/specificity/b_volume_matched/contrast_R_minus_N"
+  },
+  "rows": [
+    {
+      "label": "Physical Sciences",
+      "unit": "PHYS",
+      "kind": "held-out group",
+      "n_events": 1222,
+      "point": 0.148,
+      "ci_lo": 0.078,
+      "ci_hi": 0.218,
+      "se_concept": 0.0358,
+      "source_key": "step2_heldout/units/PHYS/d0_R3 (coef, se_concept, n_events)"
+    },
+    {
+      "label": "Life & Env.",
+      "unit": "LIFEENV",
+      "kind": "held-out group",
+      "n_events": 2378,
+      "point": 0.401,
+      "ci_lo": 0.343,
+      "ci_hi": 0.46,
+      "se_concept": 0.0297,
+      "source_key": "step2_heldout/units/LIFEENV/d0_R3 (coef, se_concept, n_events)"
+    },
+    {
+      "label": "Social Sciences",
+      "unit": "SOC",
+      "kind": "held-out group",
+      "n_events": 3082,
+      "point": 0.297,
+      "ci_lo": 0.247,
+      "ci_hi": 0.347,
+      "se_concept": 0.0257,
+      "source_key": "step2_heldout/units/SOC/d0_R3 (coef, se_concept, n_events)"
+    },
+    {
+      "label": "Math & Decision",
+      "unit": "MATHDEC",
+      "kind": "held-out group",
+      "n_events": 296,
+      "point": 0.065,
+      "ci_lo": -0.109,
+      "ci_hi": 0.239,
+      "se_concept": 0.0889,
+      "source_key": "step2_heldout/units/MATHDEC/d0_R3 (coef, se_concept, n_events)"
+    },
+    {
+      "label": "2010–14 Cohort",
+      "unit": "COHORT",
+      "kind": "held-out cohort",
+      "n_events": 7432,
+      "point": 0.321,
+      "ci_lo": 0.294,
+      "ci_hi": 0.348,
+      "se_concept": 0.0138,
+      "source_key": "step2_heldout/cohort/ladder/frontier_primary_sample/models/R3_ret (coef.d0_ret_rel, se_concept.d0_ret_rel, n_events)"
+    },
+    {
+      "label": "DL pooled (4 groups)",
+      "unit": "DL4",
+      "kind": "pooled",
+      "n_events": null,
+      "point": 0.243,
+      "ci_lo": 0.118,
+      "ci_hi": 0.368,
+      "se_concept": 0.0637,
+      "I2": 0.92,
+      "tau2": 0.014,
+      "source_key": "step2_heldout/DL_4groups/d0 (b, ci, se, I2)"
+    }
+  ]
+}
