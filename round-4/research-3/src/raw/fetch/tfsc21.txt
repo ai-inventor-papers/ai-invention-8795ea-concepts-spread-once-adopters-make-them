@@ -1,0 +1,69 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.sciencedirect.com/science/article/abs/pii/S0040162521003760
+Type: HTML
+Length: 28676 chars (truncated)
+
+--- Content ---
+
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page.  Skip to main contentSkip to article
+
+[ScienceDirect](/)
+
+  * [Journals & Books](/browse/journals-and-books)
+
+
+
+  *   * [](/search)[Search](/search)
+
+
+
+[Register](/user/register?targetURL=%2Fscience%2Farticle%2Fpii%2FS0040162521003760)[Sign in](/user/login?targetURL=%2Fscience%2Farticle%2Fpii%2FS0040162521003760&from=globalheader)
+
+  * [Access through **your institution**](/user/institution/login?targetUrl=%2Fscience%2Farticle%2Fpii%2FS0040162521003760)
+  * [ Purchase PDF](/getaccess/pii/S0040162521003760/purchase)
+
+
+
+Search ScienceDirect
+
+## Article preview
+
+  * Abstract
+  * Introduction
+  * Section snippets
+  * References (67)
+  * Cited by (28)
+
+
+
+[](/journal/technological-forecasting-and-social-change "Go to Technological Forecasting and Social Change on ScienceDirect")
+
+## [Technological Forecasting and Social Change](/journal/technological-forecasting-and-social-change "Go to Technological Forecasting and Social Change on ScienceDirect")
+
+[Volume 170](/journal/technological-forecasting-and-social-change/vol/170/suppl/C "Go to table of contents for this volume/issue"), September 2021, 120944
+
+[](/journal/technological-forecasting-and-social-change/vol/170/suppl/C)
+
+# Tracking the dynamics of co-word networks for emerging topic identification
+
+Author links open overlay panelLu Huang a, Xiang Chen a, Xingxing Ni a, Jiarun Liu a, Xiaoli Cao a, Changtian Wang a
+
+Show more
+
+Add to Mendeley
+
+Share
+
+Cite
+
+[https://doi.org/10.1016/j.techfore.2021.120944](https://doi.org/10.1016/j.techfore.2021.120944 "Persistent link using digital object identifier")[Get rights and content](https://s100.copyright.com/AppDispatchServlet?publisherName=ELS&contentID=S0040162521003760&orderBeanReset=true)
+
+## Abstract
+
+Identifying emerging topics has been an essential study for nations to develop strategic priorities, for enterprises to create business strategies, and for institutions to define research areas. However, how to characterize emerging topics effectively and comprehensively is still very challenging. This study proposes a framework for identifying emerging topics based on a dynamic co-word network analysis, which integrates a link prediction model with machine learning techniques. Time-sliced co-word networks are weighted according to the frequency of terms' co-occurrence. A back-propagation [neural network](/topics/psychology/neural-network "Learn more about neural network from ScienceDirect's AI-generated Topic Pages") is used to forecast a future network by predicting linkages among unconnected nodes based on existing links. Four indicators are then used to sort out potential candidates of emerging topics in the predicted network. A case study on information science demonstrates the reliability of the proposed methodology, followed by subsequent empirical and expert validations.
+
+## Introduction
+
+The emerging topics, especially in science and technology (S&T), have been of interest to governments, companies, and individual scientists (Small et al., 2014). The earlier they identify an emerging topic, the sooner they can get ahead of the curve, gain a competitive advantage, and benefit from the innovation. Many studies have been conducted on this challenging topic. Breitzman, Thomas, and Chang strived to continuously improve the Emerging Clusters Model for real-time processing (Thomas and Breitzman, 2006; Chang and Breitzman, 2009; Breitzman and Thomas, 2015). Small et al. (2014) combined co-citation and direct citation clustering methods in large-scale data to detect emerging topics. However, the uncertainty, ambiguity, and complexity of emerging topics increase the difficulty of identification (Wang, 2018), which has been one of the most vexing issues in the field of technology management (Huang and Yuan, 2010).
+
+Recently, network analytics has been introduced into bibliometric studies as an effective tool for technology management res

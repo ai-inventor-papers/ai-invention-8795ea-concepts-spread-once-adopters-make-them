@@ -1,0 +1,67 @@
+Search: predict which scientific terms will diffuse across disciplines early co-occurrence features  [general via exa]
+Found: 8 results
+
+1. Will This Idea Spread Beyond Academia? Understanding Knowledge Transfer of Scientific Concepts across Text Corpora
+   https://aclanthology.org/2020.findings-emnlp.158.pdf
+   Findings of the Association for Computational Linguistics: EMNLP 2020, pages 1746–1757 November 16 - 20, 2020. c 2020 Association for Computational Linguistics
+
+## Will This Idea Spread Beyond Academi...
+
+2. Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing
+   https://arxiv.org/html/2606.03919v1
+   Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing
+
+# Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing
+
+Thomas Maillart thomas.maillart@unige.ch, thib...
+
+3. Predicting the impact of scientific concepts using full‐text features
+   http://webstaging.cs.columbia.edu/~gravano/Papers/2016/jasist16.pdf
+   ## Predicting the Impact of Scientific Concepts Using Full-Text Features
+
+Kathy McKeown 
+Department of Computer Science, 1214 Amsterdam Avenue, Columbia University, New York, NY 10027. 
+E-mail: kathy@...
+
+4. [2306.02282] Exploring and Verbalizing Academic Ideas by Concept Co-occurrence
+   https://ar5iv.labs.arxiv.org/html/2306.02282
+   [2306.02282] Exploring and Verbalizing Academic Ideas by Concept Co-occurrence
+
+# Exploring and Verbalizing Academic Ideas by Concept Co-occurrence
+
+ Yi Xu 1, Shuqian Sheng 1, Bo Xue 1, Luoyi Fu 1, Xi...
+
+5. Identifying interdisciplinary emergence in the science of science: combination of network analysis and BERTopic | Humanities and Social Sciences Communications
+   https://www.nature.com/articles/s41599-024-03044-y
+   Identifying interdisciplinary emergence in the science of science: combination of network analysis and BERTopic | Humanities and Social Sciences Communications
+
+- Article
+- Open access
+- Published: 10...
+
+6. Surprising combinations of research contents and contexts are related to impact and emerge with scientific outsiders from distant disciplines
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC10039062/
+   # Surprising combinations of research contents and contexts are related to impact and emerge with scientific outsiders from distant disciplines
+
+Nature Communications. Published: 2023-03-24. 105 citat...
+
+7. FOS: A Large-Scale Temporal Graph Benchmark for Scientific Interdisciplinary Link Prediction
+   https://arxiv.org/html/2511.18631v1
+   FOS: A Large-Scale Temporal Graph Benchmark for Scientific Interdisciplinary Link Prediction
+
+arXiv is now an independent nonprofit!
+Learn more
+×
+# FOS: A Large-Scale Temporal Graph Benchmark for Scie...
+
+8. Forecasting the Spreading of Technologies in Research Communities
+   https://oro.open.ac.uk/51198/1/K-CAP2017_TTF_65.pdf
+   ## Forecasting the Spreading of Technologies in Research Communities
+
+Francesco Osborne 
+Knowledge Media Institute, 
+The Open University 
+MK7 6AA, Milton Keynes, UK 
+francesco.osborne@open.ac.uk 
+Andr...
+

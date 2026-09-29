@@ -1,0 +1,56 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://journals.sagepub.com/doi/full/10.1177/00031224231166955
+Type: HTML
+Pattern: consisten|embedding|semantic (94 matches in 231050 chars)
+
+--- Content ---
+
+6542:...ades (1993 to 2016) in the Web of Science and follow their diffusion across 38 million later publications. We find new ideas diffuse more widely when they socially and intellectually resonate. New ideas become core concepts of science when they reach expansive networks of unrelated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with extant research traditions. These ecological conditions play an increasingly decisive role later in an idea’s career, after their relations with the environment are established. This work advances the systematic study of s...
+--
+11176:...ternal and internal factors (i.e., social and ideational factors). In particular, we argue that a new idea—in this study’s case, a new scientific idea introduced in published journal articles—diffuses when its authors have great social prominence, span diverse, distal research collectives, and have consistent champions. We additionally argue that an idea is likely to diffuse when it is linked to prominent scientific facts, when it is deeply integrated into extant research traditions, and when it achieves coherence through consistent conceptual linkages to the established body of knowledge.
+
+We move beyond a simple additive theoretical model that combines social and ideational factors. We bring in the perspective that ideas have careers: that these ideational and social conditions change over time and that these changes, in tu...
+--
+12459:... its meaning have consequences for its diffusion over time.
+
+To test this theory of diffusion, we assemble a uniquely comprehensive dataset (~7 billion token words from 38,578,016 articles of the Web of Science [WoS], 1900 to 2016), using advanced natural language processing (NLP) techniques, socio-semantic network analysis, and over-dispersed Poisson regression adapted to a multilevel context. Specifically, we extract scientific ideas from articles, identify which are new, and then trace their diffusion across published articles over time. By identifying the authors and neighbor terms associated with...
+--
+14286:...e citation). Third, it integrates externalist and internalist accounts, identifying conditions under which new ideas find both social and intellectual resonance (or lack thereof), and shows how this relates to their future adoption. In particular, new ideas find intellectual resonance when they are consistently and intelligibly used, and they address valued intellectual problems (e.g., core to science and embedded in research traditions); they find social resonance when they achieve social reach (e.g., with expansively networked scholars). Last, the article depicts adaption as an important feature of i...
+--
+15312:..., more generally, it is not simply a question of the status and resources of an idea’s authors. These matter, certainly. But what we find is that they matter in conjunction with an idea’s cultural resonance (Hallett et al. 2019): its relations to the established body of knowledge, its coherence and consistency, and its association with prominent ideas. These internal and external ecologies matter for both minor and major ideas. And they set off different trajectories for their careers, helping us understand how some new ideas continue to diffuse in science, while others do not and peter out.
+
+## What i...
+--
+17378:...te a variety of new and old ideas, and a focus on the article as a holistic product leads to generic and coarse representations of new ideas (Foster, Rzhetsky, and Evans 2015; Uzzi et al. 2013). This obstructs efforts to precisely locate and trace the diffusion of new ideas. For example, prior work consistently finds that references (i.e., diffused scientific ideas encased in published articles) are cited for a variety of reasons in ensuing scientific work, only some of which have to do with authors’ attempts to establish dependence on them or attribute their provenance (see Jurgens et al. 2018; Teplit...
+--
+20718:...xtual interrelations emerges a larger network of concepts, wherein some concepts and concept pairings emerge and gain frequent use, and others fail to take hold, fade, and disappear.
+
+Various theoretical arguments about the body of scientific knowledge rely heavily on this notion of a conceptual or semantic network structure composed of ideas as elements. In general, the network or matrix of interrelated ideas is such that established hypotheses can have repercussions for new ideas or new ideational associations (Fiegel 1970; Quine 1951; Toulmin 1972). This means new ideas are contingent and must ofte...
+--
+23099:...stava, et al. 2016). In particular, we argue that new ideas diffuse more when they are taken up by individuals who have greater social prominence (Gerow et al. 2018; Goel et al. 2016) and who span disparate collaborative research communities (Burt 2004; Moody 2004). They also diffuse when they have consistent intellectual leaders who persistently champion them over time (Merton 1968).
+
+But we also maintain that ideas and their interrelations matter. We argue that the usage and placement of a new idea in the accruing network of scientific knowledge and concepts greatly affects its career (Gieryn 1978; H...
+--
+25035:... [1962] 2010). Here, the general argument is that certain characteristics make some individuals more influential, and influential individuals play outsized roles and get preferential treatment (or a “Matthew effect”; see Merton 1968). Prior work in the sociology of science focuses on this because a consistent finding is that research programs and communities tend to form around a few central scholars who can spread new ideas further afield (Barabási et al. 2002; Keuchenius et al. 2021; Newman 2009; Price 1976).
+
+Luminaries have long played a decisive role in not only mobilizing a following behind new i...
+--
+27320:...h and persuasion of reviewers, editors, publishers, and granters (Latour 1987). While hardly the work of any one individual, we nonetheless extend this line of reasoning in our observation that the success, coherence, and recognizability of the movement behind a new idea is partly a function of the consistency of its leadership and representatives, as well as the integrity of its long-run institutional memory.
+
+Even within sociology, we see the persistence of social cores behind new schools of thought and ideas, where an esoteric intellectual elite (Fleck [1935] 1979; Lakatos and Feyerabend 2010)—real ...
+--
+28121:...o on (Abbott 1999). Other literature shows that the persistence of an expert core is associated with collaborative teams that are more successful, as it lends know-how and direction (Guimera et al. 2005). This literature, in short, suggests that a new idea might be more likely to diffuse if it gets consistent backing by authors, or when its social context is consistent. We expect that the more consistent the user base of a new idea is over time, the more likely it will get taken up. Stated formally:
+
+_Hypothesis 2_ : The more consistent its adopting authors, the more a new idea will diffuse.
+
+Perhaps the most decisive external factor in a new idea’s propensity to diffuse is the context of social relationships in which it is placed: its social embeddedness (Centola 2015; Grannovetter 1985; Rodan and Galunic 2004; Uzzi and Gillespi...
+--
+32960:...ffuse when they are linked to well-established, central constructs within the intellectual structure of scientific knowledge. We expect that as a new idea gets linked to these more prominent and integrated ideas, it is more likely to be encountered, recognized, and understood within the established semantic space of science and, therefore, to diffuse. Stated formally:
+
+_Hypothesis 4_ : The more linkage with prominent ideas, the more a new idea will diffuse.
+
+A good deal of historical work on science argues that new ideas begin ontologically uncertain (Chen and Song 2017; Kuhn 1970; Toulmin 1972). A new idea’s initial practice may be specific, intermittent, and inconsistent, as its linkages within and relevance to the extant structure of knowledge are not yet fully explicated and normalized. It may only have novel, idiosyncratic, and shuffling associations, which make comprehending the new idea difficult, reducing the immediacy of its applicability and therefore its propensity to diffuse. As the new idea’s relations with other established ideas become clearer and more consistent, elaborated, and recognizable, the new idea achieves greater conceptual coherence, definition, and continuity (Ramiro et al. 2018; Toulmin and Goodfield [1961] 1999:164; Wang, Schlobach, and Klein 2011).
+
+Prior work develops the idea of research focus and problem consistency in relation to scholars’ careers (Braddon-Mitchell 2005; Gieryn 1978; Heiberger, Muñoz-Najar Galvez, and McFarland 2021), but we adapt it to new ideas and their consistent use over time. In fact, historians of ideas argue that most established concepts have stable definitions, and that relations change far more slowly at their core than at their margins (Kenter et al. 2015:1192; Kuukkanen 2008). Together, new ideas can get used in a variety of ways after they are in...
+--
+[74 more matches not shown]

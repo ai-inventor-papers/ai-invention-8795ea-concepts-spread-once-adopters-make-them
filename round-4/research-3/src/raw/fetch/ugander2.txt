@@ -1,0 +1,22 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.pnas.org/doi/10.1073/pnas.1116502109
+Type: HTML
+Pattern: negative predictor|edge density|single-component (8 matches in 63855 chars)
+
+--- Content ---
+
+6960:...ability of contagion is tightly controlled by the number of connected components in an individual's contact neighborhood, rather than by the actual size of the neighborhood. Surprisingly, once this “structural diversity” is controlled for, the size of the contact neighborhood is in fact generally a negative predictor of contagion. More broadly, our analysis shows how data at the size and resolution of the Facebook network make possible the identification of subtle structural signals that go undetected at smaller scales yet hold pivotal predictive roles for the outcomes of social processes.
+
+### Sign up for PNAS...
+--
+12841:...wever, is a striking stratification of acceptance probabilities by the number of connected components in the contact neighborhood (Fig. 1 _B_ – _D_ and [Fig. S1](http://www.pnas.org/lookup/doi/10.1073/pnas.1116502109#supplementary-materials)). When going beyond component count, one may suspect that edge density has a significant impact on the recruitment conversion rate: Among the single-component neighborhoods of a given size, there is a considerable structural difference between neighborhoods connected as a tree and those connected as a clique. However, within the controlled conditional datasets of one-component neighborhoods of sizes 4–6, we see that edge density has no discernible effect (Fig. 2 _A_).
+
+Fig. 2.
+
+Recruitment contact neighborhoods and component structure. (_A_) Conversion as a function of edge count neighborhoods with one connected component (1 CC) with four to six nodes, where variations in edge count predict no meaningful difference in conv...
+--
+27237:...hood 1-brace) is much lower than for those with such a context. Our analysis importantly extends this view, finding that the presence of multiple contexts introduces a sizable additional increase in predicted engagement.
+
+A cruder approach to diversity might consider measuring diversity through the edge density of a neighborhood, figuring that sparse neighborhoods would be more varied in context. In Fig. 5 we see how this approach results in a complicated view where the optimal edge density for predicting engagement lies at an internal and size-dependent optimum. Given what our component analysis reveals, we interpret this observation as a superposition of two effects: Too few edges imply a lack of context (4) but too many edges imply a lacking diversity of contexts, with a nontrivial...
+--
+[2 more matches not shown]

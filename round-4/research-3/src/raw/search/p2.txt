@@ -1,0 +1,68 @@
+Search: knowledge entity interdisciplinary diffusion breadth prediction early stage network features  [general via exa]
+Found: 8 results
+
+1. FOS: A Large-Scale Temporal Graph Benchmark for Scientific Interdisciplinary Link Prediction
+   https://arxiv.org/html/2511.18631v1
+   FOS: A Large-Scale Temporal Graph Benchmark for Scientific Interdisciplinary Link Prediction
+
+arXiv is now an independent nonprofit!
+Learn more
+×
+# FOS: A Large-Scale Temporal Graph Benchmark for Scie...
+
+2. Forecasting high-impact research topics via machine learning on evolving knowledge graphs - IOPscience
+   https://iopscience.iop.org/article/10.1088/2632-2153/add6ef/meta
+   Forecasting high-impact research topics via machine learning on evolving knowledge graphs - IOPscience
+
+# Forecasting high-impact research topics via machine learning on evolving knowledge graphs
+
+Xue...
+
+3. Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+   https://www.nature.com/articles/s41587-021-00907-6
+   Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+## Your privacy, your choice
+We use essential cookies to make sure the site can function. We...
+
+4. Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network | Nature Machine Intelligence
+   https://www.nature.com/articles/s42256-023-00735-0
+   Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network | Nature Machine Intelligence
+
+## Abstract
+
+A tool that coul...
+
+5. Link prediction and feature relevance in knowledge networks: A machine learning approach | PLOS One
+   https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0290018
+   Link prediction and feature relevance in knowledge networks: A machine learning approach | PLOS One
+
+Browse Subject Areas
+
+?
+
+Click through the PLOS taxonomy to find articles in your field.
+
+For more ...
+
+6. Knowledge integration and diffusion structures of interdisciplinary research: A large‐scale analysis based on propensity score matching
+   https://exa.ai/library/publication/7tzx9w4shpg
+   # Knowledge integration and diffusion structures of interdisciplinary research: A large‐scale analysis based on propensity score matching
+
+Journal of the Association for Information Science and Techno...
+
+7. Conceptualizing the interdisciplinary diffusion and evolution of emerging fields: The case of systems biology
+   https://www.sciencedirect.com/science/article/abs/pii/S1751157713000862
+   Conceptualizing the interdisciplinary diffusion and evolution of emerging fields: The case of systems biology - ScienceDirect
+Skip to main contentSkip to article
+Elsevier logoScienceDirect
+My account
+...
+
+8. Identification and Prediction Methods for Frontier Interdisciplinary Fields Integrating Large Language Models
+   https://www.mdpi.com/2079-8954/13/8/677
+   Identification and Prediction Methods for Frontier Interdisciplinary Fields Integrating Large Language Models
+
+Next Article in Journal
+
+Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insigh...
+

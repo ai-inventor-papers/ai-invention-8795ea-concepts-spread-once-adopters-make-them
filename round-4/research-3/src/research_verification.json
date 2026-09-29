@@ -1,0 +1,319 @@
+{
+  "valid": true,
+  "file_errors": [],
+  "schema_errors": [],
+  "content_warnings": [
+    "research_out.json: Sources with uncited indices: [5, 7, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 27, 28, 29, 35, 38, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 61, 62, 63, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]",
+    "structured_output: Sources with uncited indices: [5, 7, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 26, 27, 28, 29, 35, 38, 41, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 55, 56, 57, 61, 62, 63, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]"
+  ],
+  "files_found": {
+    "research_out.json": {
+      "exists": true,
+      "path": "./research_out.json",
+      "source_count": 80,
+      "size": 53362
+    }
+  },
+  "source_count": 80,
+  "checked_at": "2026-09-29T02:43:25.422356+00:00",
+  "passage_check_scope": "Case/whitespace-normalized text occurrence at the source URL (or archive fallback). Not claim entailment, locator verification, or author/year verification. status=error means unverified, not a misquotation.",
+  "passages": [
+    {
+      "source_index": 1,
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "quote": "rate of co-usage with the focal term in year",
+      "locator": "Table 2, Ideational consistency",
+      "status": "valid",
+      "context": "...erms co-used with the focal term in the prior year (_t_ – 1), and then compare each neighbor terms’ rate of co-usage with the focal term in year _t_ – 1 to that observed in year _t_ using cosine similarity. should all the neighbor terms in _t_ ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "quote": "A one standard deviation increase in ideational consistency of a new idea is associated with a 53 percent",
+      "locator": "Results, The Effects of Ideational and Social Ecology",
+      "status": "valid",
+      "context": "...w idea’s ideational ecology are more predictive of its diffusion than are social, externalist ones. a one standard deviation increase in ideational consistency of a new idea is associated with a 53 percent (e.43−1) increase in the estimated number of articles it diffuses into. this is the average effect ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "quote": "a one standard deviation change in social embeddedness is associated with a 15 percent",
+      "locator": "Results",
+      "status": "valid",
+      "context": "...tellectual resonance. these results can be found in models 2 and 4 of table 4. as shown in table 4, a one standard deviation change in social embeddedness is associated with a 15 percent (e−.16−1) decrease in the predicted number of articles it diffuses into. the inverse of this variab...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "quote": "We construct our dependent variable as the number of articles a new idea diffuses into the year ahead",
+      "locator": "Outcome of Interest",
+      "status": "valid",
+      "context": "... published articles_). if the new idea occurs multiple times in a single article, we count it once. we construct our dependent variable as the number of articles a new idea diffuses into the year ahead (time _t_ \\+ 1). given that new ideas arrive in different years and span different year ranges, the...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://journals.sagepub.com/doi/full/10.1177/00031224231166955",
+      "quote": "we do not explore how an idea translates across domains or corpora",
+      "locator": "Limitations",
+      "status": "valid",
+      "context": "...ess test additional mechanisms. third, we explore diffusion within only a single domain and corpus: we do not explore how an idea translates across domains or corpora. this was necessary, as different domains and genres of texts demand differentiated mechanisms resp...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 2,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "stratified 80/20 train",
+      "locator": "Table 2 caption",
+      "status": "valid",
+      "context": "...as a complete five-year downstream window in the 2023 openalex snapshot. growth-normalised targets; stratified 80/20 train–test split; optuna-tuned lightgbm. task train r² test r² train mae test mae train rmsle test rmsle ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 2,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "endogenous reinforcement proves largely unpredictable in the primary",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...io, and diffusion entropy. after controlling for overall publication growth of the scientific body, endogenous reinforcement proves largely unpredictable in the primary quantum-computing benchmark. in contrast, exogenous diffusion and entropy are strongly predictable ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 2,
+      "source_url": "https://arxiv.org/pdf/2606.03919",
+      "quote": "exogenous count task achieves strong and consistent predictive power",
+      "locator": "Results",
+      "status": "valid",
+      "context": "...l reflecting local idiosyncracy rather than systematic self-reinforcing processes. in contrast, the exogenous count task achieves strong and consistent predictive power (𝑅2 test = 0.78). this indicates the exogenous diffusion of concepts – propagating into papers that...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 4,
+      "source_url": "https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1321_mjcobo-joi-2010.pdf",
+      "quote": "The themes of this quadrant have low density and low centrality, mainly representing either emerging or disappearing themes.",
+      "locator": "Section 3.2",
+      "status": "valid",
+      "context": "...eripheral in character. • themes in the lower-left quadrant are both weakly developed and marginal. the themes of this quadrant have low density and low centrality, mainly representing either emerging or disappearing themes. m.j. cobo et al. / journal of informetrics 5 (2011) 146–166 151 fig. 1. the strategic diagram and t...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 6,
+      "source_url": "https://arxiv.org/abs/2603.06436",
+      "quote": "Yet a structural inconsistency characterises dominant longitudinal implementations",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...employed to examine the conceptual structure of scientific domains and their development over time. yet a structural inconsistency characterises dominant longitudinal implementations: themes are detected through relational clustering in weighted networks, whereas their inter-tempor...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 8,
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054847",
+      "quote": "steady fields have a density of up to twice the average value, whereas ephemeral fields always have a below-average density",
+      "locator": "Results, density",
+      "status": "valid",
+      "context": "...no child). variations in the density index according to this categorization reveal robust patterns: steady fields have a density of up to twice the average value, whereas ephemeral fields always have a below-average density. emerging and declining fields feature intermediate values of mean density (_cf._ fig. 5-b). this r...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 8,
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054847",
+      "quote": "the density grows when a new field is emerging, and decreases when the field starts to be neglected by the community",
+      "locator": "Figure 5 caption",
+      "status": "valid",
+      "context": "...eral fields, and their density distribution suggests trends in the “life cycle” of thematic fields: the density grows when a new field is emerging, and decreases when the field starts to be neglected by the community. error bars represent the 95% confidence interval. only lower bars are plotted for better visibilit...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 9,
+      "source_url": "https://peerj.com/articles/cs-119.pdf",
+      "quote": "the pace of collaboration and the density measured in the sections of the network that will give rise to a new topic are significantly higher than those in the control group",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "... analysed by using two novel approaches that integrate both statistics and semantics. we found that the pace of collaboration and the density measured in the sections of the network that will give rise to a new topic are significantly higher than those in the control group. these findings support our hypothesis about the existence of an embryonic phase and also yield new...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 13,
+      "source_url": "http://cluster.ischool.drexel.edu/~cchen/papers/2012/jasist2012-predictive.pdf",
+      "quote": "Centrality Divergence metric is potentially",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...er of references are both good predictors of global citation counts to a lesser extent, and (c) the centrality divergence metric is potentially valuable for detecting boundary-spanning activities at interdisciplinary levels.the structural vari...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 16,
+      "source_url": "https://aclanthology.org/2020.findings-emnlp.158.pdf",
+      "quote": "usage in interdisciplinary venues",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "... other concepts. furthermore, increased scientiﬁc hype and adoption across sci- entists, as well as usage in interdisciplinary venues over time, are early signs of impending knowledge transfer into technological inventions. finally, ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 21,
+      "source_url": "https://arxiv.org/pdf/1011.3120",
+      "quote": "The strength of preferential attachment decreases over time",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...e evolving geographical networks show both preferential attachment and small-world characteristics. the strength of preferential attachment decreases over time, while the network evolves into an oligopolistic control structure with small-world characteristics...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 24,
+      "source_url": "https://www.nber.org/system/files/working_papers/w22180/w22180.pdf",
+      "quote": "29.39% and 62.37% higher for moderately and highly novel papers respectively",
+      "locator": "Section 4 (home vs foreign field)",
+      "status": "valid",
+      "context": "...specially holds for highly novel papers, i.e., the odds of being highly cited in foreign fields are 29.39% and 62.37% higher for moderately and highly novel papers respectively, compared with that of non-novel papers. the finding that the overall high impact of novel research...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 25,
+      "source_url": "https://www.nature.com/articles/s41467-023-36741-4",
+      "quote": "most commonly when scientists from one field publish problem-solving results to an audience from a distant field",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...10% of citations). these surprising advances emerge across, rather than within researchers or teams—most commonly when scientists from one field publish problem-solving results to an audience from a distant field. our approach characterizes the frontier of science and technology as a complex hypergraph drawn fr...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 28,
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.1915378117",
+      "quote": "taken up by other scholars at lower rates",
+      "locator": "Significance",
+      "status": "valid",
+      "context": "...s are devalued and discounted: for example, novel contributions by gender and racial minorities are taken up by other scholars at lower rates than novel contributions by gender and racial majorities, and equally impactful contributions of ge...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 29,
+      "source_url": "https://arxiv.org/abs/2510.03240",
+      "quote": "we decompose scientific contributions into three functional types, foundations, extensions, and generalizations",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...alyzing citation networks from tens of millions of publications in openalex and the web of science, we decompose scientific contributions into three functional types, foundations, extensions, and generalizations, distinguishable by the roles they play in future science. foundational and extensional works, whic...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 30,
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.1116502109",
+      "quote": "the size of the contact neighborhood is in fact generally a negative predictor of contagion",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "... actual size of the neighborhood. surprisingly, once this “structural diversity” is controlled for, the size of the contact neighborhood is in fact generally a negative predictor of contagion. more broadly, our analysis shows how data at the size and resolution of the facebook network make ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 30,
+      "source_url": "https://www.pnas.org/doi/10.1073/pnas.1116502109",
+      "quote": "probability of contagion is tightly controlled by the number of connected components",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...th of facebook, a rare example of a social process with genuinely global adoption. we find that the probability of contagion is tightly controlled by the number of connected components in an individual's contact neighborhood, rather than by the actual size of the neighborhood. surpri...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 31,
+      "source_url": "https://arxiv.org/pdf/1306.0158",
+      "quote": "about seven times as precise as random guess",
+      "locator": "Results, prediction (carried)",
+      "status": "valid",
+      "context": "... memes (fig. 5). for example, when detecting the most viral memes by users (θu = 90), our method is about seven times as precise as random guess and over three times as precise as prediction without community features. we achieve a recall over ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 33,
+      "source_url": "https://www.cs.cornell.edu/home/kleinber/www11-hashtags.pdf",
+      "quote": "hashtags on politically controversial topics are particularly persistent",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...o which repeated expo- sures to a hashtag continue to have signiﬁcant marginal effects. we ﬁnd that hashtags on politically controversial topics are particularly persistent, with repeated exposures continuing to have unusually large marginal effects on adoption; this prov...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 36,
+      "source_url": "https://arxiv.org/pdf/0704.0744",
+      "quote": "large groups persist longer if they are capable of dynamically altering their",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...pturing the collaboration between scientists and the calls between mobile phone users. we find that large groups persist longer if they are capable of dynamically altering their membership, suggesting that an ability to change the composition results in better adaptability. th...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 36,
+      "source_url": "https://arxiv.org/pdf/0704.0744",
+      "quote": "The behaviour of small groups displays the opposite tendency",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ir membership, suggesting that an ability to change the composition results in better adaptability. the behaviour of small groups displays the opposite tendency, the condition for stability being that their composition remains unchanged. we also show that the ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 37,
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s11192-025-05356-5?fields=title,year,authors,venue,abstract,externalIds",
+      "quote": "structural diversity is shown to be positively correlated with topic breadth",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ltidimensional value of scholarly works. furthermore, in the context of interdisciplinary research, structural diversity is shown to be positively correlated with topic breadth, validating its utility in identifying interdisciplinary contributions. this metric offers a novel ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 40,
+      "source_url": "https://www.nber.org/system/files/working_papers/w10901/w10901.pdf",
+      "quote": "cited by subsequent patents that belong to a wide range of fields",
+      "locator": "Section 3.1 Generality",
+      "status": "valid",
+      "context": "...f ni patent classes (note that the sum is the herfindahl concentration index). thus, if a patent is cited by subsequent patents that belong to a wide range of fields the measure will be high, whereas if most citations are concentrated in a few fields it will be low...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 46,
+      "source_url": "https://aclanthology.org/P16-1111.pdf",
+      "quote": "rhetorical function is highly predictive of",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...orical roles in 2.4 million abstracts from the web of science from 1991-2010. we ﬁnd that a topic’s rhetorical function is highly predictive of its eventual growth or decline. for exam- ple, topics that are rhetorically described as results te...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 47,
+      "source_url": "https://arxiv.org/pdf/2606.07994",
+      "quote": "share of methods papers doubled over the past four decades",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...es. our analysis reveals that science has undergone a major structural transition. we find that the share of methods papers doubled over the past four decades, rising from roughly 20% to 40% of all published research. this shift is visible not only among the...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 54,
+      "source_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270131",
+      "quote": "the early phase of a field is characterized by disruptive works mixing of cognitively distant fields written by small teams of interdisciplinary authors",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...y articles and authors at the creation, adoption, peak, and decay evolutionary phases. we find that the early phase of a field is characterized by disruptive works mixing of cognitively distant fields written by small teams of interdisciplinary authors, while late phases exhibit the role of specialized, large teams building on the previous works in t...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 55,
+      "source_url": "https://api.crossref.org/works/10.1098/rspb.2017.2360",
+      "quote": "confirmed their past disjointedness, and detected their progressive merger",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...analysis based on novel hetero-citation metrics revealed the historical development of abm and ibm, confirmed their past disjointedness, and detected their progressive merger. the separation between these synonymous disciplines had silently opposed the free flow of knowledg...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 60,
+      "source_url": "https://arxiv.org/pdf/cond-mat/0206130",
+      "quote": "indicating that the higher a node",
+      "locator": "Section on hierarchical model",
+      "status": "valid",
+      "context": "...ve k = 20 and c = 3/19, while those at the center of the 125-node modules have k = 84 and c = 3/83, indicating that the higher a node’s degree the smaller is its clustering coeﬃcient, asymptot- ically following the 1/k law (fig. 2b)....",
+      "match_type": "exact"
+    }
+  ]
+}
