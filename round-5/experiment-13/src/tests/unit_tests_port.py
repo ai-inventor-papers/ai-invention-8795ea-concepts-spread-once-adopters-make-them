@@ -17,7 +17,7 @@ import pandas as pd
 
 from common import RES, RUN_ROOT
 
-E10 = RUN_ROOT / "3_invention_loop/iter_4/gen_art/gen_art_experiment_10"
+E10 = RUN_ROOT / "round-4/experiment-10/src"
 
 
 def t4() -> dict:

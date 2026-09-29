@@ -70,7 +70,7 @@
           "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
         },
         {
-          "dir": "iter_1/gen_art/gen_art_experiment_1",
+          "dir": "round-1/experiment-1/src",
           "status": "completed",
           "evidence": "structured output present"
         },

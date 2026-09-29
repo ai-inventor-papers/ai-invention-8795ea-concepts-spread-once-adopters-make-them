@@ -29,11 +29,11 @@ for _d in (DATA, RES, LOGS, FIGS):
 RUN_ROOT = Path(os.environ.get("AII_RUN_ROOT", str(ROOT.parents[3])))
 LOOP = RUN_ROOT / "."
 EXP11 = LOOP / "iter_4/gen_art/gen_art_experiment_11"
-EXP10 = LOOP / "iter_4/gen_art/gen_art_experiment_10"
-EXP8 = LOOP / "iter_3/gen_art/gen_art_experiment_8"
-EXP5 = LOOP / "iter_2/gen_art/gen_art_experiment_5"
-EXP3 = LOOP / "iter_1/gen_art/gen_art_experiment_3"
-RESEARCH3 = LOOP / "iter_4/gen_art/gen_art_research_3"
+EXP10 = LOOP / "round-4/experiment-10/src"
+EXP8 = LOOP / "round-3/experiment-8/src"
+EXP5 = LOOP / "round-2/experiment-5/src"
+EXP3 = LOOP / "round-1/experiment-3/src"
+RESEARCH3 = LOOP / "round-4/research-3/src"
 INPUTS = EXP11 / "inputs"          # read-only (topic_ids.json, topic_meta.csv, backbone/slice{0,1,2}.npz)
 
 SEED = 20260929

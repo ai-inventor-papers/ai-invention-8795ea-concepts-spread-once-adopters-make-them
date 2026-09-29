@@ -27,16 +27,16 @@ then run with `AII_RUN_ROOT=R`:
 
 | layout path under `R/3_invention_loop/` | artifact id | files read |
 |---|---|---|
-| `iter_4/gen_art/gen_art_experiment_10` | `art_NMe386dX9GLF` (Exp10) | `README.md`, `prereg.md`, `results/{cohort_result,cohort_report,learned_models_cohort,exp5_selection_result,frozen_spec}.json`, `data/{ego_open_exp5,covariates_exp5,analysis_cohort}.parquet`, `data/concept_types.csv`, `lib/{ladder,rq1stats}.py` (already copied verbatim to `vendor/`) |
-| `iter_4/gen_art/gen_art_experiment_12` | `art_uw4OeagJP3rv` (Exp12) | `results/{case_pairs,preregistration_R2,decomposition_dev,decomposition_heldout,sequence_light_dev,sequence_light_heldout,trajectories_dev,trajectories_heldout}.json`, `ai_atlas/atlas.json` |
-| `iter_3/gen_art/gen_art_experiment_8` | `art_dFQ6jbgNsR6Q` (Exp8) | `results/{heldout_unit_results.csv,rq1_heldout.json,heldout_summary.json}`, `data/outcomes.parquet` |
-| `iter_3/gen_art/gen_art_experiment_7` | `art_22ppE1snfHKj` (Exp7) | `results/step2_heldout.json`, `results/step2_dev.json` |
-| `iter_2/gen_art/gen_art_experiment_5` | `art_wxWssKSUR45f` (Exp5) | `frame_concepts.csv` |
-| `iter_4/gen_art/gen_art_evaluation_3` | `art_oKOd21ZMnu9S` (Eval3) | `corrections/00-11*.md`, `verify_ledger.py` (copied here as `verify_ledger_v4.py`), `results/{claims_ledger_v3.csv,boundary_spec.json,drca_persist_comparison.json,heterogeneity.json,spec_curve.json}` |
+| `round-4/experiment-10/src` | `art_NMe386dX9GLF` (Exp10) | `README.md`, `prereg.md`, `results/{cohort_result,cohort_report,learned_models_cohort,exp5_selection_result,frozen_spec}.json`, `data/{ego_open_exp5,covariates_exp5,analysis_cohort}.parquet`, `data/concept_types.csv`, `lib/{ladder,rq1stats}.py` (already copied verbatim to `vendor/`) |
+| `round-4/experiment-12/src` | `art_uw4OeagJP3rv` (Exp12) | `results/{case_pairs,preregistration_R2,decomposition_dev,decomposition_heldout,sequence_light_dev,sequence_light_heldout,trajectories_dev,trajectories_heldout}.json`, `ai_atlas/atlas.json` |
+| `round-3/experiment-8/src` | `art_dFQ6jbgNsR6Q` (Exp8) | `results/{heldout_unit_results.csv,rq1_heldout.json,heldout_summary.json}`, `data/outcomes.parquet` |
+| `round-3/experiment-7/src` | `art_22ppE1snfHKj` (Exp7) | `results/step2_heldout.json`, `results/step2_dev.json` |
+| `round-2/experiment-5/src` | `art_wxWssKSUR45f` (Exp5) | `frame_concepts.csv` |
+| `round-4/evaluation-3/src` | `art_oKOd21ZMnu9S` (Eval3) | `corrections/00-11*.md`, `verify_ledger.py` (copied here as `verify_ledger_v4.py`), `results/{claims_ledger_v3.csv,boundary_spec.json,drca_persist_comparison.json,heterogeneity.json,spec_curve.json}` |
 | `iter_4/gen_art/gen_art_experiment_11` | Experiment 11 (incomplete; its folder is named `gen_art_experiment_11`) | `prereg.md`, `results/{fe_results,deviations}.json`, `logs/{analysis_fe.log,event_study.log,event_study.out,partners.log}` |
-| `iter_2/gen_art/gen_art_research_1` | `art_dxvRpQufMR0e` (Research 1) | `research_out.json` |
-| `iter_3/gen_art/gen_art_research_2` | `art_EesdB8cuSfcU` (Research 2) | `references_new.json` |
-| `iter_4/gen_art/gen_art_research_3` | `art_hSyVUBa2okT2` (Research 3) | `research_out.json`, `raw/verify.json` |
+| `round-2/research-1/src` | `art_dxvRpQufMR0e` (Research 1) | `research_out.json` |
+| `round-3/research-2/src` | `art_EesdB8cuSfcU` (Research 2) | `references_new.json` |
+| `round-4/research-3/src` | `art_hSyVUBa2okT2` (Research 3) | `research_out.json`, `raw/verify.json` |
 | `iter_5/gen_strat/current_report.md`, `iter_4/gen_strat/current_report.md` | strategy-step report (not an artifact) | the base text that `report_corrected.md` corrects, and the Section 23 source |
 
 Notes:

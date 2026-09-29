@@ -31,7 +31,7 @@ Verdicts per clause (the rule: SUPPORTED / NOT SUPPORTED / REVERSED by CI side, 
 
 PR2 is REVERSED on its first clause wherever the difference is negative: localised concepts do **not** keep more early; the psp clause replicates EXP8 on the same frame and is not new evidence.
 
-Source: `iter_4/gen_art/gen_art_experiment_12/results/decomposition_dev.json`, `decomposition_heldout.json` -> `variants.*`, `verdicts.*`, `DL_heldout_groups`; `preregistration_R2.json`.
+Source: `round-4/experiment-12/src/results/decomposition_dev.json`, `decomposition_heldout.json` -> `variants.*`, `verdicts.*`, `DL_heldout_groups`; `preregistration_R2.json`.
 
 ### 26.3 Sequence: home prominence first, or born at the intersection?
 

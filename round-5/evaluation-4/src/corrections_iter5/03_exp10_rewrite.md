@@ -6,7 +6,7 @@
 
 Pre-seal power for OPEN_home at R2 was 0.16 (true effect = half the EXP5 estimate), and the minimum detectable effect (2.8 SE) was 0.105.
 
-Source: `iter_4/gen_art/gen_art_experiment_10/results/cohort_result.json` -> `n_by_t0`, `n_cohort`, `outcome_availability`; `results/frozen_spec.json` -> `power.with_2017`.
+Source: `round-4/experiment-10/src/results/cohort_result.json` -> `n_by_t0`, `n_cohort`, `outcome_availability`; `results/frozen_spec.json` -> `power.with_2017`.
 
 ### 25.2 Control ladder
 

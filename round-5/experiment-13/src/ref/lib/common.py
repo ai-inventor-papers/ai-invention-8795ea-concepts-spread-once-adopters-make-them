@@ -29,12 +29,12 @@ for _d in (DATA, RES, LOGS, FIGS, MODELS):
     _d.mkdir(parents=True, exist_ok=True)
 
 RUN_ROOT = Path(os.environ.get("AII_RUN_ROOT", str(ROOT.parents[3])))
-EXP5 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_5"
-EXP3 = RUN_ROOT / "3_invention_loop/iter_1/gen_art/gen_art_experiment_3"
-EXP8 = RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_8"
-EXP6 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_6"
-EVAL1 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_evaluation_1"
-O5DIR = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_dataset_2"
+EXP5 = RUN_ROOT / "round-2/experiment-5/src"
+EXP3 = RUN_ROOT / "round-1/experiment-3/src"
+EXP8 = RUN_ROOT / "round-3/experiment-8/src"
+EXP6 = RUN_ROOT / "round-2/experiment-6/src"
+EVAL1 = RUN_ROOT / "round-2/evaluation-1/src"
+O5DIR = RUN_ROOT / "round-2/dataset-2/src"
 
 SEED = 20260928
 Y0, Y1 = 1995, 2022

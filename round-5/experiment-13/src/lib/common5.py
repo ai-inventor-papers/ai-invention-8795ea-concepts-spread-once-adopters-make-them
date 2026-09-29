@@ -25,8 +25,8 @@ def _dep_dir(env: str, artifact_id: str, run_tree_rel: str) -> Path:
 
 
 # iteration-1 inputs (read-only): art_yrradSC27HtQ (scan/analyser/source-field map), art_33_KKk_G8Gw5 (frozen backbone)
-ART3 = _dep_dir("AII_ART_YRRAD_DIR", "art_yrradSC27HtQ", "3_invention_loop/iter_1/gen_art/gen_art_experiment_3")
-ART33 = _dep_dir("AII_ART_33_DIR", "art_33_KKk_G8Gw5", "3_invention_loop/iter_1/gen_art/gen_art_experiment_4")
+ART3 = _dep_dir("AII_ART_YRRAD_DIR", "art_yrradSC27HtQ", "round-1/experiment-3/src")
+ART33 = _dep_dir("AII_ART_33_DIR", "art_33_KKk_G8Gw5", "round-1/experiment-4/src")
 SNAP = ROOT / "snapshot"
 SCAN = ROOT / "scan"
 RES = ROOT / "results"

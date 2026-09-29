@@ -22,7 +22,7 @@ import pandas as pd
 from common import RES, RUN_ROOT, jdump, setup_logger
 
 warnings.filterwarnings("ignore")
-EXP8 = RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_8"
+EXP8 = RUN_ROOT / "round-3/experiment-8/src"
 
 
 def toy_context(nt: int, edges: list[tuple[int, int]], comm: np.ndarray) -> dict:

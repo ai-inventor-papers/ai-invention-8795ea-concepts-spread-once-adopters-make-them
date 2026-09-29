@@ -33,11 +33,11 @@ PASSB = ROOT / "passB" / "parts"
 for _d in (DATA, RES, LOGS, FIGS, MODELS, PASSA, PASSB):
     _d.mkdir(parents=True, exist_ok=True)
 
-EXP5 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_5"
-EXP3 = RUN_ROOT / "3_invention_loop/iter_1/gen_art/gen_art_experiment_3"
-EXP6 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_6"
-EVAL1 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_evaluation_1"
-O5DIR = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_dataset_2"
+EXP5 = RUN_ROOT / "round-2/experiment-5/src"
+EXP3 = RUN_ROOT / "round-1/experiment-3/src"
+EXP6 = RUN_ROOT / "round-2/experiment-6/src"
+EVAL1 = RUN_ROOT / "round-2/evaluation-1/src"
+O5DIR = RUN_ROOT / "round-2/dataset-2/src"
 
 SEED = 20260928
 Y0, Y1 = 1995, 2022

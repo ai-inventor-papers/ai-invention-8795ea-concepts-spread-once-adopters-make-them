@@ -300,9 +300,9 @@ source env.sh                     # one BLAS thread per process (the Exp11 crash
 Inputs are read, read-only, from earlier artifacts of the same run, addressed relative to the run root
 (`$AII_RUN_ROOT`, default: four directories above this workspace):
 `3_invention_loop/iter_4/gen_art/gen_art_experiment_11` (sealed code, cached panel, partner caches, topic types),
-`.../iter_4/gen_art/gen_art_experiment_10` (HOME build reproduction targets, 2015-17 cohort, frozen OPEN constants),
-`.../iter_3/gen_art/gen_art_experiment_8` (EXP5 early matches, outcomes, B5),
-`.../iter_2/gen_art/gen_art_experiment_5` (frame), and `.../iter_2/gen_art/gen_art_dataset_2` (O5 recognition data,
+`.../round-4/experiment-10/src` (HOME build reproduction targets, 2015-17 cohort, frozen OPEN constants),
+`.../round-3/experiment-8/src` (EXP5 early matches, outcomes, B5),
+`.../round-2/experiment-5/src` (frame), and `.../round-2/dataset-2/src` (O5 recognition data,
 used only through the O5_WW column of the EXP8 analysis table, as a secondary outcome).
 
 ## Deviations from the plan

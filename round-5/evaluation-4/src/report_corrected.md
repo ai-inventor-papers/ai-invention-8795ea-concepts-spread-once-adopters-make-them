@@ -185,7 +185,7 @@ The corrected statement: several cooccurrence indicators have pooled Spearman co
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] All 12 candidates are in the file: D_ratio +0.335 [-0.059, 0.688] (3/4 groups +); D_rare +0.311 [-0.101, 0.692] (3/4 groups +); D_z +0.313 [-0.161, 0.634] (4/4 groups +); D_sub +0.245 [-0.162, 0.634] (4/4 groups +); NOV_res +0.281 [-0.190, 0.639] (2/4 groups +); participation +0.322 [-0.115, 0.690] (3/4 groups +); n_comm_W3 +0.218 [-0.153, 0.627] (2/4 groups +); F_res -0.267 [-0.492, 0.324] (1/4 groups +); F_z -0.248 [-0.509, 0.353] (1/4 groups +); F_bg -0.301 [-0.560, 0.254] (2/4 groups +); deg_growth +0.050 [-0.466, 0.381] (1/4 groups +); btw_change -0.168 [-0.514, 0.400] (1/4 groups +). Paste record_tables/partial_association_all.csv.
 
-Source (from Eval2): `iter_1/gen_art/gen_art_experiment_3/results/exploratory_partial_association.json: candidates.*`
+Source (from Eval2): `round-1/experiment-3/src/results/exploratory_partial_association.json: candidates.*`
 
 
 ### 4.5 Secondary outcomes
@@ -248,7 +248,7 @@ Gateway centrality is the strongest field level predictor of retention. Relatedn
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] | B3 + log field size + {gateway_j, phi_home_j, density_j} (size_controlled_all_three) | 0.697 | 0.782 | +0.085 | [0.004, 0.164] | refit [-0.043, 0.220] | and add | B3 + {gateway_j, phi_home_j, density_j} (all_four_available) | 0.705 | 0.787 | +0.082 | [0.008, 0.153] | refit [-0.042, 0.204] |. Neither row contains G, REL, RS or G_all; both refit CIs include 0.
 
-Source (from Eval2): `iter_1/gen_art/gen_art_experiment_4/screen_result.json: field_level.size_controlled_all_three.*, field_level.all_four_available.*`; `iter_2/gen_art/gen_art_evaluation_1/eval_out.json: metadata.F_record.F5_exp4_field_level.rows.*`
+Source (from Eval2): `round-1/experiment-4/src/screen_result.json: field_level.size_controlled_all_three.*, field_level.all_four_available.*`; `round-2/evaluation-1/src/eval_out.json: metadata.F_record.F5_exp4_field_level.rows.*`
 
 
 ### 5.5 Predicting the next field entered
@@ -453,7 +453,7 @@ DerSimonian-Laird pooled delta AUC: -0.00004 (I squared = 0, Q = 1.69). The plac
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] Verdict: **DISCONFIRMED** by the preregistered rule, which requires all six core criteria. Criterion by criterion (held-out, 8,515 episodes / 3,085 concepts): pooled dAUC >= 0.05 False; refit CI > 0 False; >= 3 of 4 groups positive False (2 of 4); cohort same sign True (both negative); within-field LPM beta > 0 at p < 0.05 **True** (beta = +0.068 per SD, concept-clustered SE 0.033, p = 0.041; two-way clustered p = 0.17; all splits +0.051, p_concept = 0.0065, p_twoway = 0.18); real dAUC above the rewired-backbone placebo p95 False. The frozen rule names p < 0.05 without an SE type and the sealed code uses the concept-clustered p, so the LPM criterion passes as preregistered but is fragile under two-way clustering. Clustered-SE logit: beta = -0.045 (p_concept = 0.29); boundary interaction +0.064 (p = 0.45; predicted negative, consistent = False); crossed concept x field bootstrap CI [-0.0023, 0.0010].
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json: verdict_H1.criteria.*`; `lpm_field_fe.*`; `lpm_field_fe_all_splits.*`; `logit_clustered_se.*`; `boundary.*`; `pigeonhole_crossed_bootstrap.ci95`; `iter_2/gen_art/gen_art_experiment_5/models.py (p_concept in the criterion)`
+Source (from Eval2): `round-2/experiment-5/src/results/h1_heldout.json: verdict_H1.criteria.*`; `lpm_field_fe.*`; `lpm_field_fe_all_splits.*`; `logit_clustered_se.*`; `boundary.*`; `pigeonhole_crossed_bootstrap.ci95`; `round-2/experiment-5/src/models.py (p_concept in the criterion)`
 
 
 ### 10.4 Why gateway vanished: the baseline ladder
@@ -478,7 +478,7 @@ The rival covariate pair (relatedness to home and relatedness density) adds delt
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] The relatedness pair adds dAUC +0.0034 on held-out data but -0.00017 on DEV: the gain was not seen in development.
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json: rival_head_to_head.dauc_relatedness_pair`; `iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json: rival_head_to_head.dauc_relatedness_pair`
+Source (from Eval2): `round-2/experiment-5/src/results/h1_heldout.json: rival_head_to_head.dauc_relatedness_pair`; `round-2/experiment-5/src/results/h1_dev.json: rival_head_to_head.dauc_relatedness_pair`
 
 
 ### 10.6 Concept breadth hypothesis: result: small but confirmed
@@ -496,7 +496,7 @@ Gateway weighted early landing G predicts volume residualised breadth on holdout
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] H3 is **small; it passes the preregistered within-group permutation rule, but the pooled concept-bootstrap CI includes 0**. Held-out (n = 2,838): G partial rho = 0.030 [-0.006, 0.065], G_A 0.026 [-0.011, 0.067], G_btw 0.046 [0.009, 0.086]; Holm p = 0.0045 from a one-sided within-group permutation test (2,000 draws; Holm over G, G_A, G_btw) whose null is centred below zero (about -0.012). Within-group DL pooled G = 0.068 [0.029, 0.107], I2 = 0.00; G_btw DL = 0.072 [-0.015, 0.159], I2 = 0.77 (negative in LifeEnv, -0.020). DEV values: G 0.138, G_btw 0.170; held-out/DEV shrinkage for G = 0.21. The calibration check found 0 of 40 shuffled outcomes declared significant (false-positive rate 0/40), which is not a p-value or an exceedance count.
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_5/results/h3_results.json: G.*, G_A.*, G_btw.*, holm_adjusted_p, notes`; `iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json: H3_dev`; `iter_2/gen_art/gen_art_experiment_5/results/audit_placebo.json: H3_calibration_40_shuffles`
+Source (from Eval2): `round-2/experiment-5/src/results/h3_results.json: G.*, G_A.*, G_btw.*, holm_adjusted_p, notes`; `round-2/experiment-5/src/results/h1_dev.json: H3_dev`; `round-2/experiment-5/src/results/audit_placebo.json: H3_calibration_40_shuffles`
 
 
 ### 10.7 Minimum detectable effect and power
@@ -505,7 +505,7 @@ The minimum detectable delta AUC is 0.004 (at 80% power, 27,393 episodes). With 
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] Exp5 (art_wxWssKSUR45f) power simulation (h1_dev.json power; planted effect b in SD log-odds of standardised gateway_j on the dev covariate structure; 40 sims x 150 boot): a planted effect b = 0.3 gives mean dAUC 0.0040 with power 0.90 (b = 0.2: 0.0019, power 0.65), so 0.004 is the **90%** point (the file key 'min_detectable_dauc_80pct' mislabels it), computed for 8,515 held-out episodes, not 27,393. At b = 0 the CI > 0 rule fires 0.125 of the time (nominal 0.025): the concept-only bootstrap is anti-conservative. Evaluation 1 (art_lwI2DuRtQRZX, E_power) adds a field random intercept: the SD of dAUC under the alternative stays near 0.016 (floor about 0.02) and about 34 held-out concepts per group give P(group delta > 0) >= 0.90 at delta = 0.05. The field-random-intercept figure governs the H1 verdict's field-level uncertainty; the Exp5 figure ignores between-field variance.
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json: power.*`; `iter_2/gen_art/gen_art_evaluation_1/eval_out.json: metadata.E_power.held_out_sizing_from_alternative_SD.*`
+Source (from Eval2): `round-2/experiment-5/src/results/h1_dev.json: power.*`; `round-2/evaluation-1/src/eval_out.json: metadata.E_power.held_out_sizing_from_alternative_SD.*`
 
 
 ### 10.8 Iteration-1 replication
@@ -593,7 +593,7 @@ Holdout per group details:
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] LR 68.6 = M1 (plain retaining relatedness d0_ret_rel) vs M0, Breslow; LR 71.7 = M2 (gateway-weighted d_ret_gate) vs M0, Breslow; LR 77.3 = M2 vs M0 with the exact conditional likelihood (statsmodels, Exp6 audit.json). Recomputed here: M1vsM0 Breslow 68.57 / exact 73.25; M2vsM0 Breslow 71.72 / exact 77.30. d = 0.281 is the M1 coefficient of plain retaining relatedness (d0_ret_rel, SE 0.032); d = 0.302 ('0.30') is the M2 coefficient of gateway-weighted retaining relatedness (d_ret_gate). Both are Breslow, per SD of the frozen DEV standardisation. The hypothesis text's '961 strata' is the number of INFORMATIVE strata (>= 1 event and >= 1 non-event) that enter the conditional likelihood (961 recomputed; 18846 rows); the file's n_strata = 2,339 counts ALL strata of the primary sample (n_ret > 0; 2339 recomputed, 46433 rows). The parquet itself holds 2992 strata / 61648 rows before the n_ret > 0 restriction. The conventional headline is the plain retaining-relatedness coefficient d0_ret_rel = 0.281 (SE 0.032), since the gateway weighting adds nothing (M3 vs M1 g-only permutation p = 0.17).
 
-Source (from Eval2): `record_tables/next_field_trace.json`; `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json: H2_pooled.*`; `iter_2/gen_art/gen_art_experiment_6/results/audit.json: H2_LR`
+Source (from Eval2): `record_tables/next_field_trace.json`; `round-2/experiment-6/src/results/heldout_result.json: H2_pooled.*`; `round-2/experiment-6/src/results/audit.json: H2_LR`
 
 
 ### 11.3 Ordering: first retained gateway precedes entropy takeoff
@@ -609,7 +609,7 @@ McNemar test comparing gateway vs peripheral: p = 0.088 (27 gateway only, 15 per
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] Ordering is **mixed / not established**. Of 175 broad (top-tercile O2r) concepts, 112 have a detected entropy take-off and 102 an evaluable gateway ordering: the first retained gateway field comes first in 57, ties 15, after 30 (57/87 = 65.5% of non-tied; 57/102 = 55.9% of evaluable; 57/175 = 32.6% of broad concepts; sign p = 0.0025). Peripheral fields: 49/20/37, 57.0%, p = 0.118; McNemar 27 vs 15, p = 0.088. The preregistered sign rule passes, but concept-FE lead-lag regressions show retention followed by SMALLER next-year entropy gains (gateway b = -0.0279, p = 0.0007; peripheral b = -0.0434, p = 5.9e-08), a significant pre-trend (event time -3: -0.072, p = 0.0002; DEV -0.088), and on DEV entropy predicting later gateway retention (b = 0.232 [0.066, 0.397], p = 0.0062; held-out b = 0.077, p = 0.22). On DEV, peripheral fields precede take-off as often as gateway fields (71.4% vs 70.3%, McNemar p = 0.34); the gateway permutation placebo is null (p = 0.63). The file flag decisions.H2_ordering.CONFIRMED = true checks only the sign rule and is overridden here.
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json: ordering.*`; `iter_2/gen_art/gen_art_experiment_6/results/dev_result.json: ordering.*`; `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json: decisions.H2_ordering.CONFIRMED`
+Source (from Eval2): `round-2/experiment-6/src/results/heldout_result.json: ordering.*`; `round-2/experiment-6/src/results/dev_result.json: ordering.*`; `round-2/experiment-6/src/results/heldout_result.json: decisions.H2_ordering.CONFIRMED`
 
 
 ### 11.4 Rescue and relay mechanisms: NOT SUPPORTED
@@ -638,7 +638,7 @@ The localised class is dominated by Medicine home concepts (42 of 60 localised v
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] DTW k-medoids k = 2 is stable under bootstrap (ARI 1.0), but the 6-state HMM does not reproduce it (HMM vs DTW ARI = 0.095), and the localised class is dominated by Medicine homes.
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json: trajectories.hmm_vs_dtw_ARI`
+Source (from Eval2): `round-2/experiment-6/src/results/heldout_result.json: trajectories.hmm_vs_dtw_ARI`
 
 
 ### 11.6 Audit
@@ -730,7 +730,7 @@ An external recognition lookup table for all 65,026 OpenAlex legacy concepts (64
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] Concept counts (coverage_report.json by_source): mesh 20,872 concepts with an event (20,872 year-usable); wikipedia_en 64,363 concepts with an event (50,459 year-usable); wikidata 1,425 concepts with an event (1,316 year-usable); acm_ccs 1,298 concepts with an event (1,298 year-usable); msc 1,121 concepts with an event (1,121 year-usable); pacs_physh 2,635 concepts with an event (2,635 year-usable); gartner_hype_cycle 466 concepts with an event (466 year-usable); mit_tr10 313 concepts with an event (313 year-usable); research_fronts 589 concepts with an event (589 year-usable); nature_methods_moty 38 concepts with an event (38 year-usable); science_boty 53 concepts with an event (53 year-usable); physics_world_boty 100 concepts with an event (100 year-usable); jel 0 concepts with an event (0 year-usable). Wikipedia exact first revisions: 7,806. The draft's 3,583 / 17,872 / 8,462 / 1,015 are external-ENTRY counts (external_entries_acm_ccs / msc / pacs_physh / jel), not concepts; the '589' is Research Fronts only. JEL: 213 concepts found, 0 dated events (present-day membership).
 
-Source (from Eval2): `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json: by_source.*.n_with_event, n_with_year_usable_event, status`; `iter_2/gen_art/gen_art_dataset_2/README.md: external_entries table`
+Source (from Eval2): `round-2/dataset-2/src/out/coverage_report.json: by_source.*.n_with_event, n_with_year_usable_event, status`; `round-2/dataset-2/src/README.md: external_entries table`
 
 
 ### 13.2 Quality
@@ -815,7 +815,7 @@ Two iterations and eight artifacts have tested whether temporal network signals 
 
 [Correction, iteration 3, from art_7W9xiIO3FVBs] positive in all four held-out groups (sign test p = 0.0625); only Physical's bootstrap CI excludes 0 (Physical d = 0.33 [0.05, 0.57]; LifeEnv LR p = 0.23; Social LR p = 0.076; cohort d = 0.29).
 
-Source (from Eval2): `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json: H2_per_group.*, H2_sign_count`
+Source (from Eval2): `round-2/experiment-6/src/results/heldout_result.json: H2_per_group.*, H2_sign_count`
 
 
 
@@ -871,7 +871,7 @@ The conditional logit is the same as Experiment 6: concept by year risk sets, wh
 | D_rca_persist_3_entered_or_rca | 0.729 | 0.690 | 0.588 |
 | D_rca_persist_3_rca | 0.864 | 0.829 | 0.317 |
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/drca_persist_comparison.json` -> `comparisons.*; recipe_check_D_rca_1y_spearman`
+Source: `round-4/evaluation-3/src/results/drca_persist_comparison.json` -> `comparisons.*; recipe_check_D_rca_1y_spearman`
 Consequence: Exp7's S_strict rival set did NOT contain Research 2's D_rca_persist_k; the 'persistence-filtered RCA density' rival (R1 in Research 2) remains untested against d0 and should be listed as an open rival.
 
 [Correction, iteration 4, from art_22ppE1snfHKj] The retained-frontier predictor sits next to four lines of work. Hidalgo et al. (2007) define density from a region's current revealed-comparative-advantage basket and show that products close to that basket are entered next. Pinheiro et al. (2022) add persistence, but only on the outcome side: an entry counts only if RCA stays above one after years below it. Albora et al. (2023) benchmark relatedness against machine-learning forecasts of entry that use the unit's own past RCA trajectory (the benchmark Research 2 flags as a missing rival here). Cheng et al. (2023) bring the diffusion question to science and tie a topic's spread to the social structure of its early adopters (unconnected co-author groups; our candidate S). Our d0 moves persistence to the predictor side (relatedness to fields that RETAIN the concept). It is backbone-specific (18.6a) and not separable from volume in the matched contrast (18.5), and the persistence-filtered density twin D_rca_persist_k differs from Exp7's D_rca_pers (Step-3 above).
@@ -936,7 +936,7 @@ I squared of 0.92 indicates substantial heterogeneity across groups. Including c
 |---|---|---|---|
 | +0.322 | [+0.291, +0.355] | [+0.211, +0.432] | [+0.201, +0.468] |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.boot.d0_R3.d0_ret_rel.{est,ci}; pooled4.crossed_boot.d0_R3.ci`; `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/partA_derived.json` -> `exp7_d0_two_way_heldout.ci (from ladder...R3_ret.se_two_way_concept_field.d0_ret_rel)`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.boot.d0_R3.d0_ret_rel.{est,ci}; pooled4.crossed_boot.d0_R3.ci`; `round-4/evaluation-3/src/results/partA_derived.json` -> `exp7_d0_two_way_heldout.ci (from ladder...R3_ret.se_two_way_concept_field.d0_ret_rel)`
 
 
 ### 18.4 Dose response by persistence age
@@ -956,7 +956,7 @@ Spearman correlation between beta and age = 1.0 (monotone nondecreasing). Permut
 |---|---|---|---|---|---|
 | +0.098 | +0.075 | +0.304 | +0.206 [+0.156, +0.255] | False | 0.50 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity.c_dose.*`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity.c_dose.*`
 
 
 ### 18.5 Volume matched contrast
@@ -976,7 +976,7 @@ The volume matched d0 is positive and significant on dev, but the Holm corrected
 | held-out pooled 4 | coarse | +0.073 [+0.004, +0.134] | +0.100 [+0.039, +0.157] | -0.028 [-0.105, +0.046] | 0.755 | 0.153 | 5,125 / 5,597 | 7.98 / 6.30 |
 | held-out pooled 4 | fine | +0.066 [-0.002, +0.130] | +0.092 [+0.033, +0.152] | -0.026 [-0.107, +0.049] | 0.752 | 0.144 | 4,746 / 5,259 | 6.40 / 5.71 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_dev.json` -> `battery.specificity.{b_volume_matched,b2_volume_matched_fine}.*`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity.{b_volume_matched,b2_volume_matched_fine}.*`
+Source: `round-3/experiment-7/src/results/step2_dev.json` -> `battery.specificity.{b_volume_matched,b2_volume_matched_fine}.*`; `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity.{b_volume_matched,b2_volume_matched_fine}.*`
 
 Reading: both retained and non-retained matched fields carry a positive coefficient, and the pre-declared contrast is null in both bin sets. The retained-relatedness signal cannot be separated from volume.
 
@@ -1009,14 +1009,14 @@ All three specificity tests reject their nulls after Holm correction: the signal
 | k_primary_topic_fields | +0.276 | 8.7e-93 |
 | m_min_conditional_probability_proximity | -0.021 | 0.014 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.{specificity,specificity_rebuild}.<name>.d0_R3.{coef,p_wald_concept_2s}`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.{specificity,specificity_rebuild}.<name>.d0_R3.{coef,p_wald_concept_2s}`
 
 
 ### 18.6a Proximity dependence
 
 [Correction, iteration 4, from art_22ppE1snfHKj] The retained-frontier coefficient depends on the proximity backbone. Under Hidalgo's minimum conditional-probability proximity (instead of the frozen PMI backbone), d0 in R3 is -0.021 (LR R3 vs R2 p = 0.012), while the RCA density itself becomes much stronger (LR R1 vs R0 = 245.5). Within-stratum AUC is higher under min-cp without d0 (R2 0.867) than under PMI with d0 (R3 0.852). The d0 effect is backbone-specific: it measures relatedness as PMI encodes it, not relatedness in general.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity_rebuild.m_min_conditional_probability_proximity.ladder.{models.R3_ret.coef.d0_ret_rel,LR.*,auc_within.R2_vol}`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.ladder.frontier_primary_sample.auc_within.R3_ret`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity_rebuild.m_min_conditional_probability_proximity.ladder.{models.R3_ret.coef.d0_ret_rel,LR.*,auc_within.R2_vol}`; `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.ladder.frontier_primary_sample.auc_within.R3_ret`
 
 
 ### 18.7 Guevara AUC comparison
@@ -1064,7 +1064,7 @@ All CIs include zero. Verdict: **ABANDONMENT = INCONCLUSIVE** (negative point es
 | min-cp proximity backbone, R4 | +0.003 | - | min-cp A1: d_lost -0.030, p = 0.00013 |
 | target-field FE, A1 | -0.044 | - | key `pooled4.specificity.g_target_field_FE.d_lost_A1.coef` |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.ladder.*.models.{A1_lost,R4_lost}.coef.d_lost; verdicts.d_lost_ci; crossed_boot.d_lost_A1.ci; pooled4.specificity_rebuild.m_min_conditional_probability_proximity; pooled4.specificity.g_target_field_FE`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.ladder.*.models.{A1_lost,R4_lost}.coef.d_lost; verdicts.d_lost_ci; crossed_boot.d_lost_A1.ci; pooled4.specificity_rebuild.m_min_conditional_probability_proximity; pooled4.specificity.g_target_field_FE`
 
 
 ### 18.10 Verdict
@@ -1129,7 +1129,7 @@ The frame has 12,499 concepts: DEV 4,771 (CS 373, Eng 1,345, BGM 483, Med 2,570)
 | S_comp_n | O2r_resid | -0.028 | [-0.244, +0.190] | 0.94 | 3 | 3 |
 | S_comp_n | O4 | -0.049 | [-0.192, +0.096] | 0.93 | 3 | 2 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv` -> `indicator in S_* :: {z, se_z, rho, ci_lo, ci_hi}`; `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/partA_derived.json` -> `candidate_S_DL4.*`
+Source: `round-3/experiment-8/src/results/heldout_unit_results.csv` -> `indicator in S_* :: {z, se_z, rho, ci_lo, ci_hi}`; `round-4/evaluation-3/src/results/partA_derived.json` -> `candidate_S_DL4.*`
 Reading: candidate S is now tested (not only 'not run'); none of its rows is in a frozen top-10 confirmed set for breadth; the social-reach rival is weak beyond B5.
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] Exp8 computes 53 indicators in 6 families (entropy, reach, offhome share, log volume and growth belong to the B5 baseline, not to an indicator family; there is no 'external recognition' family, O5 is an outcome):
@@ -1141,11 +1141,11 @@ Reading: candidate S is now tested (not only 'not run'); none of its rows is in 
 - **G: landing on gateway fields** (7): G, G_A, G_btw, G_deg, G_phimin, REL_home, RS
 - **S: co-author (social) reach** (3): S_comp, S_comp_n, S_isolated_share
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/indicator_dictionary.csv` -> `family column (counts per value)`; `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/partA_derived.json` -> `families.*`
+Source: `round-3/experiment-8/src/results/indicator_dictionary.csv` -> `family column (counts per value)`; `round-4/evaluation-3/src/results/partA_derived.json` -> `families.*`
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] DEV missing share: D_ratio 0.311, D_z 0.311, D_sub 0.311, D_obs 0.311, D_rare 0.883; the DEV eligibility rule excludes indicators with more than 30% missing. Deviation record, verbatim: 'T4 median M = 3.5 (> 3) so the n_ck >= 2 neighbour rule is kept; consequence: D-family indicators (need M >= 3; D_rare M >= 10) are missing for many concepts and may exceed the 30% missing eligibility bound.'
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_dev_selection.json` -> `missing.<indicator>`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/deviations.json` -> `T4_M_median`
+Source: `round-3/experiment-8/src/results/rq1_dev_selection.json` -> `missing.<indicator>`; `round-3/experiment-8/src/results/deviations.json` -> `T4_M_median`
 
 
 
@@ -1173,7 +1173,7 @@ The confirmed indicators span three families: relatedness (M0_density_end, D_vol
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] Both numbers are correct but refer to different outcomes: +0.375 is O2r_m50 (the 19.2 table and README), +0.377 is O2r_resid (the Exp8 summary headline). Add to 19.2: 'Source: heldout_summary.json -> O2r_m50[indicator=M0_density_end].pooled; the headline +0.377 is O2r_resid.'
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json` -> `O2r_m50[0].pooled`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json` -> `O2r_resid[0].pooled`
+Source: `round-3/experiment-8/src/results/heldout_summary.json` -> `O2r_m50[0].pooled`; `round-3/experiment-8/src/results/heldout_summary.json` -> `O2r_resid[0].pooled`
 
 
 [Correction, iteration 5, from art_dFQ6jbgNsR6Q] Per-group held-out results for the confirmed O2r_m50 indicators (psp [95% CI] (n); † = CI includes 0). Domain failures are shown, not averaged away:
@@ -1188,7 +1188,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_su
 | NOV | +0.175 [+0.076, +0.265] (391) | +0.033 [-0.046, +0.119] (604)† | +0.132 [+0.051, +0.210] (668) | +0.440 [+0.194, +0.632] (85) | +0.114 [+0.058, +0.170] (1296) | +0.038 [-0.032, +0.109] (782)† | 2 |
 | ego_density_W3 | -0.081 [-0.182, +0.024] (397)† | -0.078 [-0.164, +0.008] (610)† | -0.122 [-0.199, -0.043] (668) | -0.236 [-0.434, +0.029] (96)† | -0.095 [-0.150, -0.034] (1319) | -0.041 [-0.112, +0.030] (794)† | 4 |
 
-Source: `iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv` (outcome == O2r_m50); confirmed list from `heldout_summary.json -> O2r_m50[*].confirmed`.
+Source: `round-3/experiment-8/src/results/heldout_unit_results.csv` (outcome == O2r_m50); confirmed list from `heldout_summary.json -> O2r_m50[*].confirmed`.
 
 
 
@@ -1217,7 +1217,7 @@ O2r_resid (breadth conditional on volume) adds one indicator to the confirmed se
 | RETENTION_RATIO_early | FR | - | -0.026 | [-0.060, +0.009] | 0.00 | 1 | 5/6 | no |
 | new_edge_rate | A | - | +0.003 | [-0.032, +0.037] | 0.00 | 1 | 3/6 | no |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json` -> `O4[i].{pooled,pooled_ci,I2,holm_p,sign_agree,n_units,confirmed}`
+Source: `round-3/experiment-8/src/results/heldout_summary.json` -> `O4[i].{pooled,pooled_ci,I2,holm_p,sign_agree,n_units,confirmed}`
 
 ### 19.5b O3 (transience): 1 of 10 confirmed
 
@@ -1243,7 +1243,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_su
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] No indicator predicts external recognition beyond B5 + onset year (see file 10 for the section cross-reference fix).
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_heldout.json` -> `headline_by_outcome.{O5,O5_WW}.n_confirmed_holm`
+Source: `round-3/experiment-8/src/results/rq1_heldout.json` -> `headline_by_outcome.{O5,O5_WW}.n_confirmed_holm`
 
 > No indicator predicts external recognition. All Holm p = 1.0. This is consistent with the Evaluation 2 finding that external recognition is unrelated to publication outcomes (Section 21.2).
 
@@ -1283,7 +1283,7 @@ Transience (O3) IS predictable beyond B5 on heldout groups: L1-logit AUC 0.599 v
 | P4 | RETENTION_RATIO_early and FRONTIER_POTENTIAL: pooled psp > 0 with CI > 0 for O2r_resid AND O1c | **FAILS** | RETENTION_RATIO_early on O2r_resid -0.120 [-0.166, -0.074] (predicted > 0: wrong sign); on O1c -0.006 [-0.041, +0.029]; FRONTIER_POTENTIAL on O2r_resid +0.055 [-0.057, +0.165] |
 | P5 | CONTACT_REACH: pooled psp CI includes 0 (also reported given B5 minus reach) | **FAILS** | CONTACT_REACH pooled psp on O2r_m50 +0.213 [+0.159, +0.265] (predicted: CI includes 0); given B5 minus reach on O2r_resid +0.223 [+0.172, +0.273] |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/frozen_spec.json` -> `preregistered_predictions.P1..P5`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P1..P5.{verdict,detail,...}`
+Source: `round-3/experiment-8/src/results/frozen_spec.json` -> `preregistered_predictions.P1..P5`; `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P1..P5.{verdict,detail,...}`
 
 Reading: P1 fails on BOTH parts (D_rare is positive in fewer than 3 groups, and all four breadth candidates add more than the 0.10 bound). P3 was a prediction of FAILURE; its failure means new_edge_rate transfers to held-out groups. P4 fails because the retention ratio has the opposite sign. P5 predicted that CONTACT_REACH adds nothing; it adds a clearly positive amount.
 
@@ -1298,7 +1298,7 @@ Reading: P1 fails on BOTH parts (D_rare is positive in fewer than 3 groups, and 
 | entropy | n/a (B5 member) | n/a | +0.775 | +0.631 | +0.639 | +0.847 |
 | edge_persistence | -0.080 | [-0.126, -0.033] | -0.076 | -0.112 | -0.107 | -0.217 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P1.detail.<ind>.{pooled_psp,pooled_ci,raw_rho.<group>}`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P2.{pooled_psp,pooled_ci,raw_rho}`
+Source: `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P1.detail.<ind>.{pooled_psp,pooled_ci,raw_rho.<group>}`; `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P2.{pooled_psp,pooled_ci,raw_rho}`
 
 
 ### 19.9 Deviations
@@ -1323,7 +1323,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_ver
 
 Exp8's pooled held-out psp was re-derived from analysis_table.parquet with the Exp8 estimator: M0_density_end +0.3745 (record +0.3745, O2r_m50) and +0.3770 (O2r_resid); D_vol_end +0.3071; n_comm_W3 +0.1666; ego_density_W3 -0.1024; new_edge_rate +0.1176. All within the 1e-3 tolerance (gate passed).
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/gate_T0.json` -> `rows[i].{record_pooled,rederived_pooled}`
+Source: `round-4/evaluation-3/src/results/gate_T0.json` -> `rows[i].{record_pooled,rederived_pooled}`
 
 **B1 Post-onset re-score of the two largest breadth effects**
 
@@ -1336,7 +1336,7 @@ Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/gate_T0.js
 
 **Paper wording.** About half of the M0_density_end and D_vol_end breadth signal comes from the concept's pre-onset footprint in other fields. The post-onset part is still clearly positive, so these are partly, but not only, early network signals.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/post_onset_rescore.json` -> `pooled.*; footprint_controlled; collinearity_post_vs_B5_reach; spearman`
+Source: `round-4/evaluation-3/src/results/post_onset_rescore.json` -> `pooled.*; footprint_controlled; collinearity_post_vs_B5_reach; spearman`
 
 **B2 OPEN per unit (O2r_m50 and O2r_resid)**
 
@@ -1349,7 +1349,7 @@ Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/post_onset
 
 The full per-unit table (all confirmed indicators, the iteration-1 candidates, new_edge_rate, the post-onset rows, OPEN and OPEN_PC1; DEV units labelled SELECTION_DATA) is `results/per_group_table.csv`.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/per_group_pooled.csv` -> `indicator==OPEN&outcome==<o>&pool==<pool>::{pooled,ci_lo,ci_hi,I2,pi_lo,pi_hi,sign_pos_6,n_ci_includes_0_6}`
+Source: `round-4/evaluation-3/src/results/per_group_pooled.csv` -> `indicator==OPEN&outcome==<o>&pool==<pool>::{pooled,ci_lo,ci_hi,I2,pi_lo,pi_hi,sign_pos_6,n_ci_includes_0_6}`
 
 **B3 Specification curve**
 
@@ -1357,7 +1357,7 @@ Across 1,920 specifications (120 composites x 4 outcomes x 4 control sets), the 
 
 **Reading.** The positive OPEN association is a property of the construct, not of one combination: every component subset, both weightings, all four breadth outcomes and all four control sets give a positive pooled estimate. The prediction interval of the headline spec includes 0, so a new domain can show a null.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/spec_curve.json` -> `n_specs; summary.*; null.DL4.*; headline.DL4.*; marginals.DL4.control.*; calibration.*`
+Source: `round-4/evaluation-3/src/results/spec_curve.json` -> `n_specs; summary.*; null.DL4.*; headline.DL4.*; marginals.DL4.control.*; calibration.*`
 
 **B4 Heterogeneity and the LIFEENV diagnosis**
 
@@ -1375,7 +1375,7 @@ On 21 home-field x period sub-units (n >= 60), I2 is 0.43 (vs 0.66 over the 6 un
 
 LIFEENV: OPEN psp +0.071 vs the other 5 units pooled +0.186 [+0.133, +0.237]. (i) OPEN varies less in LIFEENV (SD ratio 0.88 [0.82, 0.94]; new_edge_rate 0.60), but the Thorndike range-restriction correction only moves psp to +0.080. (ii) Reweighting LIFEENV to the others' label-coverage distribution (entropy balancing) gives +0.069 [-0.019, +0.153]. Verdict under the frozen rule: **UNEXPLAINED**: neither coverage nor restricted range explains the weak LIFEENV cell, so it is treated as a domain boundary.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/heterogeneity.json` -> `k_subunits; I2_*; meta_regression.univariate.*; lifeenv.*`
+Source: `round-4/evaluation-3/src/results/heterogeneity.json` -> `k_subunits; I2_*; meta_regression.univariate.*; lifeenv.*`
 
 Figures: `figures/spec_curve.pdf`, `figures/open_forest.pdf`, `figures/b1_post_onset.pdf`, `figures/lifeenv_diagnosis.pdf`.
 
@@ -1425,7 +1425,7 @@ The 15 MISLABELLED items are claims where the report's label for a value was wro
 | `record_tables/portability_F3.csv` | 34 | 4.3 (portability) |
 | `record_tables/refit_bootstrap_iter1.csv` | 14 | 3.3 / 4.2 (refit bootstrap) |
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/partA_derived.json` -> `record_tables_rows.<file>` (row counts computed from the files listed)
+Source: `round-4/evaluation-3/src/results/partA_derived.json` -> `record_tables_rows.<file>` (row counts computed from the files listed)
 
 **06 Eval2 ledger: open rows (MISMATCH and MISLABELLED)**
 
@@ -1433,30 +1433,30 @@ Eval2's claims_ledger.csv has 246 rows: 6 MISMATCH and 15 MISLABELLED. Each is l
 
 **MISMATCH**
 
-- **H1_crit_lpm_beta_within_gt0_p05** (section 10.3 Field retention hypothesis: result: DISCONFIRMED; verdict_H1.criteria.lpm_beta_within_gt0_p05 (held-out, 8,515 episodes / 3,085 concepts)): draft said 'Verdict: DISCONFIRMED by all preregistered criteria.' (reported false); file value True at `iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json` -> `verdict_H1.criteria.lpm_beta_within_gt0_p05`. **Fixed text:** The within-field LPM criterion PASSES: beta_within = +0.068 per SD, concept-clustered p = 0.041 (two-way clustered p = 0.17); the verdict rule still returns DISCONFIRMED because 5 of the 6 core criteria fail.
-- **PA_remaining_7_claim** (section 4.4 Exploratory partial association; number of candidates in exploratory_partial_association.json): draft said 'The remaining 7 indicators ... are not available in the current workspace output' (reported 5); file value 12 at `iter_1/gen_art/gen_art_experiment_3/results/exploratory_partial_association.json` -> `len(candidates)`. **Fixed text:** The file holds all 12 candidates; paste the full table (record_tables/partial_association_all.csv).
-- **O5cov_wikipedia_en_n_with_event** (section 13.1 Sources; by_source.wikipedia_en.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 6540); file value 64363 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.wikipedia_en.n_with_event`. **Fixed text:** 
-- **O5cov_wikipedia_exact** (section 13.1 Sources; by_source.wikipedia_en.status.found (exact first revisions)): draft said 'English Wikipedia 6,540 exact first revisions' (reported 6540); file value 7806 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.wikipedia_en.status.found`. **Fixed text:** Wikipedia: 64,363 concepts with an event, 50,459 year-usable, 7,806 exact first revisions (6,540 is the dataset summary's count before redirect repair).
-- **H3_status** (section 16.5; G.ci95 includes 0): draft said 'The effect is real but small (confirmed)' (reported false (implied)); file value True at `iter_2/gen_art/gen_art_experiment_5/results/h3_results.json` -> `G.ci95[0] <= 0 <= G.ci95[1]`. **Fixed text:** Status: 'small; passes the preregistered within-group permutation rule; pooled concept-bootstrap CI includes 0 ([-0.006, 0.065])'.
-- **CLASH_MDE_n** (section 10.7; power.n_heldout_episodes_assumed): draft said '27,393 episodes' (reported 27393); file value 8515 at `iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json` -> `power.n_heldout_episodes_assumed`. **Fixed text:**
+- **H1_crit_lpm_beta_within_gt0_p05** (section 10.3 Field retention hypothesis: result: DISCONFIRMED; verdict_H1.criteria.lpm_beta_within_gt0_p05 (held-out, 8,515 episodes / 3,085 concepts)): draft said 'Verdict: DISCONFIRMED by all preregistered criteria.' (reported false); file value True at `round-2/experiment-5/src/results/h1_heldout.json` -> `verdict_H1.criteria.lpm_beta_within_gt0_p05`. **Fixed text:** The within-field LPM criterion PASSES: beta_within = +0.068 per SD, concept-clustered p = 0.041 (two-way clustered p = 0.17); the verdict rule still returns DISCONFIRMED because 5 of the 6 core criteria fail.
+- **PA_remaining_7_claim** (section 4.4 Exploratory partial association; number of candidates in exploratory_partial_association.json): draft said 'The remaining 7 indicators ... are not available in the current workspace output' (reported 5); file value 12 at `round-1/experiment-3/src/results/exploratory_partial_association.json` -> `len(candidates)`. **Fixed text:** The file holds all 12 candidates; paste the full table (record_tables/partial_association_all.csv).
+- **O5cov_wikipedia_en_n_with_event** (section 13.1 Sources; by_source.wikipedia_en.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 6540); file value 64363 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.wikipedia_en.n_with_event`. **Fixed text:** 
+- **O5cov_wikipedia_exact** (section 13.1 Sources; by_source.wikipedia_en.status.found (exact first revisions)): draft said 'English Wikipedia 6,540 exact first revisions' (reported 6540); file value 7806 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.wikipedia_en.status.found`. **Fixed text:** Wikipedia: 64,363 concepts with an event, 50,459 year-usable, 7,806 exact first revisions (6,540 is the dataset summary's count before redirect repair).
+- **H3_status** (section 16.5; G.ci95 includes 0): draft said 'The effect is real but small (confirmed)' (reported false (implied)); file value True at `round-2/experiment-5/src/results/h3_results.json` -> `G.ci95[0] <= 0 <= G.ci95[1]`. **Fixed text:** Status: 'small; passes the preregistered within-group permutation rule; pooled concept-bootstrap CI includes 0 ([-0.006, 0.065])'.
+- **CLASH_MDE_n** (section 10.7; power.n_heldout_episodes_assumed): draft said '27,393 episodes' (reported 27393); file value 8515 at `round-2/experiment-5/src/results/h1_dev.json` -> `power.n_heldout_episodes_assumed`. **Fixed text:**
 
 **MISLABELLED**
 
-- **ORD_reverse_p_heldout** (section 11.3 Ordering: first retained gateway precedes entropy takeoff; heldout ordering.lead_lag.reverse_dret_on_H.coef.H.p): draft said 'the reverse (entropy predicting retention) is not significant (p = 0.22)' (reported 0.22); file value 0.21723474575636884 at `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json` -> `ordering.lead_lag.reverse_dret_on_H.coef.H.p`. **Fixed text:** Held-out reverse path b = 0.077 (p = 0.22), but on DEV the reverse path is significant: b = 0.232 [0.066, 0.397], p = 0.006 (dev_result.json).
-- **ORD_both_associated** (section 11.3 Ordering: first retained gateway precedes entropy takeoff; sign of forward ret_gw coefficient): draft said 'both retained gateway and retained peripheral fields are associated with subsequent entropy change' (reported positive (implied)); file value -0.027939583860173887 at `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json` -> `ordering.lead_lag.forward_dH_on_ret.coef.ret_gw.b`. **Fixed text:** Both coefficients are NEGATIVE: retention is followed by SMALLER next-year entropy gains (ret_gw -0.028, p = 0.0007; ret_per -0.043, p = 6e-8).
-- **ORD_denominator_of_broad_concepts** (section 16.3 What we have learned; gateway before / of_broad_concepts (57/175)): draft said 'In 66% of broad concepts, the first retained gateway field precedes ...' (reported 0.326); file value 0.32571428571428573 at `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json` -> `ordering.gateway.before / 175`. **Fixed text:** 57 of 175 broad (top-tercile) concepts = 32.6%; 57 of 102 evaluable = 55.9%; 57 of 87 non-tied = 65.5%. '66% of broad concepts' must read '65.5% of the 87 non-tied evaluable concepts (57/87)'.
-- **O5cov_acm_ccs_n_with_event** (section 13.1 Sources; by_source.acm_ccs.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 3583); file value 1298 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.acm_ccs.n_with_event`. **Fixed text:** acm_ccs: 1,298 concepts with an event (1,298 year-usable); 3,583 is the external-ENTRY count
-- **O5cov_jel_n_with_event** (section 13.1 Sources; by_source.jel.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 1015); file value 0 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.jel.n_with_event`. **Fixed text:** JEL: 213 concepts found (present-day membership), 0 dated events; 1,015 is the entry count.
-- **O5cov_msc_n_with_event** (section 13.1 Sources; by_source.msc.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 17872); file value 1121 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.msc.n_with_event`. **Fixed text:** msc: 1,121 concepts with an event (1,121 year-usable); 17,872 is the external-ENTRY count
-- **O5cov_pacs_physh_n_with_event** (section 13.1 Sources; by_source.pacs_physh.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 8462); file value 2635 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.pacs_physh.n_with_event`. **Fixed text:** pacs_physh: 2,635 concepts with an event (2,635 year-usable); 8,462 is the external-ENTRY count
-- **O5cov_research_fronts_n_with_event** (section 13.1 Sources; by_source.research_fronts.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 589); file value 589 at `iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json` -> `by_source.research_fronts.n_with_event`. **Fixed text:** 589 is Research Fronts only; the curated lists are Gartner 466, MIT TR10 313, Research Fronts 589, NM MoTY 38, Science BOTY 53, Physics World BOTY 100 concepts.
-- **H3_0of40** (section 10.6 Concept breadth hypothesis: result: small but confirmed; calibration false-positive rate of the preregistered test on 40 shuffled outcomes): draft said '(0 of 40 shuffled outcomes exceed the real value)' (reported 0); file value 0.0 at `iter_2/gen_art/gen_art_experiment_5/results/audit_placebo.json` -> `H3_calibration_40_shuffles.false_positive_rate_preregistered_pooled_test`. **Fixed text:** 0/40 is the FALSE-POSITIVE RATE of the preregistered test on 40 shuffled outcomes (a calibration check), not an exceedance count and not a p-value.
-- **H3_mixed_variants** (section 16.5; variant consistency): draft said 'Holdout partial rho of G_btw ... = 0.046 (Holm p = 0.0045); DerSimonian-Laird pooled G = 0.068' (reported G_btw pooled + G DL); file value mixes G_btw (pooled partial) and G (DL) at `iter_2/gen_art/gen_art_experiment_5/results/h3_results.json` -> `G_btw.partial_rho vs G.dl_pool.pooled`. **Fixed text:** Quote one variant: G pooled partial 0.030 [-0.006, 0.065], DL within-group 0.068 [0.029, 0.107]; G_btw DL 0.072 [-0.015, 0.159], I2 = 0.77.
-- **ALL4_label** (section 5.4 Field level prediction; delta AUC of the row labelled 'B5 + all_four'): draft said 'B5 + all_four (G, REL, RS, G_all) | 0.697 | 0.782 | +0.085 | [0.004, 0.164]' (reported 0.085); file value 0.08507936507936509 at `iter_1/gen_art/gen_art_experiment_4/screen_result.json` -> `field_level.size_controlled_all_three.delta_auc`. **Fixed text:** The +0.085 row is 'B3 + log field size + {gateway_j, phi_home_j, density_j}' (size_controlled_all_three; AUC 0.697 -> 0.782; fixed CI95 [0.004, 0.164]; refit CI95 [-0.043, 0.220]). The row 'all_four_available' is B3 + {gateway_j, phi_home_j, density_j}: +0.082 (0.705 -> 0.787), fixed [0.008, 0.153], refit [-0.042, 0.204]. Neither contains G, REL, RS or G_all.
-- **CLASH_MDE_power** (section 10.7 Minimum detectable effect and power; power_ci_gt0 at planted b = 0.3 (mean dAUC 0.004)): draft said 'The minimum detectable delta AUC is 0.004 (at 80% power, 27,393 episodes)' (reported 0.80); file value 0.9 at `iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json` -> `power.0.3.power_ci_gt0`. **Fixed text:** 0.004 is the mean dAUC at planted b = 0.3, where power is 0.90 (b = 0.2 gives 0.0019 at power 0.65); the file key 'min_detectable_dauc_80pct' mislabels it. The simulation assumed 8,515 held-out episodes (not 27,393), and at b = 0 the CI>0 rule fires 12.5% of the time (nominal 2.5%).
-- **CLASH_10.7_sd015** (section 10.7; E_power SD under the alternative (Evaluation 1, not Exp5)): draft said 'the standard deviation of the delta AUC ... approximately 0.015 regardless of the number of episodes' (reported 0.015); file value 0.016009816372160212 at `iter_2/gen_art/gen_art_evaluation_1/eval_out.json` -> `metadata.E_power.held_out_sizing_from_alternative_SD.SD_alt_field_RE_N1000_m5`. **Fixed text:** This sentence and '34 concepts per group' come from Evaluation 1 (E_power, field random intercept), not Exp5; attribute them to art_lwI2DuRtQRZX and reconcile with Exp5's 0.004 (no field random intercept).
-- **CLASH_10.7_34** (section 10.7; E_power concepts per group (Evaluation 1)): draft said 'Approximately 34 holdout concepts per group' (reported 34); file value 34 at `iter_2/gen_art/gen_art_evaluation_1/eval_out.json` -> `metadata.E_power.held_out_sizing_from_alternative_SD.concepts_per_group_p>=0.9_at_0.05`. **Fixed text:** 
-- **H2_sign_test** (section 16.1; H2_sign_count.sign_test_p): draft said 'positive in all three evaluable holdout field groups' (reported (not reported)); file value 0.0625 at `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json` -> `H2_sign_count.sign_test_p`. **Fixed text:** Positive in 4/4 groups (sign test p = 0.0625); only Physical's CI excludes 0 (LifeEnv LR p = 0.23, Social 0.076).
+- **ORD_reverse_p_heldout** (section 11.3 Ordering: first retained gateway precedes entropy takeoff; heldout ordering.lead_lag.reverse_dret_on_H.coef.H.p): draft said 'the reverse (entropy predicting retention) is not significant (p = 0.22)' (reported 0.22); file value 0.21723474575636884 at `round-2/experiment-6/src/results/heldout_result.json` -> `ordering.lead_lag.reverse_dret_on_H.coef.H.p`. **Fixed text:** Held-out reverse path b = 0.077 (p = 0.22), but on DEV the reverse path is significant: b = 0.232 [0.066, 0.397], p = 0.006 (dev_result.json).
+- **ORD_both_associated** (section 11.3 Ordering: first retained gateway precedes entropy takeoff; sign of forward ret_gw coefficient): draft said 'both retained gateway and retained peripheral fields are associated with subsequent entropy change' (reported positive (implied)); file value -0.027939583860173887 at `round-2/experiment-6/src/results/heldout_result.json` -> `ordering.lead_lag.forward_dH_on_ret.coef.ret_gw.b`. **Fixed text:** Both coefficients are NEGATIVE: retention is followed by SMALLER next-year entropy gains (ret_gw -0.028, p = 0.0007; ret_per -0.043, p = 6e-8).
+- **ORD_denominator_of_broad_concepts** (section 16.3 What we have learned; gateway before / of_broad_concepts (57/175)): draft said 'In 66% of broad concepts, the first retained gateway field precedes ...' (reported 0.326); file value 0.32571428571428573 at `round-2/experiment-6/src/results/heldout_result.json` -> `ordering.gateway.before / 175`. **Fixed text:** 57 of 175 broad (top-tercile) concepts = 32.6%; 57 of 102 evaluable = 55.9%; 57 of 87 non-tied = 65.5%. '66% of broad concepts' must read '65.5% of the 87 non-tied evaluable concepts (57/87)'.
+- **O5cov_acm_ccs_n_with_event** (section 13.1 Sources; by_source.acm_ccs.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 3583); file value 1298 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.acm_ccs.n_with_event`. **Fixed text:** acm_ccs: 1,298 concepts with an event (1,298 year-usable); 3,583 is the external-ENTRY count
+- **O5cov_jel_n_with_event** (section 13.1 Sources; by_source.jel.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 1015); file value 0 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.jel.n_with_event`. **Fixed text:** JEL: 213 concepts found (present-day membership), 0 dated events; 1,015 is the entry count.
+- **O5cov_msc_n_with_event** (section 13.1 Sources; by_source.msc.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 17872); file value 1121 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.msc.n_with_event`. **Fixed text:** msc: 1,121 concepts with an event (1,121 year-usable); 17,872 is the external-ENTRY count
+- **O5cov_pacs_physh_n_with_event** (section 13.1 Sources; by_source.pacs_physh.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 8462); file value 2635 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.pacs_physh.n_with_event`. **Fixed text:** pacs_physh: 2,635 concepts with an event (2,635 year-usable); 8,462 is the external-ENTRY count
+- **O5cov_research_fronts_n_with_event** (section 13.1 Sources; by_source.research_fronts.n_with_event (CONCEPTS)): draft said 'Concepts matched' (reported 589); file value 589 at `round-2/dataset-2/src/out/coverage_report.json` -> `by_source.research_fronts.n_with_event`. **Fixed text:** 589 is Research Fronts only; the curated lists are Gartner 466, MIT TR10 313, Research Fronts 589, NM MoTY 38, Science BOTY 53, Physics World BOTY 100 concepts.
+- **H3_0of40** (section 10.6 Concept breadth hypothesis: result: small but confirmed; calibration false-positive rate of the preregistered test on 40 shuffled outcomes): draft said '(0 of 40 shuffled outcomes exceed the real value)' (reported 0); file value 0.0 at `round-2/experiment-5/src/results/audit_placebo.json` -> `H3_calibration_40_shuffles.false_positive_rate_preregistered_pooled_test`. **Fixed text:** 0/40 is the FALSE-POSITIVE RATE of the preregistered test on 40 shuffled outcomes (a calibration check), not an exceedance count and not a p-value.
+- **H3_mixed_variants** (section 16.5; variant consistency): draft said 'Holdout partial rho of G_btw ... = 0.046 (Holm p = 0.0045); DerSimonian-Laird pooled G = 0.068' (reported G_btw pooled + G DL); file value mixes G_btw (pooled partial) and G (DL) at `round-2/experiment-5/src/results/h3_results.json` -> `G_btw.partial_rho vs G.dl_pool.pooled`. **Fixed text:** Quote one variant: G pooled partial 0.030 [-0.006, 0.065], DL within-group 0.068 [0.029, 0.107]; G_btw DL 0.072 [-0.015, 0.159], I2 = 0.77.
+- **ALL4_label** (section 5.4 Field level prediction; delta AUC of the row labelled 'B5 + all_four'): draft said 'B5 + all_four (G, REL, RS, G_all) | 0.697 | 0.782 | +0.085 | [0.004, 0.164]' (reported 0.085); file value 0.08507936507936509 at `round-1/experiment-4/src/screen_result.json` -> `field_level.size_controlled_all_three.delta_auc`. **Fixed text:** The +0.085 row is 'B3 + log field size + {gateway_j, phi_home_j, density_j}' (size_controlled_all_three; AUC 0.697 -> 0.782; fixed CI95 [0.004, 0.164]; refit CI95 [-0.043, 0.220]). The row 'all_four_available' is B3 + {gateway_j, phi_home_j, density_j}: +0.082 (0.705 -> 0.787), fixed [0.008, 0.153], refit [-0.042, 0.204]. Neither contains G, REL, RS or G_all.
+- **CLASH_MDE_power** (section 10.7 Minimum detectable effect and power; power_ci_gt0 at planted b = 0.3 (mean dAUC 0.004)): draft said 'The minimum detectable delta AUC is 0.004 (at 80% power, 27,393 episodes)' (reported 0.80); file value 0.9 at `round-2/experiment-5/src/results/h1_dev.json` -> `power.0.3.power_ci_gt0`. **Fixed text:** 0.004 is the mean dAUC at planted b = 0.3, where power is 0.90 (b = 0.2 gives 0.0019 at power 0.65); the file key 'min_detectable_dauc_80pct' mislabels it. The simulation assumed 8,515 held-out episodes (not 27,393), and at b = 0 the CI>0 rule fires 12.5% of the time (nominal 2.5%).
+- **CLASH_10.7_sd015** (section 10.7; E_power SD under the alternative (Evaluation 1, not Exp5)): draft said 'the standard deviation of the delta AUC ... approximately 0.015 regardless of the number of episodes' (reported 0.015); file value 0.016009816372160212 at `round-2/evaluation-1/src/eval_out.json` -> `metadata.E_power.held_out_sizing_from_alternative_SD.SD_alt_field_RE_N1000_m5`. **Fixed text:** This sentence and '34 concepts per group' come from Evaluation 1 (E_power, field random intercept), not Exp5; attribute them to art_lwI2DuRtQRZX and reconcile with Exp5's 0.004 (no field random intercept).
+- **CLASH_10.7_34** (section 10.7; E_power concepts per group (Evaluation 1)): draft said 'Approximately 34 holdout concepts per group' (reported 34); file value 34 at `round-2/evaluation-1/src/eval_out.json` -> `metadata.E_power.held_out_sizing_from_alternative_SD.concepts_per_group_p>=0.9_at_0.05`. **Fixed text:** 
+- **H2_sign_test** (section 16.1; H2_sign_count.sign_test_p): draft said 'positive in all three evaluable holdout field groups' (reported (not reported)); file value 0.0625 at `round-2/experiment-6/src/results/heldout_result.json` -> `H2_sign_count.sign_test_p`. **Fixed text:** Positive in 4/4 groups (sign test p = 0.0625); only Physical's CI excludes 0 (LifeEnv LR p = 0.23, Social 0.076).
 
 
 
@@ -1500,8 +1500,8 @@ External recognition is **unrelated** to publication based breadth and uptake ou
 
 Also: 0.81 of the 253 Wikidata inception events predate t0 by more than 10 years; 0.78 of Wikipedia dates fall in Wikipedia's 2001-2007 growth wave.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/o5_validation.json` -> `precedence_leakage.<source>.{n_matched,share_first_event_le_t0}; lag.<source>.{median,iqr}`
-Coverage per group and source (share found, share qualifying in window) is in `iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_coverage_by_group_source.csv`.
+Source: `round-3/evaluation-2/src/o5_validation.json` -> `precedence_leakage.<source>.{n_matched,share_first_event_le_t0}; lag.<source>.{median,iqr}`
+Coverage per group and source (share found, share qualifying in window) is in `round-3/evaluation-2/src/record_tables/o5_coverage_by_group_source.csv`.
 
 **O5-O3 association per held-out group (O5_main; Spearman)**
 
@@ -1514,7 +1514,7 @@ Coverage per group and source (share found, share qualifying in window) is in `i
 
 Pooled (DL, 4 held-out groups): -0.049 [-0.083, -0.016], p = 0.004, I2 = 0.55. Recognised concepts are slightly LESS transient, but the association is small and heterogeneous.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_associations.csv` -> `group==<g>&variant==O5_main::{n,rho_O3,rho_O3_ci95}`; `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/o5_validation.json` -> `associations_pooled_heldout_DL.O5_main.rho_O3.{pooled,ci95,p,I2}`
+Source: `round-3/evaluation-2/src/record_tables/o5_associations.csv` -> `group==<g>&variant==O5_main::{n,rho_O3,rho_O3_ci95}`; `round-3/evaluation-2/src/o5_validation.json` -> `associations_pooled_heldout_DL.O5_main.rho_O3.{pooled,ci95,p,I2}`
 
 
 ### 20.3 External recognition handcheck (100 items)
@@ -1589,7 +1589,7 @@ ANS SciSci articles (Cunningham 2022, Fontaine 2024, Holmgren 2023) use unstruct
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] 6. **O4 (citation growth) linear model: shrank to a constant.** The ElasticNet for O4 (field- and year-normalised citation growth, NOT transience) set every coefficient to zero, so it ranks nothing on held-out data, while the EBM reaches Spearman 0.188 vs B5 0.015 (gain +0.174 [+0.129, +0.219]). The O4 signal is non-linear. Transience (O3) is a separate outcome with a positive held-out learned-model result (above).
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/learned_vs_single_heldout.json` -> `O4.POOLED_HELDOUT.*`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/deviations.json` -> `O4_linear_all_constant`
+Source: `round-3/experiment-8/src/results/learned_vs_single_heldout.json` -> `O4.POOLED_HELDOUT.*`; `round-3/experiment-8/src/results/deviations.json` -> `O4_linear_all_constant`
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] 7. **Four of five pre-registered predictions fail, as frozen.** P2 (edge_persistence negative) holds. P1 fails (the iteration-1 breadth candidates do add beyond B5 on held-out data); P3 fails because new_edge_rate transfers; P4 fails because RETENTION_RATIO_early is negative, not positive; P5 fails because CONTACT_REACH is positive given B5. See the table in 19.8 for the deciding numbers.
 
@@ -1695,7 +1695,7 @@ Four artifacts were executed: a confirmatory cohort test of the OPEN index (Expe
 | 2 | 5 | 5 | 0 | - |
 | 3 | 5 | 4 | 1 | gen_art_experiment_9 |
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/partA_derived.json` -> `iterations.iter_<i>.*`
+Source: `round-4/evaluation-3/src/results/partA_derived.json` -> `iterations.iter_<i>.*`
 Cross-check with Section 5a: it lists gen_art_dataset_1 and gen_art_experiment_2 as the two iteration-1 failures, which agrees. Iteration 2 had no failures. Iteration 3's failure (Experiment 9) is not in the draft.
 
 | placeholder in draft | real id | artifact |
@@ -1711,25 +1711,25 @@ Cross-check with Section 5a: it lists gen_art_dataset_1 and gen_art_experiment_2
 | artifact directory | status | evidence |
 |---|---|---|
 | `iter_1/gen_art/gen_art_dataset_1` | failed/incomplete | `result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)` |
-| `iter_1/gen_art/gen_art_experiment_1` | completed | `structured output present` |
+| `round-1/experiment-1/src` | completed | `structured output present` |
 | `iter_1/gen_art/gen_art_experiment_2` | failed/incomplete | `result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)` |
-| `iter_1/gen_art/gen_art_experiment_3` | completed | `structured output present` |
-| `iter_1/gen_art/gen_art_experiment_4` | completed | `structured output present` |
-| `iter_2/gen_art/gen_art_dataset_2` | completed | `structured output present` |
-| `iter_2/gen_art/gen_art_evaluation_1` | completed | `structured output present` |
-| `iter_2/gen_art/gen_art_experiment_5` | completed | `structured output present` |
-| `iter_2/gen_art/gen_art_experiment_6` | completed | `structured output present` |
-| `iter_2/gen_art/gen_art_research_1` | completed | `structured output present` |
-| `iter_3/gen_art/gen_art_evaluation_2` | completed | `structured output present` |
-| `iter_3/gen_art/gen_art_experiment_7` | completed | `structured output present` |
-| `iter_3/gen_art/gen_art_experiment_8` | completed | `structured output present` |
+| `round-1/experiment-3/src` | completed | `structured output present` |
+| `round-1/experiment-4/src` | completed | `structured output present` |
+| `round-2/dataset-2/src` | completed | `structured output present` |
+| `round-2/evaluation-1/src` | completed | `structured output present` |
+| `round-2/experiment-5/src` | completed | `structured output present` |
+| `round-2/experiment-6/src` | completed | `structured output present` |
+| `round-2/research-1/src` | completed | `structured output present` |
+| `round-3/evaluation-2/src` | completed | `structured output present` |
+| `round-3/experiment-7/src` | completed | `structured output present` |
+| `round-3/experiment-8/src` | completed | `structured output present` |
 | `iter_3/gen_art/gen_art_experiment_9` | failed/incomplete | `result.failed = true (output_format validation failed after 5 retries: The output )` |
-| `iter_3/gen_art/gen_art_research_2` | completed | `structured output present` |
-| `iter_4/gen_art/gen_art_evaluation_3` | completed | `structured output present` |
-| `iter_4/gen_art/gen_art_experiment_10` | completed | `structured output present` |
+| `round-3/research-2/src` | completed | `structured output present` |
+| `round-4/evaluation-3/src` | completed | `structured output present` |
+| `round-4/experiment-10/src` | completed | `structured output present` |
 | `iter_4/gen_art/gen_art_experiment_11` | failed/incomplete | `no .aii_worker_result.json` |
-| `iter_4/gen_art/gen_art_experiment_12` | completed | `structured output present` |
-| `iter_4/gen_art/gen_art_research_3` | completed | `structured output present` |
+| `round-4/experiment-12/src` | completed | `structured output present` |
+| `round-4/research-3/src` | completed | `structured output present` |
 
 
 
@@ -1743,7 +1743,7 @@ Cross-check with Section 5a: it lists gen_art_dataset_1 and gen_art_experiment_2
 
 Pre-seal power for OPEN_home at R2 was 0.16 (true effect = half the EXP5 estimate), and the minimum detectable effect (2.8 SE) was 0.105.
 
-Source: `iter_4/gen_art/gen_art_experiment_10/results/cohort_result.json` -> `n_by_t0`, `n_cohort`, `outcome_availability`; `results/frozen_spec.json` -> `power.with_2017`.
+Source: `round-4/experiment-10/src/results/cohort_result.json` -> `n_by_t0`, `n_cohort`, `outcome_availability`; `results/frozen_spec.json` -> `power.with_2017`.
 
 ### 25.2 Control ladder
 
@@ -1813,7 +1813,7 @@ Keyed values: CONTACT_REACH on O2r_m50 given R0 +0.211 [+0.122, +0.294], without
 
 The transience (O3) row is **evaluable and null**: AUC +0.540 vs +0.561, difference -0.021 [-0.130, +0.101]. The earlier row, which labelled this transience difference as not evaluable, was wrong. The frozen B5 + OPEN_home forecast adds +0.002 [-0.003, +0.008] (Section 25.7).
 
-Source: `iter_4/gen_art/gen_art_experiment_10/results/learned_models_cohort.json`; `cohort_result.json` -> `secondary.frozen_prediction_O2r_m50`.
+Source: `round-4/experiment-10/src/results/learned_models_cohort.json`; `cohort_result.json` -> `secondary.frozen_prediction_O2r_m50`.
 
 ### 25.7 Verdict
 
@@ -1955,7 +1955,7 @@ Verdicts per clause (the rule: SUPPORTED / NOT SUPPORTED / REVERSED by CI side, 
 
 PR2 is REVERSED on its first clause wherever the difference is negative: localised concepts do **not** keep more early; the psp clause replicates EXP8 on the same frame and is not new evidence.
 
-Source: `iter_4/gen_art/gen_art_experiment_12/results/decomposition_dev.json`, `decomposition_heldout.json` -> `variants.*`, `verdicts.*`, `DL_heldout_groups`; `preregistration_R2.json`.
+Source: `round-4/experiment-12/src/results/decomposition_dev.json`, `decomposition_heldout.json` -> `variants.*`, `verdicts.*`, `DL_heldout_groups`; `preregistration_R2.json`.
 
 ### 26.2 Trajectory typology
 
@@ -2017,7 +2017,7 @@ Pairs were selected on OPEN_all (top vs bottom quintile within reporting group),
 
 The high-OPEN_all member is broader (higher O2r_resid) in 7/7 pairs and has more retained off-home fields (Bn) in 5/7. In 0/7 pairs the OPEN_home ordering disagrees with the OPEN_all ordering, so these pairs illustrate the all-papers build, which Section 25.4 shows is mechanically coupled to spread.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/case_pairs.json` -> `pairs[i].{OPEN_all,OPEN_home,logvol,O2r_resid,rho,Bn,E2}`; counts in `results/derived.json`.
+Source: `round-4/experiment-12/src/results/case_pairs.json` -> `pairs[i].{OPEN_all,OPEN_home,logvol,O2r_resid,rho,Bn,E2}`; counts in `results/derived.json`.
 
 ### 26.5 Exploratory AI atlas: retrospective, outcome-selected (37 concepts)
 
@@ -2065,7 +2065,7 @@ Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/case_pair
 
 Measures that looked meaningful across types (`atlas.json -> looked_meaningful`): `n_c`, `H`, `n_ent_off`, `n_ret`, `comm_span`, `frontier`, `n_comm_W3_all`, `participation_all`, `ego_density_W3_all`, `OPEN_all`, `OPEN_home`. Data limit: topic-level ego structure exists only for t0-3..t0+2 (EXP8 Pass A kept only those hits; no snapshot pass is allowed here), so topic-neighbour change after t0+2 cannot be shown.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/ai_atlas/atlas.json` -> `concepts[i]` (the 37-concept list; `ai_atlas/table.csv` is the per-measure median table by type, not the concept list).
+Source: `round-4/experiment-12/src/ai_atlas/atlas.json` -> `concepts[i]` (the 37-concept list; `ai_atlas/table.csv` is the per-measure median table by type, not the concept list).
 
 
 ## 27. Evaluation 3: Boundary study and corrections [ARTIFACT:art_oKOd21ZMnu9S]

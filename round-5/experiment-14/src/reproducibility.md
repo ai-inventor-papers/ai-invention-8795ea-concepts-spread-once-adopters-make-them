@@ -44,11 +44,11 @@ uv pip install --python .venv/bin/python -r requirements.lock.txt     # or: bash
 | artifact folder (relative to `3_invention_loop/`) | files read |
 |---|---|
 | `iter_4/gen_art/gen_art_experiment_11` (Exp11) | `data/frame_matches_long/part_00{1..6}.parquet`, `data/yearly_panel.parquet`, `data/counts_m.parquet`, `inputs/topic_ids.json`, `inputs/topic_meta.csv`, `inputs/backbone/slice{0,1,2}.npz` |
-| `iter_2/gen_art/gen_art_experiment_5` (EXP5) | `frame_concepts.csv`, `scan/agg_counts.parquet` |
-| `iter_3/gen_art/gen_art_experiment_8` (EXP8) | `data/analysis_table.parquet` (+ `lib/rq1stats.py`, `lib/stats_core.py` copied into `lib/`) |
-| `iter_4/gen_art/gen_art_experiment_10` (EXP10) | `data/passC_early.parquet`, `data/analysis_cohort.parquet`, `data/passC_pre_agg.parquet`, `data/sealed/parts/sealed_*.parquet` (2,040 files, sha-checked against `logs/sealed_files.log`), `data/ego_open_{exp5,cohort}.parquet`, `results/frozen_spec.json`, `results/s3_decision.json` (+ `lib/ladder.py` copied) |
-| `iter_1/gen_art/gen_art_experiment_3` (EXP3) | `backbone/slice0.npz` (hash check only; the slices are read via Exp11 `inputs/`) |
-| `iter_4/gen_art/gen_art_research_3` (art_hSyVUBa2okT2) | `raw/fetch/cheng_all.txt` (Cheng et al. 2023 Table 2 text quoted in `prereg.md`) |
+| `round-2/experiment-5/src` (EXP5) | `frame_concepts.csv`, `scan/agg_counts.parquet` |
+| `round-3/experiment-8/src` (EXP8) | `data/analysis_table.parquet` (+ `lib/rq1stats.py`, `lib/stats_core.py` copied into `lib/`) |
+| `round-4/experiment-10/src` (EXP10) | `data/passC_early.parquet`, `data/analysis_cohort.parquet`, `data/passC_pre_agg.parquet`, `data/sealed/parts/sealed_*.parquet` (2,040 files, sha-checked against `logs/sealed_files.log`), `data/ego_open_{exp5,cohort}.parquet`, `results/frozen_spec.json`, `results/s3_decision.json` (+ `lib/ladder.py` copied) |
+| `round-1/experiment-3/src` (EXP3) | `backbone/slice0.npz` (hash check only; the slices are read via Exp11 `inputs/`) |
+| `round-4/research-3/src` (art_hSyVUBa2okT2) | `raw/fetch/cheng_all.txt` (Cheng et al. 2023 Table 2 text quoted in `prereg.md`) |
 
 - **No user-uploaded (private) input is used.**
 - **Optional variable `AII_JSON_SKILL_DIR`.** It is used only by `tests/test_output.py` to also run the pipeline's
