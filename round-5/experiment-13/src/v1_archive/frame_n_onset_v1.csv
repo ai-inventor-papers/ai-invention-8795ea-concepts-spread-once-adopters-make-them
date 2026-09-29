@@ -1,0 +1,1648 @@
+ci,t0,extension,name,key,aliases,t_det,n_tokens,home,home_status,n_home_fields,intersection_born,weak_home,home_top_share,group,agroup,N_t0,N_t0p2,early_volume
+6,2012,0,bola voli,bola voli,,2013,2,33,ok,1,0,0,0.978125,SOC,SOC,26.0,145.0,274.0
+33,2014,0,ukrainian crisis,ukrainian crisi,,2014,2,33,ok,1,0,0,0.9598639455782313,SOC,SOC,50.0,43.0,165.0
+95,2007,0,cell lymphoma patients,cell lymphoma patient,cell lymphoma patient,2007,3,27,ok,1,0,0,0.9333333333333333,Med,BGM+Med,22.0,21.0,61.0
+103,2010,0,kecamatan sukorejo,kecamatan sukorejo,,2010,2,33,ok,1,0,0,0.8636363636363636,SOC,SOC,23.0,9.0,36.0
+109,2004,0,recycling economy,recycl economi,recycle economy|recycled economy,2004,2,22,ok,1,0,0,0.4902439024390244,Eng,CS+Eng,24.0,109.0,210.0
+112,2009,0,pembelajaran model,pembelajaran model,pembelajaran modeling,2010,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,21.0,37.0,108.0
+116,2009,0,explication de texte,explic de text,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,23.0,48.0,99.0
+128,2013,0,pengaruh permainan,pengaruh permainan,,2013,2,33,ok,1,0,0,0.9444444444444444,SOC,SOC,35.0,60.0,158.0
+179,2009,0,belajar siswa dalam,belajar siswa dalam,,2010,3,33,ok,1,0,0,0.9444444444444444,SOC,SOC,20.0,38.0,109.0
+207,2004,0,credit agreement,credit agreement,credit agreements,2004,2,33,ok,1,0,0,1.0,SOC,SOC,105.0,36.0,243.0
+219,2005,0,nsw health,nsw health,,2005,2,36,ok,1,0,0,1.0,Med,BGM+Med,112.0,34.0,177.0
+225,2007,0,airway scope,airwai scope,,2008,2,27,ok,1,0,0,0.9516666666666667,Med,BGM+Med,26.0,25.0,76.0
+229,2006,0,education exam,educ exam,education exams,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,41.0,40.0,110.0
+236,2005,0,space aeronautical,space aeronaut,,2005,2,33,ok,1,0,0,1.0,SOC,SOC,36.0,14.0,50.0
+255,2010,0,realidad aumentada,realidad aumentada,realidade aumentada,2010,2,33,ok,1,0,0,0.5566666666666666,SOC,SOC,42.0,71.0,174.0
+261,2014,0,antagonist oral,antagonist oral,,2014,2,27,ok,1,0,0,0.9172690763052209,Med,BGM+Med,22.0,91.0,211.0
+264,2010,0,ieee membership form,ieee membership form,,2010,3,22,ok,1,0,0,0.7192090395480226,Eng,CS+Eng,24.0,42.0,126.0
+346,2006,0,modified particle,modifi particl,modified particles,2007,2,22,ok,1,0,0,0.675,Eng,CS+Eng,20.0,36.0,83.0
+388,2006,0,federation of sports,feder of sport,,2006,3,33,ok,1,0,0,1.0,SOC,SOC,50.0,1.0,51.0
+424,2013,0,materials project,materi project,,2013,2,22,ok,1,0,0,0.5,Eng,CS+Eng,63.0,44.0,4378.0
+435,2009,0,kemampuan membaca,kemampuan membaca,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,47.0,114.0,242.0
+443,2011,0,matematika materi,matematika materi,,2011,2,33,ok,1,0,0,0.9729166666666667,SOC,SOC,23.0,58.0,108.0
+467,2011,0,radio kit,radio kit,,2011,2,17,ok,1,0,0,1.0,CS,CS+Eng,175.0,101.0,429.0
+482,2008,0,pt bank negara,pt bank negara,,2008,3,14;33,ok,2,1,0,0.5,SOC,SOC,30.0,33.0,80.0
+486,2011,0,physics and topology,physic and topologi,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,25.0,1.0,26.0
+500,2014,0,suhu dan kalor,suhu dan kalor,,2015,3,33,ok,1,0,0,0.9937853107344632,SOC,SOC,27.0,79.0,181.0
+552,2007,0,picture power,pictur power,picturing power,2007,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,40.0,110.0
+599,2014,0,calr mutations,calr mutat,calr mutation|calr mutated,2014,2,27,ok,1,0,0,1.0,Med,BGM+Med,38.0,30.0,99.0
+640,2014,0,wates kulon progo,wate kulon progo,,2014,3,11;33,ok,2,1,0,0.5,LIFEENV,LIFEENV,49.0,9.0,81.0
+648,2014,0,french supreme administrative,french suprem administr,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,20.0,28.0,62.0
+668,2013,0,berbasis inkuiri terbimbing,berbasi inkuiri terbimb,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,28.0,41.0,113.0
+692,2012,0,provinsi gorontalo,provinsi gorontalo,,2012,2,33,ok,1,0,0,0.775,SOC,SOC,42.0,107.0,194.0
+706,2014,0,teks eksposisi,tek eksposisi,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,32.0,91.0
+728,2011,0,perancangan komunikasi visual,perancangan komunikasi visual,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,27.0,107.0,162.0
+729,2009,0,belajar siswa pada,belajar siswa pada,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,145.0,275.0,683.0
+741,2003,0,nuclear crisis,nuclear crisi,,2003,2,33,ok,1,0,0,1.0,SOC,SOC,26.0,19.0,67.0
+764,2013,0,sungai raya,sungai raya,,2013,2,33,ok,1,0,0,0.6745098039215686,SOC,SOC,36.0,52.0,122.0
+775,2011,0,bank umum syariah,bank umum syariah,,2011,3,14,ok,1,0,0,0.7692307692307693,SOC,SOC,21.0,45.0,84.0
+783,2009,0,strategi pembelajaran,strategi pembelajaran,,2009,2,33,ok,1,0,0,0.9229885057471264,SOC,SOC,82.0,185.0,368.0
+873,2003,0,proxy signature,proxi signatur,proxy signatures,2003,2,17,ok,1,0,0,0.7055555555555555,CS,CS+Eng,25.0,55.0,117.0
+876,2005,0,education questions,educ question,education question|education questioning|educational question,2005,2,27,ok,1,0,0,0.8181818181818182,Med,BGM+Med,42.0,47.0,129.0
+895,2004,0,scanner multibarrette,scanner multibarrett,scanner multibarrettes,2004,2,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,22.0,12.0,43.0
+906,2009,0,kryzysu gospodarczego,kryzysu gospodarczego,,2009,2,14,ok,1,0,0,0.4527777777777777,SOC,SOC,35.0,67.0,183.0
+909,2006,0,endothelial keratoplasty,endotheli keratoplasti,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,31.0,125.0,226.0
+956,2009,0,pada anak usia,pada anak usia,,2009,3,33,ok,1,0,0,0.7407407407407407,SOC,SOC,28.0,65.0,137.0
+961,2011,0,quality nursing,qualiti nurs,,2011,2,27,ok,1,0,0,0.6567164179104477,Med,BGM+Med,84.0,136.0,342.0
+976,2008,0,library music,librari music,libraries music,2008,2,12,ok,1,0,0,1.0,SOC,SOC,21.0,71.0,179.0
+1008,2009,0,belajar fisika siswa,belajar fisika siswa,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,40.0,53.0,159.0
+1013,2013,0,day photo,dai photo,,2013,2,31,ok,1,0,0,1.0,PHYS,PHYS,27.0,3.0,40.0
+1027,2006,0,post katrina,post katrina,,2007,2,33,ok,1,0,0,0.5675925925925926,SOC,SOC,34.0,65.0,157.0
+1048,2009,0,gaya bahasa,gaya bahasa,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,23.0,19.0,55.0
+1071,2014,0,motorik kasar melalui,motorik kasar melalui,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,22.0,26.0,60.0
+1086,2003,0,obstet gynecol,obstet gynecol,,2003,2,27,ok,1,0,0,0.9796296296296296,Med,BGM+Med,22.0,20.0,51.0
+1107,2014,0,ice bucket,ic bucket,,2014,2,27,weak_home,1,0,1,0.3,Med,BGM+Med,23.0,10.0,47.0
+1127,2011,0,morgan state university,morgan state univers,,2011,3,19,ok,1,0,0,1.0,PHYS,PHYS,22.0,11.0,47.0
+1151,2013,0,deposit ratio,deposit ratio,,2015,2,14,ok,1,0,0,0.56,SOC,SOC,43.0,85.0,180.0
+1152,2014,0,dispositions relatives,disposit rel,,2014,2,33,ok,1,0,0,0.7777777777777778,SOC,SOC,24.0,21.0,62.0
+1158,2006,0,mars science laboratory,mar scienc laboratori,,2006,3,31,ok,1,0,0,0.5866666666666667,PHYS,PHYS,25.0,29.0,61.0
+1233,2012,0,gev higgs,gev higg,,2012,2,31,ok,1,0,0,1.0,PHYS,PHYS,43.0,39.0,136.0
+1250,2003,0,political civilization,polit civil,politics civilization|politics civil|political civility,2003,2,33,ok,1,0,0,0.7941176470588236,SOC,SOC,183.0,113.0,490.0
+1259,2003,0,sars cases,sar case,,2003,2,27,ok,1,0,0,0.7916666666666666,Med,BGM+Med,20.0,1.0,32.0
+1261,2009,0,kabupaten pasuruan,kabupaten pasuruan,,2009,2,33,ok,1,0,0,0.9318181818181818,SOC,SOC,115.0,112.0,509.0
+1270,2011,0,front back matter,front back matter,,2011,3,27,ok,1,0,0,0.7122324159021407,Med,BGM+Med,28.0,417.0,921.0
+1285,2014,0,universitas telkom,universita telkom,,2014,2,17;33,ok,2,1,0,0.5693333333333332,CS,CS+Eng,41.0,72.0,220.0
+1293,2013,0,kabupaten parigi moutong,kabupaten parigi moutong,,2013,3,33,ok,1,0,0,0.5726190476190477,SOC,SOC,23.0,29.0,88.0
+1295,2014,0,ekonomi asean,ekonomi asean,,2014,2,33,ok,1,0,0,0.6592592592592593,SOC,SOC,40.0,172.0,317.0
+1319,2009,0,pembelajaran problem,pembelajaran problem,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,40.0,84.0,176.0
+1321,2007,0,prestasi belajar,prestasi belajar,,2009,2,33,ok,1,0,0,0.6989189189189189,SOC,SOC,63.0,539.0,727.0
+1333,2005,0,navigational electronics,navig electron,navigation electronic,2005,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,18.0,56.0
+1341,2007,0,cognitive wireless cloud,cognit wireless cloud,cognitive wireless clouds,2007,3,33;22,ok,2,1,0,0.5333333333333333,SOC,SOC,32.0,1.0,38.0
+1355,2004,0,multivariate statistik,multivari statistik,,2005,2,22;23,ok,2,1,0,0.5,Eng,CS+Eng,25.0,26.0,74.0
+1369,2012,0,dr zainoel abidin,dr zainoel abidin,,2012,3,27,ok,1,0,0,1.0,Med,BGM+Med,56.0,143.0,258.0
+1380,2007,0,phenylenebis nitrilomethylidyne,phenylenebi nitrilomethylidyn,,2007,2,16,ok,1,0,0,1.0,PHYS,PHYS,21.0,19.0,53.0
+1396,2007,0,yu jiao,yu jiao,,2007,2,33,ok,1,0,0,1.0,SOC,SOC,24.0,54.0,120.0
+1419,2003,0,music cataloging,music catalog,,2003,2,17,ok,1,0,0,1.0,CS,CS+Eng,28.0,27.0,81.0
+1455,2011,0,kemampuan komunikasi,kemampuan komunikasi,,2013,2,33,ok,1,0,0,0.9234567901234567,SOC,SOC,25.0,141.0,215.0
+1464,2010,0,choroidal thickness,choroid thick,choroid thickness|choroidal thicknesses,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,24.0,122.0,210.0
+1500,2006,0,ultra performance liquid,ultra perform liquid,,2006,3,16,ok,1,0,0,0.9609929078014184,PHYS,PHYS,32.0,117.0,209.0
+1569,2010,0,surakarta tahun ajaran,surakarta tahun ajaran,,2011,3,33,ok,1,0,0,1.0,SOC,SOC,29.0,88.0,196.0
+1592,2011,0,pengaruh customer,pengaruh custom,,2011,2,14,ok,1,0,0,0.6923076923076923,SOC,SOC,23.0,29.0,62.0
+1625,2014,0,blurred lines,blur line,blurred line|blurring lines,2014,2,33,ok,1,0,0,0.6833333333333333,SOC,SOC,29.0,39.0,122.0
+1635,2011,0,festival internacional,festiv internacion,,2013,2,12,ok,1,0,0,0.6933333333333334,SOC,SOC,24.0,163.0,216.0
+1656,2013,0,degree profiles,degre profil,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,60.0,3.0,66.0
+1693,2003,0,zno nanorods,zno nanorod,zno nanorod,2003,2,22,ok,1,0,0,0.42444444444444446,Eng,CS+Eng,22.0,120.0,204.0
+1696,2006,0,exercise file,exercis file,,2006,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,8.0,39.0
+1698,2011,0,cosmology the next,cosmologi the next,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,29.0,1.0,30.0
+1726,2013,0,sungai penuh,sungai penuh,,2013,2,33,ok,1,0,0,0.95,SOC,SOC,30.0,19.0,62.0
+1727,2013,0,kepolisian dalam,kepolisian dalam,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,26.0,68.0
+1750,2014,0,signatures of selection,signatur of select,signature of selection,2016,3,13,ok,1,0,0,0.7686274509803922,BGM,BGM+Med,24.0,100.0,149.0
+1755,2012,0,fiscal cliff,fiscal cliff,,2012,2,33,weak_home,1,0,1,0.3222222222222222,SOC,SOC,35.0,6.0,77.0
+1759,2013,0,dimensional dirac,dimension dirac,,2014,2,31,ok,1,0,0,0.7888888888888889,PHYS,PHYS,22.0,47.0,106.0
+1850,2010,0,anak kelompok,anak kelompok,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,54.0,256.0,476.0
+1853,2010,0,inflammasome activation,inflammasom activ,inflammasome activity,2010,2,24,ok,1,0,0,0.4689655172413793,LIFEENV,LIFEENV,29.0,84.0,149.0
+1880,2004,0,donghai bridge,donghai bridg,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,26.0,10.0,52.0
+1903,2009,0,human pluripotent stem,human pluripot stem,,2009,3,13,ok,1,0,0,0.6559748427672957,BGM,BGM+Med,27.0,97.0,188.0
+1966,2013,0,pdf ebook,pdf ebook,,2013,2,12,ok,1,0,0,1.0,SOC,SOC,26.0,14.0,42.0
+2007,2004,0,additives and products,addit and product,addition and product,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,38.0,32.0,102.0
+2053,2008,0,pada perpustakaan,pada perpustakaan,,2008,2,17,ok,1,0,0,0.8,CS,CS+Eng,67.0,31.0,109.0
+2118,2006,0,concept of honor,concept of honor,concept of honors,2006,3,33,ok,1,0,0,0.6714285714285714,SOC,SOC,44.0,18.0,95.0
+2121,2006,0,socialist honor,socialist honor,socialist honors|socialistic honor,2006,2,33,ok,1,0,0,0.5652173913043478,SOC,SOC,24.0,3.0,46.0
+2127,2014,0,masyarakat ekonomi,masyarakat ekonomi,,2014,2,33,ok,1,0,0,0.6266666666666667,SOC,SOC,37.0,173.0,309.0
+2129,2006,0,berbasis multimedia,berbasi multimedia,,2006,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,22.0,38.0,72.0
+2136,2009,0,signless laplacian,signless laplacian,signless laplacians,2009,2,26,ok,1,0,0,0.6649122807017543,MATHDEC,MATHDEC,23.0,33.0,79.0
+2147,2011,0,topological invariants,topolog invari,topological invariant|topological invariance,2011,2,26,ok,1,0,0,0.65,MATHDEC,MATHDEC,42.0,56.0,117.0
+2192,2004,0,systems society,system societi,system society,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,48.0,30.0,123.0
+2238,2011,0,drug shortages,drug shortag,drug shortage,2011,2,27,ok,1,0,0,0.8421052631578948,Med,BGM+Med,69.0,69.0,247.0
+2275,2014,0,suan sunandha rajabhat,suan sunandha rajabhat,,2014,3,14,ok,1,0,0,0.6333333333333333,SOC,SOC,35.0,19.0,68.0
+2306,2007,0,tho ws,tho w,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,25.0,16.0,54.0
+2322,2010,0,bermain peran,bermain peran,,2010,2,33,ok,1,0,0,0.9933333333333334,SOC,SOC,40.0,39.0,109.0
+2384,2011,0,bisnis online,bisni onlin,,2011,2,33,ok,1,0,0,0.9982905982905983,SOC,SOC,29.0,6.0,76.0
+2412,2006,0,earth syst,earth syst,,2006,2,23,ok,1,0,0,1.0,LIFEENV,LIFEENV,21.0,14.0,61.0
+2425,2004,0,competition council,competit council,,2005,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,85.0,208.0
+2536,2006,0,variational iteration,variat iter,variational iterative|variation iteration,2006,2,26;31,ok,2,1,0,0.5641025641025641,MATHDEC,MATHDEC,43.0,96.0,237.0
+2539,2003,0,research on urban,research on urban,research on urbanization|researches on urban,2003,3,33,weak_home,1,0,1,0.28,SOC,SOC,20.0,25.0,61.0
+2550,2008,0,pt bpr,pt bpr,pt bprs,2008,2,33;14,ok,2,1,0,0.5833333333333334,SOC,SOC,28.0,37.0,84.0
+2566,2008,0,hasil belajar siswa,hasil belajar siswa,,2009,3,33,ok,1,0,0,0.9567765567765568,SOC,SOC,25.0,516.0,806.0
+2569,2014,0,khusus tahun,khusu tahun,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,51.0,108.0,272.0
+2581,2011,0,ips di sma,ip di sma,,2011,3,33,ok,1,0,0,0.9333333333333333,SOC,SOC,30.0,69.0,114.0
+2599,2007,0,kerja karyawan pada,kerja karyawan pada,,2008,3,14;33,ok,2,1,0,0.6,SOC,SOC,28.0,42.0,135.0
+2609,2005,0,amendment bill,amend bill,amendments bill|amended bill,2005,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,34.0,32.0,117.0
+2612,2005,0,japanese circulation society,japanes circul societi,,2005,3,33,ok,1,0,0,0.9983221476510067,SOC,SOC,1192.0,153.0,1464.0
+2645,2009,0,monolayer graphene,monolay graphen,monolayer graphenes,2010,2,31,ok,1,0,0,0.6846153846153846,PHYS,PHYS,22.0,67.0,136.0
+2656,2007,0,micro and macroscopic,micro and macroscop,,2007,3,22,ok,1,0,0,0.7142857142857143,Eng,CS+Eng,102.0,5.0,110.0
+2660,2004,0,images in emergency,imag in emerg,imaging in emergency,2004,3,27,ok,1,0,0,1.0,Med,BGM+Med,27.0,30.0,101.0
+2670,2009,0,unique child,uniqu child,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,70.0,42.0,178.0
+2676,2003,0,patients with sars,patient with sar,patient with sars,2003,3,27,ok,1,0,0,0.7650793650793651,Med,BGM+Med,39.0,13.0,87.0
+2694,2014,0,liver partition,liver partit,,2014,2,27,ok,1,0,0,0.9047619047619048,Med,BGM+Med,22.0,62.0,111.0
+2726,2011,0,state revenue,state revenu,state revenues,2011,2,33,ok,1,0,0,0.5833333333333334,SOC,SOC,58.0,84.0,167.0
+2749,2009,0,library copyright,librari copyright,libraries copyright,2009,2,17,ok,1,0,0,0.75,CS,CS+Eng,28.0,134.0,194.0
+2776,2010,0,university for example,univers for exampl,universities for example,2010,3,33,ok,1,0,0,0.7069444444444445,SOC,SOC,31.0,51.0,126.0
+2805,2007,0,online social,onlin social,online socialization,2007,2,33,ok,1,0,0,0.6436781609195402,SOC,SOC,48.0,107.0,225.0
+2810,2008,0,care seminar,care seminar,,2008,2,33,ok,1,0,0,0.9677419354838709,SOC,SOC,31.0,41.0,107.0
+2825,2004,0,dietetic products nutrition,dietet product nutrit,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,33.0,8.0,61.0
+2853,2003,0,marrow mesenchymal,marrow mesenchym,,2003,2,27,ok,1,0,0,0.5681818181818182,Med,BGM+Med,72.0,205.0,401.0
+2895,2008,0,castration resistant prostate,castrat resist prostat,castrate resistant prostate|castration resistant prostatic,2008,3,27,ok,1,0,0,0.926829268292683,Med,BGM+Med,43.0,146.0,283.0
+2978,2013,0,menulis teks,menuli tek,,2013,2,33,ok,1,0,0,0.9846846846846847,SOC,SOC,34.0,151.0,275.0
+2979,2013,0,kebugaran jasmani,kebugaran jasmani,,2013,2,33,ok,1,0,0,0.6206896551724138,SOC,SOC,64.0,98.0,248.0
+2986,2005,0,stress and inflammation,stress and inflamm,,2005,3,27,ok,1,0,0,0.7426666666666667,Med,BGM+Med,22.0,45.0,101.0
+2999,2009,0,library guides,librari guid,library guide|libraries guide|library guided|libraries guided,2010,2,33;17,ok,2,1,0,0.6,SOC,SOC,86.0,309.0,656.0
+3009,2006,0,rural construction,rural construct,,2006,2,33,ok,1,0,0,0.5421052631578948,SOC,SOC,77.0,156.0,389.0
+3013,2008,0,efficient dye sensitized,effici dye sensit,efficiency dye sensitized,2009,3,16,weak_home,1,0,1,0.3697916666666667,PHYS,PHYS,24.0,47.0,105.0
+3017,2012,0,trayvon martin,trayvon martin,,2012,2,33,ok,1,0,0,0.7230769230769231,SOC,SOC,21.0,23.0,79.0
+3070,2009,0,doctrina registral,doctrina registr,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,38.0,41.0,91.0
+3085,2009,0,safety nutrition,safeti nutrit,,2009,2,11,ok,1,0,0,0.6666666666666666,LIFEENV,LIFEENV,78.0,2.0,82.0
+3128,2014,0,nagan raya,nagan raya,,2014,2,11,ok,1,0,0,0.45,LIFEENV,LIFEENV,53.0,52.0,144.0
+3304,2013,0,age of big,ag of big,,2014,3,17,weak_home,1,0,1,0.3097560975609756,CS,CS+Eng,21.0,54.0,143.0
+3331,2004,0,countryside and farmers,countrysid and farmer,,2004,3,33,ok,1,0,0,0.56,SOC,SOC,20.0,9.0,40.0
+3420,2006,0,ghg emissions,ghg emiss,ghg emission|ghgs emission|ghgs emissions,2008,2,22,ok,1,0,0,0.4218390804597701,Eng,CS+Eng,22.0,58.0,99.0
+3462,2010,0,endothelin research,endothelin research,,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,1.0,24.0
+3463,2008,0,pelanggan pada,pelanggan pada,,2008,2,33;14,ok,2,1,0,0.6,SOC,SOC,25.0,33.0,85.0
+3464,2008,0,melalui pembelajaran,melalui pembelajaran,,2009,2,33,ok,1,0,0,0.8951612903225806,SOC,SOC,23.0,129.0,223.0
+3496,2008,0,hubungan pengetahuan,hubungan pengetahuan,,2008,2,33,ok,1,0,0,0.8,SOC,SOC,20.0,44.0,93.0
+3497,2013,0,courses moocs,cours mooc,course mooc|courses mooc,2014,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,21.0,48.0,118.0
+3551,2009,0,jurusan akuntansi,jurusan akuntansi,,2009,2,14,ok,1,0,0,0.5,SOC,SOC,25.0,23.0,73.0
+3557,2013,0,effectiveness of structured,effect of structur,effectiveness of structural,2014,3,27,ok,1,0,0,0.4,Med,BGM+Med,27.0,82.0,174.0
+3565,2011,0,world academy,world academi,,2011,2,27,ok,1,0,0,0.75,Med,BGM+Med,79.0,33.0,114.0
+3577,2005,0,rm mgb,rm mgb,,2005,2,22,ok,1,0,0,1.0,Eng,CS+Eng,44.0,49.0,104.0
+3582,2006,0,honor and dishonor,honor and dishonor,honors and dishonors,2006,3,33,ok,1,0,0,0.6,SOC,SOC,23.0,9.0,51.0
+3586,2011,0,occupy wall street,occupi wall street,occupies wall street,2011,3,33,ok,1,0,0,0.9137254901960785,SOC,SOC,46.0,59.0,207.0
+3595,2013,0,carry select adder,carri select adder,,2013,3,17;22,ok,2,1,0,0.5203703703703704,CS,CS+Eng,33.0,55.0,123.0
+3622,2009,0,pelaksanaan strategi,pelaksanaan strategi,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,9.0,39.0
+3625,2009,0,penerapan model pembelajaran,penerapan model pembelajaran,,2009,3,33,ok,1,0,0,0.9841269841269842,SOC,SOC,161.0,511.0,991.0
+3661,2009,0,siklus belajar,siklu belajar,,2009,2,33,ok,1,0,0,0.9742424242424242,SOC,SOC,46.0,31.0,127.0
+3678,2009,0,kelas iv sdn,kela iv sdn,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,80.0,426.0,806.0
+3682,2005,0,tod und geschlecht,tod und geschlecht,,2005,3,33,ok,1,0,0,1.0,SOC,SOC,34.0,1.0,35.0
+3683,2006,0,swift observations,swift observ,swift observation|swift observes,2006,2,31,ok,1,0,0,0.611111111111111,PHYS,PHYS,49.0,111.0,296.0
+3714,2008,0,earthquake rescue,earthquak rescu,earthquake rescuing,2008,2,36,ok,1,0,0,0.6416666666666667,Med,BGM+Med,31.0,11.0,64.0
+3788,2010,0,pembelajaran cooperative,pembelajaran cooper,,2010,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,34.0,42.0,113.0
+3813,2009,0,nlrp3 inflammasome,nlrp3 inflammasom,nlrp3 inflammasomes,2009,2,24,ok,1,0,0,0.6897435897435897,LIFEENV,LIFEENV,25.0,55.0,128.0
+3815,2013,0,quantified self,quantifi self,quantifying self,2013,2,33,weak_home,1,0,1,0.34705882352941175,SOC,SOC,26.0,30.0,91.0
+3826,2012,0,kongresse symposien seminare,kongress symposien seminar,,2012,3,22,ok,1,0,0,1.0,Eng,CS+Eng,22.0,24.0,70.0
+3870,2013,0,park geun hye,park geun hye,,2013,3,33,ok,1,0,0,0.9166666666666666,SOC,SOC,42.0,21.0,91.0
+3898,2013,0,kabupaten madiun,kabupaten madiun,,2013,2,33,ok,1,0,0,0.9752380952380953,SOC,SOC,35.0,50.0,141.0
+3908,2007,0,asthma control test,asthma control test,,2007,3,27,ok,1,0,0,0.9,Med,BGM+Med,23.0,32.0,74.0
+3928,2006,0,search form,search form,search forms,2006,2,14;17,ok,2,1,0,0.5,SOC,SOC,64.0,2.0,118.0
+3931,2012,0,menengah pertama negeri,menengah pertama negeri,,2013,3,17,ok,1,0,0,0.7533333333333334,CS,CS+Eng,28.0,52.0,152.0
+3934,2012,0,kabupaten gorontalo,kabupaten gorontalo,,2012,2,33,ok,1,0,0,0.989010989010989,SOC,SOC,119.0,321.0,631.0
+3957,2008,0,penggunaan media,penggunaan media,,2009,2,33,ok,1,0,0,0.9013333333333333,SOC,SOC,20.0,143.0,229.0
+3962,2012,0,gorontalo tahun,gorontalo tahun,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,26.0,49.0,111.0
+3984,2008,0,wenchuan earthquake,wenchuan earthquak,wenchuan earthquakes,2008,2,27,weak_home,1,0,1,0.3956834532374101,Med,BGM+Med,537.0,583.0,1939.0
+4024,2013,0,martin buber,martin buber,martin bubers,2015,2,33,ok,1,0,0,0.6359999999999999,SOC,SOC,29.0,150.0,194.0
+4026,2012,0,ley reguladora,lei reguladora,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,35.0,181.0,234.0
+4027,2009,0,sekolah terhadap,sekolah terhadap,,2009,2,33,ok,1,0,0,0.8822222222222222,SOC,SOC,36.0,51.0,133.0
+4032,2009,0,obat pada,obat pada,,2011,2,11,ok,1,0,0,0.6923076923076923,LIFEENV,LIFEENV,21.0,35.0,72.0
+4066,2007,0,detall aeri,detal aeri,,2007,2,12,ok,1,0,0,1.0,SOC,SOC,28.0,15.0,44.0
+4085,2013,0,aplikasi android,aplikasi android,,2013,2,17,ok,1,0,0,0.6813333333333332,CS,CS+Eng,24.0,56.0,102.0
+4093,2008,0,liver stiffness,liver stiff,,2008,2,27,ok,1,0,0,0.9772727272727272,Med,BGM+Med,47.0,81.0,190.0
+4112,2004,0,fig ds,fig d,,2004,2,12,ok,1,0,0,1.0,SOC,SOC,28.0,20.0,116.0
+4146,2003,0,zno nanowires,zno nanowir,zno nanowire,2003,2,22,weak_home,1,0,1,0.3422222222222222,Eng,CS+Eng,28.0,117.0,218.0
+4169,2004,0,shrimp zircon,shrimp zircon,,2004,2,19,ok,1,0,0,0.9380952380952381,PHYS,PHYS,21.0,40.0,76.0
+4173,2008,0,aktiva tetap pada,aktiva tetap pada,,2008,3,14,ok,1,0,0,1.0,SOC,SOC,58.0,15.0,83.0
+4178,2013,0,nakuru county,nakuru counti,,2013,2,33,ok,1,0,0,0.5175438596491229,SOC,SOC,23.0,57.0,126.0
+4201,2014,0,ebola crisis,ebola crisi,,2014,2,33,weak_home,1,0,1,0.35714285714285715,SOC,SOC,31.0,18.0,91.0
+4209,2012,0,tikus sprague dawley,tiku spragu dawlei,,2012,3,27,ok,1,0,0,0.8142857142857144,Med,BGM+Med,25.0,33.0,85.0
+4214,2012,0,bermain pada siswa,bermain pada siswa,,2012,3,33,ok,1,0,0,1.0,SOC,SOC,35.0,23.0,78.0
+4219,2013,0,hulu kabupaten,hulu kabupaten,,2013,2,33;11,ok,2,1,0,0.5316666666666666,SOC,SOC,32.0,39.0,112.0
+4225,2011,0,medida socioeducativa,medida socioeducativa,medidas socioeducativas,2012,2,33,ok,1,0,0,0.7606060606060606,SOC,SOC,23.0,26.0,72.0
+4271,2003,0,unit information,unit inform,uniting information,2003,2,27;33,ok,2,1,0,0.5,Med,BGM+Med,20.0,18.0,78.0
+4280,2013,0,media sosial,media sosial,,2013,2,33,ok,1,0,0,0.84,SOC,SOC,49.0,236.0,383.0
+4296,2014,0,terhadap kualitas laporan,terhadap kualita laporan,,2014,3,33;14,ok,2,1,0,0.5666666666666667,SOC,SOC,43.0,71.0,154.0
+4343,2009,0,mhd free convection,mhd free convect,mhd free convective,2011,3,22,ok,1,0,0,0.7528735632183907,Eng,CS+Eng,23.0,40.0,83.0
+4383,2009,0,informasi berbasis,informasi berbasi,,2009,2,17,ok,1,0,0,0.6153846153846154,CS,CS+Eng,28.0,47.0,106.0
+4427,2004,0,indice analitico giurisprudenza,indic analitico giurisprudenza,,2004,3,14,ok,1,0,0,1.0,SOC,SOC,61.0,69.0,172.0
+4432,2010,0,students entrepreneurial,student entrepreneuri,student entrepreneurial,2010,2,33,weak_home,1,0,1,0.316,SOC,SOC,24.0,38.0,93.0
+4440,2005,0,swift bat trigger,swift bat trigger,,2005,3,31,ok,1,0,0,1.0,PHYS,PHYS,24.0,8.0,47.0
+4446,2008,0,writing citing,write cite,write cite,2008,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,64.0,108.0
+4468,2005,0,data watch,data watch,,2005,2,27,ok,1,0,0,0.9900990099009902,Med,BGM+Med,205.0,135.0,455.0
+4524,2003,0,human mesenchymal stem,human mesenchym stem,,2004,3,27,ok,1,0,0,0.65625,Med,BGM+Med,43.0,152.0,304.0
+4574,2013,0,nanosheet arrays,nanosheet arrai,nanosheet array|nanosheets array|nanosheets arrays,2014,2,22;25,ok,2,1,0,0.45,Eng,CS+Eng,30.0,72.0,155.0
+4588,2012,0,deskriptif kualitatif,deskriptif kualitatif,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,60.0,139.0
+4596,2013,0,library print collections,librari print collect,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,232.0,1.0,234.0
+4597,2012,0,radioactive cesium,radioact cesium,,2012,2,11,weak_home,1,0,1,0.35714285714285715,LIFEENV,LIFEENV,63.0,149.0,346.0
+4613,2012,0,daily journal,daili journal,,2012,2,33,weak_home,1,0,1,0.3333333333333333,SOC,SOC,178.0,287.0,519.0
+4614,2006,0,cardiometabolic risk,cardiometabol risk,cardiometabolic risks,2007,2,27,ok,1,0,0,0.696969696969697,Med,BGM+Med,47.0,114.0,244.0
+4656,2009,0,teams games tournament,team game tournament,team games tournament|teams games tournaments|team game tournament|teams game tournament|team games tournaments,2009,3,33,ok,1,0,0,0.9980952380952381,SOC,SOC,68.0,80.0,235.0
+4691,2006,0,journal usual peer,journal usual peer,,2006,3,13,ok,1,0,0,1.0,BGM,BGM+Med,39.0,11.0,77.0
+4759,2003,0,c2 ed board,c2 ed board,,2003,3,26,ok,1,0,0,0.4166666666666667,MATHDEC,MATHDEC,21.0,31.0,86.0
+4814,2013,0,image gallery,imag galleri,,2013,2,22;33,ok,2,1,0,0.5,Eng,CS+Eng,80.0,65.0,155.0
+4821,2011,0,ramifications to structure,ramif to structur,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,25.0,1.0,26.0
+4826,2008,0,library physics,librari physic,library physical|libraries physics|libraries physical,2008,2,17,ok,1,0,0,1.0,CS,CS+Eng,23.0,42.0,160.0
+4904,2011,0,jean guillaume lanuque,jean guillaum lanuqu,,2011,3,33,ok,1,0,0,1.0,SOC,SOC,41.0,1.0,78.0
+4921,2005,0,research and simulation,research and simul,research and simulating,2005,3,22,ok,1,0,0,0.9111111111111112,Eng,CS+Eng,21.0,40.0,82.0
+4948,2003,0,overall construction,overal construct,overall constructing,2003,2,33,ok,1,0,0,0.47368421052631576,SOC,SOC,21.0,7.0,40.0
+4952,2004,0,abu ghraib,abu ghraib,,2004,2,33,ok,1,0,0,0.8666666666666667,SOC,SOC,31.0,49.0,127.0
+5003,2013,0,cas campus,ca campu,,2013,2,17,ok,1,0,0,1.0,CS,CS+Eng,32.0,1.0,34.0
+5015,2012,0,reading promotion,read promot,,2013,2,17,ok,1,0,0,0.85,CS,CS+Eng,21.0,46.0,117.0
+5070,2013,0,mikrokontroler arduino,mikrokontrol arduino,mikrokontroller arduino,2013,2,17,ok,1,0,0,0.7037037037037037,CS,CS+Eng,24.0,32.0,80.0
+5075,2008,0,economic downturn,econom downturn,economic downturns,2009,2,33,weak_home,1,0,1,0.3745098039215686,SOC,SOC,26.0,111.0,257.0
+5086,2012,0,library gallery,librari galleri,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,73.0,1.0,74.0
+5096,2007,0,pso algorithm,pso algorithm,pso algorithms,2008,2,22,ok,1,0,0,0.7555555555555556,Eng,CS+Eng,48.0,86.0,208.0
+5108,2011,0,kabupaten cianjur,kabupaten cianjur,,2013,2,11,ok,1,0,0,0.47619047619047616,LIFEENV,LIFEENV,24.0,95.0,152.0
+5125,2011,0,real sala,real sala,,2011,2,12,ok,1,0,0,1.0,SOC,SOC,197.0,89.0,302.0
+5140,2004,0,privacy preserving,privaci preserv,privacy preservation|privacy preserved,2004,2,17,ok,1,0,0,0.8533333333333334,CS,CS+Eng,29.0,57.0,128.0
+5164,2008,0,zhi yuan,zhi yuan,,2010,2,27,ok,1,0,0,0.75,Med,BGM+Med,20.0,48.0,84.0
+5207,2013,0,ratir optical,ratir optic,,2013,2,31,ok,1,0,0,1.0,PHYS,PHYS,49.0,24.0,114.0
+5220,2006,0,areas of science,area of scienc,,2006,3,31,ok,1,0,0,1.0,PHYS,PHYS,30.0,30.0,85.0
+5243,2008,0,beibu gulf economic,beibu gulf econom,,2008,3,33,ok,1,0,0,0.7279279279279279,SOC,SOC,32.0,38.0,127.0
+5256,2011,0,information and technology,inform and technologi,information and technologies,2011,3,33,ok,1,0,0,0.4,SOC,SOC,54.0,91.0,182.0
+5289,2006,0,late preterm,late preterm,late preterms,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,31.0,79.0,140.0
+5321,2009,0,topology of polymers,topologi of polym,,2009,3,31,ok,1,0,0,0.9259259259259259,PHYS,PHYS,37.0,26.0,63.0
+5326,2007,0,human pathological mutations,human patholog mutat,,2007,3,13,ok,1,0,0,1.0,BGM,BGM+Med,27.0,39.0,68.0
+5331,2008,0,lambeth palace ms,lambeth palac m,,2008,3,12,ok,1,0,0,1.0,SOC,SOC,154.0,1.0,155.0
+5342,2014,0,ebola outbreak,ebola outbreak,ebola outbreaks,2014,2,27,ok,1,0,0,0.675,Med,BGM+Med,101.0,106.0,355.0
+5352,2014,0,kesadaran wajib pajak,kesadaran wajib pajak,,2014,3,14,ok,1,0,0,0.7238095238095238,SOC,SOC,23.0,47.0,92.0
+5355,2009,0,profesional guru,profesion guru,,2009,2,33,ok,1,0,0,0.9,SOC,SOC,29.0,19.0,68.0
+5372,2011,0,android smartphone,android smartphon,android smartphones,2011,2,17,ok,1,0,0,0.5303030303030304,CS,CS+Eng,20.0,45.0,87.0
+5378,2008,0,draft common frame,draft common frame,,2008,3,33,ok,1,0,0,1.0,SOC,SOC,24.0,18.0,70.0
+5388,2012,0,adv healthcare mater,adv healthcar mater,,2013,3,22,ok,1,0,0,1.0,Eng,CS+Eng,22.0,38.0,98.0
+5430,2007,0,orl ws,orl w,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,24.0,55.0
+5433,2008,0,hukum perjanjian,hukum perjanjian,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,23.0,15.0,45.0
+5436,2010,0,peningkatan motivasi,peningkatan motivasi,,2010,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,30.0,56.0,123.0
+5465,2005,0,handed metamaterials,hand metamateri,handed metamaterial,2005,2,22;31,ok,2,1,0,0.5026666666666667,Eng,CS+Eng,28.0,38.0,102.0
+5471,2011,0,printemps arabe,printemp arab,printemps arabes,2011,2,33,ok,1,0,0,0.9705882352941176,SOC,SOC,48.0,38.0,167.0
+5484,2006,0,world voice,world voic,world voices,2006,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,43.0,120.0
+5493,2013,0,crispr cas9,crispr cas9,,2013,2,13,ok,1,0,0,0.9032258064516129,BGM,BGM+Med,37.0,503.0,787.0
+5497,2008,0,carbon society,carbon societi,carbon societies,2008,2,33,ok,1,0,0,0.435632183908046,SOC,SOC,20.0,58.0,113.0
+5513,2008,0,jurisprudencia tribunal,jurisprudencia tribun,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,51.0,58.0,173.0
+5539,2009,0,singosari malang,singosari malang,,2009,2,33,ok,1,0,0,0.8266666666666667,SOC,SOC,34.0,45.0,114.0
+5619,2008,0,sub prime,sub prime,,2008,2,20,ok,1,0,0,0.45454545454545453,SOC,SOC,73.0,43.0,189.0
+5663,2009,0,siswa smp,siswa smp,,2009,2,33,ok,1,0,0,0.9444444444444444,SOC,SOC,98.0,164.0,387.0
+5668,2011,0,sp cultivated,sp cultiv,sp cultivation,2011,2,11,ok,1,0,0,0.8571428571428571,LIFEENV,LIFEENV,140.0,10.0,153.0
+5735,2014,0,latino art,latino art,,2014,2,12;33,ok,2,1,0,0.5,SOC,SOC,112.0,9.0,122.0
+5741,2007,0,rm sn,rm sn,,2007,2,22,ok,1,0,0,0.9772727272727272,Eng,CS+Eng,44.0,36.0,91.0
+5742,2007,0,esmo clinical,esmo clinic,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,38.0,54.0,141.0
+5761,2007,0,gilliam elizabeth gilliam,gilliam elizabeth gilliam,,2007,3,33,ok,1,0,0,1.0,SOC,SOC,32.0,27.0,60.0
+5766,2011,0,tohoku earthquake,tohoku earthquak,tohoku earthquakes,2011,2,19,ok,1,0,0,0.7113402061855669,PHYS,PHYS,252.0,223.0,894.0
+5812,2003,0,research young investigator,research young investig,,2003,3,28,ok,1,0,0,1.0,LIFEENV,LIFEENV,140.0,146.0,460.0
+5817,2010,0,pengaruh model pembelajaran,pengaruh model pembelajaran,,2012,3,33,ok,1,0,0,0.8710144927536232,SOC,SOC,21.0,129.0,194.0
+5886,2012,0,terhadap pemahaman konsep,terhadap pemahaman konsep,,2012,3,33,ok,1,0,0,1.0,SOC,SOC,31.0,82.0,199.0
+5890,2004,0,s3 leitlinie,s3 leitlini,,2004,2,27,ok,1,0,0,1.0,Med,BGM+Med,25.0,2.0,29.0
+5893,2012,0,serum metabolomics,serum metabolom,serum metabolomic|serum metabolome,2012,2,27,ok,1,0,0,0.5137254901960785,Med,BGM+Med,20.0,37.0,78.0
+5906,2014,0,consumo seguridad alimentaria,consumo seguridad alimentaria,,2014,3,33,ok,1,0,0,0.8550724637681159,SOC,SOC,29.0,6.0,58.0
+5917,2007,0,journals chem eur,journal chem eur,,2007,3,16,ok,1,0,0,1.0,PHYS,PHYS,66.0,47.0,150.0
+5940,2005,0,brumaire an iii,brumair an iii,,2005,3,12,ok,1,0,0,1.0,SOC,SOC,216.0,2.0,218.0
+5972,2010,0,diri siswa,diri siswa,,2010,2,33,ok,1,0,0,0.995,SOC,SOC,25.0,37.0,85.0
+6008,2004,0,ferroelectrics and frequency,ferroelectr and frequenc,,2004,3,22,ok,1,0,0,1.0,Eng,CS+Eng,38.0,23.0,78.0
+6020,2011,0,resources for faculty,resourc for faculti,resource for faculty,2011,3,27,ok,1,0,0,1.0,Med,BGM+Med,90.0,5.0,115.0
+6039,2009,0,library environmental,librari environment,libraries environmental,2009,2,17,ok,1,0,0,0.6666666666666666,CS,CS+Eng,30.0,38.0,101.0
+6054,2009,0,bidang studi,bidang studi,,2009,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,28.0,25.0,84.0
+6098,2013,0,massive mimo,massiv mimo,,2013,2,22,ok,1,0,0,0.4923611111111111,Eng,CS+Eng,35.0,253.0,404.0
+6120,2009,0,slumdog millionaire,slumdog millionair,,2009,2,33,ok,1,0,0,0.48,SOC,SOC,21.0,9.0,47.0
+6129,2012,0,braf mutant,braf mutant,,2013,2,27,ok,1,0,0,0.898611111111111,Med,BGM+Med,24.0,39.0,91.0
+6154,2013,0,terhadap peserta didik,terhadap peserta didik,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,36.0,36.0,97.0
+6161,2008,0,jurisprudence en bref,jurisprud en bref,,2008,3,33,ok,1,0,0,1.0,SOC,SOC,22.0,23.0,45.0
+6174,2014,0,l1 expression,l1 express,l1 expressing,2014,2,27,ok,1,0,0,0.6916666666666667,Med,BGM+Med,36.0,184.0,316.0
+6182,2005,0,mrs john,mr john,mr john,2005,2,12;27,ok,2,1,0,0.5,SOC,SOC,30.0,12.0,50.0
+6214,2012,0,abidin banda aceh,abidin banda aceh,,2012,3,27,ok,1,0,0,1.0,Med,BGM+Med,55.0,164.0,278.0
+6240,2009,0,kemampuan menulis,kemampuan menuli,,2009,2,33,ok,1,0,0,0.9811320754716981,SOC,SOC,88.0,126.0,338.0
+6244,2009,0,vacuum sealing drainage,vacuum seal drainag,,2010,3,27,ok,1,0,0,0.9,Med,BGM+Med,22.0,81.0,155.0
+6285,2011,0,tev pp collisions,tev pp collis,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,37.0,28.0,115.0
+6293,2011,0,estimated state,estim state,estimating state,2011,2,22,ok,1,0,0,0.4444444444444444,Eng,CS+Eng,40.0,83.0,138.0
+6320,2011,0,library homepage,librari homepag,library homepages,2011,2,17,ok,1,0,0,1.0,CS,CS+Eng,111.0,54.0,255.0
+6337,2013,0,implementasi peraturan,implementasi peraturan,,2013,2,33,ok,1,0,0,0.9506666666666667,SOC,SOC,41.0,84.0,204.0
+6344,2005,0,iodp expedition,iodp expedit,iodp expeditions,2005,2,19,ok,1,0,0,0.9444444444444445,PHYS,PHYS,23.0,14.0,60.0
+6347,2012,0,siswa melalui penggunaan,siswa melalui penggunaan,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,23.0,27.0,80.0
+6396,2009,0,meningkatkan penguasaan,meningkatkan penguasaan,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,23.0,41.0,113.0
+6408,2009,0,meningkatkan hasil belajar,meningkatkan hasil belajar,,2009,3,33,ok,1,0,0,0.9873417721518988,SOC,SOC,267.0,656.0,1636.0
+6416,2013,0,life of pi,life of pi,,2013,3,33;12,ok,2,1,0,0.44166666666666665,SOC,SOC,26.0,23.0,83.0
+6423,2013,0,penerapan konseling,penerapan konsel,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,55.0,20.0,157.0
+6441,2010,0,usia subur,usia subur,,2010,2,27,ok,1,0,0,0.4444444444444444,Med,BGM+Med,25.0,48.0,97.0
+6468,2009,0,hasil belajar matematika,hasil belajar matematika,,2010,3,33,ok,1,0,0,0.9923497267759562,SOC,SOC,45.0,154.0,332.0
+6511,2009,0,hasil belajar ips,hasil belajar ip,,2010,3,33,ok,1,0,0,1.0,SOC,SOC,22.0,168.0,312.0
+6550,2012,0,konsep siswa,konsep siswa,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,106.0,211.0
+6581,2006,0,society membership information,societi membership inform,,2006,3,17,ok,1,0,0,0.9030303030303031,CS,CS+Eng,20.0,7.0,49.0
+6585,2007,0,miguel de unamuno,miguel de unamuno,,2009,3,12,ok,1,0,0,0.7921568627450981,SOC,SOC,32.0,159.0,220.0
+6593,2006,0,hu jintao,hu jintao,,2007,2,33,ok,1,0,0,0.8866666666666667,SOC,SOC,21.0,27.0,76.0
+6599,2013,0,kabupaten pesisir selatan,kabupaten pesisir selatan,,2013,3,33,ok,1,0,0,0.8767123287671232,SOC,SOC,88.0,87.0,252.0
+6602,2013,0,bank supplies,bank suppli,bank supply,2013,2,18;27,ok,2,1,0,0.5,MATHDEC,MATHDEC,45.0,1.0,48.0
+6606,2004,0,bgh njw,bgh njw,,2004,2,33,ok,1,0,0,1.0,SOC,SOC,53.0,62.0,174.0
+6609,2011,0,estudiantes de grado,estudiant de grado,estudiantes de grados,2011,3,33,ok,1,0,0,0.88,SOC,SOC,32.0,60.0,142.0
+6625,2014,0,cell rna,cell rna,cells rna,2016,2,13,ok,1,0,0,0.7344444444444443,BGM,BGM+Med,21.0,202.0,263.0
+6632,2004,0,antisera expanded hormone,antisera expand hormon,,2004,3,27,ok,1,0,0,0.6470588235294117,Med,BGM+Med,34.0,36.0,103.0
+6682,2003,0,special edition theme,special edit theme,,2003,3,33,ok,1,0,0,1.0,SOC,SOC,34.0,43.0,120.0
+6704,2010,0,ansys workbench,ansi workbench,,2010,2,22,ok,1,0,0,0.9784313725490196,Eng,CS+Eng,23.0,60.0,121.0
+6716,2010,0,citizens united,citizen unit,,2010,2,33,ok,1,0,0,0.8933333333333333,SOC,SOC,55.0,47.0,182.0
+6726,2013,0,motivasi belajar dengan,motivasi belajar dengan,,2013,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,26.0,36.0,99.0
+6739,2013,0,s1 ison,s1 ison,,2013,2,31,ok,1,0,0,0.8431372549019609,PHYS,PHYS,25.0,10.0,73.0
+6744,2009,0,program studi pendidikan,program studi pendidikan,,2009,3,33,ok,1,0,0,0.92,SOC,SOC,41.0,59.0,133.0
+6745,2011,0,bolezn yu,bolezn yu,,2011,2,27,ok,1,0,0,1.0,Med,BGM+Med,32.0,24.0,60.0
+6771,2014,0,wall imaging,wall imag,wall image|wall images,2016,2,27,ok,1,0,0,0.6280701754385966,Med,BGM+Med,23.0,301.0,349.0
+6782,2013,0,kepala desa,kepala desa,,2013,2,33,ok,1,0,0,0.9727272727272728,SOC,SOC,29.0,53.0,138.0
+6783,2010,0,meningkatkan pembelajaran,meningkatkan pembelajaran,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,52.0,219.0
+6814,2013,0,hasil belajar lompat,hasil belajar lompat,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,23.0,18.0,67.0
+6815,2014,0,industrial usando,industri usando,,2014,2,22,ok,1,0,0,1.0,Eng,CS+Eng,25.0,2.0,28.0
+6890,2009,0,kelas ii sdn,kela ii sdn,,2010,3,33,ok,1,0,0,1.0,SOC,SOC,25.0,55.0,152.0
+6912,2013,0,menggunakan metode demonstrasi,menggunakan metod demonstrasi,,2013,3,33,ok,1,0,0,0.936231884057971,SOC,SOC,22.0,25.0,111.0
+6917,2008,0,generation biofuels,gener biofuel,generation biofuel,2008,2,22,ok,1,0,0,0.4948717948717949,Eng,CS+Eng,23.0,46.0,96.0
+6918,2014,0,checkpoint inhibitors,checkpoint inhibitor,checkpoint inhibitor,2015,2,27,ok,1,0,0,0.7615384615384616,Med,BGM+Med,32.0,243.0,372.0
+6935,2014,0,magazine archive,magazin archiv,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,48.0,1.0,50.0
+6972,2006,0,asamblea constituyente,asamblea constituyent,asambleas constituyentes,2007,2,33,ok,1,0,0,1.0,SOC,SOC,26.0,18.0,113.0
+6990,2013,0,tahun di tk,tahun di tk,,2013,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,37.0,59.0,141.0
+6995,2010,0,resources division,resourc divis,resource division,2010,2,22,ok,1,0,0,1.0,Eng,CS+Eng,118.0,48.0,204.0
+7000,2009,0,pembelajaran ipa,pembelajaran ipa,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,38.0,187.0,294.0
+7069,2007,0,sistem pendukung keputusan,sistem pendukung keputusan,,2008,3,17,ok,1,0,0,0.7222222222222222,CS,CS+Eng,21.0,63.0,168.0
+7081,2009,0,seton hall university,seton hall univers,,2009,3,12,ok,1,0,0,1.0,SOC,SOC,138.0,86.0,439.0
+7118,2011,0,berbasis web studi,berbasi web studi,,2011,3,17,ok,1,0,0,0.9,CS,CS+Eng,57.0,61.0,160.0
+7178,2014,0,national cancer data,nation cancer data,,2014,3,27,ok,1,0,0,1.0,Med,BGM+Med,55.0,166.0,278.0
+7185,2013,0,eosinophilic granulomatosis,eosinophil granulomatosi,,2013,2,27,ok,1,0,0,0.975,Med,BGM+Med,47.0,66.0,161.0
+7189,2005,0,moll op,moll op,,2005,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,47.0,14.0,72.0
+7193,2013,0,weapon sights,weapon sight,weapon sight,2013,2,22,ok,1,0,0,1.0,Eng,CS+Eng,33.0,26.0,62.0
+7194,2004,0,allergies nda,allergi nda,,2004,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,32.0,7.0,58.0
+7199,2005,0,building harmonious,build harmoni,build harmonious|building harmony,2006,2,33,ok,1,0,0,0.6151515151515151,SOC,SOC,32.0,117.0,232.0
+7202,2013,0,aktivitas pembelajaran matematika,aktivita pembelajaran matematika,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,24.0,4.0,57.0
+7214,2014,0,internet finance,internet financ,,2014,2,14,weak_home,1,0,1,0.391304347826087,SOC,SOC,72.0,28.0,154.0
+7222,2009,0,h1n1 vaccine,h1n1 vaccin,h1n1 vaccination|h1n1 vaccines,2009,2,27,ok,1,0,0,0.8936170212765957,Med,BGM+Med,82.0,166.0,382.0
+7245,2014,0,uk biobank,uk biobank,,2014,2,27,ok,1,0,0,0.6933333333333334,Med,BGM+Med,25.0,63.0,120.0
+7248,2013,0,kantor camat,kantor camat,,2013,2,33,ok,1,0,0,0.6833333333333333,SOC,SOC,38.0,66.0,152.0
+7254,2007,0,direct renin,direct renin,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,28.0,84.0
+7302,2011,0,date current,date current,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,4.0,36.0
+7303,2012,0,tk aisyiyah,tk aisyiyah,,2012,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,25.0,70.0,142.0
+7317,2010,0,paul society,paul societi,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,114.0,26.0,158.0
+7373,2008,0,committee hearings,committe hear,committee hearing|committee hears,2009,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,20.0,122.0,282.0
+7378,2007,0,mediziner kunstkolumne,medizin kunstkolumn,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,36.0,24.0,87.0
+7384,2009,0,head shop,head shop,head shops,2009,2,27,ok,1,0,0,1.0,Med,BGM+Med,42.0,6.0,61.0
+7412,2011,0,biodiversity an outline,biodivers an outlin,,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,45.0,14.0,59.0
+7443,2009,0,skynet prompt,skynet prompt,,2009,2,31,ok,1,0,0,1.0,PHYS,PHYS,20.0,1.0,24.0
+7465,2012,0,islam pada,islam pada,,2012,2,33,ok,1,0,0,0.925,SOC,SOC,35.0,50.0,116.0
+7477,2011,0,draft genome,draft genom,draft genomes|draft genomic,2012,2,13,ok,1,0,0,0.9682539682539683,BGM,BGM+Med,74.0,411.0,701.0
+7515,2006,0,rights council,right council,,2006,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,25.0,15.0,63.0
+7640,2011,0,bath salts,bath salt,bath salt,2011,2,27,ok,1,0,0,0.8408163265306122,Med,BGM+Med,24.0,52.0,143.0
+7641,2014,0,figures bibliogr,figur bibliogr,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,19.0,74.0
+7647,2013,0,siswa terhadap hasil,siswa terhadap hasil,,2014,3,33,ok,1,0,0,0.9555555555555555,SOC,SOC,26.0,54.0,118.0
+7652,2006,0,spectral domain optical,spectral domain optic,spectral domain optic,2006,3,27;22,ok,2,1,0,0.5333333333333333,Med,BGM+Med,25.0,78.0,138.0
+7666,2012,0,ilmu pengetahuan alam,ilmu pengetahuan alam,,2013,3,33,ok,1,0,0,0.882962962962963,SOC,SOC,28.0,85.0,234.0
+7697,2009,0,risk mds,risk md,,2011,2,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,20.0,54.0,95.0
+7784,2013,0,ultrathin nanosheets,ultrathin nanosheet,ultrathin nanosheet,2014,2,16,weak_home,1,0,1,0.33999999999999997,PHYS,PHYS,21.0,52.0,105.0
+7808,2013,0,studi pada dinas,studi pada dina,,2014,3,33,ok,1,0,0,0.925,SOC,SOC,39.0,95.0,221.0
+7828,2004,0,peptides natural hormones,peptid natur hormon,,2004,3,27,ok,1,0,0,0.6470588235294117,Med,BGM+Med,34.0,36.0,103.0
+7836,2012,0,decoction in treatment,decoct in treatment,,2012,3,27,ok,1,0,0,0.9245614035087719,Med,BGM+Med,22.0,42.0,115.0
+7842,2004,0,spitzer observations,spitzer observ,spitzer observed,2004,2,31,ok,1,0,0,1.0,PHYS,PHYS,21.0,42.0,95.0
+7869,2004,0,theory and surrounding,theori and surround,,2004,3,26,ok,1,0,0,0.8181818181818182,MATHDEC,MATHDEC,33.0,20.0,53.0
+7915,2011,0,didik kelas,didik kela,,2013,2,33,ok,1,0,0,0.888888888888889,SOC,SOC,23.0,114.0,172.0
+7925,2004,0,significance of survivin,signific of survivin,,2004,3,27,ok,1,0,0,0.8666666666666667,Med,BGM+Med,21.0,36.0,88.0
+7959,2014,0,genetics handling,genet handl,,2014,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,33.0,18.0,79.0
+7981,2013,0,guru bk,guru bk,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,20.0,65.0
+7989,2009,0,function projective,function project,functional project|functional projections|functional projection|functional projects,2011,2,31,ok,1,0,0,0.6,PHYS,PHYS,22.0,35.0,79.0
+8003,2013,0,grande guerra,grand guerra,,2014,2,33,ok,1,0,0,0.7875,SOC,SOC,29.0,177.0,326.0
+8015,2009,0,pada sma,pada sma,,2009,2,33,ok,1,0,0,0.6291666666666667,SOC,SOC,44.0,67.0,163.0
+8017,2009,0,h1n1 flu,h1n1 flu,,2009,2,27,ok,1,0,0,0.6666666666666666,Med,BGM+Med,70.0,32.0,162.0
+8023,2013,0,melalui modifikasi,melalui modifikasi,,2013,2,33,ok,1,0,0,0.88,SOC,SOC,22.0,27.0,80.0
+8046,2008,0,genetic constitution,genet constitut,,2008,2,13,ok,1,0,0,0.9928057553956834,BGM,BGM+Med,140.0,12.0,155.0
+8061,2003,0,respiratory syndrome sars,respiratori syndrom sar,,2003,3,27,ok,1,0,0,0.8536585365853658,Med,BGM+Med,145.0,91.0,359.0
+8063,2005,0,algebra languages,algebra languag,algebras languages|algebraic languages,2005,2,26,ok,1,0,0,0.9878787878787879,MATHDEC,MATHDEC,46.0,37.0,129.0
+8083,2012,0,real decreto,real decreto,reales decretos,2014,2,33,ok,1,0,0,0.903030303030303,SOC,SOC,247.0,1097.0,1488.0
+8111,2011,0,tohoku oki earthquake,tohoku oki earthquak,,2011,3,19,ok,1,0,0,0.9677419354838709,PHYS,PHYS,71.0,90.0,249.0
+8145,2008,0,technology focus,technologi focu,,2008,2,22,ok,1,0,0,1.0,Eng,CS+Eng,35.0,46.0,125.0
+8161,2009,0,campus andaluz,campu andaluz,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,5.0,37.0
+8166,2013,0,wujud benda,wujud benda,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,7.0,35.0
+8191,2012,0,berbasis mobile,berbasi mobil,,2013,2,17,ok,1,0,0,0.7888888888888889,CS,CS+Eng,35.0,65.0,164.0
+8235,2012,0,multiple breath,multipl breath,,2012,2,27,ok,1,0,0,1.0,Med,BGM+Med,20.0,27.0,57.0
+8259,2012,0,suatu penelitian,suatu penelitian,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,172.0,266.0
+8295,2013,0,kabupaten melawi,kabupaten melawi,,2013,2,33,ok,1,0,0,0.5222222222222223,SOC,SOC,25.0,25.0,65.0
+8303,2014,0,aceh dalam,aceh dalam,,2014,2,33,ok,1,0,0,0.9523809523809523,SOC,SOC,32.0,44.0,107.0
+8345,2004,0,ieee circuits,ieee circuit,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,24.0,19.0,59.0
+8351,2008,0,early evaluation program,earli evalu program,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,20.0,16.0,47.0
+8369,2013,0,solok selatan,solok selatan,,2013,2,33,ok,1,0,0,0.984375,SOC,SOC,73.0,34.0,136.0
+8398,2005,0,clinical capsules,clinic capsul,,2005,2,27,ok,1,0,0,1.0,Med,BGM+Med,182.0,35.0,329.0
+8405,2009,0,rotterdam rules,rotterdam rule,,2009,2,33,ok,1,0,0,0.6052631578947368,SOC,SOC,59.0,49.0,176.0
+8514,2009,0,smk ardjuna,smk ardjuna,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,28.0,16.0,68.0
+8517,2012,0,myrtle beach,myrtl beach,,2012,2,27;33,ok,2,1,0,0.5,Med,BGM+Med,24.0,80.0,134.0
+8526,2004,0,circuits and systems,circuit and system,circuit and system,2004,3,22,ok,1,0,0,0.828125,Eng,CS+Eng,82.0,76.0,252.0
+8558,2009,0,h1n1 infection,h1n1 infect,h1n1 infected|h1n1 infections,2009,2,27,ok,1,0,0,0.7777777777777779,Med,BGM+Med,38.0,129.0,297.0
+8566,2011,0,bac pro,bac pro,bacs pros,2011,2,33,ok,1,0,0,1.0,SOC,SOC,107.0,46.0,221.0
+8603,2012,0,phys rev d85,phy rev d85,,2012,3,31,ok,1,0,0,1.0,PHYS,PHYS,22.0,1.0,25.0
+8607,2014,0,daya dukung pondasi,daya dukung pondasi,,2014,3,22,ok,1,0,0,1.0,Eng,CS+Eng,34.0,25.0,80.0
+8611,2009,0,keaktifan siswa,keaktifan siswa,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,47.0,107.0
+8618,2003,0,us product,u product,us production|us productivity|us productive,2003,2,27,ok,1,0,0,0.9129943502824858,Med,BGM+Med,20.0,70.0,151.0
+8645,2009,0,pelajaran sejarah,pelajaran sejarah,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,24.0,10.0,50.0
+8758,2007,0,public signs,public sign,public sign,2007,2,33,weak_home,1,0,1,0.31666666666666665,SOC,SOC,23.0,44.0,93.0
+8766,2009,0,fiscal stimulus,fiscal stimulu,,2009,2,20,ok,1,0,0,0.889855072463768,SOC,SOC,32.0,17.0,82.0
+8769,2004,0,higher vocational institutions,higher vocat institut,higher vocational institutes|higher vocational institute|higher vocational institution,2004,3,17,ok,1,0,0,0.8572649572649573,CS,CS+Eng,26.0,47.0,99.0
+8770,2005,0,swift uvot,swift uvot,,2005,2,31,ok,1,0,0,1.0,PHYS,PHYS,84.0,59.0,224.0
+8800,2007,0,sick children,sick children,,2009,2,27,ok,1,0,0,0.6166666666666667,Med,BGM+Med,25.0,143.0,199.0
+8802,2004,0,ieee antennas,ieee antenna,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,24.0,18.0,67.0
+8860,2008,0,multilayer graphene,multilay graphen,multilayered graphene|multilayer graphenes,2010,2,31,ok,1,0,0,0.7777777777777779,PHYS,PHYS,23.0,50.0,92.0
+8877,2014,0,melatihkan keterampilan,melatihkan keterampilan,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,30.0,58.0,131.0
+8913,2009,0,single incision laparoscopic,singl incis laparoscop,,2010,3,27,ok,1,0,0,0.9387755102040816,Med,BGM+Med,51.0,215.0,463.0
+8919,2013,0,metode discovery,metod discoveri,,2013,2,33,ok,1,0,0,0.9844444444444443,SOC,SOC,37.0,37.0,110.0
+8927,2007,0,forward relaying,forward relai,forward relay|forward relays|forward relayed,2007,2,22,ok,1,0,0,0.7307692307692307,Eng,CS+Eng,23.0,58.0,113.0
+8949,2012,0,ieee xplore digital,ieee xplore digit,,2012,3,22,ok,1,0,0,0.7457627118644068,Eng,CS+Eng,61.0,84.0,262.0
+8986,2005,0,great sumatra,great sumatra,,2005,2,19;22,ok,2,1,0,0.5631578947368421,PHYS,PHYS,20.0,7.0,70.0
+9001,2007,0,journals angew chem,journal angew chem,,2007,3,16,ok,1,0,0,1.0,PHYS,PHYS,36.0,51.0,139.0
+9002,2010,0,eur spine,eur spine,,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,35.0,17.0,99.0
+9004,2010,0,bus coach,bu coach,,2010,2,22,ok,1,0,0,1.0,Eng,CS+Eng,21.0,21.0,62.0
+9024,2012,0,juan francisco,juan francisco,,2014,2,12,ok,1,0,0,0.6583333333333333,SOC,SOC,22.0,323.0,380.0
+9036,2004,0,ieee member digital,ieee member digit,,2004,3,22,ok,1,0,0,0.7916666666666666,Eng,CS+Eng,52.0,19.0,101.0
+9046,2009,0,dengan model pembelajaran,dengan model pembelajaran,,2009,3,33,ok,1,0,0,0.9592592592592593,SOC,SOC,20.0,47.0,94.0
+9107,2012,0,crispr cas,crispr ca,,2013,2,13,ok,1,0,0,0.8658008658008658,BGM,BGM+Med,27.0,119.0,241.0
+9114,2006,0,perancangan dan implementasi,perancangan dan implementasi,,2006,3,17,ok,1,0,0,0.75,CS,CS+Eng,26.0,33.0,92.0
+9124,2014,0,pada sumur,pada sumur,,2014,2,22,ok,1,0,0,0.47619047619047616,Eng,CS+Eng,52.0,69.0,140.0
+9127,2009,0,laparoendoscopic single site,laparoendoscop singl site,,2009,3,27,ok,1,0,0,1.0,Med,BGM+Med,43.0,197.0,365.0
+9151,2010,0,sentenza sez,sentenza sez,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,68.0,53.0,250.0
+9177,2009,0,aktivitas dan hasil,aktivita dan hasil,,2009,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,58.0,289.0,459.0
+9230,2005,0,rfid system,rfid system,rfid systems,2005,2,22,ok,1,0,0,0.5371428571428571,Eng,CS+Eng,35.0,97.0,189.0
+9319,2012,0,chromosomal microarray,chromosom microarrai,chromosome microarray|chromosomal microarrays,2012,2,27;13,ok,2,1,0,0.5294117647058824,Med,BGM+Med,37.0,47.0,113.0
+9324,2009,0,model teams,model team,model team|modeling team|models team,2009,2,33,ok,1,0,0,0.9256410256410257,SOC,SOC,20.0,24.0,82.0
+9380,2010,0,analisis kesalahan,analisi kesalahan,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,46.0,104.0
+9412,2005,0,philip roth,philip roth,,2005,2,12,ok,1,0,0,0.7352941176470588,SOC,SOC,38.0,39.0,109.0
+9447,2007,0,pada remaja,pada remaja,,2007,2,33,ok,1,0,0,0.76,SOC,SOC,33.0,82.0,159.0
+9450,2014,0,outbreak in west,outbreak in west,outbreaks in west,2014,3,27,ok,1,0,0,0.8083333333333333,Med,BGM+Med,32.0,28.0,96.0
+9489,2013,0,lapangan ppl,lapangan ppl,,2013,2,33,ok,1,0,0,0.8,SOC,SOC,132.0,2222.0,4047.0
+9493,2007,0,painleve hierarchies,painlev hierarchi,painlev hierarchy|painlev hierarchies,2007,2,26,ok,1,0,0,1.0,MATHDEC,MATHDEC,20.0,3.0,24.0
+9501,2008,0,kerja puskesmas,kerja puskesma,,2008,2,23,ok,1,0,0,0.6,LIFEENV,LIFEENV,33.0,90.0,168.0
+9559,2009,0,pemahaman siswa,pemahaman siswa,,2010,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,30.0,31.0,90.0
+9610,2012,0,variabel moderasi,variabel moderasi,,2012,2,14,ok,1,0,0,0.6481481481481481,SOC,SOC,33.0,53.0,133.0
+9631,2005,0,teachers job,teacher job,teacher job,2006,2,33,ok,1,0,0,0.55,SOC,SOC,20.0,33.0,81.0
+9633,2009,0,belajar pada,belajar pada,,2009,2,33,ok,1,0,0,0.9606060606060607,SOC,SOC,71.0,107.0,270.0
+9643,2011,0,berbasis web untuk,berbasi web untuk,,2011,3,17,ok,1,0,0,0.7814814814814814,CS,CS+Eng,38.0,53.0,140.0
+9672,2011,0,doctrina institucional,doctrina institucion,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,20.0,62.0
+9680,2011,0,great east,great east,,2011,2,33,ok,1,0,0,0.65,SOC,SOC,182.0,469.0,1172.0
+9683,2010,0,generation sequencing data,gener sequenc data,generation sequence data,2011,3,13,ok,1,0,0,0.9494949494949495,BGM,BGM+Med,25.0,74.0,144.0
+9687,2006,0,crt fed vfd,crt fed vfd,,2006,3,33,ok,1,0,0,1.0,SOC,SOC,35.0,33.0,104.0
+9708,2010,0,veterinary journals,veterinari journal,veterinary journal,2010,2,34,ok,1,0,0,0.8571428571428571,LIFEENV,LIFEENV,52.0,49.0,158.0
+9730,2003,0,back cover,back cover,back covers,2004,2,22,ok,1,0,0,0.5,Eng,CS+Eng,46.0,238.0,518.0
+9802,2012,0,reduced port,reduc port,reduce port|reducing port,2012,2,27,ok,1,0,0,0.7009803921568628,Med,BGM+Med,24.0,40.0,101.0
+9822,2004,0,additives flavourings,addit flavour,,2004,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,26.0,27.0,90.0
+9823,2011,0,former city,former citi,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,28.0,16.0,58.0
+9844,2004,0,webcast video,webcast video,,2004,2,27,ok,1,0,0,1.0,Med,BGM+Med,30.0,1.0,40.0
+9881,2006,0,academic profession,academ profess,,2006,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,33.0,103.0
+9923,2009,0,swine flu vaccine,swine flu vaccin,swine flu vaccination,2009,3,27,ok,1,0,0,0.44285714285714284,Med,BGM+Med,35.0,8.0,53.0
+9932,2011,0,world of reproductive,world of reproduct,,2011,3,27,ok,1,0,0,1.0,Med,BGM+Med,42.0,62.0,169.0
+9935,2006,0,kerja pada,kerja pada,,2008,2,14,ok,1,0,0,0.6470588235294118,SOC,SOC,24.0,147.0,211.0
+10030,2013,0,estate yang terdaftar,estat yang terdaftar,,2013,3,14,ok,1,0,0,0.9666666666666667,SOC,SOC,22.0,74.0,128.0
+10032,2013,0,fakultas ilmu sosial,fakulta ilmu sosial,,2013,3,33,ok,1,0,0,0.9333333333333333,SOC,SOC,23.0,49.0,95.0
+10055,2013,0,author profiling,author profil,author profile|author profiles,2013,2,17,ok,1,0,0,0.5745098039215686,CS,CS+Eng,26.0,24.0,67.0
+10068,2010,0,grb 100418a,grb 100418a,,2010,2,31,ok,1,0,0,1.0,PHYS,PHYS,30.0,3.0,36.0
+10076,2010,0,iranian efl learners,iranian efl learner,iranian efl learner,2011,3,12,ok,1,0,0,0.8205673758865247,SOC,SOC,29.0,167.0,263.0
+10105,2014,0,jian zhu,jian zhu,,2015,2,33,ok,1,0,0,0.625,SOC,SOC,23.0,147.0,312.0
+10112,2005,0,free piezoelectric ceramics,free piezoelectr ceram,free piezoelectric ceramic,2005,3,22,ok,1,0,0,0.5944444444444444,Eng,CS+Eng,22.0,60.0,109.0
+10115,2011,0,arab spring,arab spring,arab springs|arabic spring,2011,2,33,ok,1,0,0,0.9385964912280702,SOC,SOC,208.0,411.0,1046.0
+10118,2009,0,pandemic h1n1,pandem h1n1,,2009,2,27,ok,1,0,0,0.8901098901098902,Med,BGM+Med,128.0,396.0,961.0
+10125,2006,0,pada bank,pada bank,,2008,2,14,ok,1,0,0,0.75,SOC,SOC,31.0,156.0,228.0
+10129,2008,0,fermi gbm detection,fermi gbm detect,,2008,3,31,ok,1,0,0,1.0,PHYS,PHYS,54.0,28.0,203.0
+10135,2009,0,substantiation of health,substanti of health,,2009,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,94.0,142.0,343.0
+10138,2012,0,kabupaten kudus,kabupaten kudu,,2012,2,33,weak_home,1,0,1,0.39761904761904765,SOC,SOC,42.0,90.0,214.0
+10143,2012,0,rhetoric of written,rhetor of written,,2012,3,12,ok,1,0,0,1.0,SOC,SOC,48.0,33.0,99.0
+10152,2009,0,sekolah dasar negeri,sekolah dasar negeri,,2009,3,33,ok,1,0,0,0.8816666666666666,SOC,SOC,44.0,87.0,204.0
+10162,2007,0,applied electromagnetics,appli electromagnet,applied electromagnetic|applying electromagnetic,2007,2,22,ok,1,0,0,0.9,Eng,CS+Eng,83.0,63.0,150.0
+10181,2008,0,reviews livres nouveaux,review livr nouveaux,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,286.0,12.0,458.0
+10226,2010,0,qr code,qr code,qr codes|qr coded,2010,2,22,weak_home,1,0,1,0.35510204081632657,Eng,CS+Eng,42.0,135.0,283.0
+10243,2014,0,structured teaching programme,structur teach programm,,2014,3,27,ok,1,0,0,0.40606060606060607,Med,BGM+Med,42.0,75.0,197.0
+10254,2013,0,prokrastinasi akademik,prokrastinasi akademik,,2013,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,32.0,52.0,121.0
+10312,2006,0,enfermedad renal,enfermedad renal,enfermedades renales,2006,2,27,ok,1,0,0,0.9541666666666667,Med,BGM+Med,33.0,65.0,145.0
+10314,2013,0,kutai timur,kutai timur,,2013,2,22,weak_home,1,0,1,0.3611111111111111,Eng,CS+Eng,23.0,71.0,127.0
+10333,2012,0,ciudades inteligentes,ciudad inteligent,ciudad inteligente,2012,2,33,ok,1,0,0,0.6923076923076923,SOC,SOC,21.0,26.0,55.0
+10340,2010,0,karanganyar tahun,karanganyar tahun,,2011,2,36,ok,1,0,0,0.7142857142857143,Med,BGM+Med,45.0,77.0,185.0
+10341,2010,0,lte system,lte system,lte systems,2010,2,22,ok,1,0,0,0.775,Eng,CS+Eng,51.0,56.0,170.0
+10356,2014,0,silk road economic,silk road econom,,2014,3,33,ok,1,0,0,0.7,SOC,SOC,50.0,42.0,170.0
+10408,2009,0,implementasi pembelajaran,implementasi pembelajaran,,2009,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,44.0,39.0,132.0
+10421,2009,0,jigsaw untuk,jigsaw untuk,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,38.0,34.0,122.0
+10452,2004,0,project agreement,project agreement,project agreements,2004,2,21,ok,1,0,0,1.0,PHYS,PHYS,49.0,67.0,183.0
+10453,2003,0,line version,line version,line versions,2003,2,28,ok,1,0,0,1.0,LIFEENV,LIFEENV,30.0,17.0,50.0
+10469,2009,0,model think pair,model think pair,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,26.0,34.0,93.0
+10506,2011,0,coli o104,coli o104,,2011,2,27,ok,1,0,0,0.9,Med,BGM+Med,47.0,28.0,119.0
+10531,2013,0,siswa tunagrahita,siswa tunagrahita,,2014,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,23.0,70.0,139.0
+10580,2004,0,instructor note,instructor note,instructors notes,2004,2,14,ok,1,0,0,1.0,SOC,SOC,37.0,32.0,101.0
+10613,2005,0,presentation soft,present soft,,2005,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,64.0,1.0,65.0
+10618,2012,0,costa concordia,costa concordia,,2012,2,33,ok,1,0,0,0.5384615384615384,SOC,SOC,34.0,10.0,64.0
+10628,2009,0,magazine front,magazin front,,2009,2,22,ok,1,0,0,0.9411764705882353,Eng,CS+Eng,40.0,8.0,54.0
+10632,2011,0,circulation clinical summaries,circul clinic summari,,2011,3,27,ok,1,0,0,1.0,Med,BGM+Med,49.0,49.0,148.0
+10634,2014,0,jaminan kesehatan nasional,jaminan kesehatan nasion,,2014,3,33,ok,1,0,0,0.6619047619047619,SOC,SOC,28.0,89.0,208.0
+10661,2013,0,dr soedarso,dr soedarso,,2013,2,14,ok,1,0,0,1.0,SOC,SOC,30.0,28.0,77.0
+10681,2008,0,academic success,academ success,academically successful|academic successes,2010,2,33,ok,1,0,0,0.6756756756756757,SOC,SOC,77.0,617.0,786.0
+10693,2008,0,pengetahuan dan sikap,pengetahuan dan sikap,,2008,3,33,weak_home,1,0,1,0.375,SOC,SOC,22.0,64.0,119.0
+10697,2012,0,device communications,devic commun,device communication|devices communication,2014,2,22,ok,1,0,0,0.6246376811594203,Eng,CS+Eng,20.0,84.0,140.0
+10698,2004,0,ieee computer society,ieee comput societi,,2004,3,17,ok,1,0,0,0.7727272727272728,CS,CS+Eng,68.0,155.0,248.0
+10722,2010,0,metode bermain,metod bermain,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,85.0,156.0
+10736,2010,0,implantable electronic,implant electron,implantable electronics|implanted electronic|implanted electronics,2010,2,27,ok,1,0,0,0.9041666666666667,Med,BGM+Med,24.0,69.0,134.0
+10738,2014,0,calreticulin mutations,calreticulin mutat,calreticulin mutation,2014,2,27,ok,1,0,0,0.9677419354838709,Med,BGM+Med,32.0,15.0,60.0
+10749,2011,0,pengembangan multimedia,pengembangan multimedia,,2011,2,33,ok,1,0,0,0.9742424242424242,SOC,SOC,20.0,82.0,141.0
+10751,2004,0,old industrial base,old industri base,old industrial bases|old industry base,2004,3,22,weak_home,1,0,1,0.3050847457627119,Eng,CS+Eng,95.0,72.0,262.0
+10771,2008,0,groups and algebraic,group and algebra,groups and algebras,2008,3,26,ok,1,0,0,1.0,MATHDEC,MATHDEC,40.0,43.0,84.0
+10777,2004,0,bulk heterojunction,bulk heterojunct,bulk heterojunctions,2004,2,22,ok,1,0,0,0.5,Eng,CS+Eng,25.0,57.0,118.0
+10810,2010,0,sociala medier,sociala medier,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,53.0,134.0
+10816,2011,0,polyangiitis wegener,polyangi wegen,,2011,2,27,ok,1,0,0,0.9297619047619048,Med,BGM+Med,27.0,54.0,113.0
+10826,2011,0,prophylaxis for hiv,prophylaxi for hiv,,2011,3,27,ok,1,0,0,0.8901960784313725,Med,BGM+Med,21.0,33.0,83.0
+10831,2006,0,light photocatalytic,light photocatalyt,,2006,2,25,weak_home,1,0,1,0.3608695652173913,PHYS,PHYS,26.0,42.0,95.0
+10844,2014,0,2d materials,2d materi,2d material,2015,2,31,ok,1,0,0,0.4,PHYS,PHYS,26.0,138.0,243.0
+10921,2007,0,college ms,colleg m,,2007,2,12,ok,1,0,0,1.0,SOC,SOC,66.0,208.0,488.0
+10944,2012,0,rsup dr kariadi,rsup dr kariadi,,2012,3,27,ok,1,0,0,0.72,Med,BGM+Med,38.0,46.0,130.0
+10945,2008,0,bluetongue virus serotype,bluetongu viru serotyp,bluetongue virus serotypes,2008,3,27,ok,1,0,0,0.5771929824561404,Med,BGM+Med,28.0,49.0,96.0
+10969,2012,0,status gizi dengan,statu gizi dengan,,2012,3,27,ok,1,0,0,0.4166666666666667,Med,BGM+Med,32.0,42.0,106.0
+11008,2011,0,higher level classification,higher level classif,,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,47.0,16.0,65.0
+11010,2006,0,light extraction,light extract,,2006,2,22,ok,1,0,0,0.7611111111111111,Eng,CS+Eng,46.0,61.0,145.0
+11046,2012,0,braf inhibitor,braf inhibitor,braf inhibitors,2012,2,27,ok,1,0,0,0.8085106382978723,Med,BGM+Med,61.0,90.0,235.0
+11064,2012,0,journal of engineering,journal of engin,,2014,3,22,ok,1,0,0,0.9570776255707762,Eng,CS+Eng,34.0,136.0,189.0
+11073,2013,0,wwwforeurope working,wwwforeurop work,,2013,2,33,ok,1,0,0,0.9574468085106383,SOC,SOC,47.0,31.0,101.0
+11097,2011,0,related aspects sft2010,relat aspect sft2010,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,32.0,1.0,33.0
+11111,2008,0,intravitreal ranibizumab,intravitr ranibizumab,intravitreous ranibizumab,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,30.0,76.0,155.0
+11134,2013,0,kabupaten ketapang,kabupaten ketapang,,2013,2,33,ok,1,0,0,0.7219047619047619,SOC,SOC,33.0,49.0,129.0
+11151,2009,0,pb pb collisions,pb pb collis,,2011,3,31,ok,1,0,0,0.9297101449275362,PHYS,PHYS,20.0,107.0,142.0
+11158,2010,0,cancer literature,cancer literatur,,2011,2,13,ok,1,0,0,0.9358974358974359,BGM,BGM+Med,21.0,30.0,79.0
+11176,2007,0,perusahaan terhadap,perusahaan terhadap,,2007,2,14,ok,1,0,0,0.95,SOC,SOC,24.0,54.0,120.0
+11180,2013,0,pelaku usaha,pelaku usaha,,2013,2,33,ok,1,0,0,0.8200000000000001,SOC,SOC,43.0,65.0,159.0
+11181,2003,0,sars patients,sar patient,sars patient,2003,2,27,ok,1,0,0,0.75,Med,BGM+Med,98.0,52.0,273.0
+11198,2009,0,experimental ageing,experiment ag,experimental aging,2009,2,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,31.0,1.0,34.0
+11249,2011,0,favorite mistake,favorit mistak,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,2.0,56.0
+11259,2012,0,hl lhc,hl lhc,,2012,2,31,ok,1,0,0,0.8777777777777779,PHYS,PHYS,34.0,95.0,173.0
+11261,2012,0,spectroscopic classification,spectroscop classif,spectroscopic classifications,2012,2,31,ok,1,0,0,1.0,PHYS,PHYS,43.0,105.0,195.0
+11275,2007,0,kabupaten malang,kabupaten malang,,2009,2,11,ok,1,0,0,0.5666666666666667,LIFEENV,LIFEENV,28.0,137.0,199.0
+11292,2013,0,asas sn discovery,asa sn discoveri,,2013,3,31,ok,1,0,0,1.0,PHYS,PHYS,26.0,155.0,265.0
+11308,2014,0,checkpoint blockade,checkpoint blockad,checkpoint blockades,2015,2,27,ok,1,0,0,0.8,Med,BGM+Med,37.0,131.0,241.0
+11318,2014,0,magna carta,magna carta,,2015,2,33,ok,1,0,0,0.9197530864197531,SOC,SOC,20.0,97.0,235.0
+11334,2007,0,place on earth,place on earth,places on earth,2007,3,19,ok,1,0,0,0.5,PHYS,PHYS,22.0,6.0,32.0
+11359,2010,0,smart energy,smart energi,,2010,2,22,ok,1,0,0,0.6518518518518519,Eng,CS+Eng,26.0,29.0,80.0
+11367,2006,0,meticillin resistant staphylococcus,meticillin resist staphylococcu,,2006,3,27,ok,1,0,0,1.0,Med,BGM+Med,49.0,82.0,170.0
+11387,2011,0,concilio vaticano ii,concilio vaticano ii,,2012,3,33,ok,1,0,0,0.7058823529411764,SOC,SOC,34.0,113.0,248.0
+11410,2012,0,schmallenberg virus,schmallenberg viru,,2012,2,27,ok,1,0,0,0.65625,Med,BGM+Med,104.0,73.0,271.0
+11447,2008,0,acer aspire,acer aspir,,2008,2,33,ok,1,0,0,0.9259259259259259,SOC,SOC,26.0,25.0,81.0
+11475,2004,0,processing edics,process edic,,2004,2,17,ok,1,0,0,1.0,CS,CS+Eng,23.0,33.0,77.0
+11515,2008,0,biophysical society,biophys societi,,2008,2,13,ok,1,0,0,0.9855072463768116,BGM,BGM+Med,139.0,189.0,502.0
+11526,2009,0,melalui strategi,melalui strategi,,2010,2,33,ok,1,0,0,0.8777777777777779,SOC,SOC,23.0,84.0,145.0
+11560,2009,0,melamine in milk,melamin in milk,,2009,3,11,weak_home,1,0,1,0.3222222222222222,LIFEENV,LIFEENV,37.0,25.0,93.0
+11569,2005,0,hemiptera psyllidae,hemiptera psyllida,,2005,2,11,ok,1,0,0,0.9,LIFEENV,LIFEENV,22.0,31.0,79.0
+11585,2010,0,sweet life,sweet life,,2010,2,13,ok,1,0,0,0.6,BGM,BGM+Med,102.0,82.0,213.0
+11640,2003,0,direct financial interest,direct financi interest,,2003,3,27,ok,1,0,0,1.0,Med,BGM+Med,198.0,1.0,356.0
+11644,2011,0,extended summaries,extend summari,extended summary,2011,2,22,ok,1,0,0,1.0,Eng,CS+Eng,41.0,66.0,180.0
+11646,2005,0,registration required,registr requir,registration requirements|registration requirement,2005,2,27,ok,1,0,0,0.9598484848484848,Med,BGM+Med,21.0,27.0,100.0
+11650,2009,0,sma laboratorium,sma laboratorium,,2009,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,35.0,36.0,114.0
+11670,2007,0,constructing skill,construct skill,construction skill|constructional skill|constructing skills|construction skills|constructive skills,2007,2,22,ok,1,0,0,0.9848484848484849,Eng,CS+Eng,70.0,30.0,111.0
+11678,2005,0,amendment regulations,amend regul,amendment regulation|amendments regulations,2005,2,33,ok,1,0,0,1.0,SOC,SOC,597.0,75.0,771.0
+11684,2014,0,maker space,maker space,maker spaces,2014,2,17,ok,1,0,0,0.4444444444444444,CS,CS+Eng,22.0,14.0,40.0
+11701,2005,0,themen heft,themen heft,,2005,2,22,ok,1,0,0,1.0,Eng,CS+Eng,21.0,17.0,56.0
+11867,2005,0,post tsunami,post tsunami,,2005,2,33,weak_home,1,0,1,0.38,SOC,SOC,41.0,38.0,127.0
+11900,2014,0,riesgo otras entidades,riesgo otra entidad,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,51.0,1.0,71.0
+11929,2005,0,iraqi patients,iraqi patient,iraqi patient,2005,2,27,ok,1,0,0,0.927536231884058,Med,BGM+Med,21.0,24.0,63.0
+11946,2007,0,anonymous poems,anonym poem,,2007,2,12,ok,1,0,0,1.0,SOC,SOC,52.0,16.0,68.0
+11948,2008,0,penerapan pembelajaran,penerapan pembelajaran,,2009,2,33,ok,1,0,0,0.944186046511628,SOC,SOC,24.0,477.0,862.0
+11970,2010,0,media benda,media benda,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,9.0,39.0
+12000,2013,0,android dengan,android dengan,,2013,2,17,ok,1,0,0,0.9351851851851852,CS,CS+Eng,24.0,40.0,84.0
+12004,2012,0,efektivitas model,efektivita model,,2012,2,33,ok,1,0,0,0.9933333333333334,SOC,SOC,36.0,84.0,208.0
+12016,2004,0,deceased donor,deceas donor,deceased donors,2004,2,27,ok,1,0,0,0.935483870967742,Med,BGM+Med,33.0,53.0,122.0
+12035,2013,0,xi jinping,xi jinp,,2013,2,33,ok,1,0,0,0.972972972972973,SOC,SOC,35.0,130.0,220.0
+12052,2012,0,historyczno geograficznego mazowsza,historyczno geograficznego mazowsza,,2012,3,12,ok,1,0,0,1.0,SOC,SOC,34.0,8.0,67.0
+12057,2011,0,graphene nanoplatelets,graphen nanoplatelet,graphene nanoplatelet,2012,2,25;22,ok,2,1,0,0.5533333333333333,PHYS,PHYS,20.0,82.0,157.0
+12090,2008,0,pada toko,pada toko,,2008,2,33;17,ok,2,1,0,0.5,SOC,SOC,20.0,27.0,67.0
+12122,2014,0,cabang banda aceh,cabang banda aceh,,2014,3,14,ok,1,0,0,0.6666666666666666,SOC,SOC,39.0,46.0,119.0
+12137,2013,0,materi perubahan,materi perubahan,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,15.0,70.0
+12148,2013,0,elsa brasil,elsa brasil,,2013,2,36;27,ok,2,1,0,0.4666666666666667,Med,BGM+Med,52.0,44.0,124.0
+12200,2006,0,dosidicus gigas,dosidicu giga,,2006,2,23,ok,1,0,0,0.6561403508771929,LIFEENV,LIFEENV,25.0,29.0,65.0
+12203,2013,0,presupuestos generales,presupuesto general,,2014,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,22.0,281.0,733.0
+12240,2006,0,composite right,composit right,,2006,2,22,ok,1,0,0,0.9375,Eng,CS+Eng,36.0,53.0,125.0
+12242,2007,0,tratado de lisboa,tratado de lisboa,,2007,3,33,ok,1,0,0,1.0,SOC,SOC,27.0,103.0,218.0
+12258,2006,0,commercial bribery,commerci briberi,commercial briberies,2006,2,33,ok,1,0,0,0.65,SOC,SOC,25.0,14.0,83.0
+12313,2003,0,state of play,state of plai,,2005,3,33,ok,1,0,0,0.5121212121212121,SOC,SOC,20.0,62.0,103.0
+12330,2011,0,timbal pb,timbal pb,,2013,2,11,ok,1,0,0,0.592,LIFEENV,LIFEENV,21.0,73.0,137.0
+12386,2014,0,summer student,summer student,summer students,2014,2,31,ok,1,0,0,0.75,PHYS,PHYS,62.0,62.0,188.0
+12398,2004,0,sequential therapy,sequenti therapi,sequential therapies,2004,2,27,ok,1,0,0,0.8566666666666667,Med,BGM+Med,36.0,44.0,117.0
+12411,2004,0,grid resource,grid resourc,grid resources,2005,2,17,ok,1,0,0,0.74,CS,CS+Eng,21.0,75.0,130.0
+12417,2005,0,evaluasi kinerja,evaluasi kinerja,,2005,2,14,weak_home,1,0,1,0.3333333333333333,SOC,SOC,22.0,35.0,77.0
+12452,2013,0,studi putusan,studi putusan,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,31.0,97.0,185.0
+12487,2006,0,self innovation,self innov,self innovative,2006,2,14,weak_home,1,0,1,0.25555555555555554,SOC,SOC,29.0,19.0,83.0
+12504,2004,0,economic census,econom censu,,2004,2,33,ok,1,0,0,0.75,SOC,SOC,54.0,8.0,64.0
+12513,2007,0,ying yu,ying yu,,2007,2,27,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,24.0,56.0,139.0
+12522,2013,0,enjuiciamiento civil,enjuiciamiento civil,,2014,2,33,ok,1,0,0,0.9965949820788531,SOC,SOC,32.0,112.0,341.0
+12534,2013,0,metal dichalcogenides,metal dichalcogenid,metal dichalcogenide,2013,2,31,ok,1,0,0,0.46,PHYS,PHYS,70.0,266.0,508.0
+12551,2011,0,arab revolutions,arab revolut,arab revolution,2012,2,33,ok,1,0,0,0.9583333333333334,SOC,SOC,29.0,21.0,105.0
+12573,2010,0,library legal,librari legal,libraries legal,2010,2,17,ok,1,0,0,0.75,CS,CS+Eng,22.0,27.0,77.0
+12588,2010,0,twelfth five year,twelfth five year,twelfth five years,2010,3,22,ok,1,0,0,0.6756756756756757,Eng,CS+Eng,48.0,61.0,275.0
+12599,2009,0,smk pgri,smk pgri,,2009,2,33,ok,1,0,0,0.9536231884057972,SOC,SOC,62.0,69.0,197.0
+12609,2013,0,siswa ekstrakurikuler,siswa ekstrakurikul,,2013,2,33,ok,1,0,0,0.7,SOC,SOC,22.0,19.0,55.0
+12614,2009,0,recovery and reinvestment,recoveri and reinvest,,2009,3,33,ok,1,0,0,0.44166666666666665,SOC,SOC,65.0,82.0,175.0
+12615,2008,0,vertrag von lissabon,vertrag von lissabon,,2008,3,33,ok,1,0,0,1.0,SOC,SOC,25.0,35.0,76.0
+12625,2012,0,heart team,heart team,,2012,2,27,ok,1,0,0,0.9783333333333334,Med,BGM+Med,23.0,21.0,64.0
+12712,2005,0,berbasis mikrokontroler,berbasi mikrokontrol,berbasis mikrokontroller,2005,2,22,ok,1,0,0,0.7407407407407407,Eng,CS+Eng,20.0,31.0,72.0
+12736,2014,0,map and processing,map and process,,2014,3,22,ok,1,0,0,1.0,Eng,CS+Eng,29.0,376.0,428.0
+12739,2011,0,student profiles,student profil,student profile|students profiles|students profile|student profiling,2013,2,12,ok,1,0,0,0.4782608695652174,SOC,SOC,20.0,129.0,164.0
+12752,2008,0,food crisis,food crisi,,2008,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,96.0,59.0,257.0
+12763,2008,0,peloponnesischen krieges,peloponnesischen krieg,,2008,2,12,ok,1,0,0,1.0,SOC,SOC,39.0,1.0,41.0
+12768,2005,0,swift xrt,swift xrt,,2005,2,31,ok,1,0,0,1.0,PHYS,PHYS,93.0,114.0,336.0
+12774,2013,0,responsive web,respons web,,2013,2,17,ok,1,0,0,0.6111111111111112,CS,CS+Eng,26.0,29.0,96.0
+12782,2011,0,parallel control,parallel control,parallel controlled|parallel controller|parallel controllers,2013,2,22;27,ok,2,1,0,0.5041666666666667,Eng,CS+Eng,29.0,216.0,279.0
+12786,2012,0,asam basa,asam basa,,2012,2,33,ok,1,0,0,0.946031746031746,SOC,SOC,29.0,60.0,126.0
+12809,2014,0,baijiu liquor,baijiu liquor,,2014,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,21.0,1.0,33.0
+12820,2009,0,hasil belajar ipa,hasil belajar ipa,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,36.0,139.0,335.0
+12874,2009,0,festival du film,festiv du film,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,100.0,108.0,320.0
+12876,2003,0,protocol review scenario,protocol review scenario,,2003,3,34,ok,1,0,0,1.0,LIFEENV,LIFEENV,31.0,30.0,85.0
+12893,2008,0,gao zhi,gao zhi,,2010,2,27,ok,1,0,0,0.6,Med,BGM+Med,39.0,120.0,189.0
+12901,2009,0,crisis period,crisi period,crisis periods,2009,2,33,ok,1,0,0,0.4393939393939394,SOC,SOC,26.0,59.0,130.0
+12903,2013,0,jaminan fidusia,jaminan fidusia,,2013,2,33,ok,1,0,0,0.9857142857142857,SOC,SOC,36.0,45.0,118.0
+12910,2006,0,klinische bedeutung,klinisch bedeutung,,2008,2,27,ok,1,0,0,0.9777777777777779,Med,BGM+Med,23.0,80.0,119.0
+12915,2014,0,umeclidinium vilanterol,umeclidinium vilanterol,,2015,2,27,ok,1,0,0,0.9,Med,BGM+Med,20.0,14.0,58.0
+12950,2013,0,aset tetap,aset tetap,,2013,2,14,ok,1,0,0,0.8507246376811594,SOC,SOC,32.0,50.0,124.0
+12962,2003,0,nod2 card15,nod2 card15,,2003,2,27,ok,1,0,0,0.8919191919191919,Med,BGM+Med,31.0,38.0,104.0
+12970,2014,0,periscope internationalist,periscop internationalist,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,49.0,144.0
+12978,2005,0,ji yu,ji yu,,2005,2,27,ok,1,0,0,0.43478260869565216,Med,BGM+Med,29.0,47.0,102.0
+12989,2008,0,useful websites,us websit,,2008,2,27,weak_home,1,0,1,0.36363636363636365,Med,BGM+Med,21.0,12.0,42.0
+13001,2012,0,national case law,nation case law,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,22.0,37.0,63.0
+13079,2010,0,tarlton law,tarlton law,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,9.0,44.0
+13117,2005,0,tools and products,tool and product,,2005,3,17,ok,1,0,0,0.9375,CS,CS+Eng,42.0,6.0,55.0
+13137,2014,0,dalhousie college,dalhousi colleg,,2014,2,27,ok,1,0,0,1.0,Med,BGM+Med,26.0,1.0,28.0
+13139,2007,0,trinity college,triniti colleg,,2009,2,12,ok,1,0,0,0.5888888888888889,SOC,SOC,21.0,214.0,259.0
+13189,2008,0,initiating cells,initi cell,initiating cell|initial cell|initiated cells|initial cells|initiated cell|initiates cell,2008,2,13;27,ok,2,1,0,0.4666666666666667,BGM,BGM+Med,67.0,145.0,297.0
+13193,2005,0,ii bis perchlorate,ii bi perchlor,,2005,3,16,ok,1,0,0,1.0,PHYS,PHYS,21.0,34.0,76.0
+13216,2014,0,untuk melatihkan,untuk melatihkan,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,36.0,62.0,149.0
+13230,2003,0,doha round,doha round,,2003,2,20;33,ok,2,1,0,0.45416666666666666,SOC,SOC,24.0,56.0,98.0
+13248,2014,0,badan penyelenggara,badan penyelenggara,,2015,2,33,ok,1,0,0,0.903030303030303,SOC,SOC,20.0,70.0,139.0
+13265,2013,0,executive appointment,execut appoint,executive appointments,2013,2,33,weak_home,1,0,1,0.3,SOC,SOC,50.0,13.0,86.0
+13269,2012,0,small and micro,small and micro,,2013,3,14,weak_home,1,0,1,0.3357142857142857,SOC,SOC,21.0,63.0,131.0
+13273,2007,0,vorm van een,vorm van een,vorming van een,2007,3,33,ok,1,0,0,1.0,SOC,SOC,37.0,98.0,220.0
+13290,2010,0,reading and composition,read and composit,,2010,3,33,ok,1,0,0,0.9115384615384615,SOC,SOC,25.0,29.0,101.0
+13330,2008,0,messenger flyby,messeng flybi,messenger flybys,2008,2,31;19,ok,2,1,0,0.5111111111111112,PHYS,PHYS,33.0,17.0,62.0
+13344,2007,0,lettre type,lettr type,lettres type,2007,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,48.0,82.0
+13364,2003,0,online version,onlin version,online versions,2003,2,28,ok,1,0,0,0.9230769230769231,LIFEENV,LIFEENV,41.0,77.0,220.0
+13365,2011,0,picture and picture,pictur and pictur,,2013,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,21.0,71.0,102.0
+13370,2006,0,disciplinary physics,disciplinari physic,,2006,2,31,ok,1,0,0,1.0,PHYS,PHYS,30.0,29.0,83.0
+13396,2007,0,mutations gene symbol,mutat gene symbol,,2007,3,13,ok,1,0,0,1.0,BGM,BGM+Med,26.0,36.0,63.0
+13423,2007,0,mata pelajaran,mata pelajaran,,2009,2,33,ok,1,0,0,0.8917602996254682,SOC,SOC,32.0,414.0,496.0
+13427,2009,0,kryzysu finansowego,kryzysu finansowego,,2009,2,20,ok,1,0,0,0.46,SOC,SOC,54.0,90.0,229.0
+13440,2012,0,frimaire an iii,frimair an iii,,2012,3,12,ok,1,0,0,1.0,SOC,SOC,220.0,3.0,223.0
+13470,2010,0,history resources,histori resourc,history resource,2010,2,17;33,ok,2,1,0,0.5,CS,CS+Eng,43.0,26.0,87.0
+13600,2013,0,grb 130831a,grb 130831a,,2013,2,31,ok,1,0,0,1.0,PHYS,PHYS,31.0,1.0,33.0
+13642,2014,0,search smart,search smart,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,52.0,31.0,167.0
+13643,2014,0,leap motion,leap motion,,2014,2,33,weak_home,1,0,1,0.36790123456790125,SOC,SOC,34.0,40.0,127.0
+13664,2004,0,ieee communications,ieee commun,,2004,2,22,ok,1,0,0,0.896551724137931,Eng,CS+Eng,59.0,45.0,149.0
+13677,2004,0,ultrasonics ferroelectrics,ultrason ferroelectr,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,38.0,23.0,78.0
+13704,2011,0,direct acting antiviral,direct act antivir,direct acting antivirals,2012,3,27,ok,1,0,0,0.9533333333333334,Med,BGM+Med,27.0,58.0,134.0
+13732,2005,0,superhydrophobic surfaces,superhydrophob surfac,superhydrophobic surface,2005,2,22,ok,1,0,0,0.5710144927536231,Eng,CS+Eng,27.0,82.0,151.0
+13759,2004,0,double pulsar,doubl pulsar,,2004,2,31,ok,1,0,0,1.0,PHYS,PHYS,26.0,11.0,54.0
+13760,2009,0,malang pada,malang pada,,2009,2,33,ok,1,0,0,0.9933333333333334,SOC,SOC,39.0,33.0,136.0
+13763,2005,0,translation strategies,translat strategi,translation strategy|translating strategies|translating strategy|translational strategies|translational strategy|translations strategies,2007,2,33,weak_home,1,0,1,0.34234234234234234,SOC,SOC,29.0,91.0,155.0
+13791,2013,0,belajar dengan hasil,belajar dengan hasil,,2013,3,33,ok,1,0,0,0.9987654320987654,SOC,SOC,20.0,35.0,84.0
+13799,2011,0,studi fenomenologi,studi fenomenologi,studi fenomenologis,2012,2,33,ok,1,0,0,0.8,SOC,SOC,21.0,50.0,120.0
+13803,2010,0,graphene electrodes,graphen electrod,graphene electrode,2010,2,22,ok,1,0,0,0.5666666666666667,Eng,CS+Eng,23.0,47.0,100.0
+13830,2013,0,terhadap pelaku tindak,terhadap pelaku tindak,,2015,3,33,ok,1,0,0,1.0,SOC,SOC,24.0,43.0,95.0
+13832,2012,0,republic of tatarstan,republ of tatarstan,,2012,3,27,ok,1,0,0,0.475,Med,BGM+Med,23.0,59.0,119.0
+13848,2008,0,lesley university,leslei univers,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,124.0,85.0,315.0
+13874,2014,0,data on zn,data on zn,,2014,3,19,ok,1,0,0,1.0,PHYS,PHYS,49.0,9.0,58.0
+13899,2013,0,matematika menggunakan,matematika menggunakan,,2013,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,36.0,62.0,177.0
+13959,2007,0,gift planning,gift plan,,2007,2,32,ok,1,0,0,0.986111111111111,SOC,SOC,26.0,24.0,73.0
+13985,2006,0,socialist countryside,socialist countrysid,socialistic countryside,2006,2,33,ok,1,0,0,0.43548387096774194,SOC,SOC,111.0,138.0,428.0
+14014,2010,0,implementation status,implement statu,,2010,2,33,weak_home,1,0,1,0.2692307692307692,SOC,SOC,640.0,2679.0,6059.0
+14039,2014,0,digest april,digest april,,2014,2,36,ok,1,0,0,0.8695652173913043,Med,BGM+Med,25.0,4.0,33.0
+14049,2008,0,project teaching,project teach,projects teaching|project teaches|projected teaching,2008,2,17,ok,1,0,0,0.7200000000000001,CS,CS+Eng,33.0,83.0,185.0
+14061,2008,0,struktur mikro,struktur mikro,,2010,2,22,ok,1,0,0,0.8181818181818182,Eng,CS+Eng,21.0,45.0,104.0
+14096,2004,0,obituaire du saint,obituair du saint,,2004,3,12,ok,1,0,0,1.0,SOC,SOC,69.0,1.0,70.0
+14103,2012,0,kulit pisang,kulit pisang,,2013,2,11,ok,1,0,0,0.6513888888888889,LIFEENV,LIFEENV,23.0,49.0,101.0
+14135,2014,0,lapangan ii,lapangan ii,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,28.0,15.0,68.0
+14142,2013,0,papa francisco,papa francisco,,2013,2,33,ok,1,0,0,0.9444444444444444,SOC,SOC,49.0,112.0,253.0
+14182,2007,0,exp function method,exp function method,,2007,3,31,ok,1,0,0,0.6839999999999999,PHYS,PHYS,30.0,43.0,108.0
+14187,2014,0,culinary and hospitality,culinari and hospit,,2014,3,14;33,ok,2,1,0,0.5,SOC,SOC,66.0,6.0,89.0
+14199,2009,0,pelajaran ipa,pelajaran ipa,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,46.0,117.0
+14222,2010,0,home history,home histori,,2010,2,36,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,21.0,10.0,46.0
+14230,2004,0,mechanisms of disease,mechan of diseas,mechanism of disease|mechanism of diseases,2006,3,27,ok,1,0,0,0.825,Med,BGM+Med,22.0,79.0,147.0
+14240,2009,0,kemampuan berpikir,kemampuan berpikir,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,108.0,116.0,365.0
+14242,2008,0,library citation,librari citat,library citations|libraries citation|libraries citations,2010,2,17,ok,1,0,0,1.0,CS,CS+Eng,26.0,56.0,82.0
+14268,2009,0,benjamin button,benjamin button,,2009,2,12,ok,1,0,0,0.5357142857142857,SOC,SOC,26.0,5.0,43.0
+14293,2010,0,note hr zaaknr,note hr zaaknr,,2010,3,14,ok,1,0,0,0.7941176470588236,SOC,SOC,34.0,29.0,80.0
+14317,2011,0,randomized parallel,random parallel,random parallel,2013,2,27,ok,1,0,0,0.9380952380952381,Med,BGM+Med,24.0,220.0,287.0
+14337,2013,0,m2m machine,m2m machin,,2013,2,33,ok,1,0,0,0.9838709677419355,SOC,SOC,64.0,3.0,129.0
+14343,2008,0,grb 080319b,grb 080319b,,2008,2,31,ok,1,0,0,1.0,PHYS,PHYS,43.0,9.0,67.0
+14383,2008,0,fermi lat,fermi lat,,2008,2,31,ok,1,0,0,1.0,PHYS,PHYS,23.0,182.0,316.0
+14428,2004,0,materials in contact,materi in contact,material in contact,2004,3,11,ok,1,0,0,0.8980952380952381,LIFEENV,LIFEENV,33.0,30.0,102.0
+14451,2013,0,english module,english modul,,2013,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,27.0,1.0,31.0
+14508,2008,0,guide home,guid home,guides home|guided home,2008,2,27,ok,1,0,0,0.6666666666666666,Med,BGM+Med,83.0,83.0,249.0
+14552,2008,0,pt petrokimia gresik,pt petrokimia gresik,,2008,3,14,ok,1,0,0,0.6666666666666666,SOC,SOC,26.0,35.0,80.0
+14626,2009,0,generalized equilibrium problems,gener equilibrium problem,generalized equilibrium problem|general equilibrium problems,2010,3,26,ok,1,0,0,0.7053333333333334,MATHDEC,MATHDEC,24.0,34.0,92.0
+14637,2007,0,continuous bottom temperature,continu bottom temperatur,,2007,3,23,ok,1,0,0,1.0,LIFEENV,LIFEENV,42.0,7.0,52.0
+14647,2004,0,oxide nanostructures,oxid nanostructur,oxide nanostructured|oxide nanostructure|oxide nanostructural,2004,2,22,weak_home,1,0,1,0.29365079365079366,Eng,CS+Eng,23.0,42.0,98.0
+14676,2005,0,swift detection,swift detect,swift detects,2005,2,31,ok,1,0,0,1.0,PHYS,PHYS,34.0,80.0,213.0
+14691,2009,0,obama administration,obama administr,obama administrations,2009,2,33,ok,1,0,0,0.7802197802197802,SOC,SOC,141.0,74.0,315.0
+14707,2007,0,elizabeth gilliam elizabeth,elizabeth gilliam elizabeth,,2007,3,33,ok,1,0,0,1.0,SOC,SOC,32.0,27.0,60.0
+14762,2010,0,ips kelas,ip kela,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,41.0,58.0,166.0
+14765,2007,0,free communication slide,free commun slide,,2007,3,27,ok,1,0,0,1.0,Med,BGM+Med,55.0,84.0,202.0
+14766,2004,0,cover picture macromol,cover pictur macromol,,2004,3,25,ok,1,0,0,1.0,PHYS,PHYS,72.0,81.0,227.0
+14774,2013,0,layanan bimbingan,layanan bimbingan,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,62.0,110.0,239.0
+14791,2013,0,kabupaten sigi,kabupaten sigi,,2013,2,11;33,ok,2,1,0,0.4822916666666667,LIFEENV,LIFEENV,26.0,45.0,114.0
+14808,2013,0,peserta didik dalam,peserta didik dalam,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,28.0,58.0,167.0
+14820,2010,0,pembelajaran ips,pembelajaran ip,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,44.0,81.0,214.0
+14831,2007,0,leonhard euler,leonhard euler,,2007,2,26,ok,1,0,0,0.5,MATHDEC,MATHDEC,34.0,14.0,63.0
+14841,2012,0,pendekatan bermain,pendekatan bermain,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,37.0,112.0
+14844,2011,0,fractional boundary,fraction boundari,,2011,2,26,ok,1,0,0,0.965432098765432,MATHDEC,MATHDEC,23.0,47.0,106.0
+14883,2009,0,pembelajaran menulis,pembelajaran menuli,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,32.0,27.0,80.0
+14931,2012,0,yang dipelihara,yang dipelihara,,2012,2,11,ok,1,0,0,0.9666666666666667,LIFEENV,LIFEENV,23.0,37.0,89.0
+14955,2011,0,customs control,custom control,customized control|custom control|customers control,2011,2,22,ok,1,0,0,0.5,Eng,CS+Eng,27.0,18.0,53.0
+14960,2009,0,madrasah ibtidaiyah,madrasah ibtidaiyah,,2009,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,37.0,55.0,116.0
+14971,2009,0,menggunakan media,menggunakan media,,2009,2,33,ok,1,0,0,0.8166666666666667,SOC,SOC,41.0,82.0,190.0
+14978,2009,0,age of obama,ag of obama,,2010,3,33,ok,1,0,0,0.8261904761904761,SOC,SOC,25.0,21.0,80.0
+15043,2006,0,anniversary gala,anniversari gala,,2006,2,17,ok,1,0,0,1.0,CS,CS+Eng,41.0,3.0,44.0
+15046,2014,0,branded medicines,brand medicin,,2014,2,27,ok,1,0,0,0.4,Med,BGM+Med,23.0,7.0,34.0
+15052,2005,0,arquitetura brasileira,arquitetura brasileira,arquitetura brasileiras,2005,2,33,ok,1,0,0,1.0,SOC,SOC,26.0,1.0,32.0
+15067,2013,0,aceh barat,aceh barat,,2013,2,11,ok,1,0,0,0.5,LIFEENV,LIFEENV,35.0,85.0,179.0
+15080,2004,0,scientific view,scientif view,scientific views,2004,2,33,ok,1,0,0,0.42571428571428577,SOC,SOC,33.0,49.0,146.0
+15132,2013,0,critical synthesis package,critic synthesi packag,,2013,3,27,ok,1,0,0,1.0,Med,BGM+Med,52.0,26.0,111.0
+15134,2008,0,pnictide superconductors,pnictid superconductor,pnictide superconductor|pnictides superconductors,2008,2,31,ok,1,0,0,0.9903030303030304,PHYS,PHYS,24.0,76.0,159.0
+15161,2014,0,kualitas laporan keuangan,kualita laporan keuangan,,2014,3,14;33,ok,2,1,0,0.5142857142857143,SOC,SOC,49.0,100.0,195.0
+15162,2007,0,siswa kelas,siswa kela,,2009,2,33,ok,1,0,0,0.7654492753623188,SOC,SOC,95.0,1465.0,1746.0
+15194,2009,0,bagi siswa,bagi siswa,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,64.0,125.0,288.0
+15235,2012,0,sesiones del consejo,sesion del consejo,,2012,3,33,ok,1,0,0,1.0,SOC,SOC,39.0,1.0,40.0
+15286,2010,0,rosetta orbiter,rosetta orbit,,2010,2,31,ok,1,0,0,1.0,PHYS,PHYS,28.0,37.0,65.0
+15292,2011,0,gerak dasar,gerak dasar,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,123.0,201.0
+15340,2008,0,wimax networks,wimax network,wimax network,2008,2,17,ok,1,0,0,0.5764705882352941,CS,CS+Eng,33.0,62.0,155.0
+15363,2009,0,urban rural integration,urban rural integr,urban rural integrated|urban rural integrative,2009,3,33,ok,1,0,0,0.5428571428571428,SOC,SOC,40.0,80.0,176.0
+15364,2005,0,tsunami disaster,tsunami disast,tsunami disasters,2005,2,27,weak_home,1,0,1,0.29523809523809524,Med,BGM+Med,59.0,27.0,114.0
+15370,2003,0,civil uses,civil us,,2003,2,22,ok,1,0,0,1.0,Eng,CS+Eng,20.0,8.0,56.0
+15382,2014,0,navigation sensors,navig sensor,navigation sensor,2014,2,22,ok,1,0,0,0.9,Eng,CS+Eng,39.0,389.0,461.0
+15412,2011,0,mathematik und physik,mathematik und physik,,2011,3,12,ok,1,0,0,1.0,SOC,SOC,37.0,2.0,41.0
+15455,2012,0,texto refundido,texto refundido,textos refundidos,2014,2,33,ok,1,0,0,0.9665308893414799,SOC,SOC,32.0,503.0,558.0
+15483,2013,0,grb 130702a,grb 130702a,,2013,2,31,ok,1,0,0,1.0,PHYS,PHYS,26.0,3.0,29.0
+15488,2014,0,cancer data base,cancer data base,,2014,3,27,ok,1,0,0,1.0,Med,BGM+Med,55.0,166.0,279.0
+15498,2011,0,georges ubbiali,georg ubbiali,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,75.0,1.0,109.0
+15535,2013,0,peran pemerintah,peran pemerintah,,2013,2,33,ok,1,0,0,0.9,SOC,SOC,37.0,66.0,150.0
+15553,2008,0,pada kantor pelayanan,pada kantor pelayanan,,2008,3,14,ok,1,0,0,0.6875,SOC,SOC,23.0,39.0,77.0
+15572,2010,0,administration arrangement,administr arrang,administrative arrangement,2010,2,33,ok,1,0,0,1.0,SOC,SOC,28.0,40.0,70.0
+15577,2013,0,keputusan pendanaan,keputusan pendanaan,,2013,2,14,ok,1,0,0,0.9666666666666667,SOC,SOC,23.0,30.0,87.0
+15585,2004,0,transactions on ultrasonics,transact on ultrason,,2004,3,22,ok,1,0,0,1.0,Eng,CS+Eng,27.0,12.0,50.0
+15618,2003,0,adiponectin concentrations,adiponectin concentr,adiponectin concentration,2003,2,27,ok,1,0,0,0.9422222222222222,Med,BGM+Med,20.0,38.0,90.0
+15625,2009,0,eksperimen pada,eksperimen pada,,2009,2,33,ok,1,0,0,0.9473684210526315,SOC,SOC,25.0,48.0,93.0
+15630,2008,0,multicultural families,multicultur famili,multicultural family,2009,2,33,ok,1,0,0,0.7043478260869566,SOC,SOC,27.0,75.0,145.0
+15650,2006,0,rs ophiuchi,r ophiuchi,,2006,2,31,ok,1,0,0,1.0,PHYS,PHYS,26.0,42.0,83.0
+15659,2014,0,osiris rex,osiri rex,,2014,2,31,ok,1,0,0,0.7777777777777778,PHYS,PHYS,22.0,69.0,111.0
+15698,2009,0,ekonomi kelas,ekonomi kela,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,41.0,38.0,114.0
+15706,2005,0,legislation amendment,legisl amend,legislative amendment|legislative amendments,2005,2,33,ok,1,0,0,0.75,SOC,SOC,57.0,52.0,161.0
+15708,2013,0,universitas riau,universita riau,,2013,2,33,weak_home,1,0,1,0.37083333333333335,SOC,SOC,81.0,104.0,257.0
+15723,2007,0,diylbis nitrilomethylidyne diphenolato,diylbi nitrilomethylidyn diphenolato,,2008,3,16,ok,1,0,0,1.0,PHYS,PHYS,22.0,36.0,75.0
+15724,2012,0,bahan kering,bahan kere,,2012,2,11,ok,1,0,0,0.9666666666666667,LIFEENV,LIFEENV,37.0,44.0,102.0
+15726,2014,0,telangana state,telangana state,telangana states,2015,2,27,weak_home,1,0,1,0.3051282051282051,Med,BGM+Med,25.0,94.0,196.0
+15747,2010,0,kecamatan winongan,kecamatan winongan,,2010,2,33,ok,1,0,0,0.9411764705882353,SOC,SOC,22.0,5.0,31.0
+15752,2009,0,berpikir kreatif,berpikir kreatif,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,38.0,98.0
+15762,2013,0,negeri yogyakarta,negeri yogyakarta,,2014,2,33,ok,1,0,0,0.6730769230769231,SOC,SOC,26.0,185.0,339.0
+15768,2009,0,minat belajar,minat belajar,,2010,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,39.0,68.0,152.0
+15815,2012,0,belanja modal,belanja modal,,2013,2,14,ok,1,0,0,0.8272727272727274,SOC,SOC,30.0,92.0,170.0
+15856,2007,0,print and media,print and media,printing and media,2007,3,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,31.0,25.0,93.0
+15884,2006,0,cell hybrid,cell hybrid,cell hybrids|cell hybridization|cells hybrids,2008,2,22,ok,1,0,0,0.75,Eng,CS+Eng,34.0,180.0,253.0
+15885,2013,0,motivasi kerja guru,motivasi kerja guru,,2013,3,33,ok,1,0,0,0.9052631578947368,SOC,SOC,26.0,37.0,94.0
+15918,2005,0,quantum secret,quantum secret,quantum secrets,2005,2,31,ok,1,0,0,0.7212121212121212,PHYS,PHYS,33.0,27.0,96.0
+15947,2010,0,pp ill,pp ill,,2010,2,12,ok,1,0,0,0.8523809523809524,SOC,SOC,20.0,29.0,63.0
+15963,2003,0,east technical,east technic,,2003,2,17;33,ok,2,1,0,0.5,CS,CS+Eng,36.0,21.0,83.0
+15970,2013,0,world scope,world scope,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,99.0,98.0,295.0
+15971,2010,0,closing date,close date,close date,2010,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,23.0,27.0,75.0
+15997,2014,0,road economic belt,road econom belt,,2014,3,33,ok,1,0,0,0.7,SOC,SOC,46.0,41.0,160.0
+15998,2012,0,kooperatif teknik,kooperatif teknik,,2013,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,20.0,54.0,129.0
+16014,2012,0,research exercise,research exercis,research exercises,2012,2,32;36,ok,2,1,0,0.5,SOC,SOC,58.0,46.0,159.0
+16058,2005,0,flora da reserva,flora da reserva,,2005,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,35.0,11.0,57.0
+16078,2009,0,viii smp negeri,viii smp negeri,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,63.0,108.0,255.0
+16099,2009,0,general court,gener court,,2010,2,33,ok,1,0,0,0.9857677902621723,SOC,SOC,21.0,109.0,224.0
+16100,2006,0,perancangan perangkat,perancangan perangkat,,2006,2,17,ok,1,0,0,1.0,CS,CS+Eng,21.0,5.0,32.0
+16136,2004,0,nbl square nbl,nbl squar nbl,,2004,3,33,ok,1,0,0,1.0,SOC,SOC,21.0,40.0,100.0
+16144,2014,0,gamping sleman,gamp sleman,,2014,2,33,ok,1,0,0,0.8571428571428571,SOC,SOC,21.0,29.0,64.0
+16145,2011,0,o104 h4,o104 h4,,2011,2,27,ok,1,0,0,0.7,Med,BGM+Med,61.0,34.0,163.0
+16148,2012,0,kerja serta,kerja serta,,2013,2,14,ok,1,0,0,0.6818181818181818,SOC,SOC,22.0,38.0,86.0
+16191,2010,0,cerebrospinal venous insufficiency,cerebrospin venou insuffici,,2010,3,27,ok,1,0,0,0.9555555555555555,Med,BGM+Med,20.0,47.0,113.0
+16208,2009,0,belajar mata,belajar mata,,2009,2,33,ok,1,0,0,0.9908045977011495,SOC,SOC,57.0,75.0,218.0
+16209,2003,0,peer systems,peer system,peer system,2003,2,17,ok,1,0,0,0.7490196078431371,CS,CS+Eng,37.0,38.0,117.0
+16240,2013,0,clinical essay,clinic essai,,2013,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,26.0,17.0,64.0
+16302,2009,0,short read,short read,short reads,2009,2,13,ok,1,0,0,0.9242424242424242,BGM,BGM+Med,39.0,58.0,128.0
+16332,2011,0,concept stage,concept stage,,2011,2,22,ok,1,0,0,1.0,Eng,CS+Eng,84.0,352.0,722.0
+16346,2004,0,radiat oncol biol,radiat oncol biol,,2004,3,27,ok,1,0,0,1.0,Med,BGM+Med,34.0,37.0,118.0
+16368,2004,0,author author,author author,authority authorizes,2004,2,33,ok,1,0,0,0.7058823529411765,SOC,SOC,42.0,17.0,69.0
+16376,2009,0,bahasa jerman,bahasa jerman,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,46.0,39.0,113.0
+16394,2012,0,pada ruas jalan,pada rua jalan,,2012,3,22,ok,1,0,0,0.871604938271605,Eng,CS+Eng,21.0,53.0,113.0
+16411,2008,0,library business,librari busi,libraries business,2008,2,17;33,ok,2,1,0,0.45454545454545453,CS,CS+Eng,37.0,126.0,228.0
+16427,2008,0,relay selection,relai select,,2010,2,22,ok,1,0,0,0.5951219512195122,Eng,CS+Eng,24.0,106.0,181.0
+16431,2004,0,systems magazine,system magazin,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,45.0,30.0,106.0
+16440,2011,0,coast of tohoku,coast of tohoku,,2011,3,19,ok,1,0,0,0.7232142857142858,PHYS,PHYS,131.0,91.0,435.0
+16449,2010,0,iv sd negeri,iv sd negeri,,2011,3,33,ok,1,0,0,1.0,SOC,SOC,33.0,104.0,202.0
+16462,2008,0,terhadap pemberian,terhadap pemberian,,2008,2,11,ok,1,0,0,0.5,LIFEENV,LIFEENV,25.0,29.0,70.0
+16464,2008,0,zivilgerichtsbarkeit bgh,zivilgerichtsbarkeit bgh,,2008,2,14,ok,1,0,0,1.0,SOC,SOC,99.0,131.0,343.0
+16468,2009,0,persepsi siswa tentang,persepsi siswa tentang,,2010,3,33,ok,1,0,0,0.98125,SOC,SOC,20.0,37.0,104.0
+16483,2012,0,kuasi eksperimen,kuasi eksperimen,,2013,2,33,ok,1,0,0,0.8333333333333334,SOC,SOC,35.0,124.0,267.0
+16527,2013,0,typhoon haiyan,typhoon haiyan,,2014,2,19,weak_home,1,0,1,0.38416666666666666,PHYS,PHYS,20.0,78.0,159.0
+16529,2009,0,sebagai faktor,sebagai faktor,,2009,2,27,ok,1,0,0,0.42105263157894735,Med,BGM+Med,20.0,25.0,64.0
+16533,2013,0,gadjah mada,gadjah mada,,2015,2,17,ok,1,0,0,0.40512820512820513,CS,CS+Eng,44.0,95.0,178.0
+16534,2008,0,hebei spirit,hebei spirit,,2008,2,33,ok,1,0,0,0.5555555555555556,SOC,SOC,20.0,18.0,65.0
+16561,2004,0,polymorphisms and haplotypes,polymorph and haplotyp,polymorphisms and haplotype|polymorphism and haplotype|polymorphism and haplotypes,2004,3,27,ok,1,0,0,0.5428571428571428,Med,BGM+Med,20.0,28.0,73.0
+16584,2009,0,homoclinic solutions,homoclin solut,,2009,2,26,ok,1,0,0,0.8818181818181817,MATHDEC,MATHDEC,21.0,23.0,71.0
+16590,2011,0,library policies,librari polici,library policy|libraries policies,2011,2,33,ok,1,0,0,0.8571428571428571,SOC,SOC,55.0,61.0,159.0
+16621,2007,0,socialist core value,socialist core valu,socialist core values|socialistic core value,2007,3,33,ok,1,0,0,0.5688172043010752,SOC,SOC,42.0,116.0,265.0
+16622,2013,0,tindakan kelas pada,tindakan kela pada,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,143.0,64.0,311.0
+16626,2014,0,lhc run,lhc run,lhc running|lhc runs,2014,2,31,ok,1,0,0,0.9666666666666667,PHYS,PHYS,28.0,91.0,189.0
+16645,2010,0,finding aid,find aid,finding aids,2012,2,12,ok,1,0,0,0.75,SOC,SOC,33.0,201.0,263.0
+16651,2014,0,crown initiative journal,crown initi journal,,2014,3,27,ok,1,0,0,1.0,Med,BGM+Med,30.0,4.0,41.0
+16656,2004,0,hypothalamic peptides natural,hypothalam peptid natur,,2004,3,27,ok,1,0,0,0.6470588235294117,Med,BGM+Med,34.0,36.0,103.0
+16673,2011,0,christchurch earthquake,christchurch earthquak,christchurch earthquakes,2011,2,22,ok,1,0,0,0.4285714285714286,Eng,CS+Eng,62.0,27.0,116.0
+16697,2009,0,surgical safety checklist,surgic safeti checklist,surgical safety checklists,2010,3,27,ok,1,0,0,0.8613333333333333,Med,BGM+Med,20.0,19.0,73.0
+16722,2004,0,systems and integration,system and integr,system and integrated|system and integral|system and integration,2004,3,22,ok,1,0,0,0.4,Eng,CS+Eng,53.0,62.0,187.0
+16746,2010,0,envejecimiento activo,envejecimiento activo,,2010,2,33,ok,1,0,0,0.8333333333333334,SOC,SOC,23.0,74.0,131.0
+16768,2009,0,follicular helper,follicular helper,,2009,2,24,ok,1,0,0,0.7333333333333333,LIFEENV,LIFEENV,35.0,41.0,104.0
+16814,2012,0,cmip5 models,cmip5 model,cmip5 model,2012,2,19,ok,1,0,0,0.9,PHYS,PHYS,57.0,116.0,302.0
+16834,2010,0,maxi j1659,maxi j1659,,2010,2,31,ok,1,0,0,1.0,PHYS,PHYS,35.0,5.0,55.0
+16852,2004,0,aids and materials,aid and materi,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,25.0,27.0,89.0
+16859,2009,0,libraries government,librari govern,library government|library governance,2009,2,17,ok,1,0,0,0.75,CS,CS+Eng,821.0,74.0,929.0
+16863,2003,0,detrusor overactivity,detrusor overact,,2003,2,27,ok,1,0,0,0.9753086419753086,Med,BGM+Med,22.0,63.0,121.0
+16884,2010,0,world neurosurgery,world neurosurgeri,,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,27.0,1.0,31.0
+16948,2013,0,abdul moeloek,abdul moeloek,,2013,2,14,ok,1,0,0,1.0,SOC,SOC,22.0,41.0,98.0
+16949,2012,0,taphylococcus aureus,taphylococcu aureu,,2012,2,27,ok,1,0,0,0.4,Med,BGM+Med,31.0,40.0,103.0
+16951,2011,0,plant accident,plant accid,plant accidents|plants accident,2011,2,33,ok,1,0,0,0.40625,SOC,SOC,63.0,168.0,364.0
+16975,2004,0,crashworthiness and occupant,crashworthi and occup,,2004,3,22,ok,1,0,0,1.0,Eng,CS+Eng,27.0,1.0,28.0
+16984,2006,0,sonntag nach trinitatis,sonntag nach trinitati,,2007,3,12,ok,1,0,0,0.9908675799086758,SOC,SOC,20.0,58.0,151.0
+16989,2013,0,interpersonal siswa,interperson siswa,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,21.0,33.0,77.0
+16993,2008,0,pada hotel,pada hotel,,2008,2,14,ok,1,0,0,0.5933333333333334,SOC,SOC,35.0,43.0,97.0
+17002,2006,0,diary electrophoresis,diari electrophoresi,,2006,2,22,ok,1,0,0,1.0,Eng,CS+Eng,23.0,15.0,62.0
+17025,2011,0,translational highlights,translat highlight,,2011,2,27,ok,1,0,0,0.775,Med,BGM+Med,40.0,58.0,156.0
+17033,2013,0,jasmani siswa,jasmani siswa,,2013,2,33,ok,1,0,0,0.75,SOC,SOC,30.0,39.0,106.0
+17070,2014,0,kualitas hidup pada,kualita hidup pada,,2014,3,33,ok,1,0,0,0.625,SOC,SOC,29.0,37.0,76.0
+17071,2011,0,xpert mtb rif,xpert mtb rif,,2012,3,27,ok,1,0,0,0.9607843137254902,Med,BGM+Med,35.0,56.0,135.0
+17090,2013,0,soedarso pontianak,soedarso pontianak,,2013,2,11;14,ok,2,1,0,0.5,LIFEENV,LIFEENV,38.0,35.0,101.0
+17092,2011,0,dagstuhl seminar,dagstuhl seminar,,2011,2,17,ok,1,0,0,0.6666666666666666,CS,CS+Eng,41.0,69.0,154.0
+17096,2011,0,panel of experts,panel of expert,panel of expert,2011,3,27,ok,1,0,0,0.9777777777777779,Med,BGM+Med,27.0,52.0,117.0
+17105,2005,0,university center,univers center,university centers|university centered,2007,2,33,ok,1,0,0,0.4,SOC,SOC,22.0,70.0,106.0
+17112,2010,0,horizon oil,horizon oil,,2010,2,19,ok,1,0,0,0.7,PHYS,PHYS,43.0,67.0,169.0
+17150,2005,0,chem ing tech,chem ing tech,,2005,3,22,ok,1,0,0,1.0,Eng,CS+Eng,37.0,76.0,171.0
+17175,2012,0,unesp univesp,unesp univesp,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,1.0,79.0
+17188,2014,0,sleeping bear dunes,sleep bear dune,,2014,3,23;33,ok,2,1,0,0.5,LIFEENV,LIFEENV,40.0,1.0,43.0
+17196,2013,0,kecamatan lembang kabupaten,kecamatan lembang kabupaten,,2013,3,11,ok,1,0,0,0.5,LIFEENV,LIFEENV,42.0,20.0,120.0
+17203,2006,0,anti vegf,anti vegf,anti vegfs,2007,2,27,ok,1,0,0,0.7978835978835979,Med,BGM+Med,28.0,102.0,203.0
+17221,2005,0,anti secession law,anti secess law,,2005,3,33,ok,1,0,0,0.8421052631578947,SOC,SOC,20.0,5.0,32.0
+17249,2008,0,hematopoietic sct,hematopoiet sct,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,48.0,56.0,140.0
+17260,2013,0,google glass,googl glass,,2013,2,33,weak_home,1,0,1,0.3555555555555555,SOC,SOC,32.0,89.0,213.0
+17337,2009,0,pada smk,pada smk,,2009,2,33,ok,1,0,0,0.6551724137931034,SOC,SOC,29.0,29.0,79.0
+17350,2012,0,jacs publications,jac public,,2012,2,16,ok,1,0,0,1.0,PHYS,PHYS,49.0,51.0,151.0
+17359,2009,0,teks bahasa,tek bahasa,,2011,2,33,ok,1,0,0,0.9565217391304348,SOC,SOC,20.0,17.0,47.0
+17383,2005,0,serum biomarkers,serum biomark,serum biomarker,2005,2,27,ok,1,0,0,0.7698924731182796,Med,BGM+Med,29.0,54.0,119.0
+17390,2003,0,response to protocol,respons to protocol,,2003,3,34,ok,1,0,0,1.0,LIFEENV,LIFEENV,31.0,34.0,93.0
+17391,2005,0,outstanding doctoral research,outstand doctor research,,2005,3,14,weak_home,1,0,1,0.3939393939393939,SOC,SOC,37.0,4.0,48.0
+17395,2009,0,sekolah studi,sekolah studi,,2009,2,33,ok,1,0,0,0.94,SOC,SOC,25.0,31.0,91.0
+17396,2003,0,free colour illustrations,free colour illustr,,2003,3,28,ok,1,0,0,1.0,LIFEENV,LIFEENV,85.0,94.0,279.0
+17405,2006,0,ibc guide,ibc guid,,2006,2,16,ok,1,0,0,1.0,PHYS,PHYS,45.0,54.0,148.0
+17415,2011,0,jean paul salles,jean paul sall,,2011,3,33,ok,1,0,0,1.0,SOC,SOC,37.0,2.0,45.0
+17435,2012,0,nasa glenn,nasa glenn,,2013,2,22,ok,1,0,0,0.8333333333333334,Eng,CS+Eng,20.0,43.0,138.0
+17472,2013,0,pada tema,pada tema,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,32.0,116.0,231.0
+17473,2009,0,pair share,pair share,paire share|pairs share,2009,2,33,ok,1,0,0,0.9978260869565218,SOC,SOC,82.0,126.0,335.0
+17483,2008,0,bahan pustaka,bahan pustaka,,2008,2,17;33,ok,2,1,0,0.5,CS,CS+Eng,24.0,10.0,39.0
+17509,2004,0,society of exercise,societi of exercis,,2004,3,27,ok,1,0,0,1.0,Med,BGM+Med,62.0,41.0,145.0
+17611,2007,0,ls svm,l svm,ls svms,2007,2,22,ok,1,0,0,0.7659574468085106,Eng,CS+Eng,54.0,75.0,183.0
+17620,2009,0,malang tesis,malang tesi,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,32.0,39.0,105.0
+17625,2007,0,ejves vol,ejv vol,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,20.0,23.0,65.0
+17627,2011,0,journal of pharmacy,journal of pharmaci,,2011,3,35,ok,1,0,0,0.75,Med,BGM+Med,63.0,106.0,296.0
+17674,2012,0,pengaruh teknik,pengaruh teknik,,2012,2,33,ok,1,0,0,0.84,SOC,SOC,27.0,45.0,104.0
+17680,2013,0,tunagrahita ringan,tunagrahita ringan,,2013,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,72.0,62.0,205.0
+17694,2014,0,geology geophysics,geologi geophys,,2014,2,19,ok,1,0,0,1.0,PHYS,PHYS,35.0,20.0,76.0
+17701,2008,0,research on food,research on food,,2008,3,22,weak_home,1,0,1,0.25,Eng,CS+Eng,50.0,49.0,161.0
+17708,2013,0,kemampuan mengenal,kemampuan mengen,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,48.0,69.0,194.0
+17718,2012,0,perusahaan studi empiris,perusahaan studi empiri,,2013,3,14,ok,1,0,0,0.9666666666666667,SOC,SOC,22.0,47.0,110.0
+17727,2006,0,countryside construction,countrysid construct,,2006,2,33,ok,1,0,0,0.5461538461538461,SOC,SOC,36.0,137.0,311.0
+17748,2004,0,array cgh,arrai cgh,,2005,2,13,ok,1,0,0,0.611111111111111,BGM,BGM+Med,36.0,83.0,206.0
+17778,2012,0,occupy movement,occupi movement,occupy movements,2012,2,33,ok,1,0,0,0.7837837837837838,SOC,SOC,53.0,38.0,122.0
+17819,2011,0,lingkungan kerja terhadap,lingkungan kerja terhadap,,2013,3,14,ok,1,0,0,0.6555555555555556,SOC,SOC,22.0,84.0,147.0
+17830,2005,0,commission for africa,commiss for africa,,2005,3,33,ok,1,0,0,1.0,SOC,SOC,21.0,5.0,30.0
+17864,2009,0,aktivitas antibakteri ekstrak,aktivita antibakteri ekstrak,aktivitas antibakterial ekstrak,2009,3,11,ok,1,0,0,0.8181818181818182,LIFEENV,LIFEENV,25.0,33.0,82.0
+17878,2010,0,administration agreement,administr agreement,administrative agreement|administration agreements|administrative agreements,2010,2,33,ok,1,0,0,0.75,SOC,SOC,93.0,253.0,500.0
+17885,2009,0,belajar matematika siswa,belajar matematika siswa,,2009,3,33,ok,1,0,0,0.9777777777777779,SOC,SOC,49.0,75.0,219.0
+17890,2008,0,pengadilan negeri,pengadilan negeri,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,69.0,41.0,155.0
+17916,2013,0,gezi park,gezi park,,2013,2,33,ok,1,0,0,0.8666666666666667,SOC,SOC,22.0,18.0,70.0
+17933,2009,0,vanadium redox flow,vanadium redox flow,,2011,3,22,ok,1,0,0,0.7190476190476189,Eng,CS+Eng,26.0,63.0,115.0
+17943,2004,0,diabetic macular oedema,diabet macular oedema,,2004,3,27,ok,1,0,0,1.0,Med,BGM+Med,21.0,21.0,64.0
+17946,2005,0,naip imagery,naip imageri,,2005,2,23,ok,1,0,0,1.0,LIFEENV,LIFEENV,106.0,1.0,107.0
+17972,2012,0,orden social,orden social,,2014,2,33,ok,1,0,0,0.9662626262626263,SOC,SOC,22.0,181.0,236.0
+17989,2014,0,additive weighting saw,addit weight saw,additive weight saw,2015,3,17,ok,1,0,0,0.8666666666666667,CS,CS+Eng,28.0,66.0,142.0
+17991,2007,0,flurbiprofen axetil,flurbiprofen axetil,,2007,2,27,ok,1,0,0,0.8484848484848484,Med,BGM+Med,33.0,55.0,130.0
+18020,2010,0,yushu earthquake,yushu earthquak,yushu earthquakes,2010,2,19,weak_home,1,0,1,0.34146341463414637,PHYS,PHYS,58.0,58.0,189.0
+18032,2009,0,pengetahuan ibu,pengetahuan ibu,,2010,2,36,ok,1,0,0,0.8,Med,BGM+Med,23.0,91.0,188.0
+18039,2004,0,honor of david,honor of david,,2004,3,33,ok,1,0,0,0.7666666666666667,SOC,SOC,26.0,13.0,43.0
+18056,2008,0,management and rural,manag and rural,,2008,3,11,ok,1,0,0,0.6,LIFEENV,LIFEENV,47.0,46.0,144.0
+18059,2014,0,pendekatan saintifik,pendekatan saintifik,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,95.0,344.0,781.0
+18085,2012,0,opening reception,open recept,,2012,2,22,ok,1,0,0,1.0,Eng,CS+Eng,38.0,7.0,51.0
+18126,2010,0,farnham ashgate,farnham ashgat,,2010,2,12;33,ok,2,1,0,0.5777777777777777,SOC,SOC,29.0,34.0,100.0
+18175,2010,0,methanol monosolvate,methanol monosolv,,2010,2,16,ok,1,0,0,1.0,PHYS,PHYS,23.0,40.0,110.0
+18196,2013,0,pencatatan sipil,pencatatan sipil,,2013,2,33,ok,1,0,0,0.7333333333333333,SOC,SOC,26.0,52.0,98.0
+18243,2003,0,round way,round wai,,2003,2,33,ok,1,0,0,0.6493506493506493,SOC,SOC,125.0,66.0,287.0
+18311,2009,0,komunikacji marketingowej,komunikacji marketingowej,,2010,2,14,ok,1,0,0,0.4444444444444444,SOC,SOC,25.0,48.0,116.0
+18319,2011,0,gold buyers,gold buyer,,2011,2,27,ok,1,0,0,1.0,Med,BGM+Med,62.0,1.0,100.0
+18324,2009,0,caritas in veritate,carita in verit,,2009,3,33,ok,1,0,0,0.918918918918919,SOC,SOC,59.0,57.0,204.0
+18371,2014,0,daily tiotropium,daili tiotropium,,2014,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,12.0,50.0
+18395,2010,0,grb 100901a,grb 100901a,,2010,2,31,ok,1,0,0,0.9333333333333333,PHYS,PHYS,25.0,2.0,27.0
+18400,2010,0,graphene composite,graphen composit,graphene composites,2010,2,25,ok,1,0,0,0.4407407407407407,PHYS,PHYS,36.0,162.0,270.0
+18411,2012,0,written arguments,written argument,written argument|written argumentation|written argumentative,2012,2,33,ok,1,0,0,0.75,SOC,SOC,53.0,37.0,112.0
+18417,2006,0,asbury theological,asburi theolog,,2006,2,33,ok,1,0,0,1.0,SOC,SOC,57.0,57.0,157.0
+18434,2010,0,library academic,librari academ,libraries academic,2012,2,17,ok,1,0,0,1.0,CS,CS+Eng,23.0,58.0,84.0
+18504,2012,0,belajar anak,belajar anak,,2012,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,27.0,49.0,103.0
+18538,2009,0,pembelajaran berbasis masalah,pembelajaran berbasi masalah,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,52.0,64.0,175.0
+18541,2003,0,watermarking scheme,watermark scheme,watermark scheme|watermarking schemes,2003,2,17,ok,1,0,0,0.6387387387387388,CS,CS+Eng,35.0,71.0,154.0
+18550,2004,0,dividend achievers,dividend achiev,dividend achievement,2004,2,14,ok,1,0,0,1.0,SOC,SOC,21.0,72.0,164.0
+18551,2012,0,hunger games,hunger game,,2012,2,33,ok,1,0,0,0.5166666666666667,SOC,SOC,50.0,77.0,171.0
+18579,2006,0,matter structure,matter structur,matter structures|matter structural|matters structure|matters structures,2006,2,31,ok,1,0,0,0.9333333333333333,PHYS,PHYS,63.0,70.0,204.0
+18586,2005,0,integrated waveguide,integr waveguid,integrated waveguides,2005,2,22,ok,1,0,0,0.9333333333333333,Eng,CS+Eng,24.0,50.0,100.0
+18635,2013,0,syndrome coronavirus mers,syndrom coronaviru mer,,2013,3,27,ok,1,0,0,0.7564102564102565,Med,BGM+Med,30.0,40.0,104.0
+18639,2007,0,optimization of issr,optim of issr,,2007,3,11,ok,1,0,0,0.5666666666666667,LIFEENV,LIFEENV,20.0,43.0,94.0
+18654,2008,0,publications in pss,public in pss,,2008,3,25;31,ok,2,1,0,0.5976190476190476,PHYS,PHYS,27.0,30.0,85.0
+18666,2009,0,universitas negeri malang,universita negeri malang,,2009,3,33,ok,1,0,0,0.9636363636363636,SOC,SOC,200.0,238.0,646.0
+18668,2005,0,management during anaesthesia,manag dure anaesthesia,,2005,3,36,ok,1,0,0,0.92,Med,BGM+Med,23.0,2.0,25.0
+18687,2012,0,tahun pembelajaran,tahun pembelajaran,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,46.0,72.0,218.0
+18709,2004,0,mind body science,mind bodi scienc,,2004,3,33,ok,1,0,0,1.0,SOC,SOC,46.0,1.0,48.0
+18721,2003,0,fbg sensors,fbg sensor,fbg sensor,2003,2,22,ok,1,0,0,0.9666666666666667,Eng,CS+Eng,23.0,25.0,67.0
+18740,2013,0,gong cheng,gong cheng,,2015,2,22,ok,1,0,0,0.5,Eng,CS+Eng,36.0,266.0,330.0
+18750,2013,0,terhadap disiplin,terhadap disiplin,,2013,2,33,ok,1,0,0,0.6518518518518519,SOC,SOC,34.0,79.0,142.0
+18754,2008,0,neuro images,neuro imag,neuro imaging|neuro image,2008,2,27,ok,1,0,0,0.9583333333333334,Med,BGM+Med,52.0,72.0,175.0
+18807,2009,0,pembelajaran kontekstual,pembelajaran kontekstu,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,64.0,86.0,220.0
+18815,2011,0,wave elastography,wave elastographi,waves elastography,2011,2,27,ok,1,0,0,0.9597701149425287,Med,BGM+Med,31.0,86.0,149.0
+18828,2006,0,harmonious university,harmoni univers,harmonious universities,2006,2,33,ok,1,0,0,0.5333333333333333,SOC,SOC,23.0,39.0,104.0
+18849,2013,0,student interview,student interview,student interviews|student interviewers|students interview|students interviewing,2013,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,81.0,163.0,453.0
+18851,2013,0,tert promoter mutations,tert promot mutat,tert promoter mutation,2013,3,27,ok,1,0,0,0.653125,Med,BGM+Med,24.0,45.0,104.0
+18929,2007,0,scientific opinion,scientif opinion,scientific opinions,2007,2,11,ok,1,0,0,0.9655677655677656,LIFEENV,LIFEENV,38.0,232.0,513.0
+18974,2004,0,research of web,research of web,,2004,3,17;22,ok,2,1,0,0.4777777777777778,CS,CS+Eng,27.0,28.0,71.0
+18990,2013,0,pope francis,pope franci,,2013,2,33,ok,1,0,0,0.6770833333333334,SOC,SOC,33.0,123.0,215.0
+18996,2011,0,pengelolaan pembelajaran,pengelolaan pembelajaran,,2011,2,33,ok,1,0,0,0.9629629629629629,SOC,SOC,36.0,53.0,133.0
+19049,2014,0,kabupaten gunungkidul,kabupaten gunungkidul,,2014,2,33,ok,1,0,0,0.4583333333333333,SOC,SOC,50.0,81.0,185.0
+19072,2012,0,pussy riot,pussi riot,,2012,2,33,ok,1,0,0,0.7933333333333333,SOC,SOC,29.0,54.0,121.0
+19136,2012,0,anak tunagrahita,anak tunagrahita,,2012,2,33,ok,1,0,0,0.9758620689655172,SOC,SOC,22.0,104.0,208.0
+19156,2011,0,aktivitas belajar siswa,aktivita belajar siswa,,2013,3,33,ok,1,0,0,0.9943502824858756,SOC,SOC,26.0,108.0,161.0
+19231,2012,0,world bank group,world bank group,,2012,3,33,ok,1,0,0,0.8,SOC,SOC,28.0,83.0,169.0
+19294,2009,0,dot sensitized,dot sensit,dots sensitized,2009,2,25,ok,1,0,0,0.4563218390804598,PHYS,PHYS,25.0,102.0,184.0
+19300,2012,0,serviced apartments,servic apart,serviced apartment|service apartment,2012,2,22,ok,1,0,0,0.5714285714285714,Eng,CS+Eng,180.0,19.0,264.0
+19302,2008,0,snow disaster,snow disast,snow disasters,2008,2,23,ok,1,0,0,0.44509803921568625,LIFEENV,LIFEENV,33.0,32.0,90.0
+19360,2006,0,pada cv,pada cv,,2008,2,14,ok,1,0,0,0.8,SOC,SOC,24.0,111.0,175.0
+19363,2004,0,athens olympic,athen olymp,athens olympics,2005,2,33,ok,1,0,0,0.56,SOC,SOC,25.0,31.0,110.0
+19397,2005,0,construction of harmonious,construct of harmoni,construction of harmony|constructing of harmonious,2005,3,33,ok,1,0,0,0.7419354838709677,SOC,SOC,65.0,273.0,514.0
+19432,2009,0,untuk pembelajaran,untuk pembelajaran,,2009,2,33,ok,1,0,0,0.7904761904761906,SOC,SOC,35.0,41.0,105.0
+19451,2003,0,government affairs,govern affair,government affair,2003,2,17,ok,1,0,0,0.5071428571428572,CS,CS+Eng,28.0,26.0,81.0
+19486,2009,0,library computer,librari comput,library computers|library computing|libraries computer|libraries computing,2009,2,17,ok,1,0,0,0.6363636363636364,CS,CS+Eng,39.0,65.0,122.0
+19502,2012,0,elicobacter pylori,elicobact pylori,,2012,2,27,ok,1,0,0,0.9591836734693878,Med,BGM+Med,49.0,54.0,159.0
+19518,2008,0,tugas akhir,tuga akhir,,2008,2,33,ok,1,0,0,0.5,SOC,SOC,47.0,27.0,80.0
+19520,2006,0,seminar summary,seminar summari,,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,39.0,1.0,41.0
+19522,2003,0,wilkinson microwave anisotropy,wilkinson microwav anisotropi,,2003,3,31,ok,1,0,0,0.9894736842105263,PHYS,PHYS,33.0,14.0,68.0
+19533,2014,0,sentolo kulon,sentolo kulon,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,34.0,11.0,46.0
+19597,2009,0,anak usia dini,anak usia dini,,2009,3,33,ok,1,0,0,0.9777777777777777,SOC,SOC,63.0,115.0,257.0
+19621,2006,0,deus caritas,deu carita,,2006,2,33,ok,1,0,0,0.5703703703703703,SOC,SOC,41.0,13.0,84.0
+19632,2007,0,appel de saint,appel de saint,,2007,3,33,ok,1,0,0,1.0,SOC,SOC,31.0,24.0,80.0
+19636,2007,0,kulit batang,kulit batang,,2007,2,11,ok,1,0,0,0.75,LIFEENV,LIFEENV,25.0,34.0,73.0
+19637,2006,0,brycon amazonicus,brycon amazonicu,,2006,2,11,ok,1,0,0,0.6818181818181818,LIFEENV,LIFEENV,29.0,14.0,59.0
+19638,2013,0,kabupaten pasaman barat,kabupaten pasaman barat,,2013,3,33,ok,1,0,0,0.9098039215686275,SOC,SOC,26.0,31.0,100.0
+19639,2013,0,hesitant fuzzy,hesit fuzzi,,2013,2,17,ok,1,0,0,0.611111111111111,CS,CS+Eng,46.0,130.0,306.0
+19641,2009,0,mahasiswa program studi,mahasiswa program studi,,2009,3,33,ok,1,0,0,0.8454545454545455,SOC,SOC,33.0,66.0,123.0
+19644,2014,0,sunandha rajabhat university,sunandha rajabhat univers,,2014,3,14,ok,1,0,0,0.6333333333333333,SOC,SOC,35.0,19.0,68.0
+19652,2004,0,products or substances,product or substanc,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,38.0,32.0,102.0
+19663,2008,0,wilayah kerja,wilayah kerja,,2008,2,20,weak_home,1,0,1,0.25,SOC,SOC,45.0,95.0,192.0
+19671,2005,0,statement of principles,statement of principl,,2005,3,27,ok,1,0,0,0.5,Med,BGM+Med,145.0,45.0,232.0
+19673,2011,0,provinsi jawa tengah,provinsi jawa tengah,,2012,3,33,weak_home,1,0,1,0.26436781609195403,SOC,SOC,36.0,131.0,263.0
+19683,2010,0,surakarta tahun pelajaran,surakarta tahun pelajaran,,2010,3,33,ok,1,0,0,1.0,SOC,SOC,27.0,46.0,96.0
+19691,2011,0,euro crisis,euro crisi,,2011,2,33,ok,1,0,0,0.528125,SOC,SOC,27.0,69.0,155.0
+19696,2005,0,sutong bridge,sutong bridg,,2005,2,22,ok,1,0,0,1.0,Eng,CS+Eng,24.0,15.0,57.0
+19708,2013,0,badan kepegawaian daerah,badan kepegawaian daerah,,2013,3,33,ok,1,0,0,0.8037037037037037,SOC,SOC,39.0,55.0,129.0
+19732,2010,0,dodd frank,dodd frank,,2010,2,14,ok,1,0,0,0.42380952380952386,SOC,SOC,42.0,92.0,268.0
+19765,2009,0,keahlian teknik,keahlian teknik,,2009,2,33,ok,1,0,0,0.8783333333333334,SOC,SOC,26.0,36.0,96.0
+19803,2013,0,terhadap minat berwirausaha,terhadap minat berwirausaha,,2013,3,33,ok,1,0,0,0.854320987654321,SOC,SOC,32.0,46.0,117.0
+19820,2012,0,islander primary health,island primari health,,2012,3,36,ok,1,0,0,0.6666666666666666,Med,BGM+Med,24.0,1.0,29.0
+19844,2008,0,kimia farma,kimia farma,,2008,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,26.0,13.0,54.0
+19876,2010,0,kabupaten gowa,kabupaten gowa,,2010,2,36,ok,1,0,0,0.4,Med,BGM+Med,22.0,34.0,83.0
+19914,2013,0,kependudukan dan pencatatan,kependudukan dan pencatatan,,2013,3,33,ok,1,0,0,0.7666666666666667,SOC,SOC,25.0,49.0,90.0
+19935,2004,0,aerospace and electronic,aerospac and electron,aerospace and electronics,2004,3,22,ok,1,0,0,1.0,Eng,CS+Eng,54.0,29.0,127.0
+19938,2008,0,jacc cardiovascular,jacc cardiovascular,,2009,2,27,ok,1,0,0,1.0,Med,BGM+Med,24.0,48.0,156.0
+19980,2006,0,museum home,museum home,,2006,2,22,ok,1,0,0,1.0,Eng,CS+Eng,32.0,1.0,35.0
+19995,2013,0,medidas de apoyo,medida de apoyo,medida de apoyo,2013,3,33,ok,1,0,0,1.0,SOC,SOC,22.0,27.0,72.0
+20007,2010,0,belajar ilmu,belajar ilmu,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,13.0,47.0
+20047,2010,0,pendidikan karakter,pendidikan karakt,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,198.0,334.0
+20068,2008,0,beitrag zur frage,beitrag zur frage,,2008,3,27,ok,1,0,0,0.9631578947368421,Med,BGM+Med,32.0,43.0,119.0
+20091,2009,0,media komunikasi visual,media komunikasi visual,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,45.0,20.0,87.0
+20094,2012,0,tellin lies,tellin li,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,44.0,1.0,49.0
+20104,2014,0,kalasan sleman,kalasan sleman,,2014,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,29.0,17.0,49.0
+20205,2008,0,body brain,bodi brain,,2008,2,33,ok,1,0,0,0.6842105263157895,SOC,SOC,54.0,84.0,205.0
+20216,2014,0,information and power,inform and power,,2014,3,22,ok,1,0,0,0.7914529914529915,Eng,CS+Eng,26.0,49.0,117.0
+20224,2014,0,ley general presupuestaria,lei gener presupuestaria,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,28.0,1.0,45.0
+20230,2008,0,rancang bangun aplikasi,rancang bangun aplikasi,,2008,3,17,ok,1,0,0,1.0,CS,CS+Eng,41.0,42.0,122.0
+20232,2013,0,tari topeng,tari topeng,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,22.0,57.0
+20233,2012,0,tikus wistar,tiku wistar,,2013,2,11,ok,1,0,0,0.6333333333333333,LIFEENV,LIFEENV,25.0,71.0,162.0
+20301,2010,0,anak melalui,anak melalui,,2011,2,33,ok,1,0,0,0.9922480620155039,SOC,SOC,21.0,131.0,181.0
+20308,2003,0,contemporary psychology,contemporari psychologi,,2003,2,32,ok,1,0,0,0.7333333333333333,SOC,SOC,40.0,5.0,49.0
+20332,2009,0,economic crises,econom crise,,2009,2,33,ok,1,0,0,0.42833333333333334,SOC,SOC,54.0,71.0,200.0
+20334,2006,0,considerations for university,consider for univers,,2006,3,33,ok,1,0,0,1.0,SOC,SOC,32.0,1.0,33.0
+20380,2009,0,influenza h1n1,influenza h1n1,,2009,2,27,ok,1,0,0,0.8809523809523809,Med,BGM+Med,66.0,106.0,300.0
+20400,2014,0,ebola epidemic,ebola epidem,ebola epidemics,2014,2,27,ok,1,0,0,0.4155038759689923,Med,BGM+Med,48.0,62.0,178.0
+20420,2013,0,pada pembelajaran matematika,pada pembelajaran matematika,,2013,3,33,ok,1,0,0,0.9807692307692307,SOC,SOC,107.0,91.0,297.0
+20464,2014,0,civil art,civil art,civiles art|civil arts,2014,2,33,ok,1,0,0,1.0,SOC,SOC,333.0,2.0,530.0
+20497,2004,0,african burial ground,african burial ground,,2004,3,33,ok,1,0,0,1.0,SOC,SOC,20.0,27.0,49.0
+20529,2014,0,halide perovskite,halid perovskit,halide perovskites,2014,2,22,ok,1,0,0,0.5222222222222223,Eng,CS+Eng,129.0,410.0,754.0
+20534,2011,0,penguasaan kosakata,penguasaan kosakata,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,74.0,111.0
+20564,2003,0,prelim iii,prelim iii,,2003,2,23,ok,1,0,0,0.4166666666666667,LIFEENV,LIFEENV,21.0,34.0,87.0
+20587,2011,0,residue levels mrls,residu level mrl,residue level mrl,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,34.0,50.0,135.0
+20619,2014,0,ka leo,ka leo,,2014,2,12,ok,1,0,0,1.0,SOC,SOC,59.0,28.0,133.0
+20649,2009,0,siswa yang,siswa yang,,2009,2,33,ok,1,0,0,0.9983333333333333,SOC,SOC,25.0,37.0,86.0
+20656,2007,0,electromagnetics and mechanics,electromagnet and mechan,electromagnetic and mechanical,2007,3,22,ok,1,0,0,0.8,Eng,CS+Eng,79.0,67.0,149.0
+20684,2011,0,perencanaan bisnis,perencanaan bisni,,2011,2,14,ok,1,0,0,0.8,SOC,SOC,28.0,17.0,52.0
+20703,2007,0,border wall,border wall,border walls,2007,2,33,ok,1,0,0,1.0,SOC,SOC,40.0,15.0,128.0
+20715,2014,0,model discovery,model discoveri,,2015,2,33,ok,1,0,0,0.9228070175438597,SOC,SOC,25.0,93.0,232.0
+20740,2014,0,lightning talks,lightn talk,lightning talk,2014,2,17;36,ok,2,1,0,0.6,CS,CS+Eng,48.0,90.0,226.0
+20742,2008,0,pengaruh penerapan,pengaruh penerapan,,2009,2,33,ok,1,0,0,0.5375,SOC,SOC,25.0,69.0,166.0
+20754,2006,0,xiao xue,xiao xue,,2006,2,27,ok,1,0,0,0.8,Med,BGM+Med,23.0,30.0,82.0
+20775,2004,0,administrative committee,administr committe,administration committee,2005,2,22,ok,1,0,0,0.6843137254901961,Eng,CS+Eng,20.0,29.0,70.0
+20795,2014,0,liposomal bupivacaine,liposom bupivacain,liposome bupivacaine,2014,2,27,ok,1,0,0,0.9922480620155039,Med,BGM+Med,31.0,69.0,151.0
+20808,2008,0,pegawai pada,pegawai pada,,2008,2,33,ok,1,0,0,0.4444444444444444,SOC,SOC,29.0,29.0,80.0
+20814,2004,0,expanded hormone assay,expand hormon assai,,2004,3,27,ok,1,0,0,0.6470588235294117,Med,BGM+Med,34.0,36.0,103.0
+20821,2012,0,cfr interview,cfr interview,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,9.0,50.0
+20864,2004,0,food afc,food afc,,2004,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,26.0,27.0,88.0
+20924,2006,0,condition optimization,condit optim,conditions optimization|condition optimizing|conditions optimized|conditional optimal|conditional optimization,2006,2,22,weak_home,1,0,1,0.3111111111111111,Eng,CS+Eng,24.0,51.0,104.0
+20946,2003,0,treatment of sars,treatment of sar,,2003,3,27,ok,1,0,0,0.9407407407407408,Med,BGM+Med,40.0,2.0,58.0
+21000,2012,0,perairan sungai,perairan sungai,,2012,2,11,ok,1,0,0,0.75,LIFEENV,LIFEENV,23.0,33.0,75.0
+21022,2006,0,sister journals,sister journal,sister journal,2007,2,16;22,ok,2,1,0,0.5118721461187214,PHYS,PHYS,22.0,238.0,431.0
+21060,2008,0,forest right,forest right,forest rights,2008,2,33,ok,1,0,0,0.5714285714285714,SOC,SOC,23.0,35.0,84.0
+21067,2013,0,voer weidings,voer weid,voer weiding,2013,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,45.0,123.0
+21074,2007,0,oa ws,oa w,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,41.0,103.0
+21133,2010,0,functionalization of graphene,function of graphen,function of graphene|functions of graphene,2010,3,25,weak_home,1,0,1,0.38070175438596493,PHYS,PHYS,21.0,47.0,94.0
+21143,2014,0,topological kondo,topolog kondo,,2014,2,31,ok,1,0,0,0.9479166666666666,PHYS,PHYS,26.0,22.0,82.0
+21190,2014,0,probable supernova,probabl supernova,probable supernovae,2014,2,31,ok,1,0,0,1.0,PHYS,PHYS,48.0,121.0,302.0
+21193,2004,0,course proposal,cours propos,,2004,2,33,ok,1,0,0,1.0,SOC,SOC,112.0,69.0,196.0
+21217,2005,0,trust model,trust model,trust models|trust modeling|trusted model,2005,2,17,ok,1,0,0,0.6555555555555556,CS,CS+Eng,39.0,72.0,168.0
+21237,2008,0,forthcoming publications,forthcom public,forthcoming publication,2008,2,25;31,ok,2,1,0,0.5976190476190476,PHYS,PHYS,27.0,30.0,85.0
+21245,2005,0,american geophysical union,american geophys union,,2005,3,19,ok,1,0,0,1.0,PHYS,PHYS,54.0,55.0,163.0
+21268,2007,0,improved pso,improv pso,,2007,2,22,ok,1,0,0,0.7393939393939394,Eng,CS+Eng,20.0,33.0,77.0
+21277,2005,0,miljoen euro,miljoen euro,,2005,2,27,ok,1,0,0,1.0,Med,BGM+Med,22.0,29.0,65.0
+21281,2012,0,multiscale multiphase,multiscal multiphas,,2012,2,22,ok,1,0,0,0.8214285714285714,Eng,CS+Eng,28.0,1.0,29.0
+21304,2012,0,kiambu county,kiambu counti,kiambu counties,2012,2,33,weak_home,1,0,1,0.36363636363636365,SOC,SOC,30.0,62.0,120.0
+21311,2012,0,cervical vestibular,cervic vestibular,,2012,2,27;28,ok,2,1,0,0.6,Med,BGM+Med,21.0,30.0,63.0
+21371,2010,0,valve in valve,valv in valv,,2010,3,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,58.0,120.0
+21378,2011,0,lte networks,lte network,lte network,2011,2,17,ok,1,0,0,0.5236111111111111,CS,CS+Eng,43.0,65.0,168.0
+21432,2014,0,flight engineer,flight engin,flight engineers,2014,2,27,ok,1,0,0,1.0,Med,BGM+Med,42.0,66.0,164.0
+21468,2010,0,sensitivity troponin,sensit troponin,sensitive troponin|sensitivity troponins|sensitive troponins,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,45.0,86.0,218.0
+21484,2010,0,comet 103p hartley,comet 103p hartlei,comets 103p hartley,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,21.0,38.0,99.0
+21508,2012,0,abb nbsp,abb nbsp,,2012,2,12,ok,1,0,0,1.0,SOC,SOC,30.0,29.0,89.0
+21515,2012,0,genomic landscape,genom landscap,genomic landscapes|genome landscape,2013,2,13;27,ok,2,1,0,0.5301075268817204,BGM,BGM+Med,22.0,50.0,106.0
+21527,2009,0,akt mtor signaling,akt mtor signal,akt mtor signal|akt mtor signalling,2009,3,27,ok,1,0,0,0.5666666666666667,Med,BGM+Med,20.0,29.0,77.0
+21542,2009,0,ii kecamatan,ii kecamatan,,2010,2,33,ok,1,0,0,0.9787037037037037,SOC,SOC,22.0,56.0,149.0
+21543,2014,0,thomas piketty,thoma piketti,,2014,2,33,ok,1,0,0,0.7704918032786885,SOC,SOC,87.0,45.0,229.0
+21549,2010,0,post 90s,post 90,,2010,2,33,ok,1,0,0,0.4166666666666667,SOC,SOC,21.0,25.0,79.0
+21562,2005,0,perusahaan manufaktur,perusahaan manufaktur,,2007,2,14,ok,1,0,0,0.9733333333333333,SOC,SOC,25.0,113.0,181.0
+21563,2005,0,unscented kalman,unscent kalman,,2005,2,22,ok,1,0,0,0.6519999999999999,Eng,CS+Eng,29.0,54.0,115.0
+21602,2009,0,malang tahun,malang tahun,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,105.0,86.0,316.0
+21605,2011,0,polymers with ramifications,polym with ramif,,2011,3,31,ok,1,0,0,1.0,PHYS,PHYS,25.0,1.0,26.0
+21609,2011,0,partnerships and cooperations,partnership and cooper,partnership and cooperation|partnerships and cooperation,2011,3,33,ok,1,0,0,0.6666666666666666,SOC,SOC,47.0,52.0,104.0
+21623,2009,0,semester ii,semest ii,,2009,2,33,ok,1,0,0,0.9805555555555555,SOC,SOC,59.0,77.0,227.0
+21635,2007,0,secolo xix,secolo xix,,2007,2,33,ok,1,0,0,1.0,SOC,SOC,65.0,14.0,80.0
+21657,2013,0,lumen fidei,lumen fidei,,2013,2,33,ok,1,0,0,0.6466666666666666,SOC,SOC,27.0,11.0,69.0
+21668,2010,0,mark zuckerberg,mark zuckerberg,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,24.0,17.0,53.0
+21717,2007,0,tomato solanum lycopersicum,tomato solanum lycopersicum,tomatoes solanum lycopersicum,2007,3,11,ok,1,0,0,0.6777777777777778,LIFEENV,LIFEENV,21.0,76.0,139.0
+21773,2008,0,reviews cinema,review cinema,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,1.0,32.0
+21783,2008,0,library university,librari univers,libraries university,2010,2,33,ok,1,0,0,0.8555555555555556,SOC,SOC,26.0,105.0,161.0
+21798,2013,0,hasil jadi,hasil jadi,,2013,2,11,ok,1,0,0,0.95,LIFEENV,LIFEENV,39.0,25.0,103.0
+21812,2003,0,pros 4sb,pro 4sb,,2003,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,40.0,18.0,74.0
+21860,2010,0,tandan kosong kelapa,tandan kosong kelapa,,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,26.0,26.0,72.0
+21868,2006,0,plenary lecture,plenari lectur,plenary lectures,2008,2,27,ok,1,0,0,0.41333333333333333,Med,BGM+Med,28.0,137.0,205.0
+21896,2009,0,perancangan media komunikasi,perancangan media komunikasi,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,33.0,8.0,58.0
+21911,2004,0,ministeriali questioni generali,ministeriali questioni generali,,2004,3,14,ok,1,0,0,1.0,SOC,SOC,27.0,27.0,73.0
+21966,2007,0,survei pada,survei pada,survey pada,2007,2,33,ok,1,0,0,0.8,SOC,SOC,45.0,67.0,205.0
+21969,2013,0,dimensional materials,dimension materi,dimensional material,2014,2,31,weak_home,1,0,1,0.3054054054054054,PHYS,PHYS,30.0,123.0,256.0
+21980,2011,0,renal denervation,renal denerv,renale denervation|renaler denervation,2011,2,27,ok,1,0,0,0.9943859649122807,Med,BGM+Med,31.0,186.0,324.0
+21985,2014,0,library center,librari center,,2014,2,12,ok,1,0,0,1.0,SOC,SOC,77.0,10.0,103.0
+21993,2014,0,adv mater interfaces,adv mater interfac,,2014,3,25,ok,1,0,0,1.0,PHYS,PHYS,41.0,70.0,167.0
+22009,2005,0,harmonious socialist society,harmoni socialist societi,harmonious socialistic society,2005,3,33,ok,1,0,0,0.6342857142857142,SOC,SOC,35.0,52.0,162.0
+22034,2010,0,typhoon morakot,typhoon morakot,,2011,2,19,ok,1,0,0,0.55,PHYS,PHYS,27.0,41.0,107.0
+22037,2008,0,m2 branes,m2 brane,m2 brane,2008,2,31,ok,1,0,0,1.0,PHYS,PHYS,33.0,18.0,81.0
+22050,2011,0,personen unternehmen,personen unternehmen,,2011,2,22,ok,1,0,0,1.0,Eng,CS+Eng,30.0,22.0,84.0
+22085,2012,0,sequence of pseudomonas,sequenc of pseudomona,sequences of pseudomonas,2012,3,13,ok,1,0,0,0.8148148148148148,BGM,BGM+Med,24.0,31.0,79.0
+22087,2008,0,saving and emission,save and emiss,saving and emissions|savings and emission|savings and emissions,2008,3,22,ok,1,0,0,0.8260869565217391,Eng,CS+Eng,55.0,140.0,295.0
+22103,2011,0,speciosa native,speciosa nativ,,2011,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,28.0,1.0,29.0
+22105,2011,0,municipal code,municip code,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,55.0,57.0,165.0
+22138,2011,0,act in relation,act in relat,,2011,3,27,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,69.0,6.0,77.0
+22157,2009,0,studi eksperimen,studi eksperimen,,2009,2,33,ok,1,0,0,0.875,SOC,SOC,48.0,70.0,168.0
+22213,2011,0,adventure time,adventur time,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,37.0,39.0,110.0
+22214,2013,0,field service,field servic,field services,2013,2,22,ok,1,0,0,0.5384615384615384,Eng,CS+Eng,38.0,41.0,131.0
+22261,2012,0,dante alighieri,dant alighieri,,2014,2,12,ok,1,0,0,0.7809523809523811,SOC,SOC,25.0,126.0,167.0
+22287,2004,0,serum proteomic,serum proteom,serum proteomics|serum proteome|serum proteomes,2004,2,27,ok,1,0,0,0.5625,Med,BGM+Med,44.0,72.0,152.0
+22323,2010,0,reforma laboral,reforma labor,,2010,2,33,ok,1,0,0,0.9743589743589743,SOC,SOC,101.0,212.0,389.0
+22330,2008,0,resources by subject,resourc by subject,,2008,3,17,ok,1,0,0,1.0,CS,CS+Eng,70.0,34.0,125.0
+22362,2012,0,physics of exotic,physic of exot,,2012,3,31,ok,1,0,0,1.0,PHYS,PHYS,71.0,1.0,73.0
+22386,2009,0,sekolah menengah kejuruan,sekolah menengah kejuruan,,2009,3,33,ok,1,0,0,0.9428571428571428,SOC,SOC,51.0,65.0,168.0
+22388,2014,0,4g lte,4g lte,,2014,2,17;22,ok,2,1,0,0.45256410256410257,CS,CS+Eng,26.0,45.0,108.0
+22405,2014,0,release dimethyl,releas dimethyl,,2015,2,27,ok,1,0,0,0.8983333333333333,Med,BGM+Med,23.0,16.0,79.0
+22414,2003,0,aluminum electrolysis,aluminum electrolysi,,2003,2,22,ok,1,0,0,0.7493333333333333,Eng,CS+Eng,26.0,32.0,84.0
+22432,2014,0,pemuda dan olahraga,pemuda dan olahraga,,2014,3,33,ok,1,0,0,0.9515151515151515,SOC,SOC,46.0,62.0,162.0
+22444,2013,0,auditor switching,auditor switch,auditor switch|auditor switches,2014,2,14,ok,1,0,0,0.9708333333333333,SOC,SOC,22.0,38.0,86.0
+22446,2009,0,fakultas ekonomi universitas,fakulta ekonomi universita,,2009,3,33,ok,1,0,0,0.861111111111111,SOC,SOC,76.0,145.0,290.0
+22455,2010,0,scotland bill,scotland bill,,2010,2,22;33,ok,2,1,0,0.5,Eng,CS+Eng,30.0,40.0,100.0
+22486,2014,0,kebutuhan dasar,kebutuhan dasar,,2015,2,33,ok,1,0,0,0.6363636363636364,SOC,SOC,21.0,52.0,154.0
+22492,2004,0,ias ifrs,ia ifr,,2004,2,14,ok,1,0,0,0.5,SOC,SOC,36.0,38.0,97.0
+22493,2013,0,pengaruh insentif,pengaruh insentif,,2013,2,14,ok,1,0,0,0.8066666666666666,SOC,SOC,22.0,26.0,67.0
+22500,2004,0,matter supersites program,matter supersit program,,2004,3,23,ok,1,0,0,0.8,LIFEENV,LIFEENV,23.0,4.0,27.0
+22501,2011,0,real audiencia,real audiencia,reales audiencias,2011,2,12,ok,1,0,0,0.6818181818181818,SOC,SOC,218.0,91.0,381.0
+22504,2007,0,estatuto del trabajo,estatuto del trabajo,,2007,3,33,ok,1,0,0,0.9638888888888889,SOC,SOC,22.0,16.0,57.0
+22516,2008,0,crisis alimentaria,crisi alimentaria,crisis alimentarias,2008,2,33,ok,1,0,0,0.8666666666666667,SOC,SOC,34.0,12.0,72.0
+22549,2006,0,notes and tips,note and tip,,2006,3,27,ok,1,0,0,1.0,Med,BGM+Med,66.0,66.0,205.0
+22567,2013,0,fakultas pendidikan,fakulta pendidikan,,2013,2,33,ok,1,0,0,0.9473684210526315,SOC,SOC,20.0,29.0,69.0
+22584,2003,0,ftp file,ftp file,,2003,2,17,ok,1,0,0,0.6333333333333333,CS,CS+Eng,21.0,5.0,34.0
+22588,2013,0,hemiptera liviidae,hemiptera liviida,,2013,2,11,ok,1,0,0,0.95,LIFEENV,LIFEENV,23.0,55.0,107.0
+22610,2009,0,belajar ekonomi,belajar ekonomi,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,46.0,55.0,156.0
+22645,2003,0,planet observations,planet observ,planets observed|planet observer,2003,2,31,ok,1,0,0,1.0,PHYS,PHYS,116.0,78.0,317.0
+22683,2003,0,online game,onlin game,online games|online gaming,2004,2,33,ok,1,0,0,0.5264367816091954,SOC,SOC,20.0,55.0,113.0
+22789,2008,0,cover picture electrophoresis,cover pictur electrophoresi,,2008,3,22,ok,1,0,0,1.0,Eng,CS+Eng,24.0,23.0,73.0
+22835,2008,0,post crisis,post crisi,post crisi,2010,2,33,ok,1,0,0,0.512280701754386,SOC,SOC,25.0,239.0,326.0
+22854,2005,0,ocean tsunami,ocean tsunami,ocean tsunamis,2005,2,19,weak_home,1,0,1,0.3548387096774193,PHYS,PHYS,56.0,53.0,201.0
+22857,2006,0,thur eve,thur ev,thurs eve,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,38.0,43.0,81.0
+22868,2013,0,kooperatif tipe tps,kooperatif tipe tp,,2014,3,33,ok,1,0,0,0.9655172413793104,SOC,SOC,21.0,11.0,59.0
+22914,2009,0,teaching team,teach team,teaching teams,2009,2,22,weak_home,1,0,1,0.31153846153846154,Eng,CS+Eng,50.0,66.0,172.0
+22971,2009,0,state university school,state univers school,,2009,3,27,ok,1,0,0,1.0,Med,BGM+Med,28.0,153.0,322.0
+22983,2009,0,motivasi dan prestasi,motivasi dan prestasi,,2009,3,33,ok,1,0,0,0.975,SOC,SOC,50.0,36.0,142.0
+23006,2013,0,pengembangan soal,pengembangan soal,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,24.0,18.0,50.0
+23036,2013,0,roa pada,roa pada,,2013,2,33;14,ok,2,1,0,0.5555555555555556,SOC,SOC,21.0,42.0,74.0
+23062,2007,0,liquid microextraction,liquid microextract,,2008,2,16,ok,1,0,0,0.9098039215686275,PHYS,PHYS,23.0,94.0,183.0
+23066,2013,0,berbasis apex,berbasi apex,,2013,2,17,ok,1,0,0,1.0,CS,CS+Eng,36.0,5.0,43.0
+23081,2005,0,arch tunnel,arch tunnel,arch tunnels|arched tunnel|arched tunnels,2005,2,22,ok,1,0,0,0.9714285714285714,Eng,CS+Eng,42.0,68.0,146.0
+23102,2004,0,york african burial,york african burial,,2004,3,33,ok,1,0,0,1.0,SOC,SOC,20.0,22.0,43.0
+23109,2010,0,melalui permainan,melalui permainan,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,30.0,111.0,193.0
+23132,2007,0,lipid technology,lipid technologi,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,40.0,27.0,102.0
+23133,2009,0,library home,librari home,libraries home,2009,2,33,ok,1,0,0,1.0,SOC,SOC,177.0,633.0,1298.0
+23155,2008,0,pt coca,pt coca,,2008,2,14,ok,1,0,0,0.6666666666666666,SOC,SOC,28.0,26.0,73.0
+23179,2009,0,studi pada siswa,studi pada siswa,,2009,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,50.0,112.0,252.0
+23185,2008,0,pt pertamina,pt pertamina,,2008,2,33,ok,1,0,0,0.42857142857142855,SOC,SOC,38.0,37.0,109.0
+23192,2004,0,grid environment,grid environ,grid environments,2004,2,17,ok,1,0,0,0.725531914893617,CS,CS+Eng,49.0,102.0,219.0
+23237,2012,0,bibit kelapa sawit,bibit kelapa sawit,,2012,3,11,ok,1,0,0,0.9310344827586207,LIFEENV,LIFEENV,26.0,40.0,83.0
+23245,2013,0,intravitreal aflibercept,intravitr aflibercept,,2013,2,27,ok,1,0,0,0.7918367346938775,Med,BGM+Med,27.0,81.0,162.0
+23246,2011,0,library career,librari career,library careers|libraries career,2013,2,33,ok,1,0,0,0.5,SOC,SOC,23.0,154.0,211.0
+23257,2010,0,alto risco,alto risco,,2012,2,27,ok,1,0,0,0.6083333333333333,Med,BGM+Med,25.0,136.0,193.0
+23318,2009,0,p3ht pcbm,p3ht pcbm,,2009,2,22,ok,1,0,0,0.5,Eng,CS+Eng,39.0,95.0,204.0
+23341,2009,0,library american,librari american,libraries american,2011,2,17,ok,1,0,0,1.0,CS,CS+Eng,20.0,45.0,87.0
+23344,2014,0,life lithium ion,life lithium ion,,2014,3,22,ok,1,0,0,0.5507936507936508,Eng,CS+Eng,30.0,23.0,74.0
+23361,2010,0,handmade jewelry,handmad jewelri,,2010,2,22,ok,1,0,0,1.0,Eng,CS+Eng,49.0,19.0,94.0
+23451,2013,0,smk pasundan,smk pasundan,,2013,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,27.0,15.0,57.0
+23461,2009,0,sd oct,sd oct,,2010,2,27,ok,1,0,0,0.9922480620155039,Med,BGM+Med,26.0,55.0,126.0
+23463,2008,0,views of jacc,view of jacc,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,123.0,63.0,283.0
+23487,2006,0,independent innovation,independ innov,independent innovative|independence innovation|independent innovations|independently innovative,2006,2,22,ok,1,0,0,0.41304347826086957,Eng,CS+Eng,75.0,142.0,350.0
+23517,2013,0,pada pembelajaran ilmu,pada pembelajaran ilmu,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,28.0,15.0,56.0
+23563,2013,0,topological crystalline insulator,topolog crystallin insul,topological crystalline insulators|topological crystalline insulating,2014,3,31,ok,1,0,0,0.8767676767676769,PHYS,PHYS,24.0,57.0,118.0
+23598,2003,0,gefitinib iressa,gefitinib iressa,,2003,2,27,ok,1,0,0,0.6071895424836601,Med,BGM+Med,37.0,34.0,126.0
+23608,2012,0,analisis kemampuan,analisi kemampuan,,2012,2,33,ok,1,0,0,0.7256410256410256,SOC,SOC,34.0,76.0,168.0
+23649,2009,0,model numbered heads,model number head,model numbered head|model number head,2009,3,33,ok,1,0,0,0.9888888888888889,SOC,SOC,30.0,42.0,114.0
+23723,2009,0,fair work,fair work,,2009,2,33,ok,1,0,0,0.851111111111111,SOC,SOC,34.0,32.0,99.0
+23757,2012,0,medidas fiscales,medida fiscal,,2014,2,33,ok,1,0,0,0.9,SOC,SOC,23.0,301.0,334.0
+23831,2007,0,pembelajaran kooperatif,pembelajaran kooperatif,,2009,2,33,ok,1,0,0,0.8809782608695652,SOC,SOC,22.0,482.0,555.0
+23887,2012,0,union saint,union saint,,2012,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,2.0,28.0
+23922,2006,0,perancangan aplikasi,perancangan aplikasi,,2006,2,17,ok,1,0,0,1.0,CS,CS+Eng,32.0,33.0,88.0
+23928,2005,0,google scholar,googl scholar,,2005,2,33,ok,1,0,0,0.43,SOC,SOC,23.0,31.0,88.0
+23936,2013,0,driver genes,driver gene,driver gene,2013,2,13,ok,1,0,0,0.5638095238095239,BGM,BGM+Med,22.0,30.0,92.0
+23962,2007,0,populorum progressio,populorum progressio,,2007,2,33,ok,1,0,0,0.8928571428571429,SOC,SOC,20.0,7.0,39.0
+23965,2013,0,danske historiske forening,dansk historisk foren,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,39.0,5.0,49.0
+24005,2014,0,genetika veehantering,genetika veehant,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,9.0,44.0
+24064,2005,0,heart selection,heart select,heart selective,2005,2,33,ok,1,0,0,0.8769230769230769,SOC,SOC,65.0,67.0,193.0
+24118,2003,0,essential safety,essenti safeti,,2003,2,22,ok,1,0,0,1.0,Eng,CS+Eng,37.0,2.0,39.0
+24204,2010,0,mahasiswa prodi,mahasiswa prodi,,2012,2,33,ok,1,0,0,0.9230769230769231,SOC,SOC,20.0,29.0,64.0
+24205,2008,0,diagnostische bedeutung,diagnostisch bedeutung,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,24.0,9.0,50.0
+24249,2009,0,cone metric,cone metric,,2009,2,26,ok,1,0,0,0.9757575757575758,MATHDEC,MATHDEC,37.0,85.0,185.0
+24326,2009,0,fermi large area,fermi larg area,,2009,3,31,ok,1,0,0,0.9873563218390804,PHYS,PHYS,44.0,28.0,128.0
+24360,2010,0,segon semestre,segon semestr,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,78.0,52.0,220.0
+24416,2009,0,peta konsep,peta konsep,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,36.0,63.0,163.0
+24425,2008,0,iom recommendations,iom recommend,iom recommended,2008,2,27,ok,1,0,0,0.8333333333333334,Med,BGM+Med,23.0,5.0,31.0
+24436,2009,0,single site surgery,singl site surgeri,single site surgeries,2009,3,27,ok,1,0,0,1.0,Med,BGM+Med,38.0,104.0,220.0
+24443,2010,0,chambre civile cour,chambr civil cour,,2010,3,33,ok,1,0,0,1.0,SOC,SOC,34.0,5.0,40.0
+24444,2008,0,penerapan psak,penerapan psak,,2008,2,14,ok,1,0,0,1.0,SOC,SOC,36.0,5.0,44.0
+24455,2008,0,pada karyawan,pada karyawan,,2009,2,33,ok,1,0,0,0.8515151515151516,SOC,SOC,24.0,113.0,217.0
+24460,2008,0,dimensional transesophageal,dimension transesophag,,2008,2,27,ok,1,0,0,0.997037037037037,Med,BGM+Med,28.0,58.0,137.0
+24545,2003,0,center consultants,center consult,centered consultation,2003,2,22,ok,1,0,0,0.6769230769230768,Eng,CS+Eng,21.0,12.0,48.0
+24564,2013,0,mengenal konsep,mengen konsep,,2013,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,24.0,34.0,92.0
+24587,2003,0,plasma adiponectin,plasma adiponectin,,2003,2,27,ok,1,0,0,0.8967479674796748,Med,BGM+Med,27.0,66.0,141.0
+24596,2006,0,keuangan pada,keuangan pada,,2008,2,14,ok,1,0,0,0.9,SOC,SOC,20.0,106.0,156.0
+24617,2012,0,pada kantor akuntan,pada kantor akuntan,,2012,3,14,ok,1,0,0,1.0,SOC,SOC,35.0,55.0,132.0
+24618,2014,0,ahli waris,ahli wari,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,57.0,105.0
+24623,2013,0,siswa menggunakan,siswa menggunakan,,2013,2,33,ok,1,0,0,0.9606837606837607,SOC,SOC,57.0,83.0,212.0
+24649,2012,0,revista completa,revista completa,,2014,2,33,ok,1,0,0,0.6057971014492753,SOC,SOC,31.0,101.0,167.0
+24657,2013,0,h7n9 virus,h7n9 viru,,2013,2,27,ok,1,0,0,0.8484848484848484,Med,BGM+Med,132.0,58.0,321.0
+24668,2013,0,boston marathon bombing,boston marathon bomb,boston marathon bombings,2013,3,27,ok,1,0,0,0.5393939393939393,Med,BGM+Med,28.0,26.0,89.0
+24692,2011,0,members interests,member interest,members interest,2011,2,27,ok,1,0,0,0.75,Med,BGM+Med,21.0,2.0,29.0
+24713,2014,0,serenissime eminence,serenissim emin,,2014,2,12,ok,1,0,0,1.0,SOC,SOC,25.0,20.0,45.0
+24723,2010,0,mad men,mad men,,2010,2,33,ok,1,0,0,0.4727272727272727,SOC,SOC,27.0,49.0,105.0
+24773,2008,0,siswa sma,siswa sma,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,35.0,148.0,295.0
+24793,2014,0,ahmad dahlan,ahmad dahlan,,2015,2,33,ok,1,0,0,0.75,SOC,SOC,26.0,47.0,110.0
+24808,2005,0,sumatra earthquake,sumatra earthquak,sumatra earthquakes,2005,2,19,ok,1,0,0,0.6333333333333333,PHYS,PHYS,59.0,41.0,156.0
+24845,2013,0,islamic microfinance,islam microfin,,2013,2,14,ok,1,0,0,0.6242424242424243,SOC,SOC,29.0,39.0,100.0
+24847,2013,0,electroacupuncture intervention,electroacupunctur intervent,,2013,2,27,ok,1,0,0,0.8461538461538461,Med,BGM+Med,23.0,22.0,65.0
+24881,2008,0,peranan sistem,peranan sistem,,2008,2,14,ok,1,0,0,1.0,SOC,SOC,24.0,10.0,41.0
+24896,2008,0,hubungan antara tingkat,hubungan antara tingkat,,2008,3,36,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,20.0,31.0,66.0
+24921,2012,0,safety camera,safeti camera,safety cameras,2012,2,26;27,ok,2,1,0,0.5,MATHDEC,MATHDEC,20.0,32.0,72.0
+24953,2011,0,peraturan daerah,peraturan daerah,,2013,2,33,ok,1,0,0,0.8626126126126127,SOC,SOC,20.0,111.0,162.0
+24992,2005,0,soft capsule,soft capsul,soft capsules,2005,2,27,ok,1,0,0,0.8333333333333334,Med,BGM+Med,41.0,59.0,131.0
+24999,2007,0,vpn ddos,vpn ddo,,2007,2,33,ok,1,0,0,1.0,SOC,SOC,57.0,23.0,134.0
+25020,2012,0,model kooperatif tipe,model kooperatif tipe,,2012,3,33,ok,1,0,0,0.9666666666666667,SOC,SOC,23.0,91.0,215.0
+25029,2006,0,optimization of fermentation,optim of ferment,optimization of fermentative|optimization of fermentational|optimization of fermented,2007,3,13,weak_home,1,0,1,0.375,BGM,BGM+Med,34.0,86.0,175.0
+25037,2011,0,notebook for pan,notebook for pan,,2011,3,17,ok,1,0,0,1.0,CS,CS+Eng,20.0,42.0,64.0
+25057,2013,0,hubungan motivasi,hubungan motivasi,,2013,2,33,ok,1,0,0,0.8833333333333333,SOC,SOC,47.0,79.0,182.0
+25058,2013,0,kabupaten sintang,kabupaten sintang,,2013,2,33,ok,1,0,0,0.512280701754386,SOC,SOC,47.0,35.0,116.0
+25063,2013,0,usage of mobile,usag of mobil,usages of mobile,2013,3,33,weak_home,1,0,1,0.2857142857142857,SOC,SOC,23.0,28.0,71.0
+25092,2006,0,venus express,venu express,,2006,2,31,ok,1,0,0,0.8181818181818182,PHYS,PHYS,45.0,67.0,142.0
+25120,2010,0,hasil belajar pkn,hasil belajar pkn,,2010,3,33,ok,1,0,0,1.0,SOC,SOC,69.0,44.0,214.0
+25139,2012,0,eksperimen terhadap,eksperimen terhadap,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,93.0,249.0
+25167,2004,0,marrow mononuclear cells,marrow mononuclear cell,marrow mononuclear cell,2004,3,27,ok,1,0,0,0.8255555555555555,Med,BGM+Med,45.0,56.0,140.0
+25184,2013,0,h7n9 influenza,h7n9 influenza,,2013,2,27,ok,1,0,0,0.6976744186046512,Med,BGM+Med,63.0,44.0,160.0
+25226,2013,0,buku ilustrasi,buku ilustrasi,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,32.0,66.0
+25236,2010,0,furoate formoterol,furoat formoterol,,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,21.0,8.0,42.0
+25270,2011,0,maximum residue levels,maximum residu level,maximum residue level|maximum residues levels,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,35.0,50.0,139.0
+25282,2009,0,aquila earthquake,aquila earthquak,aquila earthquakes,2009,2,19,ok,1,0,0,0.7350877192982457,PHYS,PHYS,36.0,43.0,130.0
+25284,2006,0,large crowd,larg crowd,large crowds,2006,2,22,ok,1,0,0,0.6666666666666666,Eng,CS+Eng,20.0,1.0,26.0
+25286,2011,0,peningkatan pembelajaran,peningkatan pembelajaran,,2013,2,33,ok,1,0,0,0.9972222222222222,SOC,SOC,35.0,121.0,184.0
+25343,2005,0,rm nb,rm nb,,2005,2,22,ok,1,0,0,1.0,Eng,CS+Eng,47.0,48.0,130.0
+25347,2013,0,rsup prof dr,rsup prof dr,,2013,3,14;36,ok,2,1,0,0.4,SOC,SOC,80.0,110.0,272.0
+25388,2005,0,orange revolution,orang revolut,,2005,2,33,ok,1,0,0,0.9333333333333333,SOC,SOC,27.0,21.0,70.0
+25394,2006,0,google earth,googl earth,,2006,2,19,ok,1,0,0,0.46979166666666666,PHYS,PHYS,49.0,93.0,216.0
+25395,2009,0,warunkach kryzysu,warunkach kryzysu,,2009,2,14,ok,1,0,0,0.8611111111111112,SOC,SOC,33.0,38.0,128.0
+25408,2005,0,9p tempel,9p tempel,,2005,2,31,ok,1,0,0,0.9722222222222222,PHYS,PHYS,46.0,59.0,157.0
+25416,2006,0,honor and disgrace,honor and disgrac,honors and disgrace|honors and disgraces,2006,3,33,ok,1,0,0,0.5581395348837209,SOC,SOC,76.0,24.0,161.0
+25441,2008,0,xue jiao xue,xue jiao xue,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,29.0,45.0,99.0
+25445,2003,0,course codes,cours code,course code,2003,2,27,ok,1,0,0,1.0,Med,BGM+Med,48.0,48.0,144.0
+25488,2011,0,conservatorium of music,conservatorium of music,,2011,3,33,ok,1,0,0,1.0,SOC,SOC,40.0,6.0,65.0
+25496,2012,0,scheduling in cloud,schedul in cloud,scheduling in clouds,2012,3,17,ok,1,0,0,0.8210526315789474,CS,CS+Eng,20.0,39.0,91.0
+25497,2008,0,oseltamivir resistant,oseltamivir resist,oseltamivir resistance,2009,2,27,ok,1,0,0,0.9422764227642275,Med,BGM+Med,21.0,64.0,142.0
+25502,2012,0,zainoel abidin banda,zainoel abidin banda,,2012,3,27,ok,1,0,0,1.0,Med,BGM+Med,53.0,144.0,247.0
+25516,2009,0,science and international,scienc and intern,,2009,3,33,ok,1,0,0,0.75,SOC,SOC,42.0,73.0,195.0
+25556,2006,0,analisis performansi,analisi performansi,,2006,2,17,ok,1,0,0,0.5,CS,CS+Eng,24.0,42.0,87.0
+25573,2011,0,evaluasi program,evaluasi program,,2011,2,33,ok,1,0,0,0.8980392156862745,SOC,SOC,26.0,77.0,142.0
+25576,2010,0,valve implantation tavi,valv implant tavi,,2010,3,27,ok,1,0,0,0.8666666666666667,Med,BGM+Med,20.0,36.0,92.0
+25582,2005,0,physiology july,physiologi juli,,2005,2,27,ok,1,0,0,1.0,Med,BGM+Med,42.0,33.0,116.0
+25590,2014,0,sewol ferry,sewol ferri,,2014,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,24.0,49.0,109.0
+25594,2004,0,institutional listings,institut list,institutions listed,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,56.0,65.0,179.0
+25601,2005,0,publication productivity,public product,public products|public product|public production,2005,2,33,ok,1,0,0,0.6285714285714286,SOC,SOC,29.0,40.0,111.0
+25612,2014,0,upaya mewujudkan,upaya mewujudkan,,2014,2,33,ok,1,0,0,0.9509803921568628,SOC,SOC,28.0,31.0,77.0
+25696,2009,0,kepuasan kerja studi,kepuasan kerja studi,,2010,3,33,ok,1,0,0,0.9655172413793104,SOC,SOC,20.0,26.0,72.0
+25711,2013,0,liebe leserinnen,lieb leserinnen,,2013,2,27,ok,1,0,0,0.723404255319149,Med,BGM+Med,54.0,65.0,164.0
+25720,2009,0,peningkatan hasil belajar,peningkatan hasil belajar,,2009,3,33,ok,1,0,0,0.9555555555555556,SOC,SOC,41.0,225.0,443.0
+25742,2013,0,year students ability,year student abil,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,26.0,13.0,66.0
+25749,2013,0,pembangunan desa,pembangunan desa,,2015,2,33,ok,1,0,0,0.8958333333333334,SOC,SOC,21.0,47.0,96.0
+25785,2008,0,tabungan negara,tabungan negara,,2008,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,22.0,24.0,61.0
+25795,2010,0,editors choice cheminform,editor choic cheminform,,2010,3,16,ok,1,0,0,1.0,PHYS,PHYS,52.0,48.0,152.0
+25805,2009,0,rector antoni,rector antoni,,2009,2,12,ok,1,0,0,1.0,SOC,SOC,30.0,24.0,126.0
+25819,2006,0,inconvenient truth,inconveni truth,inconvenient truths,2007,2,33,ok,1,0,0,0.4947368421052632,SOC,SOC,23.0,54.0,131.0
+25825,2014,0,performing financing,perform financ,performing finance|performances financi,2014,2,33,ok,1,0,0,0.5866666666666667,SOC,SOC,31.0,54.0,117.0
+25831,2011,0,web studi kasus,web studi kasu,,2011,3,17,ok,1,0,0,0.9058823529411765,CS,CS+Eng,57.0,66.0,164.0
+25875,2014,0,project additional financing,project addit financ,project additional finance,2014,3,33,ok,1,0,0,1.0,SOC,SOC,25.0,40.0,89.0
+25877,2013,0,universitas sam ratulangi,universita sam ratulangi,,2013,3,17,ok,1,0,0,0.4717948717948718,CS,CS+Eng,50.0,35.0,128.0
+25879,2012,0,kooperatif tipe student,kooperatif tipe student,kooperatif tipe students,2013,3,33,ok,1,0,0,0.9563218390804598,SOC,SOC,26.0,78.0,176.0
+25892,2004,0,panel on additives,panel on addit,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,38.0,32.0,102.0
+25898,2003,0,responsabilidad social corporativa,responsabilidad social corporativa,responsabilidade social corporativa,2003,3,33,ok,1,0,0,0.5785714285714286,SOC,SOC,21.0,66.0,129.0
+25907,2009,0,literacy center,literaci center,literacy centers,2009,2,33,ok,1,0,0,0.8571428571428571,SOC,SOC,355.0,171.0,532.0
+25929,2012,0,siswa lks,siswa lk,,2013,2,33,ok,1,0,0,0.9298245614035088,SOC,SOC,20.0,75.0,154.0
+25931,2014,0,irisin levels,irisin level,irisin level,2014,2,27,ok,1,0,0,0.9813333333333334,Med,BGM+Med,28.0,30.0,88.0
+25997,2012,0,dalam film,dalam film,,2013,2,33,ok,1,0,0,0.8733333333333333,SOC,SOC,25.0,145.0,285.0
+26015,2006,0,household expenditure,household expenditur,household expenditures|households expenditure|households expenditures,2006,2,20,weak_home,1,0,1,0.3972222222222222,SOC,SOC,22.0,35.0,78.0
+26023,2014,0,spin orbit torque,spin orbit torqu,spin orbit torques,2014,3,31,ok,1,0,0,0.611111111111111,PHYS,PHYS,44.0,105.0,219.0
+26038,2009,0,pada konsumen,pada konsumen,,2009,2,33,ok,1,0,0,0.9600000000000001,SOC,SOC,55.0,68.0,179.0
+26044,2014,0,night dream,night dream,nights dream|night dreaming,2016,2,12,ok,1,0,0,0.8666666666666667,SOC,SOC,27.0,151.0,208.0
+26113,2006,0,suku bunga,suku bunga,,2006,2,14,ok,1,0,0,0.8461538461538461,SOC,SOC,22.0,59.0,103.0
+26163,2011,0,hot science,hot scienc,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,62.0,73.0,160.0
+26168,2007,0,informa healthcare,informa healthcar,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,21.0,2.0,35.0
+26178,2003,0,guarantee system,guarante system,guarantee systems|guaranteeing system,2003,2,22,weak_home,1,0,1,0.30606060606060603,Eng,CS+Eng,40.0,57.0,132.0
+26194,2010,0,haitian earthquake,haitian earthquak,,2010,2,27,ok,1,0,0,0.6363636363636364,Med,BGM+Med,21.0,6.0,40.0
+26231,2005,0,grippe aviaire,gripp aviair,,2005,2,36,ok,1,0,0,0.7921568627450981,Med,BGM+Med,34.0,24.0,104.0
+26234,2014,0,efficient perovskite,effici perovskit,efficiency perovskite,2014,2,22,ok,1,0,0,0.5532407407407407,Eng,CS+Eng,32.0,104.0,219.0
+26235,2007,0,census snapshot,censu snapshot,,2007,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,2.0,68.0
+26237,2004,0,contact with food,contact with food,,2004,3,11,ok,1,0,0,0.9333333333333333,LIFEENV,LIFEENV,28.0,34.0,99.0
+26243,2004,0,scientific panel,scientif panel,scientific panels,2004,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,151.0,103.0,398.0
+26261,2010,0,cancellation list,cancel list,,2010,2,22,ok,1,0,0,1.0,Eng,CS+Eng,30.0,1.0,31.0
+26280,2011,0,guides and resources,guid and resourc,guide and resource,2011,3,32,ok,1,0,0,1.0,SOC,SOC,94.0,58.0,219.0
+26306,2008,0,cola bottling,cola bottl,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,29.0,22.0,70.0
+26336,2010,0,journal correction,journal correct,journal corrections,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,28.0,7.0,57.0
+26384,2004,0,panel on dietetic,panel on dietet,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,33.0,8.0,60.0
+26405,2006,0,golden eagle,golden eagl,golden eagles,2006,2,23,ok,1,0,0,0.9222222222222223,LIFEENV,LIFEENV,25.0,273.0,456.0
+26409,2007,0,international information,intern inform,internal information|international informed,2009,2,33,ok,1,0,0,0.4,SOC,SOC,36.0,185.0,232.0
+26432,2004,0,peptide program nhpp,peptid program nhpp,,2004,3,27,ok,1,0,0,0.6363636363636364,Med,BGM+Med,33.0,36.0,102.0
+26448,2007,0,sma negeri,sma negeri,,2009,2,33,ok,1,0,0,0.8596969696969696,SOC,SOC,37.0,486.0,597.0
+26454,2004,0,interpretazioni ministeriali,interpretazioni ministeriali,,2004,2,14,ok,1,0,0,1.0,SOC,SOC,53.0,69.0,164.0
+26463,2009,0,keterampilan proses,keterampilan prose,,2009,2,33,ok,1,0,0,0.945679012345679,SOC,SOC,39.0,40.0,139.0
+26605,2003,0,theories fundamental problems,theori fundament problem,theory fundamental problems,2003,3,33,ok,1,0,0,1.0,SOC,SOC,40.0,54.0,142.0
+26621,2014,0,journal of health,journal of health,,2016,3,27,ok,1,0,0,0.55,Med,BGM+Med,22.0,149.0,187.0
+26622,2014,0,sn 2014j,sn 2014j,,2014,2,31,ok,1,0,0,1.0,PHYS,PHYS,42.0,6.0,61.0
+26670,2008,0,biaya operasional pada,biaya operasion pada,,2008,3,14,ok,1,0,0,1.0,SOC,SOC,46.0,9.0,63.0
+26703,2011,0,md anderson,md anderson,,2011,2,27,ok,1,0,0,0.9158730158730158,Med,BGM+Med,32.0,30.0,93.0
+26706,2011,0,policy loan,polici loan,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,33.0,31.0,96.0
+26707,2008,0,global crisis,global crisi,globalization crisis,2008,2,33,ok,1,0,0,0.48933333333333334,SOC,SOC,20.0,180.0,368.0
+26727,2008,0,kepala sekolah,kepala sekolah,,2009,2,33,ok,1,0,0,0.9357142857142857,SOC,SOC,23.0,97.0,209.0
+26754,2007,0,characteristics and causes,characterist and caus,characteristics and cause|characteristic and cause,2007,3,22,weak_home,1,0,1,0.252,Eng,CS+Eng,22.0,41.0,83.0
+26852,2003,0,comet observations,comet observ,comets observed,2003,2,31,ok,1,0,0,1.0,PHYS,PHYS,61.0,68.0,250.0
+26859,2007,0,sirna delivery,sirna deliveri,,2007,2,13,ok,1,0,0,0.6527777777777778,BGM,BGM+Med,42.0,82.0,181.0
+26860,2009,0,penguasaan konsep,penguasaan konsep,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,34.0,37.0,125.0
+26917,2008,0,library health,librari health,libraries health,2009,2,17,ok,1,0,0,1.0,CS,CS+Eng,23.0,52.0,124.0
+26918,2009,0,belajar biologi siswa,belajar biologi siswa,,2009,3,33,ok,1,0,0,0.9473684210526316,SOC,SOC,98.0,57.0,267.0
+26949,2013,0,sub sektor,sub sektor,,2014,2,14,ok,1,0,0,0.744,SOC,SOC,22.0,91.0,161.0
+26963,2009,0,model pembelajaran berbasis,model pembelajaran berbasi,,2009,3,33,ok,1,0,0,0.9541666666666667,SOC,SOC,37.0,37.0,110.0
+26982,2004,0,ieee copyright form,ieee copyright form,,2004,3,22,ok,1,0,0,0.7,Eng,CS+Eng,94.0,58.0,235.0
+26985,2008,0,tbk cabang,tbk cabang,,2008,2,33,ok,1,0,0,0.7777777777777778,SOC,SOC,66.0,71.0,170.0
+26997,2008,0,spectrum sensing,spectrum sens,,2008,2,22,ok,1,0,0,0.7049180327868853,Eng,CS+Eng,70.0,248.0,463.0
+27011,2005,0,aeronautical and navigational,aeronaut and navig,,2005,3,33,ok,1,0,0,1.0,SOC,SOC,36.0,14.0,50.0
+27012,2013,0,state supercapacitors,state supercapacitor,state supercapacitor,2013,2,22,ok,1,0,0,0.7256410256410256,Eng,CS+Eng,27.0,66.0,136.0
+27034,2009,0,melalui model pembelajaran,melalui model pembelajaran,,2010,3,33,ok,1,0,0,0.9700000000000001,SOC,SOC,29.0,98.0,190.0
+27053,2012,0,berbasis android,berbasi android,,2012,2,17,ok,1,0,0,1.0,CS,CS+Eng,108.0,462.0,788.0
+27060,2013,0,terhadap anak,terhadap anak,,2013,2,33,ok,1,0,0,0.9672131147540984,SOC,SOC,101.0,179.0,397.0
+27093,2013,0,current courses,current cours,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,49.0,3.0,54.0
+27141,2009,0,sumber belajar,sumber belajar,,2009,2,33,ok,1,0,0,0.9,SOC,SOC,32.0,71.0,154.0
+27150,2011,0,provinsi jawa timur,provinsi jawa timur,,2011,3,33,ok,1,0,0,0.5180180180180181,SOC,SOC,33.0,100.0,179.0
+27166,2008,0,assembly house,assembli hous,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,23.0,17.0,72.0
+27168,2012,0,kabupaten bone bolango,kabupaten bone bolango,,2012,3,33,ok,1,0,0,0.9333333333333333,SOC,SOC,38.0,181.0,316.0
+27170,2004,0,french competition,french competit,french competitiveness,2004,2,33,ok,1,0,0,1.0,SOC,SOC,21.0,71.0,166.0
+27240,2011,0,tk negeri,tk negeri,,2011,2,33,ok,1,0,0,0.9,SOC,SOC,31.0,27.0,86.0
+27257,2004,0,multipurpose dam,multipurpos dam,multipurpose dams,2004,2,22,ok,1,0,0,0.8125,Eng,CS+Eng,25.0,10.0,43.0
+27262,2012,0,77th birthday,77th birthdai,,2012,2,33,ok,1,0,0,0.9849624060150376,SOC,SOC,133.0,129.0,264.0
+27296,2012,0,motorik kasar anak,motorik kasar anak,,2012,3,33,ok,1,0,0,1.0,SOC,SOC,27.0,39.0,100.0
+27304,2012,0,symposien seminare messen,symposien seminar messen,,2012,3,22,ok,1,0,0,1.0,Eng,CS+Eng,22.0,24.0,70.0
+27324,2005,0,form for reprints,form for reprint,,2005,3,22,ok,1,0,0,0.8181818181818182,Eng,CS+Eng,112.0,53.0,263.0
+27344,2010,0,accountable care organizations,account care organ,accountable care organization,2010,3,27,ok,1,0,0,0.5770833333333333,Med,BGM+Med,43.0,64.0,204.0
+27347,2007,0,rm cu,rm cu,,2007,2,22,ok,1,0,0,1.0,Eng,CS+Eng,27.0,31.0,59.0
+27373,2009,0,penerapan strategi,penerapan strategi,,2009,2,33,ok,1,0,0,0.88125,SOC,SOC,64.0,142.0,276.0
+27390,2011,0,databases electronic resources,databas electron resourc,,2011,3,17,ok,1,0,0,1.0,CS,CS+Eng,32.0,1.0,34.0
+27399,2014,0,pendekatan scientific,pendekatan scientif,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,64.0,45.0,191.0
+27414,2007,0,dig ws,dig w,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,29.0,22.0,77.0
+27438,2006,0,sci fri,sci fri,,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,22.0,22.0,44.0
+27440,2006,0,intravitreal bevacizumab,intravitr bevacizumab,intravitreous bevacizumab,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,75.0,255.0,553.0
+27474,2009,0,foster and thomas,foster and thoma,,2009,3,12,ok,1,0,0,1.0,SOC,SOC,30.0,1.0,31.0
+27514,2008,0,assignment writing,assign write,assignments write,2008,2,33,ok,1,0,0,0.75,SOC,SOC,25.0,5.0,30.0
+27522,2007,0,oa wp,oa wp,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,31.0,35.0,90.0
+27536,2014,0,engineering aspects,engin aspect,engineering aspect,2016,2,22,weak_home,1,0,1,0.38461538461538464,Eng,CS+Eng,23.0,114.0,153.0
+27595,2014,0,science and manufacturing,scienc and manufactur,,2014,3,22,ok,1,0,0,0.9850746268656716,Eng,CS+Eng,67.0,67.0,229.0
+27644,2008,0,earthquake relief,earthquak relief,earthquakes relief,2008,2,36,weak_home,1,0,1,0.27956989247311825,Med,BGM+Med,43.0,26.0,114.0
+27660,2013,0,konseling kelompok,konsel kelompok,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,68.0,58.0,184.0
+27670,2013,0,taun ajaran,taun ajaran,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,31.0,18.0,83.0
+27672,2009,0,kompetensi guru,kompetensi guru,,2009,2,33,ok,1,0,0,0.8973333333333334,SOC,SOC,38.0,57.0,154.0
+27691,2013,0,smp pada,smp pada,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,38.0,53.0,131.0
+27695,2013,0,stent retriever,stent retriev,stent retrievers|stent retrieval,2015,2,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,27.0,62.0,120.0
+27709,2004,0,ieee aerospace,ieee aerospac,,2004,2,22,ok,1,0,0,1.0,Eng,CS+Eng,65.0,33.0,154.0
+27733,2010,0,library and academic,librari and academ,libraries and academic,2010,3,33,ok,1,0,0,1.0,SOC,SOC,481.0,76.0,650.0
+27741,2010,0,pembelajaran pkn,pembelajaran pkn,,2010,2,33,ok,1,0,0,1.0,SOC,SOC,25.0,38.0,101.0
+27759,2008,0,terhadap pelaksanaan,terhadap pelaksanaan,,2008,2,33,ok,1,0,0,0.6842105263157895,SOC,SOC,27.0,31.0,86.0
+27775,2012,0,berbasis karakter,berbasi karakt,,2012,2,33,ok,1,0,0,0.9583333333333334,SOC,SOC,31.0,44.0,104.0
+27838,2008,0,lafeaso1 xfx,lafeaso1 xfx,,2008,2,31,ok,1,0,0,1.0,PHYS,PHYS,33.0,16.0,69.0
+27853,2013,0,material for sodium,materi for sodium,materials for sodium,2013,3,22,ok,1,0,0,0.5,Eng,CS+Eng,37.0,124.0,221.0
+27861,2013,0,desa dalam,desa dalam,,2013,2,33,ok,1,0,0,0.9316666666666666,SOC,SOC,53.0,97.0,220.0
+27870,2009,0,multi cultural families,multi cultur famili,multi cultural family|multi culture families,2009,3,33,ok,1,0,0,0.5733333333333334,SOC,SOC,37.0,45.0,129.0
+27918,2012,0,penelitian eksperimen,penelitian eksperimen,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,59.0,179.0
+27952,2009,0,pengetahuan sosial,pengetahuan sosial,,2009,2,33,ok,1,0,0,0.9787878787878788,SOC,SOC,20.0,31.0,77.0
+27971,2009,0,library social,librari social,libraries social|library socialization|library socialized,2009,2,17,ok,1,0,0,1.0,CS,CS+Eng,36.0,102.0,175.0
+27996,2006,0,organic standard,organ standard,organic standards|organization standard|organization standards,2007,2,11,ok,1,0,0,0.5,LIFEENV,LIFEENV,27.0,28.0,82.0
+27999,2004,0,autothermal reforming,autotherm reform,autothermal reformer|autothermal reformation,2004,2,22,ok,1,0,0,0.8536231884057971,Eng,CS+Eng,32.0,48.0,99.0
+28009,2004,0,lake taihu,lake taihu,,2004,2,23,ok,1,0,0,0.75,LIFEENV,LIFEENV,26.0,59.0,115.0
+28021,2008,0,speckle tracking imaging,speckl track imag,,2008,3,27,ok,1,0,0,0.9666666666666667,Med,BGM+Med,29.0,49.0,123.0
+28043,2012,0,note ecli nl,note ecli nl,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,21.0,165.0,230.0
+28045,2012,0,kinect sensor,kinect sensor,kinect sensors,2012,2,22,ok,1,0,0,0.4979166666666667,Eng,CS+Eng,32.0,61.0,139.0
+28067,2003,0,frequent itemsets,frequent itemset,frequent itemset,2003,2,17,ok,1,0,0,0.7285714285714285,CS,CS+Eng,27.0,43.0,98.0
+28068,2011,0,health financing,health financ,health finance,2013,2,20,weak_home,1,0,1,0.3233333333333333,SOC,SOC,23.0,225.0,278.0
+28114,2013,0,triboelectric nanogenerator,triboelectr nanogener,triboelectric nanogenerators,2013,2,22,ok,1,0,0,0.9375,Eng,CS+Eng,34.0,94.0,185.0
+28115,2010,0,official documents,offici document,official document,2012,2,33,ok,1,0,0,0.6,SOC,SOC,51.0,2065.0,2236.0
+28133,2013,0,draft profile,draft profil,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,114.0,1.0,157.0
+28259,2007,0,harmonious culture,harmoni cultur,harmonious cultural|harmony culture,2007,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,90.0,66.0,240.0
+28298,2013,0,equations and conservation,equat and conserv,equation and conservation,2013,3,26,ok,1,0,0,0.9,MATHDEC,MATHDEC,28.0,16.0,45.0
+28326,2007,0,clean soil air,clean soil air,,2007,3,23,ok,1,0,0,1.0,LIFEENV,LIFEENV,22.0,34.0,86.0
+28384,2013,0,pemahaman konsep matematis,pemahaman konsep matemati,,2013,3,33,ok,1,0,0,1.0,SOC,SOC,60.0,41.0,133.0
+28390,2005,0,secondary publication,secondari public,secondary public,2005,2,33,ok,1,0,0,0.5714285714285714,SOC,SOC,28.0,19.0,62.0
+28428,2013,0,kecamatan sungai,kecamatan sungai,,2013,2,33,ok,1,0,0,0.65,SOC,SOC,60.0,91.0,209.0
+28458,2014,0,registered dietitian nutritionists,regist dietitian nutritionist,registered dietitian nutritionist,2014,3,27,ok,1,0,0,0.75,Med,BGM+Med,20.0,19.0,70.0
+28473,2013,0,hasil pertanian,hasil pertanian,,2013,2,33,ok,1,0,0,0.5789473684210527,SOC,SOC,39.0,31.0,92.0
+28474,2010,0,edwards sapien,edward sapien,,2010,2,27,ok,1,0,0,1.0,Med,BGM+Med,31.0,59.0,123.0
+28483,2012,0,berdasarkan undang,berdasarkan undang,,2013,2,33,ok,1,0,0,0.9191666666666667,SOC,SOC,31.0,129.0,236.0
+28496,2011,0,scanning arm cloud,scan arm cloud,,2011,3,19,ok,1,0,0,1.0,PHYS,PHYS,23.0,2.0,35.0
+28527,2003,0,earthworm ecology,earthworm ecologi,,2003,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,80.0,2.0,82.0
+28531,2009,0,studi multi,studi multi,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,19.0,58.0
+28539,2008,0,pei yang,pei yang,,2008,2,27;33,ok,2,1,0,0.42857142857142855,Med,BGM+Med,71.0,86.0,206.0
+28545,2007,0,ecology vol,ecologi vol,,2007,2,11,ok,1,0,0,0.75,LIFEENV,LIFEENV,98.0,1.0,105.0
+28592,2010,0,greek crisis,greek crisi,,2010,2,33,ok,1,0,0,0.6857142857142857,SOC,SOC,24.0,20.0,63.0
+28614,2013,0,kabupaten kuantan singingi,kabupaten kuantan singingi,,2013,3,33,ok,1,0,0,0.5380952380952381,SOC,SOC,39.0,57.0,139.0
+28620,2007,0,saham pada perusahaan,saham pada perusahaan,,2007,3,14,ok,1,0,0,0.8,SOC,SOC,39.0,72.0,137.0
+28646,2011,0,classification and survey,classif and survei,,2011,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,48.0,15.0,63.0
+28657,2014,0,korean academy,korean academi,,2016,2,33,ok,1,0,0,0.7916666666666666,SOC,SOC,22.0,272.0,305.0
+28731,2013,0,perancangan interior,perancangan interior,,2013,2,12,ok,1,0,0,0.7317073170731708,SOC,SOC,50.0,68.0,176.0
+28742,2009,0,library film,librari film,libraries film|library films,2011,2,33,ok,1,0,0,1.0,SOC,SOC,22.0,55.0,79.0
+28770,2008,0,mahasiswa fakultas,mahasiswa fakulta,,2009,2,33,ok,1,0,0,0.7703703703703704,SOC,SOC,24.0,65.0,156.0
+28798,2009,0,pengembangan paket,pengembangan paket,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,31.0,44.0,122.0
+28839,2009,0,menulis karangan,menuli karangan,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,23.0,55.0,114.0
+28877,2014,0,hobby lobby,hobbi lobbi,,2014,2,33,ok,1,0,0,0.8911111111111112,SOC,SOC,61.0,37.0,140.0
+28931,2013,0,daya ledak otot,daya ledak otot,,2013,3,33,ok,1,0,0,0.8571428571428571,SOC,SOC,22.0,30.0,86.0
+28958,2007,0,meningkatkan kemampuan,meningkatkan kemampuan,,2009,2,33,ok,1,0,0,0.912037037037037,SOC,SOC,22.0,240.0,291.0
+28964,2003,0,chinese listed,chines list,,2003,2,14,weak_home,1,0,1,0.3466666666666667,SOC,SOC,22.0,63.0,123.0
+29006,2004,0,phytochemical society,phytochem societi,,2004,2,13,ok,1,0,0,1.0,BGM,BGM+Med,24.0,24.0,75.0
+29008,2008,0,cas pratique,ca pratiqu,cas pratiques,2008,2,33,ok,1,0,0,0.9858757062146892,SOC,SOC,30.0,163.0,318.0
+29025,2003,0,aker kvaerner,aker kvaerner,,2003,2,14;33,ok,2,1,0,0.5,SOC,SOC,24.0,13.0,57.0
+29034,2008,0,problems in hot,problem in hot,,2008,3,31,ok,1,0,0,0.9803921568627451,PHYS,PHYS,51.0,2.0,53.0
+29037,2009,0,lutheran church,lutheran church,lutheran churches,2009,2,33,ok,1,0,0,0.7,SOC,SOC,289.0,199.0,505.0
+29063,2011,0,myns insiens,myn insien,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,26.0,15.0,78.0
+29100,2008,0,sichuan earthquake,sichuan earthquak,sichuan earthquakes,2008,2,19,weak_home,1,0,1,0.37301587301587297,PHYS,PHYS,48.0,39.0,161.0
+29138,2014,0,pendekatan ilmiah,pendekatan ilmiah,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,18.0,68.0
+29147,2013,0,kandou manado,kandou manado,,2013,2,14,ok,1,0,0,0.6,SOC,SOC,110.0,113.0,314.0
+29161,2005,0,dur op,dur op,,2005,2,33,ok,1,0,0,0.6666666666666666,SOC,SOC,57.0,20.0,87.0
+29181,2003,0,braf mutation,braf mutat,braf mutations|braf mutated|braf mutational,2003,2,27,ok,1,0,0,0.701111111111111,Med,BGM+Med,21.0,44.0,98.0
+29197,2009,0,citing sources,cite sourc,cite sources,2009,2,27,ok,1,0,0,1.0,Med,BGM+Med,132.0,127.0,380.0
+29211,2005,0,service for readers,servic for reader,services for readers,2006,3,17,ok,1,0,0,0.9604651162790697,CS,CS+Eng,25.0,51.0,121.0
+29216,2014,0,data on ca,data on ca,,2014,3,25,ok,1,0,0,1.0,PHYS,PHYS,53.0,1.0,55.0
+29252,2014,0,pemilu legislatif,pemilu legislatif,,2014,2,33,ok,1,0,0,0.8808333333333334,SOC,SOC,34.0,45.0,153.0
+29254,2013,0,sub county,sub counti,sub counties,2014,2,33,ok,1,0,0,0.5284313725490196,SOC,SOC,30.0,482.0,685.0
+29261,2008,0,pacto global,pacto global,,2008,2,33,ok,1,0,0,1.0,SOC,SOC,34.0,51.0,133.0
+29275,2004,0,artikel zum thema,artikel zum thema,,2005,3,14,ok,1,0,0,1.0,SOC,SOC,25.0,28.0,125.0
+29280,2008,0,tinjauan yuridis terhadap,tinjauan yuridi terhadap,,2008,3,33,ok,1,0,0,1.0,SOC,SOC,44.0,25.0,85.0
+29283,2009,0,work matters management,work matter manag,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,44.0,1.0,87.0
+29294,2005,0,abuse of dominant,abus of domin,abuse of dominance|abuses of dominance,2006,3,33,ok,1,0,0,1.0,SOC,SOC,24.0,50.0,118.0
+29313,2014,0,gene editing,gene edit,gene edited|gene edits,2014,2,13,ok,1,0,0,0.6458333333333334,BGM,BGM+Med,58.0,236.0,416.0
+29320,2013,0,kabupaten jember,kabupaten jember,,2015,2,33,ok,1,0,0,0.5666666666666667,SOC,SOC,39.0,132.0,250.0
+29359,2010,0,flexible dye,flexibl dye,,2010,2,22,ok,1,0,0,0.5833333333333334,Eng,CS+Eng,29.0,49.0,120.0
+29384,2009,0,library journal,librari journal,library journalism|library journals|libraries journalism,2009,2,17;33,ok,2,1,0,0.5,CS,CS+Eng,38.0,58.0,122.0
+29407,2008,0,madrasah aliyah,madrasah aliyah,,2009,2,33,ok,1,0,0,0.9927536231884058,SOC,SOC,20.0,59.0,141.0
+29437,2011,0,spectral ct,spectral ct,,2011,2,27,ok,1,0,0,0.9885057471264368,Med,BGM+Med,34.0,68.0,136.0
+29445,2012,0,kemampuan motorik halus,kemampuan motorik halu,,2012,3,33,ok,1,0,0,1.0,SOC,SOC,25.0,76.0,143.0
+29449,2004,0,section sign,section sign,,2005,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,21.0,17.0,55.0
+29460,2010,0,angewandten chemie,angewandten chemi,,2010,2,16,ok,1,0,0,1.0,PHYS,PHYS,32.0,51.0,132.0
+29476,2006,0,dual source,dual sourc,dual sourcing|dual sources,2007,2,27,ok,1,0,0,0.5453900709219859,Med,BGM+Med,22.0,176.0,307.0
+29477,2014,0,digest june,digest june,,2014,2,36,ok,1,0,0,1.0,Med,BGM+Med,26.0,4.0,33.0
+29480,2007,0,layer graphene,layer graphen,layered graphene|layer graphenes|layers graphene,2007,2,31,ok,1,0,0,0.8142857142857144,PHYS,PHYS,21.0,111.0,186.0
+29549,2011,0,peningkatan aktivitas,peningkatan aktivita,,2013,2,33,ok,1,0,0,0.8380952380952381,SOC,SOC,32.0,337.0,421.0
+29580,2014,0,things iot,thing iot,,2014,2,22,weak_home,1,0,1,0.32248062015503876,Eng,CS+Eng,28.0,129.0,230.0
+29582,2003,0,sars outbreak,sar outbreak,,2003,2,27,ok,1,0,0,0.6511111111111111,Med,BGM+Med,38.0,40.0,128.0
+29610,2010,0,herschel hifi,herschel hifi,,2010,2,31,ok,1,0,0,1.0,PHYS,PHYS,33.0,15.0,70.0
+29615,2006,0,mo p1,mo p1,,2006,2,27,ok,1,0,0,1.0,Med,BGM+Med,24.0,1.0,25.0
+29631,2007,0,leadership team,leadership team,leadership teams|leadership teaming,2009,2,33,ok,1,0,0,0.43478260869565216,SOC,SOC,20.0,109.0,152.0
+29639,2014,0,planck and bicep2,planck and bicep2,,2014,3,31,ok,1,0,0,1.0,PHYS,PHYS,24.0,2.0,28.0
+29676,2010,0,question prioritaire,question prioritair,questions prioritaires,2010,2,33,ok,1,0,0,0.9545454545454546,SOC,SOC,83.0,33.0,184.0
+29747,2012,0,strait islander primary,strait island primari,,2012,3,36,ok,1,0,0,0.6666666666666666,Med,BGM+Med,24.0,1.0,29.0
+29757,2013,0,merek terhadap keputusan,merek terhadap keputusan,,2014,3,14,ok,1,0,0,1.0,SOC,SOC,29.0,50.0,122.0
+29772,2011,0,power prediction,power predict,power predicts|power predict|power predicting|power predictive|powerful predictive,2012,2,22,ok,1,0,0,0.696969696969697,Eng,CS+Eng,30.0,76.0,168.0
+29776,2014,0,ley del irpf,lei del irpf,,2014,3,33,ok,1,0,0,1.0,SOC,SOC,24.0,3.0,46.0
+29810,2009,0,president obama,presid obama,,2009,2,33,ok,1,0,0,0.574468085106383,SOC,SOC,101.0,63.0,215.0
+29823,2014,0,mercantiles art,mercantil art,mercantil art,2014,2,33,ok,1,0,0,1.0,SOC,SOC,66.0,1.0,118.0
+29828,2005,0,dengan menggunakan metode,dengan menggunakan metod,,2006,3,14,ok,1,0,0,0.6420289855072464,SOC,SOC,22.0,75.0,182.0
+29860,2006,0,automorphic representations,automorph represent,automorphic representation,2006,2,26,ok,1,0,0,1.0,MATHDEC,MATHDEC,34.0,38.0,76.0
+29890,2013,0,pengaruh metode pembelajaran,pengaruh metod pembelajaran,,2013,3,33,ok,1,0,0,0.9909090909090909,SOC,SOC,62.0,75.0,188.0
+29913,2005,0,sumatra andaman earthquake,sumatra andaman earthquak,,2005,3,19,ok,1,0,0,0.8425287356321839,PHYS,PHYS,30.0,31.0,101.0
+29944,2005,0,pp xvi,pp xvi,,2007,2,33;12,ok,2,1,0,0.45555555555555555,SOC,SOC,21.0,154.0,206.0
+29959,2014,0,asuhan kebidanan pada,asuhan kebidanan pada,,2016,3,36,ok,1,0,0,1.0,Med,BGM+Med,31.0,42.0,91.0
+29983,2007,0,contourlet transform,contourlet transform,contourlet transformation|contourlet transforms,2008,2,22,ok,1,0,0,0.5242424242424242,Eng,CS+Eng,32.0,100.0,208.0
+29991,2005,0,asian tsunami,asian tsunami,,2005,2,33,weak_home,1,0,1,0.25,SOC,SOC,39.0,13.0,69.0
+30074,2012,0,strategi komunikasi,strategi komunikasi,,2012,2,33,ok,1,0,0,0.7777777777777779,SOC,SOC,49.0,86.0,216.0
+30082,2009,0,american recovery,american recoveri,,2009,2,33,ok,1,0,0,0.44,SOC,SOC,64.0,80.0,169.0
+30096,2008,0,kidney early,kidnei earli,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,21.0,16.0,48.0
+30110,2011,0,insurance exchanges,insur exchang,insurance exchange,2011,2,27,ok,1,0,0,0.47126436781609193,Med,BGM+Med,28.0,75.0,144.0
+30113,2004,0,york palgrave macmillan,york palgrav macmillan,,2004,3,33,ok,1,0,0,0.9577464788732395,SOC,SOC,73.0,73.0,198.0
+30121,2014,0,food nexus,food nexu,,2014,2,23,ok,1,0,0,0.47843137254901963,LIFEENV,LIFEENV,22.0,59.0,129.0
+30168,2011,0,opini audit,opini audit,,2011,2,14,ok,1,0,0,0.9753086419753086,SOC,SOC,28.0,49.0,102.0
+30169,2008,0,pemberian kredit pada,pemberian kredit pada,,2008,3,14,ok,1,0,0,0.8571428571428571,SOC,SOC,23.0,20.0,60.0
+30172,2008,0,schweizerische mikrobiologische gesellschaft,schweizerisch mikrobiologisch gesellschaft,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,27.0,4.0,31.0
+30190,2008,0,pt perkebunan nusantara,pt perkebunan nusantara,,2008,3,14,ok,1,0,0,0.5,SOC,SOC,50.0,49.0,146.0
+30258,2008,0,pengakuan dan pengukuran,pengakuan dan pengukuran,,2008,3,33,ok,1,0,0,1.0,SOC,SOC,34.0,2.0,37.0
+30260,2007,0,surgery notes,surgeri note,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,23.0,53.0,112.0
+30306,2014,0,internet gaming disorder,internet game disord,,2014,3,27,ok,1,0,0,0.4666666666666667,Med,BGM+Med,36.0,59.0,150.0
+30360,2010,0,carbon economic,carbon econom,carbon economics,2010,2,22,ok,1,0,0,0.6070175438596491,Eng,CS+Eng,36.0,26.0,103.0
+30407,2007,0,pla general aeri,pla gener aeri,,2007,3,12,ok,1,0,0,1.0,SOC,SOC,34.0,16.0,56.0
+30419,2008,0,transplant tourism,transplant tourism,,2008,2,27,ok,1,0,0,0.9288888888888889,Med,BGM+Med,24.0,17.0,52.0
+30435,2013,0,grb 130427a,grb 130427a,,2013,2,31,ok,1,0,0,1.0,PHYS,PHYS,88.0,1.0,102.0
+30449,2006,0,persediaan bahan,persediaan bahan,,2006,2,14,ok,1,0,0,0.8888888888888888,SOC,SOC,20.0,24.0,62.0
+30457,2011,0,sp native,sp nativ,,2011,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,168.0,1.0,169.0
+30460,2004,0,nutrition and allergies,nutrit and allergi,,2004,3,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,33.0,8.0,61.0
+30464,2012,0,editors repeat,editor repeat,,2012,2,31,ok,1,0,0,1.0,PHYS,PHYS,28.0,52.0,126.0
+30484,2013,0,santa teresa,santa teresa,,2015,2,12,ok,1,0,0,0.4850340136054421,SOC,SOC,58.0,290.0,441.0
+30495,2006,0,distribution extension,distribut extens,distribution extensions,2006,2,23,ok,1,0,0,1.0,LIFEENV,LIFEENV,43.0,60.0,146.0
+30508,2013,0,polydopamine coated,polydopamin coat,polydopamine coating|polydopamine coatings,2013,2,25,weak_home,1,0,1,0.3962962962962963,PHYS,PHYS,26.0,41.0,107.0
+30517,2007,0,pokok bahasan,pokok bahasan,,2009,2,33,ok,1,0,0,0.9814814814814814,SOC,SOC,21.0,179.0,264.0
+30523,2011,0,life tech,life tech,,2011,2,33,ok,1,0,0,1.0,SOC,SOC,65.0,61.0,146.0
+30589,2013,0,tj sala,tj sala,,2013,2,33,ok,1,0,0,1.0,SOC,SOC,59.0,42.0,148.0
+30590,2003,0,tibet railway,tibet railwai,,2003,2,19;22,ok,2,1,0,0.5084745762711864,PHYS,PHYS,65.0,59.0,170.0
+30621,2004,0,recommendation statement,recommend statement,recommendation statements,2004,2,27,ok,1,0,0,0.7212121212121212,Med,BGM+Med,29.0,16.0,58.0
+30654,2008,0,adam malik,adam malik,,2008,2,27,ok,1,0,0,1.0,Med,BGM+Med,30.0,69.0,146.0
+30672,2004,0,feed feedap,feed feedap,,2004,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,38.0,32.0,102.0
+30675,2013,0,skripsi mahasiswa,skripsi mahasiswa,,2013,2,33,ok,1,0,0,0.7666666666666667,SOC,SOC,21.0,50.0,98.0
+30677,2012,0,arkinson disease,arkinson diseas,,2012,2,27,ok,1,0,0,0.8240740740740741,Med,BGM+Med,29.0,51.0,136.0
+30693,2009,0,library biology,librari biologi,libraries biology,2009,2,33,ok,1,0,0,1.0,SOC,SOC,38.0,68.0,158.0
+30725,2007,0,untuk meningkatkan,untuk meningkatkan,,2009,2,33,weak_home,1,0,1,0.34375,SOC,SOC,137.0,1167.0,1503.0
+30739,2007,0,upaya meningkatkan,upaya meningkatkan,,2008,2,33,ok,1,0,0,0.8114942528735632,SOC,SOC,23.0,130.0,205.0
+30759,2003,0,phase ii npp,phase ii npp,,2003,3,22,ok,1,0,0,1.0,Eng,CS+Eng,63.0,1.0,64.0
+30783,2014,0,beginners zone,beginn zone,,2014,2,33,ok,1,0,0,1.0,SOC,SOC,48.0,53.0,209.0
+30787,2011,0,egyptian revolution,egyptian revolut,egyptian revolutions,2011,2,33,ok,1,0,0,0.796875,SOC,SOC,60.0,48.0,165.0
+30792,2007,0,global economic,global econom,global economics|globalization economic|globalization economics|globalized economic,2009,2,33,ok,1,0,0,0.6066666666666667,SOC,SOC,54.0,331.0,453.0
+30795,2009,0,konsumen studi pada,konsumen studi pada,,2009,3,33,ok,1,0,0,0.8925925925925926,SOC,SOC,36.0,22.0,87.0
+30797,2006,0,reform and opening,reform and open,reform and open|reforming and opening|reform and openness|reformation and opening|reform and openning,2008,3,33,ok,1,0,0,0.6888888888888888,SOC,SOC,33.0,391.0,459.0
+30802,2004,0,ieee transactions,ieee transact,ieee transaction,2004,2,22,ok,1,0,0,0.5465587044534412,Eng,CS+Eng,267.0,227.0,682.0
+30815,2009,0,program keahlian,program keahlian,,2009,2,33,ok,1,0,0,1.0,SOC,SOC,103.0,85.0,300.0
+30823,2007,0,furoate nasal,furoat nasal,,2007,2,27,ok,1,0,0,1.0,Med,BGM+Med,40.0,25.0,91.0
+30867,2008,0,barack obama,barack obama,barack obamas,2008,2,33,ok,1,0,0,0.8636363636363636,SOC,SOC,133.0,177.0,549.0
+30895,2009,0,antimicrobial potential,antimicrobi potenti,antimicrobial potentials|antimicrobial potentialities|antimicrobial potentiality,2011,2,11,ok,1,0,0,0.5166666666666667,LIFEENV,LIFEENV,28.0,65.0,133.0
+30925,2008,0,medicine syndrome,medicin syndrom,medicine syndromes,2008,2,27,ok,1,0,0,0.9212121212121213,Med,BGM+Med,21.0,54.0,100.0
+30980,2008,0,keputusan pada,keputusan pada,,2008,2,17,ok,1,0,0,0.75,CS,CS+Eng,29.0,9.0,47.0
+31016,2013,0,bung hatta,bung hatta,,2013,2,33,ok,1,0,0,0.725,SOC,SOC,48.0,48.0,150.0
+31024,2009,0,h1n1 swine,h1n1 swine,,2009,2,27,ok,1,0,0,0.6129032258064516,Med,BGM+Med,50.0,24.0,107.0
+31027,2004,0,oncol biol phys,oncol biol phy,,2004,3,27,ok,1,0,0,1.0,Med,BGM+Med,36.0,37.0,120.0
+31028,2010,0,castles forts,castl fort,,2010,2,12;33,ok,2,1,0,0.5,SOC,SOC,38.0,1.0,40.0
+31033,2003,0,sars epidemic,sar epidem,sars epidemics,2003,2,27,ok,1,0,0,0.4956521739130435,Med,BGM+Med,54.0,41.0,157.0
+31034,2004,0,square nbl times,squar nbl time,,2004,3,33,ok,1,0,0,1.0,SOC,SOC,21.0,40.0,100.0
+31048,2004,0,geoscience and remote,geoscienc and remot,,2004,3,22,ok,1,0,0,1.0,Eng,CS+Eng,26.0,24.0,72.0
+31051,2012,0,events exhibits,event exhibit,event exhibition,2012,2,12,ok,1,0,0,1.0,SOC,SOC,56.0,3.0,60.0
+31080,2010,0,technology phra nakhon,technologi phra nakhon,,2010,3,22;27,ok,2,1,0,0.5,Eng,CS+Eng,28.0,17.0,54.0
+31087,2013,0,lushan earthquake,lushan earthquak,lushan earthquakes,2013,2,19,ok,1,0,0,0.4172661870503597,PHYS,PHYS,164.0,43.0,291.0
+31089,2012,0,analisis usaha,analisi usaha,,2012,2,11,ok,1,0,0,0.92,LIFEENV,LIFEENV,23.0,41.0,91.0
+31096,2014,0,sebagai variabel mediasi,sebagai variabel mediasi,,2014,3,14,ok,1,0,0,0.8333333333333334,SOC,SOC,49.0,114.0,220.0
+31118,2003,0,materials resource center,materi resourc center,,2003,3,22,ok,1,0,0,0.9916666666666667,Eng,CS+Eng,24.0,22.0,70.0
+31149,2006,0,pada pt,pada pt,pada pts,2008,2,14,ok,1,0,0,0.888888888888889,SOC,SOC,272.0,1280.0,1874.0
+31165,2008,0,kas pada,ka pada,,2008,2,14,ok,1,0,0,0.9,SOC,SOC,187.0,37.0,252.0
+31178,2007,0,environmental revolution,environment revolut,,2007,2,22,ok,1,0,0,0.625,Eng,CS+Eng,32.0,1.0,34.0
+31195,2004,0,germicidal efficacy,germicid efficaci,,2004,2,27,ok,1,0,0,0.9,Med,BGM+Med,39.0,39.0,109.0
+31217,2004,0,gusev crater,gusev crater,,2004,2,19,ok,1,0,0,0.6020202020202021,PHYS,PHYS,44.0,37.0,99.0
+31221,2007,0,mobile wimax,mobil wimax,,2007,2,22,ok,1,0,0,0.41333333333333333,Eng,CS+Eng,36.0,87.0,189.0
+31225,2009,0,phys status solidi,phy statu solidi,,2009,3,25,ok,1,0,0,0.7384615384615384,PHYS,PHYS,80.0,77.0,211.0
+31254,2004,0,molecular junctions,molecular junction,molecular junction,2004,2,31,ok,1,0,0,0.42916666666666664,PHYS,PHYS,25.0,69.0,129.0
+31343,2005,0,sparre andersen,sparr andersen,,2005,2,26,ok,1,0,0,0.625,MATHDEC,MATHDEC,22.0,16.0,43.0
+31348,2011,0,field activity,field activ,field activated|field activities|field activation|field active|fields activated,2013,2,22,ok,1,0,0,0.5222222222222223,Eng,CS+Eng,26.0,471.0,517.0
+31361,2005,0,brac commission,brac commiss,,2005,2,33,ok,1,0,0,1.0,SOC,SOC,56.0,1.0,57.0
+31362,2009,0,secara spektrofotometri,secara spektrofotometri,,2010,2,11,ok,1,0,0,0.9166666666666666,LIFEENV,LIFEENV,20.0,56.0,114.0
+31365,2012,0,belajar peserta didik,belajar peserta didik,,2013,3,33,ok,1,0,0,0.9438095238095238,SOC,SOC,26.0,161.0,275.0
+31402,2009,0,pembelajaran inkuiri,pembelajaran inkuiri,,2010,2,33,ok,1,0,0,0.9692307692307692,SOC,SOC,20.0,39.0,110.0
+31405,2004,0,nanorod arrays,nanorod arrai,nanorod array|nanorods array|nanorods arrays,2004,2,25,weak_home,1,0,1,0.3260416666666667,PHYS,PHYS,28.0,76.0,151.0
+31408,2014,0,ppl ii,ppl ii,,2014,2,33,ok,1,0,0,0.6,SOC,SOC,36.0,21.0,81.0
+31426,2006,0,union in june,union in june,,2006,3,33,ok,1,0,0,1.0,SOC,SOC,52.0,1.0,53.0
+31434,2014,0,future circular collider,futur circular collid,future circular colliders,2014,3,22;31,ok,2,1,0,0.5217391304347826,Eng,CS+Eng,26.0,22.0,62.0
+31458,2004,0,york routledgecurzon,york routledgecurzon,,2004,2,33,ok,1,0,0,1.0,SOC,SOC,21.0,20.0,58.0
+31460,2010,0,stony brook university,stoni brook univers,,2010,3,27,ok,1,0,0,0.5714285714285714,Med,BGM+Med,58.0,93.0,189.0
+31469,2008,0,akuntansi pada,akuntansi pada,,2008,2,14,ok,1,0,0,0.8,SOC,SOC,59.0,29.0,106.0
+31481,2010,0,services library,servic librari,service library|service libraries,2010,2,17,ok,1,0,0,0.6428571428571429,CS,CS+Eng,22.0,20.0,61.0
+31495,2012,0,pasien stroke,pasien stroke,,2012,2,11,weak_home,1,0,1,0.35,LIFEENV,LIFEENV,27.0,54.0,118.0
+31553,2008,0,standard flat bed,standard flat bed,,2008,3,27,ok,1,0,0,1.0,Med,BGM+Med,26.0,30.0,56.0
+31575,2008,0,beitrag zur kenntnis,beitrag zur kenntni,,2008,3,11,ok,1,0,0,0.7551020408163266,LIFEENV,LIFEENV,78.0,48.0,178.0
+31601,2014,0,tanpa izin,tanpa izin,,2014,2,33,ok,1,0,0,0.8929824561403509,SOC,SOC,21.0,55.0,101.0
+31631,2014,0,materials data,materi data,material data|materializing data,2014,2,22,ok,1,0,0,0.6,Eng,CS+Eng,4280.0,1813.0,6147.0
+31683,2009,0,motivasi dan hasil,motivasi dan hasil,,2009,3,33,ok,1,0,0,1.0,SOC,SOC,123.0,107.0,398.0
+31697,2009,0,swine origin influenza,swine origin influenza,,2009,3,27,ok,1,0,0,0.8653846153846153,Med,BGM+Med,80.0,41.0,197.0
+31719,2009,0,crisi economica,crisi economica,crisis economica,2010,2,33,ok,1,0,0,0.7142857142857143,SOC,SOC,20.0,27.0,71.0
+31727,2003,0,data focus,data focu,,2003,2,33,ok,1,0,0,0.9696969696969696,SOC,SOC,33.0,50.0,130.0
+57,2015,1,gorkha earthquake,gorkha earthquak,,2015,2,19,ok,1,0,0,0.8278787878787879,PHYS,PHYS,31.0,38.0,138.0
+61,2015,1,pengembangan keprofesian berkelanjutan,pengembangan keprofesian berkelanjutan,,2017,3,33,ok,1,0,0,1.0,SOC,SOC,20.0,59.0,85.0
+182,2015,1,beneficial rhizobacterium,benefici rhizobacterium,,2015,2,11;13,ok,2,1,0,0.5,LIFEENV,LIFEENV,25.0,1.0,26.0
+342,2015,1,adv electron mater,adv electron mater,,2015,3,22,ok,1,0,0,1.0,Eng,CS+Eng,27.0,33.0,105.0
+784,2015,1,universidad distrital francisco,universidad distrit francisco,,2016,3,33,ok,1,0,0,0.75,SOC,SOC,26.0,94.0,183.0
+1443,2015,1,fcc ee,fcc ee,,2015,2,31,ok,1,0,0,0.8125,PHYS,PHYS,23.0,34.0,74.0
+1530,2015,1,theatre and media,theatr and media,,2015,3,33,ok,1,0,0,1.0,SOC,SOC,32.0,1.0,34.0
+1623,2015,1,universidad laica,universidad laica,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,21.0,20.0,65.0
+1626,2015,1,subcutaneous implantable cardioverter,subcutan implant cardiovert,,2015,3,27,ok,1,0,0,0.9756097560975611,Med,BGM+Med,42.0,71.0,160.0
+1709,2015,1,veno arterial extracorporeal,veno arteri extracorpor,,2015,3,27,ok,1,0,0,1.0,Med,BGM+Med,30.0,67.0,138.0
+1965,2015,1,escuela de verano,escuela de verano,escuelas de verano,2015,3,12;33,ok,2,1,0,0.5,SOC,SOC,40.0,60.0,137.0
+2075,2015,1,studi pustaka,studi pustaka,,2016,2,14,ok,1,0,0,0.5714285714285714,SOC,SOC,25.0,82.0,246.0
+2483,2015,1,belt and road,belt and road,,2015,3,33,ok,1,0,0,0.66,SOC,SOC,40.0,194.0,302.0
+3257,2015,1,audio summary,audio summari,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,33.0,52.0,144.0
+3473,2015,1,charlie hebdo,charli hebdo,,2015,2,33,ok,1,0,0,0.823529411764706,SOC,SOC,183.0,38.0,303.0
+3624,2015,1,psma pet,psma pet,,2016,2,27,ok,1,0,0,0.9919999999999999,Med,BGM+Med,29.0,102.0,214.0
+3855,2015,1,ligo virgo,ligo virgo,,2015,2,31,ok,1,0,0,1.0,PHYS,PHYS,71.0,504.0,588.0
+4823,2015,1,national inpatient sample,nation inpati sampl,,2016,3,27,ok,1,0,0,0.9612121212121212,Med,BGM+Med,21.0,81.0,157.0
+4878,2015,1,abdul wahab sjahranie,abdul wahab sjahrani,,2015,3,11,ok,1,0,0,0.4166666666666667,LIFEENV,LIFEENV,67.0,74.0,156.0
+4964,2015,1,theoretical domains framework,theoret domain framework,,2017,3,27,ok,1,0,0,0.45789473684210524,Med,BGM+Med,29.0,89.0,147.0
+5652,2015,1,tempat wisata,tempat wisata,,2015,2,17,ok,1,0,0,0.5270833333333333,CS,CS+Eng,21.0,33.0,64.0
+5885,2015,1,black lives,black live,,2015,2,33,ok,1,0,0,0.8426900584795322,SOC,SOC,41.0,143.0,304.0
+6196,2015,1,model guided discovery,model guid discoveri,,2015,3,33,ok,1,0,0,1.0,SOC,SOC,23.0,26.0,60.0
+6324,2015,1,moral et civique,moral et civiqu,morale et civique,2015,3,33,ok,1,0,0,0.9090909090909091,SOC,SOC,20.0,10.0,41.0
+6548,2015,1,senate bill,senat bill,senate bills|senator bill,2017,2,33,ok,1,0,0,0.5789473684210527,SOC,SOC,32.0,1511.0,1590.0
+7546,2015,1,kim davis,kim davi,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,21.0,3.0,32.0
+7822,2015,1,magnetic skyrmions,magnet skyrmion,magnetic skyrmion,2015,2,31,ok,1,0,0,0.5714285714285714,PHYS,PHYS,36.0,50.0,125.0
+8095,2015,1,intervening studi kasus,interven studi kasu,,2015,3,14,ok,1,0,0,0.8507246376811594,SOC,SOC,29.0,50.0,124.0
+8389,2015,1,nrg oncology,nrg oncologi,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,77.0,74.0,217.0
+8754,2015,1,marston science library,marston scienc librari,,2015,3,33,ok,1,0,0,1.0,SOC,SOC,31.0,12.0,43.0
+9113,2015,1,molecular and cell,molecular and cell,,2015,3,13,ok,1,0,0,0.9681159420289854,BGM,BGM+Med,25.0,37.0,86.0
+10133,2015,1,berbasis akrual,berbasi akrual,,2015,2,14,ok,1,0,0,0.825925925925926,SOC,SOC,38.0,55.0,137.0
+10373,2015,1,68ga psma,68ga psma,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,29.0,116.0,245.0
+10397,2015,1,solutions uk,solut uk,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,27.0,1.0,32.0
+10411,2015,1,nasal microbiota,nasal microbiota,,2015,2,27,ok,1,0,0,0.6666666666666666,Med,BGM+Med,28.0,15.0,51.0
+11311,2015,1,level zone,level zone,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,48.0,17.0,104.0
+11561,2015,1,adv sci,adv sci,,2015,2,22,ok,1,0,0,1.0,Eng,CS+Eng,32.0,38.0,109.0
+11819,2015,1,menghadapi mea,menghadapi mea,,2015,2,33,ok,1,0,0,0.7125,SOC,SOC,22.0,23.0,64.0
+12212,2015,1,kabupaten luwu,kabupaten luwu,,2016,2,14,ok,1,0,0,0.41333333333333333,SOC,SOC,21.0,84.0,205.0
+12218,2015,1,lava jato,lava jato,,2015,2,33,ok,1,0,0,0.908974358974359,SOC,SOC,33.0,63.0,131.0
+12401,2015,1,ac microgrids,ac microgrid,ac microgrid,2016,2,22,ok,1,0,0,0.919047619047619,Eng,CS+Eng,22.0,45.0,100.0
+12562,2015,1,deep convolutional neural,deep convolut neural,deep convolution neural,2015,3,17,weak_home,1,0,1,0.375,CS,CS+Eng,60.0,266.0,454.0
+13143,2015,1,menggunakan raspberry,menggunakan raspberri,,2015,2,17,ok,1,0,0,0.6622222222222223,CS,CS+Eng,24.0,37.0,88.0
+13938,2015,1,ajkd atlas,ajkd atla,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,25.0,23.0,83.0
+14035,2015,1,weekly outlook,weekli outlook,,2015,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,34.0,45.0,124.0
+14270,2015,1,gender profile,gender profil,gender profiling|gender profiles,2015,2,27,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,59.0,45.0,110.0
+14793,2015,1,smart factory,smart factori,smart factories,2016,2,22,ok,1,0,0,0.4914529914529915,Eng,CS+Eng,31.0,85.0,177.0
+14863,2015,1,ratio and platelet,ratio and platelet,,2015,3,27,ok,1,0,0,0.8546666666666667,Med,BGM+Med,33.0,54.0,119.0
+15322,2015,1,mad max,mad max,,2015,2,33;12,ok,2,1,0,0.4888888888888889,SOC,SOC,33.0,18.0,68.0
+16112,2015,1,quality permanent draft,qualiti perman draft,,2015,3,13,ok,1,0,0,1.0,BGM,BGM+Med,23.0,6.0,35.0
+16215,2015,1,stikom bali,stikom bali,,2015,2,17,ok,1,0,0,1.0,CS,CS+Eng,42.0,36.0,105.0
+16272,2015,1,handbook of north,handbook of north,,2015,3,33,ok,1,0,0,1.0,SOC,SOC,167.0,1.0,168.0
+17265,2015,1,enhanced insecticidal,enhanc insecticid,enhances insecticide,2015,2,13,ok,1,0,0,0.6666666666666666,BGM,BGM+Med,29.0,20.0,50.0
+17536,2015,1,figure s1,figur s1,figures s1,2015,2,27,ok,1,0,0,0.6666666666666666,Med,BGM+Med,1193.0,3058.0,7681.0
+18294,2015,1,young scientist presentation,young scientist present,,2015,3,22,ok,1,0,0,1.0,Eng,CS+Eng,73.0,4.0,138.0
+18503,2015,1,test avis,test avi,,2015,2,32,ok,1,0,0,1.0,SOC,SOC,60.0,24.0,204.0
+18506,2015,1,space to ground,space to ground,,2015,3,22,ok,1,0,0,0.6,Eng,CS+Eng,69.0,35.0,149.0
+18879,2015,1,efikasi diri terhadap,efikasi diri terhadap,,2015,3,33,ok,1,0,0,0.867948717948718,SOC,SOC,28.0,42.0,84.0
+18956,2015,1,cold snare polypectomy,cold snare polypectomi,,2015,3,27,ok,1,0,0,0.9333333333333333,Med,BGM+Med,20.0,15.0,43.0
+18982,2015,1,mu text,mu text,,2015,2,22,ok,1,0,0,1.0,Eng,CS+Eng,39.0,61.0,166.0
+19194,2015,1,sodium storage,sodium storag,,2015,2,22,ok,1,0,0,0.6956521739130435,Eng,CS+Eng,52.0,132.0,265.0
+19249,2015,1,figure s5,figur s5,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,186.0,451.0,1212.0
+20620,2015,1,replication disease,replic diseas,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,22.0,1.0,23.0
+20766,2015,1,organ tubuh manusia,organ tubuh manusia,,2015,3,33,ok,1,0,0,0.8636363636363636,SOC,SOC,20.0,14.0,38.0
+21216,2015,1,dielectric metasurfaces,dielectr metasurfac,dielectric metasurface,2015,2,22,ok,1,0,0,0.796551724137931,Eng,CS+Eng,28.0,76.0,136.0
+21327,2015,1,free spins,free spin,free spin|free spinning,2015,2,31,ok,1,0,0,0.5882352941176471,PHYS,PHYS,53.0,72.0,172.0
+21361,2015,1,paritaprevir ritonavir,paritaprevir ritonavir,,2015,2,27,ok,1,0,0,0.8333333333333334,Med,BGM+Med,33.0,66.0,175.0
+22257,2015,1,destinasi wisata,destinasi wisata,,2015,2,33,ok,1,0,0,0.7533333333333334,SOC,SOC,28.0,61.0,129.0
+22409,2015,1,perovskite films,perovskit film,perovskite film,2015,2,22,ok,1,0,0,0.4102564102564103,Eng,CS+Eng,52.0,141.0,311.0
+22874,2015,1,pengaruh efikasi,pengaruh efikasi,,2015,2,33,ok,1,0,0,0.8200000000000001,SOC,SOC,26.0,32.0,81.0
+23115,2015,1,wireless powered communication,wireless power commun,wireless powered communications,2015,3,22,ok,1,0,0,0.9277777777777778,Eng,CS+Eng,20.0,44.0,89.0
+23350,2015,1,organic inorganic perovskite,organ inorgan perovskit,organic inorganic perovskites,2015,3,22,ok,1,0,0,0.5121951219512195,Eng,CS+Eng,50.0,71.0,183.0
+23726,2015,1,certificate iii,certif iii,,2017,2,11,ok,1,0,0,1.0,LIFEENV,LIFEENV,22.0,34.0,60.0
+24138,2015,1,variational mode,variat mode,variation mode,2016,2,22,ok,1,0,0,0.7658536585365854,Eng,CS+Eng,20.0,65.0,131.0
+24388,2015,1,hours image,hour imag,hour image|hours imaging,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,248.0,1.0,250.0
+24672,2015,1,paket keahlian,paket keahlian,,2015,2,33,ok,1,0,0,0.7809523809523811,SOC,SOC,41.0,45.0,194.0
+25115,2015,1,differentially abundant,differenti abund,differential abundance|differential abundances,2015,2,13,ok,1,0,0,0.5517241379310345,BGM,BGM+Med,25.0,46.0,107.0
+25492,2015,1,sdn nfv,sdn nfv,,2015,2,22,weak_home,1,0,1,0.3823529411764706,Eng,CS+Eng,24.0,26.0,70.0
+25564,2015,1,rnai plants,rnai plant,,2015,2,11,ok,1,0,0,0.5,LIFEENV,LIFEENV,32.0,1.0,33.0
+25663,2015,1,member mgm program,member mgm program,,2016,3,22,ok,1,0,0,0.7666666666666667,Eng,CS+Eng,22.0,43.0,133.0
+25682,2015,1,wahab sjahranie samarinda,wahab sjahrani samarinda,,2015,3,11,weak_home,1,0,1,0.3,LIFEENV,LIFEENV,67.0,74.0,152.0
+25985,2015,1,hasan sadikin general,hasan sadikin gener,,2015,3,27,ok,1,0,0,1.0,Med,BGM+Med,21.0,25.0,81.0
+26166,2015,1,guru kelas,guru kela,,2015,2,33,ok,1,0,0,0.9666666666666667,SOC,SOC,41.0,65.0,162.0
+26185,2015,1,ombitasvir paritaprevir,ombitasvir paritaprevir,,2016,2,27,ok,1,0,0,0.8666666666666667,Med,BGM+Med,34.0,56.0,161.0
+26675,2015,1,oct angiography,oct angiographi,oct angiographie,2016,2,27,ok,1,0,0,0.9032258064516129,Med,BGM+Med,35.0,170.0,313.0
+26689,2015,1,road initiative,road initi,road initiatives,2015,2,33,ok,1,0,0,0.728,SOC,SOC,42.0,191.0,308.0
+27352,2015,1,filgueira valverde,filgueira valverd,,2015,2,12,ok,1,0,0,0.9666666666666667,SOC,SOC,27.0,1.0,36.0
+28077,2015,1,master saao,master saao,,2015,2,31,ok,1,0,0,1.0,PHYS,PHYS,46.0,2.0,60.0
+28523,2015,1,agronomy farm,agronomi farm,,2015,2,27,weak_home,1,0,1,0.3333333333333333,Med,BGM+Med,51.0,1.0,52.0
+28571,2015,1,sebagai destinasi,sebagai destinasi,,2015,2,33,ok,1,0,0,0.9568627450980391,SOC,SOC,20.0,33.0,82.0
+28574,2015,1,specific expression differences,specif express differ,,2015,3,13,ok,1,0,0,1.0,BGM,BGM+Med,27.0,1.0,28.0
+28625,2015,1,jaminan sosial bpjs,jaminan sosial bpj,,2015,3,33,ok,1,0,0,0.8380952380952381,SOC,SOC,24.0,35.0,93.0
+29002,2015,1,profitabilitas leverage,profitabilita leverag,,2015,2,14,ok,1,0,0,0.7933333333333333,SOC,SOC,25.0,66.0,139.0
+29134,2015,1,density genetic,densiti genet,,2015,2,13,ok,1,0,0,0.582051282051282,BGM,BGM+Med,41.0,52.0,130.0
+29341,2015,1,mitophagy regulation,mitophagi regul,,2015,2,13;27,ok,2,1,0,0.5,BGM,BGM+Med,29.0,1.0,31.0
+29432,2015,1,atlas of renal,atla of renal,,2015,3,27,ok,1,0,0,1.0,Med,BGM+Med,25.0,23.0,83.0
+29783,2015,1,conversion for biofuel,convers for biofuel,,2015,3,22;23,ok,2,1,0,0.5,Eng,CS+Eng,54.0,1.0,56.0
+29979,2015,1,biofield treated,biofield treat,,2015,2,11,weak_home,1,0,1,0.3636363636363636,LIFEENV,LIFEENV,119.0,1.0,137.0
+30877,2015,1,wolf optimizer,wolf optim,wolf optimization,2015,2,22,ok,1,0,0,0.5567375886524822,Eng,CS+Eng,32.0,85.0,171.0
+30911,2015,1,figure s3,figur s3,,2015,2,27,ok,1,0,0,1.0,Med,BGM+Med,388.0,970.0,2491.0
+30923,2015,1,bifunctional electrocatalyst,bifunct electrocatalyst,bifunctional electrocatalysts,2016,2,22,ok,1,0,0,0.48387096774193544,Eng,CS+Eng,42.0,134.0,284.0
+30939,2015,1,biofield energy,biofield energi,,2015,2,11,weak_home,1,0,1,0.3055555555555555,LIFEENV,LIFEENV,111.0,82.0,245.0
+31131,2015,1,auto encoder,auto encod,auto encoders,2015,2,17,ok,1,0,0,0.5692307692307692,CS,CS+Eng,22.0,66.0,121.0
+31244,2015,1,orthogonal multiple access,orthogon multipl access,,2015,3,22,ok,1,0,0,0.7073170731707317,Eng,CS+Eng,45.0,112.0,237.0
+31422,2015,1,ledipasvir sofosbuvir,ledipasvir sofosbuvir,,2016,2,27,ok,1,0,0,0.9024390243902439,Med,BGM+Med,47.0,124.0,297.0
+31427,2015,1,harjosari ii,harjosari ii,,2015,2,33,ok,1,0,0,1.0,SOC,SOC,20.0,1.0,28.0
+31483,2015,1,cyber resilience,cyber resili,cyber resiliency|cyber resilient,2015,2,14,ok,1,0,0,0.46153846153846156,SOC,SOC,22.0,27.0,64.0

@@ -1,0 +1,159 @@
+{
+ "fallback_E": {
+  "n_gated_main": 578,
+  "n_gated_ext": 58,
+  "n_open_home_finite_main": 528,
+  "n_expected_primary_main": 450.9223739901441,
+  "n_expected_primary_with_ext": 495.8894770021387,
+  "fallback_E_triggered": true,
+  "extension_used": true,
+  "model": "logistic [O2r_m50 defined] ~ B5 + label_coverage_early, fitted on EXP5 (TAG)"
+ },
+ "smd_vs_exp5": {
+  "new_edge_rate__home": {
+   "frame_n_mean": 0.6075682746928471,
+   "exp5_mean": 0.24889072444603888,
+   "smd": 0.5370901777067298
+  },
+  "n_comm_W3__home": {
+   "frame_n_mean": 1.919811320754717,
+   "exp5_mean": 1.2589807184574766,
+   "smd": 0.4927933043421686
+  },
+  "participation__home": {
+   "frame_n_mean": 0.31558308222202525,
+   "exp5_mean": 0.231394827645089,
+   "smd": 0.33555939058391204
+  },
+  "NOV_res__home": {
+   "frame_n_mean": -0.53003502311023,
+   "exp5_mean": -0.540878815478257,
+   "smd": 0.030954894080974554
+  },
+  "ego_density_W3__home": {
+   "frame_n_mean": 0.6898574531122277,
+   "exp5_mean": 0.7333316442122908,
+   "smd": -0.16801730960296002
+  },
+  "edge_persistence__home": {
+   "frame_n_mean": 0.23643820394595716,
+   "exp5_mean": 0.12181679324062415,
+   "smd": 0.6393352525928521
+  },
+  "new_edge_rate__all": {
+   "frame_n_mean": 0.5665623897113746,
+   "exp5_mean": 0.21719006740357463,
+   "smd": 0.8538042843699644
+  },
+  "n_comm_W3__all": {
+   "frame_n_mean": 3.14937106918239,
+   "exp5_mean": 2.5504440355228417,
+   "smd": 0.31757489145131984
+  },
+  "participation__all": {
+   "frame_n_mean": 0.4019624990149085,
+   "exp5_mean": 0.37717298031975993,
+   "smd": 0.09927664774682832
+  },
+  "NOV_res__all": {
+   "frame_n_mean": -0.508717319022384,
+   "exp5_mean": -0.4551811396695778,
+   "smd": -0.1746188679294189
+  },
+  "ego_density_W3__all": {
+   "frame_n_mean": 0.6221326182998036,
+   "exp5_mean": 0.6560566200808624,
+   "smd": -0.154704230125486
+  },
+  "edge_persistence__all": {
+   "frame_n_mean": 0.3222187508356772,
+   "exp5_mean": 0.24747966125278484,
+   "smd": 0.45738785799912185
+  },
+  "logvol": {
+   "frame_n_mean": 4.778453055723663,
+   "exp5_mean": 4.24337520441679,
+   "smd": 1.1134503520472214
+  },
+  "growth_c": {
+   "frame_n_mean": 0.33213453695041506,
+   "exp5_mean": -0.06352666488297941,
+   "smd": 0.5424106068328869
+  },
+  "offhome_share": {
+   "frame_n_mean": 0.23866984897756097,
+   "exp5_mean": 0.3007453895629234,
+   "smd": -0.2868342273850788
+  },
+  "entropy": {
+   "frame_n_mean": 0.6731042353195501,
+   "exp5_mean": 0.8615363686178193,
+   "smd": -0.38266026931835845
+  },
+  "reach": {
+   "frame_n_mean": 3.147798742138365,
+   "exp5_mean": 3.230658452676214,
+   "smd": -0.04846038933408968
+  }
+ },
+ "smd_flags_gt_0.5": [
+  "new_edge_rate__home",
+  "edge_persistence__home",
+  "new_edge_rate__all",
+  "logvol",
+  "growth_c"
+ ],
+ "coupling_check": {
+  "OPEN_home~offhome_share": 0.1774244276878931,
+  "OPEN_home~logvol": 0.3330247118697431,
+  "OPEN_all~offhome_share": 0.29592619208742943,
+  "OPEN_all~logvol": 0.3223554804181719,
+  "NOVCHURN_home~offhome_share": 0.30326841271986577,
+  "NOVCHURN_home~logvol": -0.22914592608855017
+ },
+ "cheng_vs_persistence_spearman": 0.79147512637098,
+ "chunglu_vs_rewiring_mean_pearson": 0.9999166949577493,
+ "missingness": {
+  "new_edge_rate__home": 0.0,
+  "n_comm_W3__home": 0.0,
+  "participation__home": 0.1761006289308176,
+  "NOV_res__home": 0.11477987421383648,
+  "ego_density_W3__home": 0.26257861635220126,
+  "edge_persistence__home": 0.0880503144654088,
+  "OPEN_home": 0.09119496855345911,
+  "OPEN_all": 0.007861635220125786,
+  "OPEN_sizematch": 0.0770440251572327,
+  "NOVCHURN_home": 0.11477987421383648,
+  "CHENG_consistency_home": 0.04874213836477988,
+  "CHENG_embeddedness_home": 0.09276729559748427,
+  "ego_density_W3_cz": 0.2641509433962264,
+  "edge_persistence_sz": 0.22641509433962265,
+  "NOVCHURN_home_rare": 0.45440251572327045,
+  "edge_persistence_excess": 0.0880503144654088
+ },
+ "open_home_coverage": 0.9088050314465409,
+ "n_analysis_frame": 636,
+ "by_group": {
+  "BGM+Med": 253,
+  "CS+Eng": 153,
+  "SOC": 91,
+  "PHYS": 90,
+  "LIFEENV": 36,
+  "MATHDEC": 13
+ },
+ "by_t0": {
+  "2003": 31,
+  "2004": 42,
+  "2005": 36,
+  "2006": 39,
+  "2007": 42,
+  "2008": 44,
+  "2009": 70,
+  "2010": 44,
+  "2011": 59,
+  "2012": 57,
+  "2013": 59,
+  "2014": 55,
+  "2015": 58
+ }
+}
