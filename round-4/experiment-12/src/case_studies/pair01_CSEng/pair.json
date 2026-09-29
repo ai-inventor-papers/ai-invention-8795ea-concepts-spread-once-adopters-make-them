@@ -1,0 +1,322 @@
+{
+ "pair": "pair01_CSEng",
+ "rgroup": "CS+Eng",
+ "selection": {
+  "gap": 2.7915748198295907,
+  "maha": null,
+  "tol": 0.25,
+  "anchor": 0
+ },
+ "illustration_only": true,
+ "disclosure": "held-out outcomes were previously unsealed by EXP5/EXP7/EXP8; this seal fixes only this artifact's analysis choices (fixed on DEV before held-out states/outcomes were read by this artifact)",
+ "members": {
+  "HIGH_OPEN": {
+   "ci": 42309,
+   "concept_id": 2779851693,
+   "name": "Graphics processing unit",
+   "group": "Eng",
+   "t0": 2008,
+   "home": "22",
+   "B5": {
+    "logvol": 4.890349128221754,
+    "growth_c": 0.7096764668771506,
+    "offhome_share": 0.5833333134651184,
+    "entropy": 1.761137844001943,
+    "reach": 8.0
+   },
+   "OPEN": {
+    "all": 2.1224511003497835,
+    "home": 0.4987059599128893,
+    "size": 1.7057721031414068
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 1.1794871794871795,
+     "n_comm_W3": 8.0,
+     "participation": 0.7587429111531191,
+     "NOV_res": -0.16491208007678892,
+     "ego_density_W3": 0.29590017825311943,
+     "edge_persistence": 0.11981566820276497
+    },
+    "home": {
+     "new_edge_rate": 0.8333333333333334,
+     "n_comm_W3": 2.0,
+     "participation": 0.2975206611570247,
+     "NOV_res": -0.14674982010074356,
+     "ego_density_W3": 0.8095238095238095,
+     "edge_persistence": 0.16666666666666666
+    },
+    "size": {
+     "new_edge_rate": 0.8174999999999999,
+     "n_comm_W3": 3.4,
+     "participation": 0.6112551208323845,
+     "NOV_res": -0.12873665207789226,
+     "ego_density_W3": 0.4280952380952381,
+     "edge_persistence": 0.03831043956043956
+    }
+   },
+   "decomposition": {
+    "E2": 7.0,
+    "EH": 11.0,
+    "Bn": 8.0,
+    "M": 1.5714285714285714,
+    "rho": 0.7272727272727273
+   },
+   "axis": {
+    "PC1": 10.554667195070259
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 7.940617046233275,
+    "O2r_resid": 3.2599171916920078,
+    "O1c": 0.4662371464502586,
+    "O1b": 0.0,
+    "O3": 0.0,
+    "O4": -0.06187304938435001
+   },
+   "recognition_events_same": [
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2003,
+     "year_usable": true,
+     "lag_to_t0": -5,
+     "pre_t0": true
+    }
+   ],
+   "dependency_event_count": 1,
+   "top_W3_neighbours": [
+    [
+     "Digital Holography and Microscopy",
+     5.85,
+     3
+    ],
+    [
+     "Optical Coherence Tomography Applications",
+     5.55,
+     5
+    ],
+    [
+     "Image and Object Detection Techniques",
+     5.33,
+     4
+    ],
+    [
+     "Autonomous Vehicle Technology and Safety",
+     5.31,
+     2
+    ],
+    [
+     "Advanced Fluorescence Microscopy Techniques",
+     4.94,
+     4
+    ],
+    [
+     "Parallel Computing and Optimization Techniques",
+     4.87,
+     6
+    ],
+    [
+     "Photoacoustic and Ultrasonic Imaging",
+     4.84,
+     4
+    ],
+    [
+     "Computer Graphics and Visualization Techniques",
+     4.83,
+     4
+    ],
+    [
+     "Scientific Research and Discoveries",
+     4.75,
+     3
+    ],
+    [
+     "Advanced Optical Imaging Technologies",
+     4.74,
+     2
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "HIGH_OPEN_W1_all": {
+     "n_nodes": 12,
+     "n_edges": 35,
+     "n_communities": 6,
+     "density": 0.5303030303030303
+    },
+    "HIGH_OPEN_W2_all": {
+     "n_nodes": 22,
+     "n_edges": 48,
+     "n_communities": 8,
+     "density": 0.2077922077922078
+    },
+    "HIGH_OPEN_W3_all": {
+     "n_nodes": 34,
+     "n_edges": 166,
+     "n_communities": 8,
+     "density": 0.29590017825311943
+    },
+    "HIGH_OPEN_W3_home": {
+     "n_nodes": 7,
+     "n_edges": 17,
+     "n_communities": 2,
+     "density": 0.8095238095238095
+    }
+   }
+  },
+  "LOW_OPEN": {
+   "ci": 33270,
+   "concept_id": 2777596722,
+   "name": "Vertical axis wind turbine",
+   "group": "Eng",
+   "t0": 2009,
+   "home": "22",
+   "B5": {
+    "logvol": 4.897839799950911,
+    "growth_c": 0.6931471805599453,
+    "offhome_share": 0.1078431382775306,
+    "entropy": 0.4893724062136025,
+    "reach": 3.0
+   },
+   "OPEN": {
+    "all": -0.6691237194798072,
+    "home": -0.4069733522454708,
+    "size": -0.5376855099279206
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 0.18181818181818182,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.609326004399896,
+     "ego_density_W3": 0.696969696969697,
+     "edge_persistence": 0.35416666666666663
+    },
+    "home": {
+     "new_edge_rate": 0.26666666666666666,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.6924204447969953,
+     "ego_density_W3": 0.6444444444444445,
+     "edge_persistence": 0.3246753246753247
+    },
+    "size": {
+     "new_edge_rate": 0.16127645502645502,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.6684926710665626,
+     "ego_density_W3": 0.7285606060606059,
+     "edge_persistence": 0.3149963924963925
+    }
+   },
+   "decomposition": {
+    "E2": 2.0,
+    "EH": 6.0,
+    "Bn": 4.0,
+    "M": 3.0,
+    "rho": 0.6666666666666666
+   },
+   "axis": {
+    "PC1": 0.8168201244858367
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 3.765660415396956,
+    "O2r_resid": -0.9180104704375194,
+    "O1c": 0.895173808433233,
+    "O1b": 1.0,
+    "O3": 0.0,
+    "O4": 0.8695705766597654
+   },
+   "recognition_events_same": [
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2020,
+     "year_usable": false,
+     "lag_to_t0": 11,
+     "pre_t0": false
+    }
+   ],
+   "dependency_event_count": 1,
+   "top_W3_neighbours": [
+    [
+     "Icing and De-icing Technologies",
+     6.91,
+     13
+    ],
+    [
+     "Wind Turbine Control Systems",
+     6.34,
+     6
+    ],
+    [
+     "Aerospace Engineering and Energy Systems",
+     6.3,
+     6
+    ],
+    [
+     "Aerodynamics and Fluid Dynamics Research",
+     5.93,
+     12
+    ],
+    [
+     "Fluid Dynamics and Vibration Analysis",
+     5.79,
+     11
+    ],
+    [
+     "Soil, Finite Element Methods",
+     4.82,
+     5
+    ],
+    [
+     "Vibration and Dynamic Analysis",
+     4.43,
+     6
+    ],
+    [
+     "Electric Motor Design and Analysis",
+     4.41,
+     3
+    ],
+    [
+     "Magnetic Bearings and Levitation Dynamics",
+     4.08,
+     2
+    ],
+    [
+     "Fluid Dynamics and Turbulent Flows",
+     3.58,
+     3
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "LOW_OPEN_W1_all": {
+     "n_nodes": 10,
+     "n_edges": 32,
+     "n_communities": 2,
+     "density": 0.7111111111111111
+    },
+    "LOW_OPEN_W2_all": {
+     "n_nodes": 10,
+     "n_edges": 32,
+     "n_communities": 2,
+     "density": 0.7111111111111111
+    },
+    "LOW_OPEN_W3_all": {
+     "n_nodes": 12,
+     "n_edges": 46,
+     "n_communities": 1,
+     "density": 0.696969696969697
+    },
+    "LOW_OPEN_W3_home": {
+     "n_nodes": 10,
+     "n_edges": 29,
+     "n_communities": 1,
+     "density": 0.6444444444444445
+    }
+   }
+  }
+ },
+ "flag_open_home_order_disagrees": false,
+ "high_open_has_higher_O2r_resid": true
+}
