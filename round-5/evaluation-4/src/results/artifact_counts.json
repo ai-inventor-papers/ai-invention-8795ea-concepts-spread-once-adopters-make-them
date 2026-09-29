@@ -1,0 +1,113 @@
+{
+ "rows": [
+  {
+   "dir": "iter_1/gen_art/gen_art_dataset_1",
+   "status": "failed/incomplete",
+   "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+  },
+  {
+   "dir": "iter_1/gen_art/gen_art_experiment_1",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_1/gen_art/gen_art_experiment_2",
+   "status": "failed/incomplete",
+   "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+  },
+  {
+   "dir": "iter_1/gen_art/gen_art_experiment_3",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_1/gen_art/gen_art_experiment_4",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_2/gen_art/gen_art_dataset_2",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_2/gen_art/gen_art_evaluation_1",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_2/gen_art/gen_art_experiment_5",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_2/gen_art/gen_art_experiment_6",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_2/gen_art/gen_art_research_1",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_3/gen_art/gen_art_evaluation_2",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_3/gen_art/gen_art_experiment_7",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_3/gen_art/gen_art_experiment_8",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_3/gen_art/gen_art_experiment_9",
+   "status": "failed/incomplete",
+   "evidence": "result.failed = true (output_format validation failed after 5 retries: The output )"
+  },
+  {
+   "dir": "iter_3/gen_art/gen_art_research_2",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_4/gen_art/gen_art_evaluation_3",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_4/gen_art/gen_art_experiment_10",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_4/gen_art/gen_art_experiment_11",
+   "status": "failed/incomplete",
+   "evidence": "no .aii_worker_result.json"
+  },
+  {
+   "dir": "iter_4/gen_art/gen_art_experiment_12",
+   "status": "completed",
+   "evidence": "structured output present"
+  },
+  {
+   "dir": "iter_4/gen_art/gen_art_research_3",
+   "status": "completed",
+   "evidence": "structured output present"
+  }
+ ],
+ "commissioned": 20,
+ "completed": 16,
+ "failed": 4,
+ "failed_dirs": [
+  "iter_1/gen_art/gen_art_dataset_1",
+  "iter_1/gen_art/gen_art_experiment_2",
+  "iter_3/gen_art/gen_art_experiment_9",
+  "iter_4/gen_art/gen_art_experiment_11"
+ ]
+}
