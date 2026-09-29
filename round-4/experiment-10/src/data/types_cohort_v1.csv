@@ -1,0 +1,1536 @@
+ci,frame,group,name,t0,n_titles,type_m1,generic_m1,conf_m1
+233,cohort,Med,Electrical impedance myography,2016,3,method,0,1.0
+346,cohort,PHYS,Persistent homology,2016,3,method,0,1.0
+378,cohort,SOC,Job rotation,2015,3,topic,0,1.0
+380,cohort,SOC,General Data Protection Regulation,2016,3,topic,0,1.0
+390,cohort,SOC,Obstruent,2015,3,object,0,1.0
+410,cohort,Eng,Bilevel optimization,2016,3,method,0,1.0
+528,cohort,CS,Least significant bit,2015,3,method,1,1.0
+700,cohort,Eng,Allan variance,2015,3,property,0,1.0
+706,cohort,Eng,Visual odometry,2015,3,method,0,1.0
+772,cohort,Med,Activity tracker,2015,3,object,0,1.0
+799,cohort,SOC,Cognitive restructuring,2016,3,method,0,1.0
+896,cohort,PHYS,Geomagnetically induced current,2015,3,object,0,1.0
+985,cohort,Eng,Ampacity,2016,3,property,0,1.0
+995,cohort,Eng,Capillary wave,2015,3,object,0,1.0
+1075,cohort,CS,Hyperparameter,2015,3,property,0,1.0
+1076,cohort,Eng,Physical unclonable function,2017,3,object,0,1.0
+1108,cohort,SOC,Overpopulation,2016,3,object,0,1.0
+1133,cohort,Eng,Potassium-ion battery,2017,3,object,0,1.0
+1142,cohort,SOC,Business risks,2015,3,topic,0,1.0
+1209,cohort,SOC,Market value added,2017,3,property,0,1.0
+1224,cohort,CS,DevOps,2015,3,method,0,1.0
+1225,cohort,BGM,Biological pathway,2016,3,object,0,1.0
+1416,cohort,Eng,Percolation theory,2015,3,topic,0,1.0
+1456,cohort,PHYS,Spinon,2016,3,object,0,1.0
+1510,cohort,BGM,Succinylation,2015,3,method,0,1.0
+1516,cohort,Med,PPARGC1A,2016,3,object,0,1.0
+1519,cohort,PHYS,Trans-Neptunian object,2017,3,object,0,1.0
+1586,cohort,Med,Viral shedding,2016,3,property,0,1.0
+1595,cohort,Eng,Nuclear transmutation,2017,3,method,0,1.0
+1618,cohort,MATHDEC,Hybrid Monte Carlo,2017,3,method,0,1.0
+1665,cohort,Eng,Angle of arrival,2015,3,method,0,1.0
+1694,cohort,PHYS,Empirical orthogonal functions,2015,3,method,0,1.0
+1765,cohort,SOC,General insurance,2017,3,topic,0,1.0
+1788,cohort,PHYS,Circumbinary planet,2015,3,object,0,1.0
+1802,cohort,Eng,Power to gas,2015,3,method,0,1.0
+1814,cohort,Eng,Very-large-scale integration,2017,3,method,1,1.0
+1863,cohort,Eng,Market clearing,2016,3,method,0,1.0
+1936,cohort,SOC,Proletariat,2017,3,object,0,1.0
+2093,cohort,LIFEENV,Secondary succession,2016,3,topic,0,1.0
+2200,cohort,Med,Adipose tissue macrophages,2016,3,object,0,1.0
+2207,cohort,Med,Audiogram,2015,3,object,0,0.9
+2240,cohort,SOC,Sound symbolism,2017,3,topic,0,0.9
+2260,cohort,LIFEENV,Imaging genetics,2017,3,topic,0,0.9
+2411,cohort,LIFEENV,Shortwave radiation,2017,3,property,0,0.9
+2478,cohort,LIFEENV,Aerobic denitrification,2015,3,topic,0,0.9
+2504,cohort,Eng,Material point method,2015,3,method,0,0.9
+2528,cohort,Med,Standard score,2016,3,property,1,0.9
+2596,cohort,Eng,Filter cake,2015,3,object,0,0.9
+2613,cohort,LIFEENV,Human–wildlife conflict,2015,3,topic,0,0.9
+2617,cohort,Eng,Trilateration,2016,3,method,0,0.9
+2626,cohort,LIFEENV,Agricultural marketing,2015,3,topic,0,0.9
+2793,cohort,CS,Clustering coefficient,2016,3,property,0,0.9
+2807,cohort,Eng,Nonlinear system identification,2016,3,method,0,0.9
+2892,cohort,Eng,Clock gating,2015,3,method,0,0.9
+3005,cohort,PHYS,Solidus,2015,3,object,0,0.9
+3129,cohort,Eng,Electrochemical reduction of carbon dioxide,2017,3,method,0,0.9
+3207,cohort,BGM,RNA polymerase I,2016,3,object,0,0.9
+3306,cohort,Med,Haemodynamic response,2016,3,property,0,0.9
+3506,cohort,Eng,Superposition principle,2015,3,property,1,0.9
+3536,cohort,CS,Multi-task learning,2016,3,method,0,0.9
+3545,cohort,LIFEENV,Engram,2016,3,object,0,0.9
+3748,cohort,Eng,Smartwatch,2015,3,object,0,0.9
+3935,cohort,Eng,Stochastic geometry,2016,3,topic,0,0.9
+3940,cohort,SOC,Legal positivism,2015,3,topic,0,0.9
+3991,cohort,Eng,Recloser,2017,3,object,0,0.9
+4061,cohort,SOC,Predestination,2016,3,topic,0,0.9
+4065,cohort,LIFEENV,Planetary boundaries,2016,3,topic,0,0.9
+4096,cohort,CS,Data deduplication,2015,3,method,0,0.9
+4171,cohort,Med,Face validity,2016,3,property,0,0.9
+4221,cohort,BGM,Regulator gene,2015,3,object,0,0.9
+4231,cohort,PHYS,Coordination number,2016,3,property,0,0.9
+4333,cohort,SOC,Philosophy of history,2015,3,topic,0,0.9
+4339,cohort,Eng,Rocket propellant,2015,3,object,0,0.9
+4535,cohort,PHYS,Nuclear fission,2015,3,topic,1,0.9
+4560,cohort,SOC,Psychological safety,2015,3,property,0,0.9
+4564,cohort,SOC,Semantic change,2016,3,topic,0,0.9
+4567,cohort,BGM,Systems medicine,2017,3,topic,0,0.9
+4754,cohort,LIFEENV,Infiltrometer,2015,3,object,0,0.9
+4794,cohort,LIFEENV,Ribbon synapse,2015,3,object,0,0.9
+4808,cohort,CS,Activation function,2016,3,method,0,0.9
+4902,cohort,LIFEENV,Fimbria,2015,3,object,0,0.9
+4941,cohort,SOC,Language shift,2016,3,topic,0,0.9
+4951,cohort,SOC,Metatheory,2015,3,topic,0,0.9
+4959,cohort,Eng,Plate fin heat exchanger,2015,3,object,0,0.9
+4974,cohort,Eng,Love wave,2015,3,object,0,0.9
+5183,cohort,SOC,Romance languages,2016,3,object,0,0.9
+5261,cohort,Med,Discriminant function analysis,2016,3,method,0,0.9
+5290,cohort,SOC,Principle of legality,2015,3,property,0,0.9
+5543,cohort,MATHDEC,p-value,2017,3,property,1,0.9
+5584,cohort,SOC,Foreign relations,2015,3,topic,0,0.9
+5591,cohort,SOC,Popular sovereignty,2015,3,property,0,0.9
+5676,cohort,SOC,Transnationality,2016,3,property,0,0.9
+5724,cohort,BGM,ADP-ribosylation,2015,3,method,0,0.9
+5780,cohort,Eng,Non-linear least squares,2017,3,method,0,0.9
+5864,cohort,Eng,Low latency (capital markets),2015,3,property,0,0.9
+5873,cohort,MATHDEC,Abelian variety,2015,3,object,0,0.9
+5897,cohort,SOC,Rational number,2015,3,object,1,0.9
+5938,cohort,LIFEENV,Forage fish,2017,3,object,0,0.9
+6231,cohort,Med,Fibroblast growth factor receptor 1,2015,3,object,0,0.9
+6363,cohort,BGM,De novo transcriptome assembly,2015,3,method,0,0.9
+6457,cohort,Eng,Turbulator,2015,3,object,0,0.9
+6552,cohort,MATHDEC,Functional data analysis,2016,3,method,0,0.9
+6600,cohort,Eng,Variational integrator,2016,3,method,0,0.9
+6729,cohort,LIFEENV,Disjunct distribution,2015,3,property,0,0.9
+6809,cohort,Med,Beers Criteria,2015,3,object,0,0.9
+6947,cohort,Eng,Superconducting magnetic energy storage,2015,3,object,0,0.9
+7010,cohort,Eng,Stochastic approximation,2015,3,method,1,0.9
+7019,cohort,MATHDEC,Contraction mapping,2015,3,method,1,0.9
+7187,cohort,MATHDEC,Differential calculus,2016,3,topic,1,0.9
+7215,cohort,PHYS,Oxygen-evolving complex,2015,3,object,0,0.9
+7258,cohort,Eng,Dry ice,2017,3,object,1,0.9
+7327,cohort,SOC,Occupational prestige,2016,3,property,0,0.9
+7447,cohort,Eng,Capacitive micromachined ultrasonic transducers,2016,3,object,0,0.9
+7487,cohort,SOC,Bloom's taxonomy,2016,3,method,0,0.9
+7502,cohort,Eng,Quantum dot solar cell,2016,3,object,0,0.9
+7532,cohort,LIFEENV,Population ecology,2015,3,topic,1,0.9
+7546,cohort,PHYS,F-theory,2016,3,topic,0,0.9
+7614,cohort,Eng,Wiener process,2015,3,object,1,0.9
+7653,cohort,Med,Body shape,2015,3,property,0,0.9
+7675,cohort,PHYS,Mass attenuation coefficient,2017,3,property,0,0.9
+7778,cohort,CS,Graph isomorphism,2015,3,method,0,0.9
+7857,cohort,LIFEENV,Oxidative enzyme,2016,3,object,0,0.9
+7861,cohort,LIFEENV,Circumscription,2017,3,method,0,0.9
+7951,cohort,SOC,Visual rhetoric,2016,3,topic,0,0.9
+7959,cohort,SOC,Disposition effect,2017,3,property,0,0.9
+7967,cohort,Eng,Marangoni effect,2017,3,property,0,0.9
+7998,cohort,BGM,ABCC1,2015,3,object,0,0.9
+8034,cohort,LIFEENV,Sleep onset,2017,3,property,0,0.9
+8076,cohort,SOC,Microhistory,2017,3,topic,0,0.9
+8120,cohort,LIFEENV,Neuroregeneration,2015,3,topic,0,0.9
+8173,cohort,Med,Occam's razor,2017,3,property,1,0.9
+8208,cohort,Eng,Freon,2017,3,object,0,0.9
+8283,cohort,Eng,Temperature jump,2015,3,method,0,0.9
+8296,cohort,PHYS,Molecular engineering,2016,3,topic,0,0.9
+8324,cohort,PHYS,Stadial,2016,3,object,0,0.9
+8365,cohort,LIFEENV,Drill cuttings,2016,3,object,0,0.9
+8389,cohort,SOC,Cognitive semantics,2016,3,topic,0,0.9
+8458,cohort,LIFEENV,Poultry farming,2015,3,topic,0,0.9
+8545,cohort,Med,Layperson,2017,3,object,0,0.9
+8806,cohort,SOC,Search and seizure,2015,3,method,0,0.9
+8830,cohort,PHYS,Clockwise,2017,3,property,0,0.9
+8846,cohort,CS,Gradient boosting,2017,3,method,0,1.0
+8867,cohort,Eng,Ordered probit,2017,3,method,0,1.0
+8996,cohort,SOC,Anabaptists,2015,3,object,0,1.0
+9010,cohort,Eng,Alkaline water electrolysis,2017,3,method,0,1.0
+9068,cohort,PHYS,Earthquake warning system,2016,3,object,0,1.0
+9086,cohort,LIFEENV,Expert elicitation,2017,3,method,0,1.0
+9107,cohort,BGM,Exaptation,2017,3,property,0,1.0
+9122,cohort,Med,Implementation research,2015,3,topic,0,1.0
+9131,cohort,MATHDEC,Shimura variety,2016,3,object,0,1.0
+9228,cohort,LIFEENV,Ecological stoichiometry,2017,3,topic,0,1.0
+9266,cohort,Eng,Probabilistic risk assessment,2016,3,method,0,1.0
+9341,cohort,CS,Locality-sensitive hashing,2015,3,method,0,1.0
+9647,cohort,Eng,Differential thermal analysis,2015,3,method,0,1.0
+9706,cohort,SOC,Metalinguistics,2015,3,topic,0,1.0
+9974,cohort,BGM,DNA profiling,2017,3,method,0,1.0
+9994,cohort,CS,Keystroke dynamics,2015,3,method,0,1.0
+10041,cohort,Med,Naturopathy,2015,3,topic,0,1.0
+10161,cohort,BGM,Genetic drift,2016,3,property,0,1.0
+10205,cohort,Eng,Sigmoid function,2015,3,object,0,1.0
+10220,cohort,SOC,Environmental sociology,2016,3,topic,0,1.0
+10402,cohort,Eng,Exergy efficiency,2015,3,property,0,1.0
+10481,cohort,SOC,Number line,2015,3,object,1,1.0
+10489,cohort,LIFEENV,Phytosociology,2015,3,topic,0,1.0
+10503,cohort,SOC,Victimology,2016,3,topic,0,1.0
+10631,cohort,SOC,Openness to experience,2015,3,property,0,1.0
+10739,cohort,PHYS,Significant wave height,2015,3,property,0,1.0
+10792,cohort,Med,VP40,2017,3,object,0,1.0
+10811,cohort,BGM,Synaptotagmin 1,2015,3,object,0,1.0
+10818,cohort,BGM,Chromosomal rearrangement,2016,3,object,0,1.0
+10829,cohort,Med,Linear energy transfer,2016,3,property,0,1.0
+10858,cohort,BGM,Developmental plasticity,2017,3,property,0,1.0
+10940,cohort,Eng,Levenberg–Marquardt algorithm,2016,3,method,0,1.0
+10942,cohort,BGM,Experimental evolution,2015,3,method,0,1.0
+11135,cohort,SOC,Continuous assessment,2015,3,method,0,1.0
+11185,cohort,CS,Ideal solution,2017,3,method,0,1.0
+11244,cohort,Eng,Electronic skin,2016,3,object,0,1.0
+11257,cohort,CS,Low-rank approximation,2017,3,method,0,1.0
+11342,cohort,LIFEENV,Transcranial alternating current stimulation,2015,3,method,0,1.0
+11498,cohort,CS,Cognitive computing,2016,3,topic,0,1.0
+11593,cohort,LIFEENV,Suspensor,2016,3,object,0,0.97
+11640,cohort,PHYS,Isobar,2015,3,object,0,0.97
+11859,cohort,MATHDEC,Quadratic field,2015,3,object,0,0.97
+12146,cohort,Eng,Frustum,2017,3,object,0,0.97
+12182,cohort,BGM,Guide RNA,2016,3,object,0,0.97
+12248,cohort,LIFEENV,Phenomics,2015,3,topic,0,0.97
+12249,cohort,Med,Interleukin 15,2015,3,object,0,0.97
+12256,cohort,Med,PIM1,2016,3,object,0,0.97
+12270,cohort,Med,Stereoelectroencephalography,2017,3,method,0,0.97
+12321,cohort,MATHDEC,Mittag-Leffler function,2017,3,object,0,0.97
+12359,cohort,BGM,BAG3,2015,3,object,0,0.97
+12444,cohort,BGM,AXIN2,2015,3,object,0,0.97
+12470,cohort,BGM,Chromothripsis,2015,3,object,0,0.97
+12543,cohort,Med,Panoramic radiograph,2015,3,method,0,0.97
+12605,cohort,BGM,Microbial metabolism,2016,3,topic,0,0.97
+12612,cohort,PHYS,Gravitational-wave astronomy,2016,3,topic,0,0.97
+12627,cohort,PHYS,Interdependent networks,2017,3,topic,0,0.97
+12712,cohort,CS,Autoencoder,2015,3,method,0,0.97
+12851,cohort,BGM,Provirus,2015,3,object,0,0.97
+12876,cohort,BGM,Functional divergence,2016,3,property,0,0.97
+12880,cohort,Eng,Gyrator,2017,3,object,0,0.9
+12899,cohort,LIFEENV,Richards equation,2017,3,method,0,0.9
+12948,cohort,SOC,Sci-Fi,2016,3,topic,0,0.9
+13075,cohort,Eng,Visible spectrum,2016,3,property,0,0.9
+13185,cohort,PHYS,Mudflow,2016,3,object,0,0.9
+13216,cohort,SOC,Likert scale,2015,3,method,1,0.9
+13250,cohort,MATHDEC,K3 surface,2016,3,object,0,0.9
+13276,cohort,BGM,Fumarase,2017,3,object,0,0.9
+13285,cohort,Eng,Radio access network,2015,3,object,0,0.9
+13291,cohort,BGM,Neuropilin,2015,3,object,0,0.9
+13341,cohort,SOC,Romanization,2016,3,method,0,0.9
+13349,cohort,PHYS,Transform fault,2017,3,object,0,0.9
+13400,cohort,LIFEENV,Quadrat,2015,3,method,0,0.9
+13458,cohort,PHYS,Anti-de Sitter space,2016,3,object,0,0.9
+13507,cohort,MATHDEC,Robin boundary condition,2015,3,method,0,0.9
+13513,cohort,PHYS,Maxwell's demon,2016,3,topic,1,0.9
+13554,cohort,PHYS,Self-healing hydrogels,2017,3,object,0,0.9
+13730,cohort,SOC,Consumer price index (South Africa),2017,3,property,0,0.9
+13764,cohort,SOC,Revolving door,2015,3,topic,0,0.9
+13792,cohort,SOC,Social environment,2015,3,property,0,0.9
+13844,cohort,SOC,Lexicology,2015,3,topic,0,0.8
+13879,cohort,BGM,Citrate synthase,2017,3,object,0,1.0
+14093,cohort,SOC,Asset turnover,2016,3,property,0,1.0
+14117,cohort,SOC,Genogram,2017,3,method,0,1.0
+14171,cohort,LIFEENV,Water-energy nexus,2017,3,topic,0,1.0
+14222,cohort,LIFEENV,Bandicoot,2016,3,object,0,1.0
+14374,cohort,Eng,Subcooling,2015,3,property,0,1.0
+14381,cohort,CS,Laplacian matrix,2017,3,object,0,1.0
+14482,cohort,LIFEENV,Food energy,2017,3,topic,0,1.0
+14496,cohort,Eng,Slot-waveguide,2016,3,object,0,1.0
+14562,cohort,BGM,CD90,2015,3,object,0,1.0
+14591,cohort,CS,Betweenness centrality,2015,3,property,0,1.0
+14617,cohort,MATHDEC,Overdispersion,2016,3,property,0,1.0
+14633,cohort,SOC,European Social Survey,2017,3,method,0,1.0
+14699,cohort,MATHDEC,Local convergence,2015,3,property,0,1.0
+14700,cohort,Eng,Electrostriction,2015,3,property,0,1.0
+14802,cohort,MATHDEC,Absolute continuity,2017,3,property,0,1.0
+14815,cohort,SOC,Place identity,2016,3,topic,0,1.0
+14837,cohort,SOC,Geoportal,2015,3,object,0,1.0
+15014,cohort,BGM,GLI2,2016,3,object,0,1.0
+15066,cohort,Eng,Riemann solver,2015,3,method,0,1.0
+15199,cohort,SOC,Slavic languages,2015,3,topic,0,1.0
+15246,cohort,Eng,Probabilistic forecasting,2016,3,method,0,1.0
+15270,cohort,BGM,Sapogenin,2015,3,object,0,1.0
+15287,cohort,PHYS,Fringing reef,2016,3,object,0,1.0
+15414,cohort,MATHDEC,Ruled surface,2015,3,object,0,1.0
+15581,cohort,LIFEENV,Windthrow,2017,3,object,0,1.0
+15638,cohort,LIFEENV,Photosynthetic efficiency,2016,3,property,0,1.0
+15715,cohort,SOC,Bancassurance,2017,3,topic,0,1.0
+15728,cohort,Med,GeneXpert MTB/RIF,2016,3,method,0,1.0
+15736,cohort,LIFEENV,Air quality index,2015,3,property,0,1.0
+15761,cohort,BGM,Nanopore sequencing,2015,3,method,0,1.0
+15813,cohort,PHYS,Glacier mass balance,2015,3,property,0,1.0
+15877,cohort,PHYS,Core–mantle boundary,2015,3,object,0,1.0
+15879,cohort,Eng,Slush,2016,3,object,0,1.0
+15915,cohort,Eng,Thermal mass,2015,3,object,0,1.0
+16042,cohort,Eng,Power semiconductor device,2016,3,object,0,1.0
+16080,cohort,LIFEENV,Total dissolved solids,2017,3,property,0,1.0
+16093,cohort,SOC,Social perception,2015,3,property,0,1.0
+16181,cohort,CS,Distributed algorithm,2016,3,method,0,1.0
+16206,cohort,Eng,Corium,2015,3,object,0,1.0
+16290,cohort,PHYS,Kirkendall effect,2015,3,method,0,1.0
+16305,cohort,BGM,Basal body,2015,3,object,0,1.0
+16457,cohort,BGM,TFEB,2015,3,object,0,1.0
+16468,cohort,SOC,Secular state,2015,3,topic,0,1.0
+16485,cohort,Eng,MQTT,2016,3,method,0,1.0
+16522,cohort,CS,Code smell,2017,3,object,0,1.0
+16544,cohort,Med,Renal pathology,2016,3,topic,0,1.0
+16551,cohort,CS,Long short term memory,2017,3,method,0,1.0
+16557,cohort,Eng,Automatic differentiation,2017,3,method,0,1.0
+16615,cohort,PHYS,Reflection symmetry,2015,3,property,0,1.0
+16631,cohort,CS,Complete bipartite graph,2015,3,object,0,1.0
+16796,cohort,PHYS,Metallacycle,2016,3,object,0,1.0
+16805,cohort,CS,Hill climbing,2015,3,method,0,1.0
+16858,cohort,Eng,Reservoir computing,2017,3,method,0,1.0
+16884,cohort,SOC,Corporate branding,2017,3,topic,0,1.0
+16930,cohort,LIFEENV,Apoplast,2016,3,object,0,1.0
+17040,cohort,MATHDEC,Line bundle,2015,3,object,0,1.0
+17054,cohort,MATHDEC,Covariance function,2015,3,property,0,1.0
+17144,cohort,BGM,Balancing selection,2016,3,property,0,1.0
+17155,cohort,Med,Asymptomatic carrier,2016,3,object,0,0.9
+17265,cohort,Eng,Pozzolana,2016,3,object,0,0.9
+17274,cohort,CS,Data type,2016,3,property,0,0.9
+17302,cohort,Med,Pyrin domain,2017,3,object,0,0.9
+17309,cohort,BGM,SOX4,2015,3,object,0,0.9
+17310,cohort,SOC,Opinion leadership,2015,3,property,0,0.9
+17430,cohort,BGM,CpG site,2016,3,object,0,0.9
+17491,cohort,Med,Aquaporin 3,2017,3,object,0,0.9
+17499,cohort,Med,S1PR1,2016,3,object,0,0.9
+17573,cohort,SOC,Solution focused brief therapy,2016,3,method,0,0.9
+17611,cohort,PHYS,Alpha decay,2016,3,method,1,0.9
+17618,cohort,Eng,Power module,2017,3,object,0,0.9
+17643,cohort,Eng,Thermal contact,2016,3,property,0,0.9
+17648,cohort,SOC,Personalized learning,2017,3,method,0,0.9
+17680,cohort,MATHDEC,Bayes factor,2015,3,property,0,0.9
+17693,cohort,SOC,Film theory,2015,3,topic,0,0.9
+17715,cohort,CS,Forward chaining,2016,3,method,0,0.9
+17744,cohort,LIFEENV,Blue carbon,2017,3,object,0,0.9
+17807,cohort,Med,Hand sanitizer,2016,3,object,0,0.9
+17984,cohort,PHYS,Solar cycle 24,2015,3,object,0,0.9
+18043,cohort,Eng,Nimonic,2015,3,object,0,1.0
+18145,cohort,PHYS,Explosive eruption,2015,3,object,0,1.0
+18154,cohort,PHYS,Isotopic signature,2016,3,property,0,1.0
+18168,cohort,BGM,Bacterial outer membrane,2016,3,object,0,1.0
+18232,cohort,MATHDEC,Annihilator,2015,3,object,0,1.0
+18258,cohort,LIFEENV,Secondary cell wall,2017,3,object,0,1.0
+18270,cohort,Eng,Hyperelastic material,2015,3,object,0,1.0
+18349,cohort,LIFEENV,Suberin,2016,3,object,0,1.0
+18423,cohort,LIFEENV,Entisol,2017,3,object,0,1.0
+18440,cohort,Med,Wingate test,2016,3,method,0,1.0
+18473,cohort,BGM,Replisome,2016,3,object,0,1.0
+18482,cohort,MATHDEC,Uniformization (probability theory),2017,3,method,0,1.0
+18487,cohort,LIFEENV,Pupillary response,2016,3,property,0,1.0
+18527,cohort,LIFEENV,Eyestalk,2016,3,object,0,1.0
+18587,cohort,LIFEENV,Ecological succession,2017,3,topic,0,1.0
+18589,cohort,CS,Point of interest,2017,3,topic,0,1.0
+18611,cohort,MATHDEC,Hilbert scheme,2016,3,object,0,1.0
+18641,cohort,PHYS,Glycosidic bond,2016,3,property,0,1.0
+18668,cohort,Med,Thyroid cartilage,2017,3,object,0,1.0
+18670,cohort,SOC,Job attitude,2016,3,property,0,1.0
+18777,cohort,Eng,Azeotrope,2016,3,object,0,0.9
+18794,cohort,Med,Cathepsin S,2016,3,object,0,1.0
+18913,cohort,BGM,KEGG,2016,3,object,0,1.0
+18980,cohort,SOC,Netnography,2017,3,method,0,1.0
+19009,cohort,Eng,Enriched uranium,2015,3,object,0,1.0
+19036,cohort,SOC,Vitalism,2015,3,topic,0,1.0
+19037,cohort,CS,Majority rule,2016,3,property,0,0.9
+19068,cohort,BGM,Transfer RNA,2016,3,object,0,1.0
+19118,cohort,Eng,Froth flotation,2016,3,method,0,1.0
+19348,cohort,PHYS,Bioerosion,2017,3,topic,0,1.0
+19397,cohort,PHYS,Seiche,2017,3,object,0,1.0
+19421,cohort,MATHDEC,Morse theory,2016,3,method,0,1.0
+19501,cohort,Med,JAK-STAT signaling pathway,2015,3,topic,0,1.0
+19578,cohort,LIFEENV,Urban climate,2015,3,topic,0,1.0
+19653,cohort,Med,Artificial bone,2015,3,object,0,1.0
+19730,cohort,CS,Technical debt,2015,3,topic,0,1.0
+19758,cohort,SOC,Response bias,2015,3,property,0,1.0
+19764,cohort,SOC,Impact investing,2016,3,topic,0,1.0
+19842,cohort,SOC,Class conflict,2015,3,topic,0,1.0
+19844,cohort,CS,Thumbnail,2015,3,object,0,1.0
+20082,cohort,SOC,Online dispute resolution,2016,3,topic,0,1.0
+20141,cohort,LIFEENV,Autotomy,2016,3,object,0,1.0
+20239,cohort,SOC,Corporate communication,2016,3,topic,0,1.0
+20243,cohort,Med,Radiogenomics,2017,3,topic,0,1.0
+20253,cohort,CS,Mutation testing,2016,3,method,0,1.0
+20264,cohort,BGM,3D cell culture,2016,3,method,0,1.0
+20280,cohort,PHYS,Chiral anomaly,2016,3,property,0,1.0
+20348,cohort,Eng,Void ratio,2017,3,property,0,1.0
+20409,cohort,PHYS,Quantum graph,2017,3,object,0,1.0
+20490,cohort,CS,Parameterized complexity,2015,3,topic,0,1.0
+20579,cohort,SOC,Comprehensive income,2015,3,property,0,1.0
+20616,cohort,SOC,Minnesota Multiphasic Personality Inventory,2015,3,method,0,1.0
+20802,cohort,Eng,Spoofing attack,2017,3,topic,0,1.0
+20806,cohort,SOC,Borderline intellectual functioning,2017,3,object,0,1.0
+20819,cohort,PHYS,Atropisomer,2015,3,object,0,1.0
+20868,cohort,LIFEENV,Sterile insect technique,2016,3,method,0,1.0
+20970,cohort,LIFEENV,Molecular breeding,2015,3,method,0,1.0
+20975,cohort,Eng,Swarm robotics,2015,3,topic,0,1.0
+21038,cohort,SOC,Book value,2015,3,property,0,1.0
+21069,cohort,PHYS,Forecast skill,2017,3,property,0,1.0
+21377,cohort,LIFEENV,Arsenic toxicity,2015,3,object,0,0.9
+21406,cohort,SOC,Cognitive processing therapy,2015,3,method,0,0.9
+21416,cohort,PHYS,Lax pair,2016,3,method,0,0.9
+21423,cohort,SOC,Incantation,2017,3,topic,0,0.9
+21525,cohort,PHYS,Gas giant,2015,3,object,0,0.9
+21530,cohort,LIFEENV,Salvage logging,2017,3,topic,0,0.9
+21578,cohort,Eng,Photocatalytic water splitting,2015,3,method,0,0.9
+21597,cohort,MATHDEC,Single-index model,2017,3,method,0,0.9
+21677,cohort,Eng,Acoustic metamaterials,2016,3,object,0,0.9
+21826,cohort,CS,Graph database,2015,3,object,0,0.9
+21855,cohort,LIFEENV,Tendril,2015,3,object,0,0.9
+21958,cohort,SOC,Active listening,2016,3,method,0,0.9
+21988,cohort,CS,Group testing,2017,3,method,0,0.9
+22122,cohort,SOC,Content marketing,2017,3,topic,0,0.9
+22164,cohort,Eng,Pinch analysis,2015,3,method,0,0.9
+22192,cohort,PHYS,Enstrophy,2016,3,property,0,0.9
+22349,cohort,PHYS,Quantum limit,2017,3,property,0,0.9
+22395,cohort,SOC,Executor,2017,3,object,0,0.9
+22411,cohort,CS,Lustre (file system),2015,3,object,0,0.9
+22417,cohort,PHYS,Fumarole,2017,3,object,0,0.9
+22433,cohort,SOC,Social group,2015,3,object,0,0.9
+22439,cohort,PHYS,Astrochemistry,2015,3,topic,0,1.0
+22477,cohort,Eng,Net present value,2015,3,property,0,1.0
+22546,cohort,SOC,Historical linguistics,2015,3,topic,0,1.0
+22753,cohort,Med,Millennium Cohort Study (United States),2016,3,object,0,1.0
+22758,cohort,Med,Behavioral medicine,2016,3,topic,0,1.0
+22849,cohort,LIFEENV,Pedicel,2015,3,object,0,1.0
+22859,cohort,SOC,Dividend yield,2015,3,property,0,1.0
+22891,cohort,Med,Cost–utility analysis,2015,3,method,0,1.0
+22924,cohort,CS,Bayes classifier,2015,3,method,0,1.0
+23068,cohort,Eng,Z-scan technique,2015,3,method,0,1.0
+23091,cohort,PHYS,Sabkha,2017,3,object,0,1.0
+23172,cohort,MATHDEC,Algebraic group,2015,3,object,0,1.0
+23257,cohort,PHYS,Ocean heat content,2015,3,property,0,1.0
+23482,cohort,PHYS,Ceilometer,2016,3,object,0,1.0
+23503,cohort,BGM,Subgenomic mRNA,2016,3,object,0,1.0
+23532,cohort,SOC,Local history,2017,3,topic,0,1.0
+23550,cohort,MATHDEC,Process capability index,2016,3,property,0,1.0
+23554,cohort,SOC,Ecological validity,2017,3,property,0,1.0
+23564,cohort,PHYS,Area density,2015,3,property,0,1.0
+23645,cohort,PHYS,Cosmic dust,2017,3,object,0,1.0
+23674,cohort,CS,Retrievability,2015,3,property,0,0.8
+23758,cohort,Eng,Electrical breakdown,2015,3,property,0,1.0
+23759,cohort,PHYS,Stress–energy tensor,2016,3,object,0,1.0
+23782,cohort,Eng,Young professional,2016,3,object,0,0.7
+23801,cohort,PHYS,Pnictogen,2017,3,object,0,1.0
+23845,cohort,MATHDEC,Multivariate analysis of variance,2017,3,method,0,1.0
+23916,cohort,SOC,Video feedback,2016,3,method,0,1.0
+23957,cohort,SOC,Nuremberg trials,2016,3,topic,0,1.0
+23981,cohort,SOC,Market capitalization,2015,3,property,0,1.0
+24101,cohort,PHYS,Thermochromism,2015,3,property,0,1.0
+24119,cohort,Med,Workaround,2015,3,method,0,1.0
+24169,cohort,LIFEENV,Metaplasticity,2015,3,property,0,1.0
+24404,cohort,CS,ASCII,2017,3,object,0,1.0
+24409,cohort,CS,Data governance,2016,3,topic,0,1.0
+24422,cohort,Eng,Hamilton–Jacobi–Bellman equation,2017,3,method,0,1.0
+24437,cohort,PHYS,Planck constant,2016,3,property,1,1.0
+24463,cohort,LIFEENV,Phototroph,2016,3,object,0,1.0
+24488,cohort,SOC,Presidential system,2016,3,object,0,1.0
+24643,cohort,Eng,Hypersonic flight,2017,3,topic,0,1.0
+24706,cohort,SOC,Media ecology,2015,3,topic,0,0.9
+24803,cohort,Med,Subclade,2015,3,object,0,0.9
+24905,cohort,SOC,User experience design,2015,3,topic,0,0.9
+24933,cohort,Eng,Cyber-attack,2016,3,object,0,0.9
+25016,cohort,Med,Neuroimmunology,2017,3,topic,0,0.9
+25106,cohort,LIFEENV,Urban metabolism,2016,3,topic,0,0.9
+25135,cohort,Eng,Industrial Internet,2016,3,topic,0,0.9
+25177,cohort,MATHDEC,Additive model,2016,3,method,0,0.9
+25235,cohort,Eng,Electromagnetic acoustic transducer,2016,3,object,0,0.9
+25268,cohort,Eng,Heterodyne detection,2016,3,method,0,0.9
+25271,cohort,SOC,Art criticism,2017,3,topic,0,0.9
+25341,cohort,PHYS,Nuclear graphite,2017,3,object,0,0.9
+25376,cohort,BGM,ATP citrate lyase,2016,3,object,0,0.9
+25406,cohort,SOC,Chiefdom,2015,3,object,0,0.9
+25413,cohort,BGM,Treadmilling,2016,3,object,0,0.9
+25441,cohort,SOC,Humanitarian Logistics,2016,3,topic,0,0.9
+25485,cohort,Eng,Liquid oxygen,2016,3,object,0,0.9
+25503,cohort,SOC,Business Model Canvas,2015,3,method,0,0.9
+25580,cohort,CS,Stochastic gradient descent,2017,3,method,0,0.9
+25599,cohort,Med,FNDC5,2017,3,object,0,0.9
+25606,cohort,Eng,Froude number,2015,3,property,0,0.9
+25676,cohort,PHYS,Quasi-biennial oscillation,2017,3,property,0,0.9
+25758,cohort,SOC,Sound design,2016,3,topic,0,0.9
+25769,cohort,SOC,Buddhist philosophy,2017,3,topic,0,0.9
+25803,cohort,SOC,Diglossia,2015,3,property,0,0.9
+25835,cohort,SOC,Historical archaeology,2016,3,topic,0,0.9
+25845,cohort,SOC,Political corruption,2015,3,topic,0,0.9
+25853,cohort,LIFEENV,Structural complexity,2017,3,property,0,0.9
+25871,cohort,SOC,Medical terminology,2015,3,topic,0,0.9
+26115,cohort,Eng,Water industry,2017,3,topic,0,0.9
+26185,cohort,SOC,FinTech,2016,3,topic,0,0.9
+26278,cohort,Eng,Open source hardware,2017,3,object,0,0.9
+26385,cohort,Med,Expanded access,2015,3,topic,0,0.9
+26442,cohort,Med,Plasmodium ovale,2016,3,object,0,0.9
+26532,cohort,Eng,Direct metal laser sintering,2016,3,method,0,0.9
+26548,cohort,Eng,Marginal land,2015,3,object,0,0.9
+26558,cohort,SOC,Global South,2016,3,object,0,0.9
+26569,cohort,BGM,Mollicutes,2017,3,object,0,0.9
+26595,cohort,Med,Pyuria,2015,3,property,0,0.9
+26618,cohort,BGM,Circular RNA,2015,3,object,0,0.9
+26638,cohort,Med,Oncoplastic Surgery,2015,3,method,0,0.9
+26686,cohort,Med,Inpatient care,2015,3,topic,0,0.9
+26702,cohort,PHYS,Olduvai Gorge,2017,3,object,0,0.9
+26724,cohort,Med,Streptococcus intermedius,2017,3,object,0,0.9
+26762,cohort,Med,Ceftazidime/avibactam,2015,3,object,0,0.9
+26782,cohort,SOC,Ableism,2016,3,topic,0,0.9
+26803,cohort,Med,Akkermansia muciniphila,2016,3,object,0,0.9
+26831,cohort,Med,Atezolizumab,2016,3,object,0,0.9
+26876,cohort,Eng,Formamidinium,2016,3,object,0,0.9
+26894,cohort,Med,Positive deviance,2017,3,method,0,0.9
+26898,cohort,BGM,N6-Methyladenosine,2017,3,object,0,0.9
+27017,cohort,PHYS,Active matter,2016,3,topic,0,0.9
+27018,cohort,Med,Parasite load,2016,3,property,0,0.9
+27048,cohort,Med,"Sacubitril, Valsartan",2016,3,object,0,0.9
+27072,cohort,Med,Hypertensive retinopathy,2015,3,object,0,0.9
+27145,cohort,Eng,Trihalide,2015,3,object,0,0.9
+27172,cohort,BGM,Cellulosome,2015,3,object,0,0.9
+27181,cohort,BGM,Nutrient sensing,2017,3,property,0,0.9
+27185,cohort,Med,Loa loa,2017,3,object,0,0.9
+27191,cohort,LIFEENV,Parasitic plant,2017,3,object,0,0.9
+27209,cohort,LIFEENV,Social impact assessment,2017,3,topic,0,0.9
+27238,cohort,Med,Dydrogesterone,2016,3,object,0,0.9
+27248,cohort,Med,Timed Up and Go test,2015,3,method,0,0.9
+27272,cohort,SOC,School discipline,2016,3,topic,0,0.9
+27306,cohort,Eng,Mobile edge computing,2017,3,topic,0,0.9
+27431,cohort,Med,Morbillivirus,2016,3,object,0,0.9
+27470,cohort,Med,Pericardiectomy,2015,3,method,0,0.9
+27515,cohort,BGM,Runs of Homozygosity,2015,3,property,0,0.9
+27521,cohort,PHYS,Concretion,2016,3,object,0,0.9
+27593,cohort,Eng,Concrete cover,2016,3,property,0,0.9
+27618,cohort,SOC,Emotion perception,2017,3,method,0,0.9
+27652,cohort,LIFEENV,Cyclospora cayetanensis,2016,3,object,0,0.9
+27703,cohort,BGM,APOBEC,2015,3,object,0,0.9
+27826,cohort,LIFEENV,Electrocochleography,2017,3,method,0,0.9
+27842,cohort,SOC,The Thing,2016,3,object,0,0.9
+27852,cohort,Med,Oral food challenge,2015,3,method,0,0.9
+27939,cohort,Med,Hunter syndrome,2015,3,object,0,0.9
+27968,cohort,PHYS,Perrhenate,2015,3,object,0,0.9
+27969,cohort,SOC,Cognitive bias modification,2015,3,method,0,0.9
+27979,cohort,Med,Janus kinase inhibitor,2016,3,object,0,0.9
+28003,cohort,Med,Cath lab,2016,3,object,0,0.9
+28021,cohort,Med,Streptococcus salivarius,2017,3,object,0,0.9
+28027,cohort,Eng,Tungsten diselenide,2015,3,object,0,0.9
+28035,cohort,PHYS,Silver sulfide,2015,3,object,0,0.9
+28139,cohort,SOC,Dagger,2016,3,object,0,0.9
+28170,cohort,Med,MELAS syndrome,2016,3,object,0,0.9
+28172,cohort,BGM,Wax ester,2017,3,object,0,0.9
+28174,cohort,Med,Methyldopa,2015,3,object,0,0.9
+28188,cohort,Med,Hypopigmentation,2017,3,property,0,0.9
+28209,cohort,Med,Clofazimine,2015,3,object,0,0.9
+28216,cohort,SOC,Bid–ask spread,2017,3,property,0,0.9
+28288,cohort,SOC,Infant mental health,2015,3,topic,0,0.9
+28293,cohort,Med,Nevoid basal-cell carcinoma syndrome,2015,3,object,0,0.9
+28313,cohort,Med,Nutrition transition,2015,3,topic,0,0.9
+28371,cohort,LIFEENV,Phyllody,2017,3,property,0,0.9
+28398,cohort,Med,Home hemodialysis,2015,3,method,0,0.9
+28485,cohort,LIFEENV,Environmental data,2016,3,object,0,0.9
+28558,cohort,Med,Deflazacort,2016,3,object,0,0.9
+28561,cohort,Med,Complete blood count,2016,3,method,1,0.9
+28566,cohort,Med,Apnea–hypopnea index,2016,3,property,0,0.9
+28597,cohort,PHYS,Glauconite,2017,3,object,0,0.97
+28660,cohort,SOC,Single parent,2015,3,topic,0,0.95
+28696,cohort,Med,Idarucizumab,2015,3,object,0,0.98
+28711,cohort,CS,Bluetooth Low Energy,2015,3,method,0,0.97
+28739,cohort,Med,Synkinesis,2015,3,object,0,0.97
+28750,cohort,Med,Brain biopsy,2017,3,method,0,0.98
+28785,cohort,SOC,Violent extremism,2015,3,topic,0,0.96
+28827,cohort,SOC,Social Partnership,2015,3,topic,0,0.95
+28831,cohort,Med,Ethionamide,2015,3,object,0,0.98
+28854,cohort,PHYS,MXenes,2015,3,object,0,0.97
+28861,cohort,SOC,Right to work,2015,3,property,0,0.96
+28893,cohort,CS,Word2vec,2017,3,method,0,0.98
+28924,cohort,SOC,Brexit,2015,3,topic,0,0.97
+28968,cohort,Med,Midostaurin,2017,3,object,0,0.98
+28973,cohort,Med,Deprescribing,2015,3,method,0,0.97
+29026,cohort,SOC,Psilocybin,2016,3,object,0,0.98
+29030,cohort,SOC,Academic mobility,2017,3,topic,0,0.96
+29050,cohort,Med,Glaucoma medication,2016,3,topic,0,0.96
+29100,cohort,SOC,Family resilience,2015,3,property,0,0.95
+29163,cohort,Med,Plasmodium malariae,2016,3,object,0,0.98
+29179,cohort,Med,Carditis,2017,3,object,0,0.9
+29190,cohort,Med,International Prostate Symptom Score,2016,3,method,0,0.9
+29204,cohort,BGM,RIPK1,2015,3,object,0,0.9
+29215,cohort,SOC,Disinformation,2017,3,topic,0,0.9
+29250,cohort,SOC,Household debt,2015,3,property,0,0.9
+29273,cohort,Med,Placental site trophoblastic tumor,2016,3,object,0,0.9
+29293,cohort,LIFEENV,Rebaudioside A,2016,3,object,0,0.9
+29308,cohort,Med,Tissue remodeling,2017,3,topic,0,0.9
+29324,cohort,SOC,Job interview,2015,3,topic,0,0.9
+29341,cohort,Med,Phytol,2017,3,object,0,0.9
+29346,cohort,SOC,Civil Conflict,2016,3,topic,0,0.9
+29403,cohort,SOC,Arbitration clause,2016,3,method,0,0.9
+29409,cohort,SOC,Digression,2015,3,topic,0,0.9
+29453,cohort,Med,Hydroxocobalamin,2017,3,object,0,0.9
+29490,cohort,BGM,Mucor circinelloides,2015,3,object,0,0.9
+29495,cohort,BGM,RAD52,2016,3,object,0,0.9
+29538,cohort,Med,Klatskin tumor,2015,3,object,0,0.9
+29554,cohort,Eng,ZBLAN,2016,3,object,0,0.9
+29562,cohort,Med,Dental nurse,2015,3,topic,0,0.9
+29574,cohort,Eng,Self-discharge,2015,3,property,0,0.9
+29641,cohort,Med,Common peroneal nerve,2017,3,object,0,1.0
+29647,cohort,BGM,Resistome,2016,3,object,0,1.0
+29712,cohort,SOC,Rite of passage,2015,3,topic,0,1.0
+29808,cohort,SOC,Moral realism,2017,3,topic,0,1.0
+29812,cohort,Med,Cangrelor,2015,3,object,0,1.0
+29839,cohort,BGM,Heliconius,2015,3,object,0,1.0
+29900,cohort,Med,Spirometer,2016,3,object,0,1.0
+29965,cohort,PHYS,Early Earth,2017,3,object,0,1.0
+29967,cohort,LIFEENV,CityGML,2015,3,object,0,1.0
+30002,cohort,Med,Sacubitril,2016,3,object,0,1.0
+30015,cohort,SOC,Gambit,2017,3,topic,0,1.0
+30026,cohort,Med,Geriatric Depression Scale,2017,3,method,0,1.0
+30070,cohort,Eng,Vacuum cleaner,2017,3,object,0,1.0
+30078,cohort,Eng,Chromium carbide,2016,3,object,0,1.0
+30158,cohort,Med,African horse sickness,2015,3,object,0,1.0
+30177,cohort,Med,Vascular ring,2016,3,object,0,1.0
+30215,cohort,LIFEENV,Tine,2017,3,object,0,1.0
+30226,cohort,Med,Polio vaccine,2016,3,object,0,1.0
+30255,cohort,Med,Aspirator,2016,3,object,0,1.0
+30281,cohort,LIFEENV,Phytoene synthase,2016,3,object,0,1.0
+30354,cohort,LIFEENV,Pantropical,2017,3,property,0,0.9
+30366,cohort,Med,Dysuria,2015,3,property,0,0.9
+30375,cohort,Med,Cardiac PET,2015,3,method,0,0.9
+30417,cohort,SOC,Structural violence,2015,3,topic,0,0.9
+30458,cohort,Med,Endocrine disease,2015,3,topic,0,0.9
+30492,cohort,Med,Gadobutrol,2016,3,object,0,0.9
+30505,cohort,BGM,Shelterin,2017,3,object,0,0.9
+30531,cohort,Med,Outpatient surgery,2017,3,topic,0,0.9
+30537,cohort,SOC,Disparate impact,2016,3,property,0,0.9
+30558,cohort,Eng,Nuclear material,2017,3,object,0,0.9
+30569,cohort,PHYS,Quantum thermodynamics,2016,3,topic,0,0.9
+30571,cohort,Eng,Ferrous metallurgy,2015,3,topic,0,0.9
+30572,cohort,CS,Smart device,2015,3,object,0,0.9
+30581,cohort,SOC,Global citizenship education,2016,3,topic,0,0.9
+30631,cohort,Eng,Freestream,2016,3,property,0,0.9
+30673,cohort,SOC,Epistemic modality,2016,3,property,0,0.9
+30684,cohort,Med,Work of breathing,2016,3,property,0,0.9
+30696,cohort,BGM,Cadaverine,2015,3,object,0,0.9
+30711,cohort,Med,Mastery learning,2015,3,method,0,0.9
+30743,cohort,BGM,GAS5,2016,3,object,0,0.9
+30797,cohort,SOC,Community of inquiry,2016,3,topic,0,0.9
+30854,cohort,SOC,Process tracing,2016,3,method,0,0.9
+30874,cohort,Med,Fetal movement,2017,3,object,0,0.9
+30902,cohort,Med,Iopamidol,2017,3,object,0,0.9
+30925,cohort,Med,First responder,2015,3,object,0,0.9
+30936,cohort,BGM,Gammaproteobacteria,2015,3,object,0,0.9
+30983,cohort,LIFEENV,Willingness to accept,2015,3,property,0,0.9
+31008,cohort,Med,Proarrhythmia,2016,3,property,0,0.9
+31057,cohort,PHYS,Ladinian,2015,3,object,0,0.9
+31102,cohort,CS,Random projection,2017,3,method,0,0.9
+31127,cohort,BGM,UBE3A,2017,3,object,0,0.9
+31133,cohort,MATHDEC,Prime ring,2016,3,object,0,0.9
+31158,cohort,Med,Lymphoepithelioma,2015,3,object,0,0.9
+31205,cohort,Med,Venezuelan equine encephalitis virus,2017,3,object,0,0.9
+31228,cohort,Med,Obeticholic acid,2016,3,object,0,0.9
+31229,cohort,SOC,Symbolic capital,2016,3,property,0,0.9
+31253,cohort,BGM,Alcaligenes faecalis,2015,3,object,0,0.9
+31275,cohort,Med,Haemophilia B,2017,3,object,0,0.9
+31281,cohort,Med,Plain language,2016,3,topic,0,0.9
+31287,cohort,Med,Septal myectomy,2015,3,method,0,0.9
+31322,cohort,PHYS,Noachian,2015,3,topic,0,1.0
+31337,cohort,SOC,Foreknowledge,2015,3,topic,0,0.8
+31347,cohort,Eng,Vitrinite,2017,3,object,0,1.0
+31351,cohort,SOC,Animal ethics,2016,3,topic,0,1.0
+31404,cohort,LIFEENV,Withers,2017,3,object,0,1.0
+31440,cohort,Med,BECN1,2015,3,object,0,1.0
+31480,cohort,Med,Falls in older adults,2015,3,topic,0,1.0
+31553,cohort,Eng,Switching frequency,2017,3,property,0,1.0
+31565,cohort,Eng,Flow sensor,2015,3,method,0,1.0
+31612,cohort,Med,Toothache,2015,3,topic,0,1.0
+31613,cohort,MATHDEC,Allen–Cahn equation,2016,3,method,0,1.0
+31635,cohort,PHYS,Stone tool,2016,3,object,0,1.0
+31636,cohort,Med,Opioid epidemic,2016,3,topic,0,1.0
+31712,cohort,SOC,Ethnoarchaeology,2016,3,method,0,1.0
+31728,cohort,PHYS,Lithic technology,2015,3,topic,0,1.0
+31729,cohort,Med,Lentigo,2016,3,topic,0,1.0
+31773,cohort,Med,Alvarado score,2015,3,method,0,1.0
+31825,cohort,LIFEENV,Sodium selenate,2017,3,object,0,1.0
+31856,cohort,SOC,Vetting,2016,3,method,0,1.0
+31926,cohort,SOC,Social psychiatry,2016,3,topic,0,1.0
+31989,cohort,SOC,Weight stigma,2016,3,topic,0,1.0
+31991,cohort,SOC,Russian culture,2016,3,topic,0,1.0
+32001,cohort,LIFEENV,Juniperus communis,2016,3,object,0,1.0
+32061,cohort,BGM,Holobiont,2016,3,object,0,1.0
+32093,cohort,Eng,Flow focusing,2017,3,method,0,1.0
+32104,cohort,PHYS,Tournaisian,2015,3,object,0,1.0
+32118,cohort,SOC,Fleet management,2015,3,topic,0,1.0
+32281,cohort,Eng,Laminaria digitata,2017,3,object,0,1.0
+32424,cohort,LIFEENV,Peduncle (anatomy),2017,3,object,0,1.0
+32426,cohort,Med,Avelumab,2016,3,object,0,1.0
+32462,cohort,Med,Appropriate Use Criteria,2017,3,method,0,1.0
+32468,cohort,BGM,Human feces,2015,3,object,0,1.0
+32481,cohort,BGM,PVT1,2017,3,object,0,1.0
+32514,cohort,PHYS,Quinic acid,2015,3,object,0,1.0
+32557,cohort,SOC,Historic site,2016,3,topic,0,1.0
+32589,cohort,SOC,Shared reading,2015,3,method,0,1.0
+32601,cohort,Med,Tauroursodeoxycholic acid,2015,3,object,0,1.0
+32627,cohort,Med,Lassa virus,2017,3,object,0,1.0
+32642,cohort,SOC,Aurignacian,2015,3,object,0,1.0
+32656,cohort,SOC,Immorality,2015,3,topic,0,1.0
+32662,cohort,Eng,Tetrahedrite,2015,3,object,0,1.0
+32676,cohort,SOC,Housing tenure,2016,3,property,0,1.0
+32717,cohort,SOC,Martial law,2017,3,topic,0,1.0
+32743,cohort,PHYS,Grism,2016,3,object,0,1.0
+32752,cohort,PHYS,Phenolphthalein,2015,3,object,0,1.0
+32762,cohort,CS,Word embedding,2016,3,method,0,1.0
+32768,cohort,Med,Hypermetabolism,2015,3,property,0,1.0
+32787,cohort,Med,Antenatal depression,2016,3,object,0,1.0
+32793,cohort,Eng,Flash-lamp,2017,3,object,0,1.0
+32819,cohort,Med,Streptococcus mitis,2016,3,object,0,1.0
+32824,cohort,LIFEENV,Vicia villosa,2015,3,object,0,1.0
+32870,cohort,SOC,Alimony,2016,3,property,0,1.0
+32915,cohort,Med,Dry socket,2017,3,object,0,1.0
+32923,cohort,PHYS,Nuclear emulsion,2015,3,object,0,1.0
+32942,cohort,Eng,Fused filament fabrication,2017,3,method,0,1.0
+32971,cohort,Med,Topical steroid,2016,3,object,0,1.0
+33001,cohort,Med,Scleral lens,2015,3,object,0,1.0
+33034,cohort,Med,Convergence insufficiency,2015,3,object,0,1.0
+33049,cohort,SOC,Distributed ledger,2016,3,object,0,1.0
+33080,cohort,Med,Contraceptive implant,2015,3,object,0,1.0
+33197,cohort,LIFEENV,Leucosis,2016,3,object,0,0.9
+33223,cohort,Eng,Niobium carbide,2017,3,object,0,0.9
+33231,cohort,Med,Marketing authorization,2017,3,topic,0,0.9
+33251,cohort,BGM,Pyoverdine,2015,3,object,0,0.9
+33309,cohort,SOC,Tail dependence,2015,3,property,0,0.9
+33317,cohort,Med,Added sugar,2015,3,object,0,0.9
+33327,cohort,SOC,Communalism,2016,3,topic,0,0.9
+33387,cohort,Med,MCR-1,2016,3,object,0,0.9
+33388,cohort,BGM,Cell lineage,2015,3,object,0,0.9
+33398,cohort,LIFEENV,Schwertmannite,2017,3,object,0,0.9
+33416,cohort,Med,Osimertinib,2016,3,object,0,0.9
+33483,cohort,LIFEENV,Potato virus X,2015,3,object,0,0.9
+33493,cohort,Med,Intertriginous,2015,3,object,0,0.9
+33501,cohort,Med,Inguinal canal,2017,3,object,0,0.9
+33505,cohort,Eng,Market penetration,2017,3,property,0,0.9
+33519,cohort,Med,Amniotic fluid index,2015,3,property,0,0.9
+33526,cohort,Med,Abdominal ultrasonography,2017,3,method,0,0.9
+33527,cohort,Med,Foveal avascular zone,2016,3,object,0,0.9
+33562,cohort,CS,Ransomware,2016,3,object,0,0.9
+33565,cohort,Med,Anogenital distance,2016,3,property,0,0.9
+33581,cohort,Eng,Electric machine,2017,3,object,0,0.9
+33584,cohort,Med,Pancreatic cyst,2015,3,object,0,0.9
+33600,cohort,PHYS,Montreal Protocol,2017,3,topic,0,0.9
+33618,cohort,Eng,Energy mix,2017,3,property,0,0.9
+33619,cohort,Med,Transthoracic echocardiogram,2017,3,method,0,0.9
+33673,cohort,SOC,Belgica,2015,3,object,0,0.9
+33675,cohort,LIFEENV,Marchantia polymorpha,2015,3,object,0,0.9
+33678,cohort,BGM,Firmicutes,2016,3,object,0,0.9
+33725,cohort,LIFEENV,Clostridium sporogenes,2015,3,object,0,0.9
+33740,cohort,Med,Teething,2016,3,property,0,0.9
+33772,cohort,SOC,Responsible Research and Innovation,2015,3,topic,0,0.9
+33860,cohort,Eng,Photothermal effect,2016,3,property,0,0.9
+33862,cohort,Med,Durvalumab,2016,3,object,0,0.9
+33869,cohort,Med,Pannus,2015,3,object,0,0.9
+33871,cohort,SOC,Financial sector development,2017,3,topic,0,0.9
+33913,cohort,SOC,Southern Levant,2015,3,object,0,0.9
+34012,cohort,SOC,Narrative identity,2016,3,property,0,0.9
+34052,cohort,Med,Perivascular space,2017,3,object,0,0.9
+34170,cohort,Med,Dentate nucleus,2015,3,object,0,0.9
+34177,cohort,Med,Mepolizumab,2016,3,object,0,0.9
+34212,cohort,Med,Nasal congestion,2015,3,object,0,0.9
+34234,cohort,LIFEENV,Epibiont,2016,3,object,0,1.0
+34239,cohort,Med,Breast cancer awareness,2017,3,topic,0,1.0
+34308,cohort,SOC,TypeScript,2015,3,method,0,1.0
+34322,cohort,Med,Gigantism,2015,3,object,0,1.0
+34339,cohort,BGM,Immunogenic cell death,2016,3,object,0,1.0
+34356,cohort,SOC,Textile design,2017,3,topic,0,1.0
+34364,cohort,Med,Cold agglutinin disease,2017,3,object,0,1.0
+34369,cohort,SOC,Telos,2017,3,property,0,1.0
+34396,cohort,Eng,Conductive ink,2017,3,object,0,1.0
+34410,cohort,SOC,Sine qua non,2015,3,property,1,0.8
+34425,cohort,SOC,Political efficacy,2016,3,property,0,1.0
+34433,cohort,PHYS,Yilgarn Craton,2015,3,object,0,1.0
+34442,cohort,Med,GLUT2,2017,3,object,0,1.0
+34444,cohort,Med,Amoebic liver abscess,2015,3,object,0,1.0
+34455,cohort,PHYS,Lithium borate,2015,3,object,0,1.0
+34487,cohort,Eng,Smart power,2016,3,property,0,1.0
+34499,cohort,SOC,Encyclical,2015,3,object,0,1.0
+34580,cohort,Med,FLI1,2015,3,object,0,1.0
+34640,cohort,LIFEENV,Raw meat,2015,3,object,0,1.0
+34678,cohort,Med,Ocular myasthenia,2016,3,object,0,1.0
+34707,cohort,PHYS,Intensity mapping,2016,3,method,0,0.9
+34732,cohort,SOC,Beautification,2015,3,topic,0,0.9
+34743,cohort,PHYS,Dimedone,2015,3,object,0,1.0
+34779,cohort,Med,STK11,2017,3,object,0,1.0
+34783,cohort,PHYS,Kilonova,2017,3,object,0,1.0
+34790,cohort,Med,Neonatal hypoglycemia,2016,3,object,0,1.0
+34809,cohort,BGM,Phosphoribosyltransferase,2017,3,object,0,1.0
+34825,cohort,PHYS,Pacific Plate,2017,3,object,0,1.0
+34829,cohort,LIFEENV,Eleusine indica,2015,3,object,0,1.0
+34922,cohort,Med,Dactylitis,2017,3,object,0,1.0
+34931,cohort,BGM,Gene co-expression network,2017,3,method,0,1.0
+34935,cohort,SOC,Cultural humility,2016,3,topic,0,0.9
+34986,cohort,Med,Biotinidase deficiency,2015,3,object,0,1.0
+35047,cohort,Eng,Bayesian optimization,2017,3,method,0,1.0
+35052,cohort,Med,Intravasation,2017,3,object,0,1.0
+35090,cohort,BGM,Gene drive,2017,3,method,0,1.0
+35104,cohort,Med,Lipstick,2015,3,object,0,1.0
+35127,cohort,LIFEENV,Landscape connectivity,2016,3,topic,0,0.9
+35132,cohort,Eng,Flexoelectricity,2015,3,property,0,1.0
+35201,cohort,PHYS,Deceleration parameter,2016,3,property,0,0.9
+35324,cohort,SOC,Moral injury,2017,3,topic,0,0.9
+35325,cohort,SOC,Cognitive appraisal,2017,3,property,0,0.9
+35327,cohort,SOC,Problematization,2015,3,method,0,0.9
+35373,cohort,SOC,Digital Revolution,2016,3,topic,0,0.9
+35460,cohort,Med,Aplasia cutis congenita,2015,3,object,0,0.9
+35475,cohort,BGM,Glutaminolysis,2016,3,method,0,0.9
+35516,cohort,SOC,Wynn,2015,3,object,0,0.9
+35527,cohort,LIFEENV,Symbiotic bacteria,2016,3,object,0,0.9
+35644,cohort,SOC,Macabre,2015,3,topic,0,0.9
+35664,cohort,Med,Geriatric rehabilitation,2017,3,topic,0,0.9
+35692,cohort,SOC,Investor-state dispute settlement,2015,3,topic,0,0.9
+35696,cohort,Eng,Zirconium carbide,2015,3,object,0,0.9
+35762,cohort,Med,Theileria parva,2016,3,object,0,0.9
+35803,cohort,LIFEENV,Hydrocharitaceae,2016,3,object,0,0.9
+35853,cohort,SOC,Misdemeanor,2017,3,topic,0,0.9
+35861,cohort,Med,Monoarthritis,2017,3,object,0,0.9
+35883,cohort,Eng,Lignosulfonates,2015,3,object,0,0.9
+35888,cohort,Med,Incus,2017,3,object,0,0.9
+35933,cohort,Med,Scapholunate ligament,2015,3,object,0,0.9
+35985,cohort,PHYS,Billion years,2015,3,property,1,0.9
+35991,cohort,Eng,Gallium phosphide,2015,3,object,0,0.9
+36063,cohort,SOC,21st century skills,2015,3,topic,0,0.9
+36081,cohort,Med,Tachypnea,2015,3,object,0,0.9
+36086,cohort,Med,Larvicide,2016,3,object,0,0.9
+36112,cohort,Med,National Lung Screening Trial,2015,3,object,0,0.9
+36119,cohort,BGM,ADAR,2017,3,object,0,0.9
+36183,cohort,Med,Chemotherapy regimen,2015,3,method,0,0.9
+36206,cohort,PHYS,p-Toluenesulfonic acid,2015,3,object,0,0.9
+36226,cohort,Med,Metamorphopsia,2015,3,object,0,0.9
+36232,cohort,BGM,Sorting nexin,2017,3,object,0,0.9
+36234,cohort,PHYS,Matrix product state,2015,3,method,0,0.9
+36245,cohort,LIFEENV,Coumestrol,2016,3,object,0,0.9
+36246,cohort,Med,Flucloxacillin,2015,3,object,0,0.9
+36253,cohort,Eng,Thermal manikin,2015,3,object,0,0.9
+36254,cohort,Eng,Solution process,2015,3,method,0,0.9
+36295,cohort,SOC,Modern Greek,2016,3,object,0,0.9
+36301,cohort,PHYS,Luminophore,2017,3,object,0,0.9
+36341,cohort,Med,Greater trochanter,2016,3,object,0,0.9
+36374,cohort,Med,Therapeutic approach,2017,3,method,0,0.9
+36376,cohort,Eng,Travel survey,2015,3,method,0,0.9
+36436,cohort,BGM,Resazurin,2016,3,object,0,0.9
+36437,cohort,SOC,Superlative,2016,3,property,0,0.9
+36539,cohort,BGM,Phloretin,2015,3,object,0,0.9
+36565,cohort,Eng,Loss factor,2015,3,property,0,0.9
+36647,cohort,PHYS,Acheulean,2015,3,topic,0,0.9
+36651,cohort,CS,Edge computing,2016,3,topic,0,0.9
+36782,cohort,Med,Pectus carinatum,2016,3,object,0,0.9
+36783,cohort,SOC,Comity,2016,3,property,0,0.9
+36807,cohort,Med,Hailey–Hailey disease,2015,3,object,0,0.9
+36846,cohort,CS,Microservices,2016,3,method,0,0.9
+36971,cohort,LIFEENV,Biopreservation,2016,3,topic,0,0.9
+37005,cohort,Med,Glucagon receptor,2015,3,object,0,0.9
+37024,cohort,SOC,Historical thinking,2015,3,topic,0,0.9
+37070,cohort,SOC,Customary land,2015,3,object,0,0.9
+37074,cohort,Med,Radiomics,2015,3,method,0,0.9
+37150,cohort,SOC,Cognitive apprenticeship,2016,3,topic,0,0.9
+37164,cohort,Med,Capnocytophaga,2017,3,object,0,0.9
+37174,cohort,SOC,Panca,2016,3,object,0,0.9
+37202,cohort,Med,Spontaneous breathing trial,2017,3,method,0,0.9
+37226,cohort,SOC,Rational emotive behavior therapy,2017,3,method,0,0.9
+37284,cohort,Med,Alanine transaminase,2017,3,object,0,0.9
+37322,cohort,LIFEENV,Alternaria brassicae,2015,3,object,0,0.9
+37388,cohort,Med,Prehabilitation,2015,3,topic,0,0.9
+37391,cohort,SOC,Amphora,2016,3,object,0,0.9
+37420,cohort,Med,Optic canal,2015,3,object,0,0.9
+37456,cohort,Med,Tremelimumab,2015,3,object,0,0.9
+37469,cohort,Med,Salutogenesis,2017,3,topic,0,0.9
+37486,cohort,PHYS,Selectfluor,2015,3,object,0,0.9
+37528,cohort,SOC,Group analysis,2015,3,method,0,0.9
+37541,cohort,Eng,Vanadium nitride,2017,3,object,0,0.9
+37554,cohort,Med,Sleepwalking,2016,3,object,0,0.9
+37566,cohort,Eng,Solar Resource,2015,3,property,0,0.9
+37586,cohort,SOC,Population projection,2017,3,method,0,0.9
+37621,cohort,SOC,Unsaid,2015,3,property,0,0.9
+37716,cohort,LIFEENV,Fructokinase,2017,3,object,0,0.9
+37724,cohort,SOC,Peer instruction,2015,3,method,0,0.9
+37730,cohort,LIFEENV,Pasteurellosis,2017,3,object,0,0.9
+37747,cohort,BGM,Taxifolin,2015,3,object,0,0.9
+37751,cohort,SOC,Female entrepreneurs,2016,3,object,0,0.9
+37786,cohort,CS,Social media analytics,2015,3,topic,0,0.9
+37853,cohort,SOC,Refugee crisis,2015,3,topic,0,0.9
+37877,cohort,Med,Joint capsule,2017,3,object,0,0.9
+37906,cohort,Med,Balloon tamponade,2017,3,method,0,0.9
+37912,cohort,Eng,Periclase,2016,3,object,0,0.9
+37958,cohort,SOC,Deleuze and Guattari,2015,3,topic,0,0.9
+37964,cohort,LIFEENV,Eimeria maxima,2015,3,object,0,0.9
+37970,cohort,BGM,Pseudomonas chlororaphis,2016,3,object,0,0.9
+37998,cohort,Med,Salmonella infection,2015,3,topic,0,0.9
+38082,cohort,LIFEENV,Microspora,2016,3,object,0,0.9
+38100,cohort,Med,Metamizole,2015,3,object,0,0.9
+38138,cohort,SOC,Demand for money,2016,3,property,0,0.9
+38143,cohort,Med,Essential amino acid,2017,3,object,0,0.9
+38150,cohort,SOC,Sedition,2017,3,topic,0,0.9
+38162,cohort,LIFEENV,Whelk,2017,3,object,0,0.9
+38194,cohort,SOC,Doxa,2015,3,property,0,0.9
+38248,cohort,Med,Ocrelizumab,2017,3,object,0,0.9
+38256,cohort,Med,Resonance frequency analysis,2015,3,method,0,0.9
+38260,cohort,Med,Papulopustular,2016,3,object,0,0.9
+38262,cohort,LIFEENV,Berberidaceae,2015,3,object,0,0.9
+38264,cohort,SOC,Comparative case,2016,3,topic,0,0.9
+38310,cohort,Med,External ventricular drain,2016,3,object,0,1.0
+38328,cohort,Med,Paritaprevir,2015,3,object,0,1.0
+38346,cohort,Med,Cobb angle,2016,3,method,0,1.0
+38371,cohort,PHYS,Alnico,2017,3,object,0,1.0
+38446,cohort,LIFEENV,Fish products,2015,3,object,0,1.0
+38524,cohort,Med,FADS2,2015,3,object,0,1.0
+38545,cohort,Eng,Splitter plate,2016,3,object,0,1.0
+38565,cohort,BGM,Alteromonas,2017,3,object,0,1.0
+38614,cohort,Eng,Pharmaceutical manufacturing,2015,3,topic,0,1.0
+38647,cohort,Eng,Sand casting,2016,3,method,0,1.0
+38711,cohort,Eng,Circular saw,2015,3,object,0,1.0
+38716,cohort,LIFEENV,Myrmicinae,2017,3,object,0,1.0
+38739,cohort,LIFEENV,Infectious hematopoietic necrosis virus,2016,3,object,0,1.0
+38741,cohort,Med,Exploratory laparotomy,2016,3,method,0,1.0
+38758,cohort,Med,Oncofertility,2015,3,topic,0,1.0
+38789,cohort,LIFEENV,Brilliant green,2017,3,object,0,1.0
+38802,cohort,LIFEENV,Tyrophagus putrescentiae,2017,3,object,0,1.0
+38836,cohort,Med,Nerve sheath tumor,2016,3,object,0,1.0
+38839,cohort,PHYS,Foredune,2017,3,object,0,1.0
+38855,cohort,Med,Laminotomy,2015,3,method,0,1.0
+38886,cohort,LIFEENV,Cladodes,2015,3,object,0,1.0
+38921,cohort,LIFEENV,Astringent,2015,3,object,0,1.0
+39010,cohort,Eng,Borophene,2016,3,object,0,1.0
+39036,cohort,LIFEENV,Neutral Detergent Fiber,2015,3,property,0,1.0
+39042,cohort,CS,Chatbot,2016,3,object,0,1.0
+39080,cohort,Eng,Water–cement ratio,2017,3,property,0,1.0
+39100,cohort,SOC,Licensee,2016,3,object,0,1.0
+39151,cohort,BGM,Ricinoleic acid,2016,3,object,0,1.0
+39157,cohort,Med,High cholesterol,2016,3,property,0,1.0
+39177,cohort,Med,Enterocytozoon bieneusi,2015,3,object,0,1.0
+39219,cohort,Med,Hypersexuality,2015,3,property,0,1.0
+39222,cohort,SOC,Rhetorical criticism,2016,3,topic,0,1.0
+39298,cohort,Med,Perioperative medicine,2016,3,topic,0,1.0
+39355,cohort,Med,TIGIT,2016,3,object,0,1.0
+39360,cohort,SOC,Critical consciousness,2015,3,property,0,1.0
+39402,cohort,SOC,Jihadism,2016,3,topic,0,1.0
+39534,cohort,LIFEENV,Dingo,2016,3,object,0,1.0
+39541,cohort,Eng,Multipath TCP,2015,3,method,0,1.0
+39551,cohort,LIFEENV,Eisenia andrei,2015,3,object,0,1.0
+39590,cohort,BGM,MCL1,2016,3,object,0,1.0
+39647,cohort,Med,Tumor budding,2017,3,object,0,1.0
+39660,cohort,SOC,Second language writing,2016,3,topic,0,1.0
+39793,cohort,Med,Supraclavicular lymph nodes,2015,3,object,0,1.0
+39812,cohort,SOC,Investment policy,2015,3,topic,0,1.0
+39818,cohort,BGM,Pathway analysis,2015,3,method,0,1.0
+39872,cohort,SOC,Emoji,2016,3,object,0,1.0
+39924,cohort,BGM,mCherry,2017,3,object,0,1.0
+39948,cohort,SOC,Unpaid work,2017,3,topic,0,1.0
+39986,cohort,BGM,Xylose isomerase,2017,3,object,0,1.0
+40025,cohort,Med,Lingual nerve,2016,3,object,0,1.0
+40030,cohort,Med,WOMAC,2016,3,object,0,1.0
+40037,cohort,SOC,State of emergency,2016,3,topic,0,1.0
+40042,cohort,Eng,Nepheline,2015,3,object,0,1.0
+40152,cohort,LIFEENV,Bioactive compound,2016,3,object,0,1.0
+40239,cohort,SOC,Metanarrative,2016,3,property,0,1.0
+40273,cohort,Eng,Pressboard,2016,3,object,0,1.0
+40373,cohort,SOC,Co-teaching,2017,3,method,0,1.0
+40395,cohort,SOC,Chatterjee,2015,3,object,0,1.0
+40445,cohort,SOC,English for specific purposes,2017,3,topic,0,1.0
+40524,cohort,Med,Neratinib,2017,3,object,0,1.0
+40532,cohort,SOC,Work behavior,2016,3,property,0,0.8
+40541,cohort,SOC,Climate governance,2015,3,topic,0,1.0
+40547,cohort,Med,Choroideremia,2015,3,object,0,1.0
+40549,cohort,Med,Opioid use disorder,2015,3,object,0,1.0
+40559,cohort,SOC,Administration of justice,2016,3,topic,0,1.0
+40588,cohort,Eng,Microheater,2017,3,object,0,1.0
+40590,cohort,PHYS,Electrophilic amination,2015,3,method,0,1.0
+40607,cohort,PHYS,Gauge group,2016,3,object,0,1.0
+40626,cohort,SOC,Policy learning,2017,3,topic,0,1.0
+40637,cohort,BGM,Congenital myopathy,2016,3,object,0,1.0
+40645,cohort,Med,Anopheles sinensis,2016,3,object,0,1.0
+40666,cohort,SOC,Relational capital,2016,3,property,0,1.0
+40671,cohort,BGM,Systems pharmacology,2015,3,topic,0,1.0
+40681,cohort,SOC,Cumulative prospect theory,2017,3,property,0,1.0
+40694,cohort,Med,Piriformis syndrome,2015,3,object,0,1.0
+40726,cohort,SOC,Democratic education,2016,3,topic,0,1.0
+40799,cohort,SOC,At-risk students,2016,3,object,0,1.0
+40804,cohort,BGM,Tumor-associated macrophage,2016,3,object,0,1.0
+40810,cohort,SOC,Interfaith dialogue,2017,3,topic,0,1.0
+40842,cohort,LIFEENV,Cyclopia,2016,3,object,0,0.9
+40845,cohort,Med,Pleural empyema,2016,3,object,0,0.9
+40900,cohort,LIFEENV,Climate resilience,2015,3,topic,0,0.9
+40939,cohort,LIFEENV,Botryosphaeria dothidea,2015,3,object,0,0.9
+40946,cohort,Med,Genu varum,2017,3,object,0,0.9
+40948,cohort,SOC,Justiciability,2017,3,property,0,0.9
+41026,cohort,Med,Lifestyle medicine,2017,3,topic,0,0.9
+41060,cohort,LIFEENV,Tricin,2016,3,object,0,0.9
+41083,cohort,SOC,Fuel poverty,2015,3,topic,0,0.9
+41114,cohort,LIFEENV,Cytokine storm,2017,3,property,0,0.9
+41184,cohort,Med,Cricoid pressure,2016,3,method,0,0.9
+41194,cohort,Med,Calycosin,2015,3,object,0,0.9
+41221,cohort,SOC,Business judgment rule,2016,3,property,0,0.9
+41239,cohort,LIFEENV,Exopolymer,2017,3,object,0,0.9
+41252,cohort,Med,Prior authorization,2016,3,method,0,0.9
+41280,cohort,Eng,Internal erosion,2015,3,topic,0,0.9
+41288,cohort,LIFEENV,Old World,2016,3,object,1,0.9
+41301,cohort,SOC,Fast fashion,2016,3,topic,0,0.9
+41308,cohort,SOC,Apocrypha,2015,3,object,1,0.9
+41317,cohort,SOC,Equity crowdfunding,2016,3,method,0,0.9
+41321,cohort,PHYS,Lanio,2016,3,object,0,0.9
+41330,cohort,Med,Sinus venosus,2015,3,object,0,0.9
+41385,cohort,MATHDEC,Numerical semigroup,2017,3,object,0,0.9
+41455,cohort,Med,Percutaneous pinning,2016,3,method,0,0.9
+41481,cohort,Med,DPYD,2015,3,object,0,0.9
+41512,cohort,Med,Ecchymosis,2016,3,object,0,0.9
+41546,cohort,Eng,Interurban,2016,3,object,0,0.9
+41570,cohort,Med,Venetoclax,2015,3,object,0,0.9
+41573,cohort,MATHDEC,Vine copula,2015,3,method,0,0.9
+41659,cohort,Med,Mucorales,2017,3,object,0,0.9
+41706,cohort,SOC,Intervening variable,2017,3,property,0,0.9
+41724,cohort,SOC,Market concentration,2016,3,property,0,0.9
+41743,cohort,Eng,3D bioprinting,2015,3,method,0,0.9
+41745,cohort,SOC,Emotional well-being,2017,3,property,0,0.9
+41806,cohort,BGM,Benzylisoquinoline,2015,3,object,0,0.9
+41859,cohort,Med,Ixekizumab,2016,3,object,0,0.9
+41921,cohort,SOC,Fake news,2016,3,topic,0,0.9
+41962,cohort,Eng,C-RAN,2016,3,object,0,0.9
+41991,cohort,Med,Favipiravir,2017,3,object,0,0.9
+41995,cohort,CS,Signed graph,2017,3,object,0,0.9
+41999,cohort,PHYS,Oleylamine,2015,3,object,0,1.0
+42021,cohort,LIFEENV,Tick infestation,2017,3,topic,0,1.0
+42034,cohort,Med,Cognitive behavioral therapy for insomnia,2015,3,method,0,1.0
+42041,cohort,Med,Tarsal tunnel syndrome,2015,3,topic,0,1.0
+42055,cohort,SOC,Discovery learning,2015,3,method,0,1.0
+42078,cohort,LIFEENV,Streptococcus uberis,2016,3,object,0,1.0
+42135,cohort,MATHDEC,Branching random walk,2017,3,object,0,1.0
+42138,cohort,SOC,Moral courage,2016,3,property,0,1.0
+42164,cohort,LIFEENV,Pangolin,2015,3,object,0,1.0
+42167,cohort,Med,Antimonate,2015,3,object,0,1.0
+42169,cohort,Eng,Secure transmission,2016,3,topic,0,1.0
+42207,cohort,Med,Nutritionist,2015,3,object,0,1.0
+42211,cohort,Med,Dupilumab,2016,3,object,0,1.0
+42296,cohort,Eng,Tableting,2015,3,method,0,1.0
+42301,cohort,Med,Cubitus varus,2016,3,topic,0,1.0
+42331,cohort,LIFEENV,Arcuate fasciculus,2016,3,object,0,1.0
+42340,cohort,LIFEENV,Population decline,2016,3,topic,0,1.0
+42363,cohort,BGM,Dihydroorotate dehydrogenase,2016,3,object,0,1.0
+42366,cohort,Med,Chemical burn,2015,3,topic,0,1.0
+42386,cohort,Med,Chyle,2015,3,object,0,1.0
+42482,cohort,SOC,Custodians,2017,3,object,0,0.9
+42487,cohort,LIFEENV,Plastic pollution,2017,3,topic,0,1.0
+42498,cohort,LIFEENV,Hippopotamus,2015,3,object,0,1.0
+42542,cohort,SOC,Gerrymandering,2017,3,topic,0,1.0
+42555,cohort,Med,Sputum culture,2015,3,method,0,1.0
+42578,cohort,LIFEENV,Parboiling,2016,3,method,0,1.0
+42619,cohort,BGM,Minion,2015,3,method,0,1.0
+42647,cohort,LIFEENV,Infralimbic cortex,2015,3,object,0,1.0
+42693,cohort,SOC,Internal security,2016,3,topic,0,1.0
+42700,cohort,SOC,Smart contract,2017,3,method,0,1.0
+42702,cohort,LIFEENV,Blue mold,2015,3,object,0,1.0
+42714,cohort,LIFEENV,Lumbricus rubellus,2015,3,object,0,1.0
+42764,cohort,Med,Sixth nerve palsy,2015,3,object,0,1.0
+42779,cohort,Med,Lipoblastoma,2015,3,object,0,1.0
+42814,cohort,Med,Polydioxanone,2015,3,object,0,1.0
+42824,cohort,LIFEENV,Beehive,2016,3,object,0,1.0
+42919,cohort,LIFEENV,Flavonoid biosynthesis,2017,3,method,0,1.0
+42938,cohort,Med,Unicornuate uterus,2017,3,object,0,1.0
+42999,cohort,Med,Hyaline cartilage,2016,3,object,0,1.0
+43056,cohort,SOC,Urban resilience,2015,3,topic,0,1.0
+43174,cohort,Med,Hyrax,2017,3,object,0,1.0
+43212,cohort,SOC,Police brutality,2016,3,topic,0,1.0
+43279,cohort,LIFEENV,Halimeda,2016,3,object,0,1.0
+43297,cohort,Med,Varus deformity,2016,3,property,0,1.0
+43429,cohort,Med,Ovarian pregnancy,2015,3,object,0,1.0
+43461,cohort,SOC,Base erosion and profit shifting,2015,3,topic,0,1.0
+43498,cohort,Eng,Cooperative Adaptive Cruise Control,2017,3,method,0,1.0
+43511,cohort,SOC,Undo,2015,3,method,1,0.8
+43532,cohort,Med,Uterosacral ligament,2015,3,object,0,1.0
+43568,cohort,Med,Cerebellar vermis,2016,3,object,0,1.0
+43583,cohort,LIFEENV,Sedimentary organic matter,2017,3,object,0,1.0
+43618,cohort,Med,Papillary adenocarcinoma,2017,3,object,0,1.0
+43636,cohort,Med,Ganglion cell layer,2016,3,object,0,1.0
+43655,cohort,LIFEENV,Green waste,2016,3,object,0,1.0
+43663,cohort,LIFEENV,Hydroxycinnamic acid,2015,3,object,0,1.0
+43693,cohort,Med,Phosphatidylethanol,2017,3,object,0,1.0
+43708,cohort,Eng,Plasmatron,2016,3,object,0,1.0
+43709,cohort,LIFEENV,Ecosystem respiration,2015,3,property,0,1.0
+43850,cohort,PHYS,Surface hopping,2015,3,method,0,1.0
+43872,cohort,SOC,Shit,2015,3,object,0,1.0
+43938,cohort,Med,Ovarian vein,2017,3,object,0,0.9
+43972,cohort,SOC,Project finance,2015,3,topic,0,0.9
+44108,cohort,BGM,Giant Virus,2016,3,object,0,0.9
+44114,cohort,SOC,Brick and mortar,2017,3,object,0,0.9
+44138,cohort,Med,Cancer staging,2017,3,method,0,0.9
+44188,cohort,Med,Staphylococcal scalded skin syndrome,2016,3,object,0,0.9
+44205,cohort,Med,Products of conception,2017,3,object,0,0.9
+44223,cohort,SOC,Unified theory of acceptance and use of technology,2015,3,method,0,0.9
+44265,cohort,Med,Gastrointestinal perforation,2015,3,object,0,0.9
+44267,cohort,Med,Mass gathering,2015,3,object,0,0.9
+44270,cohort,Med,Hospital medicine,2017,3,topic,0,0.9
+44276,cohort,SOC,Royalist,2016,3,object,0,0.9
+44278,cohort,Med,Appendicular skeleton,2016,3,object,0,0.9
+44339,cohort,PHYS,Phenoxazine,2017,3,object,0,0.9
+44380,cohort,Eng,Micromodel,2015,3,object,0,0.9
+44409,cohort,Med,Cricoid cartilage,2017,3,object,0,0.9
+44437,cohort,Med,Thyroid neoplasm,2016,3,object,0,0.9
+44448,cohort,Med,Alopecia universalis,2017,3,object,0,0.9
+44472,cohort,Med,Cloxacillin,2017,3,object,0,0.9
+44509,cohort,Med,Companion diagnostic,2015,3,object,0,0.9
+44512,cohort,SOC,Verbal abuse,2015,3,topic,0,0.9
+44598,cohort,Med,Vaso-occlusive crisis,2017,3,object,0,0.9
+44626,cohort,BGM,Isorhamnetin,2015,3,object,0,0.9
+44673,cohort,PHYS,Chemical safety,2016,3,topic,0,0.9
+44687,cohort,SOC,Digital learning,2017,3,topic,0,0.9
+44698,cohort,Med,Tropicamide,2016,3,object,0,0.9
+44764,cohort,Med,Phalloplasty,2016,3,method,0,0.9
+44806,cohort,LIFEENV,Calcium nitrate,2016,3,object,0,0.9
+44835,cohort,Eng,Unavailability,2016,3,property,0,0.9
+44864,cohort,Med,Weekend effect,2015,3,property,0,0.9
+44912,cohort,BGM,ORFS,2015,3,object,0,0.9
+44977,cohort,PHYS,Hippuric acid,2015,3,object,0,0.9
+44995,cohort,Med,Truncus,2015,3,object,0,0.9
+45067,cohort,PHYS,Dark photon,2015,3,object,0,0.9
+45100,cohort,PHYS,Leptoquark,2016,3,object,0,0.9
+45104,cohort,Eng,Moving least squares,2015,3,method,0,0.9
+45110,cohort,Eng,Rotordynamics,2016,3,topic,0,0.9
+45161,cohort,SOC,Creative accounting,2015,3,topic,0,0.9
+45193,cohort,LIFEENV,Dacus,2017,3,object,0,0.9
+45200,cohort,LIFEENV,Clomazone,2017,3,object,0,0.9
+45250,cohort,MATHDEC,Subcategory,2016,3,object,0,0.9
+45280,cohort,Eng,Human-in-the-loop,2016,3,method,0,0.9
+45296,cohort,SOC,Christianization,2015,3,topic,0,0.9
+45307,cohort,Med,Gastroenterostomy,2017,3,method,0,0.9
+45309,cohort,Med,Workplace health promotion,2015,3,topic,0,0.9
+45329,cohort,Med,Deltoid ligament,2017,3,object,0,0.9
+45330,cohort,SOC,Strategy implementation,2017,3,topic,0,0.9
+45344,cohort,Med,Extracorporeal cardiopulmonary resuscitation,2016,3,method,0,0.9
+45378,cohort,Med,Intervention mapping,2016,3,method,0,0.9
+45384,cohort,Med,Neonatal Fc receptor,2016,3,object,0,0.9
+45392,cohort,SOC,Economic diplomacy,2015,3,topic,0,0.9
+45394,cohort,Med,EMPA,2016,3,object,0,0.9
+45444,cohort,LIFEENV,Proteus vulgaris,2017,3,object,0,0.9
+45455,cohort,SOC,Setter,2017,3,object,0,0.9
+45463,cohort,Med,Apatinib,2016,3,object,0,0.9
+45478,cohort,SOC,Child marriage,2015,3,topic,0,0.9
+45520,cohort,BGM,Cerulenin,2016,3,object,0,0.9
+45558,cohort,Med,Anterolateral ligament,2015,3,object,0,0.9
+45638,cohort,BGM,ISG15,2015,3,object,0,0.9
+45639,cohort,Med,Hypertension in Pregnancy,2015,3,topic,0,0.9
+45647,cohort,SOC,Rescission,2016,3,property,0,0.9
+45651,cohort,Eng,National Airspace System,2017,3,topic,0,0.9
+45664,cohort,PHYS,Symbiotic star,2015,3,object,0,0.9
+45692,cohort,Med,Forensic identification,2015,3,method,0,0.9
+45707,cohort,Med,Epigenetic therapy,2016,3,topic,0,0.9
+45763,cohort,SOC,Spiritual Health,2015,3,topic,0,0.9
+45772,cohort,Med,Phytomedicine,2015,3,topic,0,0.9
+45820,cohort,CS,Cosine similarity,2016,3,method,1,0.9
+45840,cohort,Med,Infraorbital nerve,2015,3,object,0,0.9
+45848,cohort,Med,Angioscopy,2015,3,method,0,0.9
+45856,cohort,LIFEENV,Ixodes persulcatus,2015,3,object,0,0.9
+45887,cohort,Med,Posterior shoulder,2016,3,object,0,0.9
+45903,cohort,BGM,PIEZO1,2015,3,object,0,0.9
+45908,cohort,SOC,Extracurricular activity,2015,3,topic,0,0.9
+45916,cohort,SOC,Interregnum,2017,3,property,0,0.9
+45921,cohort,Eng,Variable renewable energy,2016,3,object,0,0.9
+45933,cohort,Med,Community integration,2015,3,topic,0,0.9
+45938,cohort,LIFEENV,Fermented fish,2015,3,object,0,0.9
+45982,cohort,Eng,Oil sludge,2015,3,object,0,0.9
+46034,cohort,CS,Crowdsensing,2016,3,method,0,0.9
+46048,cohort,Med,Crew resource management,2017,3,topic,0,0.9
+46064,cohort,SOC,Gnosticism,2016,3,topic,0,0.9
+46079,cohort,LIFEENV,Cyanotoxin,2016,3,object,0,0.9
+46097,cohort,Med,Opisthorchiasis,2016,3,object,0,0.9
+46138,cohort,Eng,Hydrogen ion,2016,3,object,1,0.9
+46153,cohort,Med,Cytokine release syndrome,2016,3,object,0,0.9
+46160,cohort,Eng,Absorptance,2015,3,property,1,0.9
+46184,cohort,Eng,Lime mortar,2015,3,object,1,0.9
+46204,cohort,SOC,Sentience,2016,3,property,0,0.9
+46221,cohort,SOC,Counter-Reformation,2015,3,topic,1,0.9
+46240,cohort,Eng,Hardware Trojan,2015,3,object,0,0.9
+46262,cohort,Med,Incision and drainage,2017,3,method,0,0.9
+46339,cohort,SOC,Amharic,2016,3,object,0,0.9
+46392,cohort,BGM,H3K4me3,2016,3,object,0,0.9
+46421,cohort,Med,Radiation oncologist,2015,3,object,0,0.9
+46451,cohort,SOC,Omnichannel,2016,3,topic,0,0.9
+46454,cohort,BGM,Ectoine,2016,3,object,0,0.9
+46501,cohort,Med,Esophageal motility disorder,2017,3,object,0,0.9
+46512,cohort,Med,Bragg peak,2016,3,property,0,0.9
+46542,cohort,PHYS,Polyvinyl butyral,2017,3,object,0,0.9
+46553,cohort,SOC,Decoloniality,2017,3,topic,0,0.98
+46635,cohort,Eng,Camphene,2015,3,object,0,0.99
+46645,cohort,LIFEENV,Springtail,2017,3,object,0,0.99
+46657,cohort,PHYS,Baddeleyite,2015,3,object,0,0.99
+46722,cohort,SOC,Serfdom,2015,3,object,0,0.99
+46736,cohort,LIFEENV,Southeastern Nigeria,2017,3,object,0,0.99
+46773,cohort,SOC,Discounted cash flow,2016,3,method,0,0.99
+46853,cohort,Med,Adenovirus infection,2016,3,object,0,0.99
+46857,cohort,LIFEENV,Loss and damage,2016,3,topic,0,0.99
+46883,cohort,CS,Computation offloading,2016,3,method,0,0.99
+46897,cohort,SOC,Backdoor,2017,3,object,0,0.99
+46911,cohort,SOC,Feminist pedagogy,2016,3,topic,0,0.99
+46941,cohort,CS,Cloudlet,2015,3,object,0,0.99
+46959,cohort,Eng,Rotating disk electrode,2017,3,method,0,0.99
+47075,cohort,Med,Chenodeoxycholic acid,2015,3,object,0,0.99
+47116,cohort,Med,Ixazomib,2015,3,object,0,0.99
+47148,cohort,Eng,Electricity price forecasting,2016,3,topic,0,0.99
+47155,cohort,Eng,Overall equipment effectiveness,2015,3,property,0,0.99
+47196,cohort,Med,Loop diuretic,2016,3,object,0,0.99
+47207,cohort,Med,Daratumumab,2015,3,object,0,0.99
+47209,cohort,PHYS,Beringia,2016,3,object,0,0.9
+47228,cohort,CS,Mixed criticality,2016,3,topic,0,0.9
+47241,cohort,SOC,Business valuation,2015,3,topic,0,0.9
+47244,cohort,Eng,Motor oil,2015,3,object,0,0.9
+47337,cohort,Med,Carcinoid syndrome,2016,3,object,0,0.9
+47340,cohort,BGM,Reverse vaccinology,2017,3,method,0,0.9
+47375,cohort,Eng,High-voltage direct current,2016,3,method,0,0.9
+47414,cohort,Med,Leukemoid reaction,2015,3,object,0,0.9
+47486,cohort,LIFEENV,Rhizophagus irregularis,2016,3,object,0,0.9
+47494,cohort,Med,Fusariosis,2016,3,object,0,0.9
+47505,cohort,Eng,Stretchable electronics,2015,3,topic,0,0.9
+47517,cohort,Med,Hypoalgesia,2016,3,object,0,0.9
+47538,cohort,Eng,Polyether ether ketone,2015,3,object,0,0.9
+47551,cohort,LIFEENV,Andropogon,2015,3,object,0,0.9
+47576,cohort,Eng,Titanium hydride,2015,3,object,0,0.9
+47601,cohort,Med,Forward head posture,2015,3,object,0,0.9
+47678,cohort,SOC,Biculturalism,2017,3,topic,0,0.9
+47707,cohort,BGM,Rhodococcus rhodochrous,2016,3,object,0,0.9
+47741,cohort,LIFEENV,Gray wolf,2017,3,object,0,0.9
+47743,cohort,Med,Limited English proficiency,2017,3,topic,0,0.9
+47789,cohort,SOC,Tranche,2015,3,object,0,0.9
+47802,cohort,Med,Abscopal effect,2017,3,topic,0,0.9
+47823,cohort,Med,Retinaculum,2017,3,object,0,0.9
+47837,cohort,PHYS,Fast radio burst,2016,3,object,0,0.9
+47858,cohort,BGM,Sulfolobus acidocaldarius,2016,3,object,0,0.9
+47972,cohort,LIFEENV,Dynamic functional connectivity,2017,3,property,0,0.9
+48051,cohort,Med,Circulating tumor DNA,2015,3,object,0,0.9
+48065,cohort,Med,Early-onset Alzheimer's disease,2016,3,topic,0,0.9
+48081,cohort,SOC,Blacklist,2015,3,object,0,0.9
+48102,cohort,Eng,Multirotor,2016,3,object,0,0.9
+48130,cohort,SOC,Self-affirmation,2016,3,method,0,0.9
+48139,cohort,Eng,Personal mobility,2015,3,topic,0,0.9
+48142,cohort,LIFEENV,Paspalum notatum,2017,3,object,0,0.9
+48161,cohort,BGM,MEG3,2015,3,object,0,0.9
+48193,cohort,Med,Muscle tone,2015,3,property,0,0.9
+48225,cohort,Eng,Datasheet,2015,3,object,0,0.9
+48264,cohort,PHYS,Voter model,2017,3,method,0,0.9
+48274,cohort,SOC,Intellectualism,2016,3,topic,0,0.9
+48277,cohort,SOC,Culturalism,2016,3,topic,0,0.9
+48304,cohort,Med,Eardrum,2016,3,object,0,0.9
+48362,cohort,SOC,Professional communication,2016,3,topic,0,1.0
+48378,cohort,LIFEENV,Inferior frontal gyrus,2016,3,object,0,1.0
+48379,cohort,SOC,Unanimity,2016,3,property,0,1.0
+48409,cohort,PHYS,Mountain range (options),2015,3,object,0,1.0
+48416,cohort,BGM,WNT4,2016,3,object,0,1.0
+48420,cohort,PHYS,Phosphinidene,2015,3,object,0,1.0
+48439,cohort,Med,Social stigma,2015,3,topic,0,1.0
+48449,cohort,SOC,Moral agency,2017,3,property,0,1.0
+48456,cohort,Med,Pain scale,2015,3,method,0,1.0
+48475,cohort,BGM,Propionibacterium freudenreichii,2015,3,object,0,1.0
+48481,cohort,LIFEENV,Photomorphogenesis,2016,3,topic,0,1.0
+48495,cohort,BGM,Harmine,2015,3,object,0,1.0
+48513,cohort,SOC,Smiley,2017,3,object,0,1.0
+48556,cohort,Eng,Fire performance,2017,3,property,0,1.0
+48620,cohort,SOC,Interoception,2015,3,property,0,1.0
+48628,cohort,BGM,Filamentous fungus,2016,3,object,0,1.0
+48667,cohort,Med,Mandibular molar,2017,3,object,0,1.0
+48680,cohort,Med,Epidermal Cyst,2015,3,object,0,1.0
+48687,cohort,Eng,Aviation accident,2016,3,topic,0,1.0
+48696,cohort,Med,Left breast,2016,3,object,0,1.0
+48699,cohort,Med,Vaginal Vault Prolapse,2017,3,object,0,0.95
+48725,cohort,Med,Podiatrist,2015,3,object,0,0.95
+48760,cohort,Med,Inactivated Poliovirus Vaccine,2016,3,object,0,0.95
+48780,cohort,Med,Postural instability,2015,3,property,0,0.95
+48781,cohort,Med,Voice Disorder,2015,3,object,0,0.95
+48798,cohort,LIFEENV,Castor beans,2015,3,object,0,0.95
+48814,cohort,Med,Lung fibrosis,2017,3,object,0,0.95
+48816,cohort,Med,Bone marrow aspirate,2015,3,method,0,0.95
+48817,cohort,Med,Dietary Sodium,2016,3,object,0,0.95
+48838,cohort,LIFEENV,Caribbean region,2017,3,object,0,0.95
+48869,cohort,Med,Drug pricing,2015,3,topic,0,0.95
+48876,cohort,Med,Foreign Body Ingestion,2017,3,object,0,0.95
+48903,cohort,Med,HEPATITIS DELTA,2015,3,object,0,0.95
+48913,cohort,Med,Corneal opacity,2017,3,object,0,0.95
+48927,cohort,Eng,Air traffic controller,2015,3,object,0,0.95
+48947,cohort,Med,Fundus camera,2017,3,method,0,0.95
+48981,cohort,Med,Elbow pain,2016,3,object,0,0.95
+48997,cohort,Med,Operating theatres,2017,3,object,0,0.95
+49001,cohort,BGM,Gene Annotation,2017,3,method,0,0.95
+49082,cohort,Med,Cerebellar Degeneration,2015,3,object,0,0.95
+49084,cohort,PHYS,Tetracycline Hydrochloride,2015,3,object,0,1.0
+49115,cohort,Med,Interrupted Time Series Analysis,2015,3,method,0,1.0
+49137,cohort,Med,Frailty Index,2015,3,property,0,1.0
+49145,cohort,Med,Multiple Chronic Conditions,2017,3,object,0,1.0
+49161,cohort,Med,Temporomandibular Joint Disorder,2015,3,object,0,1.0
+49171,cohort,Med,Sympathetic Denervation,2015,3,method,0,1.0
+49198,cohort,Med,Expectorant,2015,3,object,0,1.0
+49236,cohort,Med,Round Ligament,2016,3,object,0,1.0
+49252,cohort,Med,Sialorrhea,2015,3,object,0,1.0
+49256,cohort,Med,Right heart failure,2017,3,object,0,1.0
+49281,cohort,Med,Nocebo Effect,2017,3,property,0,1.0
+49286,cohort,Med,Hyperlactatemia,2017,3,object,0,1.0
+49298,cohort,LIFEENV,Herring gull,2016,3,object,0,1.0
+49324,cohort,Med,Genu Valgum,2015,3,object,0,1.0
+49333,cohort,Med,Congenital talipes equinovarus,2015,3,object,0,1.0
+49381,cohort,Med,Cerebral ischaemia,2017,3,object,0,1.0
+49382,cohort,Med,CD4-CD8 Ratio,2016,3,property,0,1.0
+49396,cohort,SOC,Forensic examination,2016,3,method,0,1.0
+49399,cohort,Med,Phenylbutyrate,2016,3,object,0,1.0
+49400,cohort,Med,Fusiform Aneurysm,2017,3,object,0,1.0
+49410,cohort,Med,Outpatient visits,2017,3,object,0,0.9
+49505,cohort,Med,Intracranial haemorrhage,2017,3,object,0,0.9
+49519,cohort,PHYS,Aminoquinolines,2016,3,object,0,0.9
+49528,cohort,PHYS,Ethyleneimine,2015,3,object,0,0.9
+49531,cohort,LIFEENV,Trogoderma granarium,2015,3,object,0,0.9
+49535,cohort,Med,Anti malarial,2015,3,object,0,0.9
+49570,cohort,Med,Pressure injury,2016,3,object,0,0.9
+49586,cohort,Med,Standard precautions,2015,3,method,0,0.9
+49611,cohort,Med,Patient Empowerment,2016,3,topic,0,0.9
+49633,cohort,Med,Brucella suis,2017,3,object,0,0.9
+49635,cohort,Med,Arthrogryposis multiplex congenita,2015,3,object,0,0.9
+49659,cohort,SOC,Pan paniscus,2015,3,object,0,0.9
+49708,cohort,LIFEENV,Lima beans,2017,3,object,0,0.9
+49718,cohort,Med,Fat-Soluble Vitamin,2016,3,object,0,0.9
+49723,cohort,Med,Obstructive hydrocephalus,2017,3,object,0,0.9
+49735,cohort,Med,Acute Psychosis,2017,3,object,0,0.9
+49754,cohort,Med,Nucleic Acid Amplification Tests,2017,3,method,0,0.9
+49783,cohort,Med,Counterfeit Drugs,2015,3,object,0,0.9
+49836,cohort,Med,Elective cesarean section,2016,3,method,0,0.9
+49852,cohort,LIFEENV,Longissimus Thoracis,2015,3,object,0,0.9
+49862,cohort,SOC,Postage Stamps,2017,3,object,0,0.9
+49897,cohort,Med,Candida auris,2017,3,object,0,1.0
+49912,cohort,Med,Narrative medicine,2017,3,topic,0,1.0
+49927,cohort,Med,Hendra Virus,2015,3,object,0,1.0
+49930,cohort,Med,Hematological malignancy,2015,3,object,0,1.0
+49952,cohort,PHYS,Doxorubicin Hydrochloride,2016,3,object,0,1.0
+49978,cohort,Med,Semaglutide,2016,3,object,0,1.0
+49991,cohort,Med,Periampullary cancer,2016,3,object,0,1.0
+50005,cohort,Med,Coronary angiogram,2015,3,method,0,1.0
+50007,cohort,Med,Papio anubis,2016,3,object,0,1.0
+50023,cohort,Med,Facial reconstruction,2015,3,method,0,1.0
+50050,cohort,Med,Arterial Ischemic Stroke,2016,3,object,0,1.0
+50068,cohort,BGM,Neuronal migration,2016,3,object,0,1.0
+50076,cohort,Med,Premature aging,2017,3,object,0,1.0
+50209,cohort,SOC,Working mother,2016,3,object,0,1.0
+50243,cohort,Med,Platelet disorder,2016,3,object,0,1.0
+50249,cohort,Med,Undifferentiated Pleomorphic Sarcoma,2015,3,object,0,1.0
+50280,cohort,LIFEENV,Audiologist,2017,3,object,0,1.0
+50377,cohort,Med,Paediatric intensive care unit,2017,3,object,0,1.0
+50390,cohort,Med,Dermacentor reticulatus,2015,3,object,0,1.0
+50407,cohort,Med,Immune Dysfunction,2016,3,object,0,0.95
+50459,cohort,Med,Total pancreatectomy,2016,3,method,0,0.95
+50483,cohort,BGM,Citrobacter rodentium,2015,3,object,0,0.95
+50535,cohort,Med,M2 Macrophage,2016,3,object,0,0.95
+50603,cohort,Med,Truth telling,2017,3,topic,0,0.95
+50616,cohort,Med,Hypertensive crisis,2015,3,object,0,0.95
+50625,cohort,Med,Severe Malaria,2015,3,object,0,0.95
+50645,cohort,LIFEENV,Ground Level Ozone,2015,3,object,0,0.95
+50648,cohort,Med,End-stage kidney disease,2015,3,object,0,0.95
+50655,cohort,LIFEENV,Watercress,2016,3,object,0,0.95
+50697,cohort,Med,Congenital ichthyosis,2016,3,object,0,0.95
+50698,cohort,Med,Cervical insufficiency,2016,3,object,0,0.95
+50743,cohort,LIFEENV,Atropa belladonna,2017,3,object,0,0.95
+50791,cohort,Med,Ablation Therapy,2016,3,method,0,0.95
+50803,cohort,BGM,Mucopolysaccharidosis type II,2016,3,object,0,0.95
+50857,cohort,BGM,Antibody Repertoire,2016,3,object,0,0.95
+50951,cohort,Med,Multipotent Stem Cell,2017,3,object,0,0.95
+50971,cohort,Med,Human breast milk,2016,3,object,0,0.95
+50977,cohort,Med,Trough Concentration,2016,3,property,0,0.95
+50981,cohort,Med,Chikungunya fever,2017,3,object,0,0.95
+51010,cohort,LIFEENV,Male genitalia,2015,3,object,0,0.9
+51012,cohort,Med,Investigational Drugs,2015,3,topic,0,0.9
+51021,cohort,Med,Streptococcus anginosus,2017,3,object,0,0.9
+51036,cohort,LIFEENV,Seriola quinqueradiata,2017,3,object,0,0.9
+51052,cohort,Med,Drug prices,2015,3,property,0,0.9
+51101,cohort,Med,Postnatal Care,2015,3,topic,0,0.9
+51106,cohort,Med,Classical Hodgkin lymphoma,2015,3,object,0,0.9
+51143,cohort,Med,Rotavirus Infections,2016,3,object,0,0.9
+51207,cohort,Med,Consanguineous Marriage,2016,3,topic,0,0.9
+51237,cohort,Med,Metastatic Urothelial Carcinoma,2015,3,object,0,0.9
+51256,cohort,Med,Mayer-Rokitansky-Kuster-Hauser Syndrome,2016,3,object,0,0.9
+51357,cohort,Med,Tenofovir alafenamide,2015,3,object,0,0.9
+51358,cohort,LIFEENV,Pacific herring,2015,3,object,0,0.9
+51364,cohort,Med,CAR T-cell therapy,2017,3,method,0,0.9
+51370,cohort,Med,Pulmonary Veno-Occlusive Disease,2016,3,object,0,0.9
+51413,cohort,PHYS,Electrostatic interaction,2015,3,property,1,0.9
+51419,cohort,SOC,Grocery shopping,2017,3,topic,0,0.9
+51428,cohort,Eng,Heart beat,2017,3,property,0,0.9
+51444,cohort,LIFEENV,Grid cell,2015,3,object,0,0.9
+51453,cohort,Eng,Car sharing,2017,3,topic,0,0.9
+51460,cohort,Med,Three dimensional printing,2016,3,method,0,0.9
+51462,cohort,LIFEENV,Digital surface,2016,3,object,0,0.9
+51523,cohort,LIFEENV,Forest structure,2016,3,object,0,0.9
+51537,cohort,BGM,Electron flow,2016,3,property,0,0.9
+51563,cohort,Eng,Battery storage,2017,3,topic,0,0.9
+51568,cohort,SOC,Aesthetic experience,2015,3,topic,0,0.9
+51600,cohort,Eng,Electromagnetic theory,2016,3,topic,1,0.9
+51683,cohort,Eng,Noise level,2015,3,property,0,0.9
+51722,cohort,SOC,Disruptive technology,2017,3,topic,0,0.9
+51738,cohort,CS,Deep neural networks,2015,3,method,0,0.9
+51746,cohort,CS,User engagement,2017,3,property,0,0.9
+51774,cohort,SOC,Social acceptance,2015,3,property,0,0.9
+51818,cohort,Eng,Frequency reuse,2017,3,method,0,0.9
+51823,cohort,MATHDEC,Population variance,2015,3,property,1,0.9
+51882,cohort,Med,Knowledge retention,2017,3,property,0,0.9
+51894,cohort,Med,Optical coherence tomography angiography,2015,3,method,0,0.9
+51905,cohort,PHYS,Particle dynamics,2017,3,method,0,0.9
+51919,cohort,PHYS,Source model,2016,3,object,0,0.9
+51929,cohort,SOC,Time budget,2017,3,property,0,0.9
+51957,cohort,Eng,Distribution grid,2017,3,object,0,0.9
+51997,cohort,SOC,Gig economy,2016,3,topic,0,0.9
+52010,cohort,Eng,Vehicle safety,2016,3,topic,0,0.9
+52015,cohort,Med,Motion sensors,2016,3,object,0,0.9
+52033,cohort,CS,Fog computing,2016,3,topic,0,0.9
+52039,cohort,Eng,Nickel alloy,2015,3,object,0,0.9
+52045,cohort,SOC,Public healthcare,2015,3,topic,0,0.9
+52049,cohort,Eng,Tensor decomposition,2016,3,method,0,0.9
+52122,cohort,Eng,Unmanned surface vehicle,2016,3,object,0,0.9
+52125,cohort,CS,Knowledge graph,2016,3,object,0,0.9
+52129,cohort,Med,Body posture,2015,3,property,0,0.9
+52160,cohort,PHYS,Weather prediction,2015,3,topic,0,0.9
+52227,cohort,LIFEENV,Aerial imagery,2017,3,object,0,0.9
+52309,cohort,BGM,Protein stability,2016,3,property,0,0.9
+52394,cohort,SOC,Educational management,2017,3,topic,0,0.9
+52397,cohort,PHYS,Fluid pressure,2015,3,property,0,0.9
+52507,cohort,SOC,Web survey,2016,3,method,0,0.9
+52515,cohort,SOC,Urban infrastructure,2016,3,object,0,0.9
+52536,cohort,SOC,Fair trial,2016,3,topic,0,0.9
+52546,cohort,Med,Barthel index,2017,3,method,0,0.9
+52558,cohort,Med,Public involvement,2015,3,topic,0,0.9
+52563,cohort,SOC,Purchasing decision,2015,3,topic,0,0.9
+52599,cohort,Med,Biological age,2017,3,property,0,0.9
+52609,cohort,SOC,Social activism,2016,3,topic,0,0.9
+52616,cohort,BGM,Gene interaction,2015,3,topic,0,0.9
+52617,cohort,SOC,Public prosecutor,2017,3,object,0,0.9
+52649,cohort,Med,Metabolic cost,2017,3,property,0,0.9
+52653,cohort,PHYS,Sunspot number,2016,3,property,0,0.9
+52677,cohort,LIFEENV,Organic production,2015,3,topic,0,0.9
+52701,cohort,Med,Prostate adenocarcinoma,2015,3,object,0,0.9
+52712,cohort,SOC,Russian revolution,2017,3,topic,0,0.9
+52738,cohort,SOC,Family ties,2015,3,topic,0,0.9
+52747,cohort,SOC,Place making,2015,3,topic,0,0.9
+52749,cohort,Med,Liver dysfunction,2015,3,object,0,0.9
+52753,cohort,SOC,Indigenous culture,2015,3,topic,0,0.9
+52767,cohort,SOC,Divine comedy,2016,3,object,0,0.9
+52774,cohort,LIFEENV,Rice farming,2017,3,topic,0,0.9
+52801,cohort,Med,Implicit bias,2016,3,property,0,0.9
+52826,cohort,CS,Science class,2017,3,topic,0,0.9
+52831,cohort,Med,High risk pregnancy,2015,3,topic,0,0.9
+52883,cohort,SOC,Character development,2016,3,topic,0,0.9
+52904,cohort,LIFEENV,Finger tapping,2015,3,method,0,0.9
+52910,cohort,SOC,Destination management,2017,3,topic,0,0.9
+52915,cohort,SOC,Gravity equation,2015,3,method,0,0.9
+52951,cohort,SOC,Consumer research,2017,3,topic,0,0.9
+52966,cohort,PHYS,Solvent polarity,2017,3,property,0,0.9
+52973,cohort,Med,Fitness test,2015,3,method,0,0.9
+52975,cohort,SOC,Entrepreneurial education,2017,3,topic,0,0.9
+53013,cohort,Med,Disease transmission,2016,3,topic,0,0.9
+53041,cohort,SOC,Positive parenting,2015,3,method,0,0.9
+53068,cohort,SOC,Fear of failure,2016,3,property,0,0.9
+53071,cohort,SOC,Reading list,2017,3,object,0,0.9
+53129,cohort,SOC,Cultural sensitivity,2016,3,property,0,0.9
+53137,cohort,PHYS,Ice caps,2016,3,object,0,0.9
+53139,cohort,SOC,Composite indicator,2017,3,method,0,0.9
+53150,cohort,SOC,Brand experience,2015,3,property,0,0.9
+53157,cohort,SOC,Financial security,2016,3,property,0,0.9
+53164,cohort,SOC,Foster parents,2016,3,object,0,0.9
+53167,cohort,Eng,Free carrier,2016,3,object,0,0.9
+53196,cohort,Med,Placebo response,2015,3,property,0,0.9
+53218,cohort,Med,Gut bacteria,2017,3,object,0,0.9
+53283,cohort,LIFEENV,White rice,2017,3,object,0,0.9
+53316,cohort,SOC,Emotional development,2016,3,topic,0,0.9
+53357,cohort,LIFEENV,Lemon juice,2016,3,object,0,0.9
+53358,cohort,LIFEENV,Fish habitat,2015,3,topic,0,0.9
+53400,cohort,SOC,Racial bias,2015,3,topic,0,0.9
+53403,cohort,Med,Pilot program,2016,3,method,0,0.9
+53500,cohort,Eng,Contact zone,2015,3,topic,0,0.9
+53750,cohort,Med,Polygenic risk score,2017,3,property,0,0.9
+53760,cohort,SOC,Green innovation,2017,3,topic,0,0.9
+53807,cohort,BGM,Amplicon sequencing,2015,3,method,0,0.9
+53825,cohort,SOC,Turkish economy,2015,3,topic,0,0.9
+53857,cohort,SOC,Social contact,2016,3,topic,0,0.9
+53858,cohort,SOC,New normal,2015,3,property,0,0.9
+53922,cohort,BGM,Catalytic efficiency,2016,3,property,0,0.9
+53962,cohort,Eng,Environmental safety,2016,3,topic,0,0.9
+54036,cohort,LIFEENV,Green coffee,2016,3,object,0,0.9
+54063,cohort,LIFEENV,Natural food,2015,3,object,0,0.9
+54105,cohort,PHYS,Particulate organic carbon,2015,3,object,0,0.9
+54114,cohort,Eng,Ammonia gas,2016,3,object,0,0.9
+54185,cohort,SOC,Political crisis,2016,3,topic,0,0.9
+54199,cohort,Med,High income countries,2017,3,object,0,0.9
+54208,cohort,Eng,Fire fighter,2015,3,object,0,0.9
+54219,cohort,SOC,Teaching english,2016,3,topic,0,0.9
+54242,cohort,Med,Opioid addiction,2016,3,topic,0,0.9
+54249,cohort,Med,Food labeling,2016,3,topic,0,0.9
+54265,cohort,Med,Muscle stiffness,2017,3,property,0,0.9
+54272,cohort,Med,Maxillary molar,2016,3,object,0,0.9
+54324,cohort,Med,Metabolic activity,2015,3,property,0,0.9
+54386,cohort,LIFEENV,Climate zones,2017,3,property,0,0.9
+54388,cohort,Eng,Heat transfer fluid,2015,3,object,0,0.9
+54390,cohort,Med,Finish line,2015,3,object,0,0.9
+54484,cohort,Med,Public health interventions,2015,3,topic,0,0.9
+54510,cohort,Med,Medical radiation,2017,3,topic,0,0.9
+54515,cohort,SOC,Behavioral therapy,2015,3,method,0,0.9
+54542,cohort,SOC,Art market,2016,3,topic,0,0.9
+54573,cohort,BGM,Cellular metabolism,2016,3,property,0,0.9
+54604,cohort,Med,Pelvic girdle,2016,3,object,0,0.9
+54620,cohort,Med,Phone call,2015,3,method,0,0.9
+54631,cohort,Eng,Ambient vibration,2016,3,property,0,0.9
+54778,cohort,Med,Transcendental meditation,2017,3,method,0,0.9
+54820,cohort,Eng,Coal basin,2016,3,object,0,0.9
+54837,cohort,Med,Alcohol addiction,2015,3,topic,0,0.9
+54840,cohort,LIFEENV,Soil cover,2015,3,object,0,0.9
+54847,cohort,BGM,Association test,2016,3,method,0,0.9
+54881,cohort,Med,Pilot trial,2016,3,method,0,0.9
+54893,cohort,PHYS,Organic polymer,2015,3,object,0,0.9
+54896,cohort,LIFEENV,Aerobic bacteria,2016,3,object,0,0.9
+54897,cohort,SOC,Family court,2016,3,object,0,0.9
+54947,cohort,SOC,Self identification,2017,3,property,0,0.9
+55001,cohort,Med,Articular surface,2017,3,object,0,0.9
+55021,cohort,Med,Diagnostic biomarker,2015,3,object,0,0.9
+55030,cohort,Med,Processed meat,2015,3,object,0,0.9
+55051,cohort,Med,Surgical robot,2016,3,object,0,0.9
+55057,cohort,Med,Flexible bronchoscopy,2015,3,method,0,0.9
+55125,cohort,Med,Major bleeding,2016,3,property,0,0.9
+55131,cohort,Eng,Tactile perception,2017,3,property,0,0.9
+55135,cohort,Med,Competitive athletes,2015,3,object,0,0.9
+55162,cohort,Med,Neonatal death,2016,3,topic,0,0.9
+55269,cohort,Med,Real world evidence,2017,3,property,0,0.9
+55311,cohort,Med,Urine sample,2016,3,object,0,0.9
+55376,cohort,Med,Pediatric epilepsy,2015,3,object,0,1.0
+55405,cohort,SOC,Self driving,2015,3,object,0,1.0
+55422,cohort,Med,Low carbohydrate,2015,3,topic,0,1.0
+55467,cohort,Med,Exfoliative cytology,2017,3,method,0,1.0
+55494,cohort,Med,Immune escape,2016,3,property,0,1.0
+55510,cohort,SOC,Organisational change,2017,3,topic,0,1.0
+55512,cohort,SOC,Social risk,2015,3,property,0,1.0
+55560,cohort,LIFEENV,Water contamination,2015,3,topic,0,1.0
+55573,cohort,Med,Surgical team,2017,3,object,0,1.0
+55587,cohort,CS,Cyber threats,2017,3,topic,0,1.0
+55617,cohort,Med,Community pharmacist,2015,3,object,0,1.0
+55627,cohort,Med,Patient data,2016,3,object,0,1.0
+55639,cohort,LIFEENV,Blue green algae,2017,3,object,0,1.0
+55667,cohort,Eng,Assistive device,2016,3,object,0,1.0
+55670,cohort,Med,Middle income country,2016,3,object,0,1.0
+55680,cohort,SOC,Post truth,2017,3,topic,0,1.0
+55790,cohort,Med,Shared governance,2016,3,method,0,1.0
+55822,cohort,SOC,County government,2017,3,object,0,1.0
+55831,cohort,Med,Ventricular filling,2017,3,property,0,1.0
+55843,cohort,SOC,University education,2017,3,topic,0,1.0
+55905,cohort,SOC,Coming out,2015,3,topic,0,0.9
+55917,cohort,Med,Medical cannabis,2015,3,object,0,0.9
+55990,cohort,Med,Weight estimation,2017,3,method,0,0.9
+56038,cohort,BGM,Molecular biomarkers,2015,3,object,0,0.9
+56043,cohort,Med,Enteric virus,2017,3,object,0,0.9
+56084,cohort,LIFEENV,Host specificity,2016,3,property,0,0.9
+56094,cohort,Med,Splenic flexure,2016,3,object,0,0.9
+56100,cohort,PHYS,Hydrolytic degradation,2015,3,property,0,0.9
+56102,cohort,BGM,Protozoan parasite,2017,3,object,0,0.9
+56108,cohort,SOC,State policy,2016,3,topic,0,0.9
+56131,cohort,Med,Geriatric care,2015,3,topic,0,0.9
+56176,cohort,SOC,Employee empowerment,2016,3,topic,0,0.9
+56182,cohort,PHYS,Measurement device,2016,3,object,0,0.9
+56208,cohort,Med,Palliative chemotherapy,2016,3,method,0,0.9
+56290,cohort,LIFEENV,Wheat bread,2017,3,object,0,0.9
+56297,cohort,Med,Adverse drug event,2016,3,object,0,0.9
+56315,cohort,Med,Explosive strength,2017,3,property,0,0.9
+56319,cohort,LIFEENV,Shanghai china,2017,3,object,0,0.9
+56336,cohort,Med,Intravenous antibiotics,2015,3,method,0,0.9
+56361,cohort,Med,Femoral bone,2015,3,object,0,0.9
+56395,cohort,Eng,Coffee grounds,2016,3,object,0,1.0
+56405,cohort,PHYS,Mixed phase,2015,3,property,0,0.9
+56420,cohort,Med,Human kidney,2016,3,object,0,1.0
+56433,cohort,LIFEENV,Water disinfection,2016,3,method,0,1.0
+56437,cohort,Med,Hair care,2015,3,topic,0,1.0
+56438,cohort,BGM,Opportunistic pathogen,2016,3,object,0,1.0
+56451,cohort,SOC,Burn out,2015,3,property,0,1.0
+56464,cohort,Med,Real world data,2017,3,object,0,1.0
+56467,cohort,Med,Precision oncology,2016,3,topic,0,1.0
+56526,cohort,Med,Tissue repair,2016,3,topic,0,1.0
+56544,cohort,Med,Lewy body disease,2017,3,object,0,1.0
+56569,cohort,Med,Post menopausal,2015,3,property,0,1.0
+56574,cohort,Med,Diarrheal disease,2015,3,object,0,1.0
+56608,cohort,LIFEENV,Sous vide,2017,3,method,0,1.0
+56639,cohort,Med,Case finding,2016,3,method,0,1.0
