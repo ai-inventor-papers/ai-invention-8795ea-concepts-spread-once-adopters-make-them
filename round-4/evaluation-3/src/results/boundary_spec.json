@@ -656,11 +656,11 @@
    "candidate_cohort_outcome_files": []
   },
   {
-   "dir": "round-4/experiment-10/src",
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10",
    "mtime_utc": "2026-09-29T02:21:46+00:00",
    "n_files": 40,
    "candidate_cohort_outcome_files": [
-    "round-4/experiment-10/src/data/cohort_candidates.csv"
+    "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/cohort_candidates.csv"
    ]
   },
   {
@@ -670,13 +670,13 @@
    "candidate_cohort_outcome_files": []
   },
   {
-   "dir": "round-4/experiment-12/src",
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12",
    "mtime_utc": "2026-09-29T02:23:47+00:00",
    "n_files": 26,
    "candidate_cohort_outcome_files": []
   },
   {
-   "dir": "round-4/research-3/src",
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_research_3",
    "mtime_utc": "2026-09-29T02:16:42+00:00",
    "n_files": 72,
    "candidate_cohort_outcome_files": []
