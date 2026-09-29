@@ -38,7 +38,7 @@ The draft's Section 19.5 is headed 'Transience' but reports the **O4** results (
 | RETENTION_RATIO_early | FR | - | -0.026 | [-0.060, +0.009] | 0.00 | 1 | 5/6 | no |
 | new_edge_rate | A | - | +0.003 | [-0.032, +0.037] | 0.00 | 1 | 3/6 | no |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json` -> `O4[i].{pooled,pooled_ci,I2,holm_p,sign_agree,n_units,confirmed}`
+Source: `round-3/experiment-8/src/results/heldout_summary.json` -> `O4[i].{pooled,pooled_ci,I2,holm_p,sign_agree,n_units,confirmed}`
 
 ## New 19.5b O3 (transience): 1 of 10 confirmed
 
@@ -57,13 +57,13 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_su
 | G_A | G | + | +0.053 | [-0.058, +0.165] | 0.79 | 1 | 4/5 | no |
 | CONTACT_REACH | FR | + | +0.049 | [-0.003, +0.101] | 0.00 | 0.452 | 5/5 | no |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json` -> `O3[i].*`
+Source: `round-3/experiment-8/src/results/heldout_summary.json` -> `O3[i].*`
 
 ## New 19.6 External recognition (O5, O5_WW): 0 and 0 of 10 confirmed
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] No indicator predicts external recognition beyond B5 + onset year (see file 10 for the section cross-reference fix).
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_heldout.json` -> `headline_by_outcome.{O5,O5_WW}.n_confirmed_holm`
+Source: `round-3/experiment-8/src/results/rq1_heldout.json` -> `headline_by_outcome.{O5,O5_WW}.n_confirmed_holm`
 
 ## New 19.7 Learned models vs B5 vs B5 + best single (held-out groups pooled)
 
@@ -80,7 +80,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_heldou
 | O5 | 1,417 | 0.746 | 0.742 [-0.013, +0.003] | 0.747 [-0.009, +0.009] | 0.726 [-0.038, -0.004] |
 | O5_WW | 1,671 | 0.747 | 0.746 [-0.007, +0.005] | 0.751 [-0.003, +0.010] | 0.719 [-0.046, -0.011] |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/learned_vs_single_heldout.json` -> `<outcome>.POOLED_HELDOUT.{n,B5.metric,<model>.metric,<model>.delta_ci}`
+Source: `round-3/experiment-8/src/results/learned_vs_single_heldout.json` -> `<outcome>.POOLED_HELDOUT.{n,B5.metric,<model>.metric,<model>.delta_ci}`
 
 Cross-read: README.md line 132 table (Exp8) shows the same values to 3 decimals.
 
@@ -96,4 +96,4 @@ Cross-read: README.md line 132 table (Exp8) shows the same values to 3 decimals.
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] 6. **O4 (citation growth) linear model: shrank to a constant.** The ElasticNet for O4 (field- and year-normalised citation growth, NOT transience) set every coefficient to zero, so it ranks nothing on held-out data, while the EBM reaches Spearman 0.188 vs B5 0.015 (gain +0.174 [+0.129, +0.219]). The O4 signal is non-linear. Transience (O3) is a separate outcome with a positive held-out learned-model result (above).
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/learned_vs_single_heldout.json` -> `O4.POOLED_HELDOUT.*`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/deviations.json` -> `O4_linear_all_constant`
+Source: `round-3/experiment-8/src/results/learned_vs_single_heldout.json` -> `O4.POOLED_HELDOUT.*`; `round-3/experiment-8/src/results/deviations.json` -> `O4_linear_all_constant`

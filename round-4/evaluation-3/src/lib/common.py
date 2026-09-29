@@ -18,13 +18,13 @@ import numpy as np
 WS = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(WS / "vendor"))
 RUN = Path(os.environ.get("AII_RUN_LOOP", str(WS.parents[2])))          # .../3_invention_loop
-E8 = RUN / "iter_3/gen_art/gen_art_experiment_8"
-E7 = RUN / "iter_3/gen_art/gen_art_experiment_7"
-E5 = RUN / "iter_2/gen_art/gen_art_experiment_5"
-EV2 = RUN / "iter_3/gen_art/gen_art_evaluation_2"
-DS2 = RUN / "iter_2/gen_art/gen_art_dataset_2"
+E8 = RUN / "round-3/experiment-8/src"
+E7 = RUN / "round-3/experiment-7/src"
+E5 = RUN / "round-2/experiment-5/src"
+EV2 = RUN / "round-3/evaluation-2/src"
+DS2 = RUN / "round-2/dataset-2/src"
 E9 = RUN / "iter_3/gen_art/gen_art_experiment_9"
-R2 = RUN / "iter_3/gen_art/gen_art_research_2"
+R2 = RUN / "round-3/research-2/src"
 REPORT = RUN / "iter_4/gen_strat/current_report.md"
 RES = WS / "results"
 FIG = WS / "figures"

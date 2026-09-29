@@ -5,9 +5,9 @@
   "operationalisation_here": "k yearly checks over years t-k..t-1 before risk year t (information set of the Exp7 predictors); 'entered' = state > 0 in Exp7's state panel; RCA-only variant also reported"
  },
  "source": {
-  "state_panel": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/state_panel_dev.parquet",
-  "risk_sets": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/risk_sets_exp5_minus_exp6_dev.parquet",
-  "phi": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/inputs/field_backbone.json"
+  "state_panel": "round-3/experiment-7/src/results/state_panel_dev.parquet",
+  "risk_sets": "round-3/experiment-7/src/results/risk_sets_exp5_minus_exp6_dev.parquet",
+  "phi": "round-3/experiment-8/src/inputs/field_backbone.json"
  },
  "n_rows": 958542,
  "n_concepts": 4486,

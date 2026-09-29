@@ -11,7 +11,7 @@ Tag: `[Correction, iteration 4, from art_22ppE1snfHKj]`. Every value is printed 
 | held-out pooled 4 | coarse | +0.073 [+0.004, +0.134] | +0.100 [+0.039, +0.157] | -0.028 [-0.105, +0.046] | 0.755 | 0.153 | 5,125 / 5,597 | 7.98 / 6.30 |
 | held-out pooled 4 | fine | +0.066 [-0.002, +0.130] | +0.092 [+0.033, +0.152] | -0.026 [-0.107, +0.049] | 0.752 | 0.144 | 4,746 / 5,259 | 6.40 / 5.71 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_dev.json` -> `battery.specificity.{b_volume_matched,b2_volume_matched_fine}.*`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity.{b_volume_matched,b2_volume_matched_fine}.*`
+Source: `round-3/experiment-7/src/results/step2_dev.json` -> `battery.specificity.{b_volume_matched,b2_volume_matched_fine}.*`; `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity.{b_volume_matched,b2_volume_matched_fine}.*`
 
 Reading: both retained and non-retained matched fields carry a positive coefficient, and the pre-declared contrast is null in both bin sets. The retained-relatedness signal cannot be separated from volume.
 
@@ -21,7 +21,7 @@ Reading: both retained and non-retained matched fields carry a positive coeffici
 |---|---|---|---|---|---|
 | +0.098 | +0.075 | +0.304 | +0.206 [+0.156, +0.255] | False | 0.50 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity.c_dose.*`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity.c_dose.*`
 
 ## 18.9 Abandonment penalty d_lost: A1 vs R4 and variants (held-out pooled 4)
 
@@ -32,7 +32,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_held
 | min-cp proximity backbone, R4 | +0.003 | - | min-cp A1: d_lost -0.030, p = 0.00013 |
 | target-field FE, A1 | -0.044 | - | key `pooled4.specificity.g_target_field_FE.d_lost_A1.coef` |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.ladder.*.models.{A1_lost,R4_lost}.coef.d_lost; verdicts.d_lost_ci; crossed_boot.d_lost_A1.ci; pooled4.specificity_rebuild.m_min_conditional_probability_proximity; pooled4.specificity.g_target_field_FE`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.ladder.*.models.{A1_lost,R4_lost}.coef.d_lost; verdicts.d_lost_ci; crossed_boot.d_lost_A1.ci; pooled4.specificity_rebuild.m_min_conditional_probability_proximity; pooled4.specificity.g_target_field_FE`
 
 ## 18.3 d0_ret_rel with three resampling units (held-out pooled 4, R3)
 
@@ -40,7 +40,7 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_held
 |---|---|---|---|
 | +0.322 | [+0.291, +0.355] | [+0.211, +0.432] | [+0.201, +0.468] |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.boot.d0_R3.d0_ret_rel.{est,ci}; pooled4.crossed_boot.d0_R3.ci`; `round-4/evaluation-3/src/results/partA_derived.json` -> `exp7_d0_two_way_heldout.ci (from ladder...R3_ret.se_two_way_concept_field.d0_ret_rel)`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.boot.d0_R3.d0_ret_rel.{est,ci}; pooled4.crossed_boot.d0_R3.ci`; `round-4/evaluation-3/src/results/partA_derived.json` -> `exp7_d0_two_way_heldout.ci (from ladder...R3_ret.se_two_way_concept_field.d0_ret_rel)`
 
 ## 18.6 Held-out sensitivities of d0 (R3)
 
@@ -59,13 +59,13 @@ Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_held
 | k_primary_topic_fields | +0.276 | 8.7e-93 |
 | m_min_conditional_probability_proximity | -0.021 | 0.014 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.{specificity,specificity_rebuild}.<name>.d0_R3.{coef,p_wald_concept_2s}`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.{specificity,specificity_rebuild}.<name>.d0_R3.{coef,p_wald_concept_2s}`
 
 ## New subsection 18.6a Proximity dependence
 
 [Correction, iteration 4, from art_22ppE1snfHKj] The retained-frontier coefficient depends on the proximity backbone. Under Hidalgo's minimum conditional-probability proximity (instead of the frozen PMI backbone), d0 in R3 is -0.021 (LR R3 vs R2 p = 0.012), while the RCA density itself becomes much stronger (LR R1 vs R0 = 245.5). Within-stratum AUC is higher under min-cp without d0 (R2 0.867) than under PMI with d0 (R3 0.852). The d0 effect is backbone-specific: it measures relatedness as PMI encodes it, not relatedness in general.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.specificity_rebuild.m_min_conditional_probability_proximity.ladder.{models.R3_ret.coef.d0_ret_rel,LR.*,auc_within.R2_vol}`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json` -> `pooled4.ladder.frontier_primary_sample.auc_within.R3_ret`
+Source: `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.specificity_rebuild.m_min_conditional_probability_proximity.ladder.{models.R3_ret.coef.d0_ret_rel,LR.*,auc_within.R2_vol}`; `round-3/experiment-7/src/results/step2_heldout.json` -> `pooled4.ladder.frontier_primary_sample.auc_within.R3_ret`
 
 ## Step-3 comparison: Exp7 D_rca_pers vs Research 2 D_rca_persist_k
 

@@ -11,7 +11,7 @@ import pandas as pd
 
 from common import EXP5, EXP8, RUN_ROOT
 
-ART33 = RUN_ROOT / "3_invention_loop/iter_1/gen_art/gen_art_experiment_4"
+ART33 = RUN_ROOT / "round-1/experiment-4/src"
 Y0 = 1995
 
 
