@@ -1,0 +1,54 @@
+{
+ "U3_toy": {
+  "n_states": 12,
+  "freq": [
+   2503.0,
+   2513.0,
+   2526.0,
+   2522.0,
+   2491.0,
+   2478.0,
+   2518.0,
+   2442.0,
+   2545.0,
+   2526.0,
+   2449.0,
+   2487.0
+  ],
+  "chi2_p": 0.9558059116407714,
+  "pass": true
+ },
+ "U4_rewire_calibration": {
+  "mean_z": -0.06679248766271317,
+  "sd_z": 1.043845547322944,
+  "graph_means": [
+   -0.282130648558222,
+   0.1807350169300281,
+   -0.36850437996727237,
+   0.034540548296627296,
+   -0.26482371498755874,
+   -0.48912259807944203,
+   0.09506150269093969,
+   0.011467296208334768,
+   0.3666779047936961,
+   0.048174196045737604
+  ],
+  "se_mean_graph_clustered": 0.08563184479224428,
+  "n_obs_graphs": 10,
+  "n_sets_per_graph": 20,
+  "n_null": 40,
+  "degree_preserved": true,
+  "simple": true,
+  "pass": true,
+  "note": "v1 of this test (one observed rewire x 50 sets, 30 nulls) gave mean z -0.236 (sets share one observed graph, so their z are correlated); replaced by this clustered design"
+ },
+ "U4_v1_single_graph": {
+  "mean_z": -0.23637767314902444,
+  "sd_z": 0.9072468118619367,
+  "n_sets": 50,
+  "n_null": 30,
+  "degree_preserved": true,
+  "simple": true,
+  "pass": false
+ }
+}

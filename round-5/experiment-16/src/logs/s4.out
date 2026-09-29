@@ -1,0 +1,768 @@
+05:47:17|INFO   |merged 13444 concepts
+05:47:17|INFO   |sealed constants sha256 99329e83ef3ec821e6414afed9eeb116678cc1eb532ab284e7672832a63a1d54
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+05:47:17|INFO   |OPEN_home recomputed vs EXP10: max diff 4.44e-16, NaN mismatches 0
+05:47:17|INFO   |wrote data/clean_variants.parquet (13444, 95)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+./s4_composites.py:53: RuntimeWarning: Mean of empty slice
+  m = np.nanmean(np.where(np.isfinite(Z), Z, np.nan), 1)
+05:48:23|INFO   |rel new_edge_rate__raw: pooled SB 0.540; COH1517 0.550
+05:48:26|INFO   |rel n_comm_W3__raw: pooled SB 0.701; COH1517 0.718
+05:48:28|INFO   |rel participation__raw: pooled SB 0.553; COH1517 0.612
+05:48:31|INFO   |rel NOV_res__raw: pooled SB 0.478; COH1517 0.470
+05:48:32|INFO   |rel ego_density_W3__raw: pooled SB 0.412; COH1517 0.460
+05:48:35|INFO   |rel edge_persistence__raw: pooled SB 0.570; COH1517 0.618
+05:48:38|INFO   |rel NOVCHURN_raw: pooled SB 0.476; COH1517 0.491
+05:48:42|INFO   |rel OPEN_home: pooled SB 0.485; COH1517 0.532
+05:48:44|INFO   |rel NOV_res_exc: pooled SB 0.020; COH1517 0.038
+05:48:47|INFO   |rel edge_persistence_exc: pooled SB 0.046; COH1517 0.028
+05:48:49|INFO   |rel ego_density_W3_exc: pooled SB 0.067; COH1517 0.049
+05:48:54|INFO   |rel new_edge_rate_exc: pooled SB 0.046; COH1517 0.018
+05:48:56|INFO   |rel NOV_res_zperm: pooled SB 0.020; COH1517 0.038
+05:48:58|INFO   |rel edge_persistence_zperm: pooled SB 0.014; COH1517 -0.019
+05:48:59|INFO   |rel ego_density_W3_zperm: pooled SB 0.069; COH1517 0.123
+05:49:00|INFO   |rel NOV_res_rare5: pooled SB 0.557; COH1517 0.607
+05:49:02|INFO   |rel edge_persistence_rare5: pooled SB 0.226; COH1517 0.232
+05:49:03|INFO   |rel ego_density_W3_rare5: pooled SB 0.279; COH1517 nan
+05:49:04|INFO   |rel z_pers_cfg: pooled SB 0.709; COH1517 0.736
+05:49:05|INFO   |rel z_dens_cfg: pooled SB 0.698; COH1517 0.777
+05:49:06|INFO   |rel z_dens_k: pooled SB 0.657; COH1517 0.736
+05:49:10|INFO   |rel edge_persistence_nullmean: pooled SB 0.707; COH1517 0.717
+05:49:12|INFO   |rel NOVCHURN_exc: pooled SB 0.014; COH1517 0.014
+05:49:14|INFO   |rel NOVCHURN_zperm: pooled SB 0.023; COH1517 -0.013
+05:49:15|INFO   |rel NOVCHURN_rare5: pooled SB 0.359; COH1517 0.376
+05:49:16|INFO   |rel NOVCHURN_cfg: pooled SB 0.618; COH1517 0.683
+05:49:18|INFO   |rel OPEN_home_clean: pooled SB 0.577; COH1517 0.642
+05:49:21|INFO   |rel OPEN_home_exc: pooled SB 0.486; COH1517 0.551
+./s4_composites.py:246: RuntimeWarning: Mean of empty slice
+  **{f"{h}__{v}": np.nanmean(VAR[h][v], 0) for h in ("A", "B") for v in VAR[h]})
