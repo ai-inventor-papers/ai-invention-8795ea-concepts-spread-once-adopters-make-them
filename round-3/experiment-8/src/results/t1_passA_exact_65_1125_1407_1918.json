@@ -1,0 +1,30 @@
+{
+ "65": {
+  "exp5_total": 0,
+  "passA_total": 0,
+  "n_keys": 0,
+  "n_keys_mismatch": 0,
+  "exact": true
+ },
+ "1125": {
+  "exp5_total": 60,
+  "passA_total": 60,
+  "n_keys": 60,
+  "n_keys_mismatch": 0,
+  "exact": true
+ },
+ "1407": {
+  "exp5_total": 30,
+  "passA_total": 30,
+  "n_keys": 30,
+  "n_keys_mismatch": 0,
+  "exact": true
+ },
+ "1918": {
+  "exp5_total": 9781,
+  "passA_total": 9781,
+  "n_keys": 9177,
+  "n_keys_mismatch": 0,
+  "exact": true
+ }
+}

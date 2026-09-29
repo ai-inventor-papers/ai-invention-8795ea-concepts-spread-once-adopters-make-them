@@ -1,0 +1,84 @@
+{
+ "n_concepts": 47,
+ "pass": true,
+ "indicators": {
+  "D_z": {
+   "n": 46,
+   "spearman": 1.0,
+   "max_abs_diff": 3.552713678800501e-15,
+   "nan_pattern_equal": true
+  },
+  "D_ratio": {
+   "n": 46,
+   "spearman": 1.0,
+   "max_abs_diff": 5.551115123125783e-17,
+   "nan_pattern_equal": true
+  },
+  "D_rare": {
+   "n": 44,
+   "spearman": 1.0,
+   "max_abs_diff": 8.881784197001252e-16,
+   "nan_pattern_equal": true
+  },
+  "D_sub": {
+   "n": 46,
+   "spearman": 1.0,
+   "max_abs_diff": 1.7763568394002505e-15,
+   "nan_pattern_equal": true
+  },
+  "F_res": {
+   "n": 45,
+   "spearman": 0.9999999999999999,
+   "max_abs_diff": 2.220446049250313e-16,
+   "nan_pattern_equal": true
+  },
+  "NOV_res": {
+   "n": 46,
+   "spearman": 1.0,
+   "max_abs_diff": 9.540979117872439e-17,
+   "nan_pattern_equal": true
+  },
+  "participation": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 1.6653345369377348e-16,
+   "nan_pattern_equal": true
+  },
+  "deg_growth": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 4.440892098500626e-16,
+   "nan_pattern_equal": true
+  },
+  "edge_persistence": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 8.326672684688674e-17,
+   "nan_pattern_equal": true
+  },
+  "ego_density_change": {
+   "n": 44,
+   "spearman": 1.0,
+   "max_abs_diff": 9.71445146547012e-17,
+   "nan_pattern_equal": true
+  },
+  "btw_end": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 9.8879238130678e-17,
+   "nan_pattern_equal": true
+  },
+  "kcore_end": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 0.0,
+   "nan_pattern_equal": true
+  },
+  "constraint_end": {
+   "n": 47,
+   "spearman": 1.0,
+   "max_abs_diff": 9.71445146547012e-17,
+   "nan_pattern_equal": true
+  }
+ }
+}
