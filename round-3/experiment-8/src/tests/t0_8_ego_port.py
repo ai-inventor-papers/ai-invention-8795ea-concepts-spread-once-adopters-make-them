@@ -14,7 +14,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 RUN = ROOT.parents[3]
-EXP3 = RUN / "3_invention_loop/iter_1/gen_art/gen_art_experiment_3"
+EXP3 = RUN / "round-1/experiment-3/src"
 
 
 def _load(name: str, path: Path):

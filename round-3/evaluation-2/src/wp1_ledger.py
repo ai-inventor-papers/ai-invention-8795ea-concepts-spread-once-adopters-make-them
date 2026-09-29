@@ -15,21 +15,21 @@ from loguru import logger
 
 import common as C
 
-H1 = "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json"
-H1D = "iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json"
-H3 = "iter_2/gen_art/gen_art_experiment_5/results/h3_results.json"
-AP5 = "iter_2/gen_art/gen_art_experiment_5/results/audit_placebo.json"
-FS5 = "iter_2/gen_art/gen_art_experiment_5/frozen_spec.json"
-HO6 = "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json"
-DV6 = "iter_2/gen_art/gen_art_experiment_6/results/dev_result.json"
-AU6 = "iter_2/gen_art/gen_art_experiment_6/results/audit.json"
-COV = "iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json"
-EPA = "iter_1/gen_art/gen_art_experiment_3/results/exploratory_partial_association.json"
-AU3 = "iter_1/gen_art/gen_art_experiment_3/results/audit.json"
-EV1 = "iter_2/gen_art/gen_art_evaluation_1/eval_out.json"
-S4 = "iter_1/gen_art/gen_art_experiment_4/screen_result.json"
-S1 = "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json"
-S3 = "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json"
+H1 = "round-2/experiment-5/src/results/h1_heldout.json"
+H1D = "round-2/experiment-5/src/results/h1_dev.json"
+H3 = "round-2/experiment-5/src/results/h3_results.json"
+AP5 = "round-2/experiment-5/src/results/audit_placebo.json"
+FS5 = "round-2/experiment-5/src/frozen_spec.json"
+HO6 = "round-2/experiment-6/src/results/heldout_result.json"
+DV6 = "round-2/experiment-6/src/results/dev_result.json"
+AU6 = "round-2/experiment-6/src/results/audit.json"
+COV = "round-2/dataset-2/src/out/coverage_report.json"
+EPA = "round-1/experiment-3/src/results/exploratory_partial_association.json"
+AU3 = "round-1/experiment-3/src/results/audit.json"
+EV1 = "round-2/evaluation-1/src/eval_out.json"
+S4 = "round-1/experiment-4/src/screen_result.json"
+S1 = "round-1/experiment-1/src/results/screen_result.json"
+S3 = "round-1/experiment-3/src/results/screen_result.json"
 TRACE = "record_tables/next_field_trace.json"
 
 _cache: dict = {}
@@ -271,7 +271,7 @@ def ledger() -> None:
         COV, "by_source.wikipedia_en.status.found", sev="blocking",
         corr=f"Wikipedia: {cov['wikipedia_en']['n_with_event']:,} concepts with an event, {cov['wikipedia_en']['n_with_year_usable_event']:,} year-usable, {stt.get('found', 'n/a'):,} exact first revisions (6,540 is the dataset summary's count before redirect repair).")
     for s, n in entries.items():
-        add(f"O5entries_{s}", 2, AD, s131, "(entries table)", f"external_entries_{s} (ENTRIES)", str(n), "iter_2/gen_art/gen_art_dataset_2/README.md", None,
+        add(f"O5entries_{s}", 2, AD, s131, "(entries table)", f"external_entries_{s} (ENTRIES)", str(n), "round-2/dataset-2/src/README.md", None,
             value=(n, f"README table row external_entries_{s}"), in_draft=s in ("acm_ccs", "msc", "pacs_physh", "jel"),
             note="entries, not concepts" if s in ("acm_ccs", "msc", "pacs_physh", "jel") else "")
     for g, v in J(COV)["dated_domain_taxonomy_by_group"].items():
@@ -348,7 +348,7 @@ def ledger() -> None:
         override="MISLABELLED" if k34 else None, sev="blocking")
     del ep
     # ---------------- other headline rows (panel, H2, trajectories, relatedness pair, T3-related)
-    fs = "iter_2/gen_art/gen_art_experiment_5/results/frame_summary.json"
+    fs = "round-2/experiment-5/src/results/frame_summary.json"
     for rep, hint in (("12499", "n_concepts"), ("27393", "n_episodes")):
         add(f"PANEL_{hint}", 2, A5, "10.2 Panel", f"The panel comprises {rep}", hint, rep, fs, find_key(fs, float(rep), 0.5, "") or hint)
     rv = J(H1).get("rival_head_to_head", {})
@@ -404,8 +404,8 @@ def draft_harvest() -> pd.DataFrame:
                 it2 = True
         if i < 14 or it2:
             keep.append((sec, l))
-    files = {"art_wxWssKSUR45f": ["iter_2/gen_art/gen_art_experiment_5/results/" + f for f in ("h1_heldout.json", "h1_dev.json", "h3_results.json", "audit_placebo.json", "frame_summary.json", "checks.json", "deviations.json")],
-             "art_N-mpomDZZ1ln": [HO6, DV6, AU6, "iter_2/gen_art/gen_art_experiment_6/results/frame_summary.json", "iter_2/gen_art/gen_art_experiment_6/results/audit_placebo.json"],
+    files = {"art_wxWssKSUR45f": ["round-2/experiment-5/src/results/" + f for f in ("h1_heldout.json", "h1_dev.json", "h3_results.json", "audit_placebo.json", "frame_summary.json", "checks.json", "deviations.json")],
+             "art_N-mpomDZZ1ln": [HO6, DV6, AU6, "round-2/experiment-6/src/results/frame_summary.json", "round-2/experiment-6/src/results/audit_placebo.json"],
              "art_lwI2DuRtQRZX": [EV1], "art_O7Dq4L02QnDN": [COV]}
     index = []
     for art, fl in files.items():
@@ -463,7 +463,7 @@ def record_tables() -> dict:
                      "sign_consistent_4of4": bool(len(wg) == 4 and (all(x > 0 for x in wg.values() if x is not None) or all(x < 0 for x in wg.values() if x is not None))),
                      "logo_delta_rho_O2r": v.get("logo_delta_rho_O2r"), "match_exp3_screen_result": match,
                      "iter3_preregistered_prediction": prereg.get(nm, "none stated"),
-                     "source_file": "iter_2/gen_art/gen_art_evaluation_1/eval_out.json", "key_path": f"metadata.F_record.F3_exp3_portability.table.indicators.{nm}"})
+                     "source_file": "round-2/evaluation-1/src/eval_out.json", "key_path": f"metadata.F_record.F3_exp3_portability.table.indicators.{nm}"})
     t1 = pd.DataFrame(rows)
     t1.to_csv(C.TAB / "portability_F3.csv", index=False)
     out["T1_n_indicators"] = len(t1)

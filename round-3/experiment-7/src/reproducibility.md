@@ -6,11 +6,11 @@
 - **Seeds:** SEED = 20261101. Each analysis draws from `np.random.default_rng([SEED, crc32(tag)])`.
   - A second-seed bootstrap moves the d0 CI endpoints by at most 0.004 (T6).
 - **Inputs (read-only, by path under the run tree):**
-  - EXP6 `iter_2/gen_art/gen_art_experiment_6`:
+  - EXP6 `round-2/experiment-6/src`:
     - `scan/frame_g_*.npz`, `scan/frame_gpf_*.npz`, `scan/agg_counts.npz` (the GF key only);
     - `inputs/field_backbone.json`;
     - `results/frame_concepts.csv`, `lexicon.parquet`, `entry_risk_sets_*.parquet`, `frozen_spec.json`.
-  - EXP5 `iter_2/gen_art/gen_art_experiment_5`:
+  - EXP5 `round-2/experiment-5/src`:
     - `frame_concepts.csv`, `grounding_report.json`;
     - `scan/agg_counts.parquet`, `scan/year_field_totals.npz`, `scan/co_by_year.npz`.
   - Dataset `art_O7Dq4L02QnDN`: `full_data_out/full_data_out_{1,2,3}.json`, concept_recognition only.

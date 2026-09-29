@@ -206,7 +206,7 @@ def main() -> None:
 
     def tr(name, reported, src_key, recomputed, how, tol_=tol):
         ok = None if reported is None or recomputed is None else abs(float(reported) - float(recomputed)) <= tol_ * max(1.0, abs(float(reported)))
-        trace[name] = {"reported": reported, "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+        trace[name] = {"reported": reported, "source_file": "round-2/experiment-6/src/results/heldout_result.json",
                        "key_path": src_key, "recomputed": recomputed, "how": how, "match": ok}
 
     tr("n_rows", H["n_rows"], "H2_pooled.n_rows", hc["n_rows_primary"], "rows of entry_risk_sets_heldout.parquet with n_ret > 0 (primary sample)")
@@ -219,7 +219,7 @@ def main() -> None:
     for k in ("M2_vs_M0", "M1_vs_M0", "M3_vs_M1", "M2lost_vs_M0"):
         tr(f"LR_{k}_breslow", H["LR"][k]["LR"], f"H2_pooled.LR.{k}.LR", hf["LR"][k]["breslow"]["LR"], "independent Breslow refit", 5e-3)
         trace[f"LR_{k}_exact"] = {"reported": audit["H2_LR"]["statsmodels_exact"] if k == "M2_vs_M0" else None,
-                                  "source_file": "iter_2/gen_art/gen_art_experiment_6/results/audit.json" if k == "M2_vs_M0" else None,
+                                  "source_file": "round-2/experiment-6/src/results/audit.json" if k == "M2_vs_M0" else None,
                                   "key_path": "H2_LR.statsmodels_exact" if k == "M2_vs_M0" else None,
                                   "recomputed": hf["LR"][k]["exact"]["LR"], "how": "statsmodels ConditionalLogit (exact conditional likelihood)"}
     for m, cname in (("M1", "d0_ret_rel"), ("M2", "d_ret_gate"), ("M2lost", "d_lost_gate")):
@@ -239,7 +239,7 @@ def main() -> None:
     trace["d0_ret_rel_DL_pooled_M1"] = {"reported": None, "recomputed": hf["DL_pooled_d0_ret_rel_M1"],
                                         "how": "new: DL pooling of the plain retaining-relatedness coefficient (M1), the review's suggested headline"}
     trace["dev_LR_M2_vs_M0"] = {"reported": dev_res.get("H2_pooled", {}).get("LR", {}).get("M2_vs_M0", {}).get("LR"),
-                                "source_file": "iter_2/gen_art/gen_art_experiment_6/results/dev_result.json", "key_path": "H2_pooled.LR.M2_vs_M0.LR",
+                                "source_file": "round-2/experiment-6/src/results/dev_result.json", "key_path": "H2_pooled.LR.M2_vs_M0.LR",
                                 "recomputed": fits_by_split["dev"]["LR"]["M2_vs_M0"]["breslow"]["LR"], "how": "Breslow refit on entry_risk_sets_dev.parquet"}
     strata_note = (f"The hypothesis text's '961 strata' is the number of INFORMATIVE strata (>= 1 event and >= 1 non-event) that enter the "
                    f"conditional likelihood ({hc['n_strata_informative']} recomputed; {hc['n_rows_informative']} rows); the file's n_strata = 2,339 counts ALL strata of the "

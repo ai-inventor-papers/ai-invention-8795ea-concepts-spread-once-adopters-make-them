@@ -31,7 +31,7 @@
   ],
   "ci_widening_ratio_90": 2.158265155182925,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json",
+  "source_file": "round-1/experiment-1/src/results/screen_result.json",
   "key_path": "delta_rho",
   "runtime_s": 30.4
  },
@@ -64,7 +64,7 @@
   ],
   "ci_widening_ratio_90": null,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+  "source_file": "round-1/experiment-3/src/results/screen_result.json",
   "key_path": "candidates.D.delta_rho",
   "runtime_s": 1.6
  },
@@ -97,7 +97,7 @@
   ],
   "ci_widening_ratio_90": null,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+  "source_file": "round-1/experiment-3/src/results/screen_result.json",
   "key_path": "candidates.F.delta_rho",
   "runtime_s": 1.4
  },
@@ -136,7 +136,7 @@
   ],
   "ci_widening_ratio_90": 1.7833331092232052,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+  "source_file": "round-1/experiment-4/src/screen_result.json",
   "key_path": "delta_rho_O2r_m30.delta",
   "runtime_s": 13.5
  },
@@ -169,7 +169,7 @@
   "earlier_refit_or_source_ci": null,
   "ci_widening_ratio_90": 1.3968309496176348,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+  "source_file": "round-1/experiment-4/src/screen_result.json",
   "key_path": "delta_rho_O2r_resid.delta",
   "runtime_s": 14.3
  },
@@ -205,7 +205,7 @@
   "earlier_refit_or_source_ci": null,
   "ci_widening_ratio_90": 1.245075063486312,
   "ci95_excludes_0": false,
-  "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+  "source_file": "round-1/experiment-4/src/screen_result.json",
   "key_path": "delta_auc_O1.delta",
   "runtime_s": 18.1
  },
@@ -238,7 +238,7 @@
   ],
   "ci_widening_ratio_90": null,
   "ci95_excludes_0": false,
-  "source_file": "iter_2/gen_art/gen_art_evaluation_1/eval_out.json",
+  "source_file": "round-2/evaluation-1/src/eval_out.json",
   "key_path": "metadata.D_O1_artefact.G.B5+cov.delta",
   "runtime_s": 19.8
  }

@@ -14,9 +14,9 @@ from loguru import logger
 from d3 import NY, Y0
 
 RUN = Path(__file__).resolve().parents[4]
-EXP6 = RUN / "3_invention_loop/iter_2/gen_art/gen_art_experiment_6"
-EXP5 = RUN / "3_invention_loop/iter_2/gen_art/gen_art_experiment_5"
-DS2 = RUN / "3_invention_loop/iter_2/gen_art/gen_art_dataset_2"
+EXP6 = RUN / "round-2/experiment-6/src"
+EXP5 = RUN / "round-2/experiment-5/src"
+DS2 = RUN / "round-2/dataset-2/src"
 FIELD_IDS = list(range(11, 37))
 GROUP_OF_FIELD = {17: "CS", 22: "Eng", 13: "BGM", 27: "Med", 29: "Med", 35: "Med", 36: "Med",
                   15: "PHYS", 16: "PHYS", 19: "PHYS", 21: "PHYS", 25: "PHYS", 31: "PHYS",

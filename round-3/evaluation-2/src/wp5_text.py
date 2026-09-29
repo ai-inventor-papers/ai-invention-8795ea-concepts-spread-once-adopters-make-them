@@ -23,15 +23,15 @@ def old(snippet: str) -> str:
 
 
 def main() -> None:
-    H1 = "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json"
-    H1D = "iter_2/gen_art/gen_art_experiment_5/results/h1_dev.json"
-    H3 = "iter_2/gen_art/gen_art_experiment_5/results/h3_results.json"
-    HO = "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json"
-    DV = "iter_2/gen_art/gen_art_experiment_6/results/dev_result.json"
-    COV = "iter_2/gen_art/gen_art_dataset_2/out/coverage_report.json"
-    EV1 = "iter_2/gen_art/gen_art_evaluation_1/eval_out.json"
-    S4 = "iter_1/gen_art/gen_art_experiment_4/screen_result.json"
-    EPA = "iter_1/gen_art/gen_art_experiment_3/results/exploratory_partial_association.json"
+    H1 = "round-2/experiment-5/src/results/h1_heldout.json"
+    H1D = "round-2/experiment-5/src/results/h1_dev.json"
+    H3 = "round-2/experiment-5/src/results/h3_results.json"
+    HO = "round-2/experiment-6/src/results/heldout_result.json"
+    DV = "round-2/experiment-6/src/results/dev_result.json"
+    COV = "round-2/dataset-2/src/out/coverage_report.json"
+    EV1 = "round-2/evaluation-1/src/eval_out.json"
+    S4 = "round-1/experiment-4/src/screen_result.json"
+    EPA = "round-1/experiment-3/src/results/exploratory_partial_association.json"
     crit = g(H1, "verdict_H1.criteria")
     lp, la = g(H1, "lpm_field_fe"), g(H1, "lpm_field_fe_all_splits")
     lc, bd, ph = g(H1, "logit_clustered_se"), g(H1, "boundary"), g(H1, "pigeonhole_crossed_bootstrap")

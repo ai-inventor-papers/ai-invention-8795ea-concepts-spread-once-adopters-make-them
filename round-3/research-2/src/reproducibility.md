@@ -10,8 +10,8 @@
 - API keys / env vars: **none were used.** The OpenAlex key in the user's request was deliberately NOT used, as the plan instructed. No OpenRouter/LLM calls were made. The skill scripts call the pipeline's ability server; its credentials, if any, are handled inside the skill and were not read.
 
 ## 0. Local inputs (no web)
-- `iter_2/gen_art/gen_art_research_1/research_report.md` (art_dxvRpQufMR0e): prior 22 ANS papers, ~95 references, template, corrections.
-- `iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json` (art_N-mpomDZZ1ln): the Exp6 held-out numbers used in the "ours" column.
+- `round-2/research-1/src/research_report.md` (art_dxvRpQufMR0e): prior 22 ANS papers, ~95 references, template, corrections.
+- `round-2/experiment-6/src/results/heldout_result.json` (art_N-mpomDZZ1ln): the Exp6 held-out numbers used in the "ours" column.
 
 ## 1. Searches, in the order run
 

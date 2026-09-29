@@ -40,7 +40,7 @@ bash scripts/g.sh pinheiro2022 "https://run.unl.pt/bitstreams/e0c3b563-f946-4b3a
 python3 scripts/xref.py 10.1016/j.respol.2021.104323 10.1038/s41598-023-28179-x
 python3 scripts/pmc_struct.py PMC9673898
 ```
-The shell wrappers expect the aii-web-tools skill at `/ai-inventor/.claude/skills/aii-web-tools`.
+The shell wrappers expect the aii-web-tools skill at `../../../tools/aii-web-tools`.
 
 ## Restoring removed files
 Nothing is marked for deletion: every file in this workspace is small text, code or a PDF under the auto-keep floor, so the manifest (`.aii/manifest.yaml`) has no entries. If the arXiv PDFs in `raw/arxiv_pdf/` are ever missing (they are excluded from the public upload), re-download them:

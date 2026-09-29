@@ -1,6 +1,6 @@
 #!/bin/bash
 # usage: s.sh name query [mode]
-SKILL_DIR=/ai-inventor/.claude/skills/aii-web-tools
+SKILL_DIR=../../../../tools/aii-web-tools
 PY=$SKILL_DIR/../.ability_client_venv/bin/python
 OUT=../raw/search
 mkdir -p $OUT

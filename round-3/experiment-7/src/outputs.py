@@ -1,8 +1,4 @@
 #!/usr/bin/env python3
-# NOTE (published copy): this file names server paths this repository
-# does not publish (a stage it does not ship, or another run's workspace),
-# so the steps that read them will not run from a clone as written:
-#   /ai-inventor/aii_data/runs/run_Id7TLZ6r1C7M/3_invention_loop/iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv
 """Stage `outputs`: results/frontier_result.json (everything in one place), figures/ (PNG + PDF), method_out.json
 (exp_gen_sol_out schema; one example per held-out candidate row in an informative primary-sample stratum, with
 within-stratum probabilities from the frozen DEV coefficients of R2 (RCA>1 + volume baseline) and R3 (+ retained frontier))."""
@@ -158,7 +154,7 @@ def vm_fig(panels: list[tuple[str, dict]]) -> None:
 def method_out(ho: dict, spec: dict) -> dict:
     df = pd.read_parquet(RES / "risk_sets_exp5_minus_exp6_heldout.parquet")
     dev = load("step2_dev.json")
-    fr = pd.read_csv(Path("/ai-inventor/aii_data/runs/run_Id7TLZ6r1C7M/3_invention_loop/iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv"),
+    fr = pd.read_csv(Path(__file__).resolve().parents[3] / "round-2/experiment-5/src/frame_concepts.csv",
                      usecols=["ci", "concept_id", "qid", "name"]).set_index("ci")
     std = spec["standardisation_DEV"]
     prim = M.standardise(df[df.n_ret > 0], std)

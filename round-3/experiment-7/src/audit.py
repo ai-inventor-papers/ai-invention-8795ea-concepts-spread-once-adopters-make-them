@@ -23,7 +23,7 @@ from statsmodels.discrete.conditional_models import ConditionalLogit
 ROOT = Path(__file__).resolve().parent
 RES = ROOT / "results"
 RUN = Path(__file__).resolve().parents[3] / "round-2"
-EXP5, EXP6 = RUN / "gen_art_experiment_5", RUN / "gen_art_experiment_6"
+EXP5, EXP6 = RUN / "experiment-5/src", RUN / "experiment-6/src"
 logger.remove()
 logger.add(sys.stdout, level="INFO", format="{time:HH:mm:ss}|{level:<7}|{message}")
 logger.add(ROOT / "logs" / "audit.log", rotation="30 MB", level="DEBUG")
