@@ -1,0 +1,300 @@
+{
+ "iterations": {
+  "iter_1": {
+   "n_commissioned": 5,
+   "n_completed": 3,
+   "n_failed": 2,
+   "artifacts": [
+    {
+     "artifact": "gen_art_dataset_1",
+     "failed": true
+    },
+    {
+     "artifact": "gen_art_experiment_1",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_2",
+     "failed": true
+    },
+    {
+     "artifact": "gen_art_experiment_3",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_4",
+     "failed": false
+    }
+   ]
+  },
+  "iter_2": {
+   "n_commissioned": 5,
+   "n_completed": 5,
+   "n_failed": 0,
+   "artifacts": [
+    {
+     "artifact": "gen_art_dataset_2",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_evaluation_1",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_5",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_6",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_research_1",
+     "failed": false
+    }
+   ]
+  },
+  "iter_3": {
+   "n_commissioned": 5,
+   "n_completed": 4,
+   "n_failed": 1,
+   "artifacts": [
+    {
+     "artifact": "gen_art_evaluation_2",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_7",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_8",
+     "failed": false
+    },
+    {
+     "artifact": "gen_art_experiment_9",
+     "failed": true
+    },
+    {
+     "artifact": "gen_art_research_2",
+     "failed": false
+    }
+   ]
+  }
+ },
+ "families": {
+  "n_indicators": 53,
+  "n_families": 6,
+  "counts": {
+   "A": 27,
+   "E": 6,
+   "F": 3,
+   "FR": 7,
+   "G": 7,
+   "S": 3
+  },
+  "members": {
+   "A": [
+    "D_z",
+    "D_ratio",
+    "D_rare",
+    "D_sub",
+    "D_obs",
+    "NOV",
+    "NOV_res",
+    "F_res",
+    "F_z",
+    "deg_W1",
+    "deg_W3",
+    "deg_growth",
+    "str_growth",
+    "new_edge_rate",
+    "edge_persistence",
+    "turnover",
+    "participation",
+    "n_comm_W3",
+    "comm_entropy",
+    "comm_transitions",
+    "ego_density_W3",
+    "ego_density_change",
+    "btw_end",
+    "btw_change",
+    "kcore_end",
+    "constraint_end",
+    "constraint_change"
+   ],
+   "E": [
+    "share",
+    "growth_ind",
+    "accel",
+    "burst",
+    "author_growth",
+    "n_authors_early"
+   ],
+   "F": [
+    "log_offhome_volume",
+    "rao_stirling",
+    "fields_gained_per_yr"
+   ],
+   "FR": [
+    "CONTACT_REACH",
+    "RETAINED_REACH",
+    "RETENTION_RATIO_early",
+    "FRONTIER_POTENTIAL",
+    "D_rca_end",
+    "D_vol_end",
+    "M0_density_end"
+   ],
+   "G": [
+    "G",
+    "G_A",
+    "G_btw",
+    "G_deg",
+    "G_phimin",
+    "REL_home",
+    "RS"
+   ],
+   "S": [
+    "S_comp",
+    "S_comp_n",
+    "S_isolated_share"
+   ]
+  }
+ },
+ "candidate_S_DL4": {
+  "S_comp_n|O1c": {
+   "pooled": -0.08666108015637439,
+   "ci": [
+    -0.20049432836562472,
+    0.029480969744343666
+   ],
+   "I2": 0.8805925693401088,
+   "k": 4,
+   "n_pos_6": 0,
+   "n_ci_excl0_6": 4
+  },
+  "S_comp_n|O2r_m50": {
+   "pooled": -0.02905545299823824,
+   "ci": [
+    -0.2393822511974158,
+    0.18387605280025043
+   ],
+   "I2": 0.9362773136330386,
+   "k": 4,
+   "n_pos_6": 3,
+   "n_ci_excl0_6": 3
+  },
+  "S_comp_n|O2r_resid": {
+   "pooled": -0.028477906623351635,
+   "ci": [
+    -0.2441308025614307,
+    0.18985892877197433
+   ],
+   "I2": 0.9395585322612157,
+   "k": 4,
+   "n_pos_6": 3,
+   "n_ci_excl0_6": 3
+  },
+  "S_comp_n|O4": {
+   "pooled": -0.04872461927679454,
+   "ci": [
+    -0.19188617725871204,
+    0.09646732970873066
+   ],
+   "I2": 0.9263176364792524,
+   "k": 4,
+   "n_pos_6": 3,
+   "n_ci_excl0_6": 2
+  }
+ },
+ "exp7_d0_two_way_heldout": {
+  "coef": 0.32192230141153,
+  "se": 0.05638161445328756,
+  "ci": [
+   0.21141433708308638,
+   0.4324302657399736
+  ]
+ },
+ "exp7_d0_two_way_dev": {
+  "coef": 0.24552971935682877,
+  "se": 0.04478907093185853,
+  "ci": [
+   0.15774314033038606,
+   0.3333162983832715
+  ]
+ },
+ "exp7_home_mismatch": {
+  "dev": 5,
+  "heldout": 17,
+  "total": 22
+ },
+ "eval2_ledger": {
+  "n_rows": 246,
+  "status_counts": {
+   "MATCH": 224,
+   "MISLABELLED": 15,
+   "MISMATCH": 6,
+   "FILE_FLAG_OVERRIDDEN": 1
+  }
+ },
+ "record_tables_rows": {
+  "coverage_iter2.csv": 4,
+  "coverage_iter2_steps.csv": 12,
+  "definitions_diff.csv": 12,
+  "draft_number_harvest.csv": 555,
+  "frame_crosstab_split_group.csv": 14,
+  "frame_disagreement_causes.csv": 713,
+  "frame_overlap_by_group.csv": 6,
+  "h1_criteria.csv": 38,
+  "hypothesis_iter3_numbers.csv": 35,
+  "lineage_robustness_iter1.csv": 278,
+  "next_field_heldout_rows.parquet": 46433,
+  "next_field_trace.json": null,
+  "o5_associations.csv": 60,
+  "o5_concept_panel.csv": 12499,
+  "o5_coverage_by_group.csv": 10,
+  "o5_coverage_by_group_source.csv": 130,
+  "o5_handcheck_items.csv": 100,
+  "o5_handcheck_items_final.csv": 100,
+  "o5_km_cumulative_incidence.csv": 20,
+  "ordering_mixed.csv": 159,
+  "partial_association_all.csv": 12,
+  "portability_F3.csv": 34,
+  "refit_bootstrap_iter1.csv": 14
+ },
+ "exp8_confirmed": {
+  "O1c": {
+   "n_top10": 10,
+   "n_confirmed": 1
+  },
+  "O2r_m50": {
+   "n_top10": 10,
+   "n_confirmed": 7
+  },
+  "O2r_resid": {
+   "n_top10": 10,
+   "n_confirmed": 8
+  },
+  "O4": {
+   "n_top10": 10,
+   "n_confirmed": 2
+  },
+  "O1b": {
+   "n_top10": 10,
+   "n_confirmed": 1
+  },
+  "O3": {
+   "n_top10": 10,
+   "n_confirmed": 1
+  },
+  "O5": {
+   "n_top10": 10,
+   "n_confirmed": 0
+  },
+  "O5_WW": {
+   "n_top10": 10,
+   "n_confirmed": 0
+  }
+ },
+ "eval2_text_blocks": 14
+}

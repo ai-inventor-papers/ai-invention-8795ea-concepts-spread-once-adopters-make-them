@@ -1,0 +1,62 @@
+{
+ "O1c_is_continuous": {
+  "reason": "The plan uses \"O1c = 1\" (decomposition variant vi, atlas types GRADUAL/LOCAL), but in EXP8 O1c = log(1+N late) - log(1+N early) is continuous; the binary sustained-uptake outcome is O1b (EXP5 sustained-share rule).",
+  "effect_on_claims": "Every \"O1c = 1\" condition is implemented as O1b = 1 (sustained uptake). No confirmatory claim is affected (variant vi is a sensitivity; the atlas is descriptive).",
+  "time": "2026-09-29 02:31:51"
+ },
+ "seal_git_commit": {
+  "reason": "the workspace is not a git repository (the publish step owns the repo), so the planned git commit of the frozen spec was not made",
+  "effect_on_claims": "the seal relies on the sha256 in logs/seal.log, a byte copy logs/frozen_spec.sealed_copy.json and the one-time unseal marker; no claim changes",
+  "time": "2026-09-29 03:26:09"
+ },
+ "atlas_relax": {
+  "reason": "types with < 8 eligible AI concepts at AI share >= 0.3 were relaxed per type: {'RAPID': 0.1, 'LOCAL': 0.1, 'TRANSIENT': 0.1}; available: {'RAPID': 10, 'GRADUAL': 12, 'LOCAL': 5, 'DIFFUSING': 10, 'TRANSIENT': 13}",
+  "effect_on_claims": "those atlas rows include lower-AI-share CS concepts (tier recorded per type); types still short of 8 show all eligible concepts",
+  "time": "2026-09-29 03:41:29"
+ },
+ "dtw_numba_kernel": {
+  "reason": "tslearn cdist_dtw (EXP6 dtw_matrix) projected 61 min for 4,771 DEV concepts because of per-pair joblib dispatch",
+  "effect_on_claims": "replaced by a numba-parallel kernel with the identical definition (Sakoe-Chiba radius 2, squared-Euclidean local cost, sqrt of accumulated cost); verified max |diff| = 0 vs tslearn on 200 random series (results/unit_tests_T0.json d). No claim changes.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "fasterpam_single_thread": {
+  "reason": "kmedoids.fasterpam defaults to all cores; 7 parallel k-selection processes oversubscribed the machine",
+  "effect_on_claims": "fasterpam pinned to n_cpu=1 and the 100 bootstrap refits per k run as parallel jobs; algorithm, seeds and the EXP6 choose_k rule unchanged.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "reporting_groups_6": {
+  "reason": "the plan lists CS+Eng, BGM+Med, PHYS, LIFEENV, SOC, MATHDEC but calls them '5 reporting groups'",
+  "effect_on_claims": "6 reporting groups are used for case-pair pools; held-out DL pooling uses the 4 held-out home groups as in EXP8.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "in_exp6_definition": {
+  "reason": "EXP6 frame_concepts uses URL ids and a different index; a direct concept_id join found 0 overlaps",
+  "effect_on_claims": "in_exp6 = the 658 concepts EXP7 dropped as EXP6 overlap (id OR qid OR label; EXP7 results/overlap_report.json); exactly the concepts missing from the EXP7 state panel.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "PR2_sample": {
+  "reason": "RETENTION_RATIO_early is undefined (0/0) for concepts with no off-home contact in t0..t0+2",
+  "effect_on_claims": "PR2 uses concepts with >= 1 off-home contact (RETENTION_RATIO_missing == 0); the Medicine-excluded version is also reported.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "T3_smoke_T4_staging": {
+  "reason": "every stage ran on the full frame in minutes after the T2/T4 timings (ego_open 0.015 s/concept; DTW 4,771^2 in ~1 s), so the separate 200-concept end-to-end smoke run was not needed",
+  "effect_on_claims": "T3 not run as a separate step; T0 unit tests, T2 reproduction, T5 seed robustness, T6 checklist, T7 re-derivation and T9 placebos all ran.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "hmm_min_covar": {
+  "reason": "hmmlearn default min_covar can collapse diagonal variances on asinh count series",
+  "effect_on_claims": "GaussianHMM uses min_covar = 1e-3 (z-scored inputs); 10 restarts per state count as planned.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "sequence_verdict_heldout": {
+  "reason": "the frozen verdict rule labels the held-out split HOME-FIRST because its excess share of A < T over the mechanical-lag null is +0.011 with CI > 0",
+  "effect_on_claims": "the excess is about 1 percentage point, its sign flips on DEV (-0.009) and on the cohort (-0.017), so no ordering claim is made; the overall reading is MIXED.",
+  "time": "2026-09-29 03:42:30"
+ },
+ "post_seal_code_edits": {
+  "reason": "after the seal: (a) s8_cases.py merge fix (duplicate *_all columns) and figure layout; (b) s9_atlas.py figure layout and the AI-share relaxation changed from global (all types relaxed to 0.1 when any type was short) to per type (each type at the highest tier giving 8), after seeing per-type eligible counts; (c) s10_outputs.py figure labels; (d) lib/common.py validator path made relative; (e) lib/viz.py title font size",
+  "effect_on_claims": "the sha256 values in results/frozen_spec.json refer to the sealed versions; none of these edits touches a frozen rule in lib/cases_spec.py, the decomposition, the typology or the OPEN definitions. The atlas relaxation change (b) is descriptive only and is disclosed here because it was made after outcome-based type counts were visible.",
+  "time": "2026-09-29 03:47:27"
+ }
+}

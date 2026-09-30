@@ -1,0 +1,66 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.cs.cornell.edu/home/kleinber/www11-hashtags.pdf
+Type: PDF
+Pattern: stickiness|persistence|political|idioms|complex contagion (100 matches in 56802 chars)
+
+--- Content ---
+
+69:Differences in the Mechanics of Information Diffusion
+Across Topics: Idioms, Political Hashtags, and Complex
+Contagion on Twitter
+Daniel M. Romero
+Cornell University
+Ithaca, NY
+dmr239@cornell.edu
+Brendan Meeder
+Carnegie Mellon University
+Pittsburgh, PA
+bmeeder@cs.cmu.edu
+Jon Kleinberg
+Cornell University
+Ithaca, NY
+kleinber@cs.cornell.edu
+ABSTRACT
+There is a widespread intuitive sense...
+--
+960:..., analyzing the ways in
+which tokens known as hashtags spread on a network deﬁned by
+the interactions among Twitter users. We ﬁnd signiﬁcant variation
+in the ways that widely-used hashtags on different topics spread.
+Our results show that this variation is not attributable simply to
+differences in “stickiness,” the probability of adoption based on one
+or more exposures, but also to a quantity that could be viewed as a
+kind of “persistence” — the relative extent to which repeated expo-
+sures to a hashtag continue to have signiﬁcant marginal effects. We
+ﬁnd that hashtags on politically controversial topics are particularly
+persistent, with repeated exposures continuing to have unusually
+large marginal effects on adoption; this provides, to our knowl-
+edge, the ﬁrst large-scale validation of the “complex contagion”
+principle from sociology, which posits that repeated exposures to
+an idea are particularly crucial when the idea is in some way con-
+troversial or contentious. Among other ﬁndings, we discover that
+hashtags representing the natural analogues of Twitter idioms and
+neologisms are particularly non-persistent, with the effect of mul-
+tiple exposures decaying rapidly relative to the ﬁrst exposure.
+We also study the subgraph structure of the initial adopters for
+different widely-adopted hashtags, again ﬁnding structural differ-
+ences across topics. We develop...
+--
+5005:...is
+paper we analyze sources of variation in how the most widely-used
+hashtags on Twitter spread within its user population. We ﬁnd that
+these sources of variation involve not just differences in the prob-
+ability with which something spreads from one person to another
+— the quantitative analogue of stickiness — but also differences in
+a quantity that can be viewed as a kind of “persistence,” the rela-
+tive extent to which repeated exposures to a piece of information
+continue to have signiﬁcant marginal effects on its adoption.
+Moreover, these variations are aligned with the topic of the hash-
+tag. For example, we ﬁnd that hashtags on politically controversial
+topics are particularly persistent, with repeated exposures continu-
+ing to have large relative effects on adoption; this provides, to our
+knowledge, the ﬁrst large-scale validation of the “complex conta-
+gion” principle from sociology, which posits that repeated expo-
+sures to an i...
+--
+[90 more matches not shown]

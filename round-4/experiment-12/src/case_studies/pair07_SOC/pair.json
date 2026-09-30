@@ -1,0 +1,330 @@
+{
+ "pair": "pair07_SOC",
+ "rgroup": "SOC",
+ "selection": {
+  "gap": 1.5470812413363806,
+  "maha": null,
+  "tol": 0.25,
+  "anchor": 0
+ },
+ "illustration_only": true,
+ "disclosure": "held-out outcomes were previously unsealed by EXP5/EXP7/EXP8; this seal fixes only this artifact's analysis choices (fixed on DEV before held-out states/outcomes were read by this artifact)",
+ "members": {
+  "HIGH_OPEN": {
+   "ci": 12648,
+   "concept_id": 101293273,
+   "name": "User-generated content",
+   "group": "SOC",
+   "t0": 2008,
+   "home": "33",
+   "B5": {
+    "logvol": 4.5217885770490405,
+    "growth_c": 0.2468600555797837,
+    "offhome_share": 0.3684210479259491,
+    "entropy": 1.0236875572256416,
+    "reach": 4.0
+   },
+   "OPEN": {
+    "all": 1.1430986105439127,
+    "home": 1.4395310622494302,
+    "size": 0.9515016518313774
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 0.5128205128205129,
+     "n_comm_W3": 9.0,
+     "participation": 0.8456632653061225,
+     "NOV_res": -0.39939352364915404,
+     "ego_density_W3": 0.6013071895424836,
+     "edge_persistence": 0.4
+    },
+    "home": {
+     "new_edge_rate": 0.7777777777777778,
+     "n_comm_W3": 4.0,
+     "participation": 0.7407407407407407,
+     "NOV_res": -0.09002966225745779,
+     "ego_density_W3": 0.5,
+     "edge_persistence": 0.0
+    },
+    "size": {
+     "new_edge_rate": 0.6144444444444445,
+     "n_comm_W3": 1.85,
+     "participation": 0.3528734410430839,
+     "NOV_res": -0.22834807275670901,
+     "ego_density_W3": 0.5625,
+     "edge_persistence": 0.027321428571428573
+    }
+   },
+   "decomposition": {
+    "E2": 3.0,
+    "EH": 4.0,
+    "Bn": 3.0,
+    "M": 1.3333333333333333,
+    "rho": 0.75
+   },
+   "axis": {
+    "PC1": 3.9547248484853226
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 5.273592083025696,
+    "O2r_resid": 0.739074703243495,
+    "O1c": 0.5086493443433948,
+    "O1b": 1.0,
+    "O3": 0.0,
+    "O4": 1.0547170038874834
+   },
+   "recognition_events_same": [
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2006,
+     "year_usable": true,
+     "lag_to_t0": -2,
+     "pre_t0": true
+    }
+   ],
+   "dependency_event_count": 1,
+   "top_W3_neighbours": [
+    [
+     "Recommender Systems and Techniques",
+     6.28,
+     3
+    ],
+    [
+     "Digital Rights Management and Security",
+     6.18,
+     5
+    ],
+    [
+     "Copyright and Intellectual Property",
+     6.17,
+     5
+    ],
+    [
+     "Personal Information Management and User Behavior",
+     5.99,
+     2
+    ],
+    [
+     "Wikis in Education and Collaboration",
+     5.74,
+     3
+    ],
+    [
+     "Radio, Podcasts, and Digital Media",
+     5.43,
+     2
+    ],
+    [
+     "Intellectual Property Rights and Media",
+     5.37,
+     2
+    ],
+    [
+     "Digital Games and Media",
+     5.24,
+     5
+    ],
+    [
+     "Media Studies and Communication",
+     5.16,
+     4
+    ],
+    [
+     "Advanced Text Analysis Techniques",
+     5.14,
+     2
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "HIGH_OPEN_W1_all": {
+     "n_nodes": 12,
+     "n_edges": 52,
+     "n_communities": 5,
+     "density": 0.7878787878787878
+    },
+    "HIGH_OPEN_W2_all": {
+     "n_nodes": 20,
+     "n_edges": 104,
+     "n_communities": 6,
+     "density": 0.5473684210526316
+    },
+    "HIGH_OPEN_W3_all": {
+     "n_nodes": 18,
+     "n_edges": 92,
+     "n_communities": 9,
+     "density": 0.6013071895424836
+    },
+    "HIGH_OPEN_W3_home": {
+     "n_nodes": 4,
+     "n_edges": 3,
+     "n_communities": 4,
+     "density": 0.5
+    }
+   }
+  },
+  "LOW_OPEN": {
+   "ci": 34100,
+   "concept_id": 2777808739,
+   "name": "Mindfulness-based cognitive therapy",
+   "group": "SOC",
+   "t0": 2009,
+   "home": "32",
+   "B5": {
+    "logvol": 4.51085950651685,
+    "growth_c": 0.1292116917435755,
+    "offhome_share": 0.1875,
+    "entropy": 0.707361811348316,
+    "reach": 4.0
+   },
+   "OPEN": {
+    "all": -0.4039826307924678,
+    "home": -0.46320683684895664,
+    "size": -0.2755810529231028
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 0.36363636363636365,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.789653884699364,
+     "ego_density_W3": 0.7424242424242424,
+     "edge_persistence": 0.12380952380952381
+    },
+    "home": {
+     "new_edge_rate": 0.4166666666666667,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.9540759682758708,
+     "ego_density_W3": 0.8571428571428571,
+     "edge_persistence": 0.2125
+    },
+    "size": {
+     "new_edge_rate": 0.33416666666666667,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.8047729323184116,
+     "ego_density_W3": 0.8016666666666667,
+     "edge_persistence": 0.12084505772005771
+    }
+   },
+   "decomposition": {
+    "E2": 3.0,
+    "EH": 4.0,
+    "Bn": 4.0,
+    "M": 1.3333333333333333,
+    "rho": 1.0
+   },
+   "axis": {
+    "PC1": 2.403519271812932
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 4.309500975839543,
+    "O2r_resid": -0.2206815977021952,
+    "O1c": 0.7569986525464785,
+    "O1b": 1.0,
+    "O3": 0.0,
+    "O4": 0.13875315979985703
+   },
+   "recognition_events_same": [
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2006,
+     "year_usable": true,
+     "lag_to_t0": -3,
+     "pre_t0": true
+    },
+    {
+     "source": "mesh",
+     "event_type": "mesh_descriptor_introduced",
+     "year": 2025,
+     "year_usable": true,
+     "lag_to_t0": 16,
+     "pre_t0": false
+    }
+   ],
+   "dependency_event_count": 2,
+   "top_W3_neighbours": [
+    [
+     "Art Therapy and Mental Health",
+     5.81,
+     2
+    ],
+    [
+     "Psychosomatic Disorders and Their Treatments",
+     5.75,
+     6
+    ],
+    [
+     "Music Therapy and Health",
+     5.5,
+     3
+    ],
+    [
+     "Treatment of Major Depression",
+     5.12,
+     3
+    ],
+    [
+     "Pain Management and Placebo Effect",
+     5.0,
+     2
+    ],
+    [
+     "Child Therapy and Development",
+     4.87,
+     2
+    ],
+    [
+     "Mental Health Research Topics",
+     4.87,
+     2
+    ],
+    [
+     "Fibromyalgia and Chronic Fatigue Syndrome Research",
+     4.84,
+     2
+    ],
+    [
+     "Bipolar Disorder and Treatment",
+     4.69,
+     2
+    ],
+    [
+     "Resilience and Mental Health",
+     4.57,
+     2
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "LOW_OPEN_W1_all": {
+     "n_nodes": 10,
+     "n_edges": 28,
+     "n_communities": 3,
+     "density": 0.6222222222222222
+    },
+    "LOW_OPEN_W2_all": {
+     "n_nodes": 12,
+     "n_edges": 53,
+     "n_communities": 1,
+     "density": 0.803030303030303
+    },
+    "LOW_OPEN_W3_all": {
+     "n_nodes": 12,
+     "n_edges": 49,
+     "n_communities": 1,
+     "density": 0.7424242424242424
+    },
+    "LOW_OPEN_W3_home": {
+     "n_nodes": 7,
+     "n_edges": 18,
+     "n_communities": 1,
+     "density": 0.8571428571428571
+    }
+   }
+  }
+ },
+ "flag_open_home_order_disagrees": false,
+ "high_open_has_higher_O2r_resid": true
+}

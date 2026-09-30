@@ -1,0 +1,98 @@
+2026-09-29T02:16:11Z	fetch	cheng_s2	https://api.semanticscholar.org/graph/v1/paper/DOI:10.1177/00031224231166955?fields=title,year,authors,venue,externalIds,abstract,tldr,openAccessPdf,citationCount
+2026-09-29T02:16:11Z	grep	cheng_sage	https://journals.sagepub.com/doi/full/10.1177/00031224231166955	consisten|embedding|semantic
+2026-09-29T02:16:11Z	search	scholarly	s7_a	methods diffuse across disciplines more than theories method entity cross-disciplinary diffusion
+2026-09-29T02:16:11Z	search	general	s5_a	Palla Barabasi Vicsek 2007 quantifying social group evolution large groups persist longer dynamic membership
+2026-09-29T02:16:11Z	search	scholar	cheng_cite	new ideas diffuse science consistent intellectual usage unrelated author networks core concepts
+2026-09-29T02:16:11Z	search	scholarly	s5_b	citation structural diversity metric combining structure Scientometrics 2025
+2026-09-29T02:16:11Z	search	general	cheng_osf	"How New Ideas Diffuse in Science" Cheng McFarland pdf consistent usage
+2026-09-29T02:16:11Z	search	scholarly	s1_b	co-word analysis niche themes motor themes transition over time
+2026-09-29T02:16:11Z	search	scholarly	s9_a	phylomemy term clusters emergence decline scientific fields dynamics
+2026-09-29T02:16:11Z	search	scholarly	s2_a	structural variation novel boundary-spanning links predict citations Chen 2012
+2026-09-29T02:16:11Z	search	scholarly	s1_a	strategic diagram themes evolution density centrality longitudinal prediction
+2026-09-29T02:16:11Z	search	scholarly	s6_a	early generality index patents predicts later diffusion general purpose technology identification
+2026-09-29T02:16:11Z	search	scholarly	s3_a	semantic context diversity scientific terms diffusion across disciplines
+2026-09-29T02:16:11Z	search	scholarly	c3_a	transient adoption across fields predicts later diffusion scientific concept
+2026-09-29T02:17:12Z	grep	cheng_g2	https://journals.sagepub.com/doi/full/10.1177/00031224231166955	Hypothesis 5|Hypothesis 6|Hypothesis 3|Hypothesis 1
+2026-09-29T02:17:12Z	grep	cheng_g5	https://journals.sagepub.com/doi/full/10.1177/00031224231166955	bridging|unrelated authors|structural hole|constraint|distal|network diversity
+2026-09-29T02:17:12Z	grep	cheng_g3	https://journals.sagepub.com/doi/full/10.1177/00031224231166955	Jaccard|cosine|overlap|neighbor terms|neighbour terms|operationaliz|we measure|is measured
+2026-09-29T02:17:12Z	grep	cheng_g4	https://journals.sagepub.com/doi/full/10.1177/00031224231166955	dependent variable|outcome|diffusion count|number of articles|incidence rate|IRR|coefficient
+2026-09-29T02:19:12Z	fetch	cheng_results	sage offset 83200/95000
+2026-09-29T02:19:44Z	fetch	fang	https://arxiv.org/abs/2510.03240
+2026-09-29T02:19:44Z	grep	ugander	https://www.pnas.org/doi/10.1073/pnas.1116502109	connected components|structural diversity|number of components
+2026-09-29T02:19:44Z	search	general	g6	Chen 2012 "structural variation" JASIST predictive effects citation counts modularity change cluster linkage
+2026-09-29T02:19:44Z	search	general	g5	neighbourhood novelty new co-occurrence partners predicts concept emergence interdisciplinary diffusion keyword network
+2026-09-29T02:19:44Z	search	general	g4	topic life cycle keyword co-occurrence network clustering coefficient increases before decline
+2026-09-29T02:19:44Z	grep	salatino17	https://peerj.com/articles/cs-119.pdf	density|pace of collaboration|clique|collaboration
+2026-09-29T02:19:44Z	grep	wang2017	https://www.nber.org/system/files/working_papers/w22180/w22180.pdf	other fields|distant|foreign|interdisciplin|high impact|delayed
+2026-09-29T02:19:44Z	grep	leyraf	https://arxiv.org/pdf/1011.3120	local|global|diffusion
+2026-09-29T02:19:44Z	grep	ravasz	https://arxiv.org/pdf/cond-mat/0206130	C\(k\)|1/k|clustering coefficient
+2026-09-29T02:19:44Z	search	general	g3	scientometrics methods versus theories diffuse to more disciplines quantitative study method entities
+2026-09-29T02:19:44Z	search	general	g2	interpretive flexibility scientific term quantitative measure context dispersion adoption across fields
+2026-09-29T02:19:44Z	grep	palla	https://arxiv.org/pdf/0704.0744	persist|stationarity|alter.{0,20}membership|life.?span|large groups|small groups
+2026-09-29T02:19:44Z	fetch	rethink	https://arxiv.org/abs/2603.06436
+2026-09-29T02:19:44Z	grep	chav	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054847	emergence|decline|death|split|merg|density|stabil
+2026-09-29T02:19:44Z	search	general	g1	strategic diagram co-word themes "emerging or declining" later become motor themes longitudinal validation
+2026-09-29T02:19:44Z	grep	maillart	https://arxiv.org/pdf/2606.03919	R\^?2|R2|entropy|exogenous|endogenous|stratified|heterogeneity in the upstream
+2026-09-29T02:19:44Z	grep	cobo2011	https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1321_mjcobo-joi-2010.pdf	emerging or declining|motor themes|basic and transversal|highly developed|density|centrality
+2026-09-29T02:20:57Z	grep	chav_d	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0054847	density.{0,200}(surviv|age|fate|pseudo|emerg)|(surviv|fate).{0,200}density|dense fields|low density|high density
+2026-09-29T02:20:57Z	grep	maill_n	https://arxiv.org/pdf/2606.03919	0\.69|0\.78|0\.018|80/20|80 %|random split|held-out|primarily driven
+2026-09-29T02:20:57Z	fetch	chen12	https://arxiv.org/abs/1110.3000
+2026-09-29T02:22:22Z	fetch	s2_meth	https://api.semanticscholar.org/graph/v1/paper/search?fields=title,year,venue,externalIds,citationCount&limit=10&query=method%20entities%20diffusion%20across%20disciplines%20scientific%20literature
+2026-09-29T02:22:22Z	grep	chen12pdf	http://cluster.ischool.drexel.edu/~cchen/papers/2012/jasist2012-predictive.pdf	incidence rate|strongest predictor|cluster linkage is|modularity change rate|interdisciplin|diffus
+2026-09-29T02:22:22Z	fetch	s2_stab	https://api.semanticscholar.org/graph/v1/paper/search?fields=title,year,venue,externalIds,citationCount&limit=10&query=semantic%20stability%20of%20new%20scientific%20terms%20predicts%20adoption
+2026-09-29T02:22:22Z	grep	shievans	https://www.nature.com/articles/s41467-023-36741-4	distant|outsiders|surpris.{0,80}(impact|cit)|audience|other fields
+2026-09-29T02:22:22Z	grep	hofstra	https://www.pnas.org/doi/10.1073/pnas.1915378117	taken up|uptake|distal|novelty
+2026-09-29T02:22:22Z	search	general	m2	research methods diffuse to more disciplines than topics or theories evidence scientometrics "methods" "diffusion" interdisciplinary
+2026-09-29T02:22:22Z	fetch	iacopini	https://arxiv.org/abs/1708.03144
+2026-09-29T02:22:22Z	search	general	c4a	scientific topic network closure precedes decline clustering increases before topic stagnation lead-lag
+2026-09-29T02:22:22Z	search	general	c3a	repeated introductions propagule pressure analogy diffusion of ideas across scientific fields transient adoption
+2026-09-29T02:22:22Z	search	general	m1	method papers vs non-method papers diffusion across fields citations Small 2018 citation contexts
+2026-09-29T02:22:22Z	fetch	strdiv	https://api.semanticscholar.org/graph/v1/paper/DOI:10.1007/s11192-025-05356-5?fields=title,year,authors,venue,abstract,externalIds
+2026-09-29T02:22:22Z	search	general	gp1	generality index early years predicts later diffusion general purpose technology patents Petralia identification
+2026-09-29T02:22:22Z	fetch	s2_ego	https://api.semanticscholar.org/graph/v1/paper/search?fields=title,year,venue,externalIds,citationCount&limit=10&query=keyword%20co-occurrence%20network%20ego%20density%20predicts%20diffusion%20breadth
+2026-09-29T02:22:22Z	fetch	foster	https://arxiv.org/abs/1302.6906
+2026-09-29T02:22:22Z	fetch	s2_gpt	https://api.semanticscholar.org/graph/v1/paper/search?fields=title,year,venue,externalIds,citationCount&limit=10&query=early%20generality%20patent%20predicts%20future%20general%20purpose%20technology
+2026-09-29T02:22:22Z	fetch	tfsc21	https://www.sciencedirect.com/science/article/abs/pii/S0040162521003760
+2026-09-29T02:22:22Z	fetch	s2_lc	https://api.semanticscholar.org/graph/v1/paper/search?fields=title,year,venue,externalIds,citationCount&limit=10&query=research%20topic%20life%20cycle%20network%20cohesion%20decline%20prediction
+2026-09-29T02:23:30Z	grep	stewart	https://arxiv.org/pdf/1708.03850	cluster|densit|dynamism|predict|abstract
+2026-09-29T02:23:30Z	grep	hallt	https://www.nber.org/system/files/working_papers/w10901/w10901.pdf	generality.{0,200}(early|first|later|predict)|identify GPT|candidates
+2026-09-29T02:23:30Z	grep	petralia	http://econ.geo.uu.nl/peeg/peeg2033.pdf	generality|early|predict
+2026-09-29T02:23:30Z	grep	romero	https://www.cs.cornell.edu/home/kleinber/www11-hashtags.pdf	stickiness|persistence|political|idioms|complex contagion
+2026-09-29T02:23:30Z	grep	singh22	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0270131	abstract|decline|interdisciplin|predict|structure
+2026-09-29T02:23:30Z	grep	krauss	https://arxiv.org/pdf/2606.07994	fields|disciplines|diffus|spread|more widely|%
+2026-09-29T02:23:30Z	grep	prabh	https://aclanthology.org/P16-1111.pdf	method|rise|fall|decline|predict
+2026-09-29T02:23:30Z	grep	strdiv2	https://arxiv.org/pdf/2501.02429	topic breadth|correlat|size|number of citations|control
+2026-09-29T02:24:22Z	search	general	p3	concept diffusion across fields number of disciplines predicted by early neighborhood diversity keyword
+2026-09-29T02:24:22Z	grep	romero2	https://www.cs.cornell.edu/home/kleinber/www11-hashtags.pdf	initial adopters|triangles|more densely|clustering|edges among
+2026-09-29T02:24:22Z	search	general	p1	predict which scientific terms will diffuse across disciplines early co-occurrence features
+2026-09-29T02:24:22Z	search	general	p7	Leahey Moody 2014 sociological innovation through subfield integration Social Currents
+2026-09-29T02:24:22Z	search	general	p2	knowledge entity interdisciplinary diffusion breadth prediction early stage network features
+2026-09-29T02:24:22Z	search	scholarly	p5	diffusion breadth of scientific concepts across disciplines
+2026-09-29T02:24:22Z	grep	ugander2	https://www.pnas.org/doi/10.1073/pnas.1116502109	negative predictor|edge density|single-component
+2026-09-29T02:24:22Z	search	scholarly	p4	interdisciplinary diffusion of knowledge entities prediction
+2026-09-29T02:24:22Z	search	general	p6	Vilhena 2014 finding cultural holes jargon scholarly communication sociological science
+2026-09-29T02:24:22Z	search	general	p8	Mao Liang Cao Li 2020 knowledge memes cross-disciplinary knowledge flow Journal of Informetrics
+2026-09-29T02:25:25Z	grep	osb17	https://oro.open.ac.uk/51198/1/K-CAP2017_TTF_65.pdf	abstract|precision|predict|research communit|spread|features
+2026-09-29T02:25:25Z	search	general	d1	"Discovering Interdisciplinarily Spread Knowledge in the Academic Literature"
+2026-09-29T02:25:25Z	grep	vilhena	https://sociologicalscience.com/articles-vol1-15-221/	jargon|cultural hole|abstract|citation
+2026-09-29T02:25:25Z	grep	mckeown	http://webstaging.cs.columbia.edu/~gravano/Papers/2016/jasist16.pdf	abstract|feature|network|diversity|predict|prominen
+2026-09-29T02:25:25Z	grep	cao20	https://aclanthology.org/2020.findings-emnlp.158.pdf	abstract|feature|diversity|network|predict|AUC|accuracy|field
+2026-09-29T02:25:25Z	search	general	d2	Weis Jacobson 2021 learning on knowledge graph dynamics early warning impactful research DELPHI
+2026-09-29T02:26:21Z	fetch	mck2	https://api.crossref.org/works?query.bibliographic=Predicting+the+impact+of+scientific+concepts+using+full-text+features+McKeown&rows=2&select=DOI,title,author,container-title,issued
+2026-09-29T02:26:21Z	fetch	osb17b	https://www.semanticscholar.org/search?q=Forecasting%20the%20Spreading%20of%20Technologies%20in%20Research%20Communities
+2026-09-29T02:26:21Z	fetch	osb17c	https://api.crossref.org/works?query.bibliographic=Forecasting+the+Spreading+of+Technologies+in+Research+Communities+Osborne&rows=3&select=DOI,title,author,container-title,issued
+2026-09-29T02:26:21Z	grep	cao20b	https://aclanthology.org/2020.findings-emnlp.158.pdf	interdisciplin|field diversity|number of fields|consisten|embeddedness|F1|AUC|positively|negatively
+2026-09-29T02:27:54Z	search	general	o1	Osborne Mannocci Motta 2017 "Forecasting the Spreading of Technologies in Research Communities" abstract
+2026-09-29T02:27:54Z	fetch	ansob	https://api.openalex.org/works?filter=primary_location.source.id:S3035517252,title_and_abstract.search:scientific%20knowledge&per-page=25&select=id,doi,title,publication_year
+2026-09-29T02:27:54Z	fetch	ansoa	https://api.openalex.org/works?filter=primary_location.source.id:S3035517252,title_and_abstract.search:co-occurrence&per-page=25&select=id,doi,title,publication_year
+2026-09-29T02:28:57Z	fetch	osb_tt	https://isds.kmi.open.ac.uk/technology-topic-framework/
+2026-09-29T02:30:16Z	grep	sal_p	https://peerj.com/articles/cs-119.pdf	p-value|p < |p<|Mann|statistically significant|times higher|%
+2026-09-29T02:30:16Z	grep	hallt2	https://www.nber.org/system/files/working_papers/w10901/w10901.pdf	generality
+2026-09-29T02:30:17Z	search	general	c4c	concept becomes central in home community first then diffuses across disciplines sequence scientometrics
+2026-09-29T02:30:17Z	search	general	gp2	early identification of general purpose technologies patent generality first years predicts later diffusion across sectors
+2026-09-29T02:30:17Z	search	general	c4b	research topic cohesion clustering increase precedes stagnation decline event study keyword network
+2026-09-29T02:31:11Z	fetch	mlgen	https://exa.ai/library/publication/p6bq2x9mxn6
+2026-09-29T02:31:11Z	fetch	vinc_cr	https://api.crossref.org/works/10.1098/rspb.2017.2360
+2026-09-29T02:31:11Z	grep	vinc	https://royalsocietypublishing.org/doi/10.1098/rspb.2017.2360	abstract|universal|first|then|disciplines
+2026-09-29T02:32:07Z	fetch	vinc_cr	https://api.crossref.org/works/10.1098/rspb.2017.2360
+2026-09-29T02:38:17Z	crossref	bettencourt	10.1016/j.joi.2009.03.001

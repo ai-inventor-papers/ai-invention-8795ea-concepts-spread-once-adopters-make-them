@@ -1,0 +1,86 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nber.org/system/files/working_papers/w10901/w10901.pdf
+Type: PDF
+Pattern: generality (68 matches in 69212 chars)
+
+--- Content ---
+
+1036:... O330, O310, L860
+ABSTRACT
+This paper asks the question: Can we see evidence of General Purpose Technologies in patent data?
+Using data on three million US patents granted between 1967 and 1999, and their citations received
+between 1975 and 2002, we construct a number of measures of GPTs, including generality, number
+of citations, and patent class growth, for patents themselves and for the patents that cite the patents.
+A selection of the top twenty patents in the tails of the distribution of several of these measures
+yields a set of mostly ICT technologies, of which the most important are those underly...
+--
+17139:...l, Computers and Communications (C&C), Drugs 
+and Medical (D&M), Electrical and Electronics (E&E), Mechanical, and Others. 
+
+Hall-Trajtenberg 
+ 
+October  2004 
+ 
+ 
+ 
+9 
+all). Thus our patents are 37 times more likely to be cited than predicted by the average 
+probability.  
+Table 1 about here 
+3.1 
+Generality 
+Observation (1) above suggests the use of a measure that is similar to the 
+Trajtenberg, Jaffe, and Henderson ‘Generality’ measure, which is defined in the 
+following way: 
+2
+1
+≡
+= −∑
+in
+i
+ij
+j
+Generality
+G
+s 
+where sij denotes the percentage of citations received by patent i that belong to patent 
+class j, out of ni patent classes (note that the sum is the Herfindahl concentration index). 
+Thus, if a patent is cited by subsequent patents that belong to a wide range of fields the 
+measure will be high, whereas if most citations are concentrated in a few fields it will be 
+low (close to zero).9  
+Point (2) suggests that even if Generality is relatively high, the absolute number 
+of citations should also be high, implying that there may still be a large number of 
+citations in the patent’s own technology class. It also suggests that ‘second-generation’ 
+citations be examined. We implement this using two variables, the average number of 
+citations to the citing patents, and the average generality of the citing patent.  
+In actual measurement, the preceding two predictions interact in ways which 
+make our task a bit more complex. Like patents, citation counts are a discrete random 
+variable bounded below by zero. This means that fewer citations in total imply that 
+fewer classes will be observed to have citations than should be observed were the total 
+                                                 
+9 Note that Generality is not defined if a patent receives no citations, and is zero by construction when a 
+patent receives only one. We have omitted such patents in the tables and graphs shown in this paper. They 
+comprise about one quarter of all patents in our sample. 
+
+Hall-Trajtenberg 
+ 
+October  2004 
+ 
+ 
+ 
+10 
+number of citations larger. That is, ni is biased downward by the fact that fractional 
+citations are not observed, and Generality will tend to be lower when there are fewer 
+citations. This is quite visible in the graph of average Generality over time shown in 
+Figure 1, where we show two different versions of Generality, one based on US patent 
+classes, and another based on the International Patent Classification, as assigned to these 
+patents by the USPTO. Note that the average of either Generality measures begins to 
+decline fairly steeply in 1993-95, at the same time as our measure of average citations 
+per patent turns down sharply due to the effects of lag truncation (see Figure 2). In this 
+case, this is a spurious rather than real decline in Generality, due to the fact that our 
+patent grant data ends in 2002, and therefore our application-dated data around 1999, so 
+that patents in the years after about 1994 have had less chance to receive citations.10  
+Figures 1 and 2 about here 
+Using a simple binomial model of the probability of observing a ...
+--
+[56 more matches not shown]

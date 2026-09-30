@@ -1,0 +1,330 @@
+{
+ "pair": "pair03_PHYS",
+ "rgroup": "PHYS",
+ "selection": {
+  "gap": 1.2809081385281607,
+  "maha": null,
+  "tol": 0.25,
+  "anchor": 0
+ },
+ "illustration_only": true,
+ "disclosure": "held-out outcomes were previously unsealed by EXP5/EXP7/EXP8; this seal fixes only this artifact's analysis choices (fixed on DEV before held-out states/outcomes were read by this artifact)",
+ "members": {
+  "HIGH_OPEN": {
+   "ci": 2256,
+   "concept_id": 18150654,
+   "name": "Nanocarriers",
+   "group": "PHYS",
+   "t0": 2005,
+   "home": "25",
+   "B5": {
+    "logvol": 4.709530201312334,
+    "growth_c": 0.9067213175377852,
+    "offhome_share": 0.6792452931404114,
+    "entropy": 1.742010468561303,
+    "reach": 7.0
+   },
+   "OPEN": {
+    "all": 0.6659290147271483,
+    "home": 0.3895793814732094,
+    "size": -0.30434814581956476
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 0.47222222222222227,
+     "n_comm_W3": 4.0,
+     "participation": 0.4813100747597011,
+     "NOV_res": -0.4132322224670242,
+     "ego_density_W3": 0.3897058823529412,
+     "edge_persistence": 0.21875
+    },
+    "home": {
+     "new_edge_rate": 0.6666666666666666,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.9391574953712006,
+     "ego_density_W3": 0.0,
+     "edge_persistence": 0.0
+    },
+    "size": {
+     "new_edge_rate": 0.16666666666666669,
+     "n_comm_W3": 0.95,
+     "participation": 0.07902777777777777,
+     "NOV_res": -0.939359077303058,
+     "ego_density_W3": 0.8666666666666667,
+     "edge_persistence": 0.0
+    }
+   },
+   "decomposition": {
+    "E2": 6.0,
+    "EH": 10.0,
+    "Bn": 6.0,
+    "M": 1.6666666666666667,
+    "rho": 0.6
+   },
+   "axis": {
+    "PC1": 10.257891910493367
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 7.39690395762492,
+    "O2r_resid": 2.787922462888554,
+    "O1c": 1.9750815263555932,
+    "O1b": 1.0,
+    "O3": 0.0,
+    "O4": 0.6362361965708154
+   },
+   "recognition_events_same": [
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2013,
+     "year_usable": true,
+     "lag_to_t0": 8,
+     "pre_t0": false
+    }
+   ],
+   "dependency_event_count": 1,
+   "top_W3_neighbours": [
+    [
+     "Graphene and Nanomaterials Applications",
+     6.52,
+     6
+    ],
+    [
+     "Nanoplatforms for cancer theranostics",
+     5.91,
+     5
+    ],
+    [
+     "Advancements in Transdermal Drug Delivery",
+     5.44,
+     4
+    ],
+    [
+     "Supramolecular Self-Assembly in Materials",
+     4.97,
+     3
+    ],
+    [
+     "Advanced Drug Delivery Systems",
+     4.81,
+     3
+    ],
+    [
+     "Advanced Polymer Synthesis and Characterization",
+     4.57,
+     5
+    ],
+    [
+     "Advanced biosensing and bioanalysis techniques",
+     4.46,
+     7
+    ],
+    [
+     "Luminescence and Fluorescent Materials",
+     4.18,
+     2
+    ],
+    [
+     "Dermatology and Skin Diseases",
+     3.9,
+     2
+    ],
+    [
+     "Cancer, Lipids, and Metabolism",
+     3.86,
+     2
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "HIGH_OPEN_W1_all": {
+     "n_nodes": 11,
+     "n_edges": 29,
+     "n_communities": 2,
+     "density": 0.5272727272727272
+    },
+    "HIGH_OPEN_W2_all": {
+     "n_nodes": 8,
+     "n_edges": 18,
+     "n_communities": 3,
+     "density": 0.6428571428571429
+    },
+    "HIGH_OPEN_W3_all": {
+     "n_nodes": 17,
+     "n_edges": 53,
+     "n_communities": 4,
+     "density": 0.3897058823529412
+    },
+    "HIGH_OPEN_W3_home": {
+     "n_nodes": 2,
+     "n_edges": 0,
+     "n_communities": 1,
+     "density": 0.0
+    }
+   }
+  },
+  "LOW_OPEN": {
+   "ci": 6574,
+   "concept_id": 51967427,
+   "name": "Nanosheet",
+   "group": "PHYS",
+   "t0": 2005,
+   "home": "25",
+   "B5": {
+    "logvol": 4.795790545596741,
+    "growth_c": 0.8347976661337253,
+    "offhome_share": 0.5483871102333069,
+    "entropy": 1.204485442623895,
+    "reach": 5.0
+   },
+   "OPEN": {
+    "all": -0.6149791238010124,
+    "home": -0.23251228926495204,
+    "size": -0.45820986863905544
+   },
+   "components": {
+    "all": {
+     "new_edge_rate": 0.38095238095238093,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.885561785180075,
+     "ego_density_W3": 0.6022727272727273,
+     "edge_persistence": 0.3781223083548665
+    },
+    "home": {
+     "new_edge_rate": 0.5333333333333333,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.818099996576719,
+     "ego_density_W3": 0.6181818181818182,
+     "edge_persistence": 0.2361111111111111
+    },
+    "size": {
+     "new_edge_rate": 0.24168650793650798,
+     "n_comm_W3": 1.0,
+     "participation": 0.0,
+     "NOV_res": -0.9392898553555138,
+     "ego_density_W3": 0.6859396159396159,
+     "edge_persistence": 0.22260257340268952
+    }
+   },
+   "decomposition": {
+    "E2": 4.0,
+    "EH": 8.0,
+    "Bn": 7.0,
+    "M": 2.0,
+    "rho": 0.875
+   },
+   "axis": {
+    "PC1": 6.630529566939115
+   },
+   "outcomes_shown_after_selection": {
+    "O2r_m50": 5.373627855134222,
+    "O2r_resid": 0.7304328490468972,
+    "O1c": 1.9738514312557616,
+    "O1b": 1.0,
+    "O3": 0.0,
+    "O4": 0.047328858905884896
+   },
+   "recognition_events_same": [
+    {
+     "source": "pacs_physh",
+     "event_type": "taxonomy_in_version",
+     "year": 2010,
+     "year_usable": true,
+     "lag_to_t0": 5,
+     "pre_t0": false
+    },
+    {
+     "source": "wikipedia_en",
+     "event_type": "wikipedia_page_created_estimated",
+     "year": 2013,
+     "year_usable": true,
+     "lag_to_t0": 8,
+     "pre_t0": false
+    }
+   ],
+   "dependency_event_count": 2,
+   "top_W3_neighbours": [
+    [
+     "2D Materials and Applications",
+     6.43,
+     3
+    ],
+    [
+     "Perovskite Materials and Applications",
+     5.85,
+     4
+    ],
+    [
+     "Layered Double Hydroxides Synthesis and Applications",
+     5.74,
+     5
+    ],
+    [
+     "Advanced Sensor and Energy Harvesting Materials",
+     5.17,
+     7
+    ],
+    [
+     "MXene and MAX Phase Materials",
+     5.13,
+     3
+    ],
+    [
+     "Graphene research and applications",
+     5.0,
+     8
+    ],
+    [
+     "Dielectric materials and actuators",
+     4.93,
+     2
+    ],
+    [
+     "Hydrogels: synthesis, properties, applications",
+     4.79,
+     3
+    ],
+    [
+     "Magnesium Oxide Properties and Applications",
+     4.78,
+     2
+    ],
+    [
+     "Microwave Dielectric Ceramics Synthesis",
+     4.72,
+     4
+    ]
+   ],
+   "ego_snapshot_stats": {
+    "LOW_OPEN_W1_all": {
+     "n_nodes": 13,
+     "n_edges": 55,
+     "n_communities": 1,
+     "density": 0.7051282051282052
+    },
+    "LOW_OPEN_W2_all": {
+     "n_nodes": 25,
+     "n_edges": 204,
+     "n_communities": 2,
+     "density": 0.68
+    },
+    "LOW_OPEN_W3_all": {
+     "n_nodes": 33,
+     "n_edges": 318,
+     "n_communities": 1,
+     "density": 0.6022727272727273
+    },
+    "LOW_OPEN_W3_home": {
+     "n_nodes": 11,
+     "n_edges": 34,
+     "n_communities": 1,
+     "density": 0.6181818181818182
+    }
+   }
+  }
+ },
+ "flag_open_home_order_disagrees": false,
+ "high_open_has_higher_O2r_resid": true
+}

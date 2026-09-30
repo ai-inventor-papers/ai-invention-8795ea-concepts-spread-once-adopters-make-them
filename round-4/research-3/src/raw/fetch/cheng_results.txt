@@ -1,0 +1,153 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://journals.sagepub.com/doi/full/10.1177/00031224231166955
+Type: HTML
+Length: 231050 chars (truncated) (offset: 83200)
+
+--- Content ---
+
+g)|  | .540  
+***  
+(.001)|  | .427  
+***  
+(.001)  
+_Control Variables_  
+Root term|  |  | .187  
+***  
+(.003)| .171  
+***  
+(.002)  
+Interdisciplinary|  |  | .548  
+***  
+(.001)| .277  
+***  
+(.001)  
+Physical sciences and math|  |  | –.018  
+***  
+(.001)| –.016  
+***  
+(.001)  
+Engineering|  |  | –.026  
+***  
+(.001)| –.019  
+***  
+(.001)  
+Agricultural sciences|  |  | –.023  
+***  
+(.001)| –.005  
+***  
+(.001)  
+Humanities and social sciences|  |  | –.020  
+***  
+(.001)| –.013  
+***  
+(.001)  
+Woman author|  |  | .017  
+***  
+(.001)| .007  
+***  
+(.001)  
+Journal impact factor (log)|  |  | .081  
+***  
+(.001)| .065  
+***  
+(.001)  
+Abstract length (log)|  |  | –.077  
+***  
+(.002)| .034  
+***  
+(.002)  
+Abstract readability (log)|  |  | .108  
+***  
+(.002)| .082  
+***  
+(.002)  
+Abstract positivity|  |  | .058  
+***  
+(.001)| .006  
+***  
+(.001)  
+Abstract negativity|  |  | .047  
+***  
+(.000)| .003  
+***  
+(.001)  
+Journal abstract history|  |  | –.009  
+***  
+(.003)| –.018  
+***  
+(.002)  
+WoS inward citation|  |  | .142  
+***  
+(.001)| .077  
+***  
+(.001)  
+Intercept| 2.472  
+***  
+(.003)| 2.270  
+***  
+(.002)| 2.377  
+***  
+(.003)| 2.244  
+***  
+(.002)  
+_Model Fitness_  
+AIC| 10148244| 8147865| 8825262| 7928868  
+Deviance| 10148234| 8147843| 8825224| 7928818  
+Pseudo _R_2| .508| .752| .682| .797  
+  
+ _Note: N_ observations = 995,945, _N_ terms = 56,540. Standard errors are in parentheses. This model was run on the “loosely” identified version of terms. We had near identical results using a more strictly identified version of terms (see the online supplement).
+
+*
+
+_p_ < .05; **_p_ < .01; ***_p_ < .001 (two-tailed tests).
+
+Figure 5. Plots of Incidence Rates by Age for Models 1 and 4 in Table 4
+
+Turning to the specific results, we begin with the intercept. Because we standardize our variables beforehand, the intercept describes, on average, the number of articles a new idea has diffused into once it has reached the average age of 14 years old, which is roughly 9 to 12 articles (i.e., e2.24 to e2.47 articles), depending on the model specification.
+
+The time variables tell an expected story: for Models 1 and 4, Figure 5 shows the plotted incidence rate of how often an average new term is used in articles each year of their age. The plot shows that when new ideas are introduced into the WoS corpus in later years, they have a slightly higher rate of diffusion, most likely due to the expansion of the corpus (more articles are published) over time. Generally, new ideas gain adoption slowly at first and then find accelerated use (broader diffusion) over time (akin to Jin et al. 2019).14 As we control for confounders and the main predictors, as expected, the bivariate relationship between diffusion and time is weakened (i.e., the difference between the two lines).
+
+### The Effects of Ideational and Social Ecology
+
+Next, we focus on our question predictors, which reflect conditions of social and intellectual resonance. These results can be found in Models 2 and 4 of Table 4. As shown in Table 4, a one standard deviation change in social embeddedness is associated with a 15 percent (e−.16−1) decrease in the predicted number of articles it diffuses into. The inverse of this variable suggests the reach and bridging of authors into unrelated social communities is associated with higher term uptake. Smaller but significant effects are found when new terms are associated with prominent or core authors (social prominence; _b_ =.05). We see mostly negligible effects for social consistency (_b_ = .02). Together, we interpret this as evidence consistent with two of our hypotheses: new ideas tend to diffuse more widely when they have socially prominent authors (Hypothesis 1) and span diverse research communities (Hypothesis 3b).
+
+Notably, our internalist measures of a new idea’s ideational ecology are more predictive of its diffusion than are social, externalist ones. A one standard deviation increase in ideational consistency of a new idea is associated with a 53 percent (e.43−1) increase in the estimated number of articles it diffuses into. This is the average effect of increased ideational consistency, holding age and all other variables constant.15 Less influential but important are the effects of ideational embeddedness and ideational prominence. In terms of the number of published articles on a new idea, a one standard deviation increase in its ideational embeddedness16 is associated with a 25 percent (e.22−1) increase, and a one standard deviation increase in its ideational prominence is associated with a 15 percent (e.14−1) increase. Therefore, consistent with Hypotheses 4, 5, and 6a, a new idea is significantly likely to be adopted in more articles when it achieves intellectual resonance: when authors link it to a consistent constellation of already established ideas; connect it to specific, prominent ideas; and place it within recognized core research topics and paradigms. Together, this suggests the success of a new idea depends on how it relates to the intellectual character and content of established knowledge. On average, then, new terms find greater diffusion and adoption when they are consistently and cogently used in the semantic space, associated with other core ideas, and receive expansive use across communities of authors (Goldberg, Srivastava, et al. 2016).
+
+Our control variables (Models 3 and 4) mostly behave as expected. Notably, new ideas expressed as root terms are more likely to find greater uptake (_b_ = .17). New ideas published in interdisciplinary journals are also more likely to diffuse (_b_ = .28). The effect of interdisciplinarity seems partly mediated by social embeddedness and suggests both variables are identifying the positive additive effects that spanning structural and institutional holes has on ideational diffusion. Fields have modest negative effects on term adoption when compared to the biomedical sciences (i.e., the largest field in the WoS corpus). New ideas advanced by women authors, net of other factors, show a very small positive return (_b_ = .01). By contrast, we find more sizeable effects of a new idea’s journal impact factor (_b_ = .06). As expected, new ideas tend to diffuse more broadly after they land in more influential journals. Features of abstracts are modestly predictive of diffusion. Abstract readability, in particular, facilitates the diffusion of a new idea (_b_ = .08). However, the length and emotionality of abstracts have weak effects. Abstract emotionality is likely weakly related because most scientific abstracts do not contain metaphorical and emotive language. Abstract length is initially negative (_b_ = –.08) in Model 3, but then becomes modestly positive in Model 4, likely because the abstract length determines the number of neighbor terms that are used in ideational embeddedness and ideational consistency.
+
+Finally, our controls for journal abstract history and WoS inward citation have the expected effects. When new terms land in journals with a history of abstracts, they have lower rates of adoption (_b_ = –.02) than do terms in journals with missing abstracts years back. We see this as a sign our control captures some modest error in left censoring. We find a more sizable effect for WoS inward citation (_b_ = .08). When terms land in articles that are inwardly facing, their rate of adoption is higher, most likely because their thought community and style are more represented in the corpus (Fleck [1935] 1979). Again, we interpret this as a sign our control variable captures some error due to boundary issues in the corpus (something all corpora likely have).
+
+### How the Adaptation of Ideas Affects Their Later Diffusion
+
+The results in Table 5 and Figure 6 reflect interactions between our focal variables and the age of a new idea. These interactions answer the question as to whether the effects of social and ideational conditions on the diffusion of a new idea depend on its age. Results in Table 5 build off Model 4 in Table 4 and perform interactions one at a time. Interactions can be hard to interpret, so we plot them in Figure 6 in ways consistent with prior work on multilevel over-dispersed Poisson models (Keppel 1982; McFarland 2001).17 In Figure 6, the _x_ -axis represents age from 1 to 23 years. The _y_ -axis represents the incidence rate ratio (i.e., the expected number of new articles an idea is taken up in each year).
+
+Table 5. Interaction of Social and Ideational Conditions with Term Age (Standardized Coefficients Reported)
+
+| Social Conditions| Ideational Conditions  
+---|---|---  
+| (1)| (2)| (3)| (4)| (5)| (6)  
+Prominence| .044  
+***  
+(.001)|  |  | .137  
+***  
+(.000)|  |   
+Prominence × Age| –.055  
+***  
+(.002)|  |  | –.061  
+***  
+(.002)|  |   
+Prominence × Age2| .075  
+***  
+(.002)|  |  | .125  
+***  
+(.002)|  |   
+Embeddedness|  | –.383  
+***  
+(.001)|  |  | .232  
+***  
+(.001)|   
+Embeddedness × Age|  | .245  
+***  
+(.003)|  |  | –.090  
+***  
+(.002)

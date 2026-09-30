@@ -1,0 +1,57 @@
+{
+ "ego.py": {
+  "source": "round-3/experiment-8/src/lib/ego.py",
+  "sha256_source": "13f052f7578212a2557bc31cb11f6b343e8eb075af893e07f94375bdf9911c83",
+  "sha256_workspace": "13f052f7578212a2557bc31cb11f6b343e8eb075af893e07f94375bdf9911c83",
+  "identical": true
+ },
+ "ego_ctx.py": {
+  "source": "round-3/experiment-8/src/lib/ego_ctx.py",
+  "sha256_source": "ca3ef632c90c5bf71d2bf9a39826945cb7b5504be8e86df81db904c49602bced",
+  "sha256_workspace": "9030fa64e4b6652cde39d139c82403088ce022838a31a7a9b75354cd7a36576f",
+  "identical": false,
+  "patch": "13c13\n< from common import DATA, INPUTS\n---\n> from common import E8_DATA as DATA, E8_INPUTS as INPUTS  # PATCH (plan fallback 4): resolve against EXP8 inputs\n"
+ },
+ "common_exp8.py": {
+  "source": "round-3/experiment-8/src/lib/common.py",
+  "sha256_source": "675840d2f9f16298734804190a073118be3f46cc65abf3e2bab868f838a85a6a",
+  "sha256_workspace": "675840d2f9f16298734804190a073118be3f46cc65abf3e2bab868f838a85a6a",
+  "identical": true
+ },
+ "rq1stats.py": {
+  "source": "round-3/experiment-8/src/lib/rq1stats.py",
+  "sha256_source": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+  "sha256_workspace": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+  "identical": true
+ },
+ "seal_exp8.py": {
+  "source": "round-3/experiment-8/src/lib/seal.py",
+  "sha256_source": "afe1cc003819f3f04924a566ffc29755d6322caeee259fb5d45f5bbca6da68bd",
+  "sha256_workspace": "afe1cc003819f3f04924a566ffc29755d6322caeee259fb5d45f5bbca6da68bd",
+  "identical": true
+ },
+ "build_features_exp8.py": {
+  "source": "round-3/experiment-8/src/build_features.py",
+  "sha256_source": "8d3ded8c8f25e0d01dcc414b573757cc155686ca7c3015d2235c767d4c372361",
+  "sha256_workspace": "8d3ded8c8f25e0d01dcc414b573757cc155686ca7c3015d2235c767d4c372361",
+  "identical": true
+ },
+ "d3.py": {
+  "source": "round-3/experiment-7/src/lib/d3.py",
+  "sha256_source": "b8b44f09d56f175b175cb1bf016d1846162a65cf97385273f6b97ad16f64bce5",
+  "sha256_workspace": "b8b44f09d56f175b175cb1bf016d1846162a65cf97385273f6b97ad16f64bce5",
+  "identical": true
+ },
+ "traj_exp6.py": {
+  "source": "round-2/experiment-6/src/lib/traj.py",
+  "sha256_source": "238ef467edda8e458336dc4db5a69e193653a682780afa5da94d13a64c3f8244",
+  "sha256_workspace": "238ef467edda8e458336dc4db5a69e193653a682780afa5da94d13a64c3f8244",
+  "identical": true
+ },
+ "lib_outcomes.py": {
+  "source": "round-2/experiment-6/src/lib/lib_outcomes.py",
+  "sha256_source": "10c493487686ad880eee87a7d513562c971a68b3b563fa5a76deb60e53b4708d",
+  "sha256_workspace": "10c493487686ad880eee87a7d513562c971a68b3b563fa5a76deb60e53b4708d",
+  "identical": true
+ }
+}

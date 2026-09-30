@@ -1,0 +1,35 @@
+Search: Palla Barabasi Vicsek 2007 quantifying social group evolution large groups persist longer dynamic membership  [general via ddgs]
+Found: 8 results
+
+1. [0704.0744] Quantifying social group evolution
+   https://arxiv.org/abs/0704.0744
+   April 5, 2007 - [Submitted on 5 Apr 2007] Authors:Gergely Palla, Albert-Laszlo Barabasi, Tamas Vicsek · View a PDF of the paper titled Quantifying social group evolution, by Gergely Palla and 1 other ...
+
+2. Quantifying social group evolution - PubMed
+   https://pubmed.ncbi.nlm.nih.gov/17410175/
+   April 5, 2007 - Add to Search . 2007 Apr 5;446(7136):664-7. doi: 10.1038/nature05670. Gergely Palla 1 , Albert-László Barabási, Tamás Vicsek...
+
+3. [PDF] Quantifying social group evolution | Semantic Scholar
+   https://www.semanticscholar.org/paper/Quantifying-social-group-evolution-Palla-Barabási/a0df4c9b5614417326d21f5d595f5a727e8b3a36
+   The focus is on networks capturing the collaboration between scientists and the calls between mobile phone users, and it is found that large groups persist for longer if they are capable of dynamicall...
+
+4. Quantifying social group evolution | Nature
+   https://www.nature.com/articles/nature05670
+   Palla, G., Barabási, AL. & Vicsek, T. Quantifying social group evolution. Nature 446, 664–667 (2007)....
+
+5. Quantifying social group evolution — Network Medicine Institute and Alliance
+   https://www.network-medicine.org/network-science/quantifying-social-group-evolution
+   November 6, 2024 - We find that large groups persist for longer if they are capable of dynamically altering their membership, suggesting that an ability to change the group composition results in bett...
+
+6. (PDF) Quantifying social group evolution
+   https://www.researchgate.net/publication/6412158_Quantifying_social_group_evolution
+   May 1, 2007 - (Palla, Barabasi, and Vicsek 2007): Birth, Death, Merging, Splitting, Expansion, Contraction. 2. Detect the change of community at the node level over the lifetime of the network....
+
+7. Quantifying social group evolution
+   https://ideas.repec.org/a/nat/nature/v446y2007i7136d10.1038_nature05670.html
+   Gergely Palla & Albert-László Barabási & Tamás Vicsek, 2007. "Quantifying social group evolution," Nature, Nature, vol. 446(7136), pages 664-667, April....
+
+8. LETTERS Quantifying social group evolution
+   https://pdodds.w3.uvm.edu/files/papers/others/2007/palla2007a.pdf
+   Quantifying social group evolution · Gergely Palla1, Albert-La´szlo´ Baraba´si2 & Tama´s Vicsek1,3...
+
