@@ -1,0 +1,473 @@
+ts,tag,path,cost,remaining,cumulative
+2026-09-28T12:19:10,ground:global,/works,1.000,0,1.000
+2026-09-28T12:19:15,ground:global,/works,1.000,2175,2.000
+2026-09-28T12:19:15,smoke:cs1,/works,1.000,0,3.000
+2026-09-28T12:19:21,smoke:cs1,/works,1.000,2162,4.000
+2026-09-28T12:19:21,smoke:cs2,/works,1.000,2151,5.000
+2026-09-28T12:19:22,ground:compressed sensing,/works,1.000,0,6.000
+2026-09-28T12:19:27,ground:compressed sensing,/works,1.000,2150,7.000
+2026-09-28T12:19:27,backbone:A:17,/works,1.000,0,8.000
+2026-09-28T12:19:33,backbone:A:17,/works,1.000,2139,9.000
+2026-09-28T12:20:17,ground:zinc finger nuclease,/works,1.000,2087,10.000
+2026-09-28T12:20:18,ground:sentiment analysis,/works,1.000,2085,11.000
+2026-09-28T12:20:18,ground:Web 2.0,/works,1.000,2086,12.000
+2026-09-28T12:20:18,ground:biosimilar,/works,0.000,0,12.000
+2026-09-28T12:20:18,ground:smart grid,/works,1.000,2084,13.000
+2026-09-28T12:20:20,ground:biosimilar,/works,1.000,2083,14.000
+2026-09-28T12:20:36,ground:cancer stem cell,/works,1.000,2082,15.000
+2026-09-28T12:20:36,ground:cardiac resynchronization therapy,/works,1.000,2081,16.000
+2026-09-28T12:20:37,ground:mashup,/works,1.000,2079,17.000
+2026-09-28T12:20:37,ground:crowdsourcing,/works,1.000,2080,18.000
+2026-09-28T12:20:37,ground:dictionary learning,/works,0.000,0,18.000
+2026-09-28T12:20:37,ground:H5N1,/works,0.000,0,18.000
+2026-09-28T12:20:37,ground:drug-eluting stent,/works,1.000,2078,19.000
+2026-09-28T12:20:38,ground:microbial fuel cell,/works,0.000,0,19.000
+2026-09-28T12:20:39,ground:dictionary learning,/works,0.000,0,19.000
+2026-09-28T12:20:39,ground:H5N1,/works,0.000,0,19.000
+2026-09-28T12:20:40,ground:microbial fuel cell,/works,0.000,0,19.000
+2026-09-28T12:20:42,ground:dictionary learning,/works,1.000,2077,20.000
+2026-09-28T12:20:43,ground:H5N1,/works,1.000,2076,21.000
+2026-09-28T12:20:43,ground:DNA barcoding,/works,0.000,0,21.000
+2026-09-28T12:20:43,ground:demand response,/works,1.000,2075,22.000
+2026-09-28T12:20:44,ground:microbial fuel cell,/works,1.000,2074,23.000
+2026-09-28T12:20:44,ground:pandemic H1N1,/works,1.000,2073,24.000
+2026-09-28T12:20:44,ground:WiMAX,/works,0.000,0,24.000
+2026-09-28T12:20:45,ground:genome-wide association study,/works,1.000,2072,25.000
+2026-09-28T12:20:45,ground:latent Dirichlet allocation,/works,1.000,2071,26.000
+2026-09-28T12:20:45,ground:DNA barcoding,/works,1.000,2070,27.000
+2026-09-28T12:20:46,ground:microblog,/works,1.000,2069,28.000
+2026-09-28T12:20:46,ground:social tagging,/works,0.000,0,28.000
+2026-09-28T12:20:46,ground:synthetic biology,/works,1.000,2068,29.000
+2026-09-28T12:20:46,ground:long noncoding RNA,/works,0.000,0,29.000
+2026-09-28T12:20:47,ground:WiMAX,/works,1.000,2067,30.000
+2026-09-28T12:20:47,ground:comparative effectiveness research,/works,1.000,2066,31.000
+2026-09-28T12:20:48,ground:virtual power plant,/works,1.000,2065,32.000
+2026-09-28T12:20:48,ground:social tagging,/works,1.000,2064,33.000
+2026-09-28T12:20:49,ground:exome sequencing,/works,1.000,2063,34.000
+2026-09-28T12:20:49,ground:sirtuin,/works,1.000,2062,35.000
+2026-09-28T12:20:49,ground:long noncoding RNA,/works,1.000,2061,36.000
+2026-09-28T12:20:49,ground:next-generation sequencing,/works,0.000,0,36.000
+2026-09-28T12:20:50,ground:vehicle-to-grid,/works,1.000,2060,37.000
+2026-09-28T12:20:50,ground:takotsubo cardiomyopathy,/works,1.000,2059,38.000
+2026-09-28T12:20:50,ground:energy harvesting,/works,0.000,0,38.000
+2026-09-28T12:20:50,ground:ZigBee,/works,1.000,2058,39.000
+2026-09-28T12:20:51,ground:extreme learning machine,/works,1.000,2057,40.000
+2026-09-28T12:20:51,ground:chronic traumatic encephalopathy,/works,0.000,0,40.000
+2026-09-28T12:20:52,ground:next-generation sequencing,/works,1.000,2056,41.000
+2026-09-28T12:20:52,ground:wireless body area network,/works,1.000,2055,42.000
+2026-09-28T12:20:52,ground:energy harvesting,/works,1.000,2054,43.000
+2026-09-28T12:20:53,ground:learning to rank,/works,1.000,2053,44.000
+2026-09-28T12:20:53,ground:service-oriented architecture,/works,0.000,0,44.000
+2026-09-28T12:20:53,ground:piRNA,/works,1.000,2052,45.000
+2026-09-28T12:20:54,ground:lipidomics,/works,0.000,0,45.000
+2026-09-28T12:20:54,ground:chronic traumatic encephalopathy,/works,1.000,2051,46.000
+2026-09-28T12:20:54,ground:network coding,/works,1.000,2050,47.000
+2026-09-28T12:20:55,ground:severe acute respiratory syndrome,/works,0.000,0,47.000
+2026-09-28T12:20:55,ground:service-oriented architecture,/works,1.000,2049,48.000
+2026-09-28T12:20:56,ground:cognitive radio,/works,1.000,2048,49.000
+2026-09-28T12:20:56,ground:structural health monitoring,/works,1.000,2047,50.000
+2026-09-28T12:20:56,ground:lipidomics,/works,1.000,2046,51.000
+2026-09-28T12:20:56,ground:MapReduce,/works,0.000,0,51.000
+2026-09-28T12:20:57,ground:differential privacy,/works,1.000,2045,52.000
+2026-09-28T12:20:57,ground:severe acute respiratory syndrome,/works,0.000,0,52.000
+2026-09-28T12:20:58,ground:cyber-physical system,/works,1.000,2044,53.000
+2026-09-28T12:20:58,ground:ultra-wideband,/works,0.000,0,53.000
+2026-09-28T12:20:59,ground:MapReduce,/works,0.000,0,53.000
+2026-09-28T12:21:00,ground:ultra-wideband,/works,0.000,0,53.000
+2026-09-28T12:21:00,ground:severe acute respiratory syndrome,/works,0.000,0,53.000
+2026-09-28T12:21:02,ground:MapReduce,/works,1.000,2040,54.000
+2026-09-28T12:21:03,ground:induced pluripotent stem cell,/works,1.000,2038,55.000
+2026-09-28T12:21:03,ground:carbon capture and storage,/works,1.000,2035,56.000
+2026-09-28T12:21:04,ground:ultra-wideband,/works,1.000,2033,57.000
+2026-09-28T12:21:04,ground:vehicular ad hoc network,/works,1.000,2032,58.000
+2026-09-28T12:21:04,ground:capsule endoscopy,/works,0.000,0,58.000
+2026-09-28T12:21:04,ground:internet of things,/works,0.000,0,58.000
+2026-09-28T12:21:05,ground:severe acute respiratory syndrome,/works,0.000,0,58.000
+2026-09-28T12:21:06,ground:capsule endoscopy,/works,1.000,2026,59.000
+2026-09-28T12:21:07,ground:internet of things,/works,1.000,2024,60.000
+2026-09-28T12:21:07,ground:ribotype 027,/works,0.000,0,60.000
+2026-09-28T12:21:07,ground:HPV vaccine,/works,0.000,0,60.000
+2026-09-28T12:21:09,ground:ribotype 027,/works,1.000,2017,61.000
+2026-09-28T12:21:09,ground:HPV vaccine,/works,0.000,0,61.000
+2026-09-28T12:21:10,ground:folksonomy,/works,1.000,2015,62.000
+2026-09-28T12:21:10,ground:patient-centered medical home,/works,0.000,0,62.000
+2026-09-28T12:21:11,ground:severe acute respiratory syndrome,/works,1.000,2013,63.000
+2026-09-28T12:21:11,ground:human microbiome,/works,1.000,2010,64.000
+2026-09-28T12:21:12,ground:natural orifice transluminal endoscopic surgery,/works,0.000,0,64.000
+2026-09-28T12:21:13,ground:patient-centered medical home,/works,1.000,2006,65.000
+2026-09-28T12:21:13,ground:HPV vaccine,/works,1.000,2004,66.000
+2026-09-28T12:21:14,ground:RNA-seq,/works,0.000,0,66.000
+2026-09-28T12:21:14,ground:transcatheter aortic valve implantation,/works,1.000,2002,67.000
+2026-09-28T12:21:14,ground:natural orifice transluminal endoscopic surgery,/works,1.000,2000,68.000
+2026-09-28T12:21:14,ground:memristor,/works,1.000,1998,69.000
+2026-09-28T12:21:15,ground:optogenetics,/works,1.000,1996,70.000
+2026-09-28T12:21:15,ground:metagenomics,/works,0.000,0,70.000
+2026-09-28T12:21:15,ground:LTE-Advanced,/works,1.000,1994,71.000
+2026-09-28T12:21:16,ground:cloud computing,/works,0.000,0,71.000
+2026-09-28T12:21:16,ground:RNA-seq,/works,0.000,0,71.000
+2026-09-28T12:21:17,ground:metagenomics,/works,1.000,1991,72.000
+2026-09-28T12:21:18,ground:nanopore sequencing,/works,0.000,0,72.000
+2026-09-28T12:21:18,ground:cloud computing,/works,1.000,1989,73.000
+2026-09-28T12:21:18,ground:mHealth,/works,1.000,1987,74.000
+2026-09-28T12:21:19,ground:single-incision laparoscopic surgery,/works,0.000,0,74.000
+2026-09-28T12:21:20,ground:RNA-seq,/works,1.000,1984,75.000
+2026-09-28T12:21:20,ground:ChIP-seq,/works,0.000,0,75.000
+2026-09-28T12:21:20,ground:nanopore sequencing,/works,1.000,1982,76.000
+2026-09-28T12:21:21,ground:microgrid,/works,1.000,1981,77.000
+2026-09-28T12:21:21,ground:single-incision laparoscopic surgery,/works,0.000,0,77.000
+2026-09-28T12:21:21,ground:copy number variation,/works,0.000,0,77.000
+2026-09-28T12:21:22,ground:ChIP-seq,/works,1.000,1979,78.000
+2026-09-28T12:21:23,ground:interactome,/works,1.000,1977,79.000
+2026-09-28T12:21:23,ground:NoSQL,/works,0.000,0,79.000
+2026-09-28T12:21:24,ground:copy number variation,/works,1.000,1972,80.000
+2026-09-28T12:21:24,ground:plug-in hybrid electric vehicle,/works,0.000,0,80.000
+2026-09-28T12:21:24,ground:single-incision laparoscopic surgery,/works,0.000,0,80.000
+2026-09-28T12:21:25,ground:NoSQL,/works,1.000,1969,81.000
+2026-09-28T12:21:26,ground:deep belief network,/works,1.000,1967,82.000
+2026-09-28T12:21:26,ground:piezoelectric nanogenerator,/works,0.000,0,82.000
+2026-09-28T12:21:26,ground:plug-in hybrid electric vehicle,/works,0.000,0,82.000
+2026-09-28T12:21:28,ground:piezoelectric nanogenerator,/works,0.000,0,82.000
+2026-09-28T12:21:29,ground:single-incision laparoscopic surgery,/works,1.000,1959,83.000
+2026-09-28T12:21:29,ground:pay for performance,/works,1.000,1957,84.000
+2026-09-28T12:21:30,ground:plug-in hybrid electric vehicle,/works,1.000,1955,85.000
+2026-09-28T12:21:32,ground:piezoelectric nanogenerator,/works,1.000,1948,86.000
+2026-09-28T12:21:32,ground:anchor_nofilter,/works,0.000,0,86.000
+2026-09-28T12:21:34,ground:anchor_nofilter,/works,1.000,1942,87.000
+2026-09-28T12:22:36,home_labels:zinc finger nuclease:A,/works,0.000,0,87.000
+2026-09-28T12:22:37,home_labels:Web 2.0:A,/works,0.000,0,87.000
+2026-09-28T12:22:37,home_labels:sentiment analysis:A,/works,1.000,1788,88.000
+2026-09-28T12:22:38,home_labels:biosimilar:A,/works,1.000,1786,89.000
+2026-09-28T12:22:38,home_labels:smart grid:A,/works,0.000,0,89.000
+2026-09-28T12:22:39,home_labels:zinc finger nuclease:A,/works,0.000,0,89.000
+2026-09-28T12:22:39,home_labels:Web 2.0:A,/works,0.000,0,89.000
+2026-09-28T12:22:40,home_labels:smart grid:A,/works,0.000,0,89.000
+2026-09-28T12:22:42,home_labels:Web 2.0:A,/works,0.000,0,89.000
+2026-09-28T12:22:42,home_labels:zinc finger nuclease:A,/works,1.000,1776,90.000
+2026-09-28T12:22:43,home_labels:cancer stem cell:A,/works,1.000,1772,91.000
+2026-09-28T12:22:44,home_labels:crowdsourcing:A,/works,1.000,1771,92.000
+2026-09-28T12:22:44,home_labels:smart grid:A,/works,1.000,1770,93.000
+2026-09-28T12:22:44,home_labels:mashup:A,/works,1.000,1769,94.000
+2026-09-28T12:22:45,home_labels:microbial fuel cell:A,/works,1.000,1768,95.000
+2026-09-28T12:22:45,home_labels:DNA barcoding:A,/works,0.000,0,95.000
+2026-09-28T12:22:45,home_labels:pandemic H1N1:A,/works,1.000,1766,96.000
+2026-09-28T12:22:46,home_labels:WiMAX:A,/works,0.000,0,96.000
+2026-09-28T12:22:47,home_labels:DNA barcoding:A,/works,0.000,0,96.000
+2026-09-28T12:22:47,home_labels:Web 2.0:A,/works,1.000,1757,97.000
+2026-09-28T12:22:48,home_labels:latent Dirichlet allocation:A,/works,1.000,1753,98.000
+2026-09-28T12:22:48,home_labels:WiMAX:A,/works,1.000,1749,99.000
+2026-09-28T12:22:48,home_labels:microblog:A,/works,1.000,1748,100.000
+2026-09-28T12:22:49,home_labels:social tagging:A,/works,1.000,1746,101.000
+2026-09-28T12:22:49,home_labels:synthetic biology:A,/works,1.000,1744,102.000
+2026-09-28T12:22:49,home_labels:long noncoding RNA:A,/works,1.000,1742,103.000
+2026-09-28T12:22:50,home_labels:comparative effectiveness research:A,/works,1.000,1740,104.000
+2026-09-28T12:22:50,home_labels:sirtuin:A,/works,1.000,1738,105.000
+2026-09-28T12:22:50,home_labels:next-generation sequencing:A,/works,0.000,0,105.000
+2026-09-28T12:22:50,home_labels:takotsubo cardiomyopathy:A,/works,0.000,0,105.000
+2026-09-28T12:22:50,home_labels:DNA barcoding:A,/works,0.000,0,105.000
+2026-09-28T12:22:52,home_labels:next-generation sequencing:A,/works,0.000,0,105.000
+2026-09-28T12:22:53,home_labels:takotsubo cardiomyopathy:A,/works,1.000,1731,106.000
+2026-09-28T12:22:53,home_labels:energy harvesting:A,/works,1.000,1729,107.000
+2026-09-28T12:22:54,home_labels:ZigBee:A,/works,1.000,1727,108.000
+2026-09-28T12:22:54,home_labels:extreme learning machine:A,/works,0.000,0,108.000
+2026-09-28T12:22:55,home_labels:DNA barcoding:A,/works,0.000,0,108.000
+2026-09-28T12:22:55,home_labels:next-generation sequencing:A,/works,0.000,0,108.000
+2026-09-28T12:22:57,home_labels:extreme learning machine:A,/works,1.000,1719,109.000
+2026-09-28T12:22:57,home_labels:wireless body area network:A,/works,1.000,1717,110.000
+2026-09-28T12:22:58,home_labels:learning to rank:A,/works,1.000,1715,111.000
+2026-09-28T12:22:58,home_labels:service-oriented architecture:A,/works,0.000,0,111.000
+2026-09-28T12:23:00,home_labels:DNA barcoding:A,/works,0.000,0,111.000
+2026-09-28T12:23:00,home_labels:next-generation sequencing:A,/works,1.000,1709,112.000
+2026-09-28T12:23:00,home_labels:service-oriented architecture:A,/works,1.000,1707,113.000
+2026-09-28T12:23:00,home_labels:piRNA:A,/works,0.000,0,113.000
+2026-09-28T12:23:01,home_labels:lipidomics:A,/works,0.000,0,113.000
+2026-09-28T12:23:03,home_labels:piRNA:A,/works,0.000,0,113.000
+2026-09-28T12:23:03,home_labels:lipidomics:A,/works,0.000,0,113.000
+2026-09-28T12:23:06,home_labels:DNA barcoding:A,/works,0.000,0,113.000
+2026-09-28T12:23:06,home_labels:piRNA:A,/works,1.000,1697,114.000
+2026-09-28T12:23:06,home_labels:lipidomics:A,/works,0.000,0,114.000
+2026-09-28T12:23:07,home_labels:network coding:A,/works,1.000,1696,115.000
+2026-09-28T12:23:07,home_labels:severe acute respiratory syndrome:A,/works,0.000,0,115.000
+2026-09-28T12:23:10,home_labels:severe acute respiratory syndrome:A,/works,1.000,1692,116.000
+2026-09-28T12:23:11,home_labels:lipidomics:A,/works,0.000,0,116.000
+2026-09-28T12:23:11,home_labels:cognitive radio:A,/works,1.000,1691,117.000
+2026-09-28T12:23:11,home_labels:MapReduce:A,/works,1.000,1690,118.000
+2026-09-28T12:23:12,home_labels:cyber-physical system:A,/works,1.000,1689,119.000
+2026-09-28T12:23:12,home_labels:induced pluripotent stem cell:A,/works,1.000,1688,120.000
+2026-09-28T12:23:13,home_labels:carbon capture and storage:A,/works,0.000,0,120.000
+2026-09-28T12:23:14,home_labels:DNA barcoding:A,/works,1.000,1687,121.000
+2026-09-28T12:23:14,home_labels:vehicular ad hoc network:A,/works,1.000,1686,122.000
+2026-09-28T12:23:15,home_labels:compressed sensing:A,/works,1.000,1685,123.000
+2026-09-28T12:23:15,home_labels:carbon capture and storage:A,/works,0.000,0,123.000
+2026-09-28T12:23:15,home_labels:internet of things:A,/works,1.000,1684,124.000
+2026-09-28T12:23:16,home_labels:ribotype 027:A,/works,1.000,1683,125.000
+2026-09-28T12:23:16,home_labels:lipidomics:A,/works,0.000,0,125.000
+2026-09-28T12:23:16,home_labels:folksonomy:A,/works,0.000,0,125.000
+2026-09-28T12:23:18,home_labels:carbon capture and storage:A,/works,1.000,1681,126.000
+2026-09-28T12:23:19,home_labels:folksonomy:A,/works,1.000,1680,127.000
+2026-09-28T12:23:19,home_labels:patient-centered medical home:A,/works,1.000,1678,128.000
+2026-09-28T12:23:19,home_labels:human microbiome:A,/works,0.000,0,128.000
+2026-09-28T12:23:20,home_labels:natural orifice transluminal endoscopic surgery:A,/works,1.000,1677,129.000
+2026-09-28T12:23:20,home_labels:transcatheter aortic valve implantation:A,/works,1.000,1676,130.000
+2026-09-28T12:23:21,home_labels:RNA-seq:A,/works,0.000,0,130.000
+2026-09-28T12:23:21,home_labels:human microbiome:A,/works,0.000,0,130.000
+2026-09-28T12:23:22,home_labels:lipidomics:A,/works,0.000,0,130.000
+2026-09-28T12:23:23,home_labels:RNA-seq:A,/works,1.000,1675,131.000
+2026-09-28T12:23:24,home_labels:memristor:A,/works,1.000,1674,132.000
+2026-09-28T12:23:24,home_labels:optogenetics:A,/works,1.000,1673,133.000
+2026-09-28T12:23:24,home_labels:metagenomics:A,/works,0.000,0,133.000
+2026-09-28T12:23:25,home_labels:human microbiome:A,/works,1.000,1672,134.000
+2026-09-28T12:23:25,home_labels:LTE-Advanced:A,/works,0.000,0,134.000
+2026-09-28T12:23:27,home_labels:metagenomics:A,/works,0.000,0,134.000
+2026-09-28T12:23:27,home_labels:LTE-Advanced:A,/works,0.000,0,134.000
+2026-09-28T12:23:30,home_labels:lipidomics:A,/works,1.000,1671,135.000
+2026-09-28T12:23:30,home_labels:metagenomics:A,/works,1.000,1670,136.000
+2026-09-28T12:23:30,home_labels:cloud computing:A,/works,0.000,0,136.000
+2026-09-28T12:23:31,home_labels:single-incision laparoscopic surgery:A,/works,1.000,1669,137.000
+2026-09-28T12:23:31,home_labels:LTE-Advanced:A,/works,0.000,0,137.000
+2026-09-28T12:23:31,home_labels:ChIP-seq:A,/works,1.000,1668,138.000
+2026-09-28T12:23:32,home_labels:copy number variation:A,/works,1.000,1667,139.000
+2026-09-28T12:23:32,home_labels:cloud computing:A,/works,0.000,0,139.000
+2026-09-28T12:23:32,home_labels:interactome:A,/works,1.000,1666,140.000
+2026-09-28T12:23:33,home_labels:plug-in hybrid electric vehicle:A,/works,1.000,1665,141.000
+2026-09-28T12:23:35,home_labels:LTE-Advanced:A,/works,1.000,1664,142.000
+2026-09-28T12:23:36,home_labels:cloud computing:A,/works,1.000,1663,143.000
+2026-09-28T12:23:36,source_lookup,/sources,0.000,0,143.000
+2026-09-28T12:23:36,source_lookup,/sources,0.000,0,143.000
+2026-09-28T12:23:36,source_lookup,/sources,0.000,0,143.000
+2026-09-28T12:23:37,source_lookup,/sources,0.000,0,143.000
+2026-09-28T12:23:39,source_lookup,/sources,0.000,0,143.000
+2026-09-28T12:23:39,source_lookup,/sources,1.000,1662,144.000
+2026-09-28T12:23:40,source_lookup,/sources,1.000,1661,145.000
+2026-09-28T12:23:40,source_lookup,/sources,0.000,0,145.000
+2026-09-28T12:23:40,source_lookup,/sources,1.000,1660,146.000
+2026-09-28T12:23:40,source_lookup,/sources,0.000,0,146.000
+2026-09-28T12:23:41,source_lookup,/sources,1.000,1659,147.000
+2026-09-28T12:23:41,source_lookup,/sources,0.000,0,147.000
+2026-09-28T12:23:43,source_lookup,/sources,1.000,1658,148.000
+2026-09-28T12:23:43,source_lookup,/sources,1.000,1657,149.000
+2026-09-28T12:23:44,source_lookup,/sources,1.000,1656,150.000
+2026-09-28T12:23:44,source_lookup,/sources,1.000,1655,151.000
+2026-09-28T12:23:44,source_lookup,/sources,1.000,1654,152.000
+2026-09-28T12:23:44,source_lookup,/sources,1.000,1653,153.000
+2026-09-28T12:23:45,source_lookup,/sources,1.000,1652,154.000
+2026-09-28T12:23:45,source_lookup,/sources,1.000,1651,155.000
+2026-09-28T12:23:46,source_lookup,/sources,1.000,1650,156.000
+2026-09-28T12:23:46,source_lookup,/sources,1.000,1648,157.000
+2026-09-28T12:23:46,source_lookup,/sources,1.000,1649,158.000
+2026-09-28T12:23:47,source_lookup,/sources,1.000,1647,159.000
+2026-09-28T12:23:47,source_lookup,/sources,1.000,1646,160.000
+2026-09-28T12:23:47,source_lookup,/sources,1.000,1645,161.000
+2026-09-28T12:23:47,source_lookup,/sources,1.000,1644,162.000
+2026-09-28T12:23:47,source_lookup,/sources,0.000,0,162.000
+2026-09-28T12:23:48,source_lookup,/sources,0.000,0,162.000
+2026-09-28T12:23:48,source_lookup,/sources,1.000,1643,163.000
+2026-09-28T12:23:48,source_lookup,/sources,1.000,1642,164.000
+2026-09-28T12:23:50,source_lookup,/sources,0.000,0,164.000
+2026-09-28T12:23:51,source_lookup,/sources,1.000,1641,165.000
+2026-09-28T12:23:54,source_lookup,/sources,1.000,1640,166.000
+2026-09-28T12:23:58,backbone:A:11,/works,1.000,1639,167.000
+2026-09-28T12:23:59,backbone:A:12,/works,1.000,1638,168.000
+2026-09-28T12:23:59,backbone:A:13,/works,1.000,1637,169.000
+2026-09-28T12:23:59,backbone:A:14,/works,1.000,1636,170.000
+2026-09-28T12:24:00,backbone:A:15,/works,1.000,1635,171.000
+2026-09-28T12:24:00,backbone:A:16,/works,1.000,1634,172.000
+2026-09-28T12:24:01,backbone:A:18,/works,1.000,1633,173.000
+2026-09-28T12:24:01,backbone:A:19,/works,0.000,0,173.000
+2026-09-28T12:24:03,backbone:A:19,/works,0.000,0,173.000
+2026-09-28T12:24:07,backbone:A:19,/works,1.000,1615,174.000
+2026-09-28T12:24:07,backbone:A:20,/works,1.000,1611,175.000
+2026-09-28T12:24:08,backbone:A:21,/works,1.000,1608,176.000
+2026-09-28T12:24:08,backbone:A:22,/works,1.000,1604,177.000
+2026-09-28T12:24:09,backbone:A:23,/works,1.000,1600,178.000
+2026-09-28T12:24:09,backbone:A:24,/works,1.000,1596,179.000
+2026-09-28T12:24:09,backbone:A:25,/works,1.000,1592,180.000
+2026-09-28T12:24:10,backbone:A:26,/works,1.000,1588,181.000
+2026-09-28T12:24:11,backbone:A:27,/works,1.000,1587,182.000
+2026-09-28T12:24:11,backbone:A:28,/works,1.000,1582,183.000
+2026-09-28T12:24:11,backbone:A:29,/works,0.000,0,183.000
+2026-09-28T12:24:14,backbone:A:29,/works,1.000,1572,184.000
+2026-09-28T12:24:14,backbone:A:30,/works,1.000,1570,185.000
+2026-09-28T12:24:15,backbone:A:31,/works,1.000,1567,186.000
+2026-09-28T12:24:15,backbone:A:32,/works,0.000,0,186.000
+2026-09-28T12:24:17,backbone:A:32,/works,0.000,0,186.000
+2026-09-28T12:24:21,backbone:A:32,/works,1.000,1554,187.000
+2026-09-28T12:24:21,backbone:A:33,/works,1.000,1553,188.000
+2026-09-28T12:24:21,backbone:A:34,/works,0.000,0,188.000
+2026-09-28T12:24:24,backbone:A:34,/works,0.000,0,188.000
+2026-09-28T12:24:27,backbone:A:34,/works,1.000,1546,189.000
+2026-09-28T12:24:27,backbone:A:35,/works,0.000,0,189.000
+2026-09-28T12:24:30,backbone:A:35,/works,1.000,1545,190.000
+2026-09-28T12:24:30,backbone:A:36,/works,0.000,0,190.000
+2026-09-28T12:24:32,backbone:A:36,/works,0.000,0,190.000
+2026-09-28T12:24:35,backbone:A:36,/works,0.000,0,190.000
+2026-09-28T12:24:40,backbone:A:36,/works,1.000,1503,191.000
+2026-09-28T12:24:40,backbone:A:N,/works,1.000,1502,192.000
+2026-09-28T12:25:03,feat_years:zinc finger nuclease:B,/works,1.000,1384,193.000
+2026-09-28T12:25:03,feat_years:sentiment analysis:B,/works,1.000,1383,194.000
+2026-09-28T12:25:03,feat_years:biosimilar:B,/works,1.000,1382,195.000
+2026-09-28T12:25:03,feat_years:smart grid:B,/works,0.000,0,195.000
+2026-09-28T12:25:04,feat_years:cancer stem cell:B,/works,1.000,1381,196.000
+2026-09-28T12:25:04,feat_years:mashup:B,/works,1.000,1380,197.000
+2026-09-28T12:25:04,feat_years:microbial fuel cell:B,/works,1.000,1379,198.000
+2026-09-28T12:25:05,feat_years:DNA barcoding:B,/works,1.000,1378,199.000
+2026-09-28T12:25:05,feat_years:pandemic H1N1:B,/works,1.000,1377,200.000
+2026-09-28T12:25:05,feat_years:latent Dirichlet allocation:B,/works,1.000,1376,201.000
+2026-09-28T12:25:06,feat_years:social tagging:B,/works,1.000,1375,202.000
+2026-09-28T12:25:06,feat_years:synthetic biology:B,/works,1.000,1374,203.000
+2026-09-28T12:25:06,feat_years:long noncoding RNA:B,/works,0.000,0,203.000
+2026-09-28T12:25:07,feat_years:smart grid:B,/works,1.000,1373,204.000
+2026-09-28T12:25:07,feat_years:sirtuin:B,/works,0.000,0,204.000
+2026-09-28T12:25:07,feat_years:comparative effectiveness research:B,/works,1.000,1372,205.000
+2026-09-28T12:25:08,feat_years:next-generation sequencing:B,/works,1.000,1371,206.000
+2026-09-28T12:25:08,feat_years:takotsubo cardiomyopathy:B,/works,0.000,0,206.000
+2026-09-28T12:25:09,feat_years:long noncoding RNA:B,/works,1.000,1370,207.000
+2026-09-28T12:25:09,feat_years:sirtuin:B,/works,1.000,1369,208.000
+2026-09-28T12:25:09,feat_years:energy harvesting:B,/works,0.000,0,208.000
+2026-09-28T12:25:10,feat_years:extreme learning machine:B,/works,1.000,1368,209.000
+2026-09-28T12:25:10,feat_years:takotsubo cardiomyopathy:B,/works,0.000,0,209.000
+2026-09-28T12:25:10,feat_years:wireless body area network:B,/works,0.000,0,209.000
+2026-09-28T12:25:12,feat_years:energy harvesting:B,/works,1.000,1366,210.000
+2026-09-28T12:25:12,feat_years:learning to rank:B,/works,0.000,0,210.000
+2026-09-28T12:25:13,feat_years:wireless body area network:B,/works,1.000,1365,211.000
+2026-09-28T12:25:13,feat_years:service-oriented architecture:B,/works,0.000,0,211.000
+2026-09-28T12:25:13,feat_years:takotsubo cardiomyopathy:B,/works,0.000,0,211.000
+2026-09-28T12:25:14,feat_years:learning to rank:B,/works,0.000,0,211.000
+2026-09-28T12:25:16,feat_years:service-oriented architecture:B,/works,1.000,1364,212.000
+2026-09-28T12:25:16,feat_years:piRNA:B,/works,0.000,0,212.000
+2026-09-28T12:25:18,feat_years:learning to rank:B,/works,0.000,0,212.000
+2026-09-28T12:25:18,feat_years:takotsubo cardiomyopathy:B,/works,0.000,0,212.000
+2026-09-28T12:25:18,feat_years:piRNA:B,/works,0.000,0,212.000
+2026-09-28T12:25:22,feat_years:piRNA:B,/works,1.000,1353,213.000
+2026-09-28T12:25:22,feat_years:learning to rank:B,/works,1.000,1342,214.000
+2026-09-28T12:25:22,feat_years:lipidomics:B,/works,0.000,0,214.000
+2026-09-28T12:25:22,feat_years:network coding:B,/works,0.000,0,214.000
+2026-09-28T12:25:23,feat_years:takotsubo cardiomyopathy:B,/works,0.000,0,214.000
+2026-09-28T12:25:24,feat_years:lipidomics:B,/works,0.000,0,214.000
+2026-09-28T12:25:25,feat_years:network coding:B,/works,1.000,1331,215.000
+2026-09-28T12:25:25,feat_years:severe acute respiratory syndrome:B,/works,0.000,0,215.000
+2026-09-28T12:25:28,feat_years:lipidomics:B,/works,0.000,0,215.000
+2026-09-28T12:25:28,feat_years:severe acute respiratory syndrome:B,/works,1.000,1309,216.000
+2026-09-28T12:25:28,feat_years:cognitive radio:B,/works,1.000,1307,217.000
+2026-09-28T12:25:29,feat_years:MapReduce:B,/works,1.000,1306,218.000
+2026-09-28T12:25:29,feat_years:cyber-physical system:B,/works,1.000,1294,219.000
+2026-09-28T12:25:30,feat_years:takotsubo cardiomyopathy:B,/works,1.000,1293,220.000
+2026-09-28T12:25:30,feat_years:induced pluripotent stem cell:B,/works,1.000,1292,221.000
+2026-09-28T12:25:31,feat_years:carbon capture and storage:B,/works,1.000,1291,222.000
+2026-09-28T12:25:31,feat_years:vehicular ad hoc network:B,/works,1.000,1290,223.000
+2026-09-28T12:25:31,feat_years:internet of things:B,/works,0.000,0,223.000
+2026-09-28T12:25:31,feat_years:compressed sensing:B,/works,1.000,1279,224.000
+2026-09-28T12:25:32,feat_years:ribotype 027:B,/works,0.000,0,224.000
+2026-09-28T12:25:32,feat_years:lipidomics:B,/works,0.000,0,224.000
+2026-09-28T12:25:33,feat_years:internet of things:B,/works,0.000,0,224.000
+2026-09-28T12:25:34,feat_years:ribotype 027:B,/works,1.000,1268,225.000
+2026-09-28T12:25:34,feat_years:folksonomy:B,/works,0.000,0,225.000
+2026-09-28T12:25:37,feat_years:folksonomy:B,/works,1.000,1257,226.000
+2026-09-28T12:25:37,feat_years:internet of things:B,/works,1.000,1256,227.000
+2026-09-28T12:25:37,feat_years:lipidomics:B,/works,0.000,0,227.000
+2026-09-28T12:25:38,feat_years:natural orifice transluminal endoscopic surgery:B,/works,0.000,0,227.000
+2026-09-28T12:25:38,feat_years:human microbiome:B,/works,1.000,1255,228.000
+2026-09-28T12:25:38,feat_years:RNA-seq:B,/works,1.000,1254,229.000
+2026-09-28T12:25:39,feat_years:memristor:B,/works,0.000,0,229.000
+2026-09-28T12:25:40,feat_years:natural orifice transluminal endoscopic surgery:B,/works,0.000,0,229.000
+2026-09-28T12:25:41,feat_years:memristor:B,/works,1.000,1253,230.000
+2026-09-28T12:25:41,feat_years:metagenomics:B,/works,0.000,0,230.000
+2026-09-28T12:25:43,feat_years:natural orifice transluminal endoscopic surgery:B,/works,1.000,1252,231.000
+2026-09-28T12:25:44,feat_years:lipidomics:B,/works,1.000,1251,232.000
+2026-09-28T12:25:44,feat_years:metagenomics:B,/works,1.000,1250,233.000
+2026-09-28T12:25:44,feat_years:ChIP-seq:B,/works,0.000,0,233.000
+2026-09-28T12:25:44,feat_years:single-incision laparoscopic surgery:B,/works,1.000,1249,234.000
+2026-09-28T12:25:45,feat_years:copy number variation:B,/works,1.000,1248,235.000
+2026-09-28T12:25:45,feat_years:interactome:B,/works,0.000,0,235.000
+2026-09-28T12:25:45,feat_years:plug-in hybrid electric vehicle:B,/works,0.000,0,235.000
+2026-09-28T12:25:46,feat_years:ChIP-seq:B,/works,0.000,0,235.000
+2026-09-28T12:25:47,feat_years:interactome:B,/works,1.000,1246,236.000
+2026-09-28T12:25:47,feat_years:plug-in hybrid electric vehicle:B,/works,1.000,1245,237.000
+2026-09-28T12:25:50,feat_years:ChIP-seq:B,/works,1.000,1223,238.000
+2026-09-28T12:25:50,source_lookup,/sources,0.000,0,238.000
+2026-09-28T12:25:52,source_lookup,/sources,1.000,1221,239.000
+2026-09-28T12:25:52,source_lookup,/sources,1.000,1222,240.000
+2026-09-28T12:25:52,source_lookup,/sources,1.000,1220,241.000
+2026-09-28T12:25:52,source_lookup,/sources,0.000,0,241.000
+2026-09-28T12:25:53,source_lookup,/sources,0.000,0,241.000
+2026-09-28T12:25:53,source_lookup,/sources,1.000,1208,242.000
+2026-09-28T12:25:53,source_lookup,/sources,1.000,1205,243.000
+2026-09-28T12:25:54,source_lookup,/sources,1.000,1203,244.000
+2026-09-28T12:25:54,source_lookup,/sources,1.000,1192,245.000
+2026-09-28T12:25:55,source_lookup,/sources,0.000,0,245.000
+2026-09-28T12:25:55,source_lookup,/sources,0.000,0,245.000
+2026-09-28T12:25:55,source_lookup,/sources,1.000,1191,246.000
+2026-09-28T12:25:56,source_lookup,/sources,0.000,0,246.000
+2026-09-28T12:25:57,source_lookup,/sources,1.000,1189,247.000
+2026-09-28T12:25:58,source_lookup,/sources,0.000,0,247.000
+2026-09-28T12:25:58,source_lookup,/sources,1.000,1178,248.000
+2026-09-28T12:25:58,source_lookup,/sources,0.000,0,248.000
+2026-09-28T12:25:59,source_lookup,/sources,1.000,1177,249.000
+2026-09-28T12:25:59,source_lookup,/sources,1.000,1176,250.000
+2026-09-28T12:26:01,source_lookup,/sources,0.000,0,250.000
+2026-09-28T12:26:03,source_lookup,/sources,1.000,1169,251.000
+2026-09-28T12:26:05,source_lookup,/sources,1.000,1167,252.000
+2026-09-28T12:26:05,outcome_win:sentiment analysis:D,/works,0.000,0,252.000
+2026-09-28T12:26:06,outcome_win:zinc finger nuclease:D,/works,1.000,1166,253.000
+2026-09-28T12:26:06,outcome_win:smart grid:D,/works,0.000,0,253.000
+2026-09-28T12:26:06,outcome_win:biosimilar:D,/works,1.000,1165,254.000
+2026-09-28T12:26:07,outcome_win:cancer stem cell:D,/works,1.000,1164,255.000
+2026-09-28T12:26:07,outcome_win:mashup:D,/works,0.000,0,255.000
+2026-09-28T12:26:07,outcome_win:sentiment analysis:D,/works,0.000,0,255.000
+2026-09-28T12:26:08,outcome_win:smart grid:D,/works,1.000,1162,256.000
+2026-09-28T12:26:09,outcome_win:microbial fuel cell:D,/works,0.000,0,256.000
+2026-09-28T12:26:10,outcome_win:mashup:D,/works,1.000,1160,257.000
+2026-09-28T12:26:10,outcome_win:DNA barcoding:D,/works,0.000,0,257.000
+2026-09-28T12:26:11,outcome_win:sentiment analysis:D,/works,1.000,1159,258.000
+2026-09-28T12:26:12,outcome_win:microbial fuel cell:D,/works,1.000,1158,259.000
+2026-09-28T12:26:12,outcome_win:latent Dirichlet allocation:D,/works,0.000,0,259.000
+2026-09-28T12:26:12,outcome_win:pandemic H1N1:D,/works,1.000,1157,260.000
+2026-09-28T12:26:12,outcome_win:social tagging:D,/works,0.000,0,260.000
+2026-09-28T12:26:13,outcome_win:DNA barcoding:D,/works,1.000,1155,261.000
+2026-09-28T12:26:13,outcome_win:synthetic biology:D,/works,0.000,0,261.000
+2026-09-28T12:26:14,outcome_win:latent Dirichlet allocation:D,/works,1.000,1151,262.000
+2026-09-28T12:26:15,outcome_win:social tagging:D,/works,0.000,0,262.000
+2026-09-28T12:26:15,outcome_win:long noncoding RNA:D,/works,0.000,0,262.000
+2026-09-28T12:26:16,outcome_win:synthetic biology:D,/works,1.000,1150,263.000
+2026-09-28T12:26:17,outcome_win:comparative effectiveness research:D,/works,1.000,1149,264.000
+2026-09-28T12:26:18,outcome_win:long noncoding RNA:D,/works,1.000,1146,265.000
+2026-09-28T12:26:18,outcome_win:sirtuin:D,/works,1.000,1145,266.000
+2026-09-28T12:26:18,outcome_win:social tagging:D,/works,1.000,1143,267.000
+2026-09-28T12:26:18,outcome_win:takotsubo cardiomyopathy:D,/works,0.000,0,267.000
+2026-09-28T12:26:19,outcome_win:next-generation sequencing:D,/works,1.000,1141,268.000
+2026-09-28T12:26:19,outcome_win:extreme learning machine:D,/works,0.000,0,268.000
+2026-09-28T12:26:19,outcome_win:energy harvesting:D,/works,1.000,1139,269.000
+2026-09-28T12:26:19,outcome_win:wireless body area network:D,/works,0.000,0,269.000
+2026-09-28T12:26:21,outcome_win:takotsubo cardiomyopathy:D,/works,0.000,0,269.000
+2026-09-28T12:26:21,outcome_win:extreme learning machine:D,/works,0.000,0,269.000
+2026-09-28T12:26:21,outcome_win:wireless body area network:D,/works,0.000,0,269.000
+2026-09-28T12:26:24,outcome_win:takotsubo cardiomyopathy:D,/works,0.000,0,269.000
+2026-09-28T12:26:25,outcome_win:extreme learning machine:D,/works,1.000,1112,270.000
+2026-09-28T12:26:25,outcome_win:learning to rank:D,/works,1.000,1109,271.000
+2026-09-28T12:26:26,outcome_win:wireless body area network:D,/works,1.000,1110,272.000
+2026-09-28T12:26:26,outcome_win:service-oriented architecture:D,/works,1.000,1108,273.000
+2026-09-28T12:26:26,outcome_win:piRNA:D,/works,1.000,1107,274.000
+2026-09-28T12:26:26,outcome_win:lipidomics:D,/works,0.000,0,274.000
+2026-09-28T12:26:27,outcome_win:network coding:D,/works,1.000,1106,275.000
+2026-09-28T12:26:28,outcome_win:severe acute respiratory syndrome:D,/works,1.000,1095,276.000
+2026-09-28T12:26:29,outcome_win:takotsubo cardiomyopathy:D,/works,1.000,1089,277.000
+2026-09-28T12:26:29,outcome_win:cognitive radio:D,/works,1.000,1087,278.000
+2026-09-28T12:26:29,outcome_win:MapReduce:D,/works,0.000,0,278.000
+2026-09-28T12:26:29,outcome_win:lipidomics:D,/works,1.000,1084,279.000
+2026-09-28T12:26:29,outcome_win:cyber-physical system:D,/works,0.000,0,279.000
+2026-09-28T12:26:29,outcome_win:induced pluripotent stem cell:D,/works,0.000,0,279.000
+2026-09-28T12:26:32,outcome_win:cyber-physical system:D,/works,0.000,0,279.000
+2026-09-28T12:26:32,outcome_win:MapReduce:D,/works,1.000,1058,280.000
+2026-09-28T12:26:32,outcome_win:induced pluripotent stem cell:D,/works,0.000,0,280.000
+2026-09-28T12:26:32,outcome_win:carbon capture and storage:D,/works,1.000,1054,281.000
+2026-09-28T12:26:33,outcome_win:vehicular ad hoc network:D,/works,0.000,0,281.000
+2026-09-28T12:26:35,outcome_win:cyber-physical system:D,/works,0.000,0,281.000
+2026-09-28T12:26:35,outcome_win:vehicular ad hoc network:D,/works,0.000,0,281.000
+2026-09-28T12:26:35,outcome_win:induced pluripotent stem cell:D,/works,0.000,0,281.000
+2026-09-28T12:26:38,outcome_win:vehicular ad hoc network:D,/works,0.000,0,281.000
+2026-09-28T12:26:39,outcome_win:cyber-physical system:D,/works,0.000,0,281.000
+2026-09-28T12:26:40,outcome_win:induced pluripotent stem cell:D,/works,1.000,1023,282.000
+2026-09-28T12:26:41,outcome_win:compressed sensing:D,/works,1.000,1019,283.000
+2026-09-28T12:26:41,outcome_win:internet of things:D,/works,0.000,0,283.000
+2026-09-28T12:26:43,outcome_win:vehicular ad hoc network:D,/works,1.000,992,284.000
+2026-09-28T12:26:44,outcome_win:internet of things:D,/works,1.000,990,285.000
+2026-09-28T12:26:45,outcome_win:cyber-physical system:D,/works,1.000,986,286.000
