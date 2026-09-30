@@ -1,0 +1,8 @@
+ST_OK
+ed 10 packages in 532ms
+Prepared 1 package in 110ms
+Uninstalled 1 package in 34.84s
+Installed 1 package in 6m 46s
+ ~ torch==2.14.0+cpu
+Audited 1 package in 1m 28s
+ST_OK

@@ -1,0 +1,31 @@
+URL: https://arxiv.org/abs/2405.15828
+Type: HTML
+Length: 7641 chars (truncated)
+
+--- Content ---
+
+Skip to main content [](https://arxiv.org/IgnoreMe) [ ](https://arxiv.org/) [ Search ](https://arxiv.org/search) [Submit](https://arxiv.org/user/create) [Donate](https://info.arxiv.org/about/donate.html) [Log in](https://arxiv.org/login)
+
+Search arXiv
+
+Press Enter to search * [Advanced search](https://arxiv.org/search/advanced)
+
+# Computer Science > Digital Libraries
+
+**arXiv:2405.15828** (cs) 
+
+[Submitted on 24 May 2024]
+
+# Title:Oil & Water? Diffusion of AI Within and Across Scientific Fields
+
+Authors:[Eamon Duede](https://arxiv.org/search/cs?searchtype=author&query=Duede,+E), [William Dolan](https://arxiv.org/search/cs?searchtype=author&query=Dolan,+W), [André Bauer](https://arxiv.org/search/cs?searchtype=author&query=Bauer,+A), [Ian Foster](https://arxiv.org/search/cs?searchtype=author&query=Foster,+I), [Karim Lakhani](https://arxiv.org/search/cs?searchtype=author&query=Lakhani,+K)
+
+View a PDF of the paper titled Oil & Water? Diffusion of AI Within and Across Scientific Fields, by Eamon Duede and 4 other authors
+
+[View PDF](/pdf/2405.15828) [HTML (experimental)](https://arxiv.org/html/2405.15828v1)
+
+> Abstract:This study empirically investigates claims of the increasing ubiquity of artificial intelligence (AI) within roughly 80 million research publications across 20 diverse scientific fields, by examining the change in scholarly engagement with AI from 1985 through 2022. We observe exponential growth, with AI-engaged publications increasing approximately thirteenfold (13x) across all fields, suggesting a dramatic shift from niche to mainstream. Moreover, we provide the first empirical examination of the distribution of AI-engaged publications across publication venues within individual fields, with results that reveal a broadening of AI engagement within disciplines. While this broadening engagement suggests a move toward greater disciplinary integration in every field, increased ubiquity is associated with a semantic tension between AI-engaged research and more traditional disciplinary research. Through an analysis of tens of millions of document embeddings, we observe a complex interplay between AI-engaged and non-AI-engaged research within and across fields, suggesting that increasing ubiquity is something of an oil-and-water phenomenon -- AI-engaged work is spreading out over fields, but not mixing well with non-AI-engaged work. 
+
+Subjects: |  Digital Libraries (cs.DL); Artificial Intelligence (cs.AI)  
+---|---  
+Cite as: | [arXiv:2405.15828](http

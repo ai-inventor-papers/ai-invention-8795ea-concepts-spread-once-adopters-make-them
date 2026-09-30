@@ -1,0 +1,31 @@
+entry_id,openalex_id,src,entry,concept,relation,hand,model,kind
+gartner_hype_cycle:2012:x:947,C3019493240,gartner_hype_cycle,3D Scanners,3d scanning,broader,same,broader_entry,lists_v2_random_accepted
+gartner_hype_cycle:2009:x:844,C2988167200,gartner_hype_cycle,Online Video,Online video,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:2010:x:894,C543280262,gartner_hype_cycle,Interactive TV,Interactive television,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:1997:22.0:515,C188220564,gartner_hype_cycle,Workflow,Workflow engine,narrower,broader_entry,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:2009:x:842,C22561748,gartner_hype_cycle,Video Telepresence,Videoconferencing,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:2015:x:1080,C38652104,gartner_hype_cycle,Digital Security,Computer security,broader,broader_entry,broader_entry,lists_v2_random_accepted
+gartner_hype_cycle:1996:5.0:478,C548217200,gartner_hype_cycle,Java,Java,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:2017:x:1179,C153715457,gartner_hype_cycle,Augmented Reality,Augmented reality,same,same,same,lists_v2_random_accepted
+physics_world_boty:2017:2.0:130,C38655281,physics_world_boty,Physicists create first ‘topological’ laser,Laser science,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:2016:x:1131,C2987714656,gartner_hype_cycle,Affective Computing,Facial expression recognition,narrower,broader_entry,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:1999:21.0:560,C2777472213,gartner_hype_cycle,Java Language,Java bytecode,narrower,related,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:1998:23.0:539,C18599908,gartner_hype_cycle,Intranet publishing,Electronic publishing,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+mit_tr10:2003:2.0:221,C49892992,mit_tr10,Injectable Tissue Engineering,Tissue engineering,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+physics_world_boty:2012:1.0:79,C2780509222,physics_world_boty,to the ATLAS and CMS collaborations at CERN for their joint discovery of a Higgs-like particle at the Large Hadron Collider,Compact Muon Solenoid,narrower,related,narrower_entry,lists_v2_random_accepted
+mit_tr10:2010:6.0:295,C503923677,mit_tr10,Social TV,Social web,narrower,related,narrower_entry,lists_v2_random_accepted
+physics_world_boty:2024:5.0:204,C30080830,physics_world_boty,A semiconductor and a novel switch made from graphene,Graphene,broader,narrower_entry,broader_entry,lists_v2_random_accepted
+gartner_hype_cycle:2013:x:1005,C19966478,gartner_hype_cycle,Mobile Robots,Mobile robot,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:2005:x:725,C2987247673,gartner_hype_cycle,Handwriting Recognition,Character recognition,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+nature_methods_moty:2008:1.0:1,C166936260,nature_methods_moty,Super-resolution microscopy,Super-resolution microscopy,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:1999:16.0:555,C28490314,gartner_hype_cycle,Speech Recognition,Speech recognition,same,same,same,lists_v2_random_accepted
+gartner_hype_cycle:2016:x:1140,C154945302,gartner_hype_cycle,Machine Learning,Artificial intelligence,broader,narrower_entry,broader_entry,lists_v2_random_accepted
+mit_tr10:2001:5.0:214,C2989513435,mit_tr10,Biometrics,Biometric data,broader,broader_entry,broader_entry,lists_v2_random_accepted
+gartner_hype_cycle:2013:x:1013,C123606473,gartner_hype_cycle,Complex Event Processing,Complex event processing,same,same,same,lists_v2_random_accepted
+mit_tr10:2018:2.0:371,C145103041,mit_tr10,"Artificial Embryos, availability now",Embryonic stem cell,narrower,related,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:1996:19.0:492,C2985179714,gartner_hype_cycle,Workflow,Work flow,same,same,same,lists_v2_random_accepted
+nature_methods_moty:2013:1.0:6,C2994067223,nature_methods_moty,Single-cell sequencing,Genomic sequencing,broader,narrower_entry,broader_entry,lists_v2_random_accepted
+gartner_hype_cycle:2015:x:1080,C2988319471,gartner_hype_cycle,Digital Security,Information systems security,broader,broader_entry,broader_entry,lists_v2_random_accepted
+mit_tr10:2008:10.0:279,C555944384,mit_tr10,Wireless Power,Wireless,broader,narrower_entry,broader_entry,lists_v2_random_accepted
+mit_tr10:2006:5.0:254,C2908826020,mit_tr10,Diffusion Tensor Imaging,Diffusion-Weighted Magnetic Resonance Imaging,narrower,narrower_entry,narrower_entry,lists_v2_random_accepted
+gartner_hype_cycle:2014:x:1049,C83209312,gartner_hype_cycle,Predictive Analytics,Predictive analytics,same,same,same,lists_v2_random_accepted
