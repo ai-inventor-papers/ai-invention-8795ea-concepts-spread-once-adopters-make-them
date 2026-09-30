@@ -1,0 +1,101 @@
+URL: https://arxiv.org/pdf/2210.00881
+Type: PDF
+Pattern: AUC|degree|years|horizon|64,?7|143 (66 matches in 58953 chars)
+
+--- Content ---
+
+1305:...ientiﬁc literature could signiﬁcantly accelerate the progress of science.
+A ﬁeld that might
+beneﬁt from such an approach is artiﬁcial intelligence (AI) research, where the number of scientiﬁc
+publications has been growing exponentially over the last years, making it challenging for human
+researchers to keep track of the progress. Here, we use AI techniques to predict the future research
+directions of AI itself. We develop a new graph-based benchmark based on real-world data – the
+Science4Cast benchma...
+--
+9478:...istical &  ML methods
+64,000 nodes: 
+concepts via
+natural language processing
+18,000,000 edges: 
+time-dependent
+co-occurances
+of concepts
+data set
+data
+processing
+network generation
+Science4Cast challenge
+Figure 2. From arXiv to Science4Cast. We use 143,000 papers in AI and ML categories on arXiv from 1992 to
+2020. From there, we construct a list of concepts (using RAKE and other NLP tools). Those concepts form the
+nodes of a semantic network. The edges are drawn when two concepts occur jointly in ...
+--
+10054:...mantic network that grows over time as more concepts are investigated
+together. The task is to predict, from unconnected nodes (i.e. concepts that have not been investigated together
+in the scientiﬁc literature), which will be connected within a few years. In this manuscript, we present 10 diverse
+statistical and machine learning methods to solve this challenge.
+Link prediction is a very common problem in com-
+puter science that can be solved with classical met-
+rics and features as well as machine l...
+--
+12356:..., cs.LG, cs.NE, and stat.ML, from
+1992 to 2020, to create a dynamic semantic network.
+The nodes stand for computer science and in partic-
+ular artiﬁcial intelligence concepts. We create the
+list of concepts from the title and abstracts of all
+of the 143,000 papers.
+We use Rapid Automatic
+Keyword Extraction (RAKE) to create candidate
+concepts [24], and normalize the list using standard
+NLP techniques and other self-created methods. Ul-
+timately, this leads to a list of 64,719 concepts.
+These concepts form the nodes of the semantic
+network. The edges are drawn when two concepts
+co-appear in a title or abstract of a paper. Each edge
+has a time stamp, which is the publication date of
+the paper in which the concepts co-app...
+--
+13173:...oncept pairs can co-
+appear in many papers with diﬀerent publication
+dates.
+As edges have time stamps, the entire se-
+mantic network is evolving in time. The workﬂow is
+depicted in Fig. 2.
+
+4
+B.
+Network-Theoretical Analysis
+We start by analyzing the degree distribution
+of the published semantic network.
+The network
+has 64,719 nodes and 17,892,352 unique undirected
+edges, which implies a mean node degree of about
+553. However, the network contains many hub nodes
+that signiﬁcantly exceed this mean degree, demon-
+strated by the heavy-tail degree distribution in Fig.
+3. For example, the ten highest node degrees (and
+their corresponding concepts) are 466,319 (neural
+network),
+198,050
+(deep learning),
+195,345
+(machine learning),
+169,555
+(convolutional
+neural network), 159,403 (real world), 150,227
+(experimental result),
+127,642
+(deep neural
+network), 115,334 (large scale), 89,267 (high
+dimension), and 84,956 (high dimensional).
+To investigate whether this complex network is
+scale-free, we ﬁt a power-law curve to the degree
+distribution p(k) using [25], and the software ﬁt
+p(k) ∝k−2.28 for degree k ≥1672. Nevertheless,
+the degree distribution of real complex network do
+not always follow perfect power-laws and power-laws
+with exponential cut-oﬀs are often a better ﬁt than
+pure power-laws [26].
+A recent work [27] empirically showed that log-
+normal distributions ﬁt most real-w...
+--
+[52 more matches not shown]

@@ -1,0 +1,120 @@
+{
+  "metadata": {
+    "description": "External, dated recognition events for OpenAlex legacy concepts (zero OpenAlex credits). See README.md for field definitions, source biases and lags.",
+    "parts_note": "Datasets are split across numbered parts; concatenate examples of equal 'dataset' names.",
+    "part": 2,
+    "n_parts": 3
+  },
+  "datasets": [
+    {
+      "dataset": "concept_recognition",
+      "examples": [
+        {
+          "input": "{\"openalex_id\": \"C2778677889\", \"qid\": \"Q1230047\", \"qid_resolved\": \"Q1230047\", \"label\": \"Fornix\", \"label_norm\": \"fornix\", \"aliases\": [\"fornix of the brain\"], \"aliases_norm\": [\"fornix of the brain\"], \"acronyms\": [], \"level\": 3, \"ancestor_ids\": [\"C2781161787\", \"C134018914\", \"C126322002\", \"C169760540\", \"C86803240\", \"C71924100\", \"C15744967\"], \"level0_disciplines\": [\"Biology\", \"Medicine\", \"Psychology\"], \"enwiki_title\": \"Fornix (neuroanatomy)\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 2000, \"date\": \"2000-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D020712\", \"detail\": {\"ui\": \"D020712\", \"name\": \"Fornix, Brain\", \"date_introduced\": \"2000-01-01\", \"history_note\": \"2008 (2000)\", \"history_year\": 2008.0, \"history_year_earlier\": 2000.0, \"year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"A08.186.211.180.405.600\", \"A08.186.211.200.885.287.500.345.600\"], \"top_branches\": [\"A\"], \"previous_indexing\": [\"Hippocampus (1966-1999)\"], \"link_status\": \"accepted_without_llm\"}}, {\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2004, \"date\": \"2004-03-22\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Fornix (neuroanatomy)\", \"pageid\": 545321, \"date_method\": \"pageid_median_bin_estimate (page creation; no redirect repair)\", \"title_followed_redirect\": false}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 23, \"openalex_works_count\": 5633, \"openalex_cited_by_count\": 164617, \"wikidata_n_claims\": 25, \"wikidata_instance_of\": [\"Q112826905\"], \"wikidata_subclass_of\": [\"Q66590405\", \"Q112826975\"], \"wikidata_part_of\": [], \"mesh_tree_codes_wikidata\": [\"A08.186.211.180.405.600\", \"A08.186.211.200.885.287.500.345.600\"], \"jel\": [], \"wikidata_mag_id_matches_openalex\": true}}",
+          "metadata_fold": "dev",
+          "metadata_group": "Med",
+          "metadata_group_plurality": "Med",
+          "metadata_group_plurality_share": 0.667,
+          "metadata_level": 3,
+          "metadata_l1_fields": [
+            "27",
+            "27",
+            "28"
+          ],
+          "metadata_level0": [
+            "Biology",
+            "Medicine",
+            "Psychology"
+          ],
+          "metadata_n_events": 2,
+          "metadata_n_events_year_usable": 2,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C2778677889",
+          "metadata_qid": "Q1230047"
+        },
+        {
+          "input": "{\"openalex_id\": \"C73969872\", \"qid\": \"Q899698\", \"qid_resolved\": \"Q899698\", \"label\": \"Turnover number\", \"label_norm\": \"turnover number\", \"aliases\": [\"turnover number\", \"enzyme turnover\", \"Kcat\"], \"aliases_norm\": [\"enzyme turnover\", \"kcat\"], \"acronyms\": [], \"level\": 3, \"ancestor_ids\": [\"C161790260\", \"C181199279\", \"C55493867\", \"C46141821\", \"C178790620\", \"C86803240\", \"C185592680\", \"C121332964\"], \"level0_disciplines\": [\"Biology\", \"Chemistry\", \"Physics\"], \"enwiki_title\": \"Turnover number\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2005, \"date\": \"2005-10-29\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Turnover number\", \"pageid\": 3026307, \"date_method\": \"pageid_median_bin_estimate (page creation; no redirect repair)\", \"title_followed_redirect\": false}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"not_found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_found\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_found\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 14, \"openalex_works_count\": 1793, \"openalex_cited_by_count\": 74799, \"wikidata_n_claims\": 5, \"wikidata_instance_of\": [\"Q51922230\"], \"wikidata_subclass_of\": [\"Q11563\"], \"wikidata_part_of\": [], \"mesh_tree_codes_wikidata\": [], \"jel\": [], \"wikidata_mag_id_matches_openalex\": true}}",
+          "metadata_fold": "heldout",
+          "metadata_group": "Physical",
+          "metadata_group_plurality": "Physical",
+          "metadata_group_plurality_share": 0.667,
+          "metadata_level": 3,
+          "metadata_l1_fields": [
+            "13",
+            "31",
+            "16"
+          ],
+          "metadata_level0": [
+            "Biology",
+            "Chemistry",
+            "Physics"
+          ],
+          "metadata_n_events": 1,
+          "metadata_n_events_year_usable": 1,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C73969872",
+          "metadata_qid": "Q899698"
+        },
+        {
+          "input": "{\"openalex_id\": \"C525849907\", \"qid\": \"Q1096\", \"qid_resolved\": \"Q1096\", \"label\": \"Tin\", \"label_norm\": \"tin\", \"aliases\": [\"tin\", \"element 50\"], \"aliases_norm\": [\"element 50\"], \"acronyms\": [], \"level\": 2, \"ancestor_ids\": [\"C191897082\", \"C178790620\", \"C185592680\", \"C192562407\"], \"level0_disciplines\": [\"Chemistry\", \"Materials science\"], \"enwiki_title\": \"Tin\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 1966, \"date\": \"1966-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D014001\", \"detail\": {\"ui\": \"D014001\", \"name\": \"Tin\", \"date_introduced\": \"1966-01-01\", \"history_note\": null, \"history_year\": null, \"history_year_earlier\": null, \"year_rule\": \"date_introduced\", \"mesh_baseline\": true, \"tree_numbers\": [\"D01.268.556.875\", \"D01.552.544.875\"], \"top_branches\": [\"D\"], \"previous_indexing\": [], \"link_status\": \"accepted_without_llm\"}}, {\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2001, \"date\": \"2001-12-14\", \"date_precision\": \"estimated\", \"year_usable\": false, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Tin\", \"pageid\": 30042, \"date_method\": \"pageid_median_bin_estimate (page creation; no redirect repair)\", \"title_followed_redirect\": false}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_found\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_found\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 181, \"openalex_works_count\": 142475, \"openalex_cited_by_count\": 2119043, \"wikidata_n_claims\": 186, \"wikidata_instance_of\": [\"Q11344\", \"Q79529\", \"Q1929547\"], \"wikidata_subclass_of\": [\"Q244982\", \"Q214483\"], \"wikidata_part_of\": [\"Q3886818\", \"Q244982\", \"Q106693\", \"Q19591\"], \"mesh_tree_codes_wikidata\": [\"D01.268.556.875\", \"D01.552.544.875\"], \"jel\": [], \"wikidata_mag_id_matches_openalex\": true}}",
+          "metadata_fold": "heldout",
+          "metadata_group": "Physical",
+          "metadata_group_plurality": "Physical",
+          "metadata_group_plurality_share": 1.0,
+          "metadata_level": 2,
+          "metadata_l1_fields": [
+            "25",
+            "16"
+          ],
+          "metadata_level0": [
+            "Chemistry",
+            "Materials science"
+          ],
+          "metadata_n_events": 2,
+          "metadata_n_events_year_usable": 1,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C525849907",
+          "metadata_qid": "Q1096"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_mesh",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"mesh:D000001\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1984, \"code\": \"D000001\", \"label\": \"Calcimycin\", \"label_norm\": \"calcimycin\", \"alt_labels\": [\"4-Benzoxazolecarboxylic acid, 5-(methylamino)-2-((3,9,11-trimethyl-8-(1-methyl-2-oxo-2-(1H-pyrrol-2-yl)ethyl)-1,7-dioxaspiro(5.5)undec-2-yl)methyl)-, (6S-(6alpha(2S*,3S*),8beta(R*),9beta,11alpha))-\", \"A 23187\", \"A-23187\", \"A23187\", \"A23187, Antibiotic\", \"Antibiotic A23187\"], \"descriptor\": \"An ionophorous, polyether antibiotic from Streptomyces chartreusensis.\", \"generic_label\": false, \"date_introduced\": \"1984-01-01\", \"history_note\": \"91(75); was A 23187 1975-90 (see under ANTIBIOTICS 1975-83)\", \"mesh_year_best\": 1984, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D02.355.291.933.125\", \"D02.540.576.625.125\", \"D03.633.100.221.173\", \"D04.345.241.654.125\", \"D04.345.674.625.125\"], \"top_branches\": [\"D\"]}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1984,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "mesh:D000001"
+        },
+        {
+          "input": "{\"entry_id\": \"mesh:D000002\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1991, \"code\": \"D000002\", \"label\": \"Temefos\", \"label_norm\": \"temefo\", \"alt_labels\": [\"Abate\", \"Difos\", \"Temephos\"], \"descriptor\": \"An organothiophosphate insecticide.\", \"generic_label\": false, \"date_introduced\": \"1991-01-01\", \"history_note\": \"96; was ABATE 1972-95 (see under INSECTICIDES, ORGANOTHIOPHOSPHATE 1972-90)\", \"mesh_year_best\": 1991, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D02.705.400.625.800\", \"D02.705.539.345.800\", \"D02.886.300.692.800\"], \"top_branches\": [\"D\"]}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1991,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "mesh:D000002"
+        },
+        {
+          "input": "{\"entry_id\": \"mesh:D000003\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1966, \"code\": \"D000003\", \"label\": \"Abattoirs\", \"label_norm\": \"abattoir\", \"alt_labels\": [\"Abattoir\", \"House, Slaughter\", \"Houses, Slaughter\", \"Slaughter House\", \"Slaughter Houses\", \"Slaughterhouse\", \"Slaughterhouses\"], \"descriptor\": \"Places where animals are slaughtered and dressed for market.\", \"generic_label\": false, \"date_introduced\": \"1966-01-01\", \"history_note\": null, \"mesh_year_best\": 1966, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": true, \"tree_numbers\": [\"J01.576.423.200.700.100\", \"J03.540.020\"], \"top_branches\": [\"J\"]}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C3020667707\", \"qid\": \"Q385557\", \"label\": \"Slaughter house\", \"relation\": \"same\", \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"link_status\": \"accepted_without_llm\"}], \"n_matched\": 1}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1966,
+          "metadata_year_known": true,
+          "metadata_n_matched": 1,
+          "metadata_entry_id": "mesh:D000003"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "H2_LR": {
+  "statsmodels_exact": 77.30210998204348,
+  "own_breslow": 71.71641463905598,
+  "rel_diff": 0.07788586993786473,
+  "d_statsmodels": 0.3363836218844486,
+  "d_own": 0.3019648521082155,
+  "share_strata_multi_event": 0.2976066597294485,
+  "note": "own estimator uses the Breslow form for strata with >1 event; statsmodels uses the exact conditional likelihood"
+ },
+ "R1_interaction": {
+  "statsmodels": -0.2173531553101042,
+  "own": -0.21735315531009167,
+  "abs_diff": 1.2545520178264269e-14,
+  "agree_1e-3": true
+ },
+ "p_gw": {
+  "pandas": 0.6551724137931034,
+  "own": 0.6551724137931034,
+  "agree_1e-3": true
+ }
+}
