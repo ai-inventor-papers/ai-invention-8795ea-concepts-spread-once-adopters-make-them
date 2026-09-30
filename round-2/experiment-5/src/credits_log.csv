@@ -1,3 +1,0 @@
-time,tag,path,credits,ratelimit_remaining
-17:39:10,probe_keyed,/works,0,0 (HTTP 429)
-17:39:30,probe_anonymous,/works,1,999

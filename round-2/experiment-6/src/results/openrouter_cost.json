@@ -1,8 +1,0 @@
-{
- "total_usd": 0.007353440549999995,
- "calls": 550,
- "by_model": {
-  "google/gemini-2.5-flash-lite": 0.005799699999999995,
-  "qwen/qwen3-30b-a3b-instruct-2507": 0.0015537405500000003
- }
-}
