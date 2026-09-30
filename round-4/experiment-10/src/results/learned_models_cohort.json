@@ -1,0 +1,46 @@
+{
+ "fully_imputed_features": [],
+ "O2r_m50": {
+  "n": 634,
+  "metric": "Spearman",
+  "B5": 0.7886706783489855,
+  "linear_all": 0.8184766169203301,
+  "diff": 0.029805938571344615,
+  "diff_ci": [
+   0.011907416076822424,
+   0.04884917468852921
+  ],
+  "imputed_coef_mass": 0.0,
+  "evaluable": true,
+  "note": ""
+ },
+ "O2r_resid": {
+  "n": 634,
+  "metric": "Spearman",
+  "B5": 0.7887242142370855,
+  "linear_all": 0.815964257404026,
+  "diff": 0.02724004316694051,
+  "diff_ci": [
+   0.008507660163781048,
+   0.04600356683296491
+  ],
+  "imputed_coef_mass": 0.0,
+  "evaluable": true,
+  "note": ""
+ },
+ "O3": {
+  "n": 1443,
+  "metric": "AUC",
+  "B5": 0.5612224573633761,
+  "linear_all": 0.5400099589194572,
+  "diff": -0.021212498443918815,
+  "diff_ci": [
+   -0.12957036185118126,
+   0.1005112372626442
+  ],
+  "imputed_coef_mass": 0.0,
+  "evaluable": true,
+  "note": ""
+ },
+ "O4_EBM": "not evaluable: O4 not computed (no citation pass; declared drop)"
+}
