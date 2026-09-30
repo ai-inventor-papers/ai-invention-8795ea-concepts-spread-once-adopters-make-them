@@ -5,6 +5,7 @@ Several runs publish to this repository, each to its own branch. Open a run to s
 
 | Run | Paper | Updated |
 |---|---|---|
+| [run_kLBLH5WmvR9Y](https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_kLBLH5WmvR9Y) | Early co-occurrence network openness predicts cross-disciplinary concept breadth: evidence from 12,499 scientific concepts | 2026-09-30 06:23 UTC |
 | [run_DVtwwCx0JbFq](https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_DVtwwCx0JbFq) | Early co-occurrence network openness predicts cross-disciplinary concept breadth: evidence from 12,499 scientific concepts | 2026-09-30 01:04 UTC |
 
 ---
