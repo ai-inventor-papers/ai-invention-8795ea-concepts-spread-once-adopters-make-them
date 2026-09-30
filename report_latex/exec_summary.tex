@@ -1,0 +1,79 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, amssymb, hyperref, url, natbib, booktabs, xcolor, listings}
+\usepackage{enumitem}
+\usepackage{caption}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+\title{Do Temporal Network Signals Predict How Scientific Concepts Spread Across Disciplines?\\[6pt]\large Executive Summary}
+\author{AI Inventor}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Headline Finding}
+
+Early ego-network openness (OPEN\textsubscript{home}) predicts cross-field breadth in a descriptive evidence synthesis across six non-selection bodies: DerSimonian--Laird pooled partial Spearman $\rho = +0.069$ [0.038, 0.100], $I^2 = 0$, 6/6 bodies positive. The outcome is exploratory.
+
+\section*{Study Design}
+
+The study used the OpenAlex bulk snapshot (476,196,327 works; 2026-09-23) to identify 12,499 scientific concepts, track 27,393 adoption episodes across 26 venue fields, and screen 53 early network indicators against a five-feature popularity baseline (B5). The primary outcome was rarefied field breadth ($O_{2r}$, $m = 50$). A development panel (DEV: CS, Engineering, BGM, Medicine homes; onset 2003--2009; 4,771 concepts) was used to freeze indicator rankings; four held-out field groups (Physical Sciences, Life \& Environment, Social Sciences, Math \& Decision; 3,372 concepts), one onset cohort (2010--2014; 4,356 concepts), and one fresh cohort (2015--2017; 1,443 concepts) served as non-selection bodies.
+
+\section*{Iteration-by-Iteration Results}
+
+\textbf{Iteration 1} screened five rival mechanisms on 46--48 DEV concepts. All five failed the pre-registered $\Delta\rho$ rule: naturalisation gap $A^*_h$ ($\Delta\rho = -0.006$), co-occurrence diversity $D_{\text{ratio}}$ ($+0.006$), selectivity $F_{\text{res}}$ ($-0.060$), and gateway landing $G$ ($+0.033$). The field-level gateway-retention signal ($\Delta$AUC $+0.103$, 80 episodes) became the lead for iteration~2. Two artifacts failed (dataset~1, experiment~2).
+
+\textbf{Iteration 2} built the authoritative 12,499-concept frame (zero API credits) and ran the decisive test. Gateway retention was \textbf{disconfirmed}: held-out $\Delta$AUC $= -0.00001$ [$-0.0006$, $+0.0003$] on 27,393 episodes. The iteration-1 lead could not be certified above chance (shuffled-$R$ placebo 95th percentile exceeded the original $+0.103$). However, retained-field relatedness predicted the next field entered: $d_0 = 0.302$ [0.240, 0.369] on 653 concepts. External recognition (O5) was unrelated to breadth.
+
+\textbf{Iteration 3} confirmed the retained-field relatedness finding on an independent frame (11,841 concepts): pooled held-out $d_0 = 0.322$ [0.291, 0.355], LR $= 325.8$ ($p < 10^{-70}$). However, the volume-matched contrast was null ($-0.028$ [$-0.105$, $+0.046$]) and the coefficient reversed under minimum-conditional-probability proximity: the result is backbone-specific. The 53-indicator held-out screen confirmed 7 of 10 DEV-frozen indicators (5 positive, 2 negative). ElasticNet added Spearman $+0.059$ over B5 on held-out. Experiment~9 (trajectories) failed.
+
+\textbf{Iteration 4} tested OPEN on a fresh 2015--2017 cohort: OPEN\textsubscript{home} partial Spearman $+0.091$ [$+0.013$, $+0.171$] at R2, but the DL pool over groups was $+0.083$ [$-0.007$, $+0.173$], and it added no practical prediction ($+0.002$ over B5 Spearman of 0.768). The breadth decomposition showed early contact diversity accounted for 73\% of the gap; no discrete trajectory typology survived. The within-concept closure test (Experiment~11) was not supported: density $b = -0.070$ [$-0.180$, $+0.040$]; OPEN $b = +0.015$ [$-0.038$, $+0.069$].
+
+\textbf{Iteration 5} tested OPEN on 636 vocabulary-free newborn concepts (Frame~N): OPEN\textsubscript{home} PSP $+0.117$ [$+0.020$, $+0.218$] at R3. The Cheng consistency reversal showed that ideational consistency predicts next-year volume ($+53.5$\%/SD) but \emph{narrower} cross-field reach (PSP $-0.069$ [$-0.093$, $-0.047$], 5/5 groups negative, $I^2 = 0$). The within-concept permutation null absorbed the year-to-year churn component (excess NOVCHURN PSP $= +0.008$ vs raw $+0.116$): what predicts breadth is static topical non-redundancy, not temporal partner turnover. However, V2 excess split-half reliability was $\sim$0.01--0.05, so this test could not adjudicate temporal churn at $\sim$10 papers/year.
+
+\section*{Key Results}
+
+\begin{table}[!htbp]
+\centering
+\small
+\begin{tabular}{p{4cm}ccc}
+\toprule
+Finding & Effect & 95\% CI & Status \\
+\midrule
+OPEN\textsubscript{home} $\rightarrow$ breadth (DL, $k=6$) & $+0.069$ & $[+0.038, +0.100]$ & Exploratory \\
+NOVCHURN\textsubscript{home} (DL, $k=5$) & $+0.105$ & $[+0.069, +0.140]$ & Exploratory \\
+Consistency $\rightarrow$ breadth (DL, $k=5$) & $-0.069$ & $[-0.093, -0.047]$ & Reversal \\
+Retained-field relatedness $d_0$ & $+0.322$ & $[+0.291, +0.355]$ & Confirmed \\
+Gateway retention & $-0.00001$ & $[-0.0006, +0.0003]$ & Disconfirmed \\
+OPEN\textsubscript{home} forecasting gain & $+0.002$ & $[-0.003, +0.008]$ & Null \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section*{Failures and Dead Ends}
+
+\begin{itemize}[nosep]
+    \item All five iteration-1 concept-level candidates ($A^*_h$, $D$, $F$, $G$, $S$) failed the pre-registered screen or were untested.
+    \item Gateway centrality for field-level retention was a domain-specific proxy; disconfirmed at scale.
+    \item External recognition (O5) was unrelated to any publication outcome.
+    \item No discrete trajectory typology passed the naming rule (DTW vs HMM ARI 0.094--0.222).
+    \item Within-concept closure (Exp11) was null on DEV and opposite-signed on held-out.
+    \item 4 of 20 artifacts failed or were interrupted.
+    \item All reviews scored 2--3 (blocking), primarily for conclusions contradicting the artifacts.
+\end{itemize}
+
+\section*{Open Questions}
+
+\begin{itemize}[nosep]
+    \item \textbf{Temporal vs static:} V2 excess reliability was too low to decide whether temporal churn adds information beyond static topical dispersion.
+    \item \textbf{Mechanism:} association, not causation, was shown. OPEN could reflect intrinsic generality.
+    \item \textbf{Pre-onset footprint:} roughly half of the retained-frontier indicators' signals came from pre-onset field history.
+    \item \textbf{Vocabulary bias:} Frame~N was small (636 concepts, pre-unseal power 0.47).
+    \item \textbf{Domain heterogeneity:} retained-field relatedness $I^2 = 0.92$ across groups.
+\end{itemize}
+
+\end{document}
