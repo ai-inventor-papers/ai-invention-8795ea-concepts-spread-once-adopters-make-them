@@ -52,13 +52,18 @@ import argparse
 import os
 import sys
 import time
+from contextlib import suppress
 from pathlib import Path
 from urllib.parse import quote
 
 from dotenv import load_dotenv
 
-load_dotenv(Path(__file__).resolve().parents[4] / ".env")
-load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
+# On a pod the repo .env is root-only and an agent runs as its own user
+# (aii_lib.agent_backend.agent_user): its keys arrive in its environment.
+with suppress(PermissionError):
+    load_dotenv(Path(__file__).resolve().parents[4] / ".env")
+with suppress(PermissionError):
+    load_dotenv(Path(__file__).resolve().parent.parent / ".env", override=True)
 
 try:
     from aii_lib.abilities.aii_ability import aii_ability
