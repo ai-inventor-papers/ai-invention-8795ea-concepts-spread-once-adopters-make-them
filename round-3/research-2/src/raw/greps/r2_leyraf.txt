@@ -1,0 +1,51 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/1011.3120
+Type: PDF
+Pattern: trajector|typolog|cluster(s|ing) of|classes|exit|abandon|retain|retention|persist|stop|leave|lose|decline|fade|transient|diffus|geograph|cognitive (133 matches in 67374 chars)
+
+--- Content ---
+
+31:The Local Emergence and Global Diffusion of Research Technologies:   
+An Exploration of Patterns of Network Formation  
+Journal of the American Society for Information Science and Technology (in press) 
+ 
+Loet Leydesdorff 1 & Ismael Rafols 2 
+ 
+Abstract 
+Grasping the fruits of “emerging technologies” is an objective of many government 
+priority programs in a knowledge-based and globalizing economy. We use the 
+publication records (in the Science Citation Index) of two emerging technologies to study 
+the mechanisms of diffusion in the case of two innovation trajectories: small interference 
+RNA (siRNA) and nano-crystalline solar cells (NCSC). Methods for analyzing and 
+visualizing geographical and cognitive diffusion are specified as indicators of different 
+dynamics. Geographical diffusion is illustrated with overlays to Google Maps; cognitive 
+diffusion is mapped using an overlay to a map based on the ISI Subject Categories. The 
+evolving geographical networks show both preferential attachment and small-world 
+characteristics. The strength of preferential attachment decreases over time, while the 
+network evolves into an oligopolistic control structure with small-world characteristics. 
+The transition from disciplinary-oriented (“mode-1”) to transfer-oriented (“mode-2”) 
+research is suggested as the crucial difference in explaining the different rates of 
+diffusion between siRNA and NCSC. 
+ 
+Keywords: diffusion, emergence, research-technology, map, geographical, 
+interdisciplinarity, innovation 
+                                                 
+1 Amsterdam School of Communication Research (ASCoR), University of Amsterdam, Kloveniersburgwal 
+48, 1012 CX Amsterdam, The Netherlands; loet@leydesdorff.net 
+2 SPRU –Science and Technology Policy Research, University of Sussex, Brighton, BN1 9QE, England; 
+i...
+--
+3394:...mportant questions from a policy perspective 
+arise: Can one still jump on the bandwagon once a new technology has taken off? Are 
+there first-mover advantages? Such strategic questions have hitherto not been answered 
+unambiguously by science, technology, and innovation research because the interactions 
+among the various subdynamics (production, diffusion, markets) are nonlinear, probably 
+technology-specific, and poorly understood (Debackere & Clarysse, 1998; Leydesdorff & 
+Van den Besselaar, 1994; Vishwanat & Chen, 2006). Do new technologies emerge in 
+ 
+2
+
+critical configurations, “transdisciplinarily” in industrial or academic environments 
+(Gibbons et al., 1994), in university-industry-gove...
+--
+[118 more matches not shown]

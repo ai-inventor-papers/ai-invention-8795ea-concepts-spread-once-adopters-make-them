@@ -1,0 +1,24 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://econpapers.repec.org/article/tafregstd/v_3a49_3ay_3a2015_3ai_3a11_3ap_3a1922-1937.htm
+Type: HTML
+Pattern: relatedness|exit|entry (13 matches in 4247 chars)
+
+--- Content ---
+
+777:...econpapers.repec.org/) |    
+[EconPapers Home](/)   
+[About EconPapers](/about.htm) [Working Papers](/paper/)   
+[Journal Articles](/article/)   
+[Books and Chapters](/bookchap/)   
+[Software Components](/software/) [Authors](/RAS/) [JEL codes](/scripts/jelsearch.pf)   
+[New Economics Papers](/scripts/nep.pf) [Advanced Search](/scripts/search.pf)   
+[EconPapers FAQ](/FAQ.htm)   
+[Archive maintainers FAQ](/archiveFAQ.htm)   
+[Cookies at EconPapers](/FAQ.htm#Cookies) [Format for printing](/scripts/a/abstract.pf?p=y;h=RePEc:taf:regstd:v:49:y:2015:i:11:p:1922-1937) [The RePEc blog](https://blog.repec.org/)   
+[The RePEc plagiarism page](https://plagiarism.repec.org/) |    |  | 
+
+# Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes
+
+_David L. Rigby_ _[Regional Studies](/article/tafregstd/)_ , 2015, vol. 49, issue 11, 1922-1937 **Abstract:** R igby D. L. Technological relatedness and knowledge space: entry and exit of US cities from patent classes, Regional Studies . US patent and citation data are used to measure technological relatedness between major patent classes in the United States Patent and Trademark Office (USPTO). The technological relatedness measures, constructed as the probability that a patent in class j will cite a patent in class i , form the links of a knowledge network. Changes in this knowledge network are examined from 1975 to 2005. Evolution of the patent knowledge base within US metropolitan areas is tracked by combining the knowledge network with annual patent data for each city. Entries and exits of cities from patent classes are linked to local and non-local measures of techn...
+--
+[7 more matches not shown]

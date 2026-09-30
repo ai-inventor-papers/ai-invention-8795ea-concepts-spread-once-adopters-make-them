@@ -1,0 +1,6 @@
+{
+ "n_null": 200,
+ "btw_cutoff": 3,
+ "nb_min_w": 2,
+ "windows": "PRE t0-3..t0-1, W1 t0, W2 t0+1, W3 t0+2"
+}

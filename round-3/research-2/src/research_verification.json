@@ -1,0 +1,388 @@
+{
+  "valid": true,
+  "file_errors": [],
+  "schema_errors": [],
+  "content_warnings": [],
+  "files_found": {
+    "research_out.json": {
+      "exists": true,
+      "path": "./research_out.json",
+      "source_count": 57,
+      "size": 48907
+    }
+  },
+  "source_count": 57,
+  "checked_at": "2026-09-28T22:07:00.682098+00:00",
+  "passage_check_scope": "Case/whitespace-normalized text occurrence at the source URL (or archive fallback). Not claim entailment, locator verification, or author/year verification. status=error means unverified, not a misquotation.",
+  "passages": [
+    {
+      "source_index": 1,
+      "source_url": "https://run.unl.pt/bitstreams/e0c3b563-f946-4b3a-9a9b-5c2583cfd12a/download",
+      "quote": "In the main manuscript we will consider a standard Δ = 4",
+      "locator": "Methods, Identifying new products",
+      "status": "valid",
+      "context": "...and a forward condition requiring that a location c maintains !!\" ≥1 for activity , during δ years. in the main manuscript we will consider a standard δ = 4, in appendix b we show the robustness of our findings for variations of this parameter and rca thre...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://run.unl.pt/bitstreams/e0c3b563-f946-4b3a-9a9b-5c2583cfd12a/download",
+      "quote": "These conditions help reduce the number of false-positive observations. We only consider entry events as those events that satisfy these conditions.",
+      "locator": "Methods, Identifying new products",
+      "status": "valid",
+      "context": "...endix b we show the robustness of our findings for variations of this parameter and rca thresholds. these conditions help reduce the number of false-positive observations. we only consider entry events as those events that satisfy these conditions. economic complexity the economic complexity index (eci) is a measure of the factors that explain th...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 1,
+      "source_url": "https://run.unl.pt/bitstreams/e0c3b563-f946-4b3a-9a9b-5c2583cfd12a/download",
+      "quote": "We call the set of products present in a country with an RCA greater one",
+      "locator": "Methods",
+      "status": "valid",
+      "context": "...f country + in product ,, and !!\" is a matrix of specialization or revealed comparative advantages. we call the set of products present in a country with an rca greater one (!!\" ≥1) as that countries’ product basket. conversely, products with rca below a one (!!\" < 1) rep...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 2,
+      "source_url": "https://arxiv.org/pdf/1801.05352",
+      "quote": "we consider a backward condition that requires that a country c had an RCA lower than 1.0 over product p for four consecutive years before y",
+      "locator": "p. 11-12, Identifying New Products",
+      "status": "valid",
+      "context": "...hat do not repeat). to correct for false- positives, we implement two additional conditions: first, we consider a backward condition that requires that a country c had an rca lower than 1.0 over product p for four consecutive years before y; secondly, a forward condition requires that a country c is able to maintain a rca above or equal t...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 3,
+      "source_url": "https://www.nature.com/articles/s41598-023-28179-x",
+      "quote": "requiring that the RCA values were below a non-significance threshold t=0.25 in all the previous years",
+      "locator": "Results, data description",
+      "status": "valid",
+      "context": "...presence of a “1” element in the \\\\({\\textbf {m}}\\\\) matrix and the _appearance_ of such an element requiring that the rca values were below a non-significance threshold t=0.25 in all the previous years. we will refer to the first case as the _full matrix_ and to the new product event as an _activatio...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 3,
+      "source_url": "https://www.nature.com/articles/s41598-023-28179-x",
+      "quote": "which simply uses the RCA values in 2013 to predict the export matrix in 2018",
+      "locator": "Results, Fig. 3 discussion",
+      "status": "valid",
+      "context": ".../articles/s41598-023-28179-x#sec9)” section. we highlight with a red color the rca benchmark model, which simply uses the rca values in 2013 to predict the export matrix in 2018. from the analysis of fig. [3](/articles/s41598-023-28179-x#fig3) we can infer the following points...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 3,
+      "source_url": "https://www.nature.com/articles/s41598-023-28179-x",
+      "quote": "tree-based algorithms clearly outperform both the quite strong auto-correlation benchmark and the other supervised algorithms",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...tion benchmark. we find that the key object to forecast is the activation of new products, and that tree-based algorithms clearly outperform both the quite strong auto-correlation benchmark and the other supervised algorithms. interestingly, we find that the best results are obtained in a cross-validation setting, when data...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 4,
+      "source_url": "https://scholar.harvard.edu/files/dbaharc/files/bhh-jie.pdf",
+      "quote": "countries are 65% more likely to start exporting a product which was being exported with comparative advantage by one of its geographic neighbors at the beginning of the period",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...or time varying product characteristics and for a country's own predisposi- tion to adopt a product—countries are 65% more likely to start exporting a product which was being exported with comparative advantage by one of its geographic neighbors at the beginning of the period. this result is not obvious. after all, gravity models have shown that, ceteris paribus, trade is m...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 4,
+      "source_url": "https://scholar.harvard.edu/files/dbaharc/files/bhh-jie.pdf",
+      "quote": "from RCAcp ≤0.1 to RCAcp ≥0.1 within a ten year period",
+      "locator": "Section 3 (jump definition)",
+      "status": "valid",
+      "context": "...ducts is 777. we deﬁne a “jump” as a tenfold or more increase in the rca of country c in product p, from rcacp ≤0.1 to rcacp ≥0.1 within a ten year period.10 this setting allows us to explore the extensive margin of exports. we are interested in studying...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 5,
+      "source_url": "https://arxiv.org/pdf/0708.2090",
+      "quote": "xi = 1 if RCAi>1 and 0 otherwise",
+      "locator": "density definition, p. 5",
+      "status": "valid",
+      "context": "...ne as ∑ ∑ = i j i i ij i k j x φ φ ω , where ωk j is the density around good j for the kth country, xi = 1 if rcai>1 and 0 otherwise and φij is the matrix of proximities between goods i and j. a value of ωj equal to 0.4 for a given ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 6,
+      "source_url": "https://www.hks.harvard.edu/sites/default/files/centers/cid/files/publications/faculty-working-papers/146.pdf",
+      "quote": "We also check whether changing the criteria for the dummy variable x from RCA>1 to a threshold dollar value of exports.",
+      "locator": "Section 4 robustness, p. 28",
+      "status": "valid",
+      "context": "...distance (i.e. taking the directional conditional probability rather than the minimum of the pair). we also check whether changing the criteria for the dummy variable x from rca>1 to a threshold dollar value of exports. these results are shown in the appendix. in all cases, the findings were unaffected. in sum, our me...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 7,
+      "source_url": "http://econ.geo.uu.nl/peeg/peeg0916.pdf",
+      "quote": "And unrelated industries had a higher probability to exit the region.",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...ries in a region had a higher probability to enter the region, as compared to unrelated industries. and unrelated industries had a higher probability to exit the region. moreover, we found that industrial profiles of swedish regions showed a high degree of technologica...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 8,
+      "source_url": "https://econpapers.repec.org/article/tafregstd/v_3a49_3ay_3a2015_3ai_3a11_3ap_3a1922-1937.htm",
+      "quote": "Entries and exits of cities from patent classes are linked to local and non-local measures of",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...opolitan areas is tracked by combining the knowledge network with annual patent data for each city. entries and exits of cities from patent classes are linked to local and non-local measures of technological relatedness. **date:** 2015 **references:** [view references in econpapers](/scripts/...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 9,
+      "source_url": "https://arxiv.org/pdf/2205.02942",
+      "quote": "we distinguish between approaches that use continuous prevalence information and those that binarize prevalence information",
+      "locator": "Section 3.1",
+      "status": "valid",
+      "context": "...etween these methods from a mathematical and conceptual point of view in appendix b.2. in addition, we distinguish between approaches that use continuous prevalence information and those that binarize prevalence information. the latter consider that an industry is present in a productive unit whenever its prevalence excee...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 10,
+      "source_url": "https://oec.world/pdf/bilateral-relatedness-knowledge-diffusion-and-the-evolution-of-bilateral-trade.pdf",
+      "quote": "represents the volume of trade (in US dollar) of product p from exporter o to destination d in year t + 2",
+      "locator": "Eq. 4",
+      "status": "valid",
+      "context": "...colonyod + β14languageod +β15lang.p roximityod +εt opd (4) where the dependent variable, xt+2 opd , represents the volume of trade (in us dollar) of product p from exporter o to destination d in year t + 2. our main variables of interest are our three measures of relatedness: product relatedness (ωt opd)...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 11,
+      "source_url": "https://arxiv.org/pdf/2104.10812",
+      "quote": "By examining the entry (exit) of advantages across each subsequent time step",
+      "locator": "Results, The principle of relatedness",
+      "status": "valid",
+      "context": "... develop a new advantage in a discipline that is close to their existing advantages (see figure 2). by examining the entry (exit) of advantages across each subsequent time step (see methods), we show the principle of relatedness indeed holds (see figure 3a-b). the probability...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 12,
+      "source_url": "https://www.dallasfed.org/-/media/documents/institute/wpapers/2014/0185.pdf",
+      "quote": "whereas it will deter entry when the signal is negative",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "... activities will increase the rate of exporters’entry into new markets when the signal is positive, whereas it will deter entry when the signal is negative. our model proposes the use of an interaction between the signal and the prevalence of neighboring ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 12,
+      "source_url": "https://www.dallasfed.org/-/media/documents/institute/wpapers/2014/0185.pdf",
+      "quote": "is associated with a 0.1 percentage-point increase in the probability of entry into the market",
+      "locator": "Section 5.1",
+      "status": "valid",
+      "context": "...s that the (pooled) sample mean export growth of neighbors exporting from city c to country m (20%) is associated with a 0.1 percentage-point increase in the probability of entry into the market.49 the numbers appear to be small, but as reported in table 2, the median entry rate in a country (...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 13,
+      "source_url": "https://arxiv.org/pdf/2203.16316",
+      "quote": "The first is that absence or loss of comparative advantage should be considered as a useful source of information.",
+      "locator": "Section 3.6",
+      "status": "valid",
+      "context": "...summary of results in terms of theoretical contributions, our four proposals had two main messages. the first is that absence or loss of comparative advantage should be considered as a useful source of information. the second is the idea of country space, or a combined product and country space. the empirical ana...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 13,
+      "source_url": "https://arxiv.org/pdf/2203.16316",
+      "quote": "all measures that we analyzed performed extremely well, and hence the theoretical proposals do not add much to an already high predictive power",
+      "locator": "Section 3.6",
+      "status": "valid",
+      "context": "...t individual products or individual countries. when analyzing a pooled country and products sample, all measures that we analyzed performed extremely well, and hence the theoretical proposals do not add much to an already high predictive power. in terms of the absence of comparative advantage, the indicators d, 𝐷∗ and 𝐷𝑇𝑜𝑡 do not include thi...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 15,
+      "source_url": "https://www.nber.org/system/files/working_papers/w8952/w8952.pdf",
+      "quote": "because this knowledge can orient the investments of other entrepreneurs",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...ue to discovering that cut flowers, soccer balls, or computer software can be produced at low cost, because this knowledge can orient the investments of other entrepreneurs. but the initial entrepreneur who makes the “discovery” can capture only a small part of the social...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 16,
+      "source_url": "https://www.ibot.cas.cz/personal/pysek/pdf/naturalization_and_invasion_%20of_alien_plants.pdf",
+      "quote": "rely on repeated introductions for their persistence",
+      "locator": "Table 1, 'Casual alien plants'",
+      "status": "valid",
+      "context": "...even reproduce occasionally in an area, but which do not form self-replacing populations, and which rely on repeated introductions for their persistence (includes taxa labelled in the literature as ‘waifs’, ‘transients’, ‘occasional escapes’ and ‘persi...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 17,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.tree.2011.03.023%22&format=json&resultType=core",
+      "quote": "provides a terminology and categorisation for populations at different points in the invasion process",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...man-mediated invasions. the unified framework combines previous stage-based and barrier models, and provides a terminology and categorisation for populations at different points in the invasion process.\",\"affiliation\":\"institute of zoology, zoological society of london, regent's park, london, uk. tim...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 18,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI:%2210.1016/j.tree.2005.02.004%22&format=json&resultType=core",
+      "quote": "we propose propagule pressure as a key element to understanding why some introduced populations fail to establish whereas others succeed",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...lements of the invasion process that provide consistent explanatory power has proved elusive. here, we propose propagule pressure as a key element to understanding why some introduced populations fail to establish whereas others succeed. in the process, we illustrate how the study of propagule pressure can provide an opportunity to ti...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 22,
+      "source_url": "https://www.nature.com/articles/s41467-021-21689-0",
+      "quote": "We use the presence and appearance of industries in countries (phenotypes) to infer capability",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...e the directed dynamic process of capability accumulation and product diversification of countries. we use the presence and appearance of industries in countries (phenotypes) to infer capability and know-how-based (genotypic) relationships between industries. using our genetics-inspired indust...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 23,
+      "source_url": "https://journals.sagepub.com/doi/10.1177/00031224231166955",
+      "quote": "achieve consistent intellectual usage",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "... new ideas become core concepts of science when they reach expansive networks of unrelated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with extant research traditions. these ecologic...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 23,
+      "source_url": "https://journals.sagepub.com/doi/10.1177/00031224231166955",
+      "quote": "New ideas become core concepts of science when they reach expansive networks of unrelated authors",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...publications. we find new ideas diffuse more widely when they socially and intellectually resonate. new ideas become core concepts of science when they reach expansive networks of unrelated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with ext...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 24,
+      "source_url": "https://arxiv.org/pdf/1602.08409",
+      "quote": "The average area under the ROC curve for individuals (Figure 3 a) is 0.8963 for the research space and 0.8034 for the UCSD science map.",
+      "locator": "Results, Figure 3",
+      "status": "valid",
+      "context": "...esearch space are significantly more accurate than the predictions made using the ucsd science map. the average area under the roc curve for individuals (figure 3 a) is 0.8963 for the research space and 0.8034 for the ucsd science map. this difference is highly statistically significant (anova p-value<0.001). for organizations (figur...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 26,
+      "source_url": "https://oec.world/pdf/Hidalgo2018_Chapter_ThePrincipleOfRelatedness.pdf",
+      "quote": "describing the probability that a region enters (or exits) an economic activity as a function of the number of related activities present in that location",
+      "locator": "Section 1",
+      "status": "valid",
+      "context": "...activities, and for a variety of institutional regimes. the new synthesis is an empirical principle describing the probability that a region enters (or exits) an economic activity as a function of the number of related activities present in that location. this synthesis is the principle of relatedness. 2 the principle of relatedness in principle, we sa...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 27,
+      "source_url": "https://arxiv.org/pdf/2606.03864",
+      "quote": "ROC–AUC in [0.954, 0.967] at all horizons without re-tuning",
+      "locator": "Abstract/Introduction",
+      "status": "valid",
+      "context": "...explainability at once: comparative validation across four technology and biomedical domains yields roc–auc in [0.954, 0.967] at all horizons without re-tuning, exceeding the ∼0.90 of prior models, while every forecast rests on structural, auditable features ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 29,
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0048733314000298",
+      "quote": "71 emerging topics from 2007 to 2010 are identified and characterized",
+      "locator": "Highlights",
+      "status": "valid",
+      "context": "...ence are identified by combining direct citation and co-citation models of the scopus database. * • 71 emerging topics from 2007 to 2010 are identified and characterized. * • 3 non-exclusive motive forces are identified: scientific discovery (62%), technological innova...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 29,
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0048733314000298",
+      "quote": "External evidence (e.g., awards) correlates well with emerging topics",
+      "locator": "Highlights",
+      "status": "valid",
+      "context": "...tified: scientific discovery (62%), technological innovation (38%), and exogenous events (54%). * • external evidence (e.g., awards) correlates well with emerging topics. * • although nearly all emerging topics contain highly cited papers, the reverse is not true – onl...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 36,
+      "source_url": "https://arxiv.org/pdf/1906.06843",
+      "quote": "AUC2017=0.85",
+      "locator": "Fig. 5 label",
+      "status": "valid",
+      "context": "...m unconnected concepts that had been mentioned true positive rate 0 1 0,5 0,5 false positive rate 1 auc2017=0.85 figure 5. quantifying the prediction quality of the neu- ral network regarding whether unconnected ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 36,
+      "source_url": "https://arxiv.org/pdf/1906.06843",
+      "quote": "roughly 5% of all edges have been drawn by the end of 2017",
+      "locator": "Results",
+      "status": "valid",
+      "context": "...twork and its training is shown in figure 4. its task is to rank all unconnected pairs of concepts (roughly 5% of all edges have been drawn by the end of 2017), starting with the pair that is most likely to be connected ﬁve years, up to the pair that most li...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 37,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7374558/fullTextXML",
+      "quote": "absorbing, absorbing to mutual, back-nurture and mutual mode",
+      "locator": "Results, knowledge-flow modes",
+      "status": "valid",
+      "context": "...ther. the four panels illustrate the four major classes of behaviour (modes) we have found, namely: absorbing, absorbing to mutual, back-nurture and mutual mode. absorbing mode can be seen in field gpe, which has absorbed more knowledge from fields atm and eoa...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 42,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7302634/fullTextXML",
+      "quote": "We evaluate the effectiveness of context similarity to forecast unseen PACS couples using standard performance metrics such as the ROC-AUC and the best F1-score.",
+      "locator": "Results",
+      "status": "valid",
+      "context": "...rate classes accordingly: class 0 if they appear together in at least one paper, class 1 otherwise. we evaluate the effectiveness of context similarity to forecast unseen pacs couples using standard performance metrics such as the roc-auc and the best f1-score. we test our metric against a null model that takes into account the relative growth of each field r...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 43,
+      "source_url": "https://arxiv.org/pdf/2405.15828",
+      "quote": "every field in our corpus experiencing a rapid increase in the diffusion of AI-engaged research across their publication venues",
+      "locator": "Ubiquity section",
+      "status": "valid",
+      "context": "...gement is becoming more ubiquitous within fields in the last decade is striking (see figure 4) with every field in our corpus experiencing a rapid increase in the diffusion of ai-engaged research across their publication venues. 0.08 0.16 0.24 ubiquity agricultural and food sciences 0.15 0.30 art 0.10 0.20 0.30 biology 0.20 0...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 44,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7971485/fullTextXML",
+      "quote": "both models achieved good results when predicting the inactive to active (0 → A) transition for scientists and institutions (average AUROC >0.8)",
+      "locator": "Conclusions",
+      "status": "valid",
+      "context": "... considers the task of predicting transitions for a recent 3-year window (2014-2016). in this task, both models achieved good results when predicting the inactive to active (0 → a) transition for scientists and institutions (average auroc >0.8), but the frequentist model outperformed the embedding model by approximately 3-4%. the differences ...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 44,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7971485/fullTextXML",
+      "quote": "over a time window [t − ΔRCA, t]",
+      "locator": "Methods",
+      "status": "valid",
+      "context": "...f. to predict each of these transitions, we define the appropriate indicator matrix u(t) = [usf(t)] over a time window [t − δrca, t]: usf(t)={1[rcasf(t)>0]for0→a,1[rcasf(t)>1]for{n,i}→d. where 1[x] denotes the indicator function, wh...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 46,
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3545262/fullTextXML",
+      "quote": "The key idea behind our model is that new scientific fields emerge from splitting and merging of these social communities.",
+      "locator": "Introduction",
+      "status": "valid",
+      "context": "...ose their collaborators, while groups of collaborating scholars represent scientific disciplines16. the key idea behind our model is that new scientific fields emerge from splitting and merging of these social communities. splitting can account for branching mechanisms such as specialization and fragmentation, while merg...",
+      "match_type": "exact"
+    },
+    {
+      "source_index": 50,
+      "source_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.joi.2020.101092?fields=title,year,authors,venue,abstract,externalIds",
+      "quote": "preferential attachment takes effect in cross-disciplinary knowledge meme diffusion",
+      "locator": "Abstract",
+      "status": "valid",
+      "context": "...measured by knowledge memes, which are different from those measured by citations. it is shown that preferential attachment takes effect in cross-disciplinary knowledge meme diffusion. in addition, cross-disciplinary knowledge memes generally originate earlier and have higher impact...",
+      "match_type": "exact"
+    }
+  ]
+}

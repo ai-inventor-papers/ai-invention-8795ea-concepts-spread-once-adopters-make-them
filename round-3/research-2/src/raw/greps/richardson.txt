@@ -1,0 +1,81 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.ibot.cas.cz/personal/pysek/pdf/naturalization_and_invasion_%20of_alien_plants.pdf
+Type: PDF
+Pattern: Casual alien|Naturalized plants|rely on repeated introductions|residence time|failed (6 matches in 61756 chars)
+
+--- Content ---
+
+3028:...usually requires that the alien
+taxon overcomes a different category of barriers.
+We propose that the term ‘invasive’ should be
+used without any inference to environmental or
+economic impact. Terms like ‘pests’ and ‘weeds’
+are suitable labels for the 50–80% of invaders
+that have harmful effects. About 10% of invas-
+ive plants that change the character, condition,
+form, or nature of ecosystems over substantial
+areas may be termed ‘transformers’.
+Key words. aliens, barriers, biological invasions,
+casual alien plants, invaders, naturalized species,
+pests, plant introduction, transformers, weeds.
+INTRODUCTION
+The expanding ﬁeld of invasion ecology has
+seen a proliferation of terms to describe vari-
+ous concepts. There has also been considerable
+confusion and misuse of existing terminology.
+Invasion ecology has perhaps suffered more
+than most scientiﬁc disciplines since the notion
+of ‘invasion’ frequently evokes anthropocentric
+concepts (aggression, assault, attack, encroach-
+ment, incursion, infringem...
+--
+18650:... by Holub & Jirásek
+(1967) who wrote about ‘Grad ihrer Naturaliza-
+tion’ (degree of naturalization) and deﬁned the
+naturalization of human-accompanying plants
+(‘Naturalization der Anthropophyten’) as ‘eine
+bis zur Einbürgerung gehende Anpassung der im
+Gebiete ursprünglich fremden Pﬂanzen’ (i.e. a
+process of adaptation of alien plants that can
+lead to their incorporation into native vegeta-
+tion). They explicitly mention particular degrees
+of naturalization, from the stage of ‘ephem-
+erophytes’ (casual alien plants; see Table 1),
+to temporarily established aliens, to those
+that are permanently present in either natural
+or human-modiﬁed habitats. Holub & Jirásek
+(1967) proposed special terms for plants intro-
+duced intentionally (‘Akklimatization’) or unin-
+tentionally (‘Xenonaturalization’).
+It may be argued that the bewildering array
+of concepts and terms used to describe non-
+native plants in Europe is due to the very long
+history of human habitation of the region,
+which has resulted in many taxa...
+--
+21656:... australis). Several authors have attempted
+to deﬁne the degree to which an alien taxon is
+naturalized. For example, in Flora Europaea
+
+98
+D. M. Richardson et al.
+© 2000 Blackwell Science Ltd, Diversity and Distributions, 6, 93–107
+Table 1 Recommended terminology in plant invasion ecology
+Alien plants1
+Plant taxa in a given area whose presence there is due to intentional or accidental introduction as a result of human activity (synonyms: 
+exotic plants, non-native plants; nonindigenous plants).
+Casual alien plants
+Alien plants that may ﬂourish and even reproduce occasionally in an area, but which do not form self-replacing populations, and which rely 
+on repeated introductions for their persistence (includes taxa labelled in the literature as ‘waifs’, ‘transients’, ‘occasional escapes’ and 
+‘persisting after cultivation’, and corresponds to De Candolle’s (1855, p. 643) usage of the term ‘adventive’2).
+Naturalized plants
+Alien plants that reproduce consistently (cf. casual alien plants) and sustain populations over many life cycles without direct intervention by 
+humans (or in spite of human intervention); they often recruit offspring freely, usually close to adult plants, and do not necessarily invade 
+natural, seminatural or human-made ecosystems.
+Invasive plants3
+Naturalized plants that produce reproductive offspring, often in very large numbers, at considerable distances from parent plants 
+(approximate scales: > 100 m; < 50 years for taxa spreading by seeds and other propagules4; > 6 m/3 years for taxa spreading by roots, 
+rhizomes, stolons, or creeping stems), and thus have the potential to spread over a considerable area.
+Weeds
+Plants (not necessarily alien) that grow in sites where they are not wanted and which usually have detectable economic or environmental 
+effec...

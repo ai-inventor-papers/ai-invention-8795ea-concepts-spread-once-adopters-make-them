@@ -1,0 +1,207 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/1801.05352
+Type: PDF
+Pattern: new product|new export|entr(y|ies) (is|are) defin|0\.25|0\.5|below|remain|sustain|during|period|window|years (188 matches in 83938 chars)
+
+--- Content ---
+
+1116:..., Norway 
+ 
+* Correspondence to: flaviopp@mit.edu, and hidalgo@mit.edu 
+† Current Address: The MIT Media Lab, 75 Amherst Street, Cambridge, MA 02139 
+ 
+ 
+Abstract 
+Countries tend to diversify their exports by entering products that are related to their 
+current exports. Yet this average behavior is not representative of every 
+diversification path. In this paper, we introduce a method to identify periods when 
+countries enter unrelated products. We analyze the economic diversification paths of 
+93 countries between 1965 and 2014 and find that countries enter unrelated products 
+in only about 7.2% of all observations. We find that countries enter more unrelated 
+products when they are at an intermediate level of economic development, and when 
+they have higher levels of human capital. Finally, we...
+--
+1986:...ster than those entering only related products. The 
+data shows that countries that enter more unrelated activities experience a small but 
+significant increase in future economic growth, compared to countries with a similar 
+level of income, human capital, capital stock per worker, and economic complexity.  
+ 
+Keywords: relatedness, product space, unrelated diversification, economic 
+complexity, new export products, economic growth 
+ 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+2 
+Introduction 
+A well-established fact in the literature on international and regional economic 
+development is that countries (Hidalgo, Klinger, Barabási, & Hausmann, 2007), 
+regions (Coniglio, Lagravinese, Vurchio, & Armenise, 2018; Gao et al., 2017; Neffke, 
+Henning, & Boschma, 2011; Zhu, He, & Zhou, ...
+--
+3753:...e introduce a method to identify when countries enter unrelated 
+activities and use it to identify the countries that do so more frequently. Finally, we 
+study the macroeconomic consequences of such deviations by studying whether 
+countries that entered more unrelated activities grew faster.  
+But how common it is for a country to enter an unrelated activity? In a dataset 
+containing 93 countries during the period 1965-2014, we find that in 92.8% of the 
+observed cases countries enter the export of products that are more related than the 
+average product in their option set. This means that in only 7.2% of the cases 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+3 
+countries deviate from the principle of relatedness and enter products that are on 
+average, less related than their option se...
+--
+5414:...ntry is linked with the type of related activity 
+development. 
+Finally, we ask whether countries entering more unrelated activities grow faster, after 
+controlling for their initial level of GDP per capita, economic complexity, and human 
+capital. We find that countries entering more unrelated activities experience a small 
+but significant increase in their subsequent growth performance of about 0.5% per 
+annum. In other words, our findings show that deviations from the principle of 
+relatedness occur especially in countries at an intermediate stage of development, and 
+that countries that succeed in developing unrelated activities experience a small but 
+significant boost in economic growth. 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+4 
+Literature Review 
+Knowledge prod...
+--
+12846:...orker, and human capital. 
+Materials and Methods 
+Data 
+We use international trade data from the MIT’s Observatory of Economic 
+Complexity (atlas.media.mit.edu). We use the SITC-4 rev 2 product classification, 
+since it provides the longest time series: 1962 to 2014. This dataset combines exports 
+data from 1962 to 2000, compiled by Feenstra et al. (2005), and data from the U.N. 
+Comtrade for the period between 2001 and 2014. This data contains detailed trade 
+information for 225 countries and 1,004 distinct products.  
+We reduce noise coming from underreporting and from variations in the size of the 
+economies of countries and products by using several filters. First, we filter out all 
+city-sized national economies, by discarding all countries with a population of fewer 
+than 1.2 million citizens and a total trade below USD 1 billion in 2008. Moreover, 
+economies for which no reliable data was available—such as Iraq (IRQ), Chad 
+(TCD), Macau (MAC) and Afghanistan (AFG)—were discarded. Finally, we employ 
+several time-dependent filters. All yearly trade flows valued at less than 5,000 USD 
+were discarded. Also, we discarded all products whose exports value is equal to zero 
+
+Pinheiro, Alshamsi, Hartmann, Boschma ...
+--
+14333:... countries and products 
+that do not have a significant relevance in the global trade and that would, otherwise, 
+introduce noise to the analysis. After applying these filters, our final sample consists 
+of 117 countries, representing 97.45% of global GDP and 86.67% of global trade in 
+2008. We use 2008 as a point of reference since this is the last year for which we can 
+estimate regressions for new products (from 2008 to 2010) and validate them during 
+the following four years (from 2010 to 2014).  
+We use GDP, population and human capital from the Penn World Tables (PWT 9.0). 
+The GDP data comes from real GDP National Accounts, measuring GDP in constant 
+USD in 2005 (Feenstra, Inklaar, & Timmer, 2015). To measure changes in a country’s 
+productive structure—which require long time series data—we restrict our analysis to 
+a subset of 93 countries for which data is available during the entire interval of 
+analysis, from 1965 until 2010 (see Appendix A). These countries correspond to 
+86.73% of global GDP and 73.31% of global trade in 2010. 
+ 
+The Economic Complexity Index 
+The Economic Complexity Index (ECI) is a measure of the knowledge intensity of 
+economies and products that can be computed from trade data. Here, we compute the 
+Economic Complexity Index (ECI) and the P...
+--
+16434:...ersity of a country as the number of 
+products that it exports (5" = ∑2"#
+#
+)  with revealed comparative advantage, and the 
+ubiquity of a product as the number of countries that export such product with 
+revealed comparative advantage (5# = ∑2"#
+"
+). 
+Moreover, we define the product basket of a country (c) at year (y) as all products for 
+which that country holds RCA greater or equal to one. The remaining products, which 
+have RCA lower than 1, comprise the option set of a country (c) at year (y). This 
+option set is denoted by O"7. 
+Using the above definitions, the knowledge intensity of a country (ECI) is computed 
+as the average knowledge intensity of the products it exports (i.e. the average PCI of 
+its exports). Conversely, we compute the knowledge intensity of a product (PCI) as 
+the aver...
+--
+18717:...ts it does not export. The resulting quantity is 
+commonly referred to as the density, J"#, of product p in country c and computed as: 
+ 
+J"# =
+∑
+2"#+
+#+
+B##+
+∑
+B##+
+#+
+                      
+(6) 
+ 
+Higher density products are products that are more related/similar to the export 
+capacities of a country, whereas lower density products correspond to 
+unrelated/farther away products. 
+ 
+Identifying New Products 
+Here we propose a new methodology to quantify the relative level of relatedness 
+and complexity of newly developed products by a country, which requires identifying 
+when a country enters a new product. To that end, we say that a country (c) enters a 
+new product (p), between years y and y’, when it is able to jump from RCA lower 
+than 1.0 at year y to RCA above or equal to 1.0 at year y’.  
+However, since the RCA depends on export data, the temporal patterns tend to be 
+very noisy. As a result, this methodology, alone, is prone to false-positives (e.g., 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+12 
+temporal spikes in the exports of a country that do not repeat). To correct for false-
+positives, we implement two additional conditions: First, we consider a backward 
+condition that requires that a country c had an RCA lower than 1.0 over product p for 
+four consecutive years before y; Secondly, a forward condition requires that a country 
+c is able to maintain a RCA above or equal to 1.00 over product p during the 
+following 4 years after y’. We only consider as newly developed products those that 
+verify both conditions.  
+Results 
+Following the relatedness literature (Boschma, 2017; Hidalgo et al., 2017), we test 
+firstly if, on average, countries are more likely to diversify towards products that are 
+related to their current exports. Figure 1a shows a visualization of the product space 
+(the network connecting similar pr...
+--
+20842:... current exports. 
+ Figures 1b and 1c reproduce the basic finding of the relatedness literature. They 
+show that the probability that a country will develop RCA in a product is larger for 
+more related products. Figure 1b estimates relatedness using the density measure 
+described in equation 5. Density estimates the relatedness between all of the products 
+exported by a country and each potential new export product. Figure 1c estimates 
+relatedness using the proximity of each potential product to the closest exported 
+product. Both methods show that countries are — on average — more likely to start 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+13 
+exporting products that are related to their current exports. These results are robust to 
+different threshold values of RCA from 0.5 to 1.5.  
+ 
+ 
+Figure 1 – Product Space and the Principle of Relatedness. Panel a) shows the Product Space, 
+highlighting, as an example, the products in which South Korea had RCA over 1 in 1987. The colors of 
+the nodes correspond to the sectors described in the legend on the left. Panel b) shows the probability 
+of developing a new export product over a four years period as a function of density. Panel c) shows 
+the probability of developing a new export product over a four years period as a function of the 
+proximity to the closest developed product. A new export product is considered to be developed if in a 
+four-year period it undergoes a transition from !"# < 1 to !"# ≥1. 
+ 
+Yet, both of these measures of relatedness cannot be readily used for comparisons 
+across countries. Density estimates the distance between a product and all of the 
+rela...
+--
+[163 more matches not shown]

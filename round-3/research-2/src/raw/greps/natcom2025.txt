@@ -1,0 +1,104 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nature.com/articles/s41467-025-65043-0
+Type: HTML
+Pattern: Abstract|persist|consecutive|short-term|noise|RCA|exit|lost|AUC|density (251 matches in 161466 chars)
+
+--- Content ---
+
+1250:...w.nature.com/articles/s41467-025-65043-0)
+
+
+
+  * Content Explore content
+  * About the journal
+  * Publish with us
+
+
+  * [ Sign up for alerts ](https://journal-alerts.springernature.com/subscribe?journal_id=41467)
+  * [ RSS feed ](https://www.nature.com/ncomms.rss)
+
+
+
+  1. [nature](/)
+  2. [nature communications](/ncomms)
+  3. [articles](/ncomms/articles?type=article)
+  4. article
+
+
+
+Bridging the short-term and long-term dynamics of economic structural change 
+
+[ Download PDF ](/articles/s41467-025-65043-0.pdf)
+
+[ Download PDF ](/articles/s41467-025-65043-0.pdf)
+
+  * Article
+  * [Open access](https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research)
+  * Published: 20 November 2025
+
+
+
+# Bridging the short-term and long-term dynamics of economic structural change
+
+  * James McNerney [ORCID: orcid.org/0000-0001-8338-7244](https://orcid.org/0000-0001-8338-7244)1,2,3, 
+  * Yang Li [ORCID: orcid.org/0000-0002-9134-2051](https://orcid.org/0000-0002-9134-2051)1,4, 
+  * Andres Gomez-Lievano [ORCID: orcid.org/0000-0001-8320-0857](https://orcid.org/0000-0001-8320-0857)1,5 &
+  * …
+  * Frank Neffke [ORCID: orcid.o...
+--
+2456:...0000-0002-3924-6636)1,2
+
+Show authors
+
+[_Nature Communications_](/ncomms) **volume 16**, Article number: 10225 (2025) Cite this article
+
+[ Save article ](/articles/s41467-025-65043-0/save-research?_csrf=0UP752n5bh2MkGB0mjM5Z8sU3ohdQSxu)
+
+[ View saved research ](/saved-research)
+
+  * 8515 Accesses
+
+  * 2 Citations
+
+  * 2 Altmetric
+
+  * [Metrics details](/articles/s41467-025-65043-0/metrics)
+
+
+
+
+## Abstract
+
+Economic development hinges on structural change, that is, transformations in what an economy produces. The field of economic complexity has investigated this process through two related but distinct branches: one studying how economies diversify, the other how the complexity of an economy is reflected in its output. However, a formal connection between these approaches, and their relationship to classic accounts of structural transformation (for example, from agriculture to manufacturing), remains unclear. Here we introduce a simple dynamical model that links these perspectives through one core idea: economies diversify preferentially into activities related to those they already do. Studying this model yields three main results: It generates quantities resembling economic complexity metrics, suggests these metrics summarize long-term structural change rather than directly infer an economy’s complexity, and reproduces stylized facts of development. Our framework formally connects the field’s conceptual strands, bridges short and long timescales of change, and adds granularity to classic descriptions of development.
+
+### Similar content being viewed by others
+
+###  [Financial development and macroeconomic interdependencies in developing economies: a comparative panel analysis ](https://www.nature.com/articles/s41599-026-08570-5?fromPaywallRec=false)
+
+Article Open access 06 August 2026
+
+###  [Assessing the impact of climate change on entrepreneurship: short-term and long-term effects ](https://www.nature.com/articles/s41599-025-04763-6?fromPaywallRec=false)
+
+Article Open access 29 March 2025
+
+###  [Macroeconomic impacts of local population dynamics and acute climate events: a 20-year global perspective ](https://www.nature.com/articles/s41599-026-08389-0?fromPaywallRec=false)
+
+Article Open access 17 July 2026
+
+### Explore related subjects
+
+Discover the latest articles and news in related subjects.
+
+  * [Developing world](/subjects/developing-world)
+  * [Economics](/subjects/economics)
+  * [Economic Complexity and Development Dynamics](/subjects/economic-complexity-and-development-dynamics)
+
+
+
+## Introduction
+
+An economy’s prosperity is tied to the economic activities it can develop[1](/articles/s41467-025-65043-0#ref-CR1 "Hausmann, R., Hwang, J. & Rodrik, D. What you export matters. J. Econ. Growth 12, 1–25 \(2007\)."). Whereas places like the city of London and the country of Japan have grown economies containing diverse and high-value industries, others struggle to shift out of a narrow range of sectors with low economic returns. Seeking to understand why, the field of economic complexity has developed two branches of investigation. The first asks how economies enter new economic activities and finds that such economic diversification is biased toward new activities that are related to ones already in place. This tendency has been corroborated in work on industry clusters[2](/articles/s41467-025-65043-0#ref-CR2 "Porter, M. The economic performance of regions. Reg. Stud. 37, 549–5...
+--
+7464:... countries grow by gaining _capabilities_. Different combinations of capabilities enable the production of different products, with more complex economies possessing more capabilities and more complex products requiring more. Capabilities are sometimes seen as hidden variables, information about which must be inferred from country output baskets, and thus a key objective has been to develop _complexity metrics_ that extract complexity from data18,19,20,21,22,23,24,25,26,27,28,29,[30](/articles/s41467-025-65043-0#ref-CR30 "Gomez-Lievano, A. & Patterson-Lomba, O. Estimating the drivers of urban economic complexity and their connection to economic performance. R. Soc. open Sci. 8, 210670 \(2021\)."). These metrics aim to estimate the complexity of places and products from the structure of bipartite networks that link places to those products they make in economically-significant quantities (in other words, suggesting the location has the needed capabilities to engage competitively in a product market). The earliest complexity metrics were the Economic Complexity Index (ECI)[18](/articles/s41467-025-65043-0#ref-CR18 "Hidalgo, C. A. & Hausmann, R. The building blocks of economic complexity. Proc. Natl Acad. Sci. 106, 10570 – 10575 \(2009\).") and country Fitness[19](/articles/s41467-025-65043-0#ref-CR19 "Tacchella, A., Cristelli, M., Caldarelli, G., Gabrielli, A. & Pietronero, L. A new metric for countries’ fitness and products’ complexity. Sci. Rep. 2, 1–7 \(2012\)."), and others (such as GENEPY, the generalized Economic comPlexitY index) have been proposed in their wake[23](/articles/s41467-025-65043-0#ref-CR23 "Servedio, V. D., Buttà, P., Mazzilli, D., Tacchella, A. & Pietronero, L. A new and stable estimation method of country economic fitness and product complexity. Entropy 20, 783 \(2018\)."),[24](/articles/s41467-025-65043-0#ref-CR24 "Teza, G., Caraglio, M. & Stella, A. L. Growth dynamics and complexity of national e...
+--
+[231 more matches not shown]

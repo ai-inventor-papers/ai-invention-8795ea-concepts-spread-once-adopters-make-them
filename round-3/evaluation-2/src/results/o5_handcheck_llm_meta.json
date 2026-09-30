@@ -1,0 +1,6 @@
+{
+ "model": "openai/gpt-4.1-mini",
+ "llm_cost_usd": 0.009030400000000001,
+ "n_llm_calls": 50,
+ "cap_usd": 1.0
+}
