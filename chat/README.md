@@ -7,4 +7,4 @@ The complete conversational record of this AI Inventor run, in two views:
 
 The first two mirror the run's pipeline structure (create_idea → test_idea → report_results, with a folder per phase / round / module), and are generated automatically at repository-upload time from the run's event log.
 
-- Run: Concepts spread where they stick: network signals of cross-disciplinary diffusion in science
+- Run: Early co-occurrence network openness predicts cross-disciplinary concept breadth: evidence from 12,499 scientific concepts
