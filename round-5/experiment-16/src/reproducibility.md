@@ -31,11 +31,11 @@ All inputs are read, read-only, from earlier artifacts of the same run. The code
 
 | artifact id | expected relative location under `AII_RUN_ROOT` | what is read |
 |---|---|---|
-| art_NMe386dX9GLF (EXP10) | `3_invention_loop/iter_4/gen_art/gen_art_experiment_10` | `inputs/` (topic backbone slices, topic meta, lexicon), `data/{ego_open_*, features_exp5_open, analysis_cohort, passC_early, passC_pre_agg, cohort_candidates.csv, bg_topics.npz, sealed/parts}`, `results/{frozen_spec, cohort_result}.json` |
-| art_dFQ6jbgNsR6Q (EXP8) | `3_invention_loop/iter_3/gen_art/gen_art_experiment_8` | `data/frame_matches_early/part_*.parquet` |
-| art_wxWssKSUR45f (EXP5) | `3_invention_loop/iter_2/gen_art/gen_art_experiment_5` | `frame_concepts.csv`, `scan/agg_counts.parquet` (outcome-window field counts) |
-| art_uw4OeagJP3rv (EXP12) | `3_invention_loop/iter_4/gen_art/gen_art_experiment_12` | `open_features.parquet` (cross-check only) |
-| art_O7Dq4L02QnDN (dataset) | `3_invention_loop/iter_2/gen_art/gen_art_dataset_2` | `full_data_out/*.json` (concept key cross-check only) |
+| art_NMe386dX9GLF (EXP10) | `round-4/experiment-10/src` | `inputs/` (topic backbone slices, topic meta, lexicon), `data/{ego_open_*, features_exp5_open, analysis_cohort, passC_early, passC_pre_agg, cohort_candidates.csv, bg_topics.npz, sealed/parts}`, `results/{frozen_spec, cohort_result}.json` |
+| art_dFQ6jbgNsR6Q (EXP8) | `round-3/experiment-8/src` | `data/frame_matches_early/part_*.parquet` |
+| art_wxWssKSUR45f (EXP5) | `round-2/experiment-5/src` | `frame_concepts.csv`, `scan/agg_counts.parquet` (outcome-window field counts) |
+| art_uw4OeagJP3rv (EXP12) | `round-4/experiment-12/src` | `open_features.parquet` (cross-check only) |
+| art_O7Dq4L02QnDN (dataset) | `round-2/dataset-2/src` | `full_data_out/*.json` (concept key cross-check only) |
 
 If your clone lays these artifacts out differently, create that directory tree with symlinks and `export AII_RUN_ROOT=<that dir>`.
 

@@ -22,7 +22,7 @@ import d3
 import h2_exp6
 from common import DATA, EXP5, NY, RES, RUN_ROOT, Y0, jdump, load_frame, setup_logger
 
-EXP7 = RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_7"
+EXP7 = RUN_ROOT / "round-3/experiment-7/src"
 
 
 def home_list(h) -> list[int]:

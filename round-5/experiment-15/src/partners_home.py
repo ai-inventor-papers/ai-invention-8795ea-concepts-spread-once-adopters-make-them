@@ -273,7 +273,7 @@ def run_chunk(k: int, jobs: list, mode: str) -> tuple[int, list, list, list, flo
 
 # ----------------------------------------------------------------------------- jobs (Exp10 s7_ego.jobs_*, + work_id)
 def load_frame():
-    fr = pd.read_csv(E11.parents[2] / "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv")
+    fr = pd.read_csv(E11.parents[2] / "round-2/experiment-5/src/frame_concepts.csv")
     return fr
 
 

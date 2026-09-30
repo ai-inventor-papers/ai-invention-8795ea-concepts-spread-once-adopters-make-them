@@ -1,6 +1,6 @@
 import sys, json, numpy as np, pandas as pd
 from pathlib import Path
-import os; E=Path(os.environ.get('AII_RUN_ROOT', str(Path(__file__).resolve().parents[5]))) / '3_invention_loop/iter_4/gen_art/gen_art_experiment_10'; T=Path('tests/t1_parts')
+import os; E=Path(os.environ.get('AII_RUN_ROOT', str(Path(__file__).resolve().parents[5]))) / 'round-4/experiment-10/src'; T=Path('tests/t1_parts')
 cc=pd.read_csv('inputs/cohort_candidates.csv'); cis=set(cc.ci)
 out={}
 for fi in (65,1125,1407):

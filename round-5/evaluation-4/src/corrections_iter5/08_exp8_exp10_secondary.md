@@ -26,7 +26,7 @@ Keyed values: CONTACT_REACH on O2r_m50 given R0 +0.211 [+0.122, +0.294], without
 
 The transience (O3) row is **evaluable and null**: AUC +0.540 vs +0.561, difference -0.021 [-0.130, +0.101]. The earlier row, which labelled this transience difference as not evaluable, was wrong. The frozen B5 + OPEN_home forecast adds +0.002 [-0.003, +0.008] (Section 25.7).
 
-Source: `iter_4/gen_art/gen_art_experiment_10/results/learned_models_cohort.json`; `cohort_result.json` -> `secondary.frozen_prediction_O2r_m50`.
+Source: `round-4/experiment-10/src/results/learned_models_cohort.json`; `cohort_result.json` -> `secondary.frozen_prediction_O2r_m50`.
 
 ## 19.5b
 
@@ -50,4 +50,4 @@ Source: `iter_4/gen_art/gen_art_experiment_10/results/learned_models_cohort.json
 | NOV | +0.175 [+0.076, +0.265] (391) | +0.033 [-0.046, +0.119] (604)† | +0.132 [+0.051, +0.210] (668) | +0.440 [+0.194, +0.632] (85) | +0.114 [+0.058, +0.170] (1296) | +0.038 [-0.032, +0.109] (782)† | 2 |
 | ego_density_W3 | -0.081 [-0.182, +0.024] (397)† | -0.078 [-0.164, +0.008] (610)† | -0.122 [-0.199, -0.043] (668) | -0.236 [-0.434, +0.029] (96)† | -0.095 [-0.150, -0.034] (1319) | -0.041 [-0.112, +0.030] (794)† | 4 |
 
-Source: `iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv` (outcome == O2r_m50); confirmed list from `heldout_summary.json -> O2r_m50[*].confirmed`.
+Source: `round-3/experiment-8/src/results/heldout_unit_results.csv` (outcome == O2r_m50); confirmed list from `heldout_summary.json -> O2r_m50[*].confirmed`.

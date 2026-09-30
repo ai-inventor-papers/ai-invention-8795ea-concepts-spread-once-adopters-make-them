@@ -29,7 +29,7 @@ import pandas as pd
 
 from common import DATA, DATA_IN, INPUTS, RES, RES_IN, RUN_ROOT, jdump, load_frame, read_parquet_parts, setup_logger
 
-EXP8 = RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_8"
+EXP8 = RUN_ROOT / "round-3/experiment-8/src"
 B5 = ["logvol", "growth_c", "offhome_share", "entropy", "reach"]
 OUTS = ["O2r_m50", "O2r_resid"]
 HELD = ["PHYS", "LIFEENV", "SOC", "MATHDEC"]

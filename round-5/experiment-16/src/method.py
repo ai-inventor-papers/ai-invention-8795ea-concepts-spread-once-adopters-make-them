@@ -106,7 +106,7 @@ def exp12_crosscheck() -> dict:
     """EXP12 (art_uw4OeagJP3rv) open_features.parquet: cross-check of the home-build component values where it
     overlaps (EXP5 frame). EXP12 used its own home-paper definition, so agreement is reported, not required."""
     from common import RUN_ROOT
-    p = RUN_ROOT / "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/open_features.parquet"
+    p = RUN_ROOT / "round-4/experiment-12/src/open_features.parquet"
     if not p.exists():
         return {"available": False}
     o = pd.read_parquet(p)

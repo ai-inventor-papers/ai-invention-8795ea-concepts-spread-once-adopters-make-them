@@ -26,7 +26,7 @@ WS = Path(__file__).resolve().parent
 RUNP = Path(os.environ.get("AII_RUN_ROOT", str(WS.parents[3])))   # directory that contains 3_invention_loop
 assert (RUNP / ".").exists(), RUNP
 BASE = WS
-SPEC = RUNP / "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/boundary_spec.json"
+SPEC = RUNP / "round-4/evaluation-3/src/results/boundary_spec.json"
 LOGS, RES, COR = WS / "logs", WS / "results", WS / "corrections_iter5"
 logger.remove()
 logger.add(sys.stdout, level="INFO", format="{time:HH:mm:ss}|{level:<7}|{message}")

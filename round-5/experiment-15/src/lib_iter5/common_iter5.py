@@ -14,11 +14,11 @@ import numpy as np
 LIB = Path(__file__).resolve().parent
 WS = LIB.parent
 RUN_ROOT = Path(os.environ.get("AII_RUN_ROOT", str(WS.parents[3])))
-E5 = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_5"
-E8 = RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_8"
-E10 = RUN_ROOT / "3_invention_loop/iter_4/gen_art/gen_art_experiment_10"
+E5 = RUN_ROOT / "round-2/experiment-5/src"
+E8 = RUN_ROOT / "round-3/experiment-8/src"
+E10 = RUN_ROOT / "round-4/experiment-10/src"
 E11 = RUN_ROOT / "3_invention_loop/iter_4/gen_art/gen_art_experiment_11"
-O5DIR = RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_dataset_2"
+O5DIR = RUN_ROOT / "round-2/dataset-2/src"
 DATA, RES, LOGS, FIGS = WS / "data", WS / "results", WS / "logs", WS / "figures"
 for _d in (DATA, RES, LOGS, FIGS):
     _d.mkdir(parents=True, exist_ok=True)

@@ -6,7 +6,7 @@
    "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
   },
   {
-   "dir": "iter_1/gen_art/gen_art_experiment_1",
+   "dir": "round-1/experiment-1/src",
    "status": "completed",
    "evidence": "structured output present"
   },
@@ -16,52 +16,52 @@
    "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
   },
   {
-   "dir": "iter_1/gen_art/gen_art_experiment_3",
+   "dir": "round-1/experiment-3/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_1/gen_art/gen_art_experiment_4",
+   "dir": "round-1/experiment-4/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_2/gen_art/gen_art_dataset_2",
+   "dir": "round-2/dataset-2/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_2/gen_art/gen_art_evaluation_1",
+   "dir": "round-2/evaluation-1/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_2/gen_art/gen_art_experiment_5",
+   "dir": "round-2/experiment-5/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_2/gen_art/gen_art_experiment_6",
+   "dir": "round-2/experiment-6/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_2/gen_art/gen_art_research_1",
+   "dir": "round-2/research-1/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_3/gen_art/gen_art_evaluation_2",
+   "dir": "round-3/evaluation-2/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_3/gen_art/gen_art_experiment_7",
+   "dir": "round-3/experiment-7/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_3/gen_art/gen_art_experiment_8",
+   "dir": "round-3/experiment-8/src",
    "status": "completed",
    "evidence": "structured output present"
   },
@@ -71,17 +71,17 @@
    "evidence": "result.failed = true (output_format validation failed after 5 retries: The output )"
   },
   {
-   "dir": "iter_3/gen_art/gen_art_research_2",
+   "dir": "round-3/research-2/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_4/gen_art/gen_art_evaluation_3",
+   "dir": "round-4/evaluation-3/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_4/gen_art/gen_art_experiment_10",
+   "dir": "round-4/experiment-10/src",
    "status": "completed",
    "evidence": "structured output present"
   },
@@ -91,12 +91,12 @@
    "evidence": "no .aii_worker_result.json"
   },
   {
-   "dir": "iter_4/gen_art/gen_art_experiment_12",
+   "dir": "round-4/experiment-12/src",
    "status": "completed",
    "evidence": "structured output present"
   },
   {
-   "dir": "iter_4/gen_art/gen_art_research_3",
+   "dir": "round-4/research-3/src",
    "status": "completed",
    "evidence": "structured output present"
   }

@@ -18,7 +18,7 @@ Pairs were selected on OPEN_all (top vs bottom quintile within reporting group),
 
 The high-OPEN_all member is broader (higher O2r_resid) in 7/7 pairs and has more retained off-home fields (Bn) in 5/7. In 0/7 pairs the OPEN_home ordering disagrees with the OPEN_all ordering, so these pairs illustrate the all-papers build, which Section 25.4 shows is mechanically coupled to spread.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/case_pairs.json` -> `pairs[i].{OPEN_all,OPEN_home,logvol,O2r_resid,rho,Bn,E2}`; counts in `results/derived.json`.
+Source: `round-4/experiment-12/src/results/case_pairs.json` -> `pairs[i].{OPEN_all,OPEN_home,logvol,O2r_resid,rho,Bn,E2}`; counts in `results/derived.json`.
 
 ### 26.5 Exploratory AI atlas: retrospective, outcome-selected (37 concepts)
 
@@ -66,4 +66,4 @@ Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/case_pair
 
 Measures that looked meaningful across types (`atlas.json -> looked_meaningful`): `n_c`, `H`, `n_ent_off`, `n_ret`, `comm_span`, `frontier`, `n_comm_W3_all`, `participation_all`, `ego_density_W3_all`, `OPEN_all`, `OPEN_home`. Data limit: topic-level ego structure exists only for t0-3..t0+2 (EXP8 Pass A kept only those hits; no snapshot pass is allowed here), so topic-neighbour change after t0+2 cannot be shown.
 
-Source: `3_invention_loop/iter_4/gen_art/gen_art_experiment_12/ai_atlas/atlas.json` -> `concepts[i]` (the 37-concept list; `ai_atlas/table.csv` is the per-measure median table by type, not the concept list).
+Source: `round-4/experiment-12/src/ai_atlas/atlas.json` -> `concepts[i]` (the 37-concept list; `ai_atlas/table.csv` is the per-measure median table by type, not the concept list).

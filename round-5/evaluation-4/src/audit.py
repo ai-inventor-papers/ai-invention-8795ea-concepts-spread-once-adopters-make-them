@@ -22,9 +22,9 @@ import pandas as pd
 WS = Path(__file__).resolve().parent
 RUN = Path(os.environ.get("AII_RUN_ROOT", str(WS.parents[3])))
 LOOP = RUN / "."
-E10 = LOOP / "iter_4/gen_art/gen_art_experiment_10"
-E8 = LOOP / "iter_3/gen_art/gen_art_experiment_8"
-EXP5 = LOOP / "iter_2/gen_art/gen_art_experiment_5"
+E10 = LOOP / "round-4/experiment-10/src"
+E8 = LOOP / "round-3/experiment-8/src"
+EXP5 = LOOP / "round-2/experiment-5/src"
 COMP = ["new_edge_rate", "n_comm_W3", "participation", "NOV_res", "ego_density_W3", "edge_persistence"]
 GROUP = {"CS": "CS+Eng", "Eng": "CS+Eng", "BGM": "BGM+Med", "Med": "BGM+Med"}
 
