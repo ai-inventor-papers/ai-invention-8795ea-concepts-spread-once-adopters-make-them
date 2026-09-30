@@ -1,0 +1,1106 @@
+{
+ "datasets": [
+  {
+   "dataset": "concept_recognition",
+   "examples": [
+    {
+     "input": "{\"openalex_id\": \"C144501496\", \"qid\": \"Q5533489\", \"qid_resolved\": \"Q5533489\", \"label\": \"Genome editing\", \"label_norm\": \"genome editing\", \"aliases\": [\"genome editing\", \"Genome engineering\"], \"aliases_norm\": [\"genome engineering\"], \"acronyms\": [], \"level\": 4, \"ancestor_ids\": [\"C98108389\", \"C141231307\",...",
+     "output": "{\"events\": [{\"source\": \"nature_methods_moty\", \"event_type\": \"nature_methods_method_of_the_year\", \"year\": 2011, \"date\": null, \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"embed+llm\", \"match_confidence\": 0.85, \"relation\": \"broader\", \"entry_id\": \"nature_methods_moty:2011:1.0:4\", \"detail\":...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 4,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 11,
+     "metadata_n_events_year_usable": 10,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C144501496",
+     "metadata_qid": "Q5533489"
+    },
+    {
+     "input": "{\"openalex_id\": \"C46111723\", \"qid\": \"Q471857\", \"qid_resolved\": \"Q471857\", \"label\": \"Proteomics\", \"label_norm\": \"proteomic\", \"aliases\": [\"proteomics\"], \"aliases_norm\": [], \"acronyms\": [], \"level\": 3, \"ancestor_ids\": [\"C104317684\", \"C55493867\", \"C54355233\", \"C86803240\", \"C185592680\"], \"level0_discipli...",
+     "output": "{\"events\": [{\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2002, \"date\": \"2002-06-05\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Pr...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 3,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 9,
+     "metadata_n_events_year_usable": 9,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C46111723",
+     "metadata_qid": "Q471857"
+    },
+    {
+     "input": "{\"openalex_id\": \"C152662350\", \"qid\": \"Q815297\", \"qid_resolved\": \"Q815297\", \"label\": \"Systems biology\", \"label_norm\": \"systems biology\", \"aliases\": [\"systems biology\", \"systems approach to biology\", \"system biology\"], \"aliases_norm\": [\"system biology\", \"systems approach to biology\"], \"acronyms\": [], ...",
+     "output": "{\"events\": [{\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2004, \"date\": \"2004-02-13\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Sy...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 2,
+     "metadata_l1_fields": [
+      "13",
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology"
+     ],
+     "metadata_n_events": 8,
+     "metadata_n_events_year_usable": 8,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C152662350",
+     "metadata_qid": "Q815297"
+    },
+    {
+     "input": "{\"openalex_id\": \"C189206191\", \"qid\": \"Q222046\", \"qid_resolved\": \"Q222046\", \"label\": \"Genomics\", \"label_norm\": \"genomic\", \"aliases\": [\"genomics\", \"genomic science\", \"genome science\", \"genome sciences\"], \"aliases_norm\": [\"genome science\", \"genomic science\"], \"acronyms\": [], \"level\": 4, \"ancestor_ids\":...",
+     "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 2001, \"date\": \"2001-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D023281\", \"detail\": {\"ui\": \"D023281\", \"name\": \"...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 4,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 8,
+     "metadata_n_events_year_usable": 8,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C189206191",
+     "metadata_qid": "Q222046"
+    },
+    {
+     "input": "{\"openalex_id\": \"C3019978661\", \"qid\": \"Q739734\", \"qid_resolved\": \"Q739734\", \"label\": \"Gut microbiome\", \"label_norm\": \"gut microbiome\", \"aliases\": [\"human gut flora\", \"gut microbiota\", \"gastrointestinal microbiota\", \"gut microbiome\", \"gastrointestinal microbiome\", \"Human gastrointestinal microbiota\",...",
+     "output": "{\"events\": [{\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2005, \"date\": \"2005-11-11\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Gu...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 0.75,
+     "metadata_level": 3,
+     "metadata_l1_fields": [
+      "13",
+      "13",
+      "13",
+      "24"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry",
+      "Medicine"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 7,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C3019978661",
+     "metadata_qid": "Q739734"
+    },
+    {
+     "input": "{\"openalex_id\": \"C2994067223\", \"qid\": \"Q380546\", \"qid_resolved\": \"Q380546\", \"label\": \"Genomic sequencing\", \"label_norm\": \"genomic sequencing\", \"aliases\": [\"DNA sequencing\", \"sequence analysis, DNA\", \"DNA sequence analysis\"], \"aliases_norm\": [\"dna sequence analysis\", \"dna sequencing\", \"sequence analy...",
+     "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 1993, \"date\": \"1993-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D017422\", \"detail\": {\"ui\": \"D017422\", \"name\": \"...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 4,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 7,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C2994067223",
+     "metadata_qid": "Q380546"
+    },
+    {
+     "input": "{\"openalex_id\": \"C183074962\", \"qid\": \"Q213713\", \"qid_resolved\": \"Q213713\", \"label\": \"Developmental biology\", \"label_norm\": \"developmental biology\", \"aliases\": [\"developmental biology\"], \"aliases_norm\": [], \"acronyms\": [], \"level\": 2, \"ancestor_ids\": [\"C95444343\", \"C54355233\", \"C86803240\"], \"level0_d...",
+     "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 1990, \"date\": \"1990-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D015509\", \"detail\": {\"ui\": \"D015509\", \"name\": \"...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 2,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 6,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C183074962",
+     "metadata_qid": "Q213713"
+    },
+    {
+     "input": "{\"openalex_id\": \"C41625074\", \"qid\": \"Q176088\", \"qid_resolved\": \"Q176088\", \"label\": \"Membrane\", \"label_norm\": \"membrane\", \"aliases\": [\"membrane\"], \"aliases_norm\": [], \"acronyms\": [], \"level\": 2, \"ancestor_ids\": [\"C55493867\", \"C54355233\", \"C86803240\", \"C185592680\"], \"level0_disciplines\": [\"Biology\", \"...",
+     "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 1968, \"date\": \"1968-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"exact_norm_label+llm\", \"match_confidence\": 0.85, \"relation\": \"same\", \"entry_id\": \"mesh:D008566\", \"detail\": {\"ui\": \"D008566\", \"name...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 2,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 6,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C41625074",
+     "metadata_qid": "Q176088"
+    },
+    {
+     "input": "{\"openalex_id\": \"C24432333\", \"qid\": \"Q2068526\", \"qid_resolved\": \"Q2068526\", \"label\": \"Whole genome sequencing\", \"label_norm\": \"whole genome sequencing\", \"aliases\": [\"whole genome sequencing\", \"full genome sequencing\", \"complete genome sequencing\", \"entire genome sequencing\", \"whole-genome sequencing...",
+     "output": "{\"events\": [{\"source\": \"science_boty\", \"event_type\": \"science_breakthrough_of_the_year\", \"year\": 2000, \"date\": null, \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikilink+llm\", \"match_confidence\": 0.95, \"relation\": \"same\", \"entry_id\": \"science_boty:2000:1.0:23\", \"detail\": {\"item_text\":...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 4,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 6,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C24432333",
+     "metadata_qid": "Q2068526"
+    },
+    {
+     "input": "{\"openalex_id\": \"C145103041\", \"qid\": \"Q1151519\", \"qid_resolved\": \"Q1151519\", \"label\": \"Embryonic stem cell\", \"label_norm\": \"embryonic stem cell\", \"aliases\": [\"embryonic stem cell\", \"ES cells\", \"ESC\", \"embryonic stem cells\", \"cellula precursoria embryonica\"], \"aliases_norm\": [\"cellula precursoria emb...",
+     "output": "{\"events\": [{\"source\": \"science_boty\", \"event_type\": \"science_breakthrough_of_the_year\", \"year\": 1999, \"date\": null, \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"embed+llm\", \"match_confidence\": 0.85, \"relation\": \"narrower\", \"entry_id\": \"science_boty:1999:1.0:22\", \"detail\": {\"item_text\"...",
+     "metadata_fold": "dev",
+     "metadata_group": "BGM",
+     "metadata_group_plurality": "BGM",
+     "metadata_group_plurality_share": 1.0,
+     "metadata_level": 3,
+     "metadata_l1_fields": [
+      "13",
+      "13"
+     ],
+     "metadata_level0": [
+      "Biology",
+      "Chemistry"
+     ],
+     "metadata_n_events": 7,
+     "metadata_n_events_year_usable": 7,
+     "metadata_frame_role": "target",
+     "metadata_openalex_id": "C145103041",
+     "metadata_qid": "Q1151519"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_mesh",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"mesh:D016970\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1992, \"code\": \"D016970\", \"label\": \"Eikenella\", \"label_norm\": \"eikenella\", \"alt_labels\": [], \"descriptor\": \"A genus of gram-negative, facultatively anaerobic, rod-shaped bacteria that occurs in the human mouth and intestine.\", \"g...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1992,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D016970"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D020862\", \"source\": \"mesh\", \"version\": 2026, \"year\": 2000, \"code\": \"D020862\", \"label\": \"GC Rich Sequence\", \"label_norm\": \"gc rich sequence\", \"alt_labels\": [\"GC Rich Region\", \"GC Rich Regions\", \"GC Rich Sequences\", \"Region, GC Rich\", \"Regions, GC Rich\", \"Sequence, GC Rich\", \"Sequen...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 2000,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D020862"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D031674\", \"source\": \"mesh\", \"version\": 2026, \"year\": 2003, \"code\": \"D031674\", \"label\": \"Argemone\", \"label_norm\": \"argemone\", \"alt_labels\": [\"Argemone mexicana\", \"Argemone mexicanas\", \"Argemones\", \"Poppies, Prickly\", \"Poppy, Prickly\", \"Prickly Poppies\", \"Prickly Poppy\", \"mexicana, ...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 2003,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D031674"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D011494\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1974, \"code\": \"D011494\", \"label\": \"Protein Kinases\", \"label_norm\": \"protein kinas\", \"alt_labels\": [\"Kinase, Protein\", \"Kinases, Protein\", \"Protein Kinase\"], \"descriptor\": \"A family of enzymes that catalyze the conversion of ATP ...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1974,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D011494"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D000069263\", \"source\": \"mesh\", \"version\": 2026, \"year\": 2016, \"code\": \"D000069263\", \"label\": \"Fallopia\", \"label_norm\": \"fallopium\", \"alt_labels\": [], \"descriptor\": \"Genus of flowering herbaceous perennial plants and vines in the family Polygonaceae.\", \"generic_label\": false, \"date...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D000069263"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D006521\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1983, \"code\": \"D006521\", \"label\": \"Hepatitis, Chronic\", \"label_norm\": \"hepatitis chronic\", \"alt_labels\": [\"Chronic Active Hepatitis\", \"Chronic Hepatitis\", \"Chronic Hepatitis, Cryptogenic\", \"Chronic Persistent Hepatitides\", \"Chro...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C3020491458\", \"qid\": \"Q131742\", \"label\": \"Chronic hepatitis\", \"relation\": \"same\", \"match_method\": \"exact_norm_label+llm\", \"match_confidence\": 0.85, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1983,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "mesh:D006521"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D008341\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1967, \"code\": \"D008341\", \"label\": \"Mandibular Prosthesis\", \"label_norm\": \"mandibular prosthesis\", \"alt_labels\": [\"Mandibular Prostheses\", \"Prostheses, Mandibular\", \"Prosthesis, Mandibular\"], \"descriptor\": \"A prosthetic appliance...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1967,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D008341"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D000559\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1981, \"code\": \"D000559\", \"label\": \"Ambystomatidae\", \"label_norm\": \"ambystomatidae\", \"alt_labels\": [\"Mole Salamander\", \"Mole Salamanders\", \"Salamander, Mole\", \"Salamanders, Mole\"], \"descriptor\": \"A family of the class CAUDATA whi...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1981,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D000559"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D053564\", \"source\": \"mesh\", \"version\": 2026, \"year\": 2007, \"code\": \"D053564\", \"label\": \"Keratins, Hair-Specific\", \"label_norm\": \"keratins hair-specific\", \"alt_labels\": [\"Cytokeratins, Hair-Specific\", \"Cytokeratins, Trichocyte\", \"Cytokeratins, Trichocyte-Type\", \"Hair Keratins\", \"Ha...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 2007,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "mesh:D053564"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D009299\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1980, \"code\": \"D009299\", \"label\": \"Nasal Provocation Tests\", \"label_norm\": \"nasal provocation test\", \"alt_labels\": [\"Nasal Provocation Test\", \"Provocation Test, Nasal\", \"Provocation Tests, Nasal\", \"Test, Nasal Provocation\", \"Tes...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2776472760\", \"qid\": \"Q16919342\", \"label\": \"Nasal provocation test\", \"relation\": \"same\", \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"link_status\": \"accepted_without_llm\"}], \"n_matched\": 1}",
+     "metadata_source": "mesh",
+     "metadata_family": "mesh",
+     "metadata_year": 1980,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "mesh:D009299"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_acm_ccs",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"acm_ccs:1998:C.2.5::Access schemes\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"C.2.5::Access schemes\", \"label\": \"Access schemes\", \"label_norm\": \"access scheme\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 1998,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:1998:C.2.5::Access schemes"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:1998:I.2.9::Propelling mechanisms\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"I.2.9::Propelling mechanisms\", \"label\": \"Propelling mechanisms\", \"label_norm\": \"propelling mechanism\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 1998,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:1998:I.2.9::Propelling mechanisms"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10010147.10010371.10010396.10010400\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10010147.10010371.10010396.10010400\", \"label\": \"Point-based models\", \"label_norm\": \"point-based model\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:2012:10010147.10010371.10010396.10010400"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:1998:F.4.2::Decision problems\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"F.4.2::Decision problems\", \"label\": \"Decision problems\", \"label_norm\": \"decision problem\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C115988155\", \"qid\": \"Q3262192\", \"label\": \"Decision problem\", \"relation\": \"same\", \"match_method\": \"exact_norm_label\", \"match_confidence\": 0.9, \"link_status\": \"accepted_without_llm\"}], \"n_matched\": 1}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 1998,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "acm_ccs:1998:F.4.2::Decision problems"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10003752.10003777.10003785\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10003752.10003777.10003785\", \"label\": \"Proof complexity\", \"label_norm\": \"proof complexity\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C105605280\", \"qid\": \"Q7249999\", \"label\": \"Proof complexity\", \"relation\": \"same\", \"match_method\": \"exact_norm_label\", \"match_confidence\": 0.9, \"link_status\": \"audited:same\"}], \"n_matched\": 1}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "acm_ccs:2012:10003752.10003777.10003785"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10002950.10003648.10003688.10003696\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10002950.10003648.10003688.10003696\", \"label\": \"Dimensionality reduction\", \"label_norm\": \"dimensionality reduction\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": fa...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C70518039\", \"qid\": \"Q16000077\", \"label\": \"Dimensionality reduction\", \"relation\": \"same\", \"match_method\": \"exact_norm_label\", \"match_confidence\": 0.9, \"link_status\": \"accepted_without_llm\"}], \"n_matched\": 1}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "acm_ccs:2012:10002950.10003648.10003688.10003696"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10010520.10010521.10010522\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10010520.10010521.10010522\", \"label\": \"Serial architectures\", \"label_norm\": \"serial architecture\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C123657996\", \"qid\": \"Q12271\", \"label\": \"Architecture\", \"relation\": \"broader\", \"match_method\": \"fuzzy+llm\", \"match_confidence\": 0.63, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "acm_ccs:2012:10010520.10010521.10010522"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10002951.10003260.10003261.10003267\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10002951.10003260.10003261.10003267\", \"label\": \"Content ranking\", \"label_norm\": \"content ranking\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:2012:10002951.10003260.10003261.10003267"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10003120.10003123.10010860.10010877\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10003120.10003123.10010860.10010877\", \"label\": \"Activity centered design\", \"label_norm\": \"activity centered design\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": fa...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:2012:10003120.10003123.10010860.10010877"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:2012:10010583.10010750.10010762.10010768\", \"source\": \"acm_ccs\", \"version\": 2012, \"year\": 2012, \"code\": \"10010583.10010750.10010762.10010768\", \"label\": \"Transient errors and upsets\", \"label_norm\": \"transient errors and upset\", \"alt_labels\": [], \"descriptor\": null, \"generic_label...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "acm_ccs",
+     "metadata_family": "acm_ccs",
+     "metadata_year": 2012,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "acm_ccs:2012:10010583.10010750.10010762.10010768"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_msc",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"msc:2000:46J99\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"46J99\", \"label\": \"None of the above, but in this section\", \"label_norm\": \"none of the above but in this section\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2000,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2000:46J99"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2020:13A35\", \"source\": \"msc\", \"version\": 2020, \"year\": 2020, \"code\": \"13A35\", \"label\": \"Characteristic \\\\(p\\\\) methods (Frobenius endomorphism) and reduction to characteristic \\\\(p\\\\); tight closure\", \"label_norm\": \"characteristic p methods frobenius endomorphism and reduction to c...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2020,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2020:13A35"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2010:32Q25\", \"source\": \"msc\", \"version\": 2010, \"year\": 2010, \"code\": \"32Q25\", \"label\": \"Calabi-Yau theory\", \"label_norm\": \"calabi-yau theory\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2010:32Q25"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2010:47C99\", \"source\": \"msc\", \"version\": 2010, \"year\": 2010, \"code\": \"47C99\", \"label\": \"None of the above, but in MSC2010 section 47Cxx\", \"label_norm\": \"none of the above but in msc2010 section 47cxx\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2010:47C99"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2010:08A65\", \"source\": \"msc\", \"version\": 2010, \"year\": 2010, \"code\": \"08A65\", \"label\": \"Infinitary algebras\", \"label_norm\": \"infinitary algebra\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2010:08A65"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2020:35Q90\", \"source\": \"msc\", \"version\": 2020, \"year\": 2020, \"code\": \"35Q90\", \"label\": \"PDEs in connection with mathematical programming\", \"label_norm\": \"pdes in connection with mathematical programming\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2020,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2020:35Q90"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2010:16S38\", \"source\": \"msc\", \"version\": 2010, \"year\": 2010, \"code\": \"16S38\", \"label\": \"Rings arising from non-commutative algebraic geometry\", \"label_norm\": \"rings arising from non-commutative algebraic geometry\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2010:16S38"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2020:11D99\", \"source\": \"msc\", \"version\": 2020, \"year\": 2020, \"code\": \"11D99\", \"label\": \"Diophantine equations\", \"label_norm\": \"diophantine equation\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C206530611\", \"qid\": \"Q905896\", \"label\": \"Diophantine equation\", \"relation\": \"same\", \"match_method\": \"exact_norm_label\", \"match_confidence\": 0.9, \"link_status\": \"accepted_without_llm\"}], \"n_matched\": 1}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2020,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "msc:2020:11D99"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2000:60J50\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"60J50\", \"label\": \"Boundary theory\", \"label_norm\": \"boundary theory\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2000,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2000:60J50"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2000:34M35\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"34M35\", \"label\": \"Singularities, monodromy, local behavior of solutions, normal forms\", \"label_norm\": \"singularities monodromy local behavior of solutions normal form\", \"alt_labels\": [], \"descriptor\": null, \"gene...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "msc",
+     "metadata_family": "msc",
+     "metadata_year": 2000,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "msc:2000:34M35"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_pacs_physh",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:1a3823f6-9b7e-409c-acc8-e7a321e0a1b7\", \"source\": \"pacs_physh\", \"version\": 2016, \"year\": 2016, \"code\": \"1a3823f6-9b7e-409c-acc8-e7a321e0a1b7\", \"label\": \"X-ray photoelectron diffraction\", \"label_norm\": \"x-ray photoelectron diffraction\", \"alt_labels\": [\"XPD\"], \"descriptor\"...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2016:1a3823f6-9b7e-409c-acc8-e7a321e0a1b7"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:e25a5c89-6132-4bbd-8efb-4a426458c900\", \"source\": \"pacs_physh\", \"version\": 2016, \"year\": 2016, \"code\": \"e25a5c89-6132-4bbd-8efb-4a426458c900\", \"label\": \"Semiconductor compounds\", \"label_norm\": \"semiconductor compound\", \"alt_labels\": [\"Semiconductor alloys\"], \"descriptor\"...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C108225325\", \"qid\": \"Q11456\", \"label\": \"Semiconductor\", \"relation\": \"broader\", \"match_method\": \"fuzzy+llm\", \"match_confidence\": 0.72, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C86537342\", \"qid\": \"Q2659774\", \"label\": \"Compound semiconductor\", \"relation\": ...",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 2,
+     "metadata_entry_id": "pacs_physh:2016:e25a5c89-6132-4bbd-8efb-4a426458c900"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2010:11.15.Wx\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"11.15.Wx\", \"label\": \"Topologically massive gauge theories\", \"label_norm\": \"topologically massive gauge theory\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2010:11.15.Wx"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2010:91.25.G-\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"91.25.G-\", \"label\": \"Spatial variations in geomagnetism\", \"label_norm\": \"spatial variations in geomagnetism\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2010:91.25.G-"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2010:73.40.Mr\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"73.40.Mr\", \"label\": \"Semiconductor-electrolyte contacts\", \"label_norm\": \"semiconductor-electrolyte contact\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2010:73.40.Mr"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2010:84.30.Le\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"84.30.Le\", \"label\": \"Amplifiers\", \"label_norm\": \"amplifier\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C131289371\", \"qid\": \"Q27094\", \"label\": \"Audio power amplifier\", \"relation\": \"narrower\", \"match_method\": \"exact_norm_alias+llm\", \"match_confidence\": 0.8, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C194257627\", \"qid\": \"Q211554\", \"label\": \"Amplifier\", \"relat...",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 2,
+     "metadata_entry_id": "pacs_physh:2010:84.30.Le"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:41f9017d-cc28-4664-8844-f8310c565a0f\", \"source\": \"pacs_physh\", \"version\": 2016, \"year\": 2016, \"code\": \"41f9017d-cc28-4664-8844-f8310c565a0f\", \"label\": \"Active defects\", \"label_norm\": \"active defect\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2016:41f9017d-cc28-4664-8844-f8310c565a0f"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2010:62.25.Jk\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"62.25.Jk\", \"label\": \"Mechanical modes of vibration\", \"label_norm\": \"mechanical modes of vibration\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2984739757\", \"qid\": \"Q3695508\", \"label\": \"Mechanical vibration\", \"relation\": \"same\", \"match_method\": \"fuzzy+llm\", \"match_confidence\": 0.81, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2010,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "pacs_physh:2010:62.25.Jk"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:d0ae988a-9713-477c-afbe-ba128fe87844\", \"source\": \"pacs_physh\", \"version\": 2016, \"year\": 2016, \"code\": \"d0ae988a-9713-477c-afbe-ba128fe87844\", \"label\": \"Mineralogical CO2 storage\", \"label_norm\": \"mineralogical co2 storage\", \"alt_labels\": [\"Mineral CO2 storage\"], \"descrip...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2016:d0ae988a-9713-477c-afbe-ba128fe87844"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:6fc3b2bd-4821-4ade-a389-6384321a438c\", \"source\": \"pacs_physh\", \"version\": 2016, \"year\": 2016, \"code\": \"6fc3b2bd-4821-4ade-a389-6384321a438c\", \"label\": \"Granular fluids\", \"label_norm\": \"granular fluid\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "pacs_physh",
+     "metadata_family": "pacs_physh",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "pacs_physh:2016:6fc3b2bd-4821-4ade-a389-6384321a438c"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_jel",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"jel:na:H87\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"H87\", \"label\": \"International Fiscal Issues ; International Public Goods\", \"label_norm\": \"international fiscal issues international public good\", \"alt_labels\": [\"International Public Goods\"], \"descriptor\": null, \"gen...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:H87"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:P\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"P\", \"label\": \"Political Economy and Comparative Economic Systems\", \"label_norm\": \"political economy and comparative economic system\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:P"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:J43\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"J43\", \"label\": \"Agricultural Labor Markets\", \"label_norm\": \"agricultural labor market\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:J43"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:H40\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"H40\", \"label\": \"General\", \"label_norm\": \"general\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:H40"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:N63\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"N63\", \"label\": \"Europe: Pre-1913\", \"label_norm\": \"europe pre-1913\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:N63"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:E14\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"E14\", \"label\": \"Austrian ; Evolutionary ; Institutional \", \"label_norm\": \"austrian evolutionary institutional\", \"alt_labels\": [\"Evolutionary\", \"Institutional\"], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:E14"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:O44\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"O44\", \"label\": \"Environment and Growth\", \"label_norm\": \"environment and growth\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:O44"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:D74\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"D74\", \"label\": \"Conflict ; Conflict Resolution ; Alliances ; Revolutions\", \"label_norm\": \"conflict conflict resolution alliances revolution\", \"alt_labels\": [\"Conflict Resolution\", \"Alliances\", \"Revolutions\"], \"descri...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C131676636\", \"qid\": \"Q5282696\", \"label\": \"Dispute resolution\", \"relation\": \"same\", \"match_method\": \"exact_norm_alias+llm\", \"match_confidence\": 0.8, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C21711469\", \"qid\": \"Q1194317\", \"label\": \"Conflict resolution\", \"...",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 3,
+     "metadata_entry_id": "jel:na:D74"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:I18\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"I18\", \"label\": \"Government Policy ; Regulation ; Public Health\", \"label_norm\": \"government policy regulation public health\", \"alt_labels\": [\"Regulation\", \"Public Health\"], \"descriptor\": null, \"generic_label\": false}",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C138816342\", \"qid\": \"Q189603\", \"label\": \"Public health\", \"relation\": \"same\", \"match_method\": \"exact_norm_label\", \"match_confidence\": 0.9, \"link_status\": \"audited:same\"}, {\"openalex_id\": \"C2984066494\", \"qid\": \"Q428148\", \"label\": \"Government regulation\", \"relatio...",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 2,
+     "metadata_entry_id": "jel:na:I18"
+    },
+    {
+     "input": "{\"entry_id\": \"jel:na:R49\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"R49\", \"label\": \"Other\", \"label_norm\": \"other\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "jel",
+     "metadata_family": "jel",
+     "metadata_year": null,
+     "metadata_year_known": false,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "jel:na:R49"
+    }
+   ]
+  },
+  {
+   "dataset": "external_entries_curated_lists",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2017:x:1165\", \"source\": \"gartner_hype_cycle\", \"version\": null, \"year\": 2017, \"code\": null, \"label\": \"Smart Robots\", \"label_norm\": \"smart robot\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false, \"role\": \"hype_cycle_entry\", \"rank\": null, \"phase\": \"peak\", \"...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C34413123\", \"qid\": \"Q170978\", \"label\": \"Robotics\", \"relation\": \"broader\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.85, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C90509273\", \"qid\": \"Q11012\", \"label\": \"Robot\", \"relation\": \"broader\", \"match_method...",
+     "metadata_source": "gartner_hype_cycle",
+     "metadata_family": "lists",
+     "metadata_year": 2017,
+     "metadata_year_known": true,
+     "metadata_n_matched": 4,
+     "metadata_entry_id": "gartner_hype_cycle:2017:x:1165"
+    },
+    {
+     "input": "{\"entry_id\": \"science_boty:2003:1.0:26\", \"source\": \"science_boty\", \"version\": null, \"year\": 2003, \"code\": \"1.0\", \"label\": \"Dark energy\", \"label_norm\": \"dark energy\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false, \"role\": \"winner\", \"rank\": 1, \"phase\": null, \"wiki_links\": [\"Dark energy\"...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C172790937\", \"qid\": \"Q18343\", \"label\": \"Dark energy\", \"relation\": \"same\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 1.0, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "science_boty",
+     "metadata_family": "lists",
+     "metadata_year": 2003,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "science_boty:2003:1.0:26"
+    },
+    {
+     "input": "{\"entry_id\": \"research_fronts:2022:1.0:2193\", \"source\": \"research_fronts\", \"version\": null, \"year\": 2022, \"code\": \"1.0\", \"label\": \"Single-atom catalysis\", \"label_norm\": \"single-atom catalysis\", \"alt_labels\": [], \"descriptor\": \"hot research front in chemistry and materials science; mean publication y...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C161790260\", \"qid\": \"Q82264\", \"label\": \"Catalysis\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "research_fronts",
+     "metadata_family": "lists",
+     "metadata_year": 2022,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "research_fronts:2022:1.0:2193"
+    },
+    {
+     "input": "{\"entry_id\": \"research_fronts:2021:9.0:2110\", \"source\": \"research_fronts\", \"version\": null, \"year\": 2021, \"code\": \"9.0\", \"label\": \"Research on bike sharing\", \"label_norm\": \"research on bike sharing\", \"alt_labels\": [], \"descriptor\": \"hot research front in economics, psychology and other social scienc...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2994001137\", \"qid\": \"Q1358919\", \"label\": \"Bike sharing\", \"relation\": \"same\", \"match_method\": \"embed+llm\", \"match_confidence\": 1.0, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "research_fronts",
+     "metadata_family": "lists",
+     "metadata_year": 2021,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "research_fronts:2021:9.0:2110"
+    },
+    {
+     "input": "{\"entry_id\": \"research_fronts:2019:8.0:1754\", \"source\": \"research_fronts\", \"version\": null, \"year\": 2019, \"code\": \"8.0\", \"label\": \"Lead-free halide perovskite solar absorbers\", \"label_norm\": \"lead-free halide perovskite solar absorber\", \"alt_labels\": [], \"descriptor\": \"hot research front in chemistr...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2780089039\", \"qid\": \"Q18387741\", \"label\": \"Perovskite solar cell\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "research_fronts",
+     "metadata_family": "lists",
+     "metadata_year": 2019,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "research_fronts:2019:8.0:1754"
+    },
+    {
+     "input": "{\"entry_id\": \"physics_world_boty:2024:4.0:203\", \"source\": \"physics_world_boty\", \"version\": null, \"year\": 2024, \"code\": \"4.0\", \"label\": \"Modelling lung cells to personalize radiotherapy\", \"label_norm\": \"modelling lung cells to personalize radiotherapy\", \"alt_labels\": [], \"descriptor\": null, \"generic_...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "physics_world_boty",
+     "metadata_family": "lists",
+     "metadata_year": 2024,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "physics_world_boty:2024:4.0:203"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:1997:5.0:498\", \"source\": \"gartner_hype_cycle\", \"version\": null, \"year\": 1997, \"code\": \"5.0\", \"label\": \"DVD\", \"label_norm\": \"dvd\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false, \"role\": \"hype_cycle_entry\", \"rank\": 5, \"phase\": \"peak\", \"wiki_links\": [], \"...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2993148961\", \"qid\": \"Q5294\", \"label\": \"Dual layer\", \"relation\": \"narrower\", \"match_method\": \"exact_norm_alias+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+     "metadata_source": "gartner_hype_cycle",
+     "metadata_family": "lists",
+     "metadata_year": 1997,
+     "metadata_year_known": true,
+     "metadata_n_matched": 1,
+     "metadata_entry_id": "gartner_hype_cycle:1997:5.0:498"
+    },
+    {
+     "input": "{\"entry_id\": \"research_fronts:2018:4.0:1575\", \"source\": \"research_fronts\", \"version\": null, \"year\": 2018, \"code\": \"4.0\", \"label\": \"Efficacy and safety of infliximab biosimilar CT-P13\", \"label_norm\": \"efficacy and safety of infliximab biosimilar ct-p13\", \"alt_labels\": [], \"descriptor\": \"hot research ...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "research_fronts",
+     "metadata_family": "lists",
+     "metadata_year": 2018,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "research_fronts:2018:4.0:1575"
+    },
+    {
+     "input": "{\"entry_id\": \"research_fronts:2025:9.0:2642\", \"source\": \"research_fronts\", \"version\": null, \"year\": 2025, \"code\": \"9.0\", \"label\": \"Generation and detection of neural rendering and deepfakes\", \"label_norm\": \"generation and detection of neural rendering and deepfake\", \"alt_labels\": [], \"descriptor\": \"...",
+     "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+     "metadata_source": "research_fronts",
+     "metadata_family": "lists",
+     "metadata_year": 2025,
+     "metadata_year_known": true,
+     "metadata_n_matched": 0,
+     "metadata_entry_id": "research_fronts:2025:9.0:2642"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2016:x:1116\", \"source\": \"gartner_hype_cycle\", \"version\": null, \"year\": 2016, \"code\": null, \"label\": \"4D Printing\", \"label_norm\": \"4d printing\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false, \"role\": \"hype_cycle_entry\", \"rank\": null, \"phase\": \"innovatio...",
+     "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2983112114\", \"qid\": \"Q229367\", \"label\": \"Three dimensional printing\", \"relation\": \"broader\", \"match_method\": \"fuzzy+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C524769229\", \"qid\": \"Q229367\", \"label\": \"3D printing\", \"relation...",
+     "metadata_source": "gartner_hype_cycle",
+     "metadata_family": "lists",
+     "metadata_year": 2016,
+     "metadata_year_known": true,
+     "metadata_n_matched": 2,
+     "metadata_entry_id": "gartner_hype_cycle:2016:x:1116"
+    }
+   ]
+  },
+  {
+   "dataset": "match_verifications",
+   "examples": [
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2010:x:868\", \"entry_text\": \"Social Analytics\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C2778729106\", \"candidate_label\": \"Social media analytics\", \"candidate_methods\": [\"embed\", \"fuzzy\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+     "metadata_task": "verify",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "cd66bd261cfe419da9b7bd63feff01e78bebf32384b38b7b68577ae5008877ea",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "lists"
+    },
+    {
+     "input": "{\"entry_id\": \"msc:2010:14E15\", \"entry_text\": \"Global theory and resolution of singularities\", \"entry_source\": \"msc\", \"candidate_openalex_id\": \"C2779638872\", \"candidate_label\": \"Resolution of singularities\", \"candidate_methods\": [\"fuzzy\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+     "metadata_task": "verify",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "f1e1be6f2cba2cf0b0bbdd9540f6fd28e94d6dc9af68553eaa2fa0481625855f",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok (verdict reused from msc:2000:14E15)",
+     "metadata_family": "msc"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2007:x:796\", \"entry_text\": \"Location-Aware Applications\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C2988645327\", \"candidate_label\": \"Location aware\", \"candidate_methods\": [\"embed\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 0.9, \"accepted\": true}",
+     "metadata_task": "verify_lists_v2",
+     "metadata_model": "openai/gpt-4.1-mini",
+     "metadata_prompt_hash": "c1a2af97b626cc1cd668a37ee242dc6b8644cccc4963214c22b96381405c15d8",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "lists"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2016:x:1147\", \"entry_text\": \"Augmented Reality\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C153715457\", \"candidate_label\": \"Augmented reality\", \"candidate_methods\": [\"embed\", \"exact_norm_label\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+     "metadata_task": "verify",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "8f32b5b455a0874e6d19853a649fedd4248502f3aa7e8847840fb85fadb82792",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "lists"
+    },
+    {
+     "input": "{\"entry_id\": \"acm_ccs:1998:I.5.5::Special architectures\", \"entry_text\": \"Special architectures\", \"entry_source\": \"acm_ccs\", \"candidate_openalex_id\": \"C59269818\", \"candidate_label\": \"Information technology architecture\", \"candidate_methods\": [\"fuzzy\"]}",
+     "output": "{\"relation\": \"broader_entry\", \"confidence\": 0.8, \"accepted\": true}",
+     "metadata_task": "double_verify",
+     "metadata_model": "openai/gpt-4.1-mini",
+     "metadata_prompt_hash": "e2efeabc9a4af2a780af3abf7551e172965a413c8262f8d18c6b307b7d082be9",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "acm_ccs"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:5a590aac-40d8-47d2-9ca9-3d2c5bf3544b\", \"entry_text\": \"Sol-gel process\", \"entry_source\": \"pacs_physh\", \"candidate_openalex_id\": \"C38398224\", \"candidate_label\": \"Sol-gel\", \"candidate_methods\": [\"exact_norm_alias\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+     "metadata_task": "verify_alias",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "8e6389fbd41b624fcda3c79e175e9c9763665c1ce917a0834973935555975635",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "pacs_physh"
+    },
+    {
+     "input": "{\"entry_id\": \"pacs_physh:2016:560043c3-4ee2-48af-9d6c-08819ef45fff\", \"entry_text\": \"Diversity & inclusion\", \"entry_source\": \"pacs_physh\", \"candidate_openalex_id\": \"C79736992\", \"candidate_label\": \"Retention rate\", \"candidate_methods\": [\"exact_norm_alias\"]}",
+     "output": "{\"relation\": \"different\", \"confidence\": 0.9, \"accepted\": false}",
+     "metadata_task": "verify_alias",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "791b02b1e135e8f19b6ec7f27fa4b20de93bde44bd04fa9bc9e333cb89ea8a05",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "pacs_physh"
+    },
+    {
+     "input": "{\"entry_id\": \"mesh:D031343\", \"entry_text\": \"Perilla\", \"entry_source\": \"mesh\", \"candidate_openalex_id\": \"C2777259179\", \"candidate_label\": \"Perilla frutescens\", \"candidate_methods\": [\"exact_norm_alias\"]}",
+     "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+     "metadata_task": "verify_alias",
+     "metadata_model": "google/gemini-2.5-flash-lite",
+     "metadata_prompt_hash": "cb8dcc5294d85974acf17f75b27316b2a482d9dc70c03491dbd8c7b18a72d16d",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "mesh"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:1996:13.0:486\", \"entry_text\": \"Handwriting Recognition\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C2983812711\", \"candidate_label\": \"Text recognition\", \"candidate_methods\": [\"embed065\"]}",
+     "output": "{\"relation\": \"related\", \"confidence\": 0.7, \"accepted\": false}",
+     "metadata_task": "verify_lists_v2",
+     "metadata_model": "openai/gpt-4.1-mini",
+     "metadata_prompt_hash": "2ce03f3ddd955f2f22c35223971b5592e9bf961b7a8125f8f2f0c7d4f131631e",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "lists"
+    },
+    {
+     "input": "{\"entry_id\": \"gartner_hype_cycle:2015:x:1080\", \"entry_text\": \"Digital Security\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C2984192347\", \"candidate_label\": \"Security system\", \"candidate_methods\": [\"embed065\"]}",
+     "output": "{\"relation\": \"related\", \"confidence\": 0.6, \"accepted\": false}",
+     "metadata_task": "verify_lists_v2",
+     "metadata_model": "openai/gpt-4.1-mini",
+     "metadata_prompt_hash": "2118542c4386eb4ae7e78a8a10637846f20253a97bdb7cc741d9d2f857ff3c01",
+     "metadata_cost_usd": 0.0,
+     "metadata_status": "ok",
+     "metadata_family": "lists"
+    }
+   ]
+  },
+  {
+   "dataset": "crosswalk_level1_to_field",
+   "examples": [
+    {
+     "input": "{\"openalex_id\": \"C175444787\", \"display_name\": \"Microeconomics\", \"level0_parents\": [\"Economics\"]}",
+     "output": "{\"field_id\": 20, \"field_name\": \"Economics, Econometrics and Finance\", \"decided_by\": \"both_models_agree\", \"reason\": \"Studies behavior of individual households and firms in economic decision-making.\"}",
+     "metadata_model_a": "20",
+     "metadata_model_b": "20",
+     "metadata_decided_by": "both_models_agree"
+    },
+    {
+     "input": "{\"openalex_id\": \"C28490314\", \"display_name\": \"Speech recognition\", \"level0_parents\": [\"Computer science\"]}",
+     "output": "{\"field_id\": 17, \"field_name\": \"Computer Science\", \"decided_by\": \"both_models_agree\", \"reason\": \"Automatic conversion of spoken language into text.\"}",
+     "metadata_model_a": "17",
+     "metadata_model_b": "17",
+     "metadata_decided_by": "both_models_agree"
+    },
+    {
+     "input": "{\"openalex_id\": \"C173608175\", \"display_name\": \"Parallel computing\", \"level0_parents\": [\"Computer science\"]}",
+     "output": "{\"field_id\": 17, \"field_name\": \"Computer Science\", \"decided_by\": \"both_models_agree\", \"reason\": \"Programming paradigm with many concurrent calculations.\"}",
+     "metadata_model_a": "17",
+     "metadata_model_b": "17",
+     "metadata_decided_by": "both_models_agree"
+    },
+    {
+     "input": "{\"openalex_id\": \"C42475967\", \"display_name\": \"Operations research\", \"level0_parents\": [\"Engineering\", \"Mathematics\"]}",
+     "output": "{\"field_id\": 18, \"field_name\": \"Decision Sciences\", \"decided_by\": \"manual\", \"reason\": \"manual review: kept model A=18 over B=16 (B inconsistent with ASJC placement or its own rationale)\"}",
+     "metadata_model_a": "18",
+     "metadata_model_b": "16",
+     "metadata_decided_by": "manual"
+    },
+    {
+     "input": "{\"openalex_id\": \"C145420912\", \"display_name\": \"Mathematics education\", \"level0_parents\": [\"Mathematics\", \"Psychology\"]}",
+     "output": "{\"field_id\": 33, \"field_name\": \"Social Sciences\", \"decided_by\": \"manual\", \"reason\": \"manual override (A=26, B=27): mathematics education is published in education journals (ASJC 3304, Social Sciences)\"}",
+     "metadata_model_a": "26",
+     "metadata_model_b": "27",
+     "metadata_decided_by": "manual"
+    },
+    {
+     "input": "{\"openalex_id\": \"C121684516\", \"display_name\": \"Computer graphics (images)\", \"level0_parents\": [\"Computer science\"]}",
+     "output": "{\"field_id\": 17, \"field_name\": \"Computer Science\", \"decided_by\": \"both_models_agree\", \"reason\": \"Pictures and graphics generated using computers.\"}",
+     "metadata_model_a": "17",
+     "metadata_model_b": "17",
+     "metadata_decided_by": "both_models_agree"
+    },
+    {
+     "input": "{\"openalex_id\": \"C116915560\", \"display_name\": \"Nuclear engineering\", \"level0_parents\": [\"Engineering\"]}",
+     "output": "{\"field_id\": 22, \"field_name\": \"Engineering\", \"decided_by\": \"both_models_agree\", \"reason\": \"Applied science focused on nuclear energy and applications.\"}",
+     "metadata_model_a": "22",
+     "metadata_model_b": "22",
+     "metadata_decided_by": "both_models_agree"
+    },
+    {
+     "input": "{\"openalex_id\": \"C29694066\", \"display_name\": \"Orthodontics\", \"level0_parents\": [\"Medicine\"]}",
+     "output": "{\"field_id\": 35, \"field_name\": \"Dentistry\", \"decided_by\": \"manual\", \"reason\": \"manual review: kept model A=35 over B=36 (B inconsistent with ASJC placement or its own rationale)\"}",
+     "metadata_model_a": "35",
+     "metadata_model_b": "36",
+     "metadata_decided_by": "manual"
+    },
+    {
+     "input": "{\"openalex_id\": \"C97355855\", \"display_name\": \"Thermodynamics\", \"level0_parents\": [\"Physics\"]}",
+     "output": "{\"field_id\": 31, \"field_name\": \"Physics and Astronomy\", \"decided_by\": \"manual\", \"reason\": \"manual review: kept model A=31 over B=17 (B inconsistent with ASJC placement or its own rationale)\"}",
+     "metadata_model_a": "31",
+     "metadata_model_b": "17",
+     "metadata_decided_by": "manual"
+    },
+    {
+     "input": "{\"openalex_id\": \"C19417346\", \"display_name\": \"Pedagogy\", \"level0_parents\": [\"Psychology\", \"Sociology\"]}",
+     "output": "{\"field_id\": 33, \"field_name\": \"Social Sciences\", \"decided_by\": \"manual\", \"reason\": \"manual override (A=32, B=36): ASJC 3304 Education is in Social Sciences\"}",
+     "metadata_model_a": "32",
+     "metadata_model_b": "36",
+     "metadata_decided_by": "manual"
+    }
+   ]
+  },
+  {
+   "dataset": "spotcheck_p78",
+   "examples": [
+    {
+     "input": "{\"concept\": \"zinc finger nuclease\", \"aliases_used\": [\"zinc finger nuclease\"], \"t0\": 2005, \"iter1_group\": \"BGM\", \"iter1_home\": \"Biochemistry, Genetics and Molecular Biology\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C35802184\", \"oa_label\": \"Zinc finger nuclease\", \"provisional_group\": \"BGM\", \"events\": [\"2006:wikipedia_en:wikipedia_page_created_estimated\", \"2018:mesh:mesh_descriptor_introduced\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"Web 2.0\", \"aliases_used\": [\"Web 2.0\"], \"t0\": 2006, \"iter1_group\": null, \"iter1_home\": \"Social Sciences\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C136699151\", \"oa_label\": \"Web 2.0\", \"provisional_group\": \"CS\", \"events\": [\"2005:wikipedia_en:wikipedia_page_created_estimated\", \"2006:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2007:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry(narrower)...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "sealed_home_dropped"
+    },
+    {
+     "input": "{\"concept\": \"sentiment analysis\", \"aliases_used\": [\"sentiment analysis\"], \"t0\": 2007, \"iter1_group\": \"CS\", \"iter1_home\": \"Computer Science\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C66402592\", \"oa_label\": \"Sentiment analysis\", \"provisional_group\": \"CS\", \"events\": [\"2006:wikipedia_en:wikipedia_page_created_estimated\", \"2012:acm_ccs:taxonomy_added_between\", \"2012:acm_ccs:taxonomy_in_version\", \"2022:mesh:mesh_descriptor_introduced\"], \"sources_chec...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"biosimilar\", \"aliases_used\": [\"biosimilar\"], \"t0\": 2006, \"iter1_group\": \"Med\", \"iter1_home\": \"Medicine\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C59491497\", \"oa_label\": \"Biosimilar\", \"provisional_group\": \"BGM\", \"events\": [\"2007:wikipedia_en:wikipedia_page_created_estimated\", \"2012:mesh:mesh_descriptor_introduced\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\"...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"smart grid\", \"aliases_used\": [\"smart grid\"], \"t0\": 2008, \"iter1_group\": \"Eng\", \"iter1_home\": \"Engineering\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C10558101\", \"oa_label\": \"Smart grid\", \"provisional_group\": \"unassigned_multi\", \"events\": [\"2004:mit_tr10:mit_tr10_breakthrough_technology(narrower)\", \"2007:wikipedia_en:wikipedia_page_created_estimated\", \"2011:mit_tr10:mit_tr10_breakthrough_technology(narrower)\", \"20...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"cancer stem cell\", \"aliases_used\": [\"cancer stem cell\"], \"t0\": 2003, \"iter1_group\": \"Med\", \"iter1_home\": \"Biochemistry, Genetics and Molecular Biology;Medicine\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C55427017\", \"oa_label\": \"Cancer stem cell\", \"provisional_group\": \"BGM\", \"events\": [\"1986:mesh:mesh_descriptor_introduced\", \"2005:wikipedia_en:wikipedia_page_created_estimated\", \"2010:mit_tr10:mit_tr10_breakthrough_technology(narrower)\"], \"sources_checked\": {\"wikidata...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"cardiac resynchronization therapy\", \"aliases_used\": [\"cardiac resynchronization therapy\"], \"t0\": 2002, \"iter1_group\": null, \"iter1_home\": null}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C2776034619\", \"oa_label\": \"Cardiac resynchronization therapy\", \"provisional_group\": \"Med\", \"events\": [\"2009:wikipedia_en:wikipedia_page_created_estimated\", \"2011:mesh:mesh_descriptor_introduced\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_es...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "t0_out_of_dev"
+    },
+    {
+     "input": "{\"concept\": \"crowdsourcing\", \"aliases_used\": [\"crowdsourcing\"], \"t0\": 2008, \"iter1_group\": null, \"iter1_home\": \"Social Sciences\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C62230096\", \"oa_label\": \"Crowdsourcing\", \"provisional_group\": \"unassigned_multi\", \"events\": [\"2006:wikipedia_en:wikipedia_page_created_estimated\", \"2012:acm_ccs:taxonomy_added_between\", \"2012:acm_ccs:taxonomy_in_version\", \"2012:gartner_hype_cycle:gartner_hype_cycle_e...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "sealed_home_dropped"
+    },
+    {
+     "input": "{\"concept\": \"mashup\", \"aliases_used\": [\"mashup\"], \"t0\": 2007, \"iter1_group\": \"CS\", \"iter1_home\": \"Computer Science\"}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C196126337\", \"oa_label\": \"Mashup\", \"provisional_group\": \"CS\", \"events\": [\"2005:wikipedia_en:wikipedia_page_created_estimated\", \"2006:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2007:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2012:ac...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "dev"
+    },
+    {
+     "input": "{\"concept\": \"dictionary learning\", \"aliases_used\": [\"dictionary learning\"], \"t0\": 2011, \"iter1_group\": null, \"iter1_home\": null}",
+     "output": "{\"joined\": true, \"openalex_id\": \"C2988886741\", \"oa_label\": \"Dictionary learning\", \"provisional_group\": \"CS\", \"events\": [\"2015:wikipedia_en:wikipedia_page_created_estimated\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"not_applicable\", \"acm_ccs\": \"not_fou...",
+     "metadata_joined": true,
+     "metadata_iter1_status": "cohort_2010_2014"
+    }
+   ]
+  }
+ ]
+}

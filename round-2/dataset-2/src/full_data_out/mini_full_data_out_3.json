@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "description": "External, dated recognition events for OpenAlex legacy concepts (zero OpenAlex credits). See README.md for field definitions, source biases and lags.",
+    "parts_note": "Datasets are split across numbered parts; concatenate examples of equal 'dataset' names.",
+    "part": 3,
+    "n_parts": 3
+  },
+  "datasets": [
+    {
+      "dataset": "external_entries_mesh",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"mesh:D001592\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1991, \"code\": \"D001592\", \"label\": \"Benzyl Alcohols\", \"label_norm\": \"benzyl alcohol\", \"alt_labels\": [\"Alcohols, Benzyl\", \"Phenylcarbinols\", \"Phenylmethanols\"], \"descriptor\": \"Alcohols derived from the aryl radical (C6H5CH2-) and defined by C6H5CHOH.\", \"generic_label\": false, \"date_introduced\": \"1991-01-01\", \"history_note\": \"91(75); was see under BENZYL COMPOUNDS 1975-90\", \"mesh_year_best\": 1991, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D02.033.160\", \"D02.455.426.559.389.140.200\"], \"top_branches\": [\"D\"]}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2776460118\", \"qid\": \"Q52353\", \"label\": \"Benzyl alcohol\", \"relation\": \"same\", \"match_method\": \"exact_norm_label+llm\", \"match_confidence\": 0.85, \"link_status\": \"llm_verified\"}], \"n_matched\": 1}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1991,
+          "metadata_year_known": true,
+          "metadata_n_matched": 1,
+          "metadata_entry_id": "mesh:D001592"
+        },
+        {
+          "input": "{\"entry_id\": \"mesh:D001593\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1972, \"code\": \"D001593\", \"label\": \"Benzyl Compounds\", \"label_norm\": \"benzyl compound\", \"alt_labels\": [\"Compounds, Benzyl\"], \"descriptor\": \"Benzene derivatives that contain a benzyl group with the general formula Phenyl-CH2-R.\", \"generic_label\": false, \"date_introduced\": \"1972-01-01\", \"history_note\": \"72(71)\", \"mesh_year_best\": 1972, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D02.455.426.559.389.140\"], \"top_branches\": [\"D\"]}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1972,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "mesh:D001593"
+        },
+        {
+          "input": "{\"entry_id\": \"mesh:D001594\", \"source\": \"mesh\", \"version\": 2026, \"year\": 1991, \"code\": \"D001594\", \"label\": \"Benzyl Viologen\", \"label_norm\": \"benzyl viologen\", \"alt_labels\": [\"Viologen, Benzyl\"], \"descriptor\": \"1,1'-Bis(phenylmethyl)4,4'-bipyridinium dichloride.\", \"generic_label\": false, \"date_introduced\": \"1991-01-01\", \"history_note\": \"91(75); was see under PYRIDINIUM COMPOUNDS 1975-90\", \"mesh_year_best\": 1991, \"mesh_year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D03.383.725.762.925.100\"], \"top_branches\": [\"D\"]}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "mesh",
+          "metadata_family": "mesh",
+          "metadata_year": 1991,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "mesh:D001594"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_acm_ccs",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"acm_ccs:1998:A.0\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"A.0\", \"label\": \"General\", \"label_norm\": \"general\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "acm_ccs",
+          "metadata_family": "acm_ccs",
+          "metadata_year": 1998,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "acm_ccs:1998:A.0"
+        },
+        {
+          "input": "{\"entry_id\": \"acm_ccs:1998:A.0::Biographies/autobiographies\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"A.0::Biographies/autobiographies\", \"label\": \"Biographies/autobiographies\", \"label_norm\": \"biographies autobiography\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "acm_ccs",
+          "metadata_family": "acm_ccs",
+          "metadata_year": 1998,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "acm_ccs:1998:A.0::Biographies/autobiographies"
+        },
+        {
+          "input": "{\"entry_id\": \"acm_ccs:1998:A.0::Conference proceedings\", \"source\": \"acm_ccs\", \"version\": 1998, \"year\": 1998, \"code\": \"A.0::Conference proceedings\", \"label\": \"Conference proceedings\", \"label_norm\": \"conference proceeding\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "acm_ccs",
+          "metadata_family": "acm_ccs",
+          "metadata_year": 1998,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "acm_ccs:1998:A.0::Conference proceedings"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_msc",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"msc:2000:00Axx\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"00Axx\", \"label\": \"General and miscellaneous speciﬁc topics\", \"label_norm\": \"general and miscellaneous specific topic\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "msc",
+          "metadata_family": "msc",
+          "metadata_year": 2000,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "msc:2000:00Axx"
+        },
+        {
+          "input": "{\"entry_id\": \"msc:2000:00A05\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"00A05\", \"label\": \"General mathematics\", \"label_norm\": \"general mathematics\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C33923547\", \"qid\": \"Q395\", \"label\": \"Mathematics\", \"relation\": \"same\", \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"link_status\": \"audited:same\"}], \"n_matched\": 1}",
+          "metadata_source": "msc",
+          "metadata_family": "msc",
+          "metadata_year": 2000,
+          "metadata_year_known": true,
+          "metadata_n_matched": 1,
+          "metadata_entry_id": "msc:2000:00A05"
+        },
+        {
+          "input": "{\"entry_id\": \"msc:2000:00A06\", \"source\": \"msc\", \"version\": 2000, \"year\": 2000, \"code\": \"00A06\", \"label\": \"Mathematics for nonmathematicians (engineering, social sciences, etc.)\", \"label_norm\": \"mathematics for nonmathematicians engineering social sciences etc\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "msc",
+          "metadata_family": "msc",
+          "metadata_year": 2000,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "msc:2000:00A06"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_pacs_physh",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"pacs_physh:2010:00.\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"00.\", \"label\": \"GENERAL\", \"label_norm\": \"general\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "pacs_physh",
+          "metadata_family": "pacs_physh",
+          "metadata_year": 2010,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "pacs_physh:2010:00."
+        },
+        {
+          "input": "{\"entry_id\": \"pacs_physh:2010:01.\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"01.\", \"label\": \"Communication, education, history, and philosophy\", \"label_norm\": \"communication education history and philosophy\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "pacs_physh",
+          "metadata_family": "pacs_physh",
+          "metadata_year": 2010,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "pacs_physh:2010:01."
+        },
+        {
+          "input": "{\"entry_id\": \"pacs_physh:2010:01.10.-m\", \"source\": \"pacs_physh\", \"version\": 2010, \"year\": 2010, \"code\": \"01.10.-m\", \"label\": \"Announcements, news, and organizational activities\", \"label_norm\": \"announcements news and organizational activity\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": false}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "pacs_physh",
+          "metadata_family": "pacs_physh",
+          "metadata_year": 2010,
+          "metadata_year_known": true,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "pacs_physh:2010:01.10.-m"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_jel",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"jel:na:A\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"A\", \"label\": \"General Economics and Teaching\", \"label_norm\": \"general economics and teaching\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "jel",
+          "metadata_family": "jel",
+          "metadata_year": null,
+          "metadata_year_known": false,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "jel:na:A"
+        },
+        {
+          "input": "{\"entry_id\": \"jel:na:A1\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"A1\", \"label\": \"General Economics\", \"label_norm\": \"general economics\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "jel",
+          "metadata_family": "jel",
+          "metadata_year": null,
+          "metadata_year_known": false,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "jel:na:A1"
+        },
+        {
+          "input": "{\"entry_id\": \"jel:na:A10\", \"source\": \"jel\", \"version\": null, \"year\": null, \"code\": \"A10\", \"label\": \"General\", \"label_norm\": \"general\", \"alt_labels\": [], \"descriptor\": null, \"generic_label\": true}",
+          "output": "{\"matched_concepts\": [], \"n_matched\": 0}",
+          "metadata_source": "jel",
+          "metadata_family": "jel",
+          "metadata_year": null,
+          "metadata_year_known": false,
+          "metadata_n_matched": 0,
+          "metadata_entry_id": "jel:na:A10"
+        }
+      ]
+    },
+    {
+      "dataset": "external_entries_curated_lists",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"nature_methods_moty:2007:1.0:0\", \"source\": \"nature_methods_moty\", \"version\": null, \"year\": 2007, \"code\": \"1.0\", \"label\": \"Next-generation DNA sequencing\", \"label_norm\": \"next-generation dna sequencing\", \"alt_labels\": [], \"descriptor\": \"Massively parallel short-read platforms (e.g. Illumina, 454, SOLiD) that increased sequencing throughput by several orders of magnitude\", \"generic_label\": false, \"role\": \"winner\", \"rank\": 1, \"phase\": null, \"wiki_links\": [\"DNA sequencing\"], \"url\": \"https://en.wikipedia.org/w/index.php?oldid=1359916021\", \"primary_ref\": \"https://doi.org/10.1038/nmeth1153\"}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C2994067223\", \"qid\": \"Q380546\", \"label\": \"Genomic sequencing\", \"relation\": \"narrower\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 0.85, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C51679486\", \"qid\": \"Q380546\", \"label\": \"DNA sequencing\", \"relation\": \"narrower\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 0.95, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C192800701\", \"qid\": \"Q6784807\", \"label\": \"Massive parallel sequencing\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C24432333\", \"qid\": \"Q2068526\", \"label\": \"Whole genome sequencing\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.8, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C205270622\", \"qid\": \"Q17082639\", \"label\": \"Cancer genome sequencing\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.7, \"link_status\": \"llm_verified\"}], \"n_matched\": 5}",
+          "metadata_source": "nature_methods_moty",
+          "metadata_family": "lists",
+          "metadata_year": 2007,
+          "metadata_year_known": true,
+          "metadata_n_matched": 5,
+          "metadata_entry_id": "nature_methods_moty:2007:1.0:0"
+        },
+        {
+          "input": "{\"entry_id\": \"nature_methods_moty:2008:1.0:1\", \"source\": \"nature_methods_moty\", \"version\": null, \"year\": 2008, \"code\": \"1.0\", \"label\": \"Super-resolution microscopy\", \"label_norm\": \"super-resolution microscopy\", \"alt_labels\": [], \"descriptor\": \"Fluorescence imaging techniques such as STED, PALM and STORM that surpass the optical diffraction limit\", \"generic_label\": false, \"role\": \"winner\", \"rank\": 1, \"phase\": null, \"wiki_links\": [\"Super-resolution microscopy\"], \"url\": \"https://en.wikipedia.org/w/index.php?oldid=1359916021\", \"primary_ref\": \"https://doi.org/10.1038/nmeth.f.244\"}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C166936260\", \"qid\": \"Q7642959\", \"label\": \"Super-resolution microscopy\", \"relation\": \"same\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 1.0, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C147080431\", \"qid\": \"Q1074953\", \"label\": \"Microscopy\", \"relation\": \"narrower\", \"match_method\": \"embed+llm\", \"match_confidence\": 1.0, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C2993775838\", \"qid\": \"Q14943002\", \"label\": \"Video microscopy\", \"relation\": \"broader\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.7, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C2909230309\", \"qid\": \"Q1074953\", \"label\": \"Laser Microscopy\", \"relation\": \"broader\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.7, \"link_status\": \"llm_verified\"}], \"n_matched\": 4}",
+          "metadata_source": "nature_methods_moty",
+          "metadata_family": "lists",
+          "metadata_year": 2008,
+          "metadata_year_known": true,
+          "metadata_n_matched": 4,
+          "metadata_entry_id": "nature_methods_moty:2008:1.0:1"
+        },
+        {
+          "input": "{\"entry_id\": \"nature_methods_moty:2009:1.0:2\", \"source\": \"nature_methods_moty\", \"version\": null, \"year\": 2009, \"code\": \"1.0\", \"label\": \"Induced pluripotent stem cells\", \"label_norm\": \"induced pluripotent stem cell\", \"alt_labels\": [], \"descriptor\": \"Reprogramming of somatic cells into a pluripotent state, enabling patient-specific disease models and regenerative medicine research\", \"generic_label\": false, \"role\": \"winner\", \"rank\": 1, \"phase\": null, \"wiki_links\": [\"Induced pluripotent stem cell\"], \"url\": \"https://en.wikipedia.org/w/index.php?oldid=1359916021\", \"primary_ref\": \"https://doi.org/10.1038/nmeth.f.294\"}",
+          "output": "{\"matched_concepts\": [{\"openalex_id\": \"C107459253\", \"qid\": \"Q674925\", \"label\": \"Induced pluripotent stem cell\", \"relation\": \"same\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 0.95, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C18414845\", \"qid\": \"Q15107837\", \"label\": \"Induced stem cells\", \"relation\": \"broader\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.85, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C2910924664\", \"qid\": \"Q674925\", \"label\": \"Human Induced Pluripotent Stem Cells\", \"relation\": \"narrower\", \"match_method\": \"wikilink+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}, {\"openalex_id\": \"C28328180\", \"qid\": \"Q48196\", \"label\": \"Stem cell\", \"relation\": \"broader\", \"match_method\": \"embed+llm\", \"match_confidence\": 0.9, \"link_status\": \"llm_verified\"}], \"n_matched\": 4}",
+          "metadata_source": "nature_methods_moty",
+          "metadata_family": "lists",
+          "metadata_year": 2009,
+          "metadata_year_known": true,
+          "metadata_n_matched": 4,
+          "metadata_entry_id": "nature_methods_moty:2009:1.0:2"
+        }
+      ]
+    },
+    {
+      "dataset": "match_verifications",
+      "examples": [
+        {
+          "input": "{\"entry_id\": \"gartner_hype_cycle:1995:1.0:464\", \"entry_text\": \"Emergent Computation\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C45374587\", \"candidate_label\": \"Computation\", \"candidate_methods\": [\"fuzzy\"]}",
+          "output": "{\"relation\": \"related\", \"confidence\": 0.7, \"accepted\": false}",
+          "metadata_task": "verify",
+          "metadata_model": "google/gemini-2.5-flash-lite",
+          "metadata_prompt_hash": "11c3325a2a609982f7073456d7aaf40d0a5b4af253cddfe69cff47793fab8c43",
+          "metadata_cost_usd": 0.0,
+          "metadata_status": "ok",
+          "metadata_family": "lists"
+        },
+        {
+          "input": "{\"entry_id\": \"gartner_hype_cycle:1995:10.0:473\", \"entry_text\": \"Knowledge-based Systems\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C115925183\", \"candidate_label\": \"Knowledge-based systems\", \"candidate_methods\": [\"embed\", \"exact_norm_label\"]}",
+          "output": "{\"relation\": \"same\", \"confidence\": 1.0, \"accepted\": true}",
+          "metadata_task": "verify",
+          "metadata_model": "google/gemini-2.5-flash-lite",
+          "metadata_prompt_hash": "07e33be3b00f0f041f7bd87c1b45c1d4eb8a4eef94570eccc2acc1cd33bac958",
+          "metadata_cost_usd": 0.0,
+          "metadata_status": "ok",
+          "metadata_family": "lists"
+        },
+        {
+          "input": "{\"entry_id\": \"gartner_hype_cycle:1995:2.0:465\", \"entry_text\": \"Wireless Communications\", \"entry_source\": \"gartner_hype_cycle\", \"candidate_openalex_id\": \"C555944384\", \"candidate_label\": \"Wireless\", \"candidate_methods\": [\"embed\", \"exact_norm_alias\"]}",
+          "output": "{\"relation\": \"same\", \"confidence\": 0.9, \"accepted\": true}",
+          "metadata_task": "verify",
+          "metadata_model": "google/gemini-2.5-flash-lite",
+          "metadata_prompt_hash": "81ce2c384b1752d0f0f5fa517a5eb23c061cc287ff08e0f310a762fb209658d9",
+          "metadata_cost_usd": 0.0,
+          "metadata_status": "ok",
+          "metadata_family": "lists"
+        }
+      ]
+    },
+    {
+      "dataset": "crosswalk_level1_to_field",
+      "examples": [
+        {
+          "input": "{\"openalex_id\": \"C31258907\", \"display_name\": \"Computer network\", \"level0_parents\": [\"Computer science\"]}",
+          "output": "{\"field_id\": 17, \"field_name\": \"Computer Science\", \"decided_by\": \"both_models_agree\", \"reason\": \"Focuses on networks connecting computers for resource sharing.\"}",
+          "metadata_model_a": "17",
+          "metadata_model_b": "17",
+          "metadata_decided_by": "both_models_agree"
+        },
+        {
+          "input": "{\"openalex_id\": \"C6557445\", \"display_name\": \"Agronomy\", \"level0_parents\": [\"Biology\"]}",
+          "output": "{\"field_id\": 11, \"field_name\": \"Agricultural and Biological Sciences\", \"decided_by\": \"both_models_agree\", \"reason\": \"Science and technology of producing and using plants.\"}",
+          "metadata_model_a": "11",
+          "metadata_model_b": "11",
+          "metadata_decided_by": "both_models_agree"
+        },
+        {
+          "input": "{\"openalex_id\": \"C155647269\", \"display_name\": \"Medicinal chemistry\", \"level0_parents\": [\"Chemistry\"]}",
+          "output": "{\"field_id\": 16, \"field_name\": \"Chemistry\", \"decided_by\": \"manual\", \"reason\": \"manual review: kept model A=16 over B=13 (B inconsistent with ASJC placement or its own rationale)\"}",
+          "metadata_model_a": "16",
+          "metadata_model_b": "13",
+          "metadata_decided_by": "manual"
+        }
+      ]
+    },
+    {
+      "dataset": "spotcheck_p78",
+      "examples": [
+        {
+          "input": "{\"concept\": \"zinc finger nuclease\", \"aliases_used\": [\"zinc finger nuclease\"], \"t0\": 2005, \"iter1_group\": \"BGM\", \"iter1_home\": \"Biochemistry, Genetics and Molecular Biology\"}",
+          "output": "{\"joined\": true, \"openalex_id\": \"C35802184\", \"oa_label\": \"Zinc finger nuclease\", \"provisional_group\": \"BGM\", \"events\": [\"2006:wikipedia_en:wikipedia_page_created_estimated\", \"2018:mesh:mesh_descriptor_introduced\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}}",
+          "metadata_joined": true,
+          "metadata_iter1_status": "dev"
+        },
+        {
+          "input": "{\"concept\": \"Web 2.0\", \"aliases_used\": [\"Web 2.0\"], \"t0\": 2006, \"iter1_group\": null, \"iter1_home\": \"Social Sciences\"}",
+          "output": "{\"joined\": true, \"openalex_id\": \"C136699151\", \"oa_label\": \"Web 2.0\", \"provisional_group\": \"CS\", \"events\": [\"2005:wikipedia_en:wikipedia_page_created_estimated\", \"2006:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2007:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry(narrower)\", \"2007:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2008:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\", \"2009:gartner_hype_cycle:gartner_hype_cycle_emerging_tech_entry\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"not_applicable\", \"acm_ccs\": \"not_found\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_applicable\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"found\", \"research_fronts\": \"not_found\"}}",
+          "metadata_joined": true,
+          "metadata_iter1_status": "sealed_home_dropped"
+        },
+        {
+          "input": "{\"concept\": \"sentiment analysis\", \"aliases_used\": [\"sentiment analysis\"], \"t0\": 2007, \"iter1_group\": \"CS\", \"iter1_home\": \"Computer Science\"}",
+          "output": "{\"joined\": true, \"openalex_id\": \"C66402592\", \"oa_label\": \"Sentiment analysis\", \"provisional_group\": \"CS\", \"events\": [\"2006:wikipedia_en:wikipedia_page_created_estimated\", \"2012:acm_ccs:taxonomy_added_between\", \"2012:acm_ccs:taxonomy_in_version\", \"2022:mesh:mesh_descriptor_introduced\"], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\", \"acm_ccs\": \"found\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_applicable\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}}",
+          "metadata_joined": true,
+          "metadata_iter1_status": "dev"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+URL: https://arxiv.org/pdf/1602.08409
+Type: PDF
+Pattern: exit|abandon|leave|persist (2 matches in 70066 chars)
+
+--- Content ---
+
+32382:...en predicting the evolution of the research 
+output of countries, indicating that the research space is particularly relevant for 
+evaluating the research output of individuals and organizations. 
+ 
+Still, there are many questions that this research leaves unanswered. One of these 
+questions is the financial cost required to develop each particular research in an area. 
+Simple intuition tells us that the costs required to develop a field vary enormously for 
+different areas of research. Some research...
+--
+59330:...ases; Tropical Medicine; Vaccines; Veterinary 
+Medicine; Veterinary Microbiology; Veterinary Science; Virology; World Health 
+Organization. 
+ 
+Math & Physics: Algebra; Applied Math; Astronomy & Astrophysics; Cancer Statistics; 
+Chaos Fractals & Complexity; Computational Math; Design & Analysis of Algorithms; 
+Discrete Applied Mathematics; Functional Analysis; Geophysical Science; High Energy 
+Physics; Mathematical Science (Russia); Mathematics Research; Nonlinear Analysis; 
+Nuclear Instrumentation; ...

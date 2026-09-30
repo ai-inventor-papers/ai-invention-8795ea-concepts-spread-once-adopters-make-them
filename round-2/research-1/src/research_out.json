@@ -1,0 +1,911 @@
+{
+  "title": "How our results compare with related papers",
+  "layman_summary": "A literature check that places our findings on how new scientific ideas spread next to the closest published studies. It also checks what is truly new and records the target journal's article format.",
+  "summary": "Positioning study for the Applied Network Science (ANS) paper on emerging concepts. Deliverables: research_report.md (sections A-F) and raw evidence in raw/.\n(1) Collection: 'Networks for everyday life' cannot be read by any route (Springer IdP/JS, no Wayback snapshot). Only the scope text was recovered (societal domains: health, mobility, education, politics; rolling). The member list, editors and deadline are unknown, so do not claim topic overlap; argue fit through foresight/funding relevance and ANS method overlap.\n(2) 22 citable ANS papers with a 'how we relate' line each. The core set: Fontaine 2024 (AI into neuroscience), De Domenico 2016 (disciplines as sources/sinks), Holmgren 2023 (alluvial change), Gao 2018, Cunningham 2022, Larson 2017, Renoust 2017 (ANS 2:23). Plus about 40 neighbour-journal and preprint works.\n(3) Comparison numbers:\n- Guevara 2016 field-entry AUC: individuals 0.896, organisations 0.715, countries 0.682. Entry only, no exit. Our density AUC 0.61 < log-size 0.74: report density's increment over size.\n- Exit and survival evidence (Neffke 2011, Rigby 2015, Goya 2019) is regression-based and credits relatedness. No published retention AUC exists, so our +0.10 delta-AUC (0.705 -> 0.808, base rate 0.56) is an increment without a direct counterpart.\n- Link-forecast AUCs of 0.95-0.97 (Maillart 2606.03864; Gu & Krenn >0.9; Krenn positives about 1-3%) are level AUCs and not comparable.\n- Maillart 2606.03919 R2 0.60-0.87 are within-domain replications, not cross-field transfer.\n- Weng 2013: about 7x the precision of random guessing from the first 50 tweets (H3 precedent).\n(4) Novelty: adopter-centrality retention is NEW for concept adoption by fields but partially anticipated in general (Hidalgo 2007 position -> faster diversification; Yenilmez 2026 centrality explains diversification). The rescue/metapopulation analogy is partially anticipated in cultural evolution (Premo & Kuhn 2010; Premo 2012; Hopkinson 2011). Relay is partially anticipated (Weng 2013; Cheng 2023; Leydesdorff betweenness). Frame H1 as the first test in science, not a new principle. RISK: reviewers will want the adopter-portfolio relatedness-density rival.\n(5) ANS template, inferred from 8 articles from 2024-2026: unstructured abstract of 165-297 words; keywords optional; Introduction/Methods/Results/Discussion/Conclusions; back matter; author-year citations; 1-12 figures. Model wording for data availability and competing interests is included.\n(6) About 95 references verified; 12 corrections (Centola/Weng for complex contagion; Hidalgo/Neffke/Guevara for relatedness; Maillart authorship; Cunningham & Greene in PLoS ONE; wrong DOIs for Pinheiro, Yan, Kiss and Bettencourt fixed).",
+  "out_expected_files": {
+    "output": "research_out.json",
+    "reproducibility": "reproducibility.md"
+  },
+  "upload_ignore_regexes": [],
+  "answer": "SCOPE AND CONFIDENCE. This is a web-only positioning study for an Applied Network Science (ANS) paper. The full tables are in research_report.md.\n\nOur own comparator numbers are iteration-1 dev-panel placeholders from prior artifact art_33_KKk_G8Gw5; I re-read and confirmed them. They must be replaced by held-out values:\n- gateway retention delta-AUC +0.103 (0.705 -> 0.808), 95% CI [0.034, 0.167], n = 80 episodes / 28 concepts, base rate 0.5625;\n- +0.102 with field size controlled;\n- relatedness-to-home adds -0.0003;\n- next-field entry: relatedness-density AUC 0.614 [0.553, 0.666] vs log field size 0.742 [0.700, 0.784], n = 61 concept-steps.\n\nOverall confidence:\n- High for the verified bibliographic facts and the extracted numbers.\n- Moderate for the novelty verdict. The searches were capped, and export-survival econometrics is a large literature.\n- Low for anything about the target collection's contents.\n\n(A) TARGET COLLECTION.\n- The collection page could not be read by any route (WebFetch, skill fetch, browser-UA curl, Wayback). Search engines index only its landing page [1].\n- Its scope text is: contributions of \"theory, methods, and applications\" for \"health, mobility, education, politics, and related societal domains\", published on a rolling basis [1].\n- Guest editors, deadline and member articles could NOT be recovered, so no member list is given.\n- No science-of-science paper was found to be confirmed in the collection.\n- Fit argument: the societal relevance is research funding and foresight. The network representation is essential because the headline effect is a field's POSITION on a relatedness backbone. The methods overlap with ANS temporal-network, community-change and diffusion work [6, 11, 14].\n\n(B) NEAREST RELATED WORK.\n- ANS itself holds few science-of-science papers (OpenAlex sweep of source S3035517252 [2]). Still, 22 ANS papers are citable with a clear \"how we relate\" line. The core set:\n  - Fontaine et al. 2024: AI entering neuroscience shows epistemic integration with social segregation. One concept in one off-home field; our panel generalises this [3].\n  - De Domenico et al. 2016: disciplines as \"sources\" or \"sinks\" of research-interest flows [4].\n  - Renoust et al. 2017, ANS 2:23 [5].\n  - Holmgren et al. 2023, alluvial community change [6].\n  - Gao et al. 2018, community evolution in patent networks [7].\n  - Cunningham et al. 2022, disciplinary roles in field-of-study networks [8].\n  - Du et al. 2025, concept networks in medicine [9].\n  - Salnikov et al. 2018 [10].\n  - Larson 2017, low-capacity weak ties impede diffusion [11].\n  - Barnes et al. 2021, virality AUC 0.68 [12].\n  - Temporal and community-aware centralities [13, 14].\n  - Community-bounded knowledge flow [15], skill relatedness [16], position-dependent innovation adoption [17], and trait spreading across regions [18].\n- Neighbour journals:\n  - Relatedness canon [19-24, 27, 28, 60]. This includes Chinazzi et al. 2019 on the physics research space [29] and Li & Neffke's comparison of relatedness specifications [68].\n  - Concept-pair forecasting [30-33, 57].\n  - Topic-birth detection [39, 40, 70], including citation-network phase transitions in AI [58].\n  - Flow-based maps of science [50].\n  - Diffusion across disciplines [37, 38, 41, 42, 51-56, 69].\n\n(C) COMPARISON NUMBERS PER RQ, each with a comparability note.\n\nRQ2-H1 (retention).\n- No published AUC for retention or exit of an adopted activity was found.\n- Evidence for exit is regression-based and credits RELATEDNESS:\n  - Neffke et al. 2011: technologically unrelated industries were more likely to exit 70 Swedish regions, 1969-2002 [22].\n  - Rigby 2015 links exits of US cities from patent classes to relatedness [23].\n  - Hidalgo et al. 2018 state the principle for both entry and exit [21].\n  - Goya & Zahler 2019: new exports far from a firm's core competences survive less [24].\n- Guevara et al. 2016 analyse entry only [19].\n- So our +0.10 is an INCREMENT over a 0.71 baseline at a 0.56 base rate, with no direct published counterpart.\n- The field's rival variable should be the relatedness DENSITY of the adopter's portfolio to the concept, not relatedness to the concept's home.\n\nRQ2-H2 (next field).\n- Guevara et al. report mean field-entry AUCs for the research space vs a citation map [19]:\n  - individuals: 0.8963 vs 0.8034;\n  - organisations: 0.7148 vs 0.6873;\n  - countries: 0.6816 vs 0.6819.\n- Our density AUC of 0.61 lies below their organisation and country levels, and in our data log field size (0.74) beats density. Guevara et al. report no size baseline, so this is a new and unfavourable-to-relatedness finding, not a failure.\n- The units differ (a concept moving across fields vs an entity entering fields), so the comparison is indicative only.\n- Report density's increment over size, as the relatedness literature does [21, 27].\n\nRQ2 trajectories.\n- Weng et al. 2013 predict viral memes from community concentration in the first 50 tweets. They are \"about seven times as precise as random guess\" and over 3x more precise than community-blind prediction [34]. This is the closest precedent for H3 (early breadth across communities).\n- Cheng et al. 2023 follow about 60,000 new ideas across 38M papers. Ideas become core when they reach networks of unrelated authors and fit research traditions [37].\n- Sun & Latora 2020 find absorbing, mutual and back-nurture field-pair regimes [38].\n- Maillart et al. (2606.03919, preprint) reach exogenous-diffusion R2 up to 0.78 on a stratified random split (n = 6,978 pair-years) and R2_test 0.60-0.87 in three other domains. The authors state these are \"within-domain replications, not train-on-one-field / test-on-another\" [31]. So they do not contradict our negative cross-domain portability result.\n\nRQ1 (indicators).\n- Concept-pair link forecasts:\n  - Maillart et al. (2606.03864, preprint): ROC-AUC 0.954-0.967 over four domains; RMSLE 0.45 to 0.6 at 1-5 years; driven by Adamic-Adar and degree features [30].\n  - Krenn et al. 2023: positives are only about 1-3% of pairs [32].\n  - Gu & Krenn 2025: temporal evaluation, AUC > 0.9 in most experiments [33].\n- Topic-birth detection reports precision/recall against 1,408 debutant topics [40].\n- These are LEVEL AUCs on growing co-occurrence graphs where degree and common-neighbour features separate rare positives. Our metrics are INCREMENTS over a strong popularity/size baseline, at a ~0.56 base rate, on held-out fields. They are not comparable, and a +0.10 increment is the harder claim.\n- The dominance of degree features [30] and our size result both mean every indicator must beat the B5 baseline.\n\n(D) NOVELTY.\n- Q1 (metapopulation / rescue ideas for persistence): YES in cultural evolution.\n  - Premo & Kuhn 2010 model \"frequent extinctions of local subpopulations within a persistent metapopulation\" [43].\n  - Premo 2012 shows that network topology between groups shapes those effects [44].\n  - Hopkinson 2011 applies metapopulation ecology to Palaeolithic skills [45].\n  - Rescue and metapopulation theory: Brown & Kodric-Brown 1977; Hanski 1998 [46, 47].\n  - In ANS, De Domenico et al. use source/sink language for disciplines [4].\n  - No scientometric use of a rescue effect for field-level concept retention was found.\n- Q2 (centrality beats relatedness for survival?): PARTIAL.\n  - Position is known to matter for diversification. Countries in connected parts of the product space upgrade faster [20]. Country centralities explain diversification and growth [25]. Technology-network robustness conditions regional resilience [26].\n  - But survival and exit are credited to relatedness [22-24].\n  - No paper was found showing adopter centrality beating relatedness for the survival of an adopted activity.\n- Q3 (gateway fields relay ideas onward?): PARTIAL.\n  - Betweenness has been used as a journal-interdisciplinarity indicator [48, 49].\n  - Community breadth predicts virality [34], and reach to unrelated authors predicts core status [37].\n  - Field-of-study bridging roles exist in ANS [8].\n  - No relay test was found.\n- Grades:\n  - position-based retention: NEW for concept adoption by fields, partially anticipated in general [20, 25];\n  - relay: partially anticipated [34, 37, 48];\n  - rescue-and-relay mechanism: partially anticipated [43-45];\n  - leave-concept-out propensity control: new (no precedent found);\n  - concept × field episode unit: partially anticipated. Single-concept AI studies exist [3, 52-54], and Cheng et al. use a global outcome [37].\n- Framing: H1 should be presented as the first test for concept adoption by scientific fields, not as a new general principle.\n\n(E) ANS TEMPLATE.\n- The official guideline pages are IdP-blocked [66]. The template was inferred from 8 ANS articles from 2024-2026 read as Europe PMC XML [61-65].\n- Abstract: unstructured, 165-297 words.\n- Keywords: 0 in half the articles, otherwise 3-7. Guideline snippets say 3-10 [66].\n- Body order: Introduction -> Methods -> Results -> Discussion/Conclusions. A separate \"Related works\" section appears in 1 of 8 [64].\n- Back-matter order: optional Abbreviations [65]; Acknowledgements; Author contributions; Funding; Data availability (older articles: \"Availability of data and materials\"); Declarations; References.\n- Declarations always contain Competing interests, e.g. \"The authors declare no competing interests.\" [62]. 2 of 8 add ethics and consent statements [61, 62].\n- Citations are author-year [63]. Body length 5,000-10,700 words, 1-12 figures, 13-60 references.\n- Data-availability model sentence: code on GitHub under GPL-3.0 [61].\n- APC £1240 / $1790 / €1490 (snippet, unverified) [66].\n- Suggested skeleton: Introduction; Related work; Data and methods, with a Fig. 1 methodology overview; RQ1 (setup, results, comparison); RQ2 (setup, H1-H3, trajectories, comparison); Discussion; Conclusions; back matter as above.\n\n(F) CORRECTIONS. All DOIs were checked against Crossref [67].\n1. Complex contagion is Centola & Macy 2007 and Centola 2010 [35, 36], with Weng et al. 2013 for community virality [34]. It is not Salatino.\n2. Relatedness is Hidalgo et al. 2007/2018, Neffke et al. 2011 and Guevara et al. 2016 [19-22]. It is not Rotolo et al. 2015, which is the emerging-technology definition paper [59].\n3. arXiv 2606.03864 is by Maillart, Chataing, Antoni et al., the same team as 2606.03919 [30, 31].\n4. Renoust et al. 2017 is ANS 2:23 [5].\n5. \"Knowledge transfer, knowledge gaps, and knowledge silos\" is Cunningham & Greene, PLoS ONE 2025, not ANS [51].\n6. Pinheiro et al. 2022 has DOI 10.1016/j.respol.2021.104323 [60].\n7. Kiss et al. 2010 has DOI 10.1016/j.joi.2009.08.002 [42]; Bettencourt et al. 2006 has 10.1016/j.physa.2005.08.083 [69]. Yan et al. 2013 (10.1016/j.joi.2012.11.008) and Bettencourt et al. 2008 (10.1007/s11192-007-1888-4) were also corrected; see the report's reference table.\n8. Bayesian online change-point detection is Adams & MacKay 2007 (arXiv 0710.3742).\n9. Shi & Ma 2026 (SSRN 7276909) exists [57].\n\nWHAT WOULD CHANGE THESE CONCLUSIONS.\n- A paper, most plausibly in export-survival or regional-exit econometrics, showing that the adopter's network centrality predicts survival over relatedness density would downgrade H1 to \"replication in a new domain\".\n- Recovering the collection's member list may add topic-matched ANS citations.\n",
+  "sources": [
+    {
+      "index": 1,
+      "url": "https://link.springer.com/collections/fgcaicgjah",
+      "title": "Networks for everyday life (Applied Network Science collection)",
+      "summary": "Target collection. The page is JS/IdP-blocked for all fetch routes; the scope text came only from search-engine snippets (health, mobility, education, politics; rolling publication). Article list, guest editors and deadline could not be recovered.",
+      "authors": null,
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 2,
+      "url": "https://api.openalex.org/works?filter=primary_location.source.id:S3035517252",
+      "title": "OpenAlex API: Applied Network Science (source S3035517252)",
+      "summary": "15 anonymous title/abstract queries plus a 2025-26 listing (143 works) and 30 abstracts. This is the basis of the ANS related-work sweep.",
+      "authors": null,
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 3,
+      "url": "https://arxiv.org/abs/2310.01046",
+      "title": "Epistemic integration and social segregation of AI in neuroscience (ANS 9:8, 2024)",
+      "summary": "Closest ANS comparator: AI entering neuroscience (MAG 1970-2019) shows epistemic integration with social segregation. One concept × one field.",
+      "authors": [
+        "Sylvain Fontaine",
+        "Floriana Gargiulo",
+        "Michel Dubois",
+        "Paola Tubaro"
+      ],
+      "year": 2024,
+      "supporting_passages": []
+    },
+    {
+      "index": 4,
+      "url": "https://doi.org/10.1007/s41109-016-0017-9",
+      "title": "Quantifying the diaspora of knowledge in the last century (ANS 1:15)",
+      "summary": "Disciplines act as sources or sinks of researchers' interest flows over a century. Source-sink vocabulary in ANS.",
+      "authors": [
+        "Manlio De Domenico",
+        "Elisa Omodei",
+        "Alex Arenas"
+      ],
+      "year": 2016,
+      "supporting_passages": []
+    },
+    {
+      "index": 5,
+      "url": "https://doi.org/10.1007/s41109-017-0035-2",
+      "title": "Multiplex flows in citation networks (ANS 2:23)",
+      "summary": "Flow-based knowledge transmission in citation DAGs. Corrected citation (vol 2, art 23).",
+      "authors": [
+        "Benjamin Renoust",
+        "Vivek Claver",
+        "Jean-François Baffier"
+      ],
+      "year": 2017,
+      "supporting_passages": []
+    },
+    {
+      "index": 6,
+      "url": "https://doi.org/10.1007/s41109-023-00572-5",
+      "title": "Mapping change in higher-order networks with multilevel and overlapping communities (ANS 8:42)",
+      "summary": "Alluvial diagrams for community change, with a science case study. Relevant to community-transition indicators.",
+      "authors": [
+        "Anton Holmgren",
+        "Daniel Edler",
+        "Martin Rosvall"
+      ],
+      "year": 2023,
+      "supporting_passages": []
+    },
+    {
+      "index": 7,
+      "url": "https://doi.org/10.1007/s41109-018-0090-3",
+      "title": "Community evolution in patent networks: technological change and network dynamics (ANS 3:26)",
+      "summary": "Temporal community tracking to identify central technologies.",
+      "authors": [
+        "Yuan Gao",
+        "Zhen Zhu",
+        "Raja Kali",
+        "Massimo Riccaboni"
+      ],
+      "year": 2018,
+      "supporting_passages": []
+    },
+    {
+      "index": 8,
+      "url": "https://doi.org/10.1007/s41109-022-00517-4",
+      "title": "Author multidisciplinarity and disciplinary roles in field of study networks (ANS 7:78)",
+      "summary": "Field-of-study networks and the bridging roles of topics.",
+      "authors": [
+        "Eoghan Cunningham",
+        "Barry Smyth",
+        "Derek Greene"
+      ],
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 9,
+      "url": "https://doi.org/10.1007/s41109-025-00769-w",
+      "title": "Journal publications in medicine: ranking vs. interdisciplinarity (ANS 11:11)",
+      "summary": "Concept correlation networks in PubMed; cancer research bridges distant clusters.",
+      "authors": [
+        "Anbang Du",
+        "Michael Head",
+        "Markus Brede"
+      ],
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 10,
+      "url": "https://doi.org/10.1007/s41109-018-0074-3",
+      "title": "Co-occurrence simplicial complexes in mathematics: identifying the holes of knowledge (ANS 3:37)",
+      "summary": "Higher-order concept co-occurrence representation.",
+      "authors": [
+        "Vsevolod Salnikov",
+        "Daniele Cassese",
+        "Renaud Lambiotte",
+        "Nick S. Jones"
+      ],
+      "year": 2018,
+      "supporting_passages": []
+    },
+    {
+      "index": 11,
+      "url": "https://doi.org/10.1007/s41109-017-0034-3",
+      "title": "The weakness of weak ties for novel information diffusion (ANS 2:14)",
+      "summary": "Lower-capacity cross-group ties impede diffusion. A mechanism for failed off-home adoption.",
+      "authors": [
+        "Jennifer M. Larson"
+      ],
+      "year": 2017,
+      "supporting_passages": []
+    },
+    {
+      "index": 12,
+      "url": "https://doi.org/10.1007/s41109-021-00358-7",
+      "title": "Dank or not? Analyzing and predicting the popularity of memes on Reddit (ANS 6:21)",
+      "summary": "Virality prediction from content reaches AUC = 0.68 on 129,326 memes.",
+      "authors": null,
+      "year": 2021,
+      "supporting_passages": []
+    },
+    {
+      "index": 13,
+      "url": "https://doi.org/10.1007/s41109-018-0080-5",
+      "title": "Temporal walk based centrality metric for graph streams (ANS 3:32)",
+      "summary": "Predicting emerging centrality in temporal networks.",
+      "authors": null,
+      "year": 2018,
+      "supporting_passages": []
+    },
+    {
+      "index": 14,
+      "url": "https://doi.org/10.1007/s41109-022-00477-9",
+      "title": "Map equation centrality: community-aware centrality based on the map equation (ANS 7:56)",
+      "summary": "A community-aware centrality; robustness alternative to eigenvector gateway centrality.",
+      "authors": [
+        "Christopher Blöcker",
+        "Juan Carlos Nieves",
+        "Martin Rosvall"
+      ],
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 15,
+      "url": "https://doi.org/10.1007/s41109-019-0126-3",
+      "title": "Community structure in co-inventor networks affects time to first citation for patents (ANS 4:17)",
+      "summary": "Knowledge flows faster within communities.",
+      "authors": null,
+      "year": 2019,
+      "supporting_passages": []
+    },
+    {
+      "index": 16,
+      "url": "https://doi.org/10.1007/s41109-020-00325-8",
+      "title": "Global connections and the structure of skills in local co-worker networks (ANS 5:78)",
+      "summary": "Skill relatedness operationalised in ANS.",
+      "authors": null,
+      "year": 2020,
+      "supporting_passages": []
+    },
+    {
+      "index": 17,
+      "url": "https://doi.org/10.1007/s41109-025-00698-8",
+      "title": "Modelling innovation adoption spreading in complex networks (ANS 10:10)",
+      "summary": "Node position shapes adoption probability (Markov-chain model).",
+      "authors": [
+        "Jing-Lin Duanmu",
+        "Wei Koong Chai"
+      ],
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 18,
+      "url": "https://doi.org/10.1007/s41109-022-00492-w",
+      "title": "Understanding the romanization spreading on historical interregional networks in Northern Tunisia (ANS 7:53)",
+      "summary": "Spreading of a cultural trait over a mesoscale regional network. ANS analogue for trait persistence.",
+      "authors": null,
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 19,
+      "url": "https://arxiv.org/pdf/1602.08409",
+      "title": "The research space: using career paths to predict the evolution of the research output of individuals, institutions, and nations (Scientometrics 109:1695, 2016)",
+      "summary": "Field-entry AUC, research space vs UCSD map: individuals 0.8963 vs 0.8034; organisations 0.7148 vs 0.6873; countries 0.6816 vs 0.6819. No exit analysis.",
+      "authors": [
+        "Miguel R. Guevara",
+        "Dominik Hartmann",
+        "Manuel Aristarán",
+        "Marcelo Mendoza",
+        "César A. Hidalgo"
+      ],
+      "year": 2016,
+      "supporting_passages": [
+        {
+          "quote": "For countries, however, both methods are equally accurate",
+          "locator": "Results, Fig. 3"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "url": "https://arxiv.org/pdf/0708.2090",
+      "title": "The product space conditions the development of nations (Science 317:482, 2007)",
+      "summary": "Core-periphery product space; countries in more connected parts upgrade faster. Position governs diversification speed.",
+      "authors": [
+        "C. A. Hidalgo",
+        "B. Klinger",
+        "A.-L. Barabási",
+        "R. Hausmann"
+      ],
+      "year": 2007,
+      "supporting_passages": [
+        {
+          "quote": "allowing nations located in more connected parts of the",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "url": "https://oec.world/pdf/Hidalgo2018_Chapter_ThePrincipleOfRelatedness.pdf",
+      "title": "The Principle of Relatedness (Springer Proc. Complexity, ICCS 2018, pp. 451-457)",
+      "summary": "Synthesis: relatedness governs both entry and exit of activities.",
+      "authors": null,
+      "year": 2018,
+      "supporting_passages": [
+        {
+          "quote": "describing the probability that a region enters (or exits) an economic activity as a",
+          "locator": "p. 452, Introduction"
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "url": "https://doi.org/10.1111/j.1944-8287.2011.01121.x",
+      "title": "How Do Regions Diversify over Time? Industry Relatedness and the Development of New Growth Paths in Regions (Econ Geogr 87:237)",
+      "summary": "70 Swedish regions, 1969-2002: related industries are more likely to enter; unrelated ones are more likely to exit.",
+      "authors": [
+        "Frank Neffke",
+        "Martin Henning",
+        "Ron Boschma"
+      ],
+      "year": 2011,
+      "supporting_passages": []
+    },
+    {
+      "index": 23,
+      "url": "https://doi.org/10.1080/00343404.2013.854878",
+      "title": "Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes (Reg Stud 49:1922)",
+      "summary": "Entry and exit of cities from patent classes linked to local and non-local relatedness, 1975-2005.",
+      "authors": [
+        "David L. Rigby"
+      ],
+      "year": 2015,
+      "supporting_passages": []
+    },
+    {
+      "index": 24,
+      "url": "https://doi.org/10.1111/twec.12835",
+      "title": "Distance from core competences and new export survival: Evidence from multi-product exporters (World Econ 42:3253)",
+      "summary": "Distance of a new export from the firm's basket lowers its survival (relatedness, not centrality).",
+      "authors": [
+        "Daniel Goya",
+        "Andrés Zahler"
+      ],
+      "year": 2019,
+      "supporting_passages": []
+    },
+    {
+      "index": 25,
+      "url": "https://doi.org/10.1088/2632-072X/ae8211",
+      "title": "Bringing links back: economic complexity as network centrality in the Product Space (J Phys Complexity 7:035002)",
+      "summary": "Country centralities in the product space explain diversification, income and growth. Partial anticipation of position-based claims.",
+      "authors": [
+        "Taylan Yenilmez"
+      ],
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 26,
+      "url": "https://doi.org/10.1080/00130095.2022.2035715",
+      "title": "Technology Network Structure Conditions the Economic Resilience of Regions (Econ Geogr 98:355)",
+      "summary": "Robustness of a region's technology network conditions its resilience (269 metros).",
+      "authors": [
+        "Gergő Tóth",
+        "Zoltán Elekes",
+        "Adam Whittle",
+        "Changjun Lee",
+        "Dieter F. Kogler"
+      ],
+      "year": 2022,
+      "supporting_passages": []
+    },
+    {
+      "index": 27,
+      "url": "https://doi.org/10.3390/math14111953",
+      "title": "From Research Spaces to Strategic Portfolio Design: Forecasting Country-Level Scholarly Diversification (Mathematics 14:1953)",
+      "summary": "Research-space stepping-stone models for entry and exit of 164 countries in subfields.",
+      "authors": null,
+      "year": 2026,
+      "supporting_passages": [
+        {
+          "quote": "We estimate reduced-form stepping-stone models for entry and exit",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "url": "https://doi.org/10.1038/s41598-020-71009-7",
+      "title": "Knowledge and social relatedness shape research portfolio diversification (Sci Rep 10:14232)",
+      "summary": "Physicists' diversification depends on knowledge and social relatedness.",
+      "authors": [
+        "Giorgio Tripodi",
+        "Francesca Chiaromonte",
+        "Fabrizio Lillo"
+      ],
+      "year": 2020,
+      "supporting_passages": []
+    },
+    {
+      "index": 29,
+      "url": "https://doi.org/10.1140/epjds/s13688-019-0210-z",
+      "title": "Mapping the physics research space: a machine learning approach (EPJ Data Sci 8:33)",
+      "summary": "Research-space knowledge density predicts the evolution of research capacity of >400 urban areas. Numeric metrics not retrieved.",
+      "authors": [
+        "Matteo Chinazzi",
+        "Bruno Gonçalves",
+        "Qian Zhang",
+        "Alessandro Vespignani"
+      ],
+      "year": 2019,
+      "supporting_passages": []
+    },
+    {
+      "index": 30,
+      "url": "https://arxiv.org/pdf/2606.03864",
+      "title": "Explainable Forecasting of Scientific Breakthroughs from Concept Network Dynamics (arXiv preprint)",
+      "summary": "OpenAlex concept-pair link forecasting: ROC-AUC 0.954-0.967 over four domains; RMSLE 0.45 to 0.6 at 1-5 years; driven by Adamic-Adar and degree-Hadamard features.",
+      "authors": [
+        "Thomas Maillart",
+        "Thibaut Chataing",
+        "Ntorina Antoni",
+        "David Dosu",
+        "Paul Bagourd",
+        "Julian Jang-Jaccard",
+        "Alain Mermoud"
+      ],
+      "year": 2026,
+      "supporting_passages": [
+        {
+          "quote": "ROC–AUC in [0.954, 0.967] at all horizons without re-tuning",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "url": "https://arxiv.org/pdf/2606.03919",
+      "title": "Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing (arXiv preprint)",
+      "summary": "Exogenous diffusion R2 up to 0.78 (stratified random 80/20 split, n = 6,978 pair-years). Comparative R2_test 0.60-0.87 are within-domain temporal hold-outs, not cross-field transfer.",
+      "authors": [
+        "Thomas Maillart",
+        "Thibaut Chataing",
+        "David Dosu",
+        "Paul Bagourd",
+        "Julian Jang-Jaccard",
+        "Alain Mermoud"
+      ],
+      "year": 2026,
+      "supporting_passages": [
+        {
+          "quote": "Metrics are within-domain replications, not",
+          "locator": "Section 4, Comparative validation protocol"
+        }
+      ]
+    },
+    {
+      "index": 32,
+      "url": "https://arxiv.org/pdf/2210.00881",
+      "title": "Forecasting the future of artificial intelligence with machine learning-based link prediction in an exponentially growing knowledge network (Nat Mach Intell 5:1326, 2023)",
+      "summary": "Science4Cast: 143,000 arXiv AI papers, 64,719 concepts, ~17.9M edges. New links are rare (about 1-3%); per-model AUCs appear only in figures.",
+      "authors": null,
+      "year": 2023,
+      "supporting_passages": [
+        {
+          "quote": "with only about 1-3% of newly connected",
+          "locator": "Section II.C"
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "url": "https://arxiv.org/pdf/2402.08640",
+      "title": "Forecasting high-impact research topics via machine learning on evolving knowledge graphs (Mach Learn Sci Technol 6:025041, 2025)",
+      "summary": "Temporal train 2016-2019 / evaluate 2019-2022; AUC beyond 0.9 in most experiments.",
+      "authors": [
+        "Xuemei Gu",
+        "Mario Krenn"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "AUC values beyond 0.9 for most experiments",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 34,
+      "url": "https://arxiv.org/pdf/1306.0158",
+      "title": "Virality Prediction and Community Structure in Social Networks (Sci Rep 3:2522, 2013)",
+      "summary": "Early community concentration (first 50 tweets) predicts virality. About 7x the precision of random guessing and over 3x that of community-blind prediction.",
+      "authors": [
+        "Lilian Weng",
+        "Filippo Menczer",
+        "Yong-Yeol Ahn"
+      ],
+      "year": 2013,
+      "supporting_passages": [
+        {
+          "quote": "about seven times as precise as random guess",
+          "locator": "Results, prediction"
+        }
+      ]
+    },
+    {
+      "index": 35,
+      "url": "https://doi.org/10.1086/521848",
+      "title": "Complex Contagions and the Weakness of Long Ties (AJS 113:702-734)",
+      "summary": "Correct citation for complex contagion (theory).",
+      "authors": [
+        "Damon Centola",
+        "Michael Macy"
+      ],
+      "year": 2007,
+      "supporting_passages": []
+    },
+    {
+      "index": 36,
+      "url": "https://doi.org/10.1126/science.1185231",
+      "title": "The Spread of Behavior in an Online Social Network Experiment (Science 329:1194)",
+      "summary": "Experimental evidence for complex contagion in clustered networks.",
+      "authors": [
+        "Damon Centola"
+      ],
+      "year": 2010,
+      "supporting_passages": []
+    },
+    {
+      "index": 37,
+      "url": "https://doi.org/10.1177/00031224231166955",
+      "title": "How New Ideas Diffuse in Science (ASR 88:522-561)",
+      "summary": "~60,000 new ideas (1993-2016) followed across 38M papers. Ideas become core when they reach networks of unrelated authors, achieve consistent use and fit traditions.",
+      "authors": [
+        "Mengjie Cheng",
+        "Daniel Scott Smith",
+        "Xiang Ren",
+        "Hancheng Cao",
+        "Sanne Smith",
+        "Daniel A. McFarland"
+      ],
+      "year": 2023,
+      "supporting_passages": []
+    },
+    {
+      "index": 38,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7374558/fullTextXML",
+      "title": "The evolution of knowledge within and across fields in modern physics (Sci Rep 10:12097)",
+      "summary": "APS 1985-2015: absorbing, mutual and back-nurture field-pair regimes.",
+      "authors": [
+        "Ye Sun",
+        "Vito Latora"
+      ],
+      "year": 2020,
+      "supporting_passages": [
+        {
+          "quote": "cases of evolution from absorbing to mutual or even to back-nurture behaviors",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 39,
+      "url": "https://peerj.com/articles/cs-119.pdf",
+      "title": "How are topics born? Understanding the research dynamics preceding the emergence of new areas (PeerJ CS 3:e119)",
+      "summary": "Topic co-occurrence dynamics in the five years before debut, compared with a control group.",
+      "authors": [
+        "Angelo A. Salatino",
+        "Francesco Osborne",
+        "Enrico Motta"
+      ],
+      "year": 2017,
+      "supporting_passages": []
+    },
+    {
+      "index": 40,
+      "url": "https://doi.org/10.1145/3197026.3197052",
+      "title": "AUGUR: forecasting the emergence of new research topics (JCDL 2018, 303-312)",
+      "summary": "Gold standard of 1,408 debutant topics (2000-2011); beats four baselines on precision and recall.",
+      "authors": [
+        "Angelo A. Salatino",
+        "Francesco Osborne",
+        "Enrico Motta"
+      ],
+      "year": 2018,
+      "supporting_passages": []
+    },
+    {
+      "index": 41,
+      "url": "https://doi.org/10.1002/asi.21509",
+      "title": "Local emergence and global diffusion of research technologies (JASIST 62:846)",
+      "summary": "siRNA vs nanocrystalline solar cells: geographical and cognitive diffusion patterns.",
+      "authors": [
+        "Loet Leydesdorff",
+        "Ismael Rafols"
+      ],
+      "year": 2011,
+      "supporting_passages": []
+    },
+    {
+      "index": 42,
+      "url": "https://doi.org/10.1016/j.joi.2009.08.002",
+      "title": "Can epidemic models describe the diffusion of topics across disciplines? (J Informetr 4:74)",
+      "summary": "Epidemic models of topic diffusion across disciplines. Corrected DOI.",
+      "authors": [
+        "Istvan Z. Kiss",
+        "Mark Broom",
+        "Paul G. Craze",
+        "Ismael Rafols"
+      ],
+      "year": 2010,
+      "supporting_passages": []
+    },
+    {
+      "index": 43,
+      "url": "https://doi.org/10.1371/journal.pone.0015582",
+      "title": "Modeling Effects of Local Extinctions on Culture Change and Diversity in the Paleolithic (PLoS ONE 5:e15582)",
+      "summary": "Metapopulation model for cultural persistence and diversity. Partially anticipates the rescue/metapopulation analogy.",
+      "authors": [
+        "L. S. Premo",
+        "Steven L. Kuhn"
+      ],
+      "year": 2010,
+      "supporting_passages": [
+        {
+          "quote": "frequent extinctions of local subpopulations within a persistent metapopulation",
+          "locator": "Abstract"
+        }
+      ]
+    },
+    {
+      "index": 44,
+      "url": "https://doi.org/10.1142/S0219525911003268",
+      "title": "Local extinctions, connectedness, and cultural evolution in structured populations (Adv Complex Syst 15:1150002)",
+      "summary": "Intergroup transmission rate and network topology shape the effects of local extinction on cultural diversity.",
+      "authors": [
+        "L. S. Premo"
+      ],
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 45,
+      "url": "https://doi.org/10.1007/978-1-4419-6970-5_12",
+      "title": "The Transmission of Technological Skills in the Palaeolithic: Insights from Metapopulation Ecology",
+      "summary": "Metapopulation ecology applied to the persistence of technological skills.",
+      "authors": null,
+      "year": 2011,
+      "supporting_passages": []
+    },
+    {
+      "index": 46,
+      "url": "https://doi.org/10.2307/1935620",
+      "title": "Turnover Rates in Insular Biogeography: Effect of Immigration on Extinction (Ecology 58:445)",
+      "summary": "Original rescue-effect reference.",
+      "authors": [
+        "James H. Brown",
+        "Astrid Kodric-Brown"
+      ],
+      "year": 1977,
+      "supporting_passages": []
+    },
+    {
+      "index": 47,
+      "url": "https://doi.org/10.1038/23876",
+      "title": "Metapopulation dynamics (Nature 396:41)",
+      "summary": "Ecology reference for metapopulation persistence.",
+      "authors": [
+        "Ilkka Hanski"
+      ],
+      "year": 1998,
+      "supporting_passages": []
+    },
+    {
+      "index": 48,
+      "url": "https://doi.org/10.1002/asi.20614",
+      "title": "Betweenness centrality as an indicator of the interdisciplinarity of scientific journals (JASIST 58:1303)",
+      "summary": "Betweenness as an interdisciplinarity indicator. Structural, not a relay test.",
+      "authors": [
+        "Loet Leydesdorff"
+      ],
+      "year": 2007,
+      "supporting_passages": []
+    },
+    {
+      "index": 49,
+      "url": "https://doi.org/10.1007/s11192-017-2528-2",
+      "title": "Betweenness and diversity in journal citation networks as measures of interdisciplinarity (Scientometrics 114:567)",
+      "summary": "Betweenness centrality is treated as multidisciplinarity and diversity as interdisciplinarity.",
+      "authors": [
+        "Loet Leydesdorff",
+        "Caroline S. Wagner",
+        "Lutz Bornmann"
+      ],
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 50,
+      "url": "https://doi.org/10.1073/pnas.0706851105",
+      "title": "Maps of random walks on complex networks reveal community structure (PNAS 105:1118)",
+      "summary": "Flow-based maps of science (Infomap).",
+      "authors": [
+        "Martin Rosvall",
+        "Carl T. Bergstrom"
+      ],
+      "year": 2008,
+      "supporting_passages": []
+    },
+    {
+      "index": 51,
+      "url": "https://doi.org/10.1371/journal.pone.0329302",
+      "title": "Knowledge transfer, knowledge gaps, and knowledge silos in citation networks (PLoS ONE 20:e0329302)",
+      "summary": "Dynamic citation communities in XAI. Corrected venue: PLoS ONE, not ANS.",
+      "authors": [
+        "Eoghan Cunningham",
+        "Derek Greene"
+      ],
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 52,
+      "url": "https://arxiv.org/abs/2405.15828",
+      "title": "Oil & Water? Diffusion of AI Within and Across Scientific Fields (arXiv)",
+      "summary": "About 80M papers in 20 fields, 1985-2022; AI engagement up about 13x; uneven adoption across fields.",
+      "authors": [
+        "Eamon Duede",
+        "William Dolan",
+        "André Bauer",
+        "Ian Foster",
+        "Karim Lakhani"
+      ],
+      "year": 2024,
+      "supporting_passages": []
+    },
+    {
+      "index": 53,
+      "url": "https://doi.org/10.1007/s11192-025-05413-z",
+      "title": "Rise of Generative Artificial Intelligence in Science (Scientometrics 130:5093)",
+      "summary": "OpenAlex-based GenAI adoption across fields, 2017-2023.",
+      "authors": [
+        "Liangping Ding",
+        "Cornelia Lawson",
+        "Philip Shapira"
+      ],
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 54,
+      "url": "https://doi.org/10.1016/j.joi.2026.101858",
+      "title": "The diffusion of artificial intelligence methods in scientific research: growth pattern, disciplinary variation, and task alignment (J Informetr 20:101858)",
+      "summary": "Recent AI-method diffusion study; single-concept-family comparator.",
+      "authors": [
+        "Wen Lou",
+        "Tan Fu",
+        "Mingzhu Gao",
+        "Qianqian Xu"
+      ],
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 55,
+      "url": "https://doi.org/10.1007/s11192-025-05489-7",
+      "title": "Beyond borrowed concepts: a semantic analysis of entropy's half-century cross-disciplinary journey between physics and economics (Scientometrics)",
+      "summary": "Borrowed-concept case study; notes that sustained cross-disciplinary dialogue is rare.",
+      "authors": [
+        "Bea Treena Macasaet",
+        "Justin J W Powell"
+      ],
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 56,
+      "url": "https://doi.org/10.1007/s11192-026-05611-3",
+      "title": "Selective permeability in interdisciplinary knowledge organization: evidence from communication studies (Scientometrics 131:2927)",
+      "summary": "Hub-and-spoke boundary spanning by a field.",
+      "authors": null,
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 57,
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7276909",
+      "title": "Tracing and Forecasting Frontier Trajectories in Evolving Knowledge Networks (SSRN preprint)",
+      "summary": "Forecasts association trajectories of concept pairs rather than link existence. Existence verified.",
+      "authors": [
+        "Yixuan Shi",
+        "Yifang Ma"
+      ],
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 58,
+      "url": "https://doi.org/10.3389/frma.2024.1456978",
+      "title": "Complexity and phase transitions in citation networks: insights from artificial intelligence research (Front Res Metr Anal 9)",
+      "summary": "Entropy and citation-network phase transitions in AI; descriptive.",
+      "authors": [
+        "Ariadne de Andrade Costa",
+        "Rafael B. Frigori"
+      ],
+      "year": 2024,
+      "supporting_passages": []
+    },
+    {
+      "index": 59,
+      "url": "https://doi.org/10.1016/j.respol.2015.06.006",
+      "title": "What is an emerging technology? (Res Policy 44:1827)",
+      "summary": "Definitional baseline for emergence. Not a relatedness reference (correction).",
+      "authors": [
+        "Daniele Rotolo",
+        "Diana Hicks",
+        "Ben R. Martin"
+      ],
+      "year": 2015,
+      "supporting_passages": []
+    },
+    {
+      "index": 60,
+      "url": "https://doi.org/10.1016/j.respol.2021.104323",
+      "title": "The time and frequency of unrelated diversification (Res Policy 51:104323)",
+      "summary": "Unrelated jumps. DOI corrected to the 2021 prefix.",
+      "authors": [
+        "Flávio L. Pinheiro",
+        "Dominik Hartmann",
+        "Ron Boschma",
+        "César A. Hidalgo"
+      ],
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 61,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12714787/fullTextXML",
+      "title": "Tunable network properties with Hamill and Gilbert's Social Circles generator (ANS 2025): full-text XML",
+      "summary": "ANS template exemplar: GitHub/OSF data-availability wording and the Declarations subsections.",
+      "authors": null,
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "The source code, primary and secondary data used in the model, and documentation can be found on Github under a GNU General Public License 3.0.",
+          "locator": "Data availability"
+        }
+      ]
+    },
+    {
+      "index": 62,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12102006/fullTextXML",
+      "title": "Temporal dynamics of the friendship paradox in a smartphone communication network (ANS 10:16, 2025): full-text XML",
+      "summary": "ANS template exemplar: no keywords; Introduction...Discussion, Conclusions; Declarations with ethics, consent and competing interests.",
+      "authors": [
+        "Cheng Wang",
+        "Omar Lizardo",
+        "David S. Hachen"
+      ],
+      "year": 2025,
+      "supporting_passages": [
+        {
+          "quote": "The authors declare no competing interests.",
+          "locator": "Declarations"
+        }
+      ]
+    },
+    {
+      "index": 63,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11926000/fullTextXML",
+      "title": "Navigation on temporal networks (ANS 2025): full-text XML",
+      "summary": "ANS template exemplar: Introduction, Methods, Results, Conclusions; no keywords; author-year citations.",
+      "authors": null,
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 64,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12575549/fullTextXML",
+      "title": "Initialisation and network effects in decentralised federated learning (ANS 2025): full-text XML",
+      "summary": "ANS template exemplar with a separate 'Related works' section.",
+      "authors": null,
+      "year": 2025,
+      "supporting_passages": []
+    },
+    {
+      "index": 65,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12775101/fullTextXML",
+      "title": "Changes in patient-sharing patterns after oncologist departures (ANS 2026): full-text XML",
+      "summary": "ANS template exemplar with an Abbreviations section and keywords.",
+      "authors": null,
+      "year": 2026,
+      "supporting_passages": []
+    },
+    {
+      "index": 66,
+      "url": "https://link.springer.com/journal/41109/submission-guidelines",
+      "title": "Applied Network Science submission guidelines (snippets only)",
+      "summary": "The page is IdP-blocked. Snippets: 3-10 keywords; 'Availability of data and materials' required; APC £1240/$1790/€1490 (unverified).",
+      "authors": null,
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 67,
+      "url": "https://api.crossref.org/works",
+      "title": "Crossref REST API",
+      "summary": "Used to verify about 95 DOIs (author, year, title, venue) and to find the correct DOIs for wrongly attributed references.",
+      "authors": null,
+      "year": null,
+      "supporting_passages": []
+    },
+    {
+      "index": 68,
+      "url": "https://arxiv.org/pdf/2205.02942",
+      "title": "Evaluating the principle of relatedness: Estimation, drivers and implications for policy (arXiv)",
+      "summary": "Compares relatedness specifications across establishments, firms, cities and countries.",
+      "authors": [
+        "Yang Li",
+        "Frank Neffke"
+      ],
+      "year": 2023,
+      "supporting_passages": []
+    },
+    {
+      "index": 69,
+      "url": "https://doi.org/10.1016/j.physa.2005.08.083",
+      "title": "The power of a good idea: quantitative modeling of the spread of ideas from epidemiological models (Physica A 364:513)",
+      "summary": "Epidemic models of idea spread. Corrected DOI.",
+      "authors": null,
+      "year": 2006,
+      "supporting_passages": []
+    },
+    {
+      "index": 70,
+      "url": "https://doi.org/10.1002/asi.20317",
+      "title": "CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature (JASIST 57:359)",
+      "summary": "Emerging-trend detection baseline.",
+      "authors": [
+        "Chaomei Chen"
+      ],
+      "year": null,
+      "supporting_passages": []
+    }
+  ],
+  "follow_up_questions": [
+    "RISK / stronger baseline: an economic-complexity reviewer will ask whether the adopter's gateway centrality still adds retention signal once the relatedness DENSITY of the adopter's own concept portfolio to the adopted concept (not relatedness to the concept's home field) is in the baseline. The experiment step should add this rival and also check eigenvector centrality against density and size collinearity. Is there an export-survival or regional-exit paper that already shows centrality beating density? None was found; the search was capped.",
+    "Next-field entry: our relatedness-density AUC (0.61) is below Guevara et al.'s organisation and country levels (0.68-0.72), and field size (0.74) beats it. Should the held-out analysis report density's increment over size in a conditional logit, stratified by field size, so the comparison with Guevara et al. is like-for-like?",
+    "Collection fit: the 'Networks for everyday life' article list, guest editors and deadline remain unknown (Springer IdP/JS block). Can a logged-in browser or the editorial office confirm the members, and whether any science-of-science paper is in the collection to cite? Until then, fit rests on societal relevance and method overlap only."
+  ]
+}
