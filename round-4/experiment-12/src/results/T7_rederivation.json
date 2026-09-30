@@ -1,0 +1,130 @@
+{
+ "decomposition": {
+  "COH_DEVHOME/i_pooled": {
+   "max_abs_diff": 0.0,
+   "n": 1368
+  },
+  "COH_DEVHOME/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 1368
+  },
+  "COH_OTHER/i_pooled": {
+   "max_abs_diff": 0.0,
+   "n": 814
+  },
+  "COH_OTHER/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 814
+  },
+  "LIFEENV/i_pooled": {
+   "max_abs_diff": 0.0,
+   "n": 630
+  },
+  "LIFEENV/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 630
+  },
+  "MATHDEC/i_pooled": {
+   "max_abs_diff": 0.0,
+   "n": 101
+  },
+  "MATHDEC/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 101
+  },
+  "PHYS/i_pooled": {
+   "max_abs_diff": 5.551115123125783e-17,
+   "n": 413
+  },
+  "PHYS/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 413
+  },
+  "SOC/i_pooled": {
+   "max_abs_diff": 0.0,
+   "n": 689
+  },
+  "SOC/ii_vol_PRIMARY": {
+   "max_abs_diff": 0.0,
+   "n": 689
+  }
+ },
+ "open_pc1": {
+  "COH_DEVHOME/all": {
+   "mine": 0.3811600018934702,
+   "pipeline": 0.3811600018934702
+  },
+  "COH_DEVHOME/home": {
+   "mine": 0.20076154528528184,
+   "pipeline": 0.2007615452852818
+  },
+  "COH_DEVHOME/size": {
+   "mine": 0.09792617606941657,
+   "pipeline": 0.09792617606941659
+  },
+  "COH_OTHER/all": {
+   "mine": 0.3656095041645835,
+   "pipeline": 0.36560950416458343
+  },
+  "COH_OTHER/home": {
+   "mine": 0.1842836435246371,
+   "pipeline": 0.1842836435246371
+  },
+  "COH_OTHER/size": {
+   "mine": 0.09227458979948418,
+   "pipeline": 0.09227458979948418
+  },
+  "LIFEENV/all": {
+   "mine": 0.3343451853067028,
+   "pipeline": 0.3343451853067028
+  },
+  "LIFEENV/home": {
+   "mine": 0.17328852627193253,
+   "pipeline": 0.17328852627193256
+  },
+  "LIFEENV/size": {
+   "mine": 0.0712981147919162,
+   "pipeline": 0.07129811479191618
+  },
+  "MATHDEC/all": {
+   "mine": 0.6611542423523972,
+   "pipeline": 0.6611542423523973
+  },
+  "MATHDEC/home": {
+   "mine": 0.43371734154515823,
+   "pipeline": 0.4337173415451583
+  },
+  "MATHDEC/size": {
+   "mine": 0.5755824820340949,
+   "pipeline": 0.5755824820340949
+  },
+  "PHYS/all": {
+   "mine": 0.41799312499443503,
+   "pipeline": 0.4179931249944351
+  },
+  "PHYS/home": {
+   "mine": 0.23408795729946663,
+   "pipeline": 0.23408795729946663
+  },
+  "PHYS/size": {
+   "mine": 0.21561844725592652,
+   "pipeline": 0.2156184472559265
+  },
+  "SOC/all": {
+   "mine": 0.3321264141563566,
+   "pipeline": 0.3321264141563566
+  },
+  "SOC/home": {
+   "mine": 0.05467252425558979,
+   "pipeline": 0.05467252425558979
+  },
+  "SOC/size": {
+   "mine": -0.012327733651934108,
+   "pipeline": -0.012327733651934108
+  }
+ },
+ "decomposition_max_abs_diff": 5.551115123125783e-17,
+ "decomposition_pass_1e-9": true,
+ "open_pc1_max_abs_diff": 1.1102230246251565e-16,
+ "open_pc1_pass_1e-6": true
+}

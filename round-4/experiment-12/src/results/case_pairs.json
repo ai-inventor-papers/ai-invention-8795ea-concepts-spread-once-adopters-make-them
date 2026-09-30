@@ -1,0 +1,2324 @@
+{
+ "rule": {
+  "pools": "per reporting group: top-quintile OPEN_all vs bottom-quintile OPEN_all among non-generic concepts with OPEN_home defined (quintiles within reporting group)",
+  "match": "|z logvol diff| <= 0.25 and |z growth_c diff| <= 0.25 (z over all 12,499), same reporting group, |t0 diff| <= 2; widen to 0.35 for a group with no valid match (logged)",
+  "seeding": "first try concepts named in EXP8 case_exemplars.json (high/low lists) as anchors; then the pair with the largest OPEN_all gap among remaining matches; ties by the smallest Mahalanobis distance on (logvol, growth_c, offhome_share)",
+  "limits": "6-8 pairs; at most 2 from CS+Eng; at least 4 groups covered; one concept in at most one pair",
+  "outcome_use": "O2r is NOT used in selection; displayed after selection only",
+  "tol": 0.25,
+  "tol_wide": 0.35,
+  "max_pairs": 8,
+  "min_pairs": 6,
+  "max_cs_eng": 2
+ },
+ "selection_log": {
+  "generic_excluded": 11157,
+  "generic_hits": [
+   {
+    "ci": 3,
+    "name": "Complete intersection",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 4,
+    "name": "Torque converter",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 16,
+    "name": "Early adopter",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 37,
+    "name": "Prospect theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 48,
+    "name": "Dwarf spheroidal galaxy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 52,
+    "name": "Magnetoelectric effect",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 53,
+    "name": "Neural development",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 54,
+    "name": "Science communication",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 55,
+    "name": "Acronym",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 61,
+    "name": "Angle of attack",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 69,
+    "name": "Turing test",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 70,
+    "name": "Base course",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 74,
+    "name": "Endogeneity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 75,
+    "name": "Impedance matching",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 91,
+    "name": "Scientific management",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 92,
+    "name": "World literature",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 98,
+    "name": "Ferrimagnetism",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 105,
+    "name": "Space launch",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 112,
+    "name": "Trophic cascade",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 113,
+    "name": "Ferroalloy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 115,
+    "name": "Team learning",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 116,
+    "name": "Distributed feedback laser",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 133,
+    "name": "Anabolism",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 136,
+    "name": "Software bug",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 144,
+    "name": "Expansive clay",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 150,
+    "name": "HRAS",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 153,
+    "name": "Economic order quantity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 162,
+    "name": "Autoregressive fractionally integrated moving average",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 168,
+    "name": "Herbig Ae/Be star",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 186,
+    "name": "Linear actuator",
+    "generic_why": "pre_onset_footprint|generic_regex"
+   },
+   {
+    "ci": 192,
+    "name": "Immunogenetics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 193,
+    "name": "Normalized Difference Vegetation Index",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 196,
+    "name": "Matrix pencil",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 197,
+    "name": "Measurement invariance",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 198,
+    "name": "Health belief model",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 208,
+    "name": "Life course approach",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 212,
+    "name": "Recuperator",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 218,
+    "name": "Optical rectification",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 219,
+    "name": "Liquefied petroleum gas",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 224,
+    "name": "Neutron reflectometry",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 230,
+    "name": "Asian option",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 234,
+    "name": "Mahalanobis distance",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 250,
+    "name": "Extracellular fluid",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 263,
+    "name": "Siegel modular form",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 269,
+    "name": "Health equity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 277,
+    "name": "Glocalization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 280,
+    "name": "Cow dung",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 282,
+    "name": "Uncanny valley",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 284,
+    "name": "Linear code",
+    "generic_why": "pre_onset_footprint|generic_regex"
+   },
+   {
+    "ci": 286,
+    "name": "Medical prescription",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 293,
+    "name": "Energy homeostasis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 294,
+    "name": "Optode",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 300,
+    "name": "HMGA2",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 301,
+    "name": "Double auction",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 308,
+    "name": "Distance measures",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 309,
+    "name": "Impervious surface",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 314,
+    "name": "Economic sociology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 319,
+    "name": "Schur complement",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 340,
+    "name": "Intravital microscopy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 344,
+    "name": "Big Five personality traits",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 348,
+    "name": "Decision-making models",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 352,
+    "name": "Rotating magnetic field",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 365,
+    "name": "Energy crop",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 368,
+    "name": "Fluorapatite",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 369,
+    "name": "State observer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 376,
+    "name": "Information hiding",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 385,
+    "name": "Laser propulsion",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 399,
+    "name": "Spectral imaging",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 404,
+    "name": "Frame rate",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 407,
+    "name": "Total productive maintenance",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 420,
+    "name": "Pentose phosphate pathway",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 424,
+    "name": "Melanopsin",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 444,
+    "name": "Lucas number",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 445,
+    "name": "Effective population size",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 452,
+    "name": "Communication theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 459,
+    "name": "Symmetric function",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 462,
+    "name": "Optical axis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 463,
+    "name": "Hidden curriculum",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 477,
+    "name": "Incentive program",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 481,
+    "name": "Ground vibrations",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 483,
+    "name": "Half-life",
+    "generic_why": "pre_onset_footprint|common_single_token"
+   },
+   {
+    "ci": 485,
+    "name": "Matrix gla protein",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 490,
+    "name": "Mechanosensitive channels",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 491,
+    "name": "Sheaf",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 525,
+    "name": "Self-knowledge",
+    "generic_why": "pre_onset_footprint|common_single_token"
+   },
+   {
+    "ci": 534,
+    "name": "X-inactivation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 552,
+    "name": "Epigraphy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 562,
+    "name": "Mediterranean climate",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 569,
+    "name": "Eukaryotic translation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 572,
+    "name": "Phonotactics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 583,
+    "name": "Package insert",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 593,
+    "name": "Ampere",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 597,
+    "name": "RGS2",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 601,
+    "name": "TILLING",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 603,
+    "name": "Impression management",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 606,
+    "name": "Military history",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 607,
+    "name": "Core network",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 608,
+    "name": "Fuzzy cognitive map",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 610,
+    "name": "Toric variety",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 621,
+    "name": "Anaerobic exercise",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 631,
+    "name": "Pelletizing",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 633,
+    "name": "Categorical variable",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 638,
+    "name": "5-HTTLPR",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 639,
+    "name": "Voltage-controlled oscillator",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 641,
+    "name": "Chemical plant",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 659,
+    "name": "Pharmaceutical engineering",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 663,
+    "name": "VNIR",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 672,
+    "name": "Hatha yoga",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 674,
+    "name": "Expected shortfall",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 684,
+    "name": "Card sorting",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 691,
+    "name": "Thermal fluctuations",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 695,
+    "name": "Lorentz transformation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 726,
+    "name": "Refractometer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 744,
+    "name": "Neurophysins",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 745,
+    "name": "Triple bottom line",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 757,
+    "name": "Mathematical statistics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 761,
+    "name": "Physical science",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 784,
+    "name": "Aviation medicine",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 796,
+    "name": "Traffic sign recognition",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 797,
+    "name": "Co-channel interference",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 817,
+    "name": "Posterior parietal cortex",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 818,
+    "name": "Pyrolytic carbon",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 821,
+    "name": "Trinomial",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 822,
+    "name": "John Cage",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 839,
+    "name": "Far-red",
+    "generic_why": "pre_onset_footprint|common_single_token"
+   },
+   {
+    "ci": 841,
+    "name": "Vacuum energy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 842,
+    "name": "Indirect costs",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 859,
+    "name": "Holographic display",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 865,
+    "name": "Standby power",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 875,
+    "name": "Pictogram",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 888,
+    "name": "Microseism",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 892,
+    "name": "Carbon dioxide reforming",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 895,
+    "name": "Toda lattice",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 918,
+    "name": "Oil droplet",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 920,
+    "name": "Weak localization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 936,
+    "name": "Phase center",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 947,
+    "name": "Economic restructuring",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 950,
+    "name": "Defence mechanisms",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 958,
+    "name": "Lewis number",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 966,
+    "name": "Anthropocentrism",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 969,
+    "name": "Laser peening",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 974,
+    "name": "Paracrine signalling",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 989,
+    "name": "Phenome",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 992,
+    "name": "Cotangent bundle",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 998,
+    "name": "Congestion pricing",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1000,
+    "name": "Crowding out",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1003,
+    "name": "Unsupervised learning",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1004,
+    "name": "Monoacylglycerol lipase",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1016,
+    "name": "Biomagnification",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1023,
+    "name": "Respiratory rate",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1028,
+    "name": "Ovariectomized rat",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1035,
+    "name": "B chromosome",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1038,
+    "name": "Tree planting",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1039,
+    "name": "Aril",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1041,
+    "name": "Axial-flow pump",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1054,
+    "name": "Harnack's inequality",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1056,
+    "name": "Radioluminescence",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1061,
+    "name": "Budget constraint",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1064,
+    "name": "Optical parametric amplifier",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1066,
+    "name": "Lubricity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1072,
+    "name": "Trickle-bed reactor",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1074,
+    "name": "Tone mapping",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1078,
+    "name": "Sensory substitution",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1086,
+    "name": "Chrome plating",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1087,
+    "name": "Offshore wind power",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1100,
+    "name": "Information transfer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1115,
+    "name": "Nucleophilic aromatic substitution",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1150,
+    "name": "Operationalization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1153,
+    "name": "Mimotope",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1158,
+    "name": "Rotation period",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1166,
+    "name": "Polynomial ring",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1174,
+    "name": "Photojournalism",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1175,
+    "name": "Zero divisor",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1195,
+    "name": "Hydrogen fuel",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1197,
+    "name": "Social engagement",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1201,
+    "name": "Modern portfolio theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1207,
+    "name": "Geospatial analysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1210,
+    "name": "Michelson interferometer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1251,
+    "name": "Rootkit",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1256,
+    "name": "Drive shaft",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1264,
+    "name": "Moment of inertia",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1275,
+    "name": "Static VAR compensator",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1277,
+    "name": "Free trade zone",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1282,
+    "name": "Niche construction",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1294,
+    "name": "Data security",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1298,
+    "name": "Data pre-processing",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1301,
+    "name": "Artificial seawater",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1303,
+    "name": "Enterprise architecture",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1306,
+    "name": "LS-DYNA",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1308,
+    "name": "Vortex-induced vibration",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1350,
+    "name": "Vagal tone",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1351,
+    "name": "Radar imaging",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1352,
+    "name": "Allee effect",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1363,
+    "name": "Business rule",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1366,
+    "name": "Hyperelliptic curve",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1371,
+    "name": "Multiple-criteria decision analysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1372,
+    "name": "Coordination sphere",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1392,
+    "name": "Atlantic multidecadal oscillation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1402,
+    "name": "Dispersity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1410,
+    "name": "Malliavin calculus",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1413,
+    "name": "Group representation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1421,
+    "name": "Unjust enrichment",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1422,
+    "name": "Compassion fatigue",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1424,
+    "name": "Photon upconversion",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1431,
+    "name": "Radius of curvature",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1432,
+    "name": "Causal model",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1433,
+    "name": "Coastal flood",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1434,
+    "name": "SCCmec",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1436,
+    "name": "Unicast",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1437,
+    "name": "Microevolution",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1441,
+    "name": "Spiking neural network",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1445,
+    "name": "Framingham Risk Score",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1447,
+    "name": "Omnivore",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1449,
+    "name": "Network theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1458,
+    "name": "Paleoceanography",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1460,
+    "name": "Fractional crystallization (geology)",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1466,
+    "name": "Oratorio",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1473,
+    "name": "Relative biological effectiveness",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1488,
+    "name": "Color histogram",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1493,
+    "name": "Differentiator",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1494,
+    "name": "Adoration",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1495,
+    "name": "Compound heterozygosity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1496,
+    "name": "Groundwater discharge",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1524,
+    "name": "Phenocopy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1537,
+    "name": "Positive psychology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1552,
+    "name": "Link layer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1555,
+    "name": "Booster dose",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1557,
+    "name": "IRF4",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1570,
+    "name": "Geomatics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1572,
+    "name": "Quadratic residue",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1573,
+    "name": "Microfiber",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1580,
+    "name": "Streak camera",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1590,
+    "name": "GPS signals",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1591,
+    "name": "Event study",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1607,
+    "name": "Water retention curve",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1610,
+    "name": "Biodegradable waste",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1627,
+    "name": "Suzuki reaction",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1628,
+    "name": "Polarization rotator",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1633,
+    "name": "Health law",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1643,
+    "name": "Ectotherm",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1656,
+    "name": "Coronal plane",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1658,
+    "name": "Asthenosphere",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1664,
+    "name": "Social deprivation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1674,
+    "name": "Liver fluke",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1678,
+    "name": "Writing style",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1681,
+    "name": "Hyperbole",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1686,
+    "name": "Nonthermal plasma",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1691,
+    "name": "HDAC3",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1697,
+    "name": "Web crawler",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1698,
+    "name": "Relative permittivity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1707,
+    "name": "Interaction design",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1718,
+    "name": "Internally displaced person",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1719,
+    "name": "Isotopologue",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1729,
+    "name": "Wannier function",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1732,
+    "name": "Liquefied natural gas",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1736,
+    "name": "Suppressor of cytokine signaling 1",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1744,
+    "name": "HOMO/LUMO",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1751,
+    "name": "Visual analogue scale",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1755,
+    "name": "Stiffness matrix",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1770,
+    "name": "Vapour Pressure Deficit",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1778,
+    "name": "Locked nucleic acid",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1800,
+    "name": "Design pattern",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1810,
+    "name": "Social cognitive theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1818,
+    "name": "Retrieval-induced forgetting",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1831,
+    "name": "Buttress",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1834,
+    "name": "Photomask",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1840,
+    "name": "Liminality",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1842,
+    "name": "Arrow of time",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1843,
+    "name": "Fractal antenna",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1845,
+    "name": "Shrimp farming",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1859,
+    "name": "Relevance vector machine",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1871,
+    "name": "Longhorn beetle",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1880,
+    "name": "Psychophysics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1881,
+    "name": "Lyotropic liquid crystal",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1888,
+    "name": "Long tail",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1896,
+    "name": "Pith",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1899,
+    "name": "Structural coloration",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1907,
+    "name": "Adiabatic shear band",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1933,
+    "name": "Live cell imaging",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1937,
+    "name": "Liveness",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1951,
+    "name": "Domain analysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1953,
+    "name": "Graphic design",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1954,
+    "name": "Glacial period",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1957,
+    "name": "Aquaporin 4",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1970,
+    "name": "Radiative cooling",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1988,
+    "name": "CHAID",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 1995,
+    "name": "Symbolic dynamics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2000,
+    "name": "Gaussian curvature",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2002,
+    "name": "Reassortment",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2013,
+    "name": "Raji cell",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2015,
+    "name": "Ionogram",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2029,
+    "name": "Antarctic sea ice",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2031,
+    "name": "Nanoprobe",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2033,
+    "name": "Geostationary orbit",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2036,
+    "name": "Fractional factorial design",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2040,
+    "name": "Cournot competition",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2053,
+    "name": "Social stress",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2054,
+    "name": "Wiener index",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2063,
+    "name": "Human settlement",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2066,
+    "name": "Somitogenesis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2081,
+    "name": "Inorganic ions",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2083,
+    "name": "DNA demethylation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2109,
+    "name": "Capital adequacy ratio",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2114,
+    "name": "Acid hydrolysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2117,
+    "name": "Rescue robot",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2120,
+    "name": "Pseudoscience",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2121,
+    "name": "Screenwriting",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2133,
+    "name": "Metamemory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2137,
+    "name": "Bergman kernel",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2144,
+    "name": "Pyroptosis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2149,
+    "name": "Land development",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2150,
+    "name": "Granular computing",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2179,
+    "name": "CXCL9",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2180,
+    "name": "Image intensifier",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2190,
+    "name": "Mitochondrial fission",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2194,
+    "name": "Digital media",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2209,
+    "name": "Axiology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2211,
+    "name": "Multigraph",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2218,
+    "name": "Impression formation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2229,
+    "name": "Propensity score matching",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2230,
+    "name": "Endochondral ossification",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2231,
+    "name": "Harem",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2237,
+    "name": "Multiplicative noise",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2244,
+    "name": "Geoarchaeology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2275,
+    "name": "Diffraction efficiency",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2283,
+    "name": "Right to privacy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2286,
+    "name": "Compact star",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2288,
+    "name": "Mixing ratio",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2291,
+    "name": "Pulpotomy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2299,
+    "name": "Wiener filter",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2304,
+    "name": "Environmental psychology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2308,
+    "name": "Mentalization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2317,
+    "name": "Digital micromirror device",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2321,
+    "name": "Joint probability distribution",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2331,
+    "name": "Diafiltration",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2338,
+    "name": "Scenario analysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2339,
+    "name": "Emergy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2342,
+    "name": "Screw theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2363,
+    "name": "Telomerization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2383,
+    "name": "Liquid gas",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2384,
+    "name": "Band bending",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2388,
+    "name": "Basophilic",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2390,
+    "name": "Subadditivity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2396,
+    "name": "Physical layer",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2399,
+    "name": "Ichthyoplankton",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2402,
+    "name": "Property management",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2403,
+    "name": "Moral psychology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2431,
+    "name": "Semiparametric regression",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2437,
+    "name": "Region of interest",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2439,
+    "name": "Workflow technology",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2445,
+    "name": "Indicator bacteria",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2469,
+    "name": "GPR120",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2470,
+    "name": "Model organism",
+    "generic_why": "pre_onset_footprint|generic_regex"
+   },
+   {
+    "ci": 2496,
+    "name": "Sea spray",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2498,
+    "name": "Continued fraction",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2523,
+    "name": "Evolutionary game theory",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2525,
+    "name": "Body language",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2527,
+    "name": "Environmental impact statement",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2553,
+    "name": "Master/slave",
+    "generic_why": "pre_onset_footprint|common_single_token"
+   },
+   {
+    "ci": 2558,
+    "name": "Invariant manifold",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2591,
+    "name": "Urban ecosystem",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2599,
+    "name": "Hemeprotein",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2602,
+    "name": "Cyclic group",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2603,
+    "name": "Geometric programming",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2604,
+    "name": "Photoelectrochemical cell",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2605,
+    "name": "Vector flow",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2614,
+    "name": "Latin hypercube sampling",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2621,
+    "name": "Cognitive architecture",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2623,
+    "name": "Biological motion",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2627,
+    "name": "Magnetic flux leakage",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2632,
+    "name": "Sustainability science",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2644,
+    "name": "Payment card",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2646,
+    "name": "Probability measure",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2650,
+    "name": "Tiltmeter",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2654,
+    "name": "Seismotectonics",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2666,
+    "name": "Social behavior",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2680,
+    "name": "Information model",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2686,
+    "name": "Self-actualization",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2710,
+    "name": "Inductive reasoning",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2713,
+    "name": "Collaborative filtering",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2714,
+    "name": "Ritz method",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2723,
+    "name": "Metglas",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2725,
+    "name": "Beta distribution",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2727,
+    "name": "Autograph",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2736,
+    "name": "Detrended fluctuation analysis",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2738,
+    "name": "Semiring",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2757,
+    "name": "Positive Youth Development",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2780,
+    "name": "Greywater",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2791,
+    "name": "Perceptual learning",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2792,
+    "name": "Geolocation",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2799,
+    "name": "Saturable absorption",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2800,
+    "name": "Stable isotope ratio",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2803,
+    "name": "Galvannealed",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2817,
+    "name": "Arc length",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2826,
+    "name": "Lipschitz continuity",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2835,
+    "name": "Stacking-fault energy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2843,
+    "name": "Onomatopoeia",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2850,
+    "name": "Interaction energy",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2852,
+    "name": "Brushite",
+    "generic_why": "pre_onset_footprint"
+   },
+   {
+    "ci": 2856,
+    "name": "Shear wave splitting",
+    "generic_why": "pre_onset_footprint"
+   }
+  ],
+  "anchors_available": [
+   9469,
+   10830,
+   11217,
+   13416,
+   22890,
+   53797
+  ],
+  "widened": [],
+  "per_group": {
+   "CS+Eng": {
+    "n_hi_pool": 66,
+    "n_lo_pool": 67,
+    "n_candidate_pairs": 58
+   },
+   "BGM+Med": {
+    "n_hi_pool": 125,
+    "n_lo_pool": 125,
+    "n_candidate_pairs": 104
+   },
+   "PHYS": {
+    "n_hi_pool": 19,
+    "n_lo_pool": 19,
+    "n_candidate_pairs": 1
+   },
+   "LIFEENV": {
+    "n_hi_pool": 13,
+    "n_lo_pool": 13,
+    "n_candidate_pairs": 0
+   },
+   "SOC": {
+    "n_hi_pool": 32,
+    "n_lo_pool": 32,
+    "n_candidate_pairs": 4
+   },
+   "MATHDEC": {
+    "n_hi_pool": 1,
+    "n_lo_pool": 1,
+    "n_candidate_pairs": 0
+   }
+  },
+  "n_pairs": 7,
+  "groups_covered": [
+   "BGM+Med",
+   "CS+Eng",
+   "PHYS",
+   "SOC"
+  ]
+ },
+ "pairs": [
+  {
+   "pair": "pair01_CSEng",
+   "rgroup": "CS+Eng",
+   "high": "Graphics processing unit",
+   "low": "Vertical axis wind turbine",
+   "OPEN_all": [
+    2.1224511003497835,
+    -0.6691237194798072
+   ],
+   "OPEN_home": [
+    0.4987059599128893,
+    -0.4069733522454708
+   ],
+   "logvol": [
+    4.890349128221754,
+    4.897839799950911
+   ],
+   "O2r_resid": [
+    3.2599171916920078,
+    -0.9180104704375194
+   ],
+   "Bn": [
+    8.0,
+    4.0
+   ],
+   "E2": [
+    7.0,
+    2.0
+   ],
+   "rho": [
+    0.7272727272727273,
+    0.6666666666666666
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair02_BGMMed",
+   "rgroup": "BGM+Med",
+   "high": "Shotgun proteomics",
+   "low": "Image-guided radiation therapy",
+   "OPEN_all": [
+    1.5506709977859554,
+    -1.2190170907446358
+   ],
+   "OPEN_home": [
+    1.4542920248036852,
+    -0.7631447507436927
+   ],
+   "logvol": [
+    4.418840607796598,
+    4.477336814478207
+   ],
+   "O2r_resid": [
+    1.3359666347862138,
+    -3.5168864406072657
+   ],
+   "Bn": [
+    3.0,
+    0.0
+   ],
+   "E2": [
+    3.0,
+    1.0
+   ],
+   "rho": [
+    0.6,
+    0.0
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair03_PHYS",
+   "rgroup": "PHYS",
+   "high": "Nanocarriers",
+   "low": "Nanosheet",
+   "OPEN_all": [
+    0.6659290147271483,
+    -0.6149791238010124
+   ],
+   "OPEN_home": [
+    0.3895793814732094,
+    -0.23251228926495204
+   ],
+   "logvol": [
+    4.709530201312334,
+    4.795790545596741
+   ],
+   "O2r_resid": [
+    2.787922462888554,
+    0.7304328490468972
+   ],
+   "Bn": [
+    6.0,
+    7.0
+   ],
+   "E2": [
+    6.0,
+    4.0
+   ],
+   "rho": [
+    0.6,
+    0.875
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair04_SOC",
+   "rgroup": "SOC",
+   "high": "Soft power",
+   "low": "Autonomous learning",
+   "OPEN_all": [
+    1.9551989199475421,
+    -0.38976664105244546
+   ],
+   "OPEN_home": [
+    1.6015831865502823,
+    0.3134843986564578
+   ],
+   "logvol": [
+    4.941642422609304,
+    4.941642422609304
+   ],
+   "O2r_resid": [
+    1.3480751627507148,
+    0.26018283759672567
+   ],
+   "Bn": [
+    6.0,
+    4.0
+   ],
+   "E2": [
+    4.0,
+    3.0
+   ],
+   "rho": [
+    0.75,
+    1.0
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair05_CSEng",
+   "rgroup": "CS+Eng",
+   "high": "Scopus",
+   "low": "Oxygen reduction reaction",
+   "OPEN_all": [
+    1.843065009540754,
+    -0.8267895779585691
+   ],
+   "OPEN_home": [
+    0.20170638376003294,
+    -0.4097957144497746
+   ],
+   "logvol": [
+    4.553876891600541,
+    4.51085950651685
+   ],
+   "O2r_resid": [
+    5.685703432708352,
+    0.7422291339682907
+   ],
+   "Bn": [
+    9.0,
+    5.0
+   ],
+   "E2": [
+    6.0,
+    4.0
+   ],
+   "rho": [
+    0.6428571428571429,
+    0.8333333333333334
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair06_BGMMed",
+   "rgroup": "BGM+Med",
+   "high": "Sclerostin",
+   "low": "IgG4-related disease",
+   "OPEN_all": [
+    1.5477404399585464,
+    -0.8642079724220579
+   ],
+   "OPEN_home": [
+    2.8382178903528357,
+    -0.8004409804793847
+   ],
+   "logvol": [
+    5.081404364984463,
+    5.111987788356544
+   ],
+   "O2r_resid": [
+    -0.9212264694059553,
+    -1.578998499974558
+   ],
+   "Bn": [
+    4.0,
+    3.0
+   ],
+   "E2": [
+    3.0,
+    2.0
+   ],
+   "rho": [
+    1.0,
+    0.75
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  },
+  {
+   "pair": "pair07_SOC",
+   "rgroup": "SOC",
+   "high": "User-generated content",
+   "low": "Mindfulness-based cognitive therapy",
+   "OPEN_all": [
+    1.1430986105439127,
+    -0.4039826307924678
+   ],
+   "OPEN_home": [
+    1.4395310622494302,
+    -0.46320683684895664
+   ],
+   "logvol": [
+    4.5217885770490405,
+    4.51085950651685
+   ],
+   "O2r_resid": [
+    0.739074703243495,
+    -0.2206815977021952
+   ],
+   "Bn": [
+    3.0,
+    4.0
+   ],
+   "E2": [
+    3.0,
+    3.0
+   ],
+   "rho": [
+    0.75,
+    1.0
+   ],
+   "high_open_higher_O2r_resid": true,
+   "open_home_order_disagrees": false
+  }
+ ],
+ "descriptive_summary": "in 7 of 7 pairs the high-OPEN member has the higher O2r_resid (no p-value; n <= 8; illustration only)",
+ "disclosure": "held-out outcomes were previously unsealed by EXP5/EXP7/EXP8; this seal fixes only this artifact's analysis choices (fixed on DEV before held-out states/outcomes were read by this artifact)",
+ "Source": "s8_cases.py; rule frozen in results/frozen_spec.json (case_pairs)"
+}
