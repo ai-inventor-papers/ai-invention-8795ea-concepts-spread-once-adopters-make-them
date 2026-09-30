@@ -1,0 +1,65 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, natbib, booktabs, xcolor, listings}
+\usepackage{enumitem}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+\title{Executive Summary:\\Early Co-occurrence Network Openness\\and Cross-Field Concept Spread}
+\author{AI Inventor}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Headline}
+
+Concepts whose home-field co-occurrence partners span many communities and arrive through mixed-field papers tend to spread to more disciplines later: pooled partial Spearman $+0.069$ [$+0.038$, $+0.100$] over a five-feature popularity baseline (OPEN$_{\mathrm{home}}$ PSP, DerSimonian--Laird, 6 non-selection bodies, $I^2 = 0$, 6/6 positive). The effect is modest, adds no practical forecasting gain over publication counts, and the temporal interpretation (year-to-year turnover vs static topical breadth) remains unresolved.
+
+\section*{Goal}
+
+Can early structural signals in a concept's topic co-occurrence network predict how broadly that concept will later be used across scientific fields? The run screened 53 early network indicators on 12{,}499 concepts (27{,}393 adoption episodes across 26 venue fields) from the OpenAlex bulk snapshot (476M works, 2026-09-23), using rarefied field breadth as the primary outcome and a held-out field-group design with hash-sealed specifications.
+
+\section*{What was tried}
+
+Five iterations tested six classes of candidate predictors:
+
+\begin{enumerate}[nosep]
+\item \textbf{Iteration~1}: Wide screen of five rivals---citation naturalisation ($A^*_h$), co-author independent groups (candidate S), co-occurrence diversity ($D/F$), and gateway-field landing ($G$)---on a 48-concept DEV panel. All failed the pre-registered rule. The only lead was gateway-field retention ($\Delta$AUC $+0.103$ on 80 episodes).
+\item \textbf{Iteration~2}: Scaled to 12{,}499 concepts. Gateway retention disconfirmed at scale ($\Delta$AUC $= -0.00001$). Retained-field relatedness confirmed for next-field entry ($d_0 = 0.302$).
+\item \textbf{Iteration~3}: 53-indicator held-out screen: 7 of 10 frozen indicators confirmed across two families (retained frontier and co-occurrence topology). Strongest post-onset: CONTACT\_REACH ($+0.211$), $n_{\mathrm{comm}}$ ($+0.167$), NOV$_{\mathrm{res}}$ ($+0.151$).
+\item \textbf{Iteration~4}: Fresh 2015--2017 cohort ($n = 1{,}443$) confirmation of the six-component OPEN index: $+0.091$ at R2, marginal at R4/R5 (DL includes 0). Breadth decomposition: early contact diversity accounts for ${\sim}73\%$ of the breadth gap. Within-concept closure test null on DEV.
+\item \textbf{Iteration~5}: Frame~N vocabulary-free confirmation (636 phrase-born concepts): OPEN$_{\mathrm{home}}$ $+0.117$ at R3, $+0.086$ at R5 (CI includes 0). Cheng reversal confirmed: consistency predicts narrower breadth ($-0.069$, $I^2 = 0$, 5/5 negative) despite predicting more volume ($+53\%$/SD; adding current volume removes 98\%). Confound check: within-concept permutation absorbs the temporal component (excess $+0.008$); the signal behaves like static topical non-redundancy.
+\end{enumerate}
+
+\section*{Key results}
+
+\begin{enumerate}[nosep]
+\item \textbf{Seven confirmed indicators} survive held-out validation for predicting rarefied cross-field breadth, from two families. NOV$_{\mathrm{res}}$ (novel co-occurrence partners) carries the home-only signal.
+\item \textbf{Retained-field relatedness} predicts next-field entry ($d_0 = 0.322$ [0.291, 0.355]), but this is backbone-specific (reverses under min-cp proximity) and the volume-matched contrast is null.
+\item \textbf{Consistency--breadth reversal}: Cheng et al.'s (2023) ideational consistency is a current-volume proxy ($+53\%$ raw, $+1.3\%$ conditional). It predicts \emph{narrower} breadth, reversing the sign of their reach claim when the outcome is rarefied breadth rather than raw volume.
+\item \textbf{Breadth decomposition}: early contact diversity (${\sim}73\%$) dominates; frontier advance contributes near zero. This is an accounting identity, not a causal decomposition.
+\end{enumerate}
+
+\section*{What failed}
+
+\begin{itemize}[nosep]
+\item Citation naturalisation $A^*_h$: null ($\Delta\rho = -0.006$), 0/4 groups positive.
+\item Gateway-field retention: disconfirmed at scale; it was a domain-specific proxy.
+\item Co-occurrence diversity $D$ and selectivity $F$: null on the DEV panel.
+\item Two trajectory classes: not reproduced by HMM (ARI 0.094); the space is a continuum.
+\item Within-concept closure test: NOT SUPPORTED (null on DEV, opposite-signed on held-out).
+\item External recognition (O5): unrelated to breadth; 67\% recognised before concept onset.
+\item OPEN$_{\mathrm{home}}$ predictive gain: negligible ($+0.002$ Spearman over B5).
+\item Four of twenty artifacts failed or were incomplete (Dataset~1, Experiment~2, Experiment~9, Experiment~11).
+\end{itemize}
+
+\section*{Open questions}
+
+\begin{enumerate}[nosep]
+\item \textbf{Temporal turnover vs static dispersion}: the within-concept permutation null absorbs most of the signal. Whether year-to-year churn matters beyond static topical breadth could not be adjudicated at typical sample sizes.
+\item \textbf{Domain heterogeneity}: Life \& Environment shows the weakest OPEN signal (PSP $+0.071$). The reason is unexplained.
+\item \textbf{Causal mechanism}: association only. Early ego-network openness could reflect intrinsic generality, community diversity, or problem breadth.
+\item \textbf{Untested rival}: the persistence-filtered RCA density ($D_{\mathrm{rca,persist,k}}$) differs from the tested variant and remains formally untested.
+\end{enumerate}
+
+\end{document}
