@@ -1,4 +1,0 @@
-13c13
-< from common import DATA, INPUTS
----
-> from common import E8_DATA as DATA, E8_INPUTS as INPUTS  # PATCH (plan fallback 4): resolve against EXP8 inputs

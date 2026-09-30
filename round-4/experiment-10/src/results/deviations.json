@@ -1,9 +1,0 @@
-{
- "S3_outcome_grounding": "outcome-blind S3 rule -> TAG (tag-rate min ratio 1.013, control ratio 0.902; MATCH validation rho 0.937); primary = TAG t0+6..t0+8",
- "precision_gate_retry": "13 candidates had no parsable gate label; one retry (2 calls of 5 titles) labelled 13; remaining unlabelled are excluded (no MiniLM sense-filter fallback in this artifact)",
- "s9_post_freeze_edit": "s9_unseal.py was edited AFTER the S8 freeze (before the unseal) only to add a --dryrun mode on synthetic counts and a resume-from-hashed-outcomes path; the scoring logic, rungs, verdict code and constants are unchanged (git diff between commits shows it). frozen_spec.json was not modified.",
- "type_gate_failed_twice": "Type benchmark gate failed twice (M1 method precision 0.733 with the v1 prompt, 0.800 with the one allowed revision v2; object 1.000 / 0.875). Declared fallback: type dummies use M1 v2 labels; within-type tests use concepts with M1 = M2 (openai/gpt-4.1-mini labelled all 9,751 M1 method/object concepts; agreement 0.90). Gold labels were read by the executor agent, not a human.",
- "O4_dropped": "No citation pass (referenced_works not read); O4 and the O4 EBM replication are not evaluated (declared first drop).",
- "home_rule_cap": "Cohort home rule counts only years <= t0+2 (outcome-blind); EXP5 had no cap.",
- "extension_2017": "Power for the 2015-16 cohort was 0.139 (< 0.80), so the declared 2017 extension was applied before the seal (n = 1,443; window t0+5..t0+7 for 2017 onsets; window flag is collinear with the 2017 onset dummy and absorbed by it)."
-}

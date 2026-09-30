@@ -1,4 +1,0 @@
-entries:
-  - path: .venv/
-    delete: regenerable
-    source: "uv venv .venv --python=3.12 && uv pip install --python .venv/bin/python ijson==3.5.1 loguru==0.7.3 numpy==2.5.3 openai==3.20.0 pandas==3.0.6 psutil==7.2.2 pyarrow==25.0.1 pyyaml==6.0.3 requests==2.34.2 scikit-learn==1.9.1 scipy==1.18.1 statsmodels==0.15.0 tenacity==9.1.4"
