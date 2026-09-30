@@ -1,0 +1,109 @@
+{
+  "figure_id": "fig_frame_n",
+  "renderer": "render_fig_frame_n.py (hand-written matplotlib with the aii-data-fig-gen house style)",
+  "aspect": "16:9",
+  "width_in": 6.5,
+  "ci_level": 0.95,
+  "ci_method": "concept bootstrap percentile, B = 2000 (pooled: normal CI of the fixed-effect estimate)",
+  "panel_a": {
+    "title": "(a) OPEN_home, R3",
+    "xlabel": "Partial Spearman ρ with breadth O2r",
+    "xlim": [
+      -0.05,
+      0.25
+    ],
+    "rows": [
+      {
+        "label": "Legacy cohort",
+        "sub": "n = 573, O2r_m50",
+        "est": 0.08044570966976407,
+        "lo": 0.0005254040720849043,
+        "hi": 0.16173726767650506,
+        "n": 573,
+        "marker": "o",
+        "color": "#0173B2",
+        "source": "gen_art_experiment_10:results/cohort_result.json primary/OPEN_home|O2r_m50|R3"
+      },
+      {
+        "label": "Frame N",
+        "sub": "n = 448, O2r_m30",
+        "est": 0.11745384661643463,
+        "lo": 0.019555651335071415,
+        "hi": 0.21831885542297402,
+        "n": 448,
+        "marker": "o",
+        "color": "#029E73",
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/ladder|OPEN_home|O2r_m30|R3"
+      },
+      {
+        "label": "Pooled",
+        "sub": "fixed-effect IV",
+        "est": 0.09565013869465726,
+        "lo": 0.03377964672757176,
+        "hi": 0.15752063066174277,
+        "n": null,
+        "marker": "D",
+        "color": "#000000",
+        "source": "gen_art_experiment_13:results/frame_n_result.json exploratory_pooled_with_exp10/R3"
+      }
+    ]
+  },
+  "panel_b": {
+    "title": "(b) Frame N components",
+    "xlabel": "Partial Spearman ρ with O2r_m30",
+    "xlim": [
+      -0.2,
+      0.36
+    ],
+    "rows": [
+      {
+        "label": "NOV_res",
+        "est": 0.20805129668175595,
+        "lo": 0.11329666468706846,
+        "hi": 0.3026843144352161,
+        "n": 435,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|NOV_res__home|O2r_m30|R3"
+      },
+      {
+        "label": "participation",
+        "est": 0.11958294466115793,
+        "lo": 0.010917307607240698,
+        "hi": 0.22260084845386535,
+        "n": 429,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|participation__home|O2r_m30|R3"
+      },
+      {
+        "label": "n_comm (W3)",
+        "est": 0.06885600342557141,
+        "lo": -0.02980211270088494,
+        "hi": 0.16569455982308234,
+        "n": 465,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|n_comm_W3__home|O2r_m30|R3"
+      },
+      {
+        "label": "new_edge_rate",
+        "est": 0.03457125531820436,
+        "lo": -0.052015552018836494,
+        "hi": 0.12192731299712824,
+        "n": 465,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|new_edge_rate__home|O2r_m30|R3"
+      },
+      {
+        "label": "edge_persistence",
+        "est": -0.013256021577741842,
+        "lo": -0.11256229986079139,
+        "hi": 0.08336984003366199,
+        "n": 449,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|edge_persistence__home|O2r_m30|R3"
+      },
+      {
+        "label": "ego_density (W3)",
+        "est": -0.07795964631322146,
+        "lo": -0.18219223513710184,
+        "hi": 0.025472424091694312,
+        "n": 396,
+        "source": "gen_art_experiment_13:results/frame_n_result.json cells/comp|ego_density_W3__home|O2r_m30|R3"
+      }
+    ]
+  }
+}

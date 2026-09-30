@@ -1,0 +1,177 @@
+{
+  "type": "custom_overview_schematic",
+  "renderer": "render_fig_overview.py",
+  "note": "No chart_gen type covers a four-panel schematic, so render_fig_overview.py draws it with the house style and layout gates from aii-data-fig-gen. Every number drawn is read from this file; each block names the run artifact file it was read back from (paths relative to run_Id7TLZ6r1C7M/3_invention_loop).",
+  "aspect": "16:9",
+  "width_in": 6.5,
+  "font_pt": 8,
+  "panel_a": {
+    "title": "Concept identification",
+    "works_total": 476196327,
+    "snapshot_files": 2040,
+    "lexicon_concepts": 56643,
+    "verified_title_matches": 60011338,
+    "onset_first_year": 2003,
+    "onset_last_year": 2014,
+    "early_volume_min": 30,
+    "precision_gate_min": 0.8,
+    "panel_concepts": 12499,
+    "sources": [
+      "iter_4/gen_art/gen_art_experiment_12/results/pipeline_counts.json :: EXP5_scan.rows, EXP5_scan.files_done, EXP5_scan.verified_hits, EXP5_lexicon_rows",
+      "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv :: 12,499 rows; t0 min 2003 max 2014; precision_c min 0.80; early_volume min 30"
+    ]
+  },
+  "panel_b": {
+    "title": "Panel structure",
+    "total": 12499,
+    "blocks": [
+      {
+        "key": "DEV",
+        "label": "DEV",
+        "detail": "CS, Eng, BGM, Med homes",
+        "n": 4771,
+        "onset": "2003–09"
+      },
+      {
+        "key": "HELDOUT",
+        "label": "Held-out",
+        "n": 3372,
+        "onset": "2003–09"
+      },
+      {
+        "key": "COHORT",
+        "label": "Cohort",
+        "detail": "all homes",
+        "n": 4356,
+        "onset": "2010–14"
+      }
+    ],
+    "heldout_groups": [
+      {
+        "key": "PHYS",
+        "label": "PHYS",
+        "n": 742
+      },
+      {
+        "key": "LIFEENV",
+        "label": "LIFEENV",
+        "n": 1113
+      },
+      {
+        "key": "SOC",
+        "label": "SOC",
+        "n": 1352
+      },
+      {
+        "key": "MATHDEC",
+        "label": "MATHDEC",
+        "n": 165
+      }
+    ],
+    "episodes": 27393,
+    "fields": 26,
+    "fresh_cohort": {
+      "onset": "2015–17",
+      "n": 1443
+    },
+    "sources": [
+      "iter_2/gen_art/gen_art_experiment_5/results/frame_summary.json :: n_concepts, n_episodes, by_split",
+      "iter_2/gen_art/gen_art_experiment_5/episodes.csv :: 26 distinct field values",
+      "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv :: t0 range per split (DEV and held-out 2003-2009, COHORT 2010-2014)",
+      "iter_4/gen_art/gen_art_experiment_10/results/cohort_report.json :: n_cohort = 1443 (separate 2015-2017 onset frame)"
+    ]
+  },
+  "panel_c": {
+    "title": "Indicator screen (breadth outcome)",
+    "families": [
+      {
+        "key": "A",
+        "name": "ego-net",
+        "n": 27
+      },
+      {
+        "key": "E",
+        "name": "volume",
+        "n": 6
+      },
+      {
+        "key": "F",
+        "name": "spread",
+        "n": 3
+      },
+      {
+        "key": "FR",
+        "name": "frontier",
+        "n": 7
+      },
+      {
+        "key": "G",
+        "name": "gateway",
+        "n": 7
+      },
+      {
+        "key": "S",
+        "name": "co-author",
+        "n": 3
+      }
+    ],
+    "stages": [
+      {
+        "label": "53 early indicators (t0..t0+2), 6 families",
+        "by_family": {
+          "A": 27,
+          "E": 6,
+          "F": 3,
+          "FR": 7,
+          "G": 7,
+          "S": 3
+        }
+      },
+      {
+        "label": "48 eligible on DEV (≤ 30% missing)",
+        "by_family": {
+          "A": 22,
+          "E": 6,
+          "F": 3,
+          "FR": 7,
+          "G": 7,
+          "S": 3
+        }
+      },
+      {
+        "label": "10 frozen: top DEV partial Spearman | B5",
+        "by_family": {
+          "A": 3,
+          "E": 0,
+          "F": 1,
+          "FR": 4,
+          "G": 2,
+          "S": 0
+        }
+      },
+      {
+        "label": "7 confirmed on held-out units",
+        "by_family": {
+          "A": 3,
+          "E": 0,
+          "F": 0,
+          "FR": 4,
+          "G": 0,
+          "S": 0
+        }
+      }
+    ],
+    "sources": [
+      "iter_3/gen_art/gen_art_experiment_8/results/indicator_dictionary.csv :: family counts A 27, E 6, F 3, FR 7, G 7, S 3",
+      "iter_3/gen_art/gen_art_experiment_8/results/rq1_dev_selection.json :: missing (5 D-family indicators > 0.30 -> 48 eligible)",
+      "iter_3/gen_art/gen_art_experiment_8/results/frozen_spec.json :: top10.O2r_m50",
+      "iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json :: O2r_m50[*].confirmed (7 of 10)"
+    ]
+  },
+  "panel_d": {
+    "title": "Research questions",
+    "rq1": "RQ1  Does early ego-network openness predict later cross-field breadth beyond B5?",
+    "rq2": "RQ2  Is the next field a concept enters related to the fields that currently retain it?",
+    "icons": "schematic illustrations only; no data"
+  }
+}

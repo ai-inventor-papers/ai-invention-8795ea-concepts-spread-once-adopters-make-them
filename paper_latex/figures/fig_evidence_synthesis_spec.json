@@ -1,0 +1,138 @@
+{
+  "figure_id": "fig_evidence_synthesis",
+  "type": "forest_custom",
+  "renderer": "render_fig_evidence_synthesis.py (hand-written matplotlib, house style + layout passes)",
+  "title": "",
+  "xlabel": "Partial Spearman $\\rho$ (OPEN$_\\mathrm{home}$, $O_{2r}$ | R2 controls)",
+  "xlim": [
+    -0.1,
+    0.45
+  ],
+  "null_line": 0.0,
+  "aspect": "21:9",
+  "width_in": 6.5,
+  "source_file": "gen_art_evaluation_4/results/evidence_synthesis.json",
+  "outcome": "O2r_m50 (rarefied cross-field breadth, m=50)",
+  "rung": "R2 = B5 + onset-year dummies + CONTACT_REACH + concept type + generic flag + level dummies",
+  "ci_method": "95% concept bootstrap (2,000 draws, seed 20260929) per body; DL CI for the pool",
+  "shrinkage_ratio": 1.5792999018583356,
+  "sign_agreement_nonselection": "6/6",
+  "rows": [
+    {
+      "label": "Physical Sciences",
+      "kind": "body",
+      "note": "held-out group, onsets 2003-09",
+      "status": "already-unsealed",
+      "n": 385,
+      "n_body_rows": 742,
+      "psp": 0.02450913595713996,
+      "ci": [
+        -0.07585393993426756,
+        0.12819555195586702
+      ],
+      "source_key": "rows[body=B2_PHYS,feature=OPEN_home].R2"
+    },
+    {
+      "label": "Life & Environment",
+      "kind": "body",
+      "note": "held-out group, onsets 2003-09",
+      "status": "already-unsealed",
+      "n": 552,
+      "n_body_rows": 1113,
+      "psp": 0.0668497667304333,
+      "ci": [
+        -0.01768568759766467,
+        0.1478234069945016
+      ],
+      "source_key": "rows[body=B2_LIFEENV,feature=OPEN_home].R2"
+    },
+    {
+      "label": "Social Sciences",
+      "kind": "body",
+      "note": "held-out group, onsets 2003-09",
+      "status": "already-unsealed",
+      "n": 546,
+      "n_body_rows": 1352,
+      "psp": 0.04433074258857871,
+      "ci": [
+        -0.04113117287001374,
+        0.12400005580620052
+      ],
+      "source_key": "rows[body=B2_SOC,feature=OPEN_home].R2"
+    },
+    {
+      "label": "Math & Decision",
+      "kind": "body",
+      "note": "held-out group, onsets 2003-09",
+      "status": "already-unsealed",
+      "n": 86,
+      "n_body_rows": 165,
+      "psp": 0.18744657923069769,
+      "ci": [
+        -0.07686818745790715,
+        0.40922074669943864
+      ],
+      "source_key": "rows[body=B2_MATHDEC,feature=OPEN_home].R2"
+    },
+    {
+      "label": "Cohort 2010-14",
+      "kind": "body",
+      "note": "all homes, onsets 2010-14",
+      "status": "already-unsealed",
+      "n": 1993,
+      "n_body_rows": 4356,
+      "psp": 0.0738008954516124,
+      "ci": [
+        0.029491025717576246,
+        0.11654301306720145
+      ],
+      "source_key": "rows[body=B3_EXP5_COHORT_2010_14,feature=OPEN_home].R2"
+    },
+    {
+      "label": "Cohort 2015-17",
+      "kind": "body",
+      "note": "fresh cohort, onsets 2015-17",
+      "status": "confirmatory",
+      "n": 573,
+      "n_body_rows": 1443,
+      "psp": 0.09059049284973036,
+      "ci": [
+        0.013236035063533571,
+        0.1710465954349315
+      ],
+      "source_key": "rows[body=B4_COHORT_2015_17,feature=OPEN_home].R2"
+    },
+    {
+      "label": "DL pooled (6 non-selection)",
+      "kind": "pool",
+      "note": "DerSimonian-Laird on Fisher z, back-transformed",
+      "k": 6,
+      "psp": 0.06875561049536172,
+      "ci": [
+        0.03786528723068281,
+        0.09951465593638788
+      ],
+      "hksj_ci": [
+        0.04173001731164287,
+        0.09568066621946635
+      ],
+      "I2": 0.0,
+      "Q": 2.2258259425604052,
+      "source_key": "pools[OPEN_home|R2].nonselection"
+    },
+    {
+      "label": "DEV, selection body",
+      "kind": "selection",
+      "note": "CS/Eng/BGM/Med homes, onsets 2003-09",
+      "status": "selection",
+      "n": 3003,
+      "n_body_rows": 4771,
+      "psp": 0.1085857289075347,
+      "ci": [
+        0.07285627005441767,
+        0.14365460672440747
+      ],
+      "source_key": "rows[body=B1_DEV,feature=OPEN_home].R2"
+    }
+  ]
+}

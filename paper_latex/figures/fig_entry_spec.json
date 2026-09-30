@@ -1,0 +1,95 @@
+{
+  "figure_id": "fig_entry",
+  "source_artifact": "gen_art_experiment_7 (iteration 3): results/frontier_result.json",
+  "model": "Conditional logit (Breslow), rung R3 = R2 (home relatedness, log size, entered density, own gateway, D_rca_1y, D_vol) + d0_ret_rel; d0 standardised on DEV",
+  "ci": "95% concept-refit bootstrap (1,000 draws pooled DEV and cohort; 500 per held-out group); DL row: DerSimonian-Laird random-effects CI from concept-clustered SEs",
+  "n_note": "n = concepts in the Exp5-minus-Exp6 frame for that unit",
+  "aspect": "21:9",
+  "width_in": 6.5,
+  "xlim": [
+    -0.2,
+    0.6
+  ],
+  "xlabel": "Retained-frontier coefficient $d_0$ (log-odds of entry per SD)",
+  "null_line": 0.0,
+  "rows": [
+    {
+      "key": "DEV",
+      "label": "DEV, selection data",
+      "n": 4486,
+      "est": 0.24552971935682877,
+      "lo": 0.222163121182832,
+      "hi": 0.27056760450369177,
+      "kind": "dev",
+      "source": "step2_dev.battery.boot.d0_R3.d0_ret_rel"
+    },
+    {
+      "key": "PHYS",
+      "label": "Physical Sciences",
+      "n": 708,
+      "est": 0.14819310724438922,
+      "lo": 0.07400425219765487,
+      "hi": 0.21887936952880463,
+      "kind": "heldout",
+      "source": "step2_heldout.units.PHYS.d0_R3"
+    },
+    {
+      "key": "LIFEENV",
+      "label": "Life & Env.",
+      "n": 1079,
+      "est": 0.40148360755050383,
+      "lo": 0.34682995318804827,
+      "hi": 0.4582058679508357,
+      "kind": "heldout",
+      "source": "step2_heldout.units.LIFEENV.d0_R3"
+    },
+    {
+      "key": "SOC",
+      "label": "Social Sciences",
+      "n": 1299,
+      "est": 0.29688305491912176,
+      "lo": 0.2450713704773322,
+      "hi": 0.34476338831197373,
+      "kind": "heldout",
+      "source": "step2_heldout.units.SOC.d0_R3"
+    },
+    {
+      "key": "MATHDEC",
+      "label": "Math & Decision",
+      "n": 165,
+      "est": 0.06494560620694992,
+      "lo": -0.10989681657330745,
+      "hi": 0.23361102368217232,
+      "kind": "heldout",
+      "source": "step2_heldout.units.MATHDEC.d0_R3"
+    },
+    {
+      "key": "COHORT",
+      "label": "2010–14 cohort",
+      "n": 4104,
+      "est": 0.3207453847057732,
+      "lo": 0.2922823279287081,
+      "hi": 0.347025567631734,
+      "kind": "heldout",
+      "source": "step2_heldout.cohort.boot.d0_R3.d0_ret_rel"
+    },
+    {
+      "key": "DL",
+      "label": "DL pooled, 4 held-out groups",
+      "n": null,
+      "est": 0.24294390456781997,
+      "lo": 0.11806908678454554,
+      "hi": 0.3678187223510944,
+      "kind": "pooled",
+      "I2": 0.9172392258578083,
+      "tau2": 0.014010035101759877,
+      "units": [
+        "PHYS",
+        "LIFEENV",
+        "SOC",
+        "MATHDEC"
+      ],
+      "source": "step2_heldout.DL_4groups.d0"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, amssymb, hyperref, url, natbib, booktabs, xcolor, listings}
+\usepackage{enumitem}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\sloppy
+\pagestyle{plain}
+
+\title{Executive Summary:\\Temporal Network Signals and Cross-Disciplinary Concept Spread}
+\author{AI Inventor}
+\date{September 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{plain}
+
+\section*{Headline}
+
+Early co-occurrence neighbourhood openness (the OPEN index) predicts how many scientific fields a concept later appears in, beyond a five-feature popularity baseline. The non-selection evidence pool gives a partial Spearman correlation of $+0.069$ [$+0.038$, $+0.100$] ($I^2 = 0$, 6/6 bodies positive). The effect is small and exploratory: it adds no practical forecasting gain ($+0.002$ Spearman over baseline), the home-only variant is marginal (its CI includes zero at the strictest control rungs R4/R5 on the fresh cohort), and the run's within-concept closure test found no support for a causal mechanism.
+
+\section*{Goal}
+
+Test whether early structural signals in a scientific concept's topic co-occurrence network anticipate its later cross-field breadth, measured by rarefied field breadth ($O_{2r}$, $m = 50$, hypergeometric rarefaction over venue fields in $t_0{+}6$ to $t_0{+}8$). The study screened 53 early network indicators across six families against a five-feature popularity baseline on held-out field groups, using a 12,499-concept panel drawn from the OpenAlex bulk snapshot (476M works, 2026-09-23).
+
+\section*{What was tried (5 iterations, 25 artifacts, 21 completed)}
+
+\textbf{Iteration 1} ran a wide screen of five rival spread mechanisms on a 48-concept dev panel: citation naturalisation ($A^*_h$), social reach, co-occurrence diversity ($D_\text{ratio}$), frequency-free selectivity, and gateway landing. None survived the pre-registered rule. Two artifacts failed (timeout). The gateway retention lead ($\Delta$AUC $+0.103$, 80 episodes) was the only forward signal.
+
+\textbf{Iteration 2} scaled to 12,499 concepts and 27,393 episodes with a hash-sealed held-out split. Gateway retention was decisively disconfirmed ($\Delta$AUC $= -0.00001$). A conditional-logit field-entry model confirmed that concepts spread to fields related to those retaining them ($d_0 = 0.30$, $p = 0.001$).
+
+\textbf{Iteration 3} delivered the 53-indicator held-out screen: 7 of 10 frozen indicators were confirmed for $O_{2r}$, spanning retained-frontier (4) and ego-network topology (3) families. The retained-frontier field-entry effect was PARTIAL ($d_0 = 0.322$ [$0.291$, $0.355$] but volume-matched null and min-cp reversal). About half of the top two frontier indicators reflected pre-onset footprint.
+
+\textbf{Iteration 4} built the OPEN index (6 signed, $z$-scored ego-network components) and tested it on a never-screened 2015--2017 cohort: CONFIRMED but marginal (home-only PSP $+0.091$ at R2, CI includes zero at R4/R5). The breadth decomposition showed 73\% early exploration vs 27\% retention. No discrete trajectory typology passed the naming rule (ARI $= 0.222$).
+
+\textbf{Iteration 5} tested the home-only churn signal on vocabulary-free Frame~N concepts (frozen verdict PARTIAL: $+0.117$ [$+0.020$, $+0.218$] at R3), showed Cheng's consistency is 98\% current size, and decomposed the signal into partner classes: new-community partners from mixed-field papers carry it. The confound check (V2 permutation) revealed the signal is topical non-redundancy, not temporal turnover (6.5\% retained).
+
+\section*{Key results}
+
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+\item \textbf{Seven held-out indicators confirmed} (3 ego-network, 4 frontier): the strongest are M0\_density\_end ($+0.375$), D\_vol\_end ($+0.307$), and CONTACT\_REACH ($+0.211$). Half of the top two is pre-onset footprint.
+
+\item \textbf{OPEN$_{\text{home}}$ non-selection pool}: $+0.069$ [$+0.038$, $+0.100$], $I^2 = 0$, 6/6 positive (DL on Fisher~$z$, HKSJ [$+0.042$, $+0.096$]).
+
+\item \textbf{Retained-field relatedness predicts field entry}: $d_0 = 0.322$ [$0.291$, $0.355$], 6,978 events, 3,162 concepts. Volume-matched contrast is null.
+
+\item \textbf{Consistency reversal}: Cheng et~al.'s $+53.5\%$/SD drops to $+1.3\%$ after size control; as an early trait, consistency predicts narrower breadth ($-0.069$, 5/5 negative; selection data, not confirmed on Frame~N, $-0.064$ with CI including zero).
+
+\item \textbf{Breadth decomposition} (an accounting identity, unstratified variant): 77.9\% early contact diversity, $-4.6\%$ frontier advance, 26.8\% retention. Broad concepts start wide; they do not advance a wider frontier.
+
+\item \textbf{Signal is static dispersion}: within-concept year-label permutation absorbs temporal churn (6.5\% retained); the Chao and configuration-null composites retain 91--100\%.
+\end{enumerate}
+
+\section*{What failed and why}
+
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+\item \textbf{Gateway retention} (iterations 1--2): dev-only artefact. Held-out $\Delta$AUC $= -0.00001$; the shuffled-$R$ placebo's 95th percentile exceeded the original.
+\item \textbf{Citation naturalisation $A^*_h$} (iteration 1): $\Delta\rho = -0.006$; two-thirds of between-concept variance was general disciplinary homophily.
+\item \textbf{Co-occurrence diversity $D_{\text{ratio}}$} (iteration 1): absorbed by the B5 baseline ($\rho_{B5} = 0.770$).
+\item \textbf{Within-concept closure $\to$ entry} (iterations 4--5): null on DEV, opposite sign on held-out. No mechanism link established.
+\item \textbf{Discrete trajectory typology} (iteration 4): DTW vs HMM ARI $= 0.222$. Breadth is a continuum.
+\item \textbf{Four artifacts} timed out or failed validation across iterations 1, 3, and 4.
+\end{enumerate}
+
+\section*{Open questions}
+
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+\item \textbf{Causal mechanism}: association only. Early openness may reflect intrinsic generality, community diversity, or problem breadth rather than causing spread.
+\item \textbf{Domain heterogeneity}: Life \& Environment shows the weakest OPEN signal in the all-papers build (Physical Sciences is weakest in the home-only build); retained-field relatedness has $I^2 = 0.92$ across groups.
+\item \textbf{Temporal turnover}: V2 excess has split-half reliability below 0.05, so the temporal-vs-static question is untested rather than answered.
+\item \textbf{Vocabulary survivorship}: Frame~N ($n = 636$, power 0.47) is small. Broader replication needed.
+\item \textbf{Measurement noise}: OPEN$_{\text{home}}$ split-half reliability is 0.49; individual prediction is imprecise.
+\item \textbf{Practical utility}: the forecasting gain is $+0.002$ Spearman --- negligible for any applied use.
+\end{enumerate}
+
+\end{document}
