@@ -1,0 +1,75 @@
+{
+ "label": "selection data, not confirmation",
+ "numbers": {
+  "cheng_panel_models.json:builds.HOME.joint.A1.n_concepts": 12311,
+  "cheng_panel_models.json:builds.HOME.joint.A1.n_rows": 105839,
+  "cheng_panel_models.json:builds.HOME.joint.A1_NB.coef.zCONS.b": 0.42844875149581085,
+  "cheng_panel_models.json:builds.HOME.joint.A1_NB.coef.zCONS.pct_per_sd": 0.534874703764965,
+  "cheng_panel_models.json:builds.HOME.joint.A1.coef.zCONS.pct_per_sd": 0.8310134412961416,
+  "cheng_panel_models.json:builds.HOME.joint.A1.coef.zCONS.pct_ci": [
+   0.7061383262187568,
+   0.9650283747141353
+  ],
+  "cheng_panel_models.json:builds.HOME.joint.A2.coef.zCONS.pct_per_sd": 0.01267281109684637,
+  "cheng_panel_models.json:builds.HOME.joint.A2.coef.zCONS.pct_ci": [
+   0.004507033106396552,
+   0.020904969837247656
+  ],
+  "cheng_panel_models.json:builds.HOME.joint.ratio_boot.ratio": 0.02081966579806125,
+  "cheng_panel_models.json:builds.HOME.joint.ratio_boot.ratio_ci": [
+   0.009042373304763021,
+   0.035263909109610046
+  ],
+  "cheng_panel_models.json:builds.HOME.joint.A3.coef.zCONS.pct_per_sd": 0.013650621232445426,
+  "cheng_panel_models.json:builds.ALL.joint.ratio_boot.ratio": 0.02440911703216719,
+  "cheng_static.json:volume.EXP5_pooled|volume.B_raw_spearman_V_t0p3.rho": 0.2563712518701778,
+  "cheng_static.json:volume.EXP5_pooled|volume.B_raw_spearman_V_t0p3.ci": [
+   0.23921330023442366,
+   0.27389032248349954
+  ],
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O2r_m50.rho": -0.0693013812628014,
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O2r_m50.ci": [
+   -0.09288056610535206,
+   -0.04668336498751107
+  ],
+  "cheng_static.json:DL.EXP5_pooled.O2r_m50.b": -0.07859604430871031,
+  "cheng_static.json:DL.EXP5_pooled.O2r_m50.I2": 0.0,
+  "cheng_static.json:DL.EXP5_pooled.O2r_m50.n_negative": 5,
+  "cheng_static.json:trait.COHORT_2015_17|CONS_early_home.psp.O2r_m50.rho": -0.11103014804768521,
+  "cheng_static.json:trait.COHORT_2015_17|CONS_early_home.psp.O2r_m50.ci": [
+   -0.19728438257060163,
+   -0.030301558125793968
+  ],
+  "cheng_static.json:trait.COHORT_2015_17|CONS_early_home.psp.O2r_m50.n": 615,
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O1c.rho": -0.00031746728758710543,
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O1c.ci": [
+   -0.01884882260240145,
+   0.017447304434020514
+  ],
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O3.rho": -0.0005121127935191378,
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.psp.O3.ci": [
+   -0.019918268683094018,
+   0.017313010786273893
+  ],
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.paired_diff.O1c-O2r_m50.rho": 0.034599704092448426,
+  "cheng_static.json:trait.EXP5_pooled|CONS_early_home.paired_diff.O1c-O2r_m50.ci": [
+   0.003522947741278198,
+   0.06608571140699572
+  ],
+  "cheng_static.json:DL.EXP5_pooled.O1c-O2r_m50.ci": [
+   -0.008575753562913034,
+   0.08271703404599004
+  ],
+  "identity_check.json:by_body.EXP5_pooled.jaccard_exp11_early.rho": 0.7669421825423538,
+  "panel_C.json:C1.coef.zCONS.pct_per_sd": 0.0252668282237698,
+  "panel_C.json:C1.boot.ci": [
+   0.0035054524164536993,
+   0.0478451849161699
+  ],
+  "palla.json:results.EXP5_pooled|O3.interaction.rho": -0.0008563755582464466,
+  "palla.json:results.EXP5_pooled|O3.interaction.ci": [
+   -0.021279512359615185,
+   0.020030842072367914
+  ]
+ }
+}
