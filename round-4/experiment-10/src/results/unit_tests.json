@@ -1,0 +1,40 @@
+{
+ "U3_home_filter": {
+  "concepts_exact": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "synthetic_home_lt_all": true,
+  "values": [
+   0.0,
+   0.75
+  ],
+  "pass": true
+ },
+ "U4_sizematch": {
+  "full_size_equals_all": true,
+  "seed_deterministic": true,
+  "pass": true
+ },
+ "U6_psp": {
+  "max_abs_diff_vs_exp8_rq1stats": 0.0,
+  "planted_estimate": 0.06252047684941309,
+  "planted_ci": [
+   -0.006487490205749976,
+   0.11814966247770994
+  ],
+  "planted_ci_gt0": false,
+  "criterion": "exact equality with EXP8 rq1stats AND the 95% CI covers the planted 0.10 (n = 1000, SE ~ 0.03, so CI > 0 alone has only ~85% power)",
+  "pass": true
+ },
+ "U7_seal": {
+  "refuses_before_freeze": true,
+  "refuses_second_unseal": true,
+  "refuses_changed_spec": true,
+  "pass": true
+ },
+ "all_pass": true
+}

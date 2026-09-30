@@ -1,0 +1,19 @@
+02:25:58|INFO   |works loaded for 12499 concepts
+02:26:00|INFO   |home: 12499 jobs, 313 chunks, todo 313, workers 24
+02:26:13|INFO   |home 1/313 0.2 min; 0.006 s/job/worker; eta 67.0 min
+02:26:17|INFO   |home 21/313 0.3 min; 0.012 s/job/worker; eta 3.9 min
+02:26:19|INFO   |home 41/313 0.3 min; 0.012 s/job/worker; eta 2.1 min
+02:26:22|INFO   |home 61/313 0.4 min; 0.010 s/job/worker; eta 1.5 min
+02:26:24|INFO   |home 81/313 0.4 min; 0.009 s/job/worker; eta 1.1 min
+02:26:24|INFO   |home 101/313 0.4 min; 0.008 s/job/worker; eta 0.8 min
+02:26:25|INFO   |home 121/313 0.4 min; 0.008 s/job/worker; eta 0.7 min
+02:26:25|INFO   |home 141/313 0.4 min; 0.007 s/job/worker; eta 0.5 min
+02:26:26|INFO   |home 161/313 0.4 min; 0.007 s/job/worker; eta 0.4 min
+02:26:26|INFO   |home 181/313 0.4 min; 0.007 s/job/worker; eta 0.3 min
+02:26:28|INFO   |home 201/313 0.5 min; 0.007 s/job/worker; eta 0.3 min
+02:26:29|INFO   |home 221/313 0.5 min; 0.007 s/job/worker; eta 0.2 min
+02:26:29|INFO   |home 241/313 0.5 min; 0.007 s/job/worker; eta 0.1 min
+02:26:30|INFO   |home 261/313 0.5 min; 0.006 s/job/worker; eta 0.1 min
+02:26:30|INFO   |home 281/313 0.5 min; 0.006 s/job/worker; eta 0.1 min
+02:26:31|INFO   |home 301/313 0.5 min; 0.006 s/job/worker; eta 0.0 min
+02:26:31|INFO   |home 313/313 0.5 min; 0.006 s/job/worker; eta 0.0 min

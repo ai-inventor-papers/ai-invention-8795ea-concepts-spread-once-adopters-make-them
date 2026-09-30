@@ -1,0 +1,25 @@
+{
+ "sp_rows": 5557942,
+ "sp_concepts": 11841,
+ "missing_concepts": 658,
+ "missing_are_exp6_overlap": true,
+ "state_cell_mismatches": 0,
+ "count_cell_mismatches": 0,
+ "mismatch_share": 0.0,
+ "state_distribution_sp": {
+  "0": 4421560,
+  "1": 255852,
+  "2": 438784,
+  "3": 219614,
+  "4": 222132
+ },
+ "RETENTION_RATIO_early_rederived": {
+  "max_abs_diff_vs_E8": 0.0,
+  "CONTACT_REACH_max_abs_diff": 0.0
+ },
+ "RETENTION_RATIO_early_vs_D3_age2_ratio_spearman": [
+  0.4606766467957353,
+  12499
+ ],
+ "note": "RETENTION_RATIO_early (EXP8: fields with >= 2 papers in >= 2 of the 3 window years / fields touched in the window) is re-derived EXACTLY from the same arrays; the D3 age-2 ratio (retaining at t0+2 / entered by t0+2, cumulative history since 1995) is a different definition and is reported only as a rank correlation."
+}

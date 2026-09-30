@@ -1,0 +1,301 @@
+ci,frame,group,name,t0,n_titles,type_m1,generic_m1,conf_m1,agroup,type_m2,generic_m2
+49092,exp5,BGM,Aspergillus awamori,2011,3,object,0,1.0,BGM+Med,object,0.0
+46521,exp5,Med,Tetrahydropalmatine,2006,3,object,0,1.0,BGM+Med,object,0.0
+34547,exp5,Med,Thymopentin,2008,3,object,0,1.0,BGM+Med,object,0.0
+49200,exp5,Med,Acute Bronchiolitis,2013,3,object,0,1.0,BGM+Med,object,0.0
+20849,exp5,BGM,Autophagosome,2008,3,object,0,0.9,BGM+Med,object,0.0
+48781,cohort,Med,Voice Disorder,2015,3,object,0,0.95,BGM+Med,property,0.0
+3390,exp5,Med,Methemoglobin,2009,3,object,0,0.9,BGM+Med,object,0.0
+17730,exp5,Med,CYP17A1,2011,3,object,0,1.0,BGM+Med,object,0.0
+41198,exp5,Med,Carotid artery dissection,2010,3,object,0,0.9,BGM+Med,object,0.0
+29090,exp5,Med,Deferiprone,2003,3,object,0,1.0,BGM+Med,object,0.0
+29983,exp5,Med,Discoid lupus erythematosus,2004,3,object,0,1.0,BGM+Med,object,0.0
+13743,exp5,Med,CCL3,2010,3,object,0,1.0,BGM+Med,object,0.0
+33099,exp5,BGM,S-Nitrosylation,2005,3,method,0,1.0,BGM+Med,method,0.0
+41514,exp5,Med,Pneumococcal polysaccharide vaccine,2010,3,object,0,1.0,BGM+Med,object,0.0
+33862,cohort,Med,Durvalumab,2016,3,object,0,0.9,BGM+Med,object,0.0
+29371,exp5,Med,Ovarian reserve,2003,3,property,0,1.0,BGM+Med,property,0.0
+26789,exp5,Med,Computerized physician order entry,2005,3,method,0,1.0,BGM+Med,method,0.0
+48243,exp5,BGM,Pinctada fucata,2005,3,object,0,1.0,BGM+Med,object,0.0
+32660,exp5,Med,Metatarsal bones,2009,3,object,1,1.0,BGM+Med,object,1.0
+36757,exp5,Med,Sophora flavescens,2004,3,object,0,1.0,BGM+Med,object,0.0
+29854,exp5,Med,Adventitia,2004,3,object,0,1.0,BGM+Med,object,1.0
+54242,cohort,Med,Opioid addiction,2016,3,topic,0,0.9,BGM+Med,topic,0.0
+56639,cohort,Med,Case finding,2016,3,method,0,1.0,BGM+Med,method,0.0
+39018,exp5,Med,Vocal cord dysfunction,2010,3,object,0,1.0,BGM+Med,object,0.0
+55436,exp5,Med,Bowel perforation,2009,3,object,0,0.9,BGM+Med,object,1.0
+42736,exp5,Med,Mediastinoscopy,2003,3,method,0,1.0,BGM+Med,method,1.0
+14532,exp5,Med,CCL5,2004,3,object,0,1.0,BGM+Med,object,0.0
+29124,exp5,BGM,KEAP1,2007,3,object,0,1.0,BGM+Med,object,0.0
+16662,exp5,BGM,Chromatin immunoprecipitation,2004,3,method,0,1.0,BGM+Med,method,1.0
+49645,exp5,Med,Peripheral arterial occlusive disease,2004,3,object,0,1.0,BGM+Med,object,0.0
+14153,exp5,BGM,Ankyrin repeat,2005,3,object,0,0.9,BGM+Med,property,0.0
+49846,exp5,Med,Electronic surveillance,2014,3,topic,0,0.98,BGM+Med,method,1.0
+43008,exp5,BGM,Ruminococcus,2011,3,object,0,1.0,BGM+Med,object,1.0
+28243,exp5,Med,ABVD,2010,3,method,0,1.0,BGM+Med,method,0.0
+43647,exp5,Med,Lymphocytic choriomeningitis,2004,3,object,0,1.0,BGM+Med,object,0.0
+38785,exp5,Med,Ustekinumab,2008,3,object,0,1.0,BGM+Med,object,0.0
+33083,exp5,Med,Urine cytology,2007,3,method,0,1.0,BGM+Med,method,0.0
+3626,exp5,Med,Ampoule,2007,3,object,0,1.0,BGM+Med,object,1.0
+54755,exp5,Med,Myeloid cells,2006,3,object,0,0.9,BGM+Med,object,1.0
+13187,exp5,BGM,Magnetic tweezers,2011,3,method,0,1.0,BGM+Med,method,0.0
+43618,cohort,Med,Papillary adenocarcinoma,2017,3,object,0,1.0,BGM+Med,object,1.0
+31627,exp5,Med,12-O-Tetradecanoylphorbol-13-acetate,2009,3,object,0,1.0,BGM+Med,object,1.0
+55302,exp5,Med,Ear nose and throat,2010,3,topic,0,1.0,BGM+Med,topic,1.0
+52058,exp5,Med,Phantom limb pain,2007,3,topic,0,1.0,BGM+Med,property,1.0
+14059,exp5,Med,Prothrombinase,2008,3,object,0,0.9,BGM+Med,object,1.0
+21410,exp5,Med,GAS6,2010,3,object,0,1.0,BGM+Med,object,1.0
+43993,exp5,Med,Azelaic acid,2006,3,object,0,1.0,BGM+Med,object,1.0
+47958,exp5,BGM,APOBEC3G,2004,3,object,0,0.9,BGM+Med,object,1.0
+44425,exp5,Med,Neonatal respiratory distress syndrome,2009,3,object,0,1.0,BGM+Med,object,1.0
+19509,exp5,BGM,Hairy root culture,2008,3,object,0,1.0,BGM+Med,method,1.0
+16399,exp5,Eng,Point cloud,2003,3,object,0,0.9,CS+Eng,object,1.0
+22696,exp5,CS,XML database,2004,3,object,0,1.0,CS+Eng,method,1.0
+18045,exp5,Eng,Traction substation,2011,3,object,0,1.0,CS+Eng,object,1.0
+35875,exp5,Eng,Outage probability,2010,3,property,0,0.95,CS+Eng,property,1.0
+11674,exp5,Eng,Thematic map,2008,3,topic,0,0.9,CS+Eng,method,1.0
+43345,exp5,Eng,Radio over fiber,2005,3,method,0,0.9,CS+Eng,method,1.0
+23188,exp5,Eng,Siltstone,2012,3,object,0,1.0,CS+Eng,object,1.0
+3704,exp5,Eng,Hydraulic motor,2010,3,object,0,0.9,CS+Eng,object,1.0
+54809,exp5,CS,Continuous education,2005,3,topic,0,0.9,CS+Eng,topic,1.0
+16217,exp5,Eng,Optical vortex,2006,3,object,0,1.0,CS+Eng,property,1.0
+20559,exp5,Eng,Imaging technology,2010,3,topic,0,0.9,CS+Eng,topic,1.0
+10763,exp5,CS,Coprocessor,2003,3,object,0,0.9,CS+Eng,object,1.0
+36565,cohort,Eng,Loss factor,2015,3,property,0,0.9,CS+Eng,property,0.0
+48533,exp5,Eng,Naphthenic acid,2004,3,object,0,1.0,CS+Eng,object,1.0
+8452,exp5,CS,Binary classification,2012,3,method,0,0.9,CS+Eng,method,0.0
+32954,exp5,CS,Group key,2004,3,object,0,0.9,CS+Eng,object,0.0
+24670,exp5,Eng,Shapley value,2007,3,property,0,0.95,CS+Eng,property,1.0
+31187,exp5,Eng,DVB-T,2006,3,object,0,0.95,CS+Eng,object,0.0
+32846,exp5,Eng,Indoor positioning system,2014,3,method,0,1.0,CS+Eng,method,0.0
+25740,exp5,Eng,Signal generator,2003,3,object,0,1.0,CS+Eng,object,1.0
+12891,exp5,Eng,Exhaust gas recirculation,2007,3,method,0,0.9,CS+Eng,method,0.0
+29313,exp5,Eng,State of charge,2008,3,property,0,1.0,CS+Eng,property,0.0
+55161,exp5,CS,Android application,2013,3,object,0,0.9,CS+Eng,object,0.0
+52864,exp5,Eng,Slope failure,2005,3,object,0,0.9,CS+Eng,object,1.0
+5042,exp5,Eng,Industrial control system,2013,3,topic,0,0.9,CS+Eng,topic,0.0
+51506,exp5,CS,Service composition,2006,3,method,0,0.9,CS+Eng,method,0.0
+15187,exp5,Eng,Harmonic balance,2004,3,method,0,1.0,CS+Eng,method,0.0
+10274,exp5,Eng,Control unit,2005,3,object,0,1.0,CS+Eng,object,1.0
+22325,exp5,Eng,Rock bolt,2009,3,object,0,0.9,CS+Eng,object,1.0
+17195,exp5,Eng,Shearography,2006,3,method,0,0.95,CS+Eng,method,0.0
+37126,exp5,Eng,Crushed stone,2003,3,object,0,1.0,CS+Eng,object,1.0
+41433,exp5,CS,Symbolic execution,2012,3,method,0,0.9,CS+Eng,method,0.0
+22603,exp5,CS,Substring,2011,3,object,0,0.9,CS+Eng,object,1.0
+8484,exp5,Eng,Electricity meter,2007,3,object,0,0.9,CS+Eng,object,1.0
+36846,cohort,CS,Microservices,2016,3,method,0,0.9,CS+Eng,topic,0.0
+42791,exp5,Eng,Solar dryer,2009,3,object,0,1.0,CS+Eng,object,0.0
+28111,exp5,Eng,Test bench,2003,3,method,0,1.0,CS+Eng,method,1.0
+23942,exp5,Eng,Continuously variable transmission,2004,3,object,0,0.9,CS+Eng,object,1.0
+3321,exp5,CS,Functional dependency,2009,3,property,0,0.9,CS+Eng,property,1.0
+10640,exp5,Eng,Assignment problem,2003,3,topic,0,1.0,CS+Eng,method,1.0
+45735,exp5,Eng,Carding,2003,3,method,0,1.0,CS+Eng,method,1.0
+39333,exp5,CS,Learning Management,2004,3,topic,0,1.0,CS+Eng,topic,1.0
+46941,cohort,CS,Cloudlet,2015,3,object,0,0.99,CS+Eng,object,0.0
+41386,exp5,Eng,Geohazard,2006,3,topic,0,1.0,CS+Eng,topic,1.0
+17546,exp5,CS,Depth map,2011,3,object,0,1.0,CS+Eng,object,0.0
+51741,exp5,CS,Independence number,2012,3,property,0,1.0,CS+Eng,property,1.0
+54611,exp5,Eng,Hydrothermal reaction,2010,1,method,0,1.0,CS+Eng,method,1.0
+5857,exp5,CS,DBSCAN,2012,3,method,0,0.95,CS+Eng,method,0.0
+17364,exp5,Eng,Steel plate shear wall,2008,3,object,0,0.9,CS+Eng,object,0.0
+1607,exp5,Eng,Water retention curve,2012,3,property,0,1.0,CS+Eng,property,1.0
+26573,exp5,LIFEENV,Hydroxytyrosol,2008,3,object,0,1.0,LIFEENV,object,0.0
+54896,cohort,LIFEENV,Aerobic bacteria,2016,3,object,0,0.9,LIFEENV,object,1.0
+40234,exp5,LIFEENV,Locust bean gum,2013,3,object,0,1.0,LIFEENV,object,1.0
+54386,cohort,LIFEENV,Climate zones,2017,3,property,0,0.9,LIFEENV,property,1.0
+6520,exp5,LIFEENV,Food quality,2005,3,topic,0,1.0,LIFEENV,property,1.0
+35415,exp5,LIFEENV,Asterias,2005,3,object,0,1.0,LIFEENV,object,1.0
+7857,cohort,LIFEENV,Oxidative enzyme,2016,3,object,0,0.9,LIFEENV,object,1.0
+51115,exp5,LIFEENV,Inorganic arsenic,2007,3,object,0,1.0,LIFEENV,object,1.0
+31454,exp5,LIFEENV,Bombycidae,2009,3,object,0,1.0,LIFEENV,object,1.0
+56319,cohort,LIFEENV,Shanghai china,2017,3,object,0,0.9,LIFEENV,object,1.0
+32307,exp5,LIFEENV,Soybean aphid,2004,3,object,0,0.95,LIFEENV,object,0.0
+49205,exp5,LIFEENV,Evening primrose,2007,3,object,0,1.0,LIFEENV,object,1.0
+31049,exp5,LIFEENV,Arcobacter,2006,3,object,0,1.0,LIFEENV,object,1.0
+48538,exp5,LIFEENV,Myriapoda,2011,3,object,0,1.0,LIFEENV,object,1.0
+37084,exp5,LIFEENV,Neuregulin 1,2004,3,object,0,1.0,LIFEENV,object,0.0
+32053,exp5,LIFEENV,Berberis,2007,3,object,0,0.9,LIFEENV,object,1.0
+34792,exp5,LIFEENV,Chelidonium,2009,3,object,0,0.9,LIFEENV,object,1.0
+44093,exp5,LIFEENV,Ageratum conyzoides,2009,3,object,0,1.0,LIFEENV,object,0.0
+21530,cohort,LIFEENV,Salvage logging,2017,3,topic,0,0.9,LIFEENV,method,0.0
+48523,exp5,LIFEENV,Ardea,2011,3,object,0,1.0,LIFEENV,object,0.0
+28381,exp5,LIFEENV,Camelina sativa,2010,3,object,0,1.0,LIFEENV,object,1.0
+47030,exp5,LIFEENV,Pinellia ternata,2006,3,object,0,1.0,LIFEENV,object,1.0
+47950,exp5,LIFEENV,Tenuipalpidae,2006,3,object,0,0.9,LIFEENV,object,1.0
+49852,cohort,LIFEENV,Longissimus Thoracis,2015,3,object,0,0.9,LIFEENV,object,1.0
+49910,exp5,LIFEENV,Eucalyptus tereticornis,2010,3,object,0,1.0,LIFEENV,object,1.0
+46100,exp5,LIFEENV,Erucic acid,2010,3,object,0,1.0,LIFEENV,object,1.0
+35726,exp5,LIFEENV,Advanced oxidation process,2009,3,method,0,0.9,LIFEENV,method,0.0
+12205,exp5,LIFEENV,Spring bloom,2006,3,object,0,0.9,LIFEENV,property,1.0
+14673,exp5,LIFEENV,IRF8,2014,3,object,0,1.0,LIFEENV,object,0.0
+6914,exp5,LIFEENV,Anammox,2004,3,object,0,1.0,LIFEENV,property,0.0
+53354,exp5,LIFEENV,Soil remediation,2014,3,method,0,1.0,LIFEENV,method,0.0
+41273,exp5,LIFEENV,Orexin receptor,2011,3,object,0,0.9,LIFEENV,object,0.0
+48227,exp5,LIFEENV,Metritis,2009,3,object,0,1.0,LIFEENV,property,1.0
+43387,exp5,LIFEENV,Ceftiofur,2009,3,object,0,0.9,LIFEENV,object,0.0
+34032,exp5,LIFEENV,Dioscorea rotundata,2009,3,object,0,1.0,LIFEENV,object,1.0
+56074,exp5,LIFEENV,French fries,2007,3,object,0,0.9,LIFEENV,object,1.0
+46576,exp5,LIFEENV,Ocimum gratissimum,2006,3,object,0,1.0,LIFEENV,object,1.0
+20473,exp5,LIFEENV,Microbial fuel cell,2004,3,object,0,0.9,LIFEENV,method,0.0
+35721,exp5,LIFEENV,Gekkonidae,2004,3,object,0,0.9,LIFEENV,object,1.0
+47649,exp5,LIFEENV,Conch,2013,3,object,0,1.0,LIFEENV,object,1.0
+41676,exp5,LIFEENV,Solanum nigrum,2005,3,object,0,1.0,LIFEENV,object,1.0
+2973,exp5,LIFEENV,Pan evaporation,2008,3,method,0,1.0,LIFEENV,method,1.0
+31065,exp5,LIFEENV,Soil gas,2010,3,object,0,1.0,LIFEENV,object,1.0
+54074,exp5,LIFEENV,Recreational fishing,2003,3,topic,0,0.9,LIFEENV,topic,1.0
+56084,cohort,LIFEENV,Host specificity,2016,3,property,0,0.9,LIFEENV,property,0.0
+36248,exp5,LIFEENV,Superior temporal sulcus,2010,3,object,0,1.0,LIFEENV,object,1.0
+47686,exp5,LIFEENV,Dyscalculia,2010,3,object,0,0.9,LIFEENV,object,1.0
+36330,exp5,LIFEENV,Cottus,2005,3,object,0,0.9,LIFEENV,object,1.0
+43127,exp5,LIFEENV,Green infrastructure,2009,3,topic,0,0.9,LIFEENV,topic,1.0
+7861,cohort,LIFEENV,Circumscription,2017,3,method,0,0.9,LIFEENV,property,0.0
+54095,exp5,MATHDEC,Transformation group,2014,3,object,0,0.9,MATHDEC,object,0.0
+31613,cohort,MATHDEC,Allen–Cahn equation,2016,3,method,0,1.0,MATHDEC,method,0.0
+3,exp5,MATHDEC,Complete intersection,2012,3,object,0,0.9,MATHDEC,property,1.0
+14617,cohort,MATHDEC,Overdispersion,2016,3,property,0,1.0,MATHDEC,property,0.0
+5133,exp5,MATHDEC,Riemann problem,2008,3,topic,0,0.9,MATHDEC,,
+2036,exp5,MATHDEC,Fractional factorial design,2008,3,method,0,0.9,MATHDEC,method,1.0
+15004,exp5,MATHDEC,Adomian decomposition method,2004,3,method,0,0.9,MATHDEC,method,0.0
+22058,exp5,MATHDEC,Trigonometric functions,2008,3,property,1,1.0,MATHDEC,object,1.0
+6894,exp5,MATHDEC,Algebraic combinatorics,2003,3,topic,0,1.0,MATHDEC,topic,1.0
+6552,cohort,MATHDEC,Functional data analysis,2016,3,method,0,0.9,MATHDEC,topic,0.0
+4882,exp5,MATHDEC,Alternating group,2009,3,object,0,0.9,MATHDEC,object,1.0
+26052,exp5,MATHDEC,Scientometrics,2007,3,topic,0,0.9,MATHDEC,topic,0.0
+17383,exp5,MATHDEC,Law of the iterated logarithm,2004,3,property,1,0.9,MATHDEC,property,1.0
+263,exp5,MATHDEC,Siegel modular form,2013,3,object,0,1.0,MATHDEC,object,0.0
+24585,exp5,MATHDEC,Virasoro algebra,2013,3,object,0,1.0,MATHDEC,object,0.0
+18781,exp5,MATHDEC,Analytic continuation,2004,3,method,0,1.0,MATHDEC,method,1.0
+16434,exp5,MATHDEC,Obstacle problem,2003,3,topic,0,0.9,MATHDEC,topic,0.0
+21348,exp5,MATHDEC,Lp space,2009,3,object,0,0.95,MATHDEC,object,1.0
+5562,exp5,MATHDEC,Magic square,2003,3,object,1,0.9,MATHDEC,object,1.0
+26860,exp5,MATHDEC,Pfaffian,2009,3,object,0,0.9,MATHDEC,property,1.0
+2646,exp5,MATHDEC,Probability measure,2004,3,property,0,0.9,MATHDEC,property,1.0
+12311,exp5,MATHDEC,Periodic function,2013,3,object,1,0.9,MATHDEC,property,1.0
+3694,exp5,MATHDEC,Fisher information,2004,3,property,0,0.9,MATHDEC,property,1.0
+1413,exp5,MATHDEC,Group representation,2012,3,method,0,1.0,MATHDEC,method,1.0
+29207,exp5,MATHDEC,Lorentz space,2013,3,object,0,1.0,MATHDEC,object,0.0
+25373,exp5,MATHDEC,Generating function,2005,3,method,1,1.0,MATHDEC,method,1.0
+32812,exp5,MATHDEC,Elementary proof,2004,3,method,0,1.0,MATHDEC,method,1.0
+40756,exp5,MATHDEC,Prime ideal,2010,3,object,0,0.97,MATHDEC,object,1.0
+34037,exp5,MATHDEC,Drazin inverse,2009,3,method,0,1.0,MATHDEC,method,0.0
+25177,cohort,MATHDEC,Additive model,2016,3,method,0,0.9,MATHDEC,method,0.0
+47925,exp5,MATHDEC,Scan statistic,2014,3,method,0,0.9,MATHDEC,method,1.0
+24715,exp5,MATHDEC,Riemann hypothesis,2011,3,property,0,0.95,MATHDEC,property,1.0
+41385,cohort,MATHDEC,Numerical semigroup,2017,3,object,0,0.9,MATHDEC,object,0.0
+19004,exp5,MATHDEC,Von Neumann algebra,2005,3,object,0,0.9,MATHDEC,object,0.0
+10689,exp5,MATHDEC,Ordinal data,2007,3,property,0,1.0,MATHDEC,property,1.0
+35306,exp5,MATHDEC,Spectral gap,2013,3,property,0,1.0,MATHDEC,property,0.0
+22216,exp5,MATHDEC,Complex plane,2010,3,object,0,0.9,MATHDEC,object,1.0
+25448,exp5,MATHDEC,Unipotent,2006,3,object,0,1.0,MATHDEC,property,0.0
+21568,exp5,MATHDEC,Prime power,2014,3,property,0,1.0,MATHDEC,property,1.0
+13767,exp5,MATHDEC,Dirichlet boundary condition,2009,3,property,0,1.0,MATHDEC,method,1.0
+2826,exp5,MATHDEC,Lipschitz continuity,2005,3,property,0,1.0,MATHDEC,property,1.0
+4369,exp5,MATHDEC,Binomial coefficient,2006,3,property,1,1.0,MATHDEC,property,1.0
+18537,exp5,MATHDEC,Gamma distribution,2004,3,property,1,0.9,MATHDEC,object,1.0
+8535,exp5,MATHDEC,Galois group,2011,3,object,0,1.0,MATHDEC,object,0.0
+24938,exp5,MATHDEC,Hermite polynomials,2008,3,object,0,1.0,MATHDEC,object,1.0
+459,exp5,MATHDEC,Symmetric function,2011,3,object,0,1.0,MATHDEC,property,0.0
+16420,exp5,MATHDEC,Semilattice,2008,3,object,0,0.9,MATHDEC,object,0.0
+24768,exp5,MATHDEC,Mellin transform,2011,3,method,0,0.95,MATHDEC,method,1.0
+5175,exp5,MATHDEC,Binomial distribution,2003,3,property,1,0.9,MATHDEC,object,1.0
+5061,exp5,MATHDEC,Geometric mean,2007,3,property,1,1.0,MATHDEC,property,1.0
+23482,cohort,PHYS,Ceilometer,2016,3,object,0,1.0,PHYS,object,1.0
+42904,exp5,PHYS,Tritiated water,2005,3,object,0,0.976,PHYS,object,1.0
+47644,exp5,PHYS,Early Triassic,2012,3,object,0,1.0,PHYS,object,1.0
+19291,exp5,PHYS,Vector boson,2007,3,object,0,1.0,PHYS,object,1.0
+11762,exp5,PHYS,Organic geochemistry,2012,3,topic,0,0.9,PHYS,topic,1.0
+40437,exp5,PHYS,Sulfanyl,2007,3,object,0,1.0,PHYS,object,1.0
+8789,exp5,PHYS,Click chemistry,2004,3,method,0,0.9,PHYS,method,0.0
+18504,exp5,PHYS,Syncline,2008,3,object,0,0.9,PHYS,object,1.0
+21942,exp5,PHYS,Negative thermal expansion,2005,3,property,0,0.9,PHYS,property,1.0
+39432,exp5,PHYS,Baeyer–Villiger oxidation,2003,3,method,0,0.9,PHYS,method,1.0
+2928,exp5,PHYS,Halogen bond,2005,3,property,0,1.0,PHYS,property,1.0
+28335,exp5,PHYS,Azine,2004,3,object,0,0.95,PHYS,object,1.0
+39352,exp5,PHYS,Middle Paleolithic,2013,3,topic,0,1.0,PHYS,topic,1.0
+14209,exp5,PHYS,Hartree–Fock method,2014,3,method,0,0.9,PHYS,method,1.0
+15963,exp5,PHYS,Nanocages,2006,3,object,0,1.0,PHYS,object,0.0
+13933,exp5,PHYS,Seismic refraction,2004,3,method,0,0.9,PHYS,method,1.0
+14990,exp5,PHYS,Gulf Stream,2014,3,object,0,0.9,PHYS,object,1.0
+3675,exp5,PHYS,Global Precipitation Measurement,2014,3,object,0,1.0,PHYS,object,0.0
+752,exp5,PHYS,Pseudocapacitor,2012,3,object,0,1.0,PHYS,object,0.0
+54123,exp5,PHYS,Transverse field,2012,3,property,0,1.0,PHYS,property,0.0
+43295,exp5,PHYS,Quantum capacitance,2013,3,property,0,1.0,PHYS,property,0.0
+2650,exp5,PHYS,Tiltmeter,2010,3,object,0,0.9,PHYS,method,1.0
+5503,exp5,PHYS,Inertial wave,2014,3,object,0,0.9,PHYS,object,1.0
+20640,exp5,PHYS,Spin pumping,2012,3,method,0,0.9,PHYS,method,0.0
+44977,cohort,PHYS,Hippuric acid,2015,3,object,0,0.9,PHYS,object,1.0
+28415,exp5,PHYS,Cyclohexanone oxime,2004,3,object,0,1.0,PHYS,object,1.0
+7892,exp5,PHYS,Eemian,2003,3,object,0,1.0,PHYS,object,1.0
+10650,exp5,PHYS,Red beds,2005,3,object,0,1.0,PHYS,object,1.0
+34095,exp5,PHYS,Proboscidea,2014,3,object,0,1.0,PHYS,object,1.0
+2256,exp5,PHYS,Nanocarriers,2005,3,object,0,1.0,PHYS,object,0.0
+31665,exp5,PHYS,Pyruvic acid,2003,3,object,1,1.0,PHYS,object,1.0
+42967,exp5,PHYS,Common envelope,2011,3,object,0,1.0,PHYS,object,0.0
+20402,exp5,PHYS,Galvanic anode,2008,3,object,0,1.0,PHYS,object,0.0
+30530,exp5,PHYS,Quantum cloning,2008,3,method,0,1.0,PHYS,method,0.0
+19384,exp5,PHYS,Angle-resolved photoemission spectroscopy,2005,3,method,0,0.95,PHYS,method,1.0
+35985,cohort,PHYS,Billion years,2015,3,property,1,0.9,PHYS,property,1.0
+10668,exp5,PHYS,Lahar,2009,3,object,0,1.0,PHYS,object,1.0
+22635,exp5,PHYS,Iron fertilization,2008,3,method,0,0.9,PHYS,topic,0.0
+19140,exp5,PHYS,Adakite,2003,3,object,0,1.0,PHYS,object,1.0
+33595,exp5,PHYS,SODAR,2003,3,method,0,1.0,PHYS,method,1.0
+39585,exp5,PHYS,Wendelstein 7-X,2007,3,object,0,0.9,PHYS,object,0.0
+26882,exp5,PHYS,Morse potential,2009,3,object,0,0.9,PHYS,method,1.0
+51084,exp5,PHYS,ALIZARIN RED,2008,3,object,0,1.0,PHYS,object,1.0
+4712,exp5,PHYS,Hadean,2006,3,object,1,0.95,PHYS,object,1.0
+30767,exp5,PHYS,Furoxan,2013,3,object,0,1.0,PHYS,object,0.0
+8830,cohort,PHYS,Clockwise,2017,3,property,0,0.9,PHYS,property,1.0
+33631,exp5,PHYS,Cyanuric acid,2008,3,object,0,0.9,PHYS,object,1.0
+4914,exp5,PHYS,Feshbach resonance,2003,3,property,0,0.9,PHYS,property,0.0
+36699,exp5,PHYS,Pincer ligand,2010,3,object,0,1.0,PHYS,object,0.0
+22600,exp5,PHYS,Barrier island,2009,3,object,0,0.9,PHYS,object,1.0
+36427,exp5,SOC,Gender diversity,2011,3,property,0,1.0,SOC,property,0.0
+39100,cohort,SOC,Licensee,2016,3,object,0,1.0,SOC,object,0.0
+23131,exp5,SOC,Historical geography,2012,3,topic,0,1.0,SOC,topic,1.0
+3764,exp5,SOC,Interest rate risk,2005,3,property,0,0.9,SOC,property,1.0
+26208,exp5,SOC,Gerontological nursing,2006,3,topic,0,0.9,SOC,topic,1.0
+44856,exp5,SOC,Dynamic assessment,2007,3,method,0,1.0,SOC,method,0.0
+41176,exp5,SOC,Bottom of the pyramid,2009,3,topic,0,0.9,SOC,topic,0.0
+52572,exp5,SOC,Digital era,2010,1,topic,0,1.0,SOC,topic,0.0
+21315,exp5,SOC,Grand strategy,2004,3,topic,0,0.95,SOC,topic,1.0
+56396,exp5,SOC,Day care center,2013,3,object,0,1.0,SOC,object,0.0
+47003,exp5,SOC,Epitaph,2003,3,object,0,0.9,SOC,object,1.0
+46427,exp5,SOC,Paraphrase,2005,3,method,0,0.9,SOC,method,1.0
+3474,exp5,SOC,Audit risk,2006,3,property,0,1.0,SOC,property,0.0
+25886,exp5,SOC,Interculturalism,2011,3,topic,0,0.9,SOC,topic,0.0
+4916,exp5,SOC,Organizational behavior,2006,3,topic,0,0.9,SOC,topic,1.0
+31483,exp5,SOC,Training and development,2011,3,topic,0,1.0,SOC,method,0.0
+26782,cohort,SOC,Ableism,2016,3,topic,0,0.9,SOC,topic,0.0
+22150,exp5,SOC,Soft power,2005,3,property,0,1.0,SOC,property,0.0
+52292,exp5,SOC,Consumer satisfaction,2007,3,property,0,0.9,SOC,property,0.0
+33292,exp5,SOC,Romer,2007,3,object,0,1.0,SOC,object,0.0
+27691,exp5,SOC,Language learning strategies,2005,3,topic,0,1.0,SOC,method,0.0
+48246,exp5,SOC,Challenging behaviour,2006,3,object,0,1.0,SOC,property,0.0
+1840,exp5,SOC,Liminality,2004,3,property,0,0.95,SOC,property,1.0
+39532,exp5,SOC,Neo-Confucianism,2005,3,topic,0,1.0,SOC,topic,1.0
+26398,exp5,SOC,Lexeme,2014,3,object,0,0.9,SOC,object,1.0
+52199,exp5,SOC,Electronic banking,2009,3,topic,0,0.9,SOC,method,0.0
+37568,exp5,SOC,Great power,2013,3,object,0,0.9,SOC,object,0.0
+26466,exp5,SOC,Freedom of religion,2007,3,topic,0,0.9,SOC,property,1.0
+45962,exp5,SOC,Ministry of Foreign Affairs,2013,3,object,0,1.0,SOC,object,1.0
+17786,exp5,SOC,Technology management,2010,3,topic,0,1.0,SOC,topic,0.0
+21078,exp5,SOC,Western philosophy,2004,3,topic,0,1.0,SOC,topic,1.0
+34684,exp5,SOC,Career management,2009,3,topic,0,1.0,SOC,topic,1.0
+14686,exp5,SOC,Electronic media,2011,3,topic,0,1.0,SOC,object,1.0
+21038,cohort,SOC,Book value,2015,3,property,0,1.0,SOC,property,1.0
+55557,exp5,SOC,Columbia university,2003,3,object,0,0.9,SOC,object,1.0
+4575,exp5,SOC,Enculturation,2008,3,method,0,1.0,SOC,property,1.0
+2120,exp5,SOC,Pseudoscience,2004,3,topic,0,1.0,SOC,topic,1.0
+42419,exp5,SOC,Presumption of innocence,2013,3,property,0,1.0,SOC,property,1.0
+53206,exp5,SOC,Federal election,2008,3,topic,0,0.9,SOC,method,1.0
+9943,exp5,SOC,Sunk costs,2004,3,property,0,0.9,SOC,property,1.0
+42614,exp5,SOC,Experimentalism,2012,3,topic,0,1.0,SOC,topic,0.0
+29714,exp5,SOC,Tic disorder,2007,3,object,0,1.0,SOC,object,1.0
+10743,exp5,SOC,Fiqh,2004,3,topic,0,0.9,SOC,topic,1.0
+1061,exp5,SOC,Budget constraint,2005,3,property,0,1.0,SOC,property,1.0
+45257,exp5,SOC,Slogan,2004,3,topic,0,0.97,SOC,object,1.0
+40887,exp5,SOC,Millennium Development Goals,2003,3,topic,0,0.9,SOC,topic,1.0
+30701,exp5,SOC,Commodity chain,2007,3,topic,0,1.0,SOC,method,0.0
+42002,exp5,SOC,Copyright infringement,2006,3,topic,0,1.0,SOC,property,0.0
+37826,exp5,SOC,Fast-moving consumer goods,2014,3,topic,0,0.8,SOC,object,0.0
+27767,exp5,SOC,Investment arbitration,2013,3,topic,0,1.0,SOC,method,0.0

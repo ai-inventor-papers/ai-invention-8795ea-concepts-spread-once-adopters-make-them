@@ -1,0 +1,27 @@
+{
+ "O1c": {
+  "max_abs_diff": 8.881784197001252e-16,
+  "nan_equal": true
+ },
+ "O1b": {
+  "max_abs_diff": 0.0,
+  "nan_equal": true
+ },
+ "O3": {
+  "max_abs_diff": 0.0,
+  "nan_equal": true
+ },
+ "O2r_m50": {
+  "max_abs_diff": 8.881784197001252e-16,
+  "nan_equal": true
+ },
+ "O2r_m30": {
+  "max_abs_diff": 8.881784197001252e-16,
+  "nan_equal": true
+ },
+ "O2r_resid": {
+  "max_abs_diff": 8.881784197001252e-16,
+  "nan_equal": true
+ },
+ "pass": true
+}
