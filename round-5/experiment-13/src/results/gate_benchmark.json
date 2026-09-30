@@ -1,0 +1,58 @@
+{
+ "m1_m2": {
+  "n_kappa_sample": 100,
+  "kappa_keep": 0.6119518820333721,
+  "agree_keep": 0.8,
+  "n_type_both_kept": 42,
+  "kappa_type": 0.7331215250198571,
+  "agree_type": 0.8095238095238095,
+  "m2_all_method_object": true,
+  "n_m2_total": 752
+ },
+ "blind_check": {
+  "n": 60,
+  "agreement": 0.6833333333333333,
+  "kappa": 0.3666666666666667,
+  "keep_precision_vs_executor": 0.36666666666666664,
+  "reject_npv_vs_executor": 1.0,
+  "reader": "executor agent (an LLM), blind to the model label; NOT a human annotator",
+  "rule_tightened": "keep-precision < 0.8 -> sense_share >= 0.9 (declared, before the freeze)"
+ },
+ "sense_share_threshold": 0.9,
+ "blind_check_2_consensus": {
+  "n": 40,
+  "n_consensus_kept": 30,
+  "keep_precision_vs_executor": 0.43333333333333335,
+  "m2_reject_agreement_vs_executor": 1.0,
+  "reader": "executor agent (an LLM), blind to the model labels; NOT a human annotator",
+  "sample": "fresh: 30 consensus-kept + 10 M1-kept/M2-rejected, excluding sheet 1"
+ },
+ "gate_v2": {
+  "n_m1_kept": 1135,
+  "n_final": 636,
+  "n_final_main": 578,
+  "g2_categories_on_m1_kept": {
+   "concept": 638,
+   "named_entity": 234,
+   "non_english": 171,
+   "fragment_or_generic": 91,
+   "boilerplate": 3
+  },
+  "eval": {
+   "n": 100,
+   "category_counts": {
+    "concept": 45,
+    "named_entity": 23,
+    "fragment_or_generic": 14,
+    "non_english": 14,
+    "boilerplate": 4
+   },
+   "keep_precision_vs_executor": 0.631578947368421,
+   "keep_recall_vs_executor": 1.0,
+   "n_g2_keep": 38,
+   "n_executor_keep": 24,
+   "agreement": 0.86,
+   "note": "dev evaluation on the 100 executor-labelled phrases (sheets 1 and 2); executor = an LLM agent, not a human annotator"
+  }
+ }
+}

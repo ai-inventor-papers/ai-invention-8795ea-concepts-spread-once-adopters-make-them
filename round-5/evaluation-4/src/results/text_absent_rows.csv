@@ -1,0 +1,47 @@
+ledger,claim_id,target_file,target_section,scope,reported_value,status
+v3,C0110,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,-0.056,TEXT_PRESENT_ELSEWHERE
+v3,C0111,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.059,TEXT_PRESENT_ELSEWHERE
+v3,C0112,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,0.32,TEXT_PRESENT_ELSEWHERE
+v3,C0114,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,2,TEXT_PRESENT_ELSEWHERE
+v3,C0116,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.040,TEXT_PRESENT_ELSEWHERE
+v3,C0117,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,-0.024,TEXT_PRESENT_ELSEWHERE
+v3,C0118,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.104,TEXT_PRESENT_ELSEWHERE
+v3,C0119,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,0.48,TEXT_ABSENT
+v3,C0120,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,0.891,TEXT_ABSENT
+v3,C0123,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.010,TEXT_PRESENT_ELSEWHERE
+v3,C0124,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,-0.042,TEXT_PRESENT_ELSEWHERE
+v3,C0125,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.061,TEXT_PRESENT_ELSEWHERE
+v3,C0137,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.053,TEXT_PRESENT_ELSEWHERE
+v3,C0138,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,-0.058,TEXT_PRESENT_ELSEWHERE
+v3,C0139,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,+0.165,TEXT_PRESENT_ELSEWHERE
+v3,C0140,01_exp8_outcomes_relabel.md,19.5b,section 19.5b,0.79,TEXT_PRESENT_ELSEWHERE
+v3,C0817,06_ledger_open_rows.md,13.1 Sources,section 13.1,6540,TEXT_PRESENT_ELSEWHERE
+v3,C0818,06_ledger_open_rows.md,13.1 Sources,section 13.1,64363,TEXT_PRESENT_ELSEWHERE
+v3,C0821,06_ledger_open_rows.md,13.1 Sources,section 13.1,6540,TEXT_PRESENT_ELSEWHERE
+v3,C0822,06_ledger_open_rows.md,13.1 Sources,section 13.1,7806,TEXT_PRESENT_ELSEWHERE
+v3,C0837,06_ledger_open_rows.md,10.7,section 10.7,27393,TEXT_PRESENT_ELSEWHERE
+v3,C0838,06_ledger_open_rows.md,10.7,section 10.7,8515,TEXT_PRESENT_ELSEWHERE
+v3,C0842,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,0.21723474575636884,TEXT_PRESENT_ELSEWHERE
+v3,C0848,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,0.006,TEXT_PRESENT_ELSEWHERE
+v3,C0850,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,-0.027939583860173887,TEXT_PRESENT_ELSEWHERE
+v3,C0851,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,-0.028,TEXT_PRESENT_ELSEWHERE
+v3,C0853,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,-0.043,TEXT_PRESENT_ELSEWHERE
+v3,C0854,06_ledger_open_rows.md,11.3 Ordering: first retained gateway precedes entropy takeoff,section 11.3,6e-8,TEXT_PRESENT_ELSEWHERE
+v3,C0877,06_ledger_open_rows.md,13.1 Sources,section 13.1,3583,TEXT_PRESENT_ELSEWHERE
+v3,C0878,06_ledger_open_rows.md,13.1 Sources,section 13.1,1298,TEXT_PRESENT_ELSEWHERE
+v3,C0883,06_ledger_open_rows.md,13.1 Sources,section 13.1,1015,TEXT_PRESENT_ELSEWHERE
+v3,C0889,06_ledger_open_rows.md,13.1 Sources,section 13.1,17872,TEXT_PRESENT_ELSEWHERE
+v3,C0890,06_ledger_open_rows.md,13.1 Sources,section 13.1,1121,TEXT_PRESENT_ELSEWHERE
+v3,C0895,06_ledger_open_rows.md,13.1 Sources,section 13.1,8462,TEXT_PRESENT_ELSEWHERE
+v3,C0896,06_ledger_open_rows.md,13.1 Sources,section 13.1,2635,TEXT_PRESENT_ELSEWHERE
+v3,C0915,06_ledger_open_rows.md,10.6 Concept breadth hypothesis: result: small but confirmed,section 10.6,0.0,TEXT_PRESENT_ELSEWHERE
+v3,C0940,06_ledger_open_rows.md,5.4 Field level prediction,section 5.4,0.08507936507936509,TEXT_PRESENT_ELSEWHERE
+v3,C0961,06_ledger_open_rows.md,10.7 Minimum detectable effect and power,section 10.7,0.80,TEXT_PRESENT_ELSEWHERE
+v3,C0962,06_ledger_open_rows.md,10.7 Minimum detectable effect and power,section 10.7,0.9,TEXT_PRESENT_ELSEWHERE
+v3,C0973,06_ledger_open_rows.md,10.7 Minimum detectable effect and power,section 10.7,12.5,TEXT_PRESENT_ELSEWHERE
+v3,C0974,06_ledger_open_rows.md,10.7 Minimum detectable effect and power,section 10.7,2.5,TEXT_PRESENT_ELSEWHERE
+v3,C0979,06_ledger_open_rows.md,10.7,section 10.7,0.016009816372160212,TEXT_PRESENT_ELSEWHERE
+v3,C1002,07_failed_artifacts.md,5a,section 5a,0,TEXT_PRESENT_ELSEWHERE
+v3,C1004,07_failed_artifacts.md,5a,section 5a,4,TEXT_PRESENT_ELSEWHERE
+v3,C1137,10_minor_slips.md,18.11,section 18.11,22,TEXT_PRESENT_ELSEWHERE
+v3,C1140,10_minor_slips.md,18.11,section 18.11,0.9977,TEXT_ABSENT

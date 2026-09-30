@@ -1,0 +1,37 @@
+{
+ "candidates": 132077,
+ "no_t0": 127987,
+ "selection_clause_dropped": 29,
+ "onset_2003_2014": 4061,
+ "extension_2015": 407,
+ "containment_pairs": 1481,
+ "containment_dropped": 1298,
+ "diffuse_born_dropped": 913,
+ "after_s5a": 2257,
+ "after_s5a_main": 2092,
+ "by_t0": {
+  "2003": 79,
+  "2004": 133,
+  "2005": 108,
+  "2006": 117,
+  "2007": 120,
+  "2008": 179,
+  "2009": 281,
+  "2010": 157,
+  "2011": 207,
+  "2012": 202,
+  "2013": 307,
+  "2014": 202,
+  "2015": 165
+ },
+ "by_group": {
+  "SOC": 1114,
+  "BGM+Med": 456,
+  "CS+Eng": 349,
+  "PHYS": 186,
+  "LIFEENV": 131,
+  "MATHDEC": 21
+ },
+ "sealB_rows": 24699,
+ "max_read_ok": true
+}

@@ -1,0 +1,120 @@
+{
+ "created": "2026-09-29 05:40:06",
+ "status": "EXPLORATORY (selection data): outcomes were unsealed before; this seal fixes only this analysis",
+ "seed": 20260929,
+ "N_BOOT": 2000,
+ "N_BOOT_cohort": 2000,
+ "N_PLACEBO": 200,
+ "paper_set": "HOME-ONLY (grounded papers whose venue field is a home field), PRE t0-3..t0-1, W1..W3 = t0..t0+2",
+ "build": "partners_home.home_partners = EXP8 ego.concept_core preamble (same calls), SELF rule, PMI>0 & count>=2",
+ "classes": {
+  "type": "METHOD | DOMAIN (| OTHER) from Exp11 results/topic_types.csv",
+  "comm": "new | old | unk: backbone community of the partner in the slice of its (first) year vs the concept's t0 modal community C0 (W1 count-weighted); unk if C0 undefined",
+  "deg": "low | high: key (deg_s0(k), k) below / at-or-above the degree-weighted median key of the NOV null pool (non-PRE, non-SELF topics with background mass); P_null(low) = 0.5",
+  "carrier": "mixed | pure: some home paper of the partner's (first) year containing k also carries a non-SELF topic whose field is outside the concept's home fields"
+ },
+ "components": {
+  "NOV_res": "sum_X nov_X, nov_X = (1/M) sum_{k in NEW&X} (1[comm_k != C0] - E); axes type, deg, carrier (community axis NOT applied: NOV_res IS the new-community share -> tautological)",
+  "novnull_X": "NOV_X - E_X with E_X the class-specific degree-weighted null (carrier: E_X = E)",
+  "new_edge_rate": "sum_X ner_X, ner_X = (|NEW & X| / 3) / (n1 + 1); all four axes",
+  "churn": "1 - edge_persistence = sum_X (chd_X + cha_X): dropped / added partner shares of the union, averaged over the defined transitions W1->W2, W2->W3",
+  "NOVCHURN_home": "mean(z(NOV_res), -z(edge_persistence)) with the Exp10 EXP5-frozen HOME OPEN constants (winsorised at lo/hi, then (v-mu)/sd); defined iff both finite and n_home_early >= 10",
+  "bridging_share_home": "share of early home papers that introduce >= 1 new-community new partner in its first year"
+ },
+ "novchurn_constants": {
+  "source": "Exp10 results/frozen_spec.json open_constants.home",
+  "NOV_res": {
+   "lo": -0.9844771539499432,
+   "hi": 0.09593876134862721,
+   "mu": -0.540875353868789,
+   "sd": 0.3801298233025086,
+   "sign": 1,
+   "n": 9475
+  },
+  "edge_persistence": {
+   "lo": 0.0,
+   "hi": 0.6739705882352984,
+   "mu": 0.12122673391085216,
+   "sd": 0.15763666320353067,
+   "sign": -1,
+   "n": 11236
+  }
+ },
+ "open_home_constants": {
+  "source": "Exp10 results/frozen_spec.json open_constants.home",
+  "min_home_papers": 10,
+  "min_components": 4
+ },
+ "bodies": {
+  "DEV": "EXP5 split DEV (selection, disclosed)",
+  "OLD_HELDOUT": "EXP5 split HELDOUT_* (+ per group PHYS/LIFEENV/SOC/MATHDEC, DL on Fisher z with I2)",
+  "COHORT_2010_14": "EXP5 split COHORT",
+  "POOLED_EXP5": "DEV + OLD_HELDOUT + COHORT_2010_14 with body and group dummies (the powered body)",
+  "COHORT_2015_17": "Exp10 analysis_cohort at rungs R0 and R3 (Exp10 ladder.rung_design)"
+ },
+ "outcomes": {
+  "primary": "O2r_m50",
+  "secondary": [
+   "O2r_resid",
+   "O5_WW (EXP8, recognition; secondary only)"
+  ]
+ },
+ "baseline": "B5 (logvol, growth_c, offhome_share, entropy, reach) ranks + t0 dummies (+ group and body dummies when pooled); 2015-17: Exp10 rungs R0 / R3",
+ "estimator": "partial Spearman (EXP8 rq1stats.psp_point); concept bootstrap, the SAME resample indices for every component within a body (paired differences valid); percentile 95% CIs",
+ "shapley": {
+  "games": {
+   "type": "players METHOD, DOMAIN; NOV and churn parts of the player's class",
+   "deg": "players low, high",
+   "carrier": "players mixed, pure",
+   "direction": "players NOV (all new-partner novelty), DROP (dropped-partner churn), ADD (added-partner churn)",
+   "type_x_comm_ner": "4 players METHOD-new, METHOD-old, DOMAIN-new, DOMAIN-old on psp(new_edge_rate)",
+   "type_x_comm_churn": "the same 4 players on psp(churn)"
+  },
+  "value": "v(S) = psp of the target rebuilt with the parts of players not in S replaced by their body mean; v(empty) = 0 (constant score); exact enumeration of all orderings; efficiency checked (1e-9)",
+  "fair_share": "the class's share of the relevant partners (new partners for NOV/ner, churn events for churn)",
+  "F5": "if |v(full)| < 0.03 report absolute phi with CIs, not shares"
+ },
+ "holm_family": {
+  "body": "POOLED_EXP5",
+  "outcome": "O2r_m50",
+  "contrasts": [
+   "C1 METHOD-DOMAIN: psp(novnull_type_METHOD) - psp(novnull_type_DOMAIN)",
+   "C2 comm_new-comm_old: psp(ner_comm_new) - psp(ner_comm_old)",
+   "C3 lowdeg-highdeg: psp(nov_deg_low) - psp(nov_deg_high)",
+   "C4 mixed-pure carrier: psp(ner_carrier_mixed) - psp(ner_carrier_pure)",
+   "C5 dropped-added: psp(chd_all) - psp(cha_all)"
+  ],
+  "p": "two-sided paired-bootstrap p (2 x min tail share), Holm-adjusted over the 5"
+ },
+ "predictions": {
+  "P-A1": "METHOD share of the NOVCHURN Shapley (type game) > METHOD share of new partners",
+  "P-A2": "new-community new partners carry more new_edge_rate signal than same-community ones (C2 > 0)",
+  "P-A3": "low-degree partners carry more NOV_res signal than high-degree ones (C3 > 0)",
+  "P-A4": "mixed-carrier > pure-home (C4 > 0)",
+  "P-A5": "dropped-partner churn carries more signal than added-partner churn (|psp| of chd_all > cha_all; C5 on the churn scale where churn predicts spread positively)",
+  "P-B1": "TRAIT: ICC(OPEN_home yearly) >= 0.40 AND early-later Spearman >= 0.40 on DEV AND OLD_HELDOUT",
+  "P-B2": "same for NOVCHURN (reported separately)"
+ },
+ "part_B": {
+  "yearly": "Exp11 yearly_features (HOME, 1-year windows) rows t0..h_end with deg >= 2; OPEN_home_y = panel_m.open_home with Exp11 frozen yearly constants; NOVCHURN_y = mean(z nov_res, -z persistence)",
+  "ICC": "one-way random-effects ICC(1) on x residualised on year and age dummies (ANOVA estimator, k0 = (N - sum n_i^2 / N) / (g - 1) for unbalanced groups), concept bootstrap 500; MixedLM REML point as a cross-check; size-adjusted version residualised also on log1p_deg, log1p_home_works, log1p_all_works",
+  "test_retest": "Spearman(mean x over t0..t0+2, mean x over t0+3..t0+5), >= 2 defined years each; partial given early log volume and mean log degree; Spearman-Brown odd/even reliability; disattenuated",
+  "positive_control": "ICC of log1p_home_works > 0.6",
+  "static": "same HOME build on t0+3..t0+5 (PRE t0..t0+2) from Exp11 frame_matches_long; Spearman early vs later of static OPEN_home and NOVCHURN, raw and size-partial"
+ },
+ "thresholds": {
+  "ICC_floor": 0.4,
+  "retest_floor": 0.4,
+  "F5_small_v": 0.03
+ },
+ "code_sha256": {
+  "partners_home.py": "f4622723740ffe027f4bff6e39a5a1dc276426965d5c8bff5469095d9d30d0b8",
+  "score_partA.py": "38e2b77ddecb20431d821fc87a09fe3657265615e302236d404b749ba91198b7",
+  "trait_stability.py": "0ef1b973e8c3230dd7471e86843ac65c7cc596b180486b1934b4e8652a63dc85",
+  "seal_iter5.py": "dc8e7e3b4c81e47372dc3fdf3ad92c00e95e4aa66fe91de1d2bc229323462ac3",
+  "lib_iter5/common_iter5.py": "79c98f57c02c5fa5e33665a99d2f16339c8e31581c9eff6ce6f28f3ec9e11c03",
+  "lib_iter5/ego.py": "0cd1e8ff522af30d6ecc1b52ffd9f78d82d9233295e445898870c065171af135",
+  "lib_iter5/ladder.py": "f9b5a7618048aa2ba83fd0fb1c3c88aa1a1268e16d513970cccb4c4295e0100a",
+  "lib_iter5/partA_stats.py": "b01bf606fef9c5f06b9333c77063829197fa2c0b317660451aeb1861293a8bba"
+ }
+}

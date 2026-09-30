@@ -1,0 +1,114 @@
+{
+ "root": "paths relative to <run>/3_invention_loop",
+ "files": {
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_001.parquet": {
+   "sha256": "f3bdcb6a9299fbd6e07ff906a0fe49b5d2c61980e12e7b5a994a86f5151e43ca",
+   "bytes": 23346946
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_002.parquet": {
+   "sha256": "cd090b5b4ef01c8ab9c2ad8ec94fe0f54dc87d02a59434b35ffa752d99aee05a",
+   "bytes": 23087087
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_003.parquet": {
+   "sha256": "30a2f7e7f1bc82e56ae097c02c9bf4807267e98b326608513adadfc189386a1c",
+   "bytes": 24863332
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_004.parquet": {
+   "sha256": "461d4c8f1cd2a70a80831d2b53d6fda80fdde4f44716c957d5b50b3503eab02a",
+   "bytes": 24983383
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_005.parquet": {
+   "sha256": "8535b84148c64dc4d2e36d3d66f2c6952f136ad77eba1c07ac8809e1e79a216a",
+   "bytes": 24269842
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/frame_matches_long/part_006.parquet": {
+   "sha256": "e1deaa9a2dbaac3ae516ea8d4435eda92fecca12daefa3060969c4f30fb86489",
+   "bytes": 9003476
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/yearly_panel.parquet": {
+   "sha256": "1889c1e43979aa37636e9d1c8e500f5fe27f6a4525fa313e62270abcba048303",
+   "bytes": 6792136
+  },
+  "iter_4/gen_art/gen_art_experiment_11/data/counts_m.parquet": {
+   "sha256": "d1d2cb08604c2f4733792fb2067ccf3d29452f47e8e6bb6a1c50dd34e17b2dd2",
+   "bytes": 2436161
+  },
+  "iter_4/gen_art/gen_art_experiment_11/inputs/topic_ids.json": {
+   "sha256": "f34b9634af895bb36216114d79d980aa6a5f968d71ee3ba5b4797787a76d8223",
+   "bytes": 31612
+  },
+  "iter_4/gen_art/gen_art_experiment_11/inputs/topic_meta.csv": {
+   "sha256": "df38cad6cd268ef3a991d9a1ec816a9549b169a0ae4336e3e7cf965a54772765",
+   "bytes": 1276094
+  },
+  "iter_4/gen_art/gen_art_experiment_11/inputs/backbone/slice0.npz": {
+   "sha256": "a9f39251bcbf1916947ae02ba0d341087bb04e62bd48b2e94f2936c8cda1179a",
+   "bytes": 2386351
+  },
+  "iter_4/gen_art/gen_art_experiment_11/inputs/backbone/slice1.npz": {
+   "sha256": "6c20e691e181d4c556156be19f959381aa2210f1d35fa43b45c67e77c95673b5",
+   "bytes": 2682026
+  },
+  "iter_4/gen_art/gen_art_experiment_11/inputs/backbone/slice2.npz": {
+   "sha256": "a51f9a9c3f77fd33526d41ca61109724452280bca3ebc7f4c830146ba3217426",
+   "bytes": 2896133
+  },
+  "round-2/experiment-5/src/frame_concepts.csv": {
+   "sha256": "b91d4684ca81a54a9ef695d761fdfcdd4af9573d12f384d5ffa25879e51afd38",
+   "bytes": 2290579
+  },
+  "round-2/experiment-5/src/scan/agg_counts.parquet": {
+   "sha256": "7ec82d11257b0b34f2d2eaad9af9c86cc99b5c7cb117858549cf7dcec70416fa",
+   "bytes": 46726250
+  },
+  "round-3/experiment-8/src/data/analysis_table.parquet": {
+   "sha256": "631b4fb9acef82f95fa5226f2c115a845c3ffdab91fb70a38012b094460a2d98",
+   "bytes": 4314599
+  },
+  "round-3/experiment-8/src/lib/rq1stats.py": {
+   "sha256": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+   "bytes": 8080
+  },
+  "round-4/experiment-10/src/data/passC_early.parquet": {
+   "sha256": "3b20d6d3815f44ce38ec4bf53d3ebd3be8515572fa01251e5e51c34d020d46f4",
+   "bytes": 31791546
+  },
+  "round-4/experiment-10/src/data/analysis_cohort.parquet": {
+   "sha256": "d929d76f01a1c9fb4cf271b7ce12a3e319d6799cef1920a7fbb0072d3e889c6f",
+   "bytes": 482680
+  },
+  "round-4/experiment-10/src/data/passC_pre_agg.parquet": {
+   "sha256": "d7844f684e7f0fb965721d062c4caf7dfca439ee5054c47347dd9546da4f38c0",
+   "bytes": 309784
+  },
+  "round-4/experiment-10/src/data/ego_open_exp5.parquet": {
+   "sha256": "24a47e74fc7485236f88e92a19238266b3807b88b148587a5e829f67efe3a9dd",
+   "bytes": 921374
+  },
+  "round-4/experiment-10/src/data/ego_open_cohort.parquet": {
+   "sha256": "dbf9d76eece47ecc97759e34d1c62eba911cae09da394cf95a8bfdca77a286ee",
+   "bytes": 133393
+  },
+  "round-4/experiment-10/src/results/frozen_spec.json": {
+   "sha256": "c3389207ba6e044590d0eca46fd122d78326c04b73271e33e52984bf46d84d3c",
+   "bytes": 15890
+  },
+  "round-4/experiment-10/src/results/s3_decision.json": {
+   "sha256": "e9d145d54a0afe68fc9e44a8e0cd66f18e6e752a596ca53be4d8907d1dbfd463",
+   "bytes": 1205
+  },
+  "round-4/experiment-10/src/logs/sealed_files.log": {
+   "sha256": "169899340f6c3bf48ecdfc52a0cd89e8de4e6b282a36518ab3694c8a62170c2a",
+   "bytes": 173400
+  },
+  "round-4/research-3/src/raw/fetch/cheng_all.txt": {
+   "sha256": "a3ca93af113538b732b4a010ef4a94150febdee28b881b3cee70a7df67e1cc1c",
+   "bytes": 29182
+  },
+  "round-1/experiment-3/src/backbone/slice0.npz": {
+   "sha256": "a9f39251bcbf1916947ae02ba0d341087bb04e62bd48b2e94f2936c8cda1179a",
+   "bytes": 2386351
+  }
+ },
+ "note": "EXP10 data/sealed/parts/sealed_*.parquet (2,040 files) are checked against EXP10 logs/sealed_files.log inside S1 (results/s1_build.json -> V_cohort.sealed_ok)"
+}
