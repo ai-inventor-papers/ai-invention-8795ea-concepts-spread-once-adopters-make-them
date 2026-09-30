@@ -1,0 +1,3159 @@
+{
+ "_about": "Inputs read by eval.py's assembly step (art_a43GbNXWVFaL, iteration-5 evaluation 4), copied verbatim from its results/ folder. evidence_synthesis holds the 18 body x feature psp rows (R0/R2/R3, O2r_m50) and the DL/HKSJ pools; the other keys are the small side files eval.py reads (ledger re-run, corrections applied, per-group table, reference summary, notes, artifact counts, input manifest). CSV files are stored as lists of row dicts with string values, exactly as csv.DictReader returns them.",
+ "evidence_synthesis": {
+  "gates": {
+   "G1": {
+    "open_home_source": "recomputed from ego_open_exp5.parquet components with frozen_spec.open_constants.home (no OPEN_home column exists in ego_open_exp5 / covariates_exp5)",
+    "OPEN_home|O2r_m50|R0": {
+     "recomputed": 0.09900783964721559,
+     "n": 6565,
+     "published": 0.09900783964721566,
+     "published_n": 6565,
+     "abs_diff": 6.938893903907228e-17,
+     "pass_3dp": true
+    },
+    "OPEN_home|O2r_m50|R2": {
+     "recomputed": 0.07638769544359042,
+     "n": 6565,
+     "published": 0.07638769544359043,
+     "published_n": 6565,
+     "abs_diff": 1.3877787807814457e-17,
+     "pass_3dp": true
+    },
+    "NOV_res__home|O2r_m50|R2": {
+     "recomputed": 0.05723191186714124,
+     "n": 5944,
+     "published": 0.05723191186714128,
+     "abs_diff": 4.163336342344337e-17,
+     "pass_3dp": true
+    },
+    "edge_persistence__home|O2r_m50|R2": {
+     "recomputed": -0.08804881286697344,
+     "n": 6812,
+     "published": -0.08804881286697339,
+     "abs_diff": 5.551115123125783e-17,
+     "pass_3dp": true
+    },
+    "pass_R0": true,
+    "pass_R2": true
+   },
+   "G2": {
+    "OPEN_home_stored_vs_recomputed_maxabs": 0.0,
+    "nan_pattern_equal": true,
+    "R2": {
+     "n": 573,
+     "rho": 0.09059049284973036,
+     "ci": [
+      0.013236035063533571,
+      0.1710465954349315
+     ],
+     "se": 0.041061429835550486,
+     "p_one": 0.01199400299850075,
+     "p_two": 0.028608810613794115,
+     "se_z": 0.04150131046975128,
+     "x": "OPEN_home",
+     "y": "O2r_m50",
+     "rung": "R2",
+     "n_boot": 2000,
+     "seed": 20260929
+    },
+    "R2_seed0": {
+     "n": 573,
+     "rho": 0.09059049284973036,
+     "ci": [
+      0.00973819652267073,
+      0.16942556250451543
+     ],
+     "se": 0.0405798838865071,
+     "p_one": 0.014992503748125937,
+     "p_two": 0.02664777682770265,
+     "se_z": 0.04098075448980712,
+     "x": "OPEN_home",
+     "y": "O2r_m50",
+     "rung": "R2",
+     "n_boot": 2000,
+     "seed": 0
+    },
+    "R3": {
+     "n": 573,
+     "rho": 0.080445709669764,
+     "ci": [
+      0.0005254040720848963,
+      0.16173726767650493
+     ],
+     "se": 0.04234173064177449,
+     "p_one": 0.02498750624687656,
+     "p_two": 0.05907505884124994,
+     "se_z": 0.04270950190587904,
+     "x": "OPEN_home",
+     "y": "O2r_m50",
+     "rung": "R3",
+     "n_boot": 2000,
+     "seed": 20260929
+    },
+    "published_R2": 0.0905904928497304,
+    "published_R2_ci": [
+     0.013236035063533528,
+     0.17104659543493156
+    ],
+    "published_R3": 0.08044570966976407,
+    "pass_point_R2": true,
+    "pass_point_R3": true,
+    "pass_ci_e10seed": true,
+    "pass_ci_seed0": true,
+    "pass": true
+   }
+  },
+  "joins_exp5": {
+   "frame": 12499,
+   "after_ego_nonnull": 12499,
+   "after_cov_nonnull": 12499,
+   "type_nonnull": 12499,
+   "O2r_m50_finite": 7203
+  },
+  "n_cohort_rows": 1443,
+  "rows": [
+   {
+    "body": "B1_DEV",
+    "feature": "OPEN_home",
+    "status": "selection",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 4771,
+    "placebo": {
+     "n": 3003,
+     "nperm": 200,
+     "p95_abs_psp": 0.03527289803604305,
+     "mean_psp": -0.00041624381648438944
+    },
+    "R0": {
+     "psp": 0.13945584873939987,
+     "ci": [
+      0.10324092712995059,
+      0.17407891081224827
+     ],
+     "n": 3003,
+     "se_z": 0.018649802261056135,
+     "p_two": 5.205749080252379e-14
+    },
+    "R2": {
+     "psp": 0.1085857289075347,
+     "ci": [
+      0.07285627005441767,
+      0.14365460672440747
+     ],
+     "n": 3003,
+     "se_z": 0.018637179700257522,
+     "p_two": 4.934722586157716e-09
+    },
+    "R3": {
+     "psp": 0.08369209481990598,
+     "ci": [
+      0.048455965548650504,
+      0.12050224968797933
+     ],
+     "n": 3003,
+     "se_z": 0.01901867553611284,
+     "p_two": 1.0297066703945549e-05
+    }
+   },
+   {
+    "body": "B1_DEV",
+    "feature": "NOVCHURN_home",
+    "status": "selection",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 4771,
+    "placebo": {
+     "n": 2741,
+     "nperm": 200,
+     "p95_abs_psp": 0.034657812680690916,
+     "mean_psp": 0.0002755312612186185
+    },
+    "R0": {
+     "psp": 0.1253805964306459,
+     "ci": [
+      0.08796983370734487,
+      0.1615859087657037
+     ],
+     "n": 2741,
+     "se_z": 0.019582920947544772,
+     "p_two": 1.223256401905711e-10
+    },
+    "R2": {
+     "psp": 0.1158298954254299,
+     "ci": [
+      0.0786307150122015,
+      0.15327773335093609
+     ],
+     "n": 2741,
+     "se_z": 0.019648406721246247,
+     "p_two": 3.1861581362440984e-09
+    },
+    "R3": {
+     "psp": 0.09804431659228378,
+     "ci": [
+      0.06074335603407371,
+      0.13733398887250847
+     ],
+     "n": 2741,
+     "se_z": 0.01979748381453648,
+     "p_two": 6.753434531300457e-07
+    }
+   },
+   {
+    "body": "B2_HELDOUT_pooled",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 3372,
+    "placebo": {
+     "n": 1569,
+     "nperm": 200,
+     "p95_abs_psp": 0.0560070248085042,
+     "mean_psp": -0.0027749063310522236
+    },
+    "R0": {
+     "psp": 0.08339940797200394,
+     "ci": [
+      0.034736978815115754,
+      0.1331484523325648
+     ],
+     "n": 1569,
+     "se_z": 0.025044475815418552,
+     "p_two": 0.0008444295450388626
+    },
+    "R2": {
+     "psp": 0.07000693490786902,
+     "ci": [
+      0.02088995014865847,
+      0.11989044894226872
+     ],
+     "n": 1569,
+     "se_z": 0.02537349955767976,
+     "p_two": 0.005717146371475137
+    },
+    "R3": {
+     "psp": 0.06892701724563882,
+     "ci": [
+      0.01821985568803537,
+      0.11861241795591228
+     ],
+     "n": 1569,
+     "se_z": 0.02568387450745914,
+     "p_two": 0.007189622737763223
+    }
+   },
+   {
+    "body": "B2_HELDOUT_pooled",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 3372,
+    "placebo": {
+     "n": 1404,
+     "nperm": 200,
+     "p95_abs_psp": 0.05139682156883573,
+     "mean_psp": -0.00156238782469211
+    },
+    "R0": {
+     "psp": 0.1181659775981763,
+     "ci": [
+      0.0662401541182277,
+      0.1688976858475963
+     ],
+     "n": 1404,
+     "se_z": 0.02671331205806348,
+     "p_two": 8.819920815105182e-06
+    },
+    "R2": {
+     "psp": 0.1129961757210529,
+     "ci": [
+      0.06148408354908191,
+      0.16289660833224515
+     ],
+     "n": 1404,
+     "se_z": 0.026824401217182978,
+     "p_two": 2.3316543387985427e-05
+    },
+    "R3": {
+     "psp": 0.11162400921855509,
+     "ci": [
+      0.05959995430379018,
+      0.16332275251946632
+     ],
+     "n": 1404,
+     "se_z": 0.02665198931340702,
+     "p_two": 2.6023887493986824e-05
+    }
+   },
+   {
+    "body": "B3_EXP5_COHORT_2010_14",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2010-14",
+    "n_body_rows": 4356,
+    "placebo": {
+     "n": 1993,
+     "nperm": 200,
+     "p95_abs_psp": 0.037241609589344034,
+     "mean_psp": -0.0004227699908768382
+    },
+    "R0": {
+     "psp": 0.09197015677161516,
+     "ci": [
+      0.04870469386817972,
+      0.13620209303831848
+     ],
+     "n": 1993,
+     "se_z": 0.022751794168528156,
+     "p_two": 5.039639813532332e-05
+    },
+    "R2": {
+     "psp": 0.0738008954516124,
+     "ci": [
+      0.029491025717576246,
+      0.11654301306720145
+     ],
+     "n": 1993,
+     "se_z": 0.022824536491115256,
+     "p_two": 0.0011982712664655886
+    },
+    "R3": {
+     "psp": 0.053214856129999016,
+     "ci": [
+      0.008105357598100466,
+      0.09670205337703316
+     ],
+     "n": 1993,
+     "se_z": 0.02288257512078012,
+     "p_two": 0.01992478096270437
+    }
+   },
+   {
+    "body": "B3_EXP5_COHORT_2010_14",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2010-14",
+    "n_body_rows": 4356,
+    "placebo": {
+     "n": 1799,
+     "nperm": 200,
+     "p95_abs_psp": 0.048302448780816375,
+     "mean_psp": 0.0004721884073555341
+    },
+    "R0": {
+     "psp": 0.1209379231463441,
+     "ci": [
+      0.07239911245402804,
+      0.16660422666593924
+     ],
+     "n": 1799,
+     "se_z": 0.02491679415811353,
+     "p_two": 1.0741480272544469e-06
+    },
+    "R2": {
+     "psp": 0.1129190786416205,
+     "ci": [
+      0.06496565063934492,
+      0.15803153320260455
+     ],
+     "n": 1799,
+     "se_z": 0.024438125779619096,
+     "p_two": 3.4773277828119505e-06
+    },
+    "R3": {
+     "psp": 0.09681836419232542,
+     "ci": [
+      0.04963331020688424,
+      0.14443907579519355
+     ],
+     "n": 1799,
+     "se_z": 0.024787052011609936,
+     "p_two": 8.918329128467743e-05
+    }
+   },
+   {
+    "body": "B4_COHORT_2015_17",
+    "feature": "OPEN_home",
+    "status": "confirmatory",
+    "outcome": "O2r_m50",
+    "onsets": "2015-17",
+    "n_body_rows": 1443,
+    "placebo": {
+     "n": 573,
+     "nperm": 200,
+     "p95_abs_psp": 0.07736960085340348,
+     "mean_psp": -0.0046430381286700125
+    },
+    "R0": {
+     "psp": 0.12258114548096312,
+     "ci": [
+      0.04136619666988477,
+      0.20503524532232123
+     ],
+     "n": 573,
+     "se_z": 0.04332864018436414,
+     "p_two": 0.004463482229769635
+    },
+    "R2": {
+     "psp": 0.09059049284973036,
+     "ci": [
+      0.013236035063533571,
+      0.1710465954349315
+     ],
+     "n": 573,
+     "se_z": 0.04150131046975128,
+     "p_two": 0.028608810613794115
+    },
+    "R3": {
+     "psp": 0.080445709669764,
+     "ci": [
+      0.0005254040720848963,
+      0.16173726767650493
+     ],
+     "n": 573,
+     "se_z": 0.04270950190587904,
+     "p_two": 0.05907505884124994
+    }
+   },
+   {
+    "body": "B4_COHORT_2015_17",
+    "feature": "NOVCHURN_home",
+    "status": "selection (index chosen here)",
+    "outcome": "O2r_m50",
+    "onsets": "2015-17",
+    "n_body_rows": 1443,
+    "placebo": {
+     "n": 506,
+     "nperm": 200,
+     "p95_abs_psp": 0.08661989265597646,
+     "mean_psp": 0.0029395576933598268
+    },
+    "R0": {
+     "psp": 0.17071883228940363,
+     "ci": [
+      0.0788725458347446,
+      0.25576837721703244
+     ],
+     "n": 506,
+     "se_z": 0.047029482958035836,
+     "p_two": 0.0002464374620589048
+    },
+    "R2": {
+     "psp": 0.1611906180277367,
+     "ci": [
+      0.07093376642010887,
+      0.24585961927575953
+     ],
+     "n": 506,
+     "se_z": 0.04652453072510759,
+     "p_two": 0.00047384803249697085
+    },
+    "R3": {
+     "psp": 0.1439838738205213,
+     "ci": [
+      0.05856356118549734,
+      0.22560608639327057
+     ],
+     "n": 506,
+     "se_z": 0.04505732708722311,
+     "p_two": 0.001291182689977173
+    }
+   },
+   {
+    "body": "B2_PHYS",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 742,
+    "placebo": {
+     "n": 385,
+     "nperm": 200,
+     "p95_abs_psp": 0.09694830257532291,
+     "mean_psp": -0.001839495772983834
+    },
+    "R0": {
+     "psp": 0.08292084280931923,
+     "ci": [
+      -0.014233745054362569,
+      0.1789765942443685
+     ],
+     "n": 385,
+     "se_z": 0.05096075325786902,
+     "p_two": 0.10291229505233845
+    },
+    "R2": {
+     "psp": 0.02450913595713996,
+     "ci": [
+      -0.07585393993426756,
+      0.12819555195586702
+     ],
+     "n": 385,
+     "se_z": 0.05336757698432538,
+     "p_two": 0.6459875730253632
+    },
+    "R3": {
+     "psp": 0.04062287287847143,
+     "ci": [
+      -0.064718926845316,
+      0.144454050091025
+     ],
+     "n": 385,
+     "se_z": 0.05450366302362965,
+     "p_two": 0.45582805054543185
+    }
+   },
+   {
+    "body": "B2_PHYS",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 742,
+    "placebo": {
+     "n": 348,
+     "nperm": 200,
+     "p95_abs_psp": 0.09617321468967213,
+     "mean_psp": 0.004089156773720991
+    },
+    "R0": {
+     "psp": 0.09861161221600923,
+     "ci": [
+      -0.006221757990857919,
+      0.2007776579677862
+     ],
+     "n": 348,
+     "se_z": 0.05435604815890072,
+     "p_two": 0.06874465073288583
+    },
+    "R2": {
+     "psp": 0.06136030101497143,
+     "ci": [
+      -0.04635785071034276,
+      0.17919224067880096
+     ],
+     "n": 348,
+     "se_z": 0.05766997709568178,
+     "p_two": 0.28672718861860647
+    },
+    "R3": {
+     "psp": 0.07811971816508638,
+     "ci": [
+      -0.030480206373823975,
+      0.19102084392264762
+     ],
+     "n": 348,
+     "se_z": 0.05710436817602106,
+     "p_two": 0.17043431764228567
+    }
+   },
+   {
+    "body": "B2_LIFEENV",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 1113,
+    "placebo": {
+     "n": 552,
+     "nperm": 200,
+     "p95_abs_psp": 0.08366416039789482,
+     "mean_psp": 0.0015814137609636116
+    },
+    "R0": {
+     "psp": 0.05783535498205769,
+     "ci": [
+      -0.02514591247858568,
+      0.1400451417217592
+     ],
+     "n": 552,
+     "se_z": 0.04283332800573128,
+     "p_two": 0.1764551649876711
+    },
+    "R2": {
+     "psp": 0.0668497667304333,
+     "ci": [
+      -0.01768568759766467,
+      0.1478234069945016
+     ],
+     "n": 552,
+     "se_z": 0.04248254275325152,
+     "p_two": 0.11504138048568484
+    },
+    "R3": {
+     "psp": 0.0641713311380149,
+     "ci": [
+      -0.021776440514073556,
+      0.146682577384194
+     ],
+     "n": 552,
+     "se_z": 0.04289681674589318,
+     "p_two": 0.13413202144226932
+    }
+   },
+   {
+    "body": "B2_LIFEENV",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 1113,
+    "placebo": {
+     "n": 500,
+     "nperm": 200,
+     "p95_abs_psp": 0.09217618206321011,
+     "mean_psp": -0.002417951691055591
+    },
+    "R0": {
+     "psp": 0.08163622990533315,
+     "ci": [
+      -0.005287058117534444,
+      0.168320393119772
+     ],
+     "n": 500,
+     "se_z": 0.045693070102791424,
+     "p_two": 0.07335644777142815
+    },
+    "R2": {
+     "psp": 0.08421482937466415,
+     "ci": [
+      -0.007951327652891346,
+      0.17496865057056396
+     ],
+     "n": 500,
+     "se_z": 0.04656493374389873,
+     "p_two": 0.06985652212267977
+    },
+    "R3": {
+     "psp": 0.07893419873998397,
+     "ci": [
+      -0.011253135916451915,
+      0.17224359904389716
+     ],
+     "n": 500,
+     "se_z": 0.04737856389367462,
+     "p_two": 0.09501733600531473
+    }
+   },
+   {
+    "body": "B2_SOC",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 1352,
+    "placebo": {
+     "n": 546,
+     "nperm": 200,
+     "p95_abs_psp": 0.08683693496278246,
+     "mean_psp": -0.0042306430848353576
+    },
+    "R0": {
+     "psp": 0.03794000350358625,
+     "ci": [
+      -0.047218567649726914,
+      0.12079361260328324
+     ],
+     "n": 546,
+     "se_z": 0.042546599787884866,
+     "p_two": 0.3723090814325437
+    },
+    "R2": {
+     "psp": 0.04433074258857871,
+     "ci": [
+      -0.04113117287001374,
+      0.12400005580620052
+     ],
+     "n": 546,
+     "se_z": 0.04316316898701326,
+     "p_two": 0.30407976218553134
+    },
+    "R3": {
+     "psp": 0.0371000754462777,
+     "ci": [
+      -0.05202771043313212,
+      0.12051149274707137
+     ],
+     "n": 546,
+     "se_z": 0.044114684911566455,
+     "p_two": 0.40013638568008636
+    }
+   },
+   {
+    "body": "B2_SOC",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 1352,
+    "placebo": {
+     "n": 489,
+     "nperm": 200,
+     "p95_abs_psp": 0.09575354447158516,
+     "mean_psp": 0.0008982115798141118
+    },
+    "R0": {
+     "psp": 0.10158617055991705,
+     "ci": [
+      0.0068226438293231715,
+      0.18791538546295272
+     ],
+     "n": 489,
+     "se_z": 0.046402298526239165,
+     "p_two": 0.028032840838534082
+    },
+    "R2": {
+     "psp": 0.12429335399704086,
+     "ci": [
+      0.029094019259677383,
+      0.20968918917013377
+     ],
+     "n": 489,
+     "se_z": 0.04649938565016065,
+     "p_two": 0.007211753491344861
+    },
+    "R3": {
+     "psp": 0.11429153476174829,
+     "ci": [
+      0.020017776313041656,
+      0.19921797451453416
+     ],
+     "n": 489,
+     "se_z": 0.04596294444349932,
+     "p_two": 0.012506736459069566
+    }
+   },
+   {
+    "body": "B2_MATHDEC",
+    "feature": "OPEN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 165,
+    "placebo": {
+     "n": 86,
+     "nperm": 200,
+     "p95_abs_psp": 0.2321147103867891,
+     "mean_psp": -0.008694523990406195
+    },
+    "R0": {
+     "psp": 0.258763901617061,
+     "ci": [
+      0.008446016636763386,
+      0.46492564899335115
+     ],
+     "n": 86,
+     "se_z": 0.12579124550580328,
+     "p_two": 0.03529644697403237
+    },
+    "R2": {
+     "psp": 0.18744657923069769,
+     "ci": [
+      -0.07686818745790715,
+      0.40922074669943864
+     ],
+     "n": 86,
+     "se_z": 0.12871701635367447,
+     "p_two": 0.14056410484148227
+    },
+    "R3": {
+     "psp": 0.1678977316020746,
+     "ci": [
+      -0.09885808875156842,
+      0.40392061020666403
+     ],
+     "n": 86,
+     "se_z": 0.1343296086189296,
+     "p_two": 0.2070059606056085
+    }
+   },
+   {
+    "body": "B2_MATHDEC",
+    "feature": "NOVCHURN_home",
+    "status": "already-unsealed",
+    "outcome": "O2r_m50",
+    "onsets": "2003-09",
+    "n_body_rows": 165,
+    "placebo": {
+     "n": 67,
+     "nperm": 200,
+     "p95_abs_psp": 0.2831646695949907,
+     "mean_psp": 0.0017488957246950764
+    },
+    "R0": {
+     "psp": 0.203569543357744,
+     "ci": [
+      -0.09549124328937714,
+      0.42870241221458216
+     ],
+     "n": 67,
+     "se_z": 0.14317219506026,
+     "p_two": 0.1493037382076515
+    },
+    "R2": {
+     "psp": 0.0928350992955549,
+     "ci": [
+      -0.2089866691827066,
+      0.4083501586595853
+     ],
+     "n": 67,
+     "se_z": 0.1692566392137487,
+     "p_two": 0.5822706220398918
+    },
+    "R3": {
+     "psp": 0.07847667850787003,
+     "ci": [
+      -0.23598199499428849,
+      0.411215380575612
+     ],
+     "n": 67,
+     "se_z": 0.1696280234986791,
+     "p_two": 0.6429393113049597
+    }
+   },
+   {
+    "body": "B5_FRAME_N",
+    "feature": "OPEN_home",
+    "status": "pending iteration-5 artifact",
+    "R2": {
+     "psp": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n": null
+    }
+   },
+   {
+    "body": "B5_FRAME_N",
+    "feature": "NOVCHURN_home",
+    "status": "pending iteration-5 artifact",
+    "R2": {
+     "psp": null,
+     "ci": [
+      null,
+      null
+     ],
+     "n": null
+    }
+   }
+  ],
+  "pools": {
+   "OPEN_home|R0": {
+    "nonselection": {
+     "k": 6,
+     "est": 0.08583399939729182,
+     "dl_ci": [
+      0.05503923406476594,
+      0.11646562946559212
+     ],
+     "hksj_ci": [
+      0.047326911629728026,
+      0.12408634572616573
+     ],
+     "Q": 4.540724097769651,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.08604572943235922,
+     "se_z_dl": 0.015791233179098255,
+     "se_z_hksj": 0.015048513474510063,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.1010719917775334,
+     "dl_ci": [
+      0.06732760979886268,
+      0.1345854118152817
+     ],
+     "hksj_ci": [
+      0.05971511777956164,
+      0.14208247779551994
+     ],
+     "Q": 9.482616733203795,
+     "I2": 0.36726325983515296,
+     "tau2_z": 0.0006976465058591718,
+     "z": 0.10141828539432943,
+     "se_z_dl": 0.01734115603488508,
+     "se_z_hksj": 0.017014113548394962,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "6/6",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.08577789607015605,
+     "B2_LIFEENV": 0.0902308580452677,
+     "B2_SOC": 0.09345473373805634,
+     "B2_MATHDEC": 0.08299255387210333,
+     "B3_EXP5_COHORT_2010_14": 0.0808508545236126,
+     "B4_COHORT_2015_17": 0.08018217504239084
+    },
+    "selection_body_estimate": 0.13945584873939987,
+    "shrinkage_ratio_selection_over_nonselection": 1.62471572708518
+   },
+   "NOVCHURN_home|R0": {
+    "nonselection": {
+     "k": 5,
+     "est": 0.11032876291023645,
+     "dl_ci": [
+      0.07450178644115706,
+      0.14587129579917163
+     ],
+     "hksj_ci": [
+      0.08351570714147051,
+      0.13698218048035501
+     ],
+     "Q": 1.1183345457405933,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.11077971765040079,
+     "se_z_dl": 0.01843858632855247,
+     "se_z_hksj": 0.009749525861684396,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.1214529020518517,
+     "dl_ci": [
+      0.09645342996199462,
+      0.1462992354435819
+     ],
+     "hksj_ci": [
+      0.10060341602616354,
+      0.14219576386615548
+     ],
+     "Q": 2.680048001074125,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.12205541980677342,
+     "se_z_dl": 0.012908774728062773,
+     "se_z_hksj": 0.008627414878121225,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "5/5",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.1118501875354669,
+     "B2_LIFEENV": 0.11588999681093286,
+     "B2_SOC": 0.11196618009691968,
+     "B2_MATHDEC": 0.10873452561032863,
+     "B3_EXP5_COHORT_2010_14": 0.09745310033571747
+    },
+    "selection_body_estimate": 0.1253805964306459,
+    "shrinkage_ratio_selection_over_nonselection": 1.1364271031721402
+   },
+   "OPEN_home|R2": {
+    "nonselection": {
+     "k": 6,
+     "est": 0.06875561049536172,
+     "dl_ci": [
+      0.03786528723068281,
+      0.09951465593638788
+     ],
+     "hksj_ci": [
+      0.04173001731164287,
+      0.09568066621946635
+     ],
+     "Q": 2.2258259425604052,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.06886426242043972,
+     "se_z_dl": 0.01580656264053706,
+     "se_z_hksj": 0.010546249330476468,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.08545345403925761,
+     "dl_ci": [
+      0.061955473079006805,
+      0.10885675673341035
+     ],
+     "hksj_ci": [
+      0.05886900391591336,
+      0.11191678446447499
+     ],
+     "Q": 4.925336215229614,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.08566237220258012,
+     "se_z_dl": 0.012054818583605622,
+     "se_z_hksj": 0.01092202068400185,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "6/6",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.07299889024199627,
+     "B2_LIFEENV": 0.0690617987657491,
+     "B2_SOC": 0.07253181119293305,
+     "B2_MATHDEC": 0.0669141759142377,
+     "B3_EXP5_COHORT_2010_14": 0.06410292939465584,
+     "B4_COHORT_2015_17": 0.06504366231946122
+    },
+    "selection_body_estimate": 0.1085857289075347,
+    "shrinkage_ratio_selection_over_nonselection": 1.5792999018583356
+   },
+   "NOVCHURN_home|R2": {
+    "nonselection": {
+     "k": 5,
+     "est": 0.10471164561555044,
+     "dl_ci": [
+      0.06880131284643445,
+      0.1403509828334166
+     ],
+     "hksj_ci": [
+      0.07838604103705253,
+      0.13089131647554017
+     ],
+     "Q": 1.073038611146769,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.10509688782434645,
+     "se_z_dl": 0.018462605015996784,
+     "se_z_hksj": 0.00956248259479521,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.11390951259979494,
+     "dl_ci": [
+      0.0888380739587944,
+      0.1388367016582295
+     ],
+     "hksj_ci": [
+      0.0940807897552908,
+      0.13364789788212128
+     ],
+     "Q": 2.4105294978008134,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.11440605704032672,
+     "se_z_dl": 0.01292508200633188,
+     "se_z_hksj": 0.00819245203267609,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "5/5",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.1096400582587583,
+     "B2_LIFEENV": 0.10852560164085465,
+     "B2_SOC": 0.10103734849438539,
+     "B2_MATHDEC": 0.10485448622058775,
+     "B3_EXP5_COHORT_2010_14": 0.09377648336276627
+    },
+    "selection_body_estimate": 0.1158298954254299,
+    "shrinkage_ratio_selection_over_nonselection": 1.1061796875077314
+   },
+   "OPEN_home|R3": {
+    "nonselection": {
+     "k": 6,
+     "est": 0.057008166907234495,
+     "dl_ci": [
+      0.025708814935098304,
+      0.08819585842938213
+     ],
+     "hksj_ci": [
+      0.035641362679677074,
+      0.0783228756874113
+     ],
+     "Q": 1.355715531354052,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.05707004515022388,
+     "se_z_dl": 0.01599773670717671,
+     "se_z_hksj": 0.008330246032043007,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.06807714750447696,
+     "dl_ci": [
+      0.044158470938205324,
+      0.09191782230193704
+     ],
+     "hksj_ci": [
+      0.04872927627615168,
+      0.08737394856686409
+     ],
+     "Q": 2.520184884662082,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.0681826087176392,
+     "se_z_dl": 0.01224255182570563,
+     "se_z_hksj": 0.007934371431141427,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "6/6",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.058551428608302675,
+     "B2_LIFEENV": 0.05585039383364519,
+     "B2_SOC": 0.060019103480818084,
+     "B2_MATHDEC": 0.05539568263601752,
+     "B3_EXP5_COHORT_2010_14": 0.06063333322551141,
+     "B4_COHORT_2015_17": 0.053176473206295205
+    },
+    "selection_body_estimate": 0.08369209481990598,
+    "shrinkage_ratio_selection_over_nonselection": 1.468072021261312
+   },
+   "NOVCHURN_home|R3": {
+    "nonselection": {
+     "k": 5,
+     "est": 0.09473025852885376,
+     "dl_ci": [
+      0.058475706430829805,
+      0.13073525982679854
+     ],
+     "hksj_ci": [
+      0.07850582656329345,
+      0.11090452239871297
+     ],
+     "Q": 0.40045994170648613,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.09501515824852756,
+     "se_z_dl": 0.018608502024616735,
+     "se_z_hksj": 0.00588790722528593,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "nonselection_bodies": [
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14"
+    ],
+    "all_bodies_includes_selection_data": {
+     "k": 7,
+     "est": 0.10026588247378157,
+     "dl_ci": [
+      0.07501430397116789,
+      0.1253889522625523
+     ],
+     "hksj_ci": [
+      0.08465391770977887,
+      0.11582863023283105
+     ],
+     "Q": 1.4739929430541496,
+     "I2": 0.0,
+     "tau2_z": 0.0,
+     "z": 0.10060392310594733,
+     "se_z_dl": 0.01298389626510483,
+     "se_z_hksj": 0.0064354232319476685,
+     "I2_note": "imprecise at small k (k <= 6)"
+    },
+    "all_bodies": [
+     "B1_DEV",
+     "B2_PHYS",
+     "B2_LIFEENV",
+     "B2_SOC",
+     "B2_MATHDEC",
+     "B3_EXP5_COHORT_2010_14",
+     "B4_COHORT_2015_17"
+    ],
+    "sign_agreement_nonselection": "5/5",
+    "sign_agreement_all": "7/7",
+    "leave_one_body_out": {
+     "B2_PHYS": 0.09670037521449426,
+     "B2_LIFEENV": 0.09760654911879678,
+     "B2_SOC": 0.09088630225608806,
+     "B2_MATHDEC": 0.09492795151773394,
+     "B3_EXP5_COHORT_2010_14": 0.09203225974636546
+    },
+    "selection_body_estimate": 0.09804431659228378,
+    "shrinkage_ratio_selection_over_nonselection": 1.0349841551674916
+   }
+  },
+  "design": {
+   "estimator": "Exp10 ladder.psp_boot2 (vendor/ladder.py, vendor/rq1stats.py verbatim)",
+   "n_boot": 2000,
+   "seed": 20260929,
+   "rungs": [
+    "R0",
+    "R2",
+    "R3"
+   ],
+   "primary_rung": "R2",
+   "outcome": "O2r_m50 (EXP5 bodies: EXP8 outcomes.parquet; cohort: Exp10 analysis_cohort TAG)",
+   "NOVCHURN_home": "mean(z_NOV_res, -z_edge_persistence), HOME build, frozen EXP5 constants; NaN unless both finite and n_home_early >= 10",
+   "pooling": "DL on Fisher z with bootstrap se_z; HKSJ interval with t_{k-1}; back-transformed",
+   "headline_pool": "non-selection bodies only: B2 groups + B3 (+ B4 for OPEN_home)",
+   "placebo": "within-body outcome permutation at R2, 200 draws, 95th pct of |psp|",
+   "deviation_seed": "bootstrap seed = Exp10's 20260929 (not 0) so CIs are comparable to the record; the G2 check is also run with seed 0 and reported"
+  }
+ },
+ "ledger_rerun": {
+  "a_v3_reverify": {
+   "n_rows": 1290,
+   "ledger_status_counts": {
+    "MATCH": 753,
+    "ROUNDING_ONLY": 537
+   },
+   "recomputed_status_counts": {
+    "MATCH": 753,
+    "ROUNDING_ONLY": 537
+   },
+   "n_disagreements": 0,
+   "n_mismatch_recomputed": 0,
+   "n_not_found_recomputed": 0,
+   "n_carry_rows": 519,
+   "n_value_rows": 771,
+   "n_orphan_numeric_tokens": 9,
+   "orphans": [
+    {
+     "file": "00_index.md",
+     "line": 3,
+     "token": "04",
+     "context": "Each file replaces or adds the report sections listed. Inserts carry the tag `[Correction, iteration 4, from art_...]` (or `[Correction, ite"
+    },
+    {
+     "file": "00_index.md",
+     "line": 10,
+     "token": "11",
+     "context": "| `04_eval2_text_corrections.md` | the 14 blocks of Eval2 (10.3, 11.3/16.3, 10.6/16.5, 10.7, 5.4, 13.1, 8a, 4.4, 11.2, 16.1, 10.5, 11.5, 9/1"
+    },
+    {
+     "file": "01_exp8_outcomes_relabel.md",
+     "line": 5,
+     "token": "87",
+     "context": "The draft's Section 19.5 is headed 'Transience' but reports the **O4** results (field- and year-normalised citation growth; REL_home and aut"
+    },
+    {
+     "file": "01_exp8_outcomes_relabel.md",
+     "line": 70,
+     "token": "8",
+     "context": "[Correction, iteration 4, from art_dFQ6jbgNsR6Q] All 8 outcomes; Spearman(pred, y) for continuous outcomes, AUC for binary (O1c, O1b, O3, O5"
+    },
+    {
+     "file": "05_record_tables_map.md",
+     "line": 7,
+     "token": "11",
+     "context": "| `record_tables/definitions_diff.csv` | 12 | 9 / 11 (frame comparison Exp5 vs Exp6) |"
+    },
+    {
+     "file": "05_record_tables_map.md",
+     "line": 9,
+     "token": "11",
+     "context": "| `record_tables/frame_crosstab_split_group.csv` | 14 | 9 / 11 (frame comparison) |"
+    },
+    {
+     "file": "05_record_tables_map.md",
+     "line": 10,
+     "token": "11",
+     "context": "| `record_tables/frame_disagreement_causes.csv` | 713 | 9 / 11 (frame comparison) |"
+    },
+    {
+     "file": "05_record_tables_map.md",
+     "line": 11,
+     "token": "11",
+     "context": "| `record_tables/frame_overlap_by_group.csv` | 6 | 9 / 11 (frame comparison) |"
+    },
+    {
+     "file": "05_record_tables_map.md",
+     "line": 18,
+     "token": "13",
+     "context": "| `record_tables/o5_concept_panel.csv` | 12,499 | 20.2 / 13 (O5 panel) |"
+    }
+   ]
+  },
+  "b_v4": {
+   "n_rows": 1769,
+   "ledger_status_counts": {
+    "ROUNDING_ONLY": 1197,
+    "MATCH": 572
+   },
+   "recomputed_status_counts": {
+    "ROUNDING_ONLY": 1197,
+    "MATCH": 572
+   },
+   "n_disagreements": 0,
+   "n_mismatch_recomputed": 0,
+   "n_not_found_recomputed": 0,
+   "n_carry_rows": 213,
+   "n_value_rows": 1556,
+   "n_orphan_numeric_tokens": 0,
+   "orphans": []
+  },
+  "c_text_presence": {
+   "v3": {
+    "counts": {
+     "TEXT_PRESENT": 1244,
+     "TEXT_PRESENT_ELSEWHERE": 43,
+     "TEXT_ABSENT": 3
+    },
+    "n_whole_document_scope": 117
+   },
+   "v4": {
+    "counts": {
+     "TEXT_PRESENT": 1769
+    },
+    "n_whole_document_scope": 0
+   },
+   "absent_rows_file": "results/text_absent_rows.csv"
+  },
+  "d_stale": {
+   "hits": {
+    "footprint control rung": [],
+    "GPU computing and deep learning are canonical cases": [],
+    "lone I2 = 0.43 without model label": [],
+    "old O3 learned row": []
+   },
+   "invented_26_4_names": [
+    "Bayesian optimization",
+    "Brain-computer interface",
+    "Deep learning",
+    "GPU computing",
+    "Metamaterial",
+    "Reservoir computing",
+    "Social network analysis",
+    "Spintronics",
+    "Synthetic biology",
+    "Systems biology",
+    "Tissue engineering"
+   ],
+   "invented_name_hits": {
+    "Bayesian optimization": [],
+    "Brain-computer interface": [],
+    "Deep learning": [
+     {
+      "line": 2050,
+      "text": "| Deep learning | DIFFUSING | 2012 | 0.574 | 147 | +1.076 | 1 | 0 | +4.000 | +1.043 | -0.129 |",
+      "legit_atlas_row": true,
+      "correction_note_mention": false
+     }
+    ],
+    "GPU computing": [
+     {
+      "line": 2004,
+      "text": "[Correction, iteration 5, from art_uw4OeagJP3rv] The previous 26.4 table contained 5 rows that no artifact produced, and a sentence on GPU computing and deep le",
+      "legit_atlas_row": false,
+      "correction_note_mention": true
+     }
+    ],
+    "Metamaterial": [],
+    "Reservoir computing": [],
+    "Social network analysis": [],
+    "Spintronics": [],
+    "Synthetic biology": [],
+    "Systems biology": [],
+    "Tissue engineering": []
+   },
+   "n_stale_hits": 0,
+   "n_correction_note_mentions": 1,
+   "rule": "invented-name hits that are rows of the 26.5 AI atlas table (real atlas concepts) are legitimate and not counted; a mention inside the mandated correction note that announces the deletion ('...contained 5 rows that no artifact produced...') is counted separately as n_correction_note_mentions"
+  },
+  "e_verbatim": {
+   "section23_byte_identical": true,
+   "PR1_verbatim": true,
+   "PR1b_verbatim": true,
+   "PR2_verbatim": true,
+   "PR3_verbatim": true,
+   "Exp11_HM1_HP1_lines_24_32_verbatim": true,
+   "Exp10_leads_block_lines_48_53_verbatim": true
+  }
+ },
+ "corrections_applied": [
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New 19.4 O1c (sustained uptake)",
+   "target_section": "^### 19\\.4 ",
+   "action": "replace-section",
+   "status": "ALREADY_PRESENT",
+   "reason": "first sentence already in iter-5 report: 'Only n_authors_early is confirmed for O1c: pooled '",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New 19.5 O4 (field- and year-normalised citation growth): 2 of 10 confirmed",
+   "target_section": "^### 19\\.5 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1043",
+   "line_in_corrected_final": "1249"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New 19.5b O3 (transience): 1 of 10 confirmed",
+   "target_section": "^### 19\\.5b ",
+   "action": "replace-section",
+   "status": "ALREADY_PRESENT",
+   "reason": "first sentence already in iter-5 report: 'For transience (O3, binary; groups with an estimab'",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New 19.6 External recognition (O5, O5_WW): 0 and 0 of 10 confirmed",
+   "target_section": "^### 19\\.6 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1075",
+   "line_in_corrected_final": "1288"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New 19.7 Learned models vs B5 vs B5 + best single (held-out groups pooled)",
+   "target_section": "^### 19\\.7 ",
+   "action": "replace-section",
+   "status": "ALREADY_PRESENT",
+   "reason": "first sentence already in iter-5 report: 'All 8 outcomes; Spearman(pred, y) for continuous o'",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "O3 as a positive held-out result",
+   "target_section": "^### 19\\.5b ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1075",
+   "line_in_corrected_final": "1075"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "New dead end 22.6",
+   "target_section": "^## 22\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1233",
+   "line_in_corrected_final": "1233"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "New 19.8",
+   "target_section": "^### 19\\.8 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1101",
+   "line_in_corrected_final": "1320"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "Correction to dead end 7.4 (Section 7, item 4)",
+   "target_section": "^## 7\\. ",
+   "action": "append-to-section",
+   "status": "ALREADY_PRESENT",
+   "reason": "first sentence already in iter-5 report: '4. **Raw cooccurrence growth indicators.** Degree '",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "Correction to Section 4.3",
+   "target_section": "^### 4\\.3 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "169",
+   "line_in_corrected_final": "169"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "New dead end 22.7",
+   "target_section": "^## 22\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1242",
+   "line_in_corrected_final": "1242"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "Held-out table: iteration-1 candidates (O2r_m50)",
+   "target_section": "^### 19\\.8 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1120",
+   "line_in_corrected_final": "1120"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "18.5 Volume-matched contrast (retained R vs entered-not-retained N, same current x cumulative volume cell)",
+   "target_section": "^### 18\\.5 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "913",
+   "line_in_corrected_final": "1008"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "18.4 Dose by persistence age (held-out pooled 4)",
+   "target_section": "^### 18\\.4 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "903",
+   "line_in_corrected_final": "988"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "18.9 Abandonment penalty d_lost: A1 vs R4 and variants (held-out pooled 4)",
+   "target_section": "^### 18\\.9 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "983",
+   "line_in_corrected_final": "1094"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "18.3 d0_ret_rel with three resampling units (held-out pooled 4, R3)",
+   "target_section": "^### 18\\.3 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "890",
+   "line_in_corrected_final": "941"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "18.6 Held-out sensitivities of d0 (R3)",
+   "target_section": "^### 18\\.6 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "952",
+   "line_in_corrected_final": "1030"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "New subsection 18.6a Proximity dependence",
+   "target_section": "^### 18\\.6 ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "970",
+   "line_in_corrected_final": "1061"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "Step-3 comparison: Exp7 D_rca_pers vs Research 2 D_rca_persist_k",
+   "target_section": "^### 18\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "836",
+   "line_in_corrected_final": "836"
+  },
+  {
+   "source_file": "03_exp7_tables.md",
+   "block_id": "Nearest-neighbour paragraph (draft for Section 18.1 / Related work)",
+   "target_section": "^### 18\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "851",
+   "line_in_corrected_final": "851"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "10.3 H1 criteria (blocking)",
+   "target_section": "^### 10\\.3 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "432",
+   "line_in_corrected_final": "430"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "11.3 / 16.3 Ordering -> MIXED (blocking)",
+   "target_section": "^### 11\\.3 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "570",
+   "line_in_corrected_final": "599"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "10.6 / 16.5 H3 (blocking)",
+   "target_section": "^### 10\\.6 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "472",
+   "line_in_corrected_final": "484"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "10.7 Power attribution and MDE wording (blocking)",
+   "target_section": "^### 10\\.7 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "481",
+   "line_in_corrected_final": "502"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "5.4 The 'B5 + all_four' row (blocking)",
+   "target_section": "^### 5\\.4 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "244",
+   "line_in_corrected_final": "231"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "13.1 Dataset 2 coverage counts (blocking)",
+   "target_section": "^### 13\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "701",
+   "line_in_corrected_final": "718"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "8a Coverage table, iteration-2 column (blocking)",
+   "target_section": "^## 8a\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "365",
+   "line_in_corrected_final": "352"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "4.4 Remaining partial associations (blocking)",
+   "target_section": "^### 4\\.4 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "186",
+   "line_in_corrected_final": "172"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "11.2 / hypothesis LR, d and strata clashes",
+   "target_section": "^### 11\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "584",
+   "line_in_corrected_final": "542"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "16.1 'positive in all three evaluable groups'",
+   "target_section": "^## 16\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "796",
+   "line_in_corrected_final": "796"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "10.5 Relatedness pair is held-out only",
+   "target_section": "^### 10\\.5 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "474",
+   "line_in_corrected_final": "475"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "11.5 Trajectory robustness",
+   "target_section": "^### 11\\.5 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "634",
+   "line_in_corrected_final": "621"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "New: frame comparison (Exp5 vs Exp6) for Section 9/11",
+   "target_section": "^## 9\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "401",
+   "line_in_corrected_final": "401"
+  },
+  {
+   "source_file": "04_eval2_text_corrections.md",
+   "block_id": "New: O5 external recognition status (13 / 16 Open)",
+   "target_section": "^### 13\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "744",
+   "line_in_corrected_final": "744"
+  },
+  {
+   "source_file": "05_record_tables_map.md",
+   "block_id": "(whole file) 05_record_tables_map.md",
+   "target_section": "^### 20\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1315",
+   "line_in_corrected_final": "1315"
+  },
+  {
+   "source_file": "06_ledger_open_rows.md",
+   "block_id": "(whole file) 06_ledger_open_rows.md",
+   "target_section": "^### 20\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1345",
+   "line_in_corrected_final": "1345"
+  },
+  {
+   "source_file": "07_failed_artifacts.md",
+   "block_id": "New Section 22b (or addition to 5a): Experiment 9 did not run",
+   "target_section": "^## 22a\\. ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "1497",
+   "line_in_corrected_final": "1666"
+  },
+  {
+   "source_file": "07_failed_artifacts.md",
+   "block_id": "Iteration counts (from each artifact's .aii_worker_result.json)",
+   "target_section": "^## 24\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1526",
+   "line_in_corrected_final": "1526"
+  },
+  {
+   "source_file": "07_failed_artifacts.md",
+   "block_id": "Artifact id placeholders -> real ids",
+   "target_section": "^## 24\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1535",
+   "line_in_corrected_final": "1535"
+  },
+  {
+   "source_file": "08_candidate_S_and_families.md",
+   "block_id": "Candidate S (co-author reach; Cheng et al. 2023) on held-out groups",
+   "target_section": "^### 19\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1169",
+   "line_in_corrected_final": "1169"
+  },
+  {
+   "source_file": "08_candidate_S_and_families.md",
+   "block_id": "New 19.1 family list",
+   "target_section": "^### 19\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1181",
+   "line_in_corrected_final": "1142"
+  },
+  {
+   "source_file": "08_candidate_S_and_families.md",
+   "block_id": "D-family exclusion (why D_ratio, D_rare and the other D indicators were never frozen)",
+   "target_section": "^### 19\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1192",
+   "line_in_corrected_final": "1192"
+  },
+  {
+   "source_file": "09_o5_leakage.md",
+   "block_id": "(whole file) 09_o5_leakage.md",
+   "target_section": "^### 20\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1427",
+   "line_in_corrected_final": "1427"
+  },
+  {
+   "source_file": "10_minor_slips.md",
+   "block_id": "19.6 cross-reference",
+   "target_section": "^### 19\\.6 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1269",
+   "line_in_corrected_final": "1288"
+  },
+  {
+   "source_file": "10_minor_slips.md",
+   "block_id": "18.11 home-field mismatch sentence",
+   "target_section": "^### 18\\.11 ",
+   "action": "append-to-section",
+   "status": "ALREADY_PRESENT",
+   "reason": "first sentence already in iter-5 report: 'The primary sample is the Experiment 5 frame minus'",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "10_minor_slips.md",
+   "block_id": "M0_density_end +0.375 vs +0.377 (source note for 19.2)",
+   "target_section": "^### 19\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1220",
+   "line_in_corrected_final": "1220"
+  },
+  {
+   "source_file": "11_boundary_results.md",
+   "block_id": "(whole file) 11_boundary_results.md",
+   "target_section": "^### 19\\.9 ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "1338",
+   "line_in_corrected_final": "1338"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "Old text (19.5, verbatim)",
+   "target_section": "-",
+   "action": "none",
+   "status": "NOT_APPLIED_SUPERSEDED",
+   "reason": "verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "01_exp8_outcomes_relabel.md",
+   "block_id": "Old text (dead end 22.6, verbatim)",
+   "target_section": "-",
+   "action": "none",
+   "status": "NOT_APPLIED_SUPERSEDED",
+   "reason": "verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "Old text (19.8, verbatim)",
+   "target_section": "-",
+   "action": "none",
+   "status": "NOT_APPLIED_SUPERSEDED",
+   "reason": "verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "02_prereg_P1_P5.md",
+   "block_id": "Old text (dead end 22.7, verbatim)",
+   "target_section": "-",
+   "action": "none",
+   "status": "NOT_APPLIED_SUPERSEDED",
+   "reason": "verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "08_candidate_S_and_families.md",
+   "block_id": "Old text (19.1 family list, verbatim)",
+   "target_section": "-",
+   "action": "none",
+   "status": "NOT_APPLIED_SUPERSEDED",
+   "reason": "verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+   "line_in_corrected": "-1",
+   "line_in_corrected_final": "-1"
+  },
+  {
+   "source_file": "01_case_studies_26_4.md",
+   "block_id": "26.4_rebuilt",
+   "target_section": "^### 26\\.4 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1785",
+   "line_in_corrected_final": "2048"
+  },
+  {
+   "source_file": "01_case_studies_26_4.md",
+   "block_id": "26.5_atlas",
+   "target_section": "^### 26\\.4 ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "1805",
+   "line_in_corrected_final": "2068"
+  },
+  {
+   "source_file": "02_exp11_25a.md",
+   "block_id": "25a_exp11",
+   "target_section": "^### 25\\.7 ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section; new ## 25a placed after 25.7 (before Section 26)",
+   "line_in_corrected": "1748",
+   "line_in_corrected_final": "1920"
+  },
+  {
+   "source_file": "02_exp11_25a.md",
+   "block_id": "29_deadend_exp11",
+   "target_section": "^## 29\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1999",
+   "line_in_corrected_final": "2236"
+  },
+  {
+   "source_file": "02_exp11_25a.md",
+   "block_id": "28.1_c4",
+   "target_section": "^### 28\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1963",
+   "line_in_corrected_final": "2190"
+  },
+  {
+   "source_file": "02_exp11_25a.md",
+   "block_id": "24_counts",
+   "target_section": "^## 24\\. ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1687",
+   "line_in_corrected_final": "1722"
+  },
+  {
+   "source_file": "02_exp11_25a.md",
+   "block_id": "31_counts",
+   "target_section": "Four iterations and sixteen artifacts (fifteen commissioned, twelve completed; t",
+   "action": "text-replace",
+   "status": "APPLIED",
+   "reason": "text-replace (1 occurrence(s))",
+   "line_in_corrected": "2057",
+   "line_in_corrected_final": "2299"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "25.1",
+   "target_section": "^### 25\\.1 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1719",
+   "line_in_corrected_final": "1786"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "25.2",
+   "target_section": "^### 25\\.2 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1727",
+   "line_in_corrected_final": "1794"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "25.4",
+   "target_section": "^### 25\\.4 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1754",
+   "line_in_corrected_final": "1821"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "25.7",
+   "target_section": "^### 25\\.7 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1779",
+   "line_in_corrected_final": "1864"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "25.8",
+   "target_section": "^### 25\\.7 ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "1791",
+   "line_in_corrected_final": "1876"
+  },
+  {
+   "source_file": "03_exp10_rewrite.md",
+   "block_id": "31.1",
+   "target_section": "1. **Early cooccurrence openness (OPEN) predicts later cross field breadth on a ",
+   "action": "text-prefix",
+   "status": "APPLIED",
+   "reason": "text-prefix (1 occurrence(s))",
+   "line_in_corrected": "2121",
+   "line_in_corrected_final": "2121"
+  },
+  {
+   "source_file": "04_exp12_rewrite.md",
+   "block_id": "26.1",
+   "target_section": "^### 26\\.1 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1888",
+   "line_in_corrected_final": "1973"
+  },
+  {
+   "source_file": "04_exp12_rewrite.md",
+   "block_id": "31.3_caveat",
+   "target_section": "3. **Breadth is driven by exploration, not retention.**",
+   "action": "text-prefix",
+   "status": "APPLIED",
+   "reason": "text-prefix (1 occurrence(s))",
+   "line_in_corrected": "2141",
+   "line_in_corrected_final": "2141"
+  },
+  {
+   "source_file": "04_exp12_rewrite.md",
+   "block_id": "26.3",
+   "target_section": "^### 26\\.3 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1935",
+   "line_in_corrected_final": "2034"
+  },
+  {
+   "source_file": "04_exp12_rewrite.md",
+   "block_id": "26.2_pc",
+   "target_section": "^### 26\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1935",
+   "line_in_corrected_final": "2006"
+  },
+  {
+   "source_file": "06_section23_restore.md",
+   "block_id": "23_restore",
+   "target_section": "^## 23\\. ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1647",
+   "line_in_corrected_final": "1671"
+  },
+  {
+   "source_file": "06_section23_restore.md",
+   "block_id": "16.2_tag",
+   "target_section": "2. **Two stable trajectory classes",
+   "action": "text-append-line",
+   "status": "APPLIED",
+   "reason": "text-append-line (1 occurrence(s))",
+   "line_in_corrected": "793",
+   "line_in_corrected_final": "793"
+  },
+  {
+   "source_file": "07_section28_evidence.md",
+   "block_id": "28.1_evidence",
+   "target_section": "^### 28\\.1 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "2136",
+   "line_in_corrected_final": "2190"
+  },
+  {
+   "source_file": "07_section28_evidence.md",
+   "block_id": "28.2_survives",
+   "target_section": "^### 28\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "2154",
+   "line_in_corrected_final": "2216"
+  },
+  {
+   "source_file": "07_section28_evidence.md",
+   "block_id": "31.2_retention",
+   "target_section": "RETENTION_RATIO_early (\u22120.114), ",
+   "action": "text-replace",
+   "status": "APPLIED",
+   "reason": "text-replace (1 occurrence(s))",
+   "line_in_corrected": "2223",
+   "line_in_corrected_final": "2223"
+  },
+  {
+   "source_file": "08_exp8_exp10_secondary.md",
+   "block_id": "25.5_leads",
+   "target_section": "^### 25\\.5 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1812",
+   "line_in_corrected_final": "1827"
+  },
+  {
+   "source_file": "08_exp8_exp10_secondary.md",
+   "block_id": "25.6",
+   "target_section": "^### 25\\.6 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "1825",
+   "line_in_corrected_final": "1849"
+  },
+  {
+   "source_file": "08_exp8_exp10_secondary.md",
+   "block_id": "19.5b_tag",
+   "target_section": "^### 19\\.5b ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1267",
+   "line_in_corrected_final": "1268"
+  },
+  {
+   "source_file": "08_exp8_exp10_secondary.md",
+   "block_id": "19.7_tag",
+   "target_section": "^### 19\\.7 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1300",
+   "line_in_corrected_final": "1299"
+  },
+  {
+   "source_file": "08_exp8_exp10_secondary.md",
+   "block_id": "19.2_pergroup",
+   "target_section": "^### 19\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "1224",
+   "line_in_corrected_final": "1199"
+  },
+  {
+   "source_file": "09_coverage_table_30.md",
+   "block_id": "30_table",
+   "target_section": "^## 30\\. ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "2237",
+   "line_in_corrected_final": "2261"
+  },
+  {
+   "source_file": "10_minor_and_refs.md",
+   "block_id": "fcr",
+   "target_section": "footprint control rung",
+   "action": "text-replace-all",
+   "status": "APPLIED",
+   "reason": "text-replace-all (1 occurrence(s))",
+   "line_in_corrected": "2144",
+   "line_in_corrected_final": "2144"
+  },
+  {
+   "source_file": "10_minor_and_refs.md",
+   "block_id": "27.4_fcr_note",
+   "target_section": "^### 27\\.4 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "2146",
+   "line_in_corrected_final": "2146"
+  },
+  {
+   "source_file": "10_minor_and_refs.md",
+   "block_id": "27.3_I2",
+   "target_section": "Higgins I\u00b2 drops to 0.43 (vs 0.66 over the 6 units)",
+   "action": "text-replace",
+   "status": "APPLIED",
+   "reason": "text-replace (1 occurrence(s))",
+   "line_in_corrected": "2138",
+   "line_in_corrected_final": "2140"
+  },
+  {
+   "source_file": "10_minor_and_refs.md",
+   "block_id": "27.2_label",
+   "target_section": "^### 27\\.2 ",
+   "action": "append-to-section",
+   "status": "APPLIED",
+   "reason": "appended at end of section",
+   "line_in_corrected": "2136",
+   "line_in_corrected_final": "2130"
+  },
+  {
+   "source_file": "11_evidence_synthesis.md",
+   "block_id": "32_synthesis",
+   "target_section": "^## 31\\. ",
+   "action": "insert-new-section-after",
+   "status": "APPLIED",
+   "reason": "new section inserted after target section",
+   "line_in_corrected": "2332",
+   "line_in_corrected_final": "2348"
+  },
+  {
+   "source_file": "05_eval3_application.md",
+   "block_id": "27.6_list",
+   "target_section": "^### 27\\.6 ",
+   "action": "replace-section",
+   "status": "APPLIED",
+   "reason": "section replaced",
+   "line_in_corrected": "2158",
+   "line_in_corrected_final": "2158"
+  }
+ ],
+ "refs_summary": {
+  "n_master": 120,
+  "n_cited": 18,
+  "n_uncited": 102,
+  "n_list_A": 23,
+  "n_list_B": 51,
+  "n_excluded": 10,
+  "n_rewritten_citation_groups": 19,
+  "required_additions": {
+   "fernandes": "present",
+   "nomaler": "present"
+  },
+  "n_doi_corrected": 0
+ },
+ "per_group_table": [
+  {
+   "indicator": "M0_density_end",
+   "unit": "PHYS",
+   "psp": "0.429385180186509",
+   "ci_lo": "0.3325730349373037",
+   "ci_hi": "0.5201296946515865",
+   "n": "413",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "M0_density_end",
+   "unit": "LIFEENV",
+   "psp": "0.2976949596051312",
+   "ci_lo": "0.2227414059983647",
+   "ci_hi": "0.3720914910307679",
+   "n": "630",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "M0_density_end",
+   "unit": "SOC",
+   "psp": "0.3021688813477198",
+   "ci_lo": "0.2271342503219388",
+   "ci_hi": "0.3721049269566196",
+   "n": "689",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "M0_density_end",
+   "unit": "MATHDEC",
+   "psp": "0.546511034346066",
+   "ci_lo": "0.377490006454098",
+   "ci_hi": "0.6728924051242655",
+   "n": "101",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "M0_density_end",
+   "unit": "COH_DEVHOME",
+   "psp": "0.2761105105447902",
+   "ci_lo": "0.2193251225488898",
+   "ci_hi": "0.3273249825319567",
+   "n": "1368",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "M0_density_end",
+   "unit": "COH_OTHER",
+   "psp": "0.3537916161391017",
+   "ci_lo": "0.2901678094567091",
+   "ci_hi": "0.4148084831911507",
+   "n": "814",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "PHYS",
+   "psp": "0.3721962802252989",
+   "ci_lo": "0.2615165037358361",
+   "ci_hi": "0.4765470237664158",
+   "n": "413",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "LIFEENV",
+   "psp": "0.2641986319804635",
+   "ci_lo": "0.1823724723866245",
+   "ci_hi": "0.3478302117016162",
+   "n": "630",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "SOC",
+   "psp": "0.3247540778402151",
+   "ci_lo": "0.2559936302737657",
+   "ci_hi": "0.3950039596072675",
+   "n": "689",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "MATHDEC",
+   "psp": "0.2262201641527363",
+   "ci_lo": "0.0448926225363891",
+   "ci_hi": "0.4343835679944965",
+   "n": "101",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "COH_DEVHOME",
+   "psp": "0.2943430227233283",
+   "ci_lo": "0.2439450925024381",
+   "ci_hi": "0.349939615461372",
+   "n": "1368",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "D_vol_end",
+   "unit": "COH_OTHER",
+   "psp": "0.3184815841216905",
+   "ci_lo": "0.2507432776182874",
+   "ci_hi": "0.3776786770286338",
+   "n": "814",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "PHYS",
+   "psp": "0.2544239851024669",
+   "ci_lo": "0.1523643088525608",
+   "ci_hi": "0.3499484140052954",
+   "n": "413",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "LIFEENV",
+   "psp": "0.1839951676712063",
+   "ci_lo": "0.0941724338559528",
+   "ci_hi": "0.2726967968805294",
+   "n": "630",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "SOC",
+   "psp": "0.2097427988100121",
+   "ci_lo": "0.133643484759718",
+   "ci_hi": "0.2903342496942654",
+   "n": "689",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "MATHDEC",
+   "psp": "0.1740842547071089",
+   "ci_lo": "-0.0622370314090562",
+   "ci_hi": "0.4493709103742417",
+   "n": "101",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "COH_DEVHOME",
+   "psp": "0.2134169904761971",
+   "ci_lo": "0.1541500395866736",
+   "ci_hi": "0.2679330187289807",
+   "n": "1368",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "CONTACT_REACH",
+   "unit": "COH_OTHER",
+   "psp": "0.2269784869405667",
+   "ci_lo": "0.1575850072263289",
+   "ci_hi": "0.2955815451919519",
+   "n": "814",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "PHYS",
+   "psp": "0.1240960464573413",
+   "ci_lo": "0.0200152357945896",
+   "ci_hi": "0.2253252664853054",
+   "n": "413",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "LIFEENV",
+   "psp": "0.0550126871016957",
+   "ci_lo": "-0.0167747841211194",
+   "ci_hi": "0.1360088749006331",
+   "n": "630",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "SOC",
+   "psp": "0.1928731662636539",
+   "ci_lo": "0.118478522293237",
+   "ci_hi": "0.2632464316114824",
+   "n": "689",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "MATHDEC",
+   "psp": "0.359662671205568",
+   "ci_lo": "0.1930506270837695",
+   "ci_hi": "0.5031894487081898",
+   "n": "101",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "COH_DEVHOME",
+   "psp": "0.2216085502306486",
+   "ci_lo": "0.1690752660315682",
+   "ci_hi": "0.2717814823170233",
+   "n": "1368",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "n_comm_W3",
+   "unit": "COH_OTHER",
+   "psp": "0.0956303304172472",
+   "ci_lo": "0.0294365260688401",
+   "ci_hi": "0.1687078654109741",
+   "n": "814",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "PHYS",
+   "psp": "-0.0618744640835958",
+   "ci_lo": "-0.1536265061571053",
+   "ci_hi": "0.0357412239373546",
+   "n": "413",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "LIFEENV",
+   "psp": "-0.1168430835825775",
+   "ci_lo": "-0.190925008572001",
+   "ci_hi": "-0.0366794726953586",
+   "n": "630",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "SOC",
+   "psp": "-0.1388642829183333",
+   "ci_lo": "-0.2171176680450674",
+   "ci_hi": "-0.068599218807781",
+   "n": "689",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "MATHDEC",
+   "psp": "-0.1777003234264172",
+   "ci_lo": "-0.4332318035441753",
+   "ci_hi": "0.0760141477055483",
+   "n": "101",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "COH_DEVHOME",
+   "psp": "-0.1868879761281938",
+   "ci_lo": "-0.2313414270557649",
+   "ci_hi": "-0.134290638726862",
+   "n": "1368",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "RETENTION_RATIO_early",
+   "unit": "COH_OTHER",
+   "psp": "-0.1048159908933637",
+   "ci_lo": "-0.1691334395886116",
+   "ci_hi": "-0.0368297362217685",
+   "n": "814",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "PHYS",
+   "psp": "0.1751879216961377",
+   "ci_lo": "0.0759565117234083",
+   "ci_hi": "0.2653612767685274",
+   "n": "391",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "LIFEENV",
+   "psp": "0.0327414001685315",
+   "ci_lo": "-0.0462033641707573",
+   "ci_hi": "0.1191732695750336",
+   "n": "604",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "SOC",
+   "psp": "0.1319593159942788",
+   "ci_lo": "0.0513855949009816",
+   "ci_hi": "0.2095405577332093",
+   "n": "668",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "MATHDEC",
+   "psp": "0.4404772995938982",
+   "ci_lo": "0.1940584712356949",
+   "ci_hi": "0.6324661209538215",
+   "n": "85",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "COH_DEVHOME",
+   "psp": "0.1143112059791148",
+   "ci_lo": "0.0576993050059944",
+   "ci_hi": "0.1699596506111788",
+   "n": "1296",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "NOV",
+   "unit": "COH_OTHER",
+   "psp": "0.0383009226068613",
+   "ci_lo": "-0.0323472504026284",
+   "ci_hi": "0.1091603986773263",
+   "n": "782",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "PHYS",
+   "psp": "-0.0808891112713094",
+   "ci_lo": "-0.1819289051997589",
+   "ci_hi": "0.0235104283153732",
+   "n": "397",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "LIFEENV",
+   "psp": "-0.0779292832762475",
+   "ci_lo": "-0.1635624396589772",
+   "ci_hi": "0.0077800581995232",
+   "n": "610",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "SOC",
+   "psp": "-0.1215689989292654",
+   "ci_lo": "-0.1989035294299551",
+   "ci_hi": "-0.0431789345872406",
+   "n": "668",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "MATHDEC",
+   "psp": "-0.2360278020148872",
+   "ci_lo": "-0.4339649056762575",
+   "ci_hi": "0.0287381056685502",
+   "n": "96",
+   "ci_includes_0": "True"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "COH_DEVHOME",
+   "psp": "-0.0947519039700384",
+   "ci_lo": "-0.15020665000371",
+   "ci_hi": "-0.0343204273429593",
+   "n": "1319",
+   "ci_includes_0": "False"
+  },
+  {
+   "indicator": "ego_density_W3",
+   "unit": "COH_OTHER",
+   "psp": "-0.0406036651592096",
+   "ci_lo": "-0.1120632468650441",
+   "ci_hi": "0.0302183940251875",
+   "n": "794",
+   "ci_includes_0": "True"
+  }
+ ],
+ "not_found_notes": [
+  "C2 'Exp8 raw sign flip +0.143 / -0.126': no key in any Exp8/Exp10/Eval3/Research-3 file holds these two values as a sign flip; only -0.126 occurs, as prereg_verdicts.P2.pooled_ci[0]"
+ ],
+ "artifact_counts": {
+  "rows": [
+   {
+    "dir": "iter_1/gen_art/gen_art_dataset_1",
+    "status": "failed/incomplete",
+    "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+   },
+   {
+    "dir": "iter_1/gen_art/gen_art_experiment_1",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_1/gen_art/gen_art_experiment_2",
+    "status": "failed/incomplete",
+    "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+   },
+   {
+    "dir": "iter_1/gen_art/gen_art_experiment_3",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_1/gen_art/gen_art_experiment_4",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_2/gen_art/gen_art_dataset_2",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_2/gen_art/gen_art_evaluation_1",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_2/gen_art/gen_art_experiment_5",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_2/gen_art/gen_art_experiment_6",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_2/gen_art/gen_art_research_1",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_3/gen_art/gen_art_evaluation_2",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_3/gen_art/gen_art_experiment_7",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_3/gen_art/gen_art_experiment_8",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_3/gen_art/gen_art_experiment_9",
+    "status": "failed/incomplete",
+    "evidence": "result.failed = true (output_format validation failed after 5 retries: The output )"
+   },
+   {
+    "dir": "iter_3/gen_art/gen_art_research_2",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_4/gen_art/gen_art_evaluation_3",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_4/gen_art/gen_art_experiment_10",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_4/gen_art/gen_art_experiment_11",
+    "status": "failed/incomplete",
+    "evidence": "no .aii_worker_result.json"
+   },
+   {
+    "dir": "iter_4/gen_art/gen_art_experiment_12",
+    "status": "completed",
+    "evidence": "structured output present"
+   },
+   {
+    "dir": "iter_4/gen_art/gen_art_research_3",
+    "status": "completed",
+    "evidence": "structured output present"
+   }
+  ],
+  "commissioned": 20,
+  "completed": 16,
+  "failed": 4,
+  "failed_dirs": [
+   "iter_1/gen_art/gen_art_dataset_1",
+   "iter_1/gen_art/gen_art_experiment_2",
+   "iter_3/gen_art/gen_art_experiment_9",
+   "iter_4/gen_art/gen_art_experiment_11"
+  ]
+ },
+ "inputs_manifest": {
+  "n": 48,
+  "all_exist": true,
+  "files": [
+   {
+    "path": "3_invention_loop/iter_5/gen_strat/current_report.md",
+    "exists": true,
+    "bytes": 136581,
+    "sha256": "681ba73d230ed632ec7fc8df801f224878f25f567fa275fa5138a6ad30947d7b",
+    "mtime": 1790658047.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_strat/current_report.md",
+    "exists": true,
+    "bytes": 112532,
+    "sha256": "46ba5c53548ec6822af49a7696972d252bd71eff537deca4db570aaf08316b3c",
+    "mtime": 1790647230.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/verify_ledger.py",
+    "exists": true,
+    "bytes": 7455,
+    "sha256": "f64734d155c3fba4bbc6ef126b19d9d5cf3335bb0b314bf050b72a2c97c5bca7",
+    "mtime": 1790650427.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/claims_ledger_v3.csv",
+    "exists": true,
+    "bytes": 307631,
+    "sha256": "985c8672dcc641db0fb0bfaccbcb6a8c29f6c135659ea290b2b55c8b4e083923",
+    "mtime": 1790650711.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/boundary_spec.json",
+    "exists": true,
+    "bytes": 19036,
+    "sha256": "61a354ec88baf61b4069597ae9360d9467f62ed341fcf3b84a8b63e0efbe2c9c",
+    "mtime": 1790648636.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/drca_persist_comparison.json",
+    "exists": true,
+    "bytes": 2682,
+    "sha256": "860cf9c2d2a08fb9ee9d338abcc33e858f2920806db35c44e565dccd4e22635b",
+    "mtime": 1790649627.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/heterogeneity.json",
+    "exists": true,
+    "bytes": 43385,
+    "sha256": "d3d23530de155b752f67055bcabf45efd72dc8a31f2210b63b85b6b3ae9c48e7",
+    "mtime": 1790649506.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_evaluation_3/results/spec_curve.json",
+    "exists": true,
+    "bytes": 15095,
+    "sha256": "24222ba89731971e02e390ab808fc41d1263ddee9c57ad0529205448275eba64",
+    "mtime": 1790649314.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/case_pairs.json",
+    "exists": true,
+    "bytes": 46253,
+    "sha256": "bbf5ccc42189579aefc5616bb25d6969e0e9a8311176212de5101d1c565fe8ea",
+    "mtime": 1790653232.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/preregistration_R2.json",
+    "exists": true,
+    "bytes": 1232,
+    "sha256": "4bb4d0280a0b80304e12d5cee6082e1416d2514d73be98c325a412a2e84e943c",
+    "mtime": 1790649067.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/decomposition_dev.json",
+    "exists": true,
+    "bytes": 97838,
+    "sha256": "6582889e77b7d3a9e3a48ced4fc02d1efc7f8b0f54d102bd565652799b43ee5d",
+    "mtime": 1790649213.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/decomposition_heldout.json",
+    "exists": true,
+    "bytes": 461367,
+    "sha256": "0b68513c602c64cbd82e39d9431743416d9ce53eef66422183aa30ed9edfda65",
+    "mtime": 1790652525.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/sequence_light_dev.json",
+    "exists": true,
+    "bytes": 1998,
+    "sha256": "fcc6a6d657c881d7ecc6b781ecb8fcbb6965914bfb06c1cf0264fd3956bc78bb",
+    "mtime": 1790649642.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/sequence_light_heldout.json",
+    "exists": true,
+    "bytes": 3595,
+    "sha256": "16fb7aa0edaad9047c8317ac22fe82d5d63c84cbb36e54377976ca9f67efe1a4",
+    "mtime": 1790652828.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/trajectories_dev.json",
+    "exists": true,
+    "bytes": 44202,
+    "sha256": "befed0bceffb9095755e30da5916047012792be0f48be74a807b2d798e55326f",
+    "mtime": 1790652310.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/results/trajectories_heldout.json",
+    "exists": true,
+    "bytes": 35650,
+    "sha256": "53d43726d86345814f318b9009b06063232666f960c7a27856af64865a1d872a",
+    "mtime": 1790652783.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12/ai_atlas/atlas.json",
+    "exists": true,
+    "bytes": 47660,
+    "sha256": "a5765cc91d56b66dd7c70fc675437f522a7fd16f78b001f3179401fcdb392f9a",
+    "mtime": 1790653311.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/README.md",
+    "exists": true,
+    "bytes": 22764,
+    "sha256": "68d97123cc9d808a1bda0388e77d5f178ce69bfc6eb1140a9cb4b51122ba9604",
+    "mtime": 1790653601.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/results/cohort_report.json",
+    "exists": true,
+    "bytes": 91250,
+    "sha256": "875cb45f4ee8dfbe8cf6fe5677d6b7f2678fb0e59644f5f042aea77d4884621e",
+    "mtime": 1790653022.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/results/cohort_result.json",
+    "exists": true,
+    "bytes": 72704,
+    "sha256": "cc0695d6d2927b6de226a857192c6828c34843e0bdb7d5afe5060ec667675801",
+    "mtime": 1790652429.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/results/learned_models_cohort.json",
+    "exists": true,
+    "bytes": 943,
+    "sha256": "a68d3b2c16ee5fc7e0869be9436e9671011b154457e969fc1f877ea4b099f9b8",
+    "mtime": 1790652506.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/results/exp5_selection_result.json",
+    "exists": true,
+    "bytes": 59579,
+    "sha256": "cfff47482d4c882fbcfc1415e45c15a665f3db46b0aef116ef402f9f285047e4",
+    "mtime": 1790652014.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/results/frozen_spec.json",
+    "exists": true,
+    "bytes": 15890,
+    "sha256": "c3389207ba6e044590d0eca46fd122d78326c04b73271e33e52984bf46d84d3c",
+    "mtime": 1790652034.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/prereg.md",
+    "exists": true,
+    "bytes": 6406,
+    "sha256": "36cd2be9c9eaf6c4492ffeee9e9c4a8cd127063949dd57cd7b52bb4e5a732a19",
+    "mtime": 1790648810.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/ego_open_exp5.parquet",
+    "exists": true,
+    "bytes": 921374,
+    "sha256": "24a47e74fc7485236f88e92a19238266b3807b88b148587a5e829f67efe3a9dd",
+    "mtime": 1790649841.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/covariates_exp5.parquet",
+    "exists": true,
+    "bytes": 374283,
+    "sha256": "c5c2528504803cc07d1e4612374cf8560ce199201f76d20fd5ce65ce647fa142",
+    "mtime": 1790649979.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/concept_types.csv",
+    "exists": true,
+    "bytes": 865822,
+    "sha256": "66d219b0fea5c8ca534d4fc480129386ee9fe2423019d5203fe231cba1d1b6e0",
+    "mtime": 1790651386.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/analysis_cohort.parquet",
+    "exists": true,
+    "bytes": 482680,
+    "sha256": "d929d76f01a1c9fb4cf271b7ce12a3e319d6799cef1920a7fbb0072d3e889c6f",
+    "mtime": 1790652176.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/lib/ladder.py",
+    "exists": true,
+    "bytes": 9137,
+    "sha256": "f9b5a7618048aa2ba83fd0fb1c3c88aa1a1268e16d513970cccb4c4295e0100a",
+    "mtime": 1790649233.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/lib/rq1stats.py",
+    "exists": true,
+    "bytes": 8080,
+    "sha256": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+    "mtime": 1790648205.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/prereg.md",
+    "exists": true,
+    "bytes": 4132,
+    "sha256": "ae6793e77b1260ae706ed89cd6a488e9175d39d5a9b9f1615b5937521b250c75",
+    "mtime": 1790651745.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/results/fe_results.json",
+    "exists": true,
+    "bytes": 7206,
+    "sha256": "2ddae7b1e0a45b5d253185ea084e5dd86d1672628a0e78c02a878a1bec249e7c",
+    "mtime": 1790652343.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/results/deviations.json",
+    "exists": true,
+    "bytes": 2333,
+    "sha256": "51dfe632dcf32689a006de1daa0fdb02e8291c3ff460f2a8c74931cd12218ca8",
+    "mtime": 1790652116.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/logs/analysis_fe.log",
+    "exists": true,
+    "bytes": 253,
+    "sha256": "3626c5516ea052fd5a5520975e9e43dc5becdf0aed9e97df3893ef09f5650700",
+    "mtime": 1790652343.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/logs/event_study.out",
+    "exists": true,
+    "bytes": 4027,
+    "sha256": "f384262a03e2fe6c8449f1206542e610dfbd145238bca4905218240b9b2551a2",
+    "mtime": 1790652608.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/logs/event_study.log",
+    "exists": true,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "mtime": 1790652258.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11/logs/partners.log",
+    "exists": true,
+    "bytes": 130,
+    "sha256": "a3883f9482ae459ea735dbff947638bfa11952aeade9cff7368944e74f0310c6",
+    "mtime": 1790652356.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv",
+    "exists": true,
+    "bytes": 157914,
+    "sha256": "550cd19aa2dd56549a5a44a78a41e9918841290e85ffe829049bb747eda93d4a",
+    "mtime": 1790642572.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_heldout.json",
+    "exists": true,
+    "bytes": 304459,
+    "sha256": "be7a28b06090012f178b0463a38679ff88a67db324e99e49902454aea1f0ff0b",
+    "mtime": 1790643294.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json",
+    "exists": true,
+    "bytes": 158577,
+    "sha256": "b144a73cb375b171848767cf7b6f7a3d0875b8ebb63d2e9789152fd182753617",
+    "mtime": 1790642572.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/data/outcomes.parquet",
+    "exists": true,
+    "bytes": 1007932,
+    "sha256": "741979803f6178c56dc31f45ea6c7c78e84f844df3de3abcf9425b14fb5f651c",
+    "mtime": 1790642157.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json",
+    "exists": true,
+    "bytes": 92340,
+    "sha256": "19712e9f13a2c856b731bc2cd9c3cf231b23f72d7aede81dd0d6a9fb05e1f5a6",
+    "mtime": 1790635037.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_dev.json",
+    "exists": true,
+    "bytes": 64537,
+    "sha256": "6c0ccfcc3c712e6c26a64ab2e1eda610dcf17ecd3bdeb80fd3b5025d39500bd4",
+    "mtime": 1790633875.0
+   },
+   {
+    "path": "3_invention_loop/iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv",
+    "exists": true,
+    "bytes": 2290579,
+    "sha256": "b91d4684ca81a54a9ef695d761fdfcdd4af9573d12f384d5ffa25879e51afd38",
+    "mtime": 1790620572.0
+   },
+   {
+    "path": "3_invention_loop/iter_2/gen_art/gen_art_research_1/research_out.json",
+    "exists": true,
+    "bytes": 49257,
+    "sha256": "8086b5f3ab162ff82ff220e008234d26a210a411a366dad9fcaadfa2f5f2a925",
+    "mtime": 1790616812.0
+   },
+   {
+    "path": "3_invention_loop/iter_3/gen_art/gen_art_research_2/references_new.json",
+    "exists": true,
+    "bytes": 23046,
+    "sha256": "0bacd5892e563cd2c6d03369d6756cd75cd048544470f42357b17ec915fee18d",
+    "mtime": 1790632751.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_research_3/research_out.json",
+    "exists": true,
+    "bytes": 53431,
+    "sha256": "9f655d148b1c7a34f061ab84235e26b1f01c99bf782dfd58719a59ddc2111339",
+    "mtime": 1790649805.0
+   },
+   {
+    "path": "3_invention_loop/iter_4/gen_art/gen_art_research_3/raw/verify.json",
+    "exists": true,
+    "bytes": 23013,
+    "sha256": "3f58fdded1beb228a1e7696363981cb1101d22c4a11e7c448463c732857fb23e",
+    "mtime": 1790648932.0
+   }
+  ]
+ }
+}

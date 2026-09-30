@@ -1,0 +1,10 @@
+05:24:36|INFO   |home cache: 13942 concepts
+05:24:55|INFO   |T0a recompute 1743 concepts in 18.6s; median 8.4 ms/call
+05:24:55|INFO   |T0a exp5: {'n': 300, 'max_abs_diff': {'new_edge_rate': 0.0, 'n_comm_W3': 0.0, 'participation': 0.0, 'NOV_res': 0.0, 'ego_density_W3': 0.0, 'edge_persistence': 0.0}, 'nan_mismatch': {'new_edge_rate': 0, 'n_comm_W3': 0, 'participation': 0, 'NOV_res': 0, 'ego_density_W3': 0, 'edge_persistence': 0}, 'pass': True}
+05:24:55|INFO   |T0a cohort: {'n': 1443, 'max_abs_diff': {'new_edge_rate': 0.0, 'n_comm_W3': 0.0, 'participation': 0.0, 'NOV_res': 0.0, 'ego_density_W3': 0.0, 'edge_persistence': 0.0}, 'nan_mismatch': {'new_edge_rate': 0, 'n_comm_W3': 0, 'participation': 0, 'NOV_res': 0, 'ego_density_W3': 0, 'edge_persistence': 0}, 'pass': True}
+05:25:10|INFO   |T0b exp5: {'max_abs_diff': 0.0, 'nan_mismatch': 0, 'pass': True}
+05:25:10|INFO   |T0b cohort: {'max_abs_diff': 0.0, 'nan_mismatch': 0, 'pass': True}
+05:25:10|INFO   |T0c OPEN_home: {'mine': 0.09059049284973036, 'published': 0.0905904928497304, 'n_mine': 573, 'n_published': 573, 'abs_diff': 4.163336342344337e-17, 'pass': True}
+05:25:10|INFO   |T0c NOV_res__home: {'mine': 0.13368999979699833, 'published': 0.1336899997969982, 'n_mine': 506, 'n_published': 506, 'abs_diff': 1.3877787807814457e-16, 'pass': True}
+05:25:10|INFO   |T0c edge_persistence__home: {'mine': -0.11231075452403043, 'published': -0.1123107545240305, 'n_mine': 597, 'n_published': 597, 'abs_diff': 6.938893903907228e-17, 'pass': True}
+05:25:10|INFO   |GATE T0 pass = True

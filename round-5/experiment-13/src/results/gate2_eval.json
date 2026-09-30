@@ -1,0 +1,16 @@
+{
+ "n": 100,
+ "category_counts": {
+  "concept": 45,
+  "named_entity": 23,
+  "fragment_or_generic": 14,
+  "non_english": 14,
+  "boilerplate": 4
+ },
+ "keep_precision_vs_executor": 0.631578947368421,
+ "keep_recall_vs_executor": 1.0,
+ "n_g2_keep": 38,
+ "n_executor_keep": 24,
+ "agreement": 0.86,
+ "note": "dev evaluation on the 100 executor-labelled phrases (sheets 1 and 2); executor = an LLM agent, not a human annotator"
+}

@@ -1,0 +1,56 @@
+{
+ "n": 10,
+ "n_passed": 10,
+ "cases": [
+  {
+   "test": "tests.test_measures::test_u2_cons_values",
+   "time_s": 0.001,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_measures::test_u2_self_excluded_and_u8_home",
+   "time_s": 0.027,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_measures::test_u3_soc",
+   "time_s": 0.007,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_measures::test_u4_emb",
+   "time_s": 0.007,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_output::test_u1_stub_validates",
+   "time_s": 18.152,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_stats::test_u5_v_check_recorded",
+   "time_s": 0.017,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_stats::test_u6_reproduce_exp8_psp",
+   "time_s": 0.762,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_stats::test_u6_planted_effect",
+   "time_s": 0.522,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_stats::test_u7_ppml_recovers_and_lagged_dv",
+   "time_s": 10.086,
+   "status": "passed"
+  },
+  {
+   "test": "tests.test_stats::test_u7_irls_matches_pyfixest",
+   "time_s": 0.049,
+   "status": "passed"
+  }
+ ]
+}

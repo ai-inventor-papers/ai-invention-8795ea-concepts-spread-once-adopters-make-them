@@ -1,0 +1,12 @@
+05:26:42|INFO   |timing gate: sun_abraham on DEV never-treated resamples [2.793930768966675, 2.444269895553589, 2.2549538612365723]
+05:26:42|INFO   |timing gate: {'sec_per_fit_DEV': 2.497718175252279, 'fits_planned': 4300, 'workers': 3, 'projected_min_full': 59.667711964359995, 'subsample_50pct': False, 'steps': [], 'projected_min_after_gate': 59.667711964359995, 'draws': {'DEV|primary_never': 1000, 'DEV|not_yet_treated_last_cohort': 500, 'DEV|outcome_entries_t': 300, 'DEV|mechanical_home_volume': 300, 'OLD_HELDOUT|primary_never': 300, 'OLD_HELDOUT|not_yet_treated_last_cohort': 300, 'COHORT|primary_never': 300, 'COHORT|not_yet_treated_last_cohort': 300}, 'n_perm': 1000}
+05:49:54|INFO   |DEV/primary_never: lag02=-0.0183 CI=[-0.042307339387120675, 0.004390614435234584] pre=0.5177899514691109 (14s)
+06:01:04|INFO   |DEV/not_yet_treated_last_cohort: lag02=-0.0039 CI=[-0.031202022634891174, 0.02149971851596865] pre=0.3211285458195992 (2s)
+06:11:32|INFO   |DEV/outcome_entries_t: lag02=-0.0068 CI=[-0.0300785406626268, 0.01909270406349119] pre=0.01258404885068193 (2s)
+06:18:17|INFO   |DEV/mechanical_home_volume: lag02=-0.0221 CI=[-0.030366272110243488, -0.013597487748201813] pre=2.5166183225981414e-16 (3s)
+06:44:20|INFO   |placebo: {'n': 1000, 'mean': -0.008772673135695389, 'sd': 0.010621776120052346, 'q025_q975': [-0.029073579027920328, 0.010882395112538516], 'p_one_sided_le_obs': 0.18581418581418582, 'p_two_sided': 0.3786213786213786, 'observed': -0.018324773875462105}
+06:50:27|INFO   |OLD_HELDOUT/primary_never: lag02=-0.0049 CI=[-0.03920222129187864, 0.023282799526377792] pre=0.540615951060583 (1s)
+06:52:43|INFO   |OLD_HELDOUT/not_yet_treated_last_cohort: lag02=-0.0216 CI=[-0.07114736617767863, 0.02496892103340192] pre=0.7197366874898807 (1s)
+06:54:50|INFO   |COHORT/primary_never: lag02=-0.0005 CI=[-0.03012735908647908, 0.02961677215581784] pre=0.18331754212500007 (0s)
+06:56:02|INFO   |COHORT/not_yet_treated_last_cohort: lag02=0.0272 CI=[-0.01027789087345584, 0.06794110151358511] pre=0.2634055310926961 (0s)
+06:56:02|INFO   |event study done: H-M4 {'mean_lag_0_2': -0.018324773875462105, 'ci': [-0.042307339387120675, 0.004390614435234584], 'lag_negative_ci_below_0': False, 'pretrend_p': 0.5177899514691109, 'lead_small_vs_lag': False, 'roth_detectable_slope_80pct': 0.022117017856682974, 'placebo_p_one_sided': 0.18581418581418582, 'holds': False} (89.5 min)

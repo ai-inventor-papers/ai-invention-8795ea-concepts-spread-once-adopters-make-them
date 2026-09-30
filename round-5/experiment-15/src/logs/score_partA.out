@@ -1,0 +1,28 @@
+05:42:58|INFO   |identities exp5 {'NOV_res=sum nov_type': 2.220446049250313e-16, 'NOV_res=sum nov_deg': 2.220446049250313e-16, 'NOV_res=sum nov_carrier': 2.220446049250313e-16, 'ner=sum ner_type': 8.881784197001252e-16, 'churn=sum ch_type': 1.2212453270876722e-15, 'ner=sum ner_comm': 8.881784197001252e-16, 'churn=sum ch_comm': 1.1102230246251565e-15, 'ner=sum ner_deg': 1.7763568394002505e-15, 'churn=sum ch_deg': 9.992007221626409e-16, 'ner=sum ner_carrier': 8.881784197001252e-16, 'churn=sum ch_carrier': 7.771561172376096e-16, 'churn=chd_all+cha_all': 1.5543122344752192e-15, 'jner_rest_min': -8.881784197001252e-16, 'jch_rest_min': -2.220446049250313e-16}
+05:42:58|INFO   |identities cohort {'NOV_res=sum nov_type': 3.3306690738754696e-16, 'NOV_res=sum nov_deg': 2.220446049250313e-16, 'NOV_res=sum nov_carrier': 1.1102230246251565e-16, 'ner=sum ner_type': 1.7763568394002505e-15, 'churn=sum ch_type': 2.220446049250313e-15, 'ner=sum ner_comm': 1.7763568394002505e-15, 'churn=sum ch_comm': 7.771561172376096e-16, 'ner=sum ner_deg': 1.7763568394002505e-15, 'churn=sum ch_deg': 3.3306690738754696e-16, 'ner=sum ner_carrier': 1.7763568394002505e-15, 'churn=sum ch_carrier': 8.881784197001252e-16, 'churn=chd_all+cha_all': 2.4424906541753444e-15, 'jner_rest_min': -2.220446049250313e-16, 'jch_rest_min': -1.1102230246251565e-16}
+05:43:02|INFO   |Exp10 sanity gate: {'NOV_res': {'recomputed_R2': 0.13368999979699833, 'exp10_published': 0.1336899997969982, 'abs_diff': 1.3877787807814457e-16, 'n': 506}, 'edge_persistence': {'recomputed_R2': -0.11231075452403043, 'exp10_published': -0.1123107545240305, 'abs_diff': 6.938893903907228e-17, 'n': 597}, 'pass': True}
+05:43:02|INFO   |21 scoring tasks, n_boot 2000, workers 3
+05:44:26|INFO   |POOLED_EXP5|O5_WW: n=5664 NOVCHURN=-0.018098581155099526 (72s)
+05:47:18|INFO   |DEV|O2r_m50: n=3188 NOVCHURN=0.12895809138766529 (173s)
+05:49:35|INFO   |DEV|O2r_resid: n=3188 NOVCHURN=0.133158521021464 (137s)
+05:50:53|INFO   |POOLED_EXP5|O2r_m50: n=7203 NOVCHURN=0.11761381315582113 (461s)
+05:51:33|INFO   |COHORT_2010_14|O2r_resid: n=2182 NOVCHURN=0.11865486227936484 (118s)
+05:52:04|INFO   |POOLED_EXP5|O2r_resid: n=7203 NOVCHURN=0.12191435248954635 (531s)
+05:52:17|INFO   |COHORT_2010_14|O2r_m50: n=2182 NOVCHURN=0.11240103824986107 (84s)
+05:52:47|INFO   |COHORT_2015_17_R3|O2r_m50: n=634 NOVCHURN=0.14398387382052127 (30s)
+05:53:03|INFO   |OLD_HELDOUT|O2r_m50: n=1833 NOVCHURN=0.10349290316721867 (58s)
+05:53:20|INFO   |COHORT_2015_17_R0|O2r_resid: n=634 NOVCHURN=0.17723377772606713 (17s)
+05:53:36|INFO   |OLD_HELDOUT|O2r_resid: n=1833 NOVCHURN=0.10432328372297087 (123s)
+05:53:45|INFO   |COHORT_2015_17_R0|O2r_m50: n=634 NOVCHURN=0.17071883228940365 (57s)
+05:53:47|INFO   |COHORT_2015_17_R3|O2r_resid: n=634 NOVCHURN=0.15088443699485002 (27s)
+05:54:05|INFO   |LIFEENV|O2r_resid: n=630 NOVCHURN=0.08637675652740949 (19s)
+05:54:26|INFO   |SOC|O2r_resid: n=689 NOVCHURN=0.10079971409884311 (50s)
+05:54:26|INFO   |LIFEENV|O2r_m50: n=630 NOVCHURN=0.08163622990533313 (21s)
+05:54:42|INFO   |PHYS|O2r_m50: n=413 NOVCHURN=0.09861161221600927 (16s)
+05:54:48|INFO   |MATHDEC|O2r_m50: n=101 NOVCHURN=0.203569543357744 (6s)
+05:54:54|INFO   |MATHDEC|O2r_resid: n=101 NOVCHURN=0.2060372057906137 (6s)
+05:54:54|INFO   |SOC|O2r_m50: n=689 NOVCHURN=0.10158617055991713 (70s)
+05:55:12|INFO   |PHYS|O2r_resid: n=413 NOVCHURN=0.09672707023574967 (45s)
+05:55:37|INFO   |placebo across_rows: {'C1_METHOD_minus_DOMAIN_novnull': -0.0054, 'C2_commnew_minus_commold_ner': -0.006, 'C3_lowdeg_minus_highdeg_nov': 0.0028, 'C4_mixed_minus_pure_ner': -0.0018, 'C5_dropped_minus_added_churn': -0.0034}
+05:56:15|INFO   |placebo within_concept: {'C1_METHOD_minus_DOMAIN_novnull': -0.0193, 'C2_commnew_minus_commold_ner': 0.1025, 'C3_lowdeg_minus_highdeg_nov': 0.0927, 'C4_mixed_minus_pure_ner': 0.103, 'C5_dropped_minus_added_churn': 0.0172}
+05:59:34|INFO   |Part A scoring done in 16.6 min; predictions {'P-A1': {'METHOD_shapley_share': np.float64(0.5666598483875003), 'METHOD_share_ci': [0.4022945264158163, 0.7521283388199308], 'METHOD_new_partner_share': 0.2794584759613902, 'excess': np.float64(0.2872013724261101), 'excess_ci': [0.12283605045442614, 0.47266986285854057], 'holds_point': True, 'holds_ci': True}, 'P-A2': {'contrast': 'C2_commnew_minus_commold_ner', 'diff': 0.10246851441450645, 'ci': [0.06925956968443729, 0.13318709528599684], 'p_holm': 0.0025, 'holds_point': True, 'holds_holm': True}, 'P-A3': {'contrast': 'C3_lowdeg_minus_highdeg_nov', 'diff': 0.08146235352612603, 'ci': [0.0449779968590054, 0.11943533947622269], 'p_holm': 0.0025, 'holds_point': True, 'holds_holm': True}, 'P-A4': {'contrast': 'C4_mixed_minus_pure_ner', 'diff': 0.10302775106858252, 'ci': [0.07146605692400454, 0.13354301922062525], 'p_holm': 0.0025, 'holds_point': True, 'holds_holm': True}, 'P-A5': {'contrast': 'C5_dropped_minus_added_churn', 'diff': 0.009628967402815668, 'ci': [-0.033328215073778686, 0.05202185104864011], 'p_holm': 0.6565, 'holds_point': True, 'holds_holm': False}}

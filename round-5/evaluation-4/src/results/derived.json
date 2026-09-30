@@ -1,0 +1,28 @@
+{
+ "item1.n_pairs": 7,
+ "item1.k_high_open_all_higher_O2r_resid": 7,
+ "item1.k_high_open_all_larger_Bn": 5,
+ "item1.k_open_home_order_disagrees": 0,
+ "item1.n_atlas_rows": 37,
+ "item6.slice_lines_1based": [
+  1216,
+  1255
+ ],
+ "item8.dagger.M0_density_end": 0,
+ "item8.dagger.D_vol_end": 0,
+ "item8.dagger.CONTACT_REACH": 1,
+ "item8.dagger.n_comm_W3": 1,
+ "item8.dagger.RETENTION_RATIO_early": 2,
+ "item8.dagger.NOV": 2,
+ "item8.dagger.ego_density_W3": 4,
+ "item8.confirmed_list": [
+  "M0_density_end",
+  "D_vol_end",
+  "CONTACT_REACH",
+  "n_comm_W3",
+  "RETENTION_RATIO_early",
+  "NOV",
+  "ego_density_W3"
+ ],
+ "item10.n_footprint_control_rung_in_report": 1
+}
