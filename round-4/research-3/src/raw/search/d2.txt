@@ -1,0 +1,83 @@
+Search: Weis Jacobson 2021 learning on knowledge graph dynamics early warning impactful research DELPHI  [general via exa]
+Found: 8 results
+
+1. Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+   https://www.nature.com/articles/s41587-021-00907-6
+   Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+## Your privacy, your choice
+We use essential cookies to make sure the site can function. We...
+
+2. Learning on knowledge graph dynamics provides an early warning of impactful research
+   https://pubmed.ncbi.nlm.nih.gov/34002098/?dopt=Abstract
+   Learning on knowledge graph dynamics provides an early warning of impactful research - PubMed
+Clipboard, Search History, and several other advanced features are temporarily unavailable.
+Skip to main p...
+
+3. Learning on knowledge graph dynamics provides an early warning of impactful research
+   https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41587-021-00907-6/MediaObjects/41587_2021_907_MOESM1_ESM.pdf
+   ## Learning on knowledge graph dynamics provides an early warning of impactful research
+
+In the format provided by the authors and unedited
+
+Supplementary information https://doi.org/10.1038/s41587-02...
+
+4. Crossmark
+   https://crossmark.crossref.org/dialog/?doi=10.1038%2Fs41587-021-00907-6
+   Crossmark
+
+Learning on knowledge graph dynamics provides an early warning of impactful research
+
+Crossref DOI link: https://doi.org/10.1038/s41587-021-00907-6
+
+Published Online: 2021-05-17
+
+Published ...
+
+5. jameswweis/delphi
+   https://github.com/jameswweis/delphi
+   # jameswweis/delphi
+
+Code and examples for "Learning on Knowledge Graph Dynamics Provides Early Warning of Impactful Research".
+
+- Stars: 70
+- Forks: 27
+- Watchers: 70
+- Open issues: 0
+- Default branc...
+
+6. Learning on knowledge graph dynamics provides an early warning of impactful research — MIT Media Lab
+   https://www.media.mit.edu/publications/learning-on-knowledge-graph-dynamics-provides-an-early-warning-of-impactful-research/
+   Learning on knowledge graph dynamics provides an early warning of impactful research — MIT Media Lab
+
+Find People, Projects, etc.
+
+- Login
+- Register
+
+Email:
+
+Password:
+
+Work for a Member organization...
+
+7. Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+   https://www.nature.com/articles/s41587-021-00907-6.epdf?sharing_token=39UTcL65YFDXMVLD98MlDdRgN0jAjWel9jnR3ZoTv0NZz4sYcHufAdbnrBRQudUhMTXL4Z0rLzPr8vE2JFeaaXWDpBqg0FlBOlqnJcFrw8sv6xzeQdSmzRuSbCo3N8c_dSNOTW-7MieHt7vhMwqYxx-DyNT2-1NufgBG02CenUU%3D
+   Learning on knowledge graph dynamics provides an early warning of impactful research | Nature Biotechnology
+
+window.initGTM = function() {
+if (window.config.mustardcut) {
+(function (w, d, s, l, i) {
+w...
+
+8. Using machine learning to predict high-impact research — MIT Media Lab
+   https://www.media.mit.edu/articles/using-machine-learning-to-predict-high-impact-research/
+   Using machine learning to predict high-impact research — MIT Media Lab
+
+# Using machine learning to predict high-impact research
+
+May 17, 2021
+
+By Becky Ham | MIT Media Lab
+
+An artificial intelligence...
+

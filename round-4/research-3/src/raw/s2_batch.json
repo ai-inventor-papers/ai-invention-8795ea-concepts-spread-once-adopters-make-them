@@ -1,0 +1,1246 @@
+{
+ "DOI:10.1038/srep05890": {
+  "paperId": "908fe0f7ac4173fd94432b440609ef00843d0ed3",
+  "externalIds": {
+   "PubMedCentral": "5376195",
+   "ArXiv": "1310.1953",
+   "DBLP": "journals/corr/TriaLSS13",
+   "MAG": "2083743389",
+   "DOI": "10.1038/srep05890",
+   "CorpusId": 17119343,
+   "PubMed": "25080941"
+  },
+  "title": "The dynamics of correlated novelties",
+  "venue": "Scientific Reports",
+  "year": 2013,
+  "openAccessPdf": {
+   "url": "https://doi.org/10.1038/srep05890",
+   "status": "GOLD",
+   "license": "CCBY",
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1310.1953, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "A simple mathematical model is proposed that mimics the process of exploring a physical, biological, or conceptual space that enlarges whenever a novelty occurs and predicts statistical laws for the rate at which novelties happen and for the probability distribution on the space explored."
+  },
+  "authors": [
+   {
+    "authorId": "2583711",
+    "name": "F. Tria"
+   },
+   {
+    "authorId": "144347993",
+    "name": "V. Loreto"
+   },
+   {
+    "authorId": "2776193",
+    "name": "V. Servedio"
+   },
+   {
+    "authorId": "2343210",
+    "name": "S. Strogatz"
+   }
+  ],
+  "abstract": "Novelties are a familiar part of daily life. They are also fundamental to the evolution of biological systems, human society and technology. By opening new possibilities, one novelty can pave the way for others in a process that Kauffman has called “expanding the adjacent possible”. The dynamics of correlated novelties, however, have yet to be quantified empirically or modeled mathematically. Here we propose a simple mathematical model that mimics the process of exploring a physical, biological, or conceptual space that enlarges whenever a novelty occurs. The model, a generalization of Polya's urn, predicts statistical laws for the rate at which novelties happen (Heaps' law) and for the probability distribution on the space explored (Zipf's law), as well as signatures of the process by which one novelty sets the stage for another. We test these predictions on four data sets of human activity: the edit events of Wikipedia pages, the emergence of tags in annotation systems, the sequence of words in texts and listening to new songs in online music catalogues. By quantifying the dynamics of correlated novelties, our results provide a starting point for a deeper understanding of the adjacent possible and its role in biological, cultural and technological evolution."
+ },
+ "DOI:10.1103/PhysRevLett.120.048301": {
+  "paperId": "272d4ca6c246c1ac6bb752d02fdf3e2d245c38b9",
+  "externalIds": {
+   "MAG": "2734536567",
+   "DBLP": "journals/corr/IacopiniML17",
+   "ArXiv": "1707.04239",
+   "DOI": "10.1103/PhysRevLett.120.048301",
+   "CorpusId": 4579484,
+   "PubMed": "29437427"
+  },
+  "title": "Network dynamics of innovation processes",
+  "venue": "Physical Review Letters",
+  "year": 2017,
+  "openAccessPdf": {
+   "url": "https://arxiv.org/pdf/1707.04239",
+   "status": "GREEN",
+   "license": null,
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1707.04239, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": null
+  },
+  "authors": [
+   {
+    "authorId": "22186618",
+    "name": "Iacopo Iacopini"
+   },
+   {
+    "authorId": "1780030",
+    "name": "S. Milojevic"
+   },
+   {
+    "authorId": "1795135",
+    "name": "V. Latora"
+   }
+  ],
+  "abstract": "We introduce a model for the emergence of innovations, in which cognitive processes are described as random walks on the network of links among ideas or concepts, and an innovation corresponds to the first visit of a node. The transition matrix of the random walk depends on the network weights, while in turn the weight of an edge is reinforced by the passage of a walker. The presence of the network naturally accounts for the mechanism of the \"adjacent possible,\" and the model reproduces both the rate at which novelties emerge and the correlations among them observed empirically. We show this by using synthetic networks and by studying real data sets on the growth of knowledge in different scientific disciplines. Edge-reinforced random walks on complex topologies offer a new modeling framework for the dynamics of correlated novelties and are another example of coevolution of processes and networks."
+ },
+ "DOI:10.1038/srep01069": {
+  "paperId": "32231e87775cd89f1462dbb29bf61495cfa5e645",
+  "externalIds": {
+   "ArXiv": "1209.4950",
+   "PubMedCentral": "3545262",
+   "MAG": "2063626260",
+   "DBLP": "journals/corr/abs-1209-4950",
+   "DOI": "10.1038/srep01069",
+   "CorpusId": 11362153,
+   "PubMed": "23323212"
+  },
+  "title": "Social Dynamics of Science",
+  "venue": "Scientific Reports",
+  "year": 2012,
+  "openAccessPdf": {
+   "url": "https://www.nature.com/articles/srep01069.pdf",
+   "status": "GOLD",
+   "license": "CCBYNCND",
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1209.4950, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "This work proposes an agent-based model in which the evolution of disciplines is guided mainly by social interactions among agents representing scientists, and finds that this social model can account for a number of stylized facts about the relationships between disciplines, scholars and publications."
+  },
+  "authors": [
+   {
+    "authorId": "49816577",
+    "name": "Xiaoling Sun"
+   },
+   {
+    "authorId": "144236990",
+    "name": "Jasleen Kaur"
+   },
+   {
+    "authorId": "1780030",
+    "name": "S. Milojevic"
+   },
+   {
+    "authorId": "1769960",
+    "name": "A. Flammini"
+   },
+   {
+    "authorId": "143653472",
+    "name": "F. Menczer"
+   }
+  ],
+  "abstract": "The birth and decline of disciplines are critical to science and society. How do scientific disciplines emerge? No quantitative model to date allows us to validate competing theories on the different roles of endogenous processes, such as social collaborations and exogenous events, such as scientific discoveries. Here we propose an agent-based model in which the evolution of disciplines is guided mainly by social interactions among agents representing scientists. Disciplines emerge from splitting and merging of social communities in a collaboration network. We find that this social model can account for a number of stylized facts about the relationships between disciplines, scholars and publications. These results provide strong quantitative support for the key role of social interactions in shaping the dynamics of science. While several “science of science” theories exist, this is the first account for the emergence of disciplines that is validated on the basis of empirical data."
+ },
+ "DOI:10.1103/PhysRevX.4.041036": {
+  "paperId": "828057594eb71871baf1d59b0622ee7cda31e714",
+  "externalIds": {
+   "DBLP": "journals/corr/KuhnPH14",
+   "MAG": "2078824863",
+   "ArXiv": "1404.3757",
+   "DOI": "10.1103/PhysRevX.4.041036",
+   "CorpusId": 14810454
+  },
+  "title": "Inheritance patterns in citation networks reveal scientific memes",
+  "venue": "arXiv.org",
+  "year": 2014,
+  "openAccessPdf": {
+   "url": "http://link.aps.org/pdf/10.1103/PhysRevX.4.041036",
+   "status": "GOLD",
+   "license": "CCBY",
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/1404.3757, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "This work proposes a simple formalization of the relationship between frequency of occurrence and the degree to which memes propagate along the citation graph and validate it with data from close to 50 million publication records from the Web of Science, PubMed Central, and the American Physical Society."
+  },
+  "authors": [
+   {
+    "authorId": "145727607",
+    "name": "T. Kuhn"
+   },
+   {
+    "authorId": "73774143",
+    "name": "M. Perc"
+   },
+   {
+    "authorId": "1768825",
+    "name": "D. Helbing"
+   }
+  ],
+  "abstract": "Memes are the cultural equivalent of genes that spread across human culture by means of imitation. What makes a meme and what distinguishes it from other forms of information, however, is still poorly understood. Our analysis of memes in the scientific literature reveals that they are governed by a surprisingly simple relationship between frequency of occurrence and the degree to which they propagate along the citation graph. We propose a simple formalization of this pattern and validate it with data from close to 50 million publication records from the Web of Science, PubMed Central, and the American Physical Society. Evaluations relying on human annotators, citation network randomizations, and comparisons with several alternative approaches confirm that our formula is accurate and effective, without a dependence on linguistic or ontological knowledge and without the application of arbitrary thresholds or filters."
+ },
+ "DOI:10.1016/j.joi.2020.101092": {
+  "paperId": "ff142d085d9eac4d257ec8c00bca098e390dc310",
+  "externalIds": {
+   "MAG": "3088159905",
+   "DBLP": "journals/joi/MaoLCL20",
+   "DOI": "10.1016/J.JOI.2020.101092",
+   "CorpusId": 224928997
+  },
+  "title": "Quantifying cross-disciplinary knowledge flow from the perspective of content: Introducing an approach based on knowledge memes",
+  "venue": "J. Informetrics",
+  "year": 2020,
+  "openAccessPdf": {
+   "url": "",
+   "status": null,
+   "license": null,
+   "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.JOI.2020.101092?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.JOI.2020.101092, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "This study quantifies cross-ciplinary knowledge diffusion from the novel perspective of content by introducing knowledge memes, a special type of knowledge unit, and shows that preferential attachment takes effect in cross-disciplinary knowledge meme diffusion."
+  },
+  "authors": [
+   {
+    "authorId": "145733228",
+    "name": "Jin Mao"
+   },
+   {
+    "authorId": "122909796",
+    "name": "Zhentao Liang"
+   },
+   {
+    "authorId": "1500401935",
+    "name": "Yujie Cao"
+   },
+   {
+    "authorId": "73938443",
+    "name": "Gang Li"
+   }
+  ],
+  "abstract": "Abstract Knowledge flow between disciplines is typically measured through citations among publications. In this study, we quantify cross-disciplinary knowledge diffusion from the novel perspective of content by introducing knowledge memes, a special type of knowledge unit. Diffusion cascade is proposed to model the diffusion process of knowledge memes. By taking Medical Informatics (MI) as an exemplary interdisciplinary discipline, we measure the knowledge relationships between it and four related disciplines. The diffusion patterns of cross-disciplinary memes are also identified by analyzing the network structure of the diffusion cascade. The results present the knowledge relationships among disciplines measured by knowledge memes, which are different from those measured by citations. It is shown that preferential attachment takes effect in cross-disciplinary knowledge meme diffusion. In addition, cross-disciplinary knowledge memes generally originate earlier and have higher impact than the memes of MI. This study provides insights into new approaches to quantifying knowledge relationships among disciplines and furthers the understanding of content diffusion mechanisms through measurable knowledge units."
+ },
+ "DOI:10.1016/j.respol.2020.104013": {
+  "paperId": "30e10f8882f70890e61285f95b4990ac6aa0f5db",
+  "externalIds": {
+   "MAG": "3040236257",
+   "DOI": "10.1016/j.respol.2020.104013",
+   "CorpusId": 225222210
+  },
+  "title": "Mapping general purpose technologies with patent data",
+  "venue": "",
+  "year": 2020,
+  "openAccessPdf": {
+   "url": "http://econ.geo.uu.nl/peeg/peeg2027.pdf",
+   "status": "GREEN",
+   "license": null,
+   "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.respol.2020.104013?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.respol.2020.104013, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "A three-dimension indicator to capture the main features of General Purpose Technologies (GPTs) in patent data is developed and it is shown there exist a positive association between the rate of adoption of GPTs in sectors, measured in terms of the number of G PT patents, and their growth."
+  },
+  "authors": [
+   {
+    "authorId": "6891045",
+    "name": "S. Petralia"
+   }
+  ],
+  "abstract": "Abstract This article develops a three-dimension indicator to capture the main features of General Purpose Technologies (GPTs) in patent data. Technologies are evaluated based on their scope for improvement and elaboration, the variety of products and processes that use them, and their complementarity with existing and new technologies. Technologies’ scope for improvement is measured using patenting growth rates. The range of its uses is mapped by implementing a text-mining algorithm that traces technology-specific vocabulary in the universe of all available patent documents. Finally, complementarity with other technologies is measured using the co-occurrence of technological claims in patents. These indicators are discussed and evaluated using widely studied examples of GPTs such as Electric & Electronic (at the beginning of the 20th century) and Computer & Communications. These measures are then used to propose a simple way of identifying GPTs with patent data. It is shown there exist a positive association between the rate of adoption of GPTs in sectors, measured in terms of the number of GPT patents, and their growth."
+ },
+ "DOI:10.1016/j.joi.2018.03.007": {
+  "paperId": "3ba4e80c2fbfd520faf79fa6c11a21b10373b9d5",
+  "externalIds": {
+   "DBLP": "journals/joi/Small18",
+   "MAG": "2798150405",
+   "DOI": "10.1016/j.joi.2018.03.007",
+   "CorpusId": 49680966
+  },
+  "title": "Characterizing highly cited method and non-method papers using citation contexts: The role of uncertainty",
+  "venue": "J. Informetrics",
+  "year": 2018,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.joi.2018.03.007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.joi.2018.03.007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "The top 1000 biomedical papers by number of citations are classified by method, type of method and non-methods by examination of citation contexts, revealing that words indicating utility are most important for the classification of methods."
+  },
+  "authors": [
+   {
+    "authorId": "1805405",
+    "name": "H. Small"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1145/3148011.3148030": {
+  "paperId": "f570eca54898ac38dc6499eeaca62680ef3ccc97",
+  "externalIds": {
+   "MAG": "2763531954",
+   "DBLP": "conf/kcap/OsborneMM17",
+   "DOI": "10.1145/3148011.3148030",
+   "CorpusId": 26861503
+  },
+  "title": "Forecasting the Spreading of Technologies in Research Communities",
+  "venue": "International Conference on Knowledge Capture",
+  "year": 2017,
+  "openAccessPdf": {
+   "url": "https://oro.open.ac.uk/51198/1/K-CAP2017_TTF_65.pdf",
+   "status": "GREEN",
+   "license": "CCBYNCND",
+   "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3148011.3148030?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3148011.3148030, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "It is hypothesised that it is possible to learn typical technology propagation patterns from historical data and to exploit this knowledge to anticipate where a technology may be adopted next and to alert relevant stakeholders about emerging and relevant technologies in other fields."
+  },
+  "authors": [
+   {
+    "authorId": "2052329",
+    "name": "Francesco Osborne"
+   },
+   {
+    "authorId": "2043406",
+    "name": "Andrea Mannocci"
+   },
+   {
+    "authorId": "1721851",
+    "name": "E. Motta"
+   }
+  ],
+  "abstract": "Technologies such as algorithms, applications and formats are an important part of the knowledge produced and reused in the research process. Typically, a technology is expected to originate in the context of a research area and then spread and contribute to several other fields. For example, Semantic Web technologies have been successfully adopted by a variety of fields, e.g., Information Retrieval, Human Computer Interaction, Biology, and many others. Unfortunately, the spreading of technologies across research areas may be a slow and inefficient process, since it is easy for researchers to be unaware of potentially relevant solutions produced by other research communities. In this paper, we hypothesise that it is possible to learn typical technology propagation patterns from historical data and to exploit this knowledge i) to anticipate where a technology may be adopted next and ii) to alert relevant stakeholders about emerging and relevant technologies in other fields. To do so, we propose the Technology-Topic Framework, a novel approach which uses a semantically enhanced technology-topic model to forecast the propagation of technologies to research areas. A formal evaluation of the approach on a set of technologies in the Semantic Web and Artificial Intelligence areas has produced excellent results, confirming the validity of our solution."
+ },
+ "DOI:10.15195/v1.a15": {
+  "paperId": "a1f6be668885b3ce6c76315cdc55bbe6ea813936",
+  "externalIds": {
+   "MAG": "1964521649",
+   "DOI": "10.15195/V1.A15",
+   "CorpusId": 27876915
+  },
+  "title": "Finding Cultural Holes: How Structure and Culture Diverge in Networks of Scholarly Communication",
+  "venue": "",
+  "year": 2014,
+  "openAccessPdf": {
+   "url": "https://doi.org/10.15195/v1.a15",
+   "status": "GOLD",
+   "license": "CCBY",
+   "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.15195/V1.A15?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.15195/V1.A15, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "Information theory is used to measure cultural holes and formalism is demonstrated in the context of scientific communication using papers from JSTOR, finding that communicative efficiency decays with citation distance in a field-specific way."
+  },
+  "authors": [
+   {
+    "authorId": "2488981",
+    "name": "Daril A. Vilhena"
+   },
+   {
+    "authorId": "40104995",
+    "name": "J. Foster"
+   },
+   {
+    "authorId": "2002036",
+    "name": "M. Rosvall"
+   },
+   {
+    "authorId": "38906978",
+    "name": "Jevin D. West"
+   },
+   {
+    "authorId": "144002439",
+    "name": "James A. Evans"
+   },
+   {
+    "authorId": "2604570",
+    "name": "Carl T. Bergstrom"
+   }
+  ],
+  "abstract": "Divergent interests, expertise, and language form cultural barriers to communication. No formalism has been available to characterize these “cultural holes.” Here we use information theory to measure cultural holes and demonstrate our formalism in the context of scientific communication using papers from JSTOR. We extract scientific fields from the structure of citation flows and infer field-specific cultures by cataloging phrase frequencies in full text and measuring the relative efficiency of between-field communication. We then combine citation and cultural information in a novel topographic map of science, mapping citations to geographic distance and cultural holes to topography. By analyzing the full citation network, we find that communicative efficiency decays with citation distance in a field-specific way. These decay rates reveal hidden patterns of cohesion and fragmentation. For example, the ecological sciences are balkanized by jargon, whereas the social sciences are relatively integrated. Our results highlight the importance of enriching structural analyses with cultural data."
+ },
+ "DOI:10.1177/2329496514540131": {
+  "paperId": "78f6bace43bea9b05e6506bb8ad2a52f0a70b6fa",
+  "externalIds": {
+   "MAG": "2128525455",
+   "DOI": "10.1177/2329496514540131",
+   "CorpusId": 145456834
+  },
+  "title": "Sociological Innovation through Subfield Integration",
+  "venue": "",
+  "year": 2014,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1177/2329496514540131?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1177/2329496514540131, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "This work focuses on subfield spanning in sociology, a topically diverse field whose distinct subfields are still reasonably permeable, and introduces two measures of subfield integration, one of which uniquely accounts for the novelty of sub field combinations."
+  },
+  "authors": [
+   {
+    "authorId": "49860197",
+    "name": "E. Leahey"
+   },
+   {
+    "authorId": "144449959",
+    "name": "James Moody"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1126/science.1185231": {
+  "paperId": "1471511609f7185544703f0e22777a64c6681f38",
+  "externalIds": {
+   "MAG": "2150208547",
+   "DOI": "10.1126/science.1185231",
+   "CorpusId": 3265637,
+   "PubMed": "20813952"
+  },
+  "title": "The Spread of Behavior in an Online Social Network Experiment",
+  "venue": "Science",
+  "year": 2010,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.1185231?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.1185231, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "Individual adoption was much more likely when participants received social reinforcement from multiple neighbors in the social network, and the behavior spread farther and faster across clustered-lattice networks than across corresponding random networks."
+  },
+  "authors": [
+   {
+    "authorId": "3256565",
+    "name": "Damon Centola"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1126/science.1240474": {
+  "paperId": "45ad5446c33f66744d83c6666a8a07ee92ffd205",
+  "externalIds": {
+   "MAG": "2066752129",
+   "DOI": "10.1126/science.1240474",
+   "CorpusId": 206549889,
+   "PubMed": "24159044"
+  },
+  "title": "Atypical Combinations and Scientific Impact",
+  "venue": "Science",
+  "year": 2013,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.1240474?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.1240474, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "Analysis of 17.9 million research articles across five decades of the Web of Science suggests that science follows a nearly universal pattern: the highest-impact science is primarily grounded in exceptionally conventional combinations of prior work yet simultaneously features an intrusion of unusual combinations."
+  },
+  "authors": [
+   {
+    "authorId": "1838478",
+    "name": "Brian Uzzi"
+   },
+   {
+    "authorId": "40577876",
+    "name": "Satyam Mukherjee"
+   },
+   {
+    "authorId": "2661378",
+    "name": "Michael J. Stringer"
+   },
+   {
+    "authorId": "144351183",
+    "name": "Benjamin F. Jones"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1145/3197026.3197052": {
+  "paperId": "893c016b051ac2bc6c400d1d6f782b0a423962c1",
+  "externalIds": {
+   "MAG": "2802135926",
+   "DBLP": "conf/jcdl/SalatinoOM18",
+   "DOI": "10.1145/3197026.3197052",
+   "CorpusId": 44130279
+  },
+  "title": "AUGUR: Forecasting the Emergence of New Research Topics",
+  "venue": "ACM/IEEE Joint Conference on Digital Libraries",
+  "year": 2018,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3197026.3197052?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3197026.3197052, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "Augur is introduced, a novel approach to the early detection of research topics that analyses the diachronic relationships between research areas and is able to detect clusters of topics that exhibit dynamics correlated with the emergence of new research topics."
+  },
+  "authors": [
+   {
+    "authorId": "40520756",
+    "name": "Angelo Salatino"
+   },
+   {
+    "authorId": "2052329",
+    "name": "Francesco Osborne"
+   },
+   {
+    "authorId": "1721851",
+    "name": "E. Motta"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1016/j.techfore.2021.120944": {
+  "paperId": "d01ad2f7c104d5f3542808291f44d2f501113f44",
+  "externalIds": {
+   "MAG": "3169230274",
+   "DOI": "10.1016/J.TECHFORE.2021.120944",
+   "CorpusId": 236301830
+  },
+  "title": "Tracking the dynamics of co-word networks for emerging topic identification",
+  "venue": "",
+  "year": 2021,
+  "openAccessPdf": {
+   "url": "",
+   "status": null,
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.TECHFORE.2021.120944?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.TECHFORE.2021.120944, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": null,
+  "authors": [
+   {
+    "authorId": "2143588409",
+    "name": "Lu Huang"
+   },
+   {
+    "authorId": "2143735471",
+    "name": "Xiang Chen"
+   },
+   {
+    "authorId": "2106438502",
+    "name": "Xingxing Ni"
+   },
+   {
+    "authorId": "2239160015",
+    "name": "Jia-Run Liu"
+   },
+   {
+    "authorId": "103014870",
+    "name": "Xi-Hui Cao"
+   },
+   {
+    "authorId": "2146411458",
+    "name": "Chang Wang"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1371/journal.pone.0008694": {
+  "paperId": "3514b60bdde2bbde93f80f193fbc41893b289262",
+  "externalIds": {
+   "PubMedCentral": "2811724",
+   "ArXiv": "0812.1242",
+   "MAG": "2155369095",
+   "DOI": "10.1371/journal.pone.0008694",
+   "CorpusId": 1039513,
+   "PubMed": "20111700"
+  },
+  "title": "Mapping Change in Large Networks",
+  "venue": "PLoS ONE",
+  "year": 2008,
+  "openAccessPdf": {
+   "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0008694&type=printable",
+   "status": "GOLD",
+   "license": "CCBY",
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/0812.1242, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "It is shown that bootstrap resampling accompanied by significance clustering provides a solution to the problem of distinguishing meaningful structural changes from random fluctuations and is realized de Solla Price's vision of mapping change in science."
+  },
+  "authors": [
+   {
+    "authorId": "2002036",
+    "name": "M. Rosvall"
+   },
+   {
+    "authorId": "2604570",
+    "name": "Carl T. Bergstrom"
+   }
+  ],
+  "abstract": "Change is a fundamental ingredient of interaction patterns in biology, technology, the economy, and science itself: Interactions within and between organisms change; transportation patterns by air, land, and sea all change; the global financial flow changes; and the frontiers of scientific research change. Networks and clustering methods have become important tools to comprehend instances of these large-scale structures, but without methods to distinguish between real trends and noisy data, these approaches are not useful for studying how networks change. Only if we can assign significance to the partitioning of single networks can we distinguish meaningful structural changes from random fluctuations. Here we show that bootstrap resampling accompanied by significance clustering provides a solution to this problem. To connect changing structures with the changing function of networks, we highlight and summarize the significant structural changes with alluvial diagrams and realize de Solla Price's vision of mapping change in science: studying the citation pattern between about 7000 scientific journals over the past decade, we find that neuroscience has transformed from an interdisciplinary specialty to a mature and stand-alone discipline."
+ },
+ "DOI:10.1016/j.joi.2026.101877": {
+  "paperId": "5dc1a056bb302ac56a940fef3d19dc521ee87405",
+  "externalIds": {
+   "ArXiv": "2603.06436",
+   "DBLP": "journals/corr/abs-2603-06436",
+   "DOI": "10.1016/j.joi.2026.101877",
+   "CorpusId": 286367838
+  },
+  "title": "Rethinking Thematic Evolution in Science Mapping: An Integrated Framework for Longitudinal Analysis",
+  "venue": "Jurnal Informa",
+  "year": 2026,
+  "openAccessPdf": {
+   "url": "https://doi.org/10.1016/j.joi.2026.101877",
+   "status": "HYBRID",
+   "license": "CCBY",
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2603.06436, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "A structurally integrated framework in which lineage reconstruction is embedded within the same weighted relational architecture that underpins cross-sectional detection and temporal modelling is introduced, thereby conceptualising evolution as the reconfiguration of relational structures rather than simple lexical persistence."
+  },
+  "authors": [
+   {
+    "authorId": "2248919040",
+    "name": "M. Aria"
+   },
+   {
+    "authorId": "2122058918",
+    "name": "Luca D'Aniello"
+   },
+   {
+    "authorId": "65952499",
+    "name": "M. Misuraca"
+   },
+   {
+    "authorId": "2071064358",
+    "name": "Maria Spano"
+   }
+  ],
+  "abstract": "Strategic diagrams and co-word analysis are widely employed to examine the conceptual structure of scientific domains and their development over time. Yet a structural inconsistency characterises dominant longitudinal implementations: themes are detected through relational clustering in weighted networks, whereas their inter-temporal connections are commonly inferred from set-theoretic overlap among keywords or core documents. This study introduces a structurally integrated framework in which lineage reconstruction is embedded within the same weighted relational architecture that underpins cross-sectional detection. The approach models thematic continuity through graded document affiliation and a lineage-strength measure that combines directional coverage with centrality-weighted structural relevance, thereby conceptualising evolution as the reconfiguration of relational structures rather than simple lexical persistence. By aligning thematic detection and temporal modelling within a unified relational paradigm, the framework enhances the methodological coherence and interpretive robustness of longitudinal science mapping."
+ },
+ "DOI:10.1073/pnas.1509757112": {
+  "paperId": "a42b7307f862cd513c71ceb45ad9db4837315b87",
+  "externalIds": {
+   "MAG": "2130145803",
+   "DOI": "10.1073/pnas.1509757112",
+   "CorpusId": 6252101,
+   "PubMed": "26554009"
+  },
+  "title": "Choosing experiments to accelerate collective discovery",
+  "venue": "Proceedings of the National Academy of Sciences of the United States of America",
+  "year": 2015,
+  "openAccessPdf": {
+   "url": "https://www.pnas.org/content/pnas/112/47/14569.full.pdf",
+   "status": "GREEN",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1073/pnas.1509757112?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1073/pnas.1509757112, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "A generative model of discovery informed by qualitative research on scientific problem selection is built and it is found that increased risk-taking and the publication of experimental failures would substantially improve the speed of discovery."
+  },
+  "authors": [
+   {
+    "authorId": "2436402",
+    "name": "A. Rzhetsky"
+   },
+   {
+    "authorId": "40104995",
+    "name": "J. Foster"
+   },
+   {
+    "authorId": "2100088654",
+    "name": "Ian Foster"
+   },
+   {
+    "authorId": "144002439",
+    "name": "James A. Evans"
+   }
+  ],
+  "abstract": null
+ },
+ "DOI:10.1016/j.respol.2014.02.005": {
+  "paperId": "ae4329efd3f2441a6678a23ad495c08cf425e96c",
+  "externalIds": {
+   "MAG": "1973867393",
+   "DOI": "10.1016/J.RESPOL.2014.02.005",
+   "CorpusId": 144105166
+  },
+  "title": "Identifying emerging topics in science and technology",
+  "venue": "",
+  "year": 2014,
+  "openAccessPdf": {
+   "url": "",
+   "status": "CLOSED",
+   "license": null,
+   "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/J.RESPOL.2014.02.005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/J.RESPOL.2014.02.005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "A novel approach to identifying emerging topics in science and technology using two large scale models of the scientific literature based on direct citation and co-citation to nominate emerging topics using a difference function that rewards clusters that are new and growing rapidly."
+  },
+  "authors": [
+   {
+    "authorId": "1805405",
+    "name": "H. Small"
+   },
+   {
+    "authorId": "1773125",
+    "name": "K. Boyack"
+   },
+   {
+    "authorId": "1754182",
+    "name": "R. Klavans"
+   }
+  ],
+  "abstract": null
+ },
+ "ARXIV:2510.03240": {
+  "paperId": "d9e49190ff8ace760007b9fb24326855bb986b5a",
+  "externalIds": {
+   "DBLP": "journals/corr/abs-2510-03240",
+   "ArXiv": "2510.03240",
+   "DOI": "10.48550/arXiv.2510.03240",
+   "CorpusId": 281844186
+  },
+  "title": "Generalization and the Rise of System-level Creativity in Science",
+  "venue": "arXiv.org",
+  "year": 2025,
+  "openAccessPdf": {
+   "url": "",
+   "status": null,
+   "license": null,
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2510.03240, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "Challenging the narrative of declining innovation inferred from the disruption index, the findings suggest the locus of innovation has shifted from within disciplines to between them, a transition the Internet and large language models may have facilitated."
+  },
+  "authors": [
+   {
+    "authorId": "2385493122",
+    "name": "Hong-Bo Fang"
+   },
+   {
+    "authorId": "2330379944",
+    "name": "James Evans"
+   }
+  ],
+  "abstract": "Scientific progress is widely understood as combinatorial, yet existing measures focus on the inputs a paper draws together, saying little about how knowledge is supplied for downstream reuse. Analyzing citation networks from tens of millions of publications in OpenAlex and the Web of Science, we decompose scientific contributions into three functional types, foundations, extensions, and generalizations, distinguishable by the roles they play in future science. Foundational and extensional works, which build and elaborate ideas within disciplines, dominated the post-war decades but declined steadily after the 1990s, while generalizations that catalyze innovation across many contexts rose sharply. Challenging the narrative of declining innovation inferred from the disruption index, our findings suggest the locus of innovation has shifted from within disciplines to between them, a transition the Internet and large language models may have facilitated. Our indices disentangle innovation modes conflated by existing measures, enabling reinterpretation of landmark findings of'disruptive'science."
+ },
+ "ARXIV:2511.18631": {
+  "paperId": "8da3e99e128d9e9c7b3df5386fb3acf8fa280fd7",
+  "externalIds": {
+   "ArXiv": "2511.18631",
+   "DBLP": "journals/corr/abs-2511-18631",
+   "DOI": "10.48550/arXiv.2511.18631",
+   "CorpusId": 283245104
+  },
+  "title": "FOS: A Large-Scale Temporal Graph Benchmark for Scientific Interdisciplinary Link Prediction",
+  "venue": "arXiv.org",
+  "year": 2025,
+  "openAccessPdf": {
+   "url": "",
+   "status": null,
+   "license": null,
+   "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2511.18631, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+  },
+  "tldr": {
+   "model": "tldr@v2.0.0",
+   "text": "This work introduces FOS (Future Of Science), a comprehensive time-aware graph-based benchmark that reconstructs annual co-occurrence graphs of 65,027 research sub-fields over the period 1827-2024 and publicly releases FOS, along with its temporal data splits and evaluation code, to establish a reproducible benchmark for advancing research in predicting scientific frontiers."
+  },
+  "authors": [
+   {
+    "authorId": "2231671843",
+    "name": "Kiyan Rezaee"
+   },
+   {
+    "authorId": "2231704194",
+    "name": "Morteza Ziabakhsh"
+   },
+   {
+    "authorId": "2210893465",
+    "name": "Niloofar Nikfarjam"
+   },
+   {
+    "authorId": "2279545000",
+    "name": "Mohammad Ghassemi"
+   },
+   {
+    "authorId": "2130175579",
+    "name": "Yazdan Rezaee Jouryabi"
+   },
+   {
+    "authorId": "2025827",
+    "name": "S. Eskandari"
+   },
+   {
+    "authorId": "2089602378",
+    "name": "Reza Lashgari"
+   }
+  ],
+  "abstract": "Interdisciplinary scientific breakthroughs mostly emerge unexpectedly, and forecasting the formation of novel research fields remains a major challenge. We introduce FOS (Future Of Science), a comprehensive time-aware graph-based benchmark that reconstructs annual co-occurrence graphs of 65,027 research sub-fields (spanning 19 general domains) over the period 1827-2024. In these graphs, edges denote the co-occurrence of two fields in a single publication and are timestamped with the corresponding publication year. Nodes are enriched with semantic embeddings, and edges are characterized by temporal and topological descriptors. We formulate the prediction of new field-pair linkages as a temporal link-prediction task, emphasizing the\"first-time\"connections that signify pioneering interdisciplinary directions. Through extensive experiments, we evaluate a suite of state-of-the-art temporal graph architectures under multiple negative-sampling regimes and show that (i) embedding long-form textual descriptions of fields significantly boosts prediction accuracy, and (ii) distinct model classes excel under different evaluation settings. Case analyses show that top-ranked link predictions on FOS align with field pairings that emerge in subsequent years of academic publications. We publicly release FOS, along with its temporal data splits and evaluation code, to establish a reproducible benchmark for advancing research in predicting scientific frontiers."
+ },
+ "crossref_queries": {
+  "Moser Nicholas 2004 Was electricity a general purpose technology? Evidence from historical patent citations": [
+   {
+    "DOI": "10.1257/0002828041301407",
+    "title": [
+     "Was Electricity a General Purpose Technology? Evidence from Historical Patent Citations"
+    ],
+    "author": [
+     {
+      "given": "Petra",
+      "family": "Moser",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Sloan School of Management, Massachusetts Institute of Technology, 50 Memorial Drive, Cambridge, MA 02142-1347."
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Tom",
+      "family": "Nicholas",
+      "sequence": "additional",
+      "affiliation": [
+       {
+        "name": "The Brattle Group, 353 Sacramento Street, Suite 1140, San Francisco, CA 94111."
+       }
+      ],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "American Economic Review"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2004,
+       4,
+       1
+      ]
+     ]
+    },
+    "volume": "94",
+    "page": "388-394"
+   },
+   {
+    "DOI": "10.3386/w21443",
+    "title": [
+     "Patent Citations and the Size of the Inventive Step - Evidence from Hybrid Corn"
+    ],
+    "author": [
+     {
+      "given": "Petra",
+      "family": "Moser",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Joerg",
+      "family": "Ohmstedt",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Paul",
+      "family": "Rhode",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2015,
+       7
+      ]
+     ]
+    }
+   }
+  ],
+  "Feldman Yoon 2012 An empirical test for general purpose technology: an examination of the Cohen-Boyer rDNA technology": [
+   {
+    "DOI": "10.1093/icc/dtr040",
+    "title": [
+     "An empirical test for general purpose technology: an examination of the Cohen-Boyer rDNA technology"
+    ],
+    "author": [
+     {
+      "given": "M. P.",
+      "family": "Feldman",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "J. W.",
+      "family": "Yoon",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "Industrial and Corporate Change"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2011,
+       7,
+       23
+      ]
+     ]
+    },
+    "volume": "21",
+    "page": "249-275"
+   },
+   {
+    "DOI": "10.1109/temscon.2019.8813748",
+    "title": [
+     "Empirical Evidence and Economic Implications of Blockchain as a General Purpose Technology"
+    ],
+    "author": [
+     {
+      "given": "Evgeniia",
+      "family": "Filippova",
+      "sequence": "first",
+      "affiliation": [
+       {
+        "name": "Interdisciplinary Research Institute for Cryptoeconomics, WU Vienna University of Economics and Business, Vienna, Austria"
+       }
+      ],
+      "role": [
+       {
+        "role": "author",
+        "vocabulary": "crossref"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "2019 IEEE Technology &amp; Engineering Management Conference (TEMSCON)"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2019,
+       6
+      ]
+     ]
+    },
+    "page": "1-8"
+   }
+  ],
+  "Coulter Monarch Konda 1998 Software engineering as seen through its research literature: a study in co-word analysis": [
+   {
+    "DOI": "10.1002/(sici)1097-4571(1998)49:13<1206::aid-asi7>3.0.co;2-f",
+    "title": [
+     "Software engineering as seen through its research literature: A study in co-word analysis"
+    ],
+    "author": [
+     {
+      "given": "Neal",
+      "family": "Coulter",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ira",
+      "family": "Monarch",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Suresh",
+      "family": "Konda",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "Journal of the American Society for Information Science"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1998
+      ]
+     ]
+    },
+    "volume": "49",
+    "page": "1206-1223"
+   },
+   {
+    "DOI": "10.21236/ada310305",
+    "title": [
+     "An Evolutionary Perspective of Software Engineering Research Through Co-Word Analysis."
+    ],
+    "author": [
+     {
+      "given": "Neal",
+      "family": "Coulter",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Ira",
+      "family": "Monarch",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Suresh",
+      "family": "Konda",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Marvin",
+      "family": "Carr",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       1996,
+       3,
+       1
+      ]
+     ]
+    }
+   }
+  ],
+  "Chen 2009 Towards an explanatory and computational theory of scientific discovery structural variation Journal of Informetrics": [
+   {
+    "DOI": "10.1016/j.joi.2009.03.004",
+    "title": [
+     "Towards an explanatory and computational theory of scientific discovery"
+    ],
+    "author": [
+     {
+      "given": "Chaomei",
+      "family": "Chen",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Yue",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Mark",
+      "family": "Horowitz",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Haiyan",
+      "family": "Hou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Zeyuan",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Donald",
+      "family": "Pellegrino",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "Journal of Informetrics"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2009,
+       7
+      ]
+     ]
+    },
+    "volume": "3",
+    "page": "191-209"
+   },
+   {
+    "DOI": "10.1016/j.joi.2009.03.001",
+    "title": [
+     "Scientific discovery and topological transitions in collaboration networks"
+    ],
+    "author": [
+     {
+      "given": "Luís M.A.",
+      "family": "Bettencourt",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "David I.",
+      "family": "Kaiser",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     },
+     {
+      "given": "Jasleen",
+      "family": "Kaur",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+       {
+        "vocabulary": "crossref",
+        "role": "author"
+       }
+      ]
+     }
+    ],
+    "container-title": [
+     "Journal of Informetrics"
+    ],
+    "issued": {
+     "date-parts": [
+      [
+       2009,
+       7
+      ]
+     ]
+    },
+    "volume": "3",
+    "page": "210-221"
+   }
+  ]
+ }
+}
