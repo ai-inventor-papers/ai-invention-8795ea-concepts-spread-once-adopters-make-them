@@ -1,3 +1,0 @@
-usage: aii_fast_web_search.py [-h] --query QUERY [--max-results MAX_RESULTS]
-                              [--mode {general,scholarly}]
-aii_fast_web_search.py: error: argument --mode/-m: invalid choice: 'scholar' (choose from general, scholarly)

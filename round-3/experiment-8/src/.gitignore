@@ -1,6 +1,0 @@
-.venv/
-passA/parts/
-passB/parts/
-data/
-__pycache__/
-*.pyc

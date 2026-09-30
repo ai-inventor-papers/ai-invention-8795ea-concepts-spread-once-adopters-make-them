@@ -1,5 +1,0 @@
-03:26:44|INFO   |post checks: {'O2r_m50_E8_vs_E5_spearman': (1.0, 7203), 'max_abs_diff': 0.0}
-03:29:01|INFO   |s4_decomp.py heldout exit 0 in 137s
-03:33:19|INFO   |s5_typology.py heldout exit 0 in 258s
-03:34:04|INFO   |s6_sequence.py heldout exit 0 in 45s
-S7DONE
