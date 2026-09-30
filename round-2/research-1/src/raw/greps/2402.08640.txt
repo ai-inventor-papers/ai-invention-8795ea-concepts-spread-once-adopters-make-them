@@ -1,0 +1,33 @@
+URL: https://arxiv.org/abs/2402.08640
+Type: HTML
+Length: 8125 chars (truncated)
+
+--- Content ---
+
+Skip to main content [](https://arxiv.org/IgnoreMe) [ ](https://arxiv.org/) [ Search ](https://arxiv.org/search) [Submit](https://arxiv.org/user/create) [Donate](https://info.arxiv.org/about/donate.html) [Log in](https://arxiv.org/login)
+
+Search arXiv
+
+Press Enter to search * [Advanced search](https://arxiv.org/search/advanced)
+
+# Computer Science > Digital Libraries
+
+**arXiv:2402.08640** (cs) 
+
+[Submitted on 13 Feb 2024 ([v1](https://arxiv.org/abs/2402.08640v1)), last revised 11 Jun 2025 (this version, v4)]
+
+# Title:Forecasting high-impact research topics via machine learning on evolving knowledge graphs
+
+Authors:[Xuemei Gu](https://arxiv.org/search/cs?searchtype=author&query=Gu,+X), [Mario Krenn](https://arxiv.org/search/cs?searchtype=author&query=Krenn,+M)
+
+View a PDF of the paper titled Forecasting high-impact research topics via machine learning on evolving knowledge graphs, by Xuemei Gu and 1 other authors
+
+[View PDF](/pdf/2402.08640) [HTML (experimental)](https://arxiv.org/html/2402.08640v4)
+
+> Abstract:The exponential growth in scientific publications poses a severe challenge for human researchers. It forces attention to more narrow sub-fields, which makes it challenging to discover new impactful research ideas and collaborations outside one's own field. While there are ways to predict a scientific paper's future citation counts, they need the research to be finished and the paper written, usually assessing impact long after the idea was conceived. Here we show how to predict the impact of onsets of ideas that have never been published by researchers. For that, we developed a large evolving knowledge graph built from more than 21 million scientific papers. It combines a semantic network created from the content of the papers and an impact network created from the historic citations of papers. Using machine learning, we can predict the dynamic of the evolving network into the future with high accuracy (AUC values beyond 0.9 for most experiments), and thereby the impact of new research directions. We envision that the ability to predict the impact of new ideas will be a crucial component of future artificial muses that can inspire new impactful and interesting scientific ideas. 
+
+Comments: | 15 pages, 12 figures, Comments welcome!  
+---|---  
+Subjects: |  Digital Libraries (cs.DL); Artificial Intelligence (cs.AI); Machine Learning (cs.LG)  
+Cite as: | [arXiv:2402.08640](https://arxiv.org/abs/2402.08640) [cs.DL]  
+  | (or  [arXiv:2402.08640v4](https:/

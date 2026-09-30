@@ -1,0 +1,74 @@
+URL: https://arxiv.org/pdf/1801.05352
+Type: PDF
+Pattern: AUC|survival|exit|central|core (104 matches in 83938 chars)
+
+--- Content ---
+
+1888:...
+data shows that countries that enter more unrelated activities experience a small but 
+significant increase in future economic growth, compared to countries with a similar 
+level of income, human capital, capital stock per worker, and economic complexity.  
+ 
+Keywords: relatedness, product space, unrelated diversification, economic 
+complexity, new export products, economic growth 
+ 
+
+Pinheiro, Alshamsi, Hartmann, Boschma and Hidalgo (2018) 
+ 
+ 
+2 
+Introduction 
+A well-established fact in the literature on international and regional economic 
+development is that countries (Hidalgo, Kling...
+--
+4626:...en they are 
+at an intermediate level of economic development, and also when they have a 
+relatively high level of human capital. This is true when we measure a country’s level 
+of development using GDP per capita, export diversity, or economic complexity. In 
+fact, the level of relatedness of new economic activities follows a U-shaped curve, 
+with countries at both low and high levels of development entering primarily related 
+activities, and countries with an intermediate level of economic develop...
+--
+5236:...tage of development of a country is linked with the type of related activity 
+development. 
+Finally, we ask whether countries entering more unrelated activities grow faster, after 
+controlling for their initial level of GDP per capita, economic complexity, and human 
+capital. We find that countries entering more unrelated activities experience a small 
+but significant increase in their subsequent growth performance of about 0.5% per 
+annum. In other words, our findings show that deviations from the ...
+--
+7974:...ies and cities develop new technologies related to existing local 
+technologies. 
+But relatedness is not the only factor shaping the path dependencies of economies. A 
+key driving force behind the distinctiveness of regional trajectories is the complexity 
+of knowledge (Kogut & Zander, 2003). Fleming and Sorenson (2001) define the 
+complexity of a technology in terms of the number of components and the 
+interdependence between those components. Hidalgo and Hausmann (2009) derive a 
+formula for the complexity — or knowledge intensity — of products and places by 
+defining knowledge intense places as those that produce knowledge intense activities, 
+and knowledge intense activities as those produced by knowledge intense places. This 
+circular definition is mathematically solvable using the linear algebra concept of 
+eigenvectors. Yet, the more colloquial definition of knowledge complexity is still tied 
+to the idea that complexity is reflected in a wide range of capabilities. These complex 
+products tend to be produced by relatively few knowledge intense countries, and 
+hence, can support higher wages for the workers employed in these industries 
+(Hartmann, Guevara, Jara-Figueroa, Aristarán, & Hidalgo, 2017; Hausmann et al., 
+2014; Hidalgo, 2015; Hidalgo & Hausmann, 2009). 
+Recently, these measures of complexity have also been extended to the production of 
+technology. Balland and Rigby (2016) found huge variations in the complexity of 
+knowledge produced across U.S. cities (i.e. few metropolitan areas produce the most 
+complex technologies, while many cities produce the least complex ones) which also 
+correlates highly with the long-run economic performance of cities. 
+So, in...
+--
+12420:...ive degree of relatedness of a new economic 
+activity, and investigating whether countries that succeed in entering more unrelated 
+activities also experience higher economic growth, after controlling for their initial 
+GDP per capita, economic complexity, capital stock per worker, and human capital. 
+Materials and Methods 
+Data 
+We use international trade data from the MIT’s Observatory of Economic 
+Complexity (atlas.media.mit.edu). We use the SITC-4 rev 2 product classification, 
+since it provides...
+--
+[92 more matches not shown]

@@ -1,0 +1,8 @@
+18:27:16|INFO   |dev risk sets: 47,762 rows, primary 36,222 rows / 1,741 strata (1s)
+18:27:57|INFO   |bootstrap 2000 in 41s
+18:28:40|INFO   |H2 dev: LR M2vsM0={'LR': 38.62631818938462, 'df': 1, 'p': 5.132219947935693e-10}, d=0.250
+18:28:50|INFO   |planted control: {'planted_beta1_p_median': 0.0, 'planted_detect_rate_p<0.001': 1.0, 'null_reject_rate_0.01': 0.02, 'n_null_sims': 100}
+18:30:00|INFO   |rescue/relay: 808,857 grounded (work, concept) rows, 790,490 works
+Model is not converging.  Current: -4911.224385203824 is not greater than -4911.1991803371875. Delta is -0.02520486663615884
+Model is not converging.  Current: -2885.99996721464 is not greater than -2885.9967300776398. Delta is -0.0032371370002692856
+18:31:49|INFO   |dev stage done

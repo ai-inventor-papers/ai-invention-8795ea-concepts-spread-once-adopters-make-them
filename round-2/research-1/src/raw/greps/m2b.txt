@@ -1,0 +1,129 @@
+URL: https://arxiv.org/pdf/2606.03919
+Type: PDF
+Pattern: R\^?2.{0,5}=? ?0\.[0-9]+|Table 2|endogenous.{0,60}0\.[0-9] (17 matches in 59222 chars)
+
+--- Content ---
+
+15741:...cations in a given year are retained, and pairs are further stratified by annual
+paper counts to balance the representation of dominant and niche combinations.
+Focal-year cohort and right-censoring.
+Predictive models in Table 2 use only censoring-free
+focal years 𝑡∈{1996, . . . , 2018}, for which the full five-year downstream window (𝑡+1, . . . , 𝑡+5)
+lies within the 2023 snapshot (𝑡+5 ≤2023). Focal years 2019–2023 remain in the bibliographic
+...
+--
+24634:... (no per-domain Optuna). Because the 2023 snapshot does not yet
+contain the full five-year citation tail for these recent focal years, comparative test metrics reflect
+partial downstream windows (Appendix A.1.2), unlike Table 2, which restricts to censoring-free
+focal years 1996–2018 with complete horizons. Metrics are within-domain replications, not
+train-on-one-field / test-on-another experiments.
+5
+Results
+In this section, we examine how we...
+--
+25363:...antitative accuracy of the model but also the underlying
+structural mechanics that govern how scientific ideas consolidate and spread over time.
+7
+
+5.1
+Analysis and Interpretation of Citation Variance Prediction Results
+Table 2 reports predictive performance on the censoring-free cohort (Methods, Appendix A)
+across four related tasks that capture complementary dimensions of conceptual propagation:
+endogenous count (self-reinforcement within th...
+--
+27409:...at conceptual diffusion (i.e., a focal concept pair being cited by papers without this
+focal concept pair) is an inherently structured and content-driven phenomenon rather than a
+simple by-product of publication volume.
+Table 2. Citation variance prediction performance (primary benchmark). Focal years 1996–2018
+only (𝑛= 6 978 pair–years): each row has a complete five-year downstream window in the 2023
+OpenAlex snapshot. Growth-normalised targe...
+--
+32176:...
+9
+
+specialisation exhibit weak or negligible effects. This confirms that heterogeneous, well-connected
+citation foundations are the strongest predictors of future conceptual reach.
+5.3
+Cross-domain diffusion robustness
+Table 2 establishes the quantum-computing benchmark under the original stratified split and
+Optuna-tuned models. To test whether the endo/exo asymmetry persists elsewhere, we replicated
+the forecasting protocol on robotics, adv...
+--
+32706:...022–2023 focal-year holdout (Section 4).
+Table 3. Test 𝑅2 on the OpenAlex validation subsample (focal years 2022–2023, fixed
+hyperparameters, unnormalised citation counts). The quantum-computing row is not comparable to
+Table 2: that benchmark uses growth-normalised targets, a stratified 80/20 split, and Optuna-tuned
+models (endo. count 𝑅2
+test ≈0.02).
+Domain
+Endo. count
+Exo. count
+Ratio endo
+Citing entropy
+Quantum computer
+0.47
+0.60
+0.08
+0.43...
+--
+33685:...l (𝑅2
+test ≈0.47–0.59
+vs. 0.60–0.74) but rises sharply for neuro implants (0.83), consistent with a mature biomedical
+corpus where focal-pair self-reinforcement is denser and more regular; the near-zero endogenous
+𝑅2 in Table 2 is specific to growth-normalised targets and does not carry over to the comparative
+holdout. Third, ratio endo stays low everywhere (typical values ∼10−3; 𝑅2
+test ≤0.21), so this
+target should be interpreted cautiously....
+--
+41499:... up to 2018, but
+only partially observed for focal years 2019–2023, since the OpenAlex snapshot used here
+does not yet contain the full citation tail of the most recent cohorts. The primary quantum-
+computing benchmark (Table 2) therefore uses only censoring-free focal years 1996–2018; pairs
+in the censored region are excluded from that fit rather than included with underestimated
+12
+
+targets. Comparative validation (Section 5.3) deliberately ...
+--
+42124:...finitions are summarised in Appendix A.
+Methodologically, normalising out global growth strengthens interpretability but limits
+inference about absolute impact or citation volumes. The primary quantum-computing results
+(Table 2) use stratified splits and Optuna-tuned models on normalised targets; the comparative
+validation in Section 5.3 replicates the same feature set on robotics, advanced materials, and
+neuro implants using an OpenAlex valid...
+--
+42612:..., and confirms
+that exogenous diffusion remains the strongest predictable signal across fields while endogenous
+predictability varies by domain. Absolute 𝑅2 values in the comparative table are not directly
+comparable to Table 2 because of these protocol differences. Artificial intelligence and machine
+learning remain an important extension for future work, as do cross-domain train-on-one-field /
+test-on-another experiments.
+6.3
+Outlook
+These r...
+--
+54364:...s and entropies are right-censored (underestimated). Upstream features at 𝑡−1
+remain fully observed for all focal years in the corpus.
+Table A1 summarises the focal-year cohorts. The primary quantum-computing benchmark
+(Table 2 in the main text) is fit exclusively on the censoring-free cohort: focal years 1996–2018,
+6 978 pair–years, growth-normalised targets, stratified 80/20 train–test split, and Optuna-tuned
+LightGBM models. This matches the extraction and training code (7 predict task.ipynb,
+filter base year < 2019).
+Table A1. Focal-year cohorts for the quantum-computing modelling dataset. Table 2 is fit on the
+censoring-free cohort only.
+Cohort
+Focal years
+Pair–years
+Window
+Role
+Censoring-free (primary)
+1996–2018
+6,978
+complete 𝑡+1, . . . , 𝑡+5
+Table 2
+Snapshot-inclusive
+1996–2023
+—†
+mixed (complete if 𝑡≤2018)
+r...
+--
+[5 more matches not shown]
