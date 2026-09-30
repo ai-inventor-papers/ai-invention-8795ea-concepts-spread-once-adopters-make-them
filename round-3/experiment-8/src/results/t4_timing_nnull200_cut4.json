@@ -1,0 +1,8 @@
+{
+ "n": 60,
+ "wall_s": 39.56295084953308,
+ "s_per_concept_worker": 2.3055727958679197,
+ "n_null": 200,
+ "btw_cutoff": 4,
+ "nb_min_w": 2
+}
