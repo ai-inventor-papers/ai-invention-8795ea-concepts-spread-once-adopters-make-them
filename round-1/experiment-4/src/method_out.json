@@ -1,0 +1,4389 @@
+{
+ "metadata": {
+  "method_name": "G gateway-landing screen (S0) with authoritative outcome tables",
+  "description": "Leave-one-home-group-out ridge/logistic of B5 vs B5+G on the P78 dev panel; 2,000 concept bootstrap resamples; next-field relatedness-density entry test; single-indicator table.",
+  "screen_result": {
+   "candidate": "G_gateway_landing",
+   "primary_feature": "G = off-home share-weighted eigenvector gateway centrality (SLICE_A positive-PMI topic co-assignment backbone) of venue fields adopting in t0..t0+2",
+   "baseline": "B5 = [log_count_W5, growth log(n[t0+4]/n[t0+1]), offhome_share_W3, entropy_W3, reach_W3]",
+   "n_used_O2r": 34,
+   "n_used_per_group_O2r": {
+    "CS": 10,
+    "BGM": 9,
+    "Med": 8,
+    "Eng": 7
+   },
+   "n_used_O1_O3": 46,
+   "n_used_per_group_O1_O3": {
+    "BGM": 14,
+    "Med": 12,
+    "CS": 11,
+    "Eng": 9
+   },
+   "delta_rho_O2r_m30": {
+    "base": 0.32742551566080974,
+    "cand": 0.360733384262796,
+    "delta": 0.03330786860198626,
+    "ci90": [
+     -0.09455114465232498,
+     0.1684260733483024
+    ],
+    "ci95": [
+     -0.11381774258405243,
+     0.19562007103060725
+    ],
+    "p_boot_le0": 0.365,
+    "per_group": {
+     "CS": {
+      "n": 10,
+      "base": 0.10303030303030303,
+      "cand": -0.12727272727272726,
+      "delta": -0.2303030303030303
+     },
+     "Eng": {
+      "n": 7,
+      "base": 0.8571428571428573,
+      "cand": 0.9285714285714288,
+      "delta": 0.07142857142857151
+     },
+     "BGM": {
+      "n": 9,
+      "base": 0.65,
+      "cand": 0.7166666666666667,
+      "delta": 0.06666666666666665
+     },
+     "Med": {
+      "n": 8,
+      "base": 0.5714285714285715,
+      "cand": 0.523809523809524,
+      "delta": -0.04761904761904756
+     }
+    },
+    "n_groups_positive": 2,
+    "n_groups_evaluable": 4,
+    "refit_boot": {
+     "n": 200,
+     "ci90": [
+      -0.19631597996178657,
+      0.294815966630012
+     ],
+     "mean": 0.025829506191985426
+    }
+   },
+   "per_group_signs": {
+    "CS": -1,
+    "Eng": 1,
+    "BGM": 1,
+    "Med": -1
+   },
+   "reliability_split_half": {
+    "G": {
+     "r_sb_median": 0.9158794094967022,
+     "p05": 0.8391584530808728,
+     "p95": 0.9511058642167783,
+     "n_splits": 50
+    },
+    "G_all": {
+     "r_sb_median": 0.9852304204383193,
+     "p05": 0.9711098192429124,
+     "p95": 0.9909668521468395,
+     "n_splits": 50
+    },
+    "RS": {
+     "r_sb_median": 0.9022036552273939,
+     "p05": 0.8527953603047618,
+     "p95": 0.9337496803930923,
+     "n_splits": 50
+    },
+    "REL_home": {
+     "r_sb_median": 0.9162269224899237,
+     "p05": 0.8532190787416905,
+     "p95": 0.9570825586433627,
+     "n_splits": 50
+    },
+    "entropy_W3": {
+     "r_sb_median": 0.8622226747416821,
+     "p05": 0.7981545179011716,
+     "p95": 0.9035479430494924,
+     "n_splits": 50
+    },
+    "offhome_share_W3": {
+     "r_sb_median": 0.9391413874269872,
+     "p05": 0.9047756505890855,
+     "p95": 0.9600911136926095,
+     "n_splits": 50
+    },
+    "log_count_W5": {
+     "r_sb_median": 0.9938563694680991,
+     "method": "binomial thinning"
+    }
+   },
+   "size_correlations": {
+    "G_vs_log_count_W5": -0.10749306197964847,
+    "G_vs_growth_W5": 0.1257477644156645,
+    "G_vs_label_coverage": 0.204563675609004,
+    "max_abs": 0.1257477644156645
+   },
+   "delta_auc_O1": {
+    "base": 0.8298368298368298,
+    "cand": 0.9020979020979021,
+    "delta": 0.07226107226107226,
+    "ci90": [
+     0.0,
+     0.16322243932538058
+    ],
+    "ci95": [
+     -0.011170157967032872,
+     0.1874999999999999
+    ],
+    "per_group": {
+     "CS": {
+      "n": 11,
+      "base": 0.8928571428571428,
+      "cand": 0.9285714285714286,
+      "delta": 0.03571428571428581
+     },
+     "Eng": {
+      "n": 9,
+      "base": 1.0,
+      "cand": 0.8571428571428572,
+      "delta": -0.1428571428571428
+     },
+     "BGM": {
+      "n": 14,
+      "base": 0.8461538461538461,
+      "cand": 0.9230769230769231,
+      "delta": 0.07692307692307698
+     },
+     "Med": {
+      "n": 12,
+      "base": 0.9444444444444445,
+      "cand": 1.0,
+      "delta": 0.05555555555555547
+     }
+    },
+    "n_groups_positive": 3,
+    "n_positive": 33,
+    "positives_per_group": {
+     "BGM": 13,
+     "CS": 7,
+     "Eng": 7,
+     "Med": 6
+    },
+    "evaluable": true
+   },
+   "delta_auc_O3": {
+    "base": 0.11363636363636365,
+    "cand": 0.11363636363636365,
+    "delta": 0.0,
+    "ci90": [
+     0.0,
+     0.0
+    ],
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "per_group": {
+     "CS": {
+      "n": 11,
+      "base": null,
+      "cand": null,
+      "delta": null
+     },
+     "Eng": {
+      "n": 9,
+      "base": null,
+      "cand": null,
+      "delta": null
+     },
+     "BGM": {
+      "n": 14,
+      "base": null,
+      "cand": null,
+      "delta": null
+     },
+     "Med": {
+      "n": 12,
+      "base": 0.5,
+      "cand": 0.5,
+      "delta": 0.0
+     }
+    },
+    "n_groups_positive": 0,
+    "n_positive": 2,
+    "positives_per_group": {
+     "BGM": 0,
+     "CS": 0,
+     "Eng": 0,
+     "Med": 2
+    },
+    "evaluable": false,
+    "note": "not evaluable: only 2 concepts in the minority class (positives per group {'BGM': 0, 'CS': 0, 'Eng': 0, 'Med': 2}); LOGO training folds lack one class, so AUCs are artefacts and are not interpreted"
+   },
+   "delta_rho_O2r_m50": {
+    "base": 0.3488158899923606,
+    "cand": 0.3714285714285714,
+    "delta": 0.022612681436210813,
+    "ci90": [
+     -0.11267950842308755,
+     0.16454355666014986
+    ],
+    "n_groups_positive": 1
+   },
+   "delta_rho_O2r_resid": {
+    "base": 0.3943468296409473,
+    "cand": 0.5446906035141329,
+    "delta": 0.1503437738731856,
+    "ci90": [
+     0.0002759913110042773,
+     0.32091171359862924
+    ],
+    "n_groups_positive": 4
+   },
+   "loco_supplementary": {
+    "base": 0.32895339954163483,
+    "cand": 0.3258976317799847,
+    "delta": -0.003055767761650119,
+    "n": 34
+   },
+   "survival_clauses": {
+    "i_delta_ge_0.10_and_ci90_low_gt_0": false,
+    "ii_positive_in_ge_3_of_4_groups": false,
+    "iii_split_half_r_sb_ge_0.6": true,
+    "iv_max_abs_size_rho_le_0.6": true
+   },
+   "survives": false,
+   "verdict": "DOES NOT SURVIVE the pre-registered S0 rule",
+   "sensitivities": {
+    "newborn_only": {
+     "n": 28,
+     "base": 0.41488779419813904,
+     "cand": 0.3541324575807335,
+     "delta": -0.060755336617405564,
+     "ci90": [
+      -0.1669068847648808,
+      0.03858981835828584
+     ],
+     "n_groups_positive": 2
+    },
+    "exclude_trunc": {
+     "n": 5,
+     "note": "too few concepts for LOGO"
+    },
+    "exclude_thin_home": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.360733384262796,
+     "delta": 0.03330786860198626,
+     "ci90": [
+      -0.09455114465232498,
+      0.1684260733483024
+     ],
+     "n_groups_positive": 2
+    },
+    "exclude_low_coverage_lt_0.3": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.360733384262796,
+     "delta": 0.03330786860198626,
+     "ci90": [
+      -0.09455114465232498,
+      0.1684260733483024
+     ],
+     "n_groups_positive": 2
+    },
+    "gateway_variant_G_deg": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.28464476699770813,
+     "delta": -0.04278074866310161,
+     "ci90": [
+      -0.17793128556794152,
+      0.08804562049691446
+     ],
+     "n_groups_positive": 1
+    },
+    "gateway_variant_G_phimin": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.2849503437738731,
+     "delta": -0.042475171886936613,
+     "ci90": [
+      -0.12534734921831764,
+      0.027591917079200574
+     ],
+     "n_groups_positive": 2
+    },
+    "gateway_variant_G_btw": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.4190985485103132,
+     "delta": 0.09167303284950346,
+     "ci90": [
+      -0.07016200264599184,
+      0.2622588491347131
+     ],
+     "n_groups_positive": 1
+    },
+    "gateway_variant_G_A": {
+     "n": 34,
+     "base": 0.32742551566080974,
+     "cand": 0.36012223071046595,
+     "delta": 0.03269671504965621,
+     "ci90": [
+      -0.05708454810495633,
+      0.12133512391484462
+     ],
+     "n_groups_positive": 3
+    },
+    "m50": {
+     "n": 34,
+     "base": 0.3488158899923606,
+     "cand": 0.3714285714285714,
+     "delta": 0.022612681436210813,
+     "ci90": [
+      -0.11267950842308755,
+      0.16454355666014986
+     ],
+     "n_groups_positive": 1
+    },
+    "hurdle_N_lt_30": {
+     "n": 0,
+     "O1_rate": null,
+     "O3_rate": null
+    }
+   },
+   "field_level": {
+    "all_four_available": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.7050793650793651,
+     "auc_cand": 0.7873015873015874,
+     "delta_auc": 0.08222222222222231,
+     "ci90": [
+      0.020738117048658862,
+      0.1432228591251488
+     ],
+     "ci95": [
+      0.00805976430976427,
+      0.15293222402597403
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.6000000000000001
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7337662337662338,
+       "cand": 0.8961038961038961
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.9404761904761906
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7602040816326531,
+       "cand": 0.8673469387755103
+      }
+     }
+    },
+    "gateway_j": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.7050793650793651,
+     "auc_cand": 0.8076190476190476,
+     "delta_auc": 0.10253968253968249,
+     "ci90": [
+      0.04599478522469591,
+      0.15449500213522085
+     ],
+     "ci95": [
+      0.03384553272235451,
+      0.1673901012017709
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.55
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7337662337662338,
+       "cand": 0.922077922077922
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.9285714285714286
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7602040816326531,
+       "cand": 0.9030612244897959
+      }
+     }
+    },
+    "phi_home_j": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.7050793650793651,
+     "auc_cand": 0.7047619047619048,
+     "delta_auc": -0.0003174603174602719,
+     "ci90": [
+      -0.03383928571428574,
+      0.02715787588183425
+     ],
+     "ci95": [
+      -0.04487612612612619,
+      0.03481629080651441
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.6499999999999999
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7337662337662338,
+       "cand": 0.6883116883116883
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.8571428571428572
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7602040816326531,
+       "cand": 0.7755102040816326
+      }
+     }
+    },
+    "density_j": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.7050793650793651,
+     "auc_cand": 0.726984126984127,
+     "delta_auc": 0.02190476190476187,
+     "ci90": [
+      -0.02007057839858361,
+      0.06800517241379316
+     ],
+     "ci95": [
+      -0.030561594202898553,
+      0.08201236951236947
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.7
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7337662337662338,
+       "cand": 0.7142857142857143
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.880952380952381
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7602040816326531,
+       "cand": 0.7755102040816326
+      }
+     }
+    },
+    "size_controlled_gateway_j": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.6965079365079364,
+     "auc_cand": 0.7987301587301587,
+     "delta_auc": 0.10222222222222233,
+     "ci90": [
+      0.04104721533188146,
+      0.16282708817490577
+     ],
+     "ci95": [
+      0.028981799797775657,
+      0.17321771114310708
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.575
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7532467532467533,
+       "cand": 0.8961038961038961
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.9166666666666667
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7142857142857143,
+       "cand": 0.8928571428571429
+      }
+     }
+    },
+    "size_controlled_all_three": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.6965079365079364,
+     "auc_cand": 0.7815873015873015,
+     "delta_auc": 0.08507936507936509,
+     "ci90": [
+      0.01959967320261452,
+      0.15258645999740936
+     ],
+     "ci95": [
+      0.0036578172723651047,
+      0.1637858035371011
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.625
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7532467532467533,
+       "cand": 0.8701298701298701
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.9404761904761906
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7142857142857143,
+       "cand": 0.8775510204081634
+      }
+     }
+    },
+    "log_field_size_alone_added": {
+     "n_rows": 80,
+     "n_concepts": 28,
+     "prevalence": 0.5625,
+     "auc_base": 0.7050793650793651,
+     "auc_cand": 0.6965079365079364,
+     "delta_auc": -0.008571428571428674,
+     "ci90": [
+      -0.03658588479501819,
+      0.015130095598845704
+     ],
+     "ci95": [
+      -0.0420098141695703,
+      0.0210668563300141
+     ],
+     "per_group": {
+      "CS": {
+       "n_rows": 14,
+       "base": 0.6499999999999999,
+       "cand": 0.6499999999999999
+      },
+      "Eng": {
+       "n_rows": 18,
+       "base": 0.7337662337662338,
+       "cand": 0.7532467532467533
+      },
+      "BGM": {
+       "n_rows": 20,
+       "base": 0.8690476190476191,
+       "cand": 0.8690476190476191
+      },
+      "Med": {
+       "n_rows": 28,
+       "base": 0.7602040816326531,
+       "cand": 0.7142857142857143
+      }
+     }
+    },
+    "note": "I_j (insularity) unavailable: shared key below floor before the insularity stage"
+   },
+   "secondary_screens": {
+    "G_all": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.240488922841864,
+      "ci90": [
+       -0.4188532790332013,
+       -0.08672601975160257
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.11188811188811187,
+      "ci90": [
+       0.03376623376623388,
+       0.20982017982017978
+      ],
+      "n_groups_positive": 1
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "G_deg": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.04278074866310161,
+      "ci90": [
+       -0.17793128556794152,
+       0.08804562049691446
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.14918414918414913,
+      "ci90": [
+       0.05277777777777781,
+       0.26644736842105265
+      ],
+      "n_groups_positive": 3
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "G_btw": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": 0.09167303284950346,
+      "ci90": [
+       -0.07016200264599184,
+       0.2622588491347131
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.04895104895104896,
+      "ci90": [
+       -0.007792460950355695,
+       0.1183035714285714
+      ],
+      "n_groups_positive": 2
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "G_phimin": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.042475171886936613,
+      "ci90": [
+       -0.12534734921831764,
+       0.027591917079200574
+      ],
+      "n_groups_positive": 2
+     },
+     "O1": {
+      "delta": 0.15384615384615385,
+      "ci90": [
+       0.05833333333333335,
+       0.2722271825396826
+      ],
+      "n_groups_positive": 3
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "G_A": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": 0.03269671504965621,
+      "ci90": [
+       -0.05708454810495633,
+       0.12133512391484462
+      ],
+      "n_groups_positive": 3
+     },
+     "O1": {
+      "delta": 0.07459207459207462,
+      "ci90": [
+       0.01388888888888895,
+       0.15280122655122655
+      ],
+      "n_groups_positive": 3
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "REL_home": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": 0.008556149732620366,
+      "ci90": [
+       -0.13076298883848572,
+       0.1436501752378698
+      ],
+      "n_groups_positive": 2
+     },
+     "O1": {
+      "delta": 0.12121212121212122,
+      "ci90": [
+       0.03333333333333332,
+       0.22920386904761908
+      ],
+      "n_groups_positive": 3
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "RS": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": 0.008861726508785361,
+      "ci90": [
+       -0.01812570512638861,
+       0.042280707884011934
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": -0.009324009324009341,
+      "ci90": [
+       -0.02564102564102555,
+       0.0
+      ],
+      "n_groups_positive": 0
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "DOM_Physical": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.10970206264323912,
+      "ci90": [
+       -0.1931277864652404,
+       -0.03745923029506599
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.05128205128205132,
+      "ci90": [
+       0.015584415584415584,
+       0.09610389610389602
+      ],
+      "n_groups_positive": 1
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "DOM_Life": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.08922841864018333,
+      "ci90": [
+       -0.2124449320868226,
+       0.023641538754801267
+      ],
+      "n_groups_positive": 0
+     },
+     "O1": {
+      "delta": 0.03263403263403264,
+      "ci90": [
+       -0.09102049910873442,
+       0.1501501501501501
+      ],
+      "n_groups_positive": 0
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "DOM_Health": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.23896103896103893,
+      "ci90": [
+       -0.5531788166639521,
+       0.04454337332095108
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": -0.2261072261072261,
+      "ci90": [
+       -0.427157738095238,
+       -0.021018921018921003
+      ],
+      "n_groups_positive": 1
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "DOM_Social": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.022307104660045818,
+      "ci90": [
+       -0.09165383882644314,
+       0.034076570653582695
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.10256410256410264,
+      "ci90": [
+       0.0233591079972659,
+       0.2056572420634919
+      ],
+      "n_groups_positive": 2
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "GATEWAY_REACH": {
+     "label": "exploratory; not the pre-registered primary",
+     "O2r_m30": {
+      "delta": -0.21604278074866307,
+      "ci90": [
+       -0.4063776159728902,
+       -0.048421326890291536
+      ],
+      "n_groups_positive": 1
+     },
+     "O1": {
+      "delta": 0.009324009324009341,
+      "ci90": [
+       -0.014654708037061037,
+       0.03373015873015873
+      ],
+      "n_groups_positive": 1
+     },
+     "O3": {
+      "delta": 0.0,
+      "ci90": [
+       0.0,
+       0.0
+      ],
+      "n_groups_positive": 0
+     }
+    },
+    "joint_B5+G+REL_home+RS+G_all": {
+     "label": "exploratory joint composition model (insularity unavailable)",
+     "base": 0.32742551566080974,
+     "cand": 0.40840336134453775,
+     "delta": 0.08097784568372801,
+     "ci90": [
+      -0.0830778663396689,
+      0.23820362042705473
+     ],
+     "n_groups_positive": 1
+    }
+   },
+   "confirmation_signals": {
+    "B5_alone_oof_spearman_O2r_positive": true,
+    "entropy_W3_positive_with_O2r": 0.19511077158135978,
+    "reach_W3_positive_with_O2r": 0.41200114823521417
+   },
+   "status": "partial_data (credit floor); analysis complete on cached subset"
+  },
+  "next_field_entry": {
+   "n_rows": 1716,
+   "n_concept_steps": 80,
+   "entry_rate": 0.08100233100233101,
+   "short": {
+    "n_evaluable_concept_steps": 32,
+    "auc_density_mean": 0.6541136528172973,
+    "auc_density_ci95": [
+     0.5786007043331818,
+     0.7293090702793983
+    ],
+    "auc_size_mean": 0.7613774542369302,
+    "auc_size_ci95": [
+     0.6978846382725232,
+     0.8268384735005057
+    ],
+    "auc_phi_home_mean": 0.6063277640847384,
+    "density_minus_size_mean": -0.1072638014196329,
+    "density_minus_size_ci95": [
+     -0.20610431819671418,
+     -0.005960826296301612
+    ],
+    "per_group": {
+     "BGM": {
+      "n": 11,
+      "auc_density": 0.5826599326599327,
+      "auc_size": 0.7357237791448319
+     },
+     "CS": {
+      "n": 10,
+      "auc_density": 0.6390087207478512,
+      "auc_size": 0.7455750047054395
+     },
+     "Eng": {
+      "n": 4,
+      "auc_density": 0.8541666666666666,
+      "auc_size": 0.8264802631578947
+     },
+     "Med": {
+      "n": 7,
+      "auc_density": 0.6736605366784395,
+      "auc_size": 0.7870636950432349
+     }
+    },
+    "clogit": {
+     "vars": [
+      "density",
+      "log_size",
+      "phi_home"
+     ],
+     "coef_std": [
+      0.4268405918048954,
+      1.4632151910012963,
+      0.54663797201049
+     ],
+     "ci95": [
+      [
+       0.15248227074284182,
+       0.7655270329160947
+      ],
+      [
+       1.1489284817540564,
+       1.864661050804728
+      ],
+      [
+       0.2582352408057976,
+       0.8148840095074593
+      ]
+     ],
+     "n_boot_ok": 200
+    },
+    "auc_combined_mean_in_sample": 0.8157904667209209
+   },
+   "long": {
+    "n_evaluable_concept_steps": 29,
+    "auc_density_mean": 0.5700804571769128,
+    "auc_density_ci95": [
+     0.48799728446057095,
+     0.6485441627074794
+    ],
+    "auc_size_mean": 0.7212902103590157,
+    "auc_size_ci95": [
+     0.6436180321338649,
+     0.791410755052725
+    ],
+    "auc_phi_home_mean": 0.5558026365599494,
+    "density_minus_size_mean": -0.15120975318210295,
+    "density_minus_size_ci95": [
+     -0.27952143619180175,
+     -0.021034605844232734
+    ],
+    "per_group": {
+     "BGM": {
+      "n": 9,
+      "auc_density": 0.6465291314706519,
+      "auc_size": 0.7725768897552523
+     },
+     "CS": {
+      "n": 10,
+      "auc_density": 0.46796992481203004,
+      "auc_size": 0.7570582706766917
+     },
+     "Eng": {
+      "n": 6,
+      "auc_density": 0.6571424774056353,
+      "auc_size": 0.5947041847041847
+     },
+     "Med": {
+      "n": 4,
+      "auc_density": 0.5227542405851229,
+      "auc_size": 0.70635406940554
+     }
+    },
+    "clogit": {
+     "vars": [
+      "density",
+      "log_size",
+      "phi_home"
+     ],
+     "coef_std": [
+      0.38824816715115623,
+      1.2864591574398938,
+      0.28636155584256356
+     ],
+     "ci95": [
+      [
+       0.0849935978108084,
+       0.669991955446102
+      ],
+      [
+       0.9959992488816463,
+       1.6040434267330481
+      ],
+      [
+       -0.00982919890754018,
+       0.5277178633340573
+      ]
+     ],
+     "n_boot_ok": 200
+    },
+    "auc_combined_mean_in_sample": 0.7576890315329784
+   },
+   "all": {
+    "n_evaluable_concept_steps": 61,
+    "auc_density_mean": 0.6141634450538359,
+    "auc_density_ci95": [
+     0.5530705442708199,
+     0.666429919171968
+    ],
+    "auc_size_mean": 0.7423195841966101,
+    "auc_size_ci95": [
+     0.6995072571877826,
+     0.7840201866326646
+    ],
+    "auc_phi_home_mean": 0.5823076214909862,
+    "density_minus_size_mean": -0.12815613914277438,
+    "density_minus_size_ci95": [
+     -0.21867369658493876,
+     -0.045774902600509315
+    ],
+    "per_group": {
+     "BGM": {
+      "n": 20,
+      "auc_density": 0.6114010721247563,
+      "auc_size": 0.752307678919521
+     },
+     "CS": {
+      "n": 20,
+      "auc_density": 0.5534893227799407,
+      "auc_size": 0.7513166376910656
+     },
+     "Eng": {
+      "n": 10,
+      "auc_density": 0.7359521531100478,
+      "auc_size": 0.6874146160856688
+     },
+     "Med": {
+      "n": 11,
+      "auc_density": 0.6187855199172335,
+      "auc_size": 0.7577147402658911
+     }
+    },
+    "clogit": {
+     "vars": [
+      "density",
+      "log_size",
+      "phi_home"
+     ],
+     "coef_std": [
+      0.4155430903187254,
+      1.369002137913402,
+      0.40777282265124304
+     ],
+     "ci95": [
+      [
+       0.20882126063168518,
+       0.6736010813708425
+      ],
+      [
+       1.2184041341868659,
+       1.625072278910215
+      ],
+      [
+       0.16794288854006445,
+       0.6543768411473633
+      ]
+     ],
+     "n_boot_ok": 200
+    },
+    "auc_combined_mean_in_sample": 0.7843596654143368,
+    "perm_null": {
+     "mean": 0.5011409695367647,
+     "p95": 0.590804398336881,
+     "p_value": 0.022977022977022976
+    }
+   }
+  },
+  "single_indicator_table": [
+   {
+    "indicator": "log_count_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.12972725226950743,
+    "meta_spearman": 0.1303253716638056,
+    "meta_ci95_low": -0.29309185567726587,
+    "meta_ci95_high": 0.5110035196093977,
+    "I2": 0.012175525517070625,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.10334394242561099,
+    "raw_Eng": -0.5,
+    "raw_BGM": 0.18333333333333335,
+    "raw_Med": 0.5714285714285715
+   },
+   {
+    "indicator": "log_count_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.23776223776223776,
+    "meta_oriented_auc": 0.755580144273421,
+    "meta_ci95_low": 0.5401979379849621,
+    "meta_ci95_high": 0.8905193736952731,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.17857142857142858,
+    "raw_Eng": 0.2857142857142857,
+    "raw_BGM": 0.6153846153846154,
+    "raw_Med": 0.16666666666666663,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.7142857142857143,
+    "oriented_BGM": 0.3846153846153846,
+    "oriented_Med": 0.8333333333333334
+   },
+   {
+    "indicator": "log_count_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.7954545454545454,
+    "meta_oriented_auc": 0.6,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.6,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.6
+   },
+   {
+    "indicator": "share_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.13216195569136746,
+    "meta_spearman": 0.10721469131558083,
+    "meta_ci95_low": -0.35608318072071593,
+    "meta_ci95_high": 0.5282032462955798,
+    "I2": 0.18938273323072655,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.04242424242424241,
+    "raw_Eng": -0.5714285714285715,
+    "raw_BGM": 0.25,
+    "raw_Med": 0.5714285714285715
+   },
+   {
+    "indicator": "share_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.23310023310023312,
+    "meta_oriented_auc": 0.791395109593719,
+    "meta_ci95_low": 0.4984056691676685,
+    "meta_ci95_high": 0.9354198314880928,
+    "I2": 0.22599711625332916,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.03571428571428571,
+    "raw_Eng": 0.2857142857142857,
+    "raw_BGM": 0.6153846153846154,
+    "raw_Med": 0.1111111111111111,
+    "oriented_CS": 0.9642857142857143,
+    "oriented_Eng": 0.7142857142857143,
+    "oriented_BGM": 0.3846153846153846,
+    "oriented_Med": 0.8888888888888888
+   },
+   {
+    "indicator": "share_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.75,
+    "meta_oriented_auc": 0.65,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.65,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.65
+   },
+   {
+    "indicator": "growth_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.3576776165011459,
+    "meta_spearman": -0.34898849509884833,
+    "meta_ci95_low": -0.6656493811832149,
+    "meta_ci95_high": 0.07417059817769321,
+    "I2": 0.03592910983289953,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.006060606060606061,
+    "raw_Eng": -0.7857142857142859,
+    "raw_BGM": -0.16666666666666669,
+    "raw_Med": -0.5000000000000001
+   },
+   {
+    "indicator": "growth_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.6806526806526807,
+    "meta_oriented_auc": 0.6631429179398164,
+    "meta_ci95_low": 0.41194234068348645,
+    "meta_ci95_high": 0.8469147609841519,
+    "I2": 0.1937032468835473,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.6428571428571428,
+    "raw_Eng": 0.2857142857142857,
+    "raw_BGM": 0.9230769230769231,
+    "raw_Med": 0.7222222222222223,
+    "oriented_CS": 0.6428571428571428,
+    "oriented_Eng": 0.2857142857142857,
+    "oriented_BGM": 0.9230769230769231,
+    "oriented_Med": 0.7222222222222223
+   },
+   {
+    "indicator": "growth_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.3977272727272727,
+    "meta_oriented_auc": 0.6,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.6,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.6
+   },
+   {
+    "indicator": "accel_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.00015278838808250572,
+    "meta_spearman": -0.09239750529832058,
+    "meta_ci95_low": -0.4799265198151029,
+    "meta_ci95_high": 0.3253019753338506,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": 0.24848484848484845,
+    "raw_Eng": 0.0,
+    "raw_BGM": 0.0,
+    "raw_Med": -0.6428571428571429
+   },
+   {
+    "indicator": "accel_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7086247086247086,
+    "meta_oriented_auc": 0.6964903148756253,
+    "meta_ci95_low": 0.48362309410793836,
+    "meta_ci95_high": 0.8490041596882331,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.75,
+    "raw_Eng": 0.5714285714285714,
+    "raw_BGM": 0.5384615384615384,
+    "raw_Med": 0.7777777777777778,
+    "oriented_CS": 0.75,
+    "oriented_Eng": 0.5714285714285714,
+    "oriented_BGM": 0.5384615384615384,
+    "oriented_Med": 0.7777777777777778
+   },
+   {
+    "indicator": "accel_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.011363636363636354,
+    "meta_oriented_auc": 0.010000000000000002,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.0,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.0
+   },
+   {
+    "indicator": "burst_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.053174421424957104,
+    "meta_spearman": 0.039679921037565784,
+    "meta_ci95_low": -0.4401087668961301,
+    "meta_ci95_high": 0.5018435375295388,
+    "I2": 0.285197608636038,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.05454545454545454,
+    "raw_Eng": -0.642857142857143,
+    "raw_BGM": 0.08333333333333334,
+    "raw_Med": 0.5714285714285715
+   },
+   {
+    "indicator": "burst_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.2424242424242424,
+    "meta_oriented_auc": 0.8089569749905754,
+    "meta_ci95_low": 0.5905748371047846,
+    "meta_ci95_high": 0.9255425240186406,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.10714285714285714,
+    "raw_Eng": 0.21428571428571427,
+    "raw_BGM": 0.6153846153846154,
+    "raw_Med": 0.1111111111111111,
+    "oriented_CS": 0.8928571428571429,
+    "oriented_Eng": 0.7857142857142857,
+    "oriented_BGM": 0.3846153846153846,
+    "oriented_Med": 0.8888888888888888
+   },
+   {
+    "indicator": "burst_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.8295454545454545,
+    "meta_oriented_auc": 0.65,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.65,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.65
+   },
+   {
+    "indicator": "log_count_W5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.009931245225362872,
+    "meta_spearman": 0.01802626135824841,
+    "meta_ci95_low": -0.41549187080927985,
+    "meta_ci95_high": 0.4448708900353649,
+    "I2": 0.12086336396479468,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.05454545454545454,
+    "raw_Eng": -0.5714285714285715,
+    "raw_BGM": -0.06666666666666667,
+    "raw_Med": 0.5476190476190477
+   },
+   {
+    "indicator": "log_count_W5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.3216783216783217,
+    "meta_oriented_auc": 0.7196235036801822,
+    "meta_ci95_low": 0.5001357791024504,
+    "meta_ci95_high": 0.8681439278955151,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.17857142857142855,
+    "raw_Eng": 0.35714285714285715,
+    "raw_BGM": 0.6923076923076923,
+    "raw_Med": 0.2222222222222222,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.6428571428571428,
+    "oriented_BGM": 0.3076923076923077,
+    "oriented_Med": 0.7777777777777778
+   },
+   {
+    "indicator": "log_count_W5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.6704545454545454,
+    "meta_oriented_auc": 0.55,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.55,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.55
+   },
+   {
+    "indicator": "share_W5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.01665393430099312,
+    "meta_spearman": 0.0497271382253239,
+    "meta_ci95_low": -0.3710667840843087,
+    "meta_ci95_high": 0.4535781003294708,
+    "I2": 0.039389300223633336,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.006060606060606061,
+    "raw_Eng": -0.5714285714285715,
+    "raw_BGM": 0.16666666666666669,
+    "raw_Med": 0.5000000000000001
+   },
+   {
+    "indicator": "share_W5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.33799533799533793,
+    "meta_oriented_auc": 0.6996604546661099,
+    "meta_ci95_low": 0.47326965831202733,
+    "meta_ci95_high": 0.8579523996069837,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.17857142857142855,
+    "raw_Eng": 0.42857142857142855,
+    "raw_BGM": 0.8461538461538461,
+    "raw_Med": 0.25,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.5714285714285714,
+    "oriented_BGM": 0.15384615384615385,
+    "oriented_Med": 0.75
+   },
+   {
+    "indicator": "share_W5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.6363636363636364,
+    "meta_oriented_auc": 0.5,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.5,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.5
+   },
+   {
+    "indicator": "growth_W5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.44965622612681433,
+    "meta_spearman": -0.4860261760552953,
+    "meta_ci95_low": -0.7447543207709806,
+    "meta_ci95_high": -0.10027907510822975,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": -0.28484848484848485,
+    "raw_Eng": -0.7500000000000002,
+    "raw_BGM": -0.3666666666666667,
+    "raw_Med": -0.5952380952380953
+   },
+   {
+    "indicator": "growth_W5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.8018648018648019,
+    "meta_oriented_auc": 0.7855951926746385,
+    "meta_ci95_low": 0.48127853927474074,
+    "meta_ci95_high": 0.9353584505744442,
+    "I2": 0.309748956220782,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.8214285714285714,
+    "raw_Eng": 0.4285714285714286,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.888888888888889,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.4285714285714286,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.888888888888889
+   },
+   {
+    "indicator": "growth_W5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.17045454545454541,
+    "meta_oriented_auc": 0.35,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.35,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.35
+   },
+   {
+    "indicator": "accel_W5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.02857142857142857,
+    "meta_spearman": -0.02905684143987146,
+    "meta_ci95_low": -0.4412092683566893,
+    "meta_ci95_high": 0.39321833862075195,
+    "I2": 0.06084921298528283,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.006060606060606061,
+    "raw_Eng": 0.5714285714285715,
+    "raw_BGM": -0.06666666666666667,
+    "raw_Med": -0.523809523809524
+   },
+   {
+    "indicator": "accel_W5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7622377622377622,
+    "meta_oriented_auc": 0.8421636127961044,
+    "meta_ci95_low": 0.6135613422994518,
+    "meta_ci95_high": 0.9471762140541108,
+    "I2": 0.0797186529912121,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.8928571428571428,
+    "raw_Eng": 0.9285714285714286,
+    "raw_BGM": 0.38461538461538464,
+    "raw_Med": 0.888888888888889,
+    "oriented_CS": 0.8928571428571428,
+    "oriented_Eng": 0.9285714285714286,
+    "oriented_BGM": 0.38461538461538464,
+    "oriented_Med": 0.888888888888889
+   },
+   {
+    "indicator": "accel_W5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.03409090909090906,
+    "meta_oriented_auc": 0.010000000000000002,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.0,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.0
+   },
+   {
+    "indicator": "burst_W5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.12391138273491215,
+    "meta_spearman": -0.14564293210971987,
+    "meta_ci95_low": -0.5204181350393127,
+    "meta_ci95_high": 0.2761791562780815,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.22424242424242422,
+    "raw_Eng": -0.5714285714285715,
+    "raw_BGM": -0.08333333333333334,
+    "raw_Med": 0.28571428571428575
+   },
+   {
+    "indicator": "burst_W5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.44522144522144524,
+    "meta_oriented_auc": 0.5139522763610359,
+    "meta_ci95_low": 0.3010452716593396,
+    "meta_ci95_high": 0.7219133800297058,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.42857142857142855,
+    "raw_Eng": 0.2857142857142857,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.36111111111111116,
+    "oriented_CS": 0.5714285714285714,
+    "oriented_Eng": 0.7142857142857143,
+    "oriented_BGM": 0.0,
+    "oriented_Med": 0.36111111111111116
+   },
+   {
+    "indicator": "burst_W5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.5909090909090909,
+    "meta_oriented_auc": 0.5,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.5,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.5
+   },
+   {
+    "indicator": "growth_W5_B5",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.44965622612681433,
+    "meta_spearman": -0.4860261760552953,
+    "meta_ci95_low": -0.7447543207709806,
+    "meta_ci95_high": -0.10027907510822975,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": -0.28484848484848485,
+    "raw_Eng": -0.7500000000000002,
+    "raw_BGM": -0.3666666666666667,
+    "raw_Med": -0.5952380952380953
+   },
+   {
+    "indicator": "growth_W5_B5",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.8018648018648019,
+    "meta_oriented_auc": 0.7855951926746385,
+    "meta_ci95_low": 0.48127853927474074,
+    "meta_ci95_high": 0.9353584505744442,
+    "I2": 0.309748956220782,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.8214285714285714,
+    "raw_Eng": 0.4285714285714286,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.888888888888889,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.4285714285714286,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.888888888888889
+   },
+   {
+    "indicator": "growth_W5_B5",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.17045454545454541,
+    "meta_oriented_auc": 0.35,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.35,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.35
+   },
+   {
+    "indicator": "fields_gained_per_year_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.5006300062749833,
+    "meta_spearman": 0.43162301010699256,
+    "meta_ci95_low": 0.03165199138292876,
+    "meta_ci95_high": 0.712437572925188,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.2901732164091825,
+    "raw_Eng": 0.2364331218717302,
+    "raw_BGM": 0.46819109191731173,
+    "raw_Med": 0.670670706671425
+   },
+   {
+    "indicator": "fields_gained_per_year_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.506993006993007,
+    "meta_oriented_auc": 0.48261082974663305,
+    "meta_ci95_low": 0.28819164165357486,
+    "meta_ci95_high": 0.6824412374217429,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": 0.4821428571428571,
+    "raw_Eng": 0.5714285714285714,
+    "raw_BGM": 0.5,
+    "raw_Med": 0.4305555555555556,
+    "oriented_CS": 0.4821428571428571,
+    "oriented_Eng": 0.5714285714285714,
+    "oriented_BGM": 0.5,
+    "oriented_Med": 0.4305555555555556
+   },
+   {
+    "indicator": "fields_gained_per_year_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.056818181818181795,
+    "meta_oriented_auc": 0.175,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.175,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.175
+   },
+   {
+    "indicator": "entropy_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.19511077158135978,
+    "meta_spearman": 0.37436136314173435,
+    "meta_ci95_low": -0.0957383293692883,
+    "meta_ci95_high": 0.7079210220943339,
+    "I2": 0.21961510924753744,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.10303030303030303,
+    "raw_Eng": 0.7857142857142859,
+    "raw_BGM": 0.5666666666666667,
+    "raw_Med": 0.19047619047619052
+   },
+   {
+    "indicator": "entropy_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7738927738927739,
+    "meta_oriented_auc": 0.7176052788152667,
+    "meta_ci95_low": 0.4943965729337687,
+    "meta_ci95_high": 0.8684864796055312,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.6071428571428572,
+    "raw_Eng": 1.0,
+    "raw_BGM": 0.8461538461538461,
+    "raw_Med": 0.7222222222222222,
+    "oriented_CS": 0.6071428571428572,
+    "oriented_Eng": 1.0,
+    "oriented_BGM": 0.8461538461538461,
+    "oriented_Med": 0.7222222222222222
+   },
+   {
+    "indicator": "entropy_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.022727272727272707,
+    "meta_oriented_auc": 0.09999999999999998,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.09999999999999998,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.09999999999999998
+   },
+   {
+    "indicator": "reach_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.41200114823521417,
+    "meta_spearman": 0.23301801615990103,
+    "meta_ci95_low": -0.19049292021067188,
+    "meta_ci95_high": 0.5834025137719322,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.09440686400617011,
+    "raw_Eng": 0.3335621924974956,
+    "raw_BGM": 0.08475793795260131,
+    "raw_Med": 0.6626987024788349
+   },
+   {
+    "indicator": "reach_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.5151515151515151,
+    "meta_oriented_auc": 0.44762050646343626,
+    "meta_ci95_low": 0.25647529154641857,
+    "meta_ci95_high": 0.6556098387913432,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": 0.3571428571428571,
+    "raw_Eng": 0.6071428571428571,
+    "raw_BGM": 0.42307692307692313,
+    "raw_Med": 0.5,
+    "oriented_CS": 0.3571428571428571,
+    "oriented_Eng": 0.3928571428571429,
+    "oriented_BGM": 0.5769230769230769,
+    "oriented_Med": 0.5
+   },
+   {
+    "indicator": "reach_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.011363636363636354,
+    "meta_oriented_auc": 0.04999999999999999,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.04999999999999999,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.04999999999999999
+   },
+   {
+    "indicator": "offhome_share_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.12177234530175705,
+    "meta_spearman": 0.1499478539161535,
+    "meta_ci95_low": -0.27210886225129155,
+    "meta_ci95_high": 0.5236198826003177,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.24848484848484845,
+    "raw_Eng": 0.21428571428571433,
+    "raw_BGM": 0.26666666666666666,
+    "raw_Med": 0.4761904761904762
+   },
+   {
+    "indicator": "offhome_share_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7505827505827506,
+    "meta_oriented_auc": 0.6898913367598319,
+    "meta_ci95_low": 0.48233591435469453,
+    "meta_ci95_high": 0.8415636132769749,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.5357142857142857,
+    "raw_Eng": 0.8571428571428571,
+    "raw_BGM": 0.8461538461538461,
+    "raw_Med": 0.6666666666666667,
+    "oriented_CS": 0.5357142857142857,
+    "oriented_Eng": 0.8571428571428571,
+    "oriented_BGM": 0.8461538461538461,
+    "oriented_Med": 0.6666666666666667
+   },
+   {
+    "indicator": "offhome_share_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.04545454545454547,
+    "meta_oriented_auc": 0.15000000000000002,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.15000000000000002,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.15000000000000002
+   },
+   {
+    "indicator": "log_offhome_volume_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.2706008761595584,
+    "meta_spearman": 0.1531657127934283,
+    "meta_ci95_low": -0.4046792412808399,
+    "meta_ci95_high": 0.6279311436539312,
+    "I2": 0.4474386982026948,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.17021355223041806,
+    "raw_Eng": -0.4642857142857144,
+    "raw_BGM": 0.30125786715206027,
+    "raw_Med": 0.7380952380952381
+   },
+   {
+    "indicator": "log_offhome_volume_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.47319347319347316,
+    "meta_oriented_auc": 0.5004945509232213,
+    "meta_ci95_low": 0.2906800089651395,
+    "meta_ci95_high": 0.7101350676436402,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": 0.26785714285714285,
+    "raw_Eng": 0.5,
+    "raw_BGM": 0.8461538461538461,
+    "raw_Med": 0.3611111111111111,
+    "oriented_CS": 0.7321428571428572,
+    "oriented_Eng": 0.5,
+    "oriented_BGM": 0.15384615384615385,
+    "oriented_Med": 0.3611111111111111
+   },
+   {
+    "indicator": "log_offhome_volume_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.22159090909090912,
+    "meta_oriented_auc": 0.35,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.35,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.35
+   },
+   {
+    "indicator": "label_coverage_W3",
+    "family": "reference",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.37754010695187157,
+    "meta_spearman": -0.5013816931502366,
+    "meta_ci95_low": -0.7536614238051972,
+    "meta_ci95_high": -0.12033713297896512,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": -0.34545454545454546,
+    "raw_Eng": -0.4642857142857144,
+    "raw_BGM": -0.5333333333333333,
+    "raw_Med": -0.6666666666666669
+   },
+   {
+    "indicator": "label_coverage_W3",
+    "family": "reference",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.6317016317016316,
+    "meta_oriented_auc": 0.6240448184844418,
+    "meta_ci95_low": 0.4170024001973704,
+    "meta_ci95_high": 0.7938999304720565,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.7142857142857142,
+    "raw_Eng": 0.7142857142857142,
+    "raw_BGM": 0.6153846153846154,
+    "raw_Med": 0.5,
+    "oriented_CS": 0.7142857142857142,
+    "oriented_Eng": 0.7142857142857142,
+    "oriented_BGM": 0.6153846153846154,
+    "oriented_Med": 0.5
+   },
+   {
+    "indicator": "label_coverage_W3",
+    "family": "reference",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.9772727272727273,
+    "meta_oriented_auc": 0.99,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 1.0,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 1.0
+   },
+   {
+    "indicator": "G",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.29961802902979373,
+    "meta_spearman": 0.3746411901911472,
+    "meta_ci95_low": -0.2881700234489134,
+    "meta_ci95_high": 0.7947484226625916,
+    "I2": 0.604378924308739,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.35757575757575755,
+    "raw_Eng": 0.8214285714285715,
+    "raw_BGM": 0.6833333333333333,
+    "raw_Med": 0.09523809523809526
+   },
+   {
+    "indicator": "G",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.8368298368298369,
+    "meta_oriented_auc": 0.844248024069234,
+    "meta_ci95_low": 0.6387403521778651,
+    "meta_ci95_high": 0.9432385519396563,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.9285714285714286,
+    "raw_Eng": 0.7142857142857142,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.8333333333333334,
+    "oriented_CS": 0.9285714285714286,
+    "oriented_Eng": 0.7142857142857142,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.8333333333333334
+   },
+   {
+    "indicator": "G",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.06818181818181818,
+    "meta_oriented_auc": 0.04999999999999999,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.04999999999999999,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.04999999999999999
+   },
+   {
+    "indicator": "G_A",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.15844155844155844,
+    "meta_spearman": 0.2413305021784168,
+    "meta_ci95_low": -0.40843126511801003,
+    "meta_ci95_high": 0.7287703009883038,
+    "I2": 0.5921341482004799,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.43030303030303024,
+    "raw_Eng": 0.5,
+    "raw_BGM": 0.7666666666666667,
+    "raw_Med": -0.04761904761904763
+   },
+   {
+    "indicator": "G_A",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.8601398601398602,
+    "meta_oriented_auc": 0.8276839011772067,
+    "meta_ci95_low": 0.6167981365581134,
+    "meta_ci95_high": 0.9347846675475829,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.8571428571428571,
+    "raw_Eng": 0.6428571428571428,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.888888888888889,
+    "oriented_CS": 0.8571428571428571,
+    "oriented_Eng": 0.6428571428571428,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.888888888888889
+   },
+   {
+    "indicator": "G_A",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.13636363636363635,
+    "meta_oriented_auc": 0.15000000000000002,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.15000000000000002,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.15000000000000002
+   },
+   {
+    "indicator": "G_all",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.021848739495798315,
+    "meta_spearman": -0.13499878141318616,
+    "meta_ci95_low": -0.6182650655382615,
+    "meta_ci95_high": 0.4223393121993725,
+    "I2": 0.452559890777085,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.5393939393939393,
+    "raw_Eng": 0.5,
+    "raw_BGM": 0.2833333333333333,
+    "raw_Med": -0.5714285714285715
+   },
+   {
+    "indicator": "G_all",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.6876456876456877,
+    "meta_oriented_auc": 0.6946831955866509,
+    "meta_ci95_low": 0.4241325409599379,
+    "meta_ci95_high": 0.8754513806336837,
+    "I2": 0.22196668819812568,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.8928571428571428,
+    "raw_Eng": 0.3571428571428571,
+    "raw_BGM": 0.5384615384615384,
+    "raw_Med": 0.7777777777777779,
+    "oriented_CS": 0.8928571428571428,
+    "oriented_Eng": 0.3571428571428571,
+    "oriented_BGM": 0.5384615384615384,
+    "oriented_Med": 0.7777777777777779
+   },
+   {
+    "indicator": "G_all",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.48863636363636365,
+    "meta_oriented_auc": 0.35000000000000003,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.35000000000000003,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.35000000000000003
+   },
+   {
+    "indicator": "G_deg",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.21833460656990067,
+    "meta_spearman": 0.34022767124057013,
+    "meta_ci95_low": -0.5736232206184546,
+    "meta_ci95_high": 0.8767650935197837,
+    "I2": 0.814282081414314,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.22424242424242422,
+    "raw_Eng": 0.9642857142857145,
+    "raw_BGM": -0.45,
+    "raw_Med": 0.261904761904762
+   },
+   {
+    "indicator": "G_deg",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.8344988344988346,
+    "meta_oriented_auc": 0.8228971266684578,
+    "meta_ci95_low": 0.6015037451376483,
+    "meta_ci95_high": 0.9346531456741018,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 1.0,
+    "raw_Eng": 0.7142857142857143,
+    "raw_BGM": 0.9230769230769231,
+    "raw_Med": 0.8055555555555556,
+    "oriented_CS": 1.0,
+    "oriented_Eng": 0.7142857142857143,
+    "oriented_BGM": 0.9230769230769231,
+    "oriented_Med": 0.8055555555555556
+   },
+   {
+    "indicator": "G_deg",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.011363636363636354,
+    "meta_oriented_auc": 0.04999999999999999,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.04999999999999999,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.04999999999999999
+   },
+   {
+    "indicator": "G_btw",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.5132161955691368,
+    "meta_spearman": 0.3418839739534024,
+    "meta_ci95_low": -0.07386790268709979,
+    "meta_ci95_high": 0.6563940098551586,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.12727272727272726,
+    "raw_Eng": 0.39285714285714296,
+    "raw_BGM": 0.6333333333333333,
+    "raw_Med": 0.4761904761904762
+   },
+   {
+    "indicator": "G_btw",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7202797202797202,
+    "meta_oriented_auc": 0.7509968086949439,
+    "meta_ci95_low": 0.5291857563959578,
+    "meta_ci95_high": 0.8900249027477433,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.8214285714285714,
+    "raw_Eng": 0.5,
+    "raw_BGM": 1.0,
+    "raw_Med": 0.7777777777777778,
+    "oriented_CS": 0.8214285714285714,
+    "oriented_Eng": 0.5,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.7777777777777778
+   },
+   {
+    "indicator": "G_btw",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.10227272727272729,
+    "meta_oriented_auc": 0.04999999999999999,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.04999999999999999,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.04999999999999999
+   },
+   {
+    "indicator": "G_phimin",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.07899159663865546,
+    "meta_spearman": -0.22317724154519486,
+    "meta_ci95_low": -0.706430086938179,
+    "meta_ci95_high": 0.4019953890596013,
+    "I2": 0.5579744373146646,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.10303030303030303,
+    "raw_Eng": -0.7142857142857144,
+    "raw_BGM": 0.5499999999999999,
+    "raw_Med": -0.5952380952380953
+   },
+   {
+    "indicator": "G_phimin",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.2727272727272727,
+    "meta_oriented_auc": 0.7473825941139665,
+    "meta_ci95_low": 0.529979653970916,
+    "meta_ci95_high": 0.8858808713182538,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.25,
+    "raw_Eng": 0.0,
+    "raw_BGM": 0.15384615384615385,
+    "raw_Med": 0.33333333333333337,
+    "oriented_CS": 0.75,
+    "oriented_Eng": 1.0,
+    "oriented_BGM": 0.8461538461538461,
+    "oriented_Med": 0.6666666666666666
+   },
+   {
+    "indicator": "G_phimin",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 1.0,
+    "meta_oriented_auc": 0.99,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 1.0,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 1.0
+   },
+   {
+    "indicator": "REL_home",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": -0.24111849715109862,
+    "meta_spearman": -0.5165964624004289,
+    "meta_ci95_low": -0.7773597594341465,
+    "meta_ci95_high": -0.10432761509844964,
+    "I2": 0.14505322117682568,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": -0.14589733048321551,
+    "raw_Eng": -0.8571428571428573,
+    "raw_BGM": -0.6333333333333333,
+    "raw_Med": -0.3333333333333334
+   },
+   {
+    "indicator": "REL_home",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.6888111888111887,
+    "meta_oriented_auc": 0.6904015523189863,
+    "meta_ci95_low": 0.44060676103849855,
+    "meta_ci95_high": 0.8632670620959635,
+    "I2": 0.12899728675700445,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.7321428571428571,
+    "raw_Eng": 0.14285714285714285,
+    "raw_BGM": 0.7692307692307693,
+    "raw_Med": 0.7777777777777779,
+    "oriented_CS": 0.7321428571428571,
+    "oriented_Eng": 0.14285714285714285,
+    "oriented_BGM": 0.7692307692307693,
+    "oriented_Med": 0.7777777777777779
+   },
+   {
+    "indicator": "REL_home",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.2272727272727273,
+    "meta_oriented_auc": 0.09999999999999998,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.09999999999999998,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.09999999999999998
+   },
+   {
+    "indicator": "RS",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.12116119174942705,
+    "meta_spearman": 0.2715810637984768,
+    "meta_ci95_low": -0.21362410688666594,
+    "meta_ci95_high": 0.6493104940878526,
+    "I2": 0.2379395672912258,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": -0.24848484848484845,
+    "raw_Eng": 0.7500000000000002,
+    "raw_BGM": 0.43333333333333335,
+    "raw_Med": 0.1666666666666667
+   },
+   {
+    "indicator": "RS",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7738927738927739,
+    "meta_oriented_auc": 0.7030050403968816,
+    "meta_ci95_low": 0.4744030797103202,
+    "meta_ci95_high": 0.8612576461180905,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 4,
+    "raw_CS": 0.5357142857142857,
+    "raw_Eng": 1.0,
+    "raw_BGM": 0.8461538461538461,
+    "raw_Med": 0.75,
+    "oriented_CS": 0.5357142857142857,
+    "oriented_Eng": 1.0,
+    "oriented_BGM": 0.8461538461538461,
+    "oriented_Med": 0.75
+   },
+   {
+    "indicator": "RS",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.022727272727272707,
+    "meta_oriented_auc": 0.09999999999999998,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.09999999999999998,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.09999999999999998
+   },
+   {
+    "indicator": "GATEWAY_REACH",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.33955132657463555,
+    "meta_spearman": 0.4825962257960914,
+    "meta_ci95_low": -0.21725114735860385,
+    "meta_ci95_high": 0.8547422798751224,
+    "I2": 0.5070176664950656,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": null,
+    "raw_Eng": 0.40824829046386296,
+    "raw_BGM": 0.8215838362577492,
+    "raw_Med": -0.08247860988423225
+   },
+   {
+    "indicator": "GATEWAY_REACH",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.5477855477855479,
+    "meta_oriented_auc": 0.51842033690005,
+    "meta_ci95_low": 0.31953048956110713,
+    "meta_ci95_high": 0.7116394398461551,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.5,
+    "raw_Eng": 0.6428571428571428,
+    "raw_BGM": 0.6538461538461539,
+    "raw_Med": 0.4166666666666667,
+    "oriented_CS": 0.5,
+    "oriented_Eng": 0.6428571428571428,
+    "oriented_BGM": 0.6538461538461539,
+    "oriented_Med": 0.4166666666666667
+   },
+   {
+    "indicator": "GATEWAY_REACH",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.42045454545454547,
+    "meta_oriented_auc": 0.44999999999999996,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.45,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.45
+   },
+   {
+    "indicator": "DOM_Physical",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.0389908370831471,
+    "meta_spearman": 0.2359140810087048,
+    "meta_ci95_low": -0.2551842590609808,
+    "meta_ci95_high": 0.6302533168372135,
+    "I2": 0.25518793545617524,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.07878787878787878,
+    "raw_Eng": -0.25,
+    "raw_BGM": 0.7119666788018509,
+    "raw_Med": 0.30952380952380953
+   },
+   {
+    "indicator": "DOM_Physical",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.5477855477855478,
+    "meta_oriented_auc": 0.44614170395921077,
+    "meta_ci95_low": 0.25214578201615717,
+    "meta_ci95_high": 0.6580589466681258,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.5714285714285714,
+    "raw_Eng": 0.2857142857142857,
+    "raw_BGM": 0.6923076923076923,
+    "raw_Med": 0.6944444444444445,
+    "oriented_CS": 0.5714285714285714,
+    "oriented_Eng": 0.2857142857142857,
+    "oriented_BGM": 0.6923076923076923,
+    "oriented_Med": 0.30555555555555547
+   },
+   {
+    "indicator": "DOM_Physical",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.08522727272727273,
+    "meta_oriented_auc": 0.14999999999999997,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.14999999999999997,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.14999999999999997
+   },
+   {
+    "indicator": "DOM_Life",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.19348978000421693,
+    "meta_spearman": 0.18600082786940403,
+    "meta_ci95_low": -0.2484218622683123,
+    "meta_ci95_high": 0.558130088871883,
+    "I2": 0.04969028814248899,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": 0.42023031949290335,
+    "raw_Eng": 0.642857142857143,
+    "raw_BGM": -0.19999999999999998,
+    "raw_Med": -0.1666666666666667
+   },
+   {
+    "indicator": "DOM_Life",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.7703962703962703,
+    "meta_oriented_auc": 0.7334555115374485,
+    "meta_ci95_low": 0.4332287515671515,
+    "meta_ci95_high": 0.9083074219209596,
+    "I2": 0.15841786056320176,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.6964285714285714,
+    "raw_Eng": 1.0,
+    "raw_BGM": 0.15384615384615385,
+    "raw_Med": 0.8333333333333333,
+    "oriented_CS": 0.6964285714285714,
+    "oriented_Eng": 1.0,
+    "oriented_BGM": 0.15384615384615385,
+    "oriented_Med": 0.8333333333333333
+   },
+   {
+    "indicator": "DOM_Life",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.20454545454545459,
+    "meta_oriented_auc": 0.09999999999999998,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 0,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.09999999999999998,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.09999999999999998
+   },
+   {
+    "indicator": "DOM_Health",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.0998935106122367,
+    "meta_spearman": -0.13217690875461144,
+    "meta_ci95_low": -0.5373994929924362,
+    "meta_ci95_high": 0.32263209972447576,
+    "I2": 0.14702522549085087,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.07976060548818034,
+    "raw_Eng": 0.19702760155977517,
+    "raw_BGM": -0.6666666666666667,
+    "raw_Med": 0.09523809523809526
+   },
+   {
+    "indicator": "DOM_Health",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.4358974358974359,
+    "meta_oriented_auc": 0.307131029635722,
+    "meta_ci95_low": 0.14718027314561505,
+    "meta_ci95_high": 0.5323938410492299,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": 0.75,
+    "raw_Eng": 0.46428571428571425,
+    "raw_BGM": 0.6923076923076923,
+    "raw_Med": 0.2222222222222222,
+    "oriented_CS": 0.25,
+    "oriented_Eng": 0.5357142857142858,
+    "oriented_BGM": 0.3076923076923077,
+    "oriented_Med": 0.2222222222222222
+   },
+   {
+    "indicator": "DOM_Health",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.9431818181818182,
+    "meta_oriented_auc": 0.75,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.75,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.75
+   },
+   {
+    "indicator": "DOM_Social",
+    "family": "G-family",
+    "outcome": "O2r_m30",
+    "n": 34,
+    "pooled_spearman": 0.07151589325553696,
+    "meta_spearman": 0.23305391337398107,
+    "meta_ci95_low": -0.1904563387864219,
+    "meta_ci95_high": 0.5834275522748996,
+    "I2": 0.0,
+    "sign_consistency_k_of_4": 2,
+    "raw_CS": -0.04242424242424241,
+    "raw_Eng": -0.03571428571428572,
+    "raw_BGM": 0.26666666666666666,
+    "raw_Med": 0.6666666666666669
+   },
+   {
+    "indicator": "DOM_Social",
+    "family": "G-family",
+    "outcome": "O1",
+    "n": 46,
+    "pooled_raw_auc": 0.2785547785547785,
+    "meta_oriented_auc": 0.683842663181064,
+    "meta_ci95_low": 0.44803718536926046,
+    "meta_ci95_high": 0.8521520003323305,
+    "I2": 0.058575065671469195,
+    "sign_consistency_k_of_4": 3,
+    "raw_CS": 0.21428571428571427,
+    "raw_Eng": 0.5714285714285714,
+    "raw_BGM": 0.0,
+    "raw_Med": 0.33333333333333337,
+    "oriented_CS": 0.7857142857142857,
+    "oriented_Eng": 0.4285714285714286,
+    "oriented_BGM": 1.0,
+    "oriented_Med": 0.6666666666666666
+   },
+   {
+    "indicator": "DOM_Social",
+    "family": "G-family",
+    "outcome": "O3",
+    "n": 46,
+    "pooled_raw_auc": 0.4772727272727273,
+    "meta_oriented_auc": 0.55,
+    "meta_ci95_low": null,
+    "meta_ci95_high": null,
+    "I2": null,
+    "sign_consistency_k_of_4": 1,
+    "raw_CS": null,
+    "raw_Eng": null,
+    "raw_BGM": null,
+    "raw_Med": 0.55,
+    "oriented_CS": null,
+    "oriented_Eng": null,
+    "oriented_BGM": null,
+    "oriented_Med": 0.55
+   }
+  ],
+  "backbone_summary": {
+   "fields": [
+    "Agricultural and Biological Sciences",
+    "Arts and Humanities",
+    "Biochemistry, Genetics and Molecular Biology",
+    "Business, Management and Accounting",
+    "Chemical Engineering",
+    "Chemistry",
+    "Computer Science",
+    "Decision Sciences",
+    "Earth and Planetary Sciences",
+    "Economics, Econometrics and Finance",
+    "Energy",
+    "Engineering",
+    "Environmental Science",
+    "Immunology and Microbiology",
+    "Materials Science",
+    "Mathematics",
+    "Medicine",
+    "Neuroscience",
+    "Nursing",
+    "Pharmacology, Toxicology and Pharmaceutics",
+    "Physics and Astronomy",
+    "Psychology",
+    "Social Sciences",
+    "Veterinary",
+    "Dentistry",
+    "Health Professions"
+   ],
+   "gateway_eig": [
+    0.28409988122313307,
+    0.025349103034112738,
+    0.4190233151107485,
+    0.07711565487979828,
+    0.9638951510798157,
+    1.0,
+    0.09720895637939932,
+    0.1307232451559641,
+    0.2047677761595473,
+    0.14304487803021942,
+    0.6216695741835017,
+    0.2427178906876991,
+    0.29450596382149474,
+    0.2764936642372434,
+    0.9592210826637103,
+    0.17001340383278957,
+    0.29972250305054576,
+    0.17564306575659852,
+    0.22820117039661722,
+    0.5287866107767778,
+    0.4858337648309395,
+    0.07011426393398373,
+    0.028155336899590985,
+    0.321487585893723,
+    0.11433273705696058,
+    0.11430136139653603
+   ],
+   "gateway_eig_cv": 0.8772528943021967,
+   "n_positive_edges": 78,
+   "not_computed": {
+    "SLICE_B": "skipped (degrade ladder step 5; shared key below floor)",
+    "insularity_I_j": "not computed: shared OpenAlex key fell below the 1,000-credit floor before the insularity stage; INS features are absent",
+    "phi_cit": "not computed (by-product of insularity)"
+   }
+  },
+  "p5_primary_topic_look": "not computed (shared key below the 1,000-credit floor)",
+  "validations": {
+   "rarefaction_vs_mc": {
+    "zinc finger nuclease": {
+     "exact": 3.7281670795026987,
+     "monte_carlo_1e5": 3.72936
+    },
+    "sentiment analysis": {
+     "exact": 4.2128386881461255,
+     "monte_carlo_1e5": 4.20926
+    },
+    "biosimilar": {
+     "exact": 4.8628335470214274,
+     "monte_carlo_1e5": 4.86104
+    }
+   },
+   "O2r_range_ok": true,
+   "label_coverage_early_range": [
+    0.411214953271028,
+    0.9444444444444444
+   ],
+   "api_snapshot_label_agreement": 0.999400479616307
+  },
+  "credits": {
+   "cumulative": 286.0,
+   "by_subbudget": {
+    "ground": 82.0,
+    "smoke": 3.0,
+    "backbone": 28.0,
+    "home_labels": 56.0,
+    "source_lookup": 37.0,
+    "feat_years": 46.0,
+    "outcome_win": 34.0
+   },
+   "last_remaining": 986.0,
+   "n_network_calls_this_process": 0,
+   "n_cache_hits_this_process": 153
+  },
+  "deviations": [
+   "Shared OpenAlex key had ~2,180 credits left at start (five artifacts; reset ~11.7 h later). It fell below the 1,000-credit floor at 12:26 after 286 credits used by this artifact; per plan all pulling stopped there.",
+   "Per-year label pulls pooled into windows A=t0..t0+1, B=t0+2, C=t0+3..t0+4, D=t0+6..t0+8 (4 group_by calls per concept); only the top-200 sources per window were pulled (max_pages=1, degrade-ladder steps 3-4).",
+   "Window C (t0+3..t0+4) was never pulled (floor reached): the label-based B5 components (off-home share, entropy, reach) use W3=t0..t0+2 instead of W5; log_count_W5 and growth_W5=log(n[t0+4]/n[t0+1]) use the free yearly counts as specified. Field-retention rows use W3 (>=5 labelled papers in t0..t0+2) and share_j(W3).",
+   "Outcome window D pulled for 34 of 46 dev concepts (the first ones in the seeded order: an unbiased subset); O1 and O3 need only yearly counts and use all 46 dev concepts.",
+   "Sources in D not looked up via the API before the floor were labelled with the same >=40% topic-profile rule from the free OpenAlex S3 sources snapshot (2026-09-23); API-vs-snapshot label agreement on the overlap: 0.9994.",
+   "Insularity I_j, phi_cit, SLICE_B, and the P5 primary_topic look were not computed (floor reached). INS features and the B5+G+INS joint model are absent; gateway sensitivities use weighted degree, betweenness and a phi_min (Hidalgo proximity) eigenvector instead of SLICE_B/phi_cit.",
+   "Alias hygiene: 'NOTES' dropped, 'natural orifice translumenal endoscopic surgery' added (grounding_log.json).",
+   "Probe anchors differ from the probe snapshot because S0 adds type:article|review,is_paratext:false (compressed sensing 2007: 37 vs 120 in the probe's unfiltered query); t0 shifts accordingly.",
+   "Field retention '>=3 papers/year' operationalised as >=9 labelled papers pooled over t0+6..t0+8.",
+   "Rao-Stirling uses d = 1 - phi_min (co-assignment proximity), not citation cosine."
+  ],
+  "runtime_s": 306.3
+ },
+ "datasets": [
+  {
+   "dataset": "P78_dev_O2r_m30_rarefied_venue_breadth",
+   "examples": [
+    {
+     "input": "{\"concept\": \"zinc finger nuclease\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.056245805348308, \"growth_W5_B5\": 1.3862943611198906, \"offhome_share_W3\": 0.17647058823529413, \"entropy_W3\": 0.6157672965598221, \"reach_W3\": 3.0, \"G\": 0.26607667973879245, \"G_missing\": 0.0}",
+     "output": "3.7281670795026987",
+     "predict_baseline": "3.591614",
+     "predict_our_method": "3.744718",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"sentiment analysis\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.834810737062605, \"growth_W5_B5\": 1.6236225474260568, \"offhome_share_W3\": 0.29545454545454547, \"entropy_W3\": 1.0237062533831107, \"reach_W3\": 3.0, \"G\": 0.1014606362132644, \"G_missing\": 0.0}",
+     "output": "4.2128386881461255",
+     "predict_baseline": "3.604962",
+     "predict_our_method": "3.129905",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"biosimilar\", \"t0\": 2006, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.021023349349527, \"growth_W5_B5\": 0.7683706017975328, \"offhome_share_W3\": 0.18518518518518517, \"entropy_W3\": 0.7437121829506829, \"reach_W3\": 5.0, \"G\": 0.29094152806425466, \"G_missing\": 0.0}",
+     "output": "4.8628335470214274",
+     "predict_baseline": "4.388694",
+     "predict_our_method": "4.526762",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"smart grid\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 8.22764270790443, \"growth_W5_B5\": 1.8004931491968095, \"offhome_share_W3\": 0.2073732718894009, \"entropy_W3\": 0.7559651060129727, \"reach_W3\": 5.0, \"G\": 0.07891811383281373, \"G_missing\": 0.0}",
+     "output": "2.786337053823176",
+     "predict_baseline": "3.844739",
+     "predict_our_method": "3.633806",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cancer stem cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology;Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.78897174299217, \"growth_W5_B5\": 2.0104486701928845, \"offhome_share_W3\": 0.06976744186046512, \"entropy_W3\": 0.9959685964662067, \"reach_W3\": 5.0, \"G\": 0.17482584837008738, \"G_missing\": 0.0}",
+     "output": "2.451660331552959",
+     "predict_baseline": "3.754777",
+     "predict_our_method": "3.714056",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"mashup\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.706862336602747, \"growth_W5_B5\": 0.4315762521118502, \"offhome_share_W3\": 0.5388888888888889, \"entropy_W3\": 1.4196992542842217, \"reach_W3\": 8.0, \"G\": 0.08609195526953034, \"G_missing\": 0.0}",
+     "output": "6.03004343441261",
+     "predict_baseline": "5.187525",
+     "predict_our_method": "4.405830",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"microbial fuel cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8998973535824915, \"growth_W5_B5\": 1.2264456601779945, \"offhome_share_W3\": 0.6666666666666666, \"entropy_W3\": 1.4068566111600327, \"reach_W3\": 4.0, \"G\": 0.33112222354664156, \"G_missing\": 0.0}",
+     "output": "5.146310477042169",
+     "predict_baseline": "4.335437",
+     "predict_our_method": "5.017090",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"DNA barcoding\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.5998704992128365, \"growth_W5_B5\": 1.2172982589230854, \"offhome_share_W3\": 0.5654761904761905, \"entropy_W3\": 1.2957538164914952, \"reach_W3\": 4.0, \"G\": 0.28331690548561644, \"G_missing\": 0.0}",
+     "output": "4.28826796610367",
+     "predict_baseline": "4.176465",
+     "predict_our_method": "4.792587",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"pandemic H1N1\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.290292591224315, \"growth_W5_B5\": -1.1303065903770249, \"offhome_share_W3\": 0.20498220640569395, \"entropy_W3\": 0.7856535607034607, \"reach_W3\": 9.0, \"G\": 0.1776339508729787, \"G_missing\": 0.0}",
+     "output": "6.430541175323941",
+     "predict_baseline": "5.171160",
+     "predict_our_method": "5.328361",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"latent Dirichlet allocation\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.429345628954441, \"growth_W5_B5\": 1.824549292051046, \"offhome_share_W3\": 0.25, \"entropy_W3\": 0.9358789291911354, \"reach_W3\": 3.0, \"G\": 0.21820795993754538, \"G_missing\": 0.0}",
+     "output": "5.456927538068247",
+     "predict_baseline": "3.413291",
+     "predict_our_method": "3.243223",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"social tagging\", \"t0\": 2006, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.683579767338681, \"growth_W5_B5\": 1.2335316065674804, \"offhome_share_W3\": 0.18604651162790697, \"entropy_W3\": 0.7261859821965022, \"reach_W3\": 4.0, \"G\": 0.16512453959518053, \"G_missing\": 0.0}",
+     "output": "5.056432167800891",
+     "predict_baseline": "3.494049",
+     "predict_our_method": "3.177605",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"synthetic biology\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.525029657843462, \"growth_W5_B5\": 1.7303905228517629, \"offhome_share_W3\": 0.2422360248447205, \"entropy_W3\": 1.011080051381001, \"reach_W3\": 7.0, \"G\": 0.36949864991606524, \"G_missing\": 0.0}",
+     "output": "5.267971679201736",
+     "predict_baseline": "3.812813",
+     "predict_our_method": "4.108308",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"long noncoding RNA\", \"t0\": 2008, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.16541785423142, \"growth_W5_B5\": 2.133962380558253, \"offhome_share_W3\": 0.3707865168539326, \"entropy_W3\": 1.0075511065784513, \"reach_W3\": 5.0, \"G\": 0.2710479884342106, \"G_missing\": 0.0}",
+     "output": "2.873602598106447",
+     "predict_baseline": "3.535814",
+     "predict_our_method": "3.649729",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"comparative effectiveness research\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.32052696227274, \"growth_W5_B5\": 0.14201800650184135, \"offhome_share_W3\": 0.3426086956521739, \"entropy_W3\": 1.1229804009225564, \"reach_W3\": 9.0, \"G\": 0.14584008829608922, \"G_missing\": 0.0}",
+     "output": "5.164105404842837",
+     "predict_baseline": "4.860360",
+     "predict_our_method": "4.718467",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"sirtuin\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.627621113690637, \"growth_W5_B5\": 1.0986122886681098, \"offhome_share_W3\": 0.42857142857142855, \"entropy_W3\": 1.0922416985061851, \"reach_W3\": 5.0, \"G\": 0.26970047447431816, \"G_missing\": 0.0}",
+     "output": "4.0295062221647715",
+     "predict_baseline": "4.206655",
+     "predict_our_method": "4.429945",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"next-generation sequencing\", \"t0\": 2005, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.139884552226255, \"growth_W5_B5\": 2.8838143573500057, \"offhome_share_W3\": 0.32075471698113206, \"entropy_W3\": 0.812937597322811, \"reach_W3\": 3.0, \"G\": 0.3777870776013661, \"G_missing\": 0.0}",
+     "output": "3.686716140290592",
+     "predict_baseline": "3.086315",
+     "predict_our_method": "3.291497",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"takotsubo cardiomyopathy\", \"t0\": 2004, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.846438775057724, \"growth_W5_B5\": 1.201266442728193, \"offhome_share_W3\": 0.03296703296703297, \"entropy_W3\": 0.16589319843770653, \"reach_W3\": 2.0, \"G\": 0.056881136952047516, \"G_missing\": 0.0}",
+     "output": "1.3224439629667977",
+     "predict_baseline": "3.782858",
+     "predict_our_method": "3.653944",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"energy harvesting\", \"t0\": 2004, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.293419278846481, \"growth_W5_B5\": 1.089801658985955, \"offhome_share_W3\": 0.4107142857142857, \"entropy_W3\": 1.6110672095808138, \"reach_W3\": 10.0, \"G\": 0.44990678785210414, \"G_missing\": 0.0}",
+     "output": "4.357279317086195",
+     "predict_baseline": "4.748335",
+     "predict_our_method": "5.100078",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"extreme learning machine\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.976350909297934, \"growth_W5_B5\": 1.7363296642887243, \"offhome_share_W3\": 0.38636363636363635, \"entropy_W3\": 1.2559012429427356, \"reach_W3\": 5.0, \"G\": 0.2469986172476866, \"G_missing\": 0.0}",
+     "output": "4.423351046616491",
+     "predict_baseline": "4.007973",
+     "predict_our_method": "3.849550",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"wireless body area network\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 5.905361848054571, \"growth_W5_B5\": 0.6505875661411494, \"offhome_share_W3\": 0.4230769230769231, \"entropy_W3\": 1.0360349171031413, \"reach_W3\": 3.0, \"G\": 0.08005312373965433, \"G_missing\": 0.0}",
+     "output": "3.4846061434853715",
+     "predict_baseline": "4.619856",
+     "predict_our_method": "4.374625",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"learning to rank\", \"t0\": 2009, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.3706380281276624, \"growth_W5_B5\": 0.2657031657330057, \"offhome_share_W3\": 0.19672131147540983, \"entropy_W3\": 0.8483007367283925, \"reach_W3\": 4.0, \"G\": 0.1897809898877655, \"G_missing\": 0.0}",
+     "output": "4.410906353780082",
+     "predict_baseline": "4.295561",
+     "predict_our_method": "4.079354",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"service-oriented architecture\", \"t0\": 2003, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 7.111512116496157, \"growth_W5_B5\": 1.5867526296030168, \"offhome_share_W3\": 0.2911392405063291, \"entropy_W3\": 0.919722154654944, \"reach_W3\": 4.0, \"G\": 0.16719872727902194, \"G_missing\": 0.0}",
+     "output": "4.139942502193179",
+     "predict_baseline": "3.347495",
+     "predict_our_method": "3.460742",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"piRNA\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.030685260261263, \"growth_W5_B5\": 0.4886640519631383, \"offhome_share_W3\": 0.21212121212121213, \"entropy_W3\": 0.8544726318490401, \"reach_W3\": 6.0, \"G\": 0.19761297580879908, \"G_missing\": 0.0}",
+     "output": "3.9151259472794946",
+     "predict_baseline": "4.334185",
+     "predict_our_method": "4.296566",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"lipidomics\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8522024797744745, \"growth_W5_B5\": 0.6632942174102642, \"offhome_share_W3\": 0.3902439024390244, \"entropy_W3\": 1.2097442850762246, \"reach_W3\": 6.0, \"G\": 0.4822980562448042, \"G_missing\": 0.0}",
+     "output": "4.89075790319387",
+     "predict_baseline": "4.558265",
+     "predict_our_method": "5.473976",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"network coding\", \"t0\": 2004, \"home\": \"Computer Science;Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.0330862217988015, \"growth_W5_B5\": 1.8584508437267273, \"offhome_share_W3\": 0.06666666666666667, \"entropy_W3\": 0.9456622937972912, \"reach_W3\": 3.0, \"G\": 0.14918856825726218, \"G_missing\": 0.0}",
+     "output": "2.9852231913163836",
+     "predict_baseline": "3.813724",
+     "predict_our_method": "3.710069",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"severe acute respiratory syndrome\", \"t0\": 2003, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.60922527686273, \"growth_W5_B5\": -1.0887234565388626, \"offhome_share_W3\": 0.23359173126614988, \"entropy_W3\": 0.9074623092632317, \"reach_W3\": 16.0, \"G\": 0.30742537420969035, \"G_missing\": 0.0}",
+     "output": "4.582567175883152",
+     "predict_baseline": "5.973104",
+     "predict_our_method": "5.881142",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cognitive radio\", \"t0\": 2005, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 7.327123292259293, \"growth_W5_B5\": 1.6904416965871873, \"offhome_share_W3\": 0.4857142857142857, \"entropy_W3\": 1.0893353160291837, \"reach_W3\": 4.0, \"G\": 0.06929273809047146, \"G_missing\": 0.0}",
+     "output": "2.839376780859342",
+     "predict_baseline": "4.215187",
+     "predict_our_method": "3.937824",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"MapReduce\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.703188113240863, \"growth_W5_B5\": 1.8568460857479414, \"offhome_share_W3\": 0.3247863247863248, \"entropy_W3\": 1.0364183147157895, \"reach_W3\": 5.0, \"G\": 0.1822096225202417, \"G_missing\": 0.0}",
+     "output": "3.235279679259633",
+     "predict_baseline": "3.494859",
+     "predict_our_method": "3.345383",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cyber-physical system\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.093569770045136, \"growth_W5_B5\": 2.017199232802615, \"offhome_share_W3\": 0.28846153846153844, \"entropy_W3\": 0.8490909315641008, \"reach_W3\": 4.0, \"G\": 0.2627327250112661, \"G_missing\": 0.0}",
+     "output": "3.1471912251602285",
+     "predict_baseline": "3.166724",
+     "predict_our_method": "3.256651",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"induced pluripotent stem cell\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 7.762596048540069, \"growth_W5_B5\": 1.9669233386541296, \"offhome_share_W3\": 0.48218029350104824, \"entropy_W3\": 1.0458743556954981, \"reach_W3\": 7.0, \"G\": 0.2763799398747632, \"G_missing\": 0.0}",
+     "output": "3.2933565921524908",
+     "predict_baseline": "3.633540",
+     "predict_our_method": "3.924909",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"carbon capture and storage\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.486160788944089, \"growth_W5_B5\": 1.1952391243571814, \"offhome_share_W3\": 0.4485981308411215, \"entropy_W3\": 1.3792680740893308, \"reach_W3\": 6.0, \"G\": 0.18214603415894895, \"G_missing\": 0.0}",
+     "output": "5.104173606384216",
+     "predict_baseline": "4.636428",
+     "predict_our_method": "4.533697",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"vehicular ad hoc network\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.6293632534374485, \"growth_W5_B5\": 1.5629178967992075, \"offhome_share_W3\": 0.56, \"entropy_W3\": 1.1091414422754515, \"reach_W3\": 3.0, \"G\": 0.07930266867793341, \"G_missing\": 0.0}",
+     "output": "3.0090877234841766",
+     "predict_baseline": "4.258749",
+     "predict_our_method": "3.984315",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"compressed sensing\", \"t0\": 2007, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.254177846456518, \"growth_W5_B5\": 2.0646264558946954, \"offhome_share_W3\": 0.8064516129032258, \"entropy_W3\": 1.7026530587568782, \"reach_W3\": 8.0, \"G\": 0.16891654493490646, \"G_missing\": 0.0}",
+     "output": "4.7787889645378865",
+     "predict_baseline": "3.780784",
+     "predict_our_method": "3.525178",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"internet of things\", \"t0\": 2005, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.204006687076795, \"growth_W5_B5\": 0.8873031950009027, \"offhome_share_W3\": 0.6571428571428571, \"entropy_W3\": 1.7136813826288384, \"reach_W3\": 6.0, \"G\": 0.19848425883699003, \"G_missing\": 0.0}",
+     "output": "2.9474776698860854",
+     "predict_baseline": "5.466292",
+     "predict_our_method": "4.769039",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O2r_m30",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    }
+   ]
+  },
+  {
+   "dataset": "P78_dev_O1_sustained_uptake",
+   "examples": [
+    {
+     "input": "{\"concept\": \"zinc finger nuclease\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.056245805348308, \"growth_W5_B5\": 1.3862943611198906, \"offhome_share_W3\": 0.17647058823529413, \"entropy_W3\": 0.6157672965598221, \"reach_W3\": 3.0, \"G\": 0.26607667973879245, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.891702",
+     "predict_our_method": "0.938825",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"sentiment analysis\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.834810737062605, \"growth_W5_B5\": 1.6236225474260568, \"offhome_share_W3\": 0.29545454545454547, \"entropy_W3\": 1.0237062533831107, \"reach_W3\": 3.0, \"G\": 0.1014606362132644, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.964834",
+     "predict_our_method": "0.909464",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"biosimilar\", \"t0\": 2006, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.021023349349527, \"growth_W5_B5\": 0.7683706017975328, \"offhome_share_W3\": 0.18518518518518517, \"entropy_W3\": 0.7437121829506829, \"reach_W3\": 5.0, \"G\": 0.29094152806425466, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.417460",
+     "predict_our_method": "0.656513",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"smart grid\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 8.22764270790443, \"growth_W5_B5\": 1.8004931491968095, \"offhome_share_W3\": 0.2073732718894009, \"entropy_W3\": 0.7559651060129727, \"reach_W3\": 5.0, \"G\": 0.07891811383281373, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.489592",
+     "predict_our_method": "0.120115",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cancer stem cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology;Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.78897174299217, \"growth_W5_B5\": 2.0104486701928845, \"offhome_share_W3\": 0.06976744186046512, \"entropy_W3\": 0.9959685964662067, \"reach_W3\": 5.0, \"G\": 0.17482584837008738, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.879135",
+     "predict_our_method": "0.775079",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"mashup\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.706862336602747, \"growth_W5_B5\": 0.4315762521118502, \"offhome_share_W3\": 0.5388888888888889, \"entropy_W3\": 1.4196992542842217, \"reach_W3\": 8.0, \"G\": 0.08609195526953034, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.932321",
+     "predict_our_method": "0.734513",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"microbial fuel cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8998973535824915, \"growth_W5_B5\": 1.2264456601779945, \"offhome_share_W3\": 0.6666666666666666, \"entropy_W3\": 1.4068566111600327, \"reach_W3\": 4.0, \"G\": 0.33112222354664156, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.957225",
+     "predict_our_method": "0.991810",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"DNA barcoding\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.5998704992128365, \"growth_W5_B5\": 1.2172982589230854, \"offhome_share_W3\": 0.5654761904761905, \"entropy_W3\": 1.2957538164914952, \"reach_W3\": 4.0, \"G\": 0.28331690548561644, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.844273",
+     "predict_our_method": "0.958346",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"pandemic H1N1\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.290292591224315, \"growth_W5_B5\": -1.1303065903770249, \"offhome_share_W3\": 0.20498220640569395, \"entropy_W3\": 0.7856535607034607, \"reach_W3\": 9.0, \"G\": 0.1776339508729787, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000795",
+     "predict_our_method": "0.001488",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"latent Dirichlet allocation\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.429345628954441, \"growth_W5_B5\": 1.824549292051046, \"offhome_share_W3\": 0.25, \"entropy_W3\": 0.9358789291911354, \"reach_W3\": 3.0, \"G\": 0.21820795993754538, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.975418",
+     "predict_our_method": "0.975515",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"social tagging\", \"t0\": 2006, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.683579767338681, \"growth_W5_B5\": 1.2335316065674804, \"offhome_share_W3\": 0.18604651162790697, \"entropy_W3\": 0.7261859821965022, \"reach_W3\": 4.0, \"G\": 0.16512453959518053, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.863547",
+     "predict_our_method": "0.805361",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"synthetic biology\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.525029657843462, \"growth_W5_B5\": 1.7303905228517629, \"offhome_share_W3\": 0.2422360248447205, \"entropy_W3\": 1.011080051381001, \"reach_W3\": 7.0, \"G\": 0.36949864991606524, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.734530",
+     "predict_our_method": "0.925836",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"long noncoding RNA\", \"t0\": 2008, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.16541785423142, \"growth_W5_B5\": 2.133962380558253, \"offhome_share_W3\": 0.3707865168539326, \"entropy_W3\": 1.0075511065784513, \"reach_W3\": 5.0, \"G\": 0.2710479884342106, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.914440",
+     "predict_our_method": "0.957974",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"comparative effectiveness research\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.32052696227274, \"growth_W5_B5\": 0.14201800650184135, \"offhome_share_W3\": 0.3426086956521739, \"entropy_W3\": 1.1229804009225564, \"reach_W3\": 9.0, \"G\": 0.14584008829608922, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.164691",
+     "predict_our_method": "0.090902",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"sirtuin\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.627621113690637, \"growth_W5_B5\": 1.0986122886681098, \"offhome_share_W3\": 0.42857142857142855, \"entropy_W3\": 1.0922416985061851, \"reach_W3\": 5.0, \"G\": 0.26970047447431816, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.901401",
+     "predict_our_method": "0.952499",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"next-generation sequencing\", \"t0\": 2005, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.139884552226255, \"growth_W5_B5\": 2.8838143573500057, \"offhome_share_W3\": 0.32075471698113206, \"entropy_W3\": 0.812937597322811, \"reach_W3\": 3.0, \"G\": 0.3777870776013661, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.991689",
+     "predict_our_method": "0.998241",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"takotsubo cardiomyopathy\", \"t0\": 2004, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.846438775057724, \"growth_W5_B5\": 1.201266442728193, \"offhome_share_W3\": 0.03296703296703297, \"entropy_W3\": 0.16589319843770653, \"reach_W3\": 2.0, \"G\": 0.056881136952047516, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.188959",
+     "predict_our_method": "0.068499",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"energy harvesting\", \"t0\": 2004, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.293419278846481, \"growth_W5_B5\": 1.089801658985955, \"offhome_share_W3\": 0.4107142857142857, \"entropy_W3\": 1.6110672095808138, \"reach_W3\": 10.0, \"G\": 0.44990678785210414, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.920357",
+     "predict_our_method": "0.996809",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"extreme learning machine\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.976350909297934, \"growth_W5_B5\": 1.7363296642887243, \"offhome_share_W3\": 0.38636363636363635, \"entropy_W3\": 1.2559012429427356, \"reach_W3\": 5.0, \"G\": 0.2469986172476866, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.985447",
+     "predict_our_method": "0.986431",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"wireless body area network\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 5.905361848054571, \"growth_W5_B5\": 0.6505875661411494, \"offhome_share_W3\": 0.4230769230769231, \"entropy_W3\": 1.0360349171031413, \"reach_W3\": 3.0, \"G\": 0.08005312373965433, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.714129",
+     "predict_our_method": "0.331590",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"learning to rank\", \"t0\": 2009, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.3706380281276624, \"growth_W5_B5\": 0.2657031657330057, \"offhome_share_W3\": 0.19672131147540983, \"entropy_W3\": 0.8483007367283925, \"reach_W3\": 4.0, \"G\": 0.1897809898877655, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.790274",
+     "predict_our_method": "0.753226",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"service-oriented architecture\", \"t0\": 2003, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 7.111512116496157, \"growth_W5_B5\": 1.5867526296030168, \"offhome_share_W3\": 0.2911392405063291, \"entropy_W3\": 0.919722154654944, \"reach_W3\": 4.0, \"G\": 0.16719872727902194, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.805592",
+     "predict_our_method": "0.808600",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"piRNA\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.030685260261263, \"growth_W5_B5\": 0.4886640519631383, \"offhome_share_W3\": 0.21212121212121213, \"entropy_W3\": 0.8544726318490401, \"reach_W3\": 6.0, \"G\": 0.19761297580879908, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.496304",
+     "predict_our_method": "0.528891",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"lipidomics\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8522024797744745, \"growth_W5_B5\": 0.6632942174102642, \"offhome_share_W3\": 0.3902439024390244, \"entropy_W3\": 1.2097442850762246, \"reach_W3\": 6.0, \"G\": 0.4822980562448042, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.815963",
+     "predict_our_method": "0.985333",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"network coding\", \"t0\": 2004, \"home\": \"Computer Science;Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.0330862217988015, \"growth_W5_B5\": 1.8584508437267273, \"offhome_share_W3\": 0.06666666666666667, \"entropy_W3\": 0.9456622937972912, \"reach_W3\": 3.0, \"G\": 0.14918856825726218, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.901428",
+     "predict_our_method": "0.779561",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"severe acute respiratory syndrome\", \"t0\": 2003, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.60922527686273, \"growth_W5_B5\": -1.0887234565388626, \"offhome_share_W3\": 0.23359173126614988, \"entropy_W3\": 0.9074623092632317, \"reach_W3\": 16.0, \"G\": 0.30742537420969035, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.001284",
+     "predict_our_method": "0.001413",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cognitive radio\", \"t0\": 2005, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 7.327123292259293, \"growth_W5_B5\": 1.6904416965871873, \"offhome_share_W3\": 0.4857142857142857, \"entropy_W3\": 1.0893353160291837, \"reach_W3\": 4.0, \"G\": 0.06929273809047146, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.802275",
+     "predict_our_method": "0.328905",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"MapReduce\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.703188113240863, \"growth_W5_B5\": 1.8568460857479414, \"offhome_share_W3\": 0.3247863247863248, \"entropy_W3\": 1.0364183147157895, \"reach_W3\": 5.0, \"G\": 0.1822096225202417, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.936824",
+     "predict_our_method": "0.921817",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cyber-physical system\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.093569770045136, \"growth_W5_B5\": 2.017199232802615, \"offhome_share_W3\": 0.28846153846153844, \"entropy_W3\": 0.8490909315641008, \"reach_W3\": 4.0, \"G\": 0.2627327250112661, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.954411",
+     "predict_our_method": "0.973083",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"induced pluripotent stem cell\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 7.762596048540069, \"growth_W5_B5\": 1.9669233386541296, \"offhome_share_W3\": 0.48218029350104824, \"entropy_W3\": 1.0458743556954981, \"reach_W3\": 7.0, \"G\": 0.2763799398747632, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.495210",
+     "predict_our_method": "0.774419",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"carbon capture and storage\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.486160788944089, \"growth_W5_B5\": 1.1952391243571814, \"offhome_share_W3\": 0.4485981308411215, \"entropy_W3\": 1.3792680740893308, \"reach_W3\": 6.0, \"G\": 0.18214603415894895, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.871162",
+     "predict_our_method": "0.795859",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"vehicular ad hoc network\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.6293632534374485, \"growth_W5_B5\": 1.5629178967992075, \"offhome_share_W3\": 0.56, \"entropy_W3\": 1.1091414422754515, \"reach_W3\": 3.0, \"G\": 0.07930266867793341, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.874250",
+     "predict_our_method": "0.518520",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"compressed sensing\", \"t0\": 2007, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.254177846456518, \"growth_W5_B5\": 2.0646264558946954, \"offhome_share_W3\": 0.8064516129032258, \"entropy_W3\": 1.7026530587568782, \"reach_W3\": 8.0, \"G\": 0.16891654493490646, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.996893",
+     "predict_our_method": "0.993884",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"internet of things\", \"t0\": 2005, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.204006687076795, \"growth_W5_B5\": 0.8873031950009027, \"offhome_share_W3\": 0.6571428571428571, \"entropy_W3\": 1.7136813826288384, \"reach_W3\": 6.0, \"G\": 0.19848425883699003, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.998028",
+     "predict_our_method": "0.995088",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"ribotype 027\", \"t0\": 2007, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.43372200355424, \"growth_W5_B5\": 0.3242396681855786, \"offhome_share_W3\": 0.04807692307692308, \"entropy_W3\": 0.22516978000244367, \"reach_W3\": 3.0, \"G\": 0.236190142882221, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.065956",
+     "predict_our_method": "0.136584",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": false,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"folksonomy\", \"t0\": 2006, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.148468295917647, \"growth_W5_B5\": 0.0905140075408319, \"offhome_share_W3\": 0.32456140350877194, \"entropy_W3\": 1.0095982404782526, \"reach_W3\": 5.0, \"G\": 0.09809224851272175, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.736444",
+     "predict_our_method": "0.502209",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"human microbiome\", \"t0\": 2008, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.918893854273146, \"growth_W5_B5\": 1.519825753744413, \"offhome_share_W3\": 0.5555555555555556, \"entropy_W3\": 1.2656420409487434, \"reach_W3\": 6.0, \"G\": 0.3581082695934808, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.984124",
+     "predict_our_method": "0.995963",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"natural orifice transluminal endoscopic surgery\", \"t0\": 2006, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.892641641172089, \"growth_W5_B5\": 1.0393125463868178, \"offhome_share_W3\": 0.027950310559006212, \"entropy_W3\": 0.14665412417032397, \"reach_W3\": 2.0, \"G\": 0.0954253960106205, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.038345",
+     "predict_our_method": "0.031789",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"RNA-seq\", \"t0\": 2009, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 7.943072717277933, \"growth_W5_B5\": 1.8751735979635349, \"offhome_share_W3\": 0.2640845070422535, \"entropy_W3\": 0.965035458848547, \"reach_W3\": 8.0, \"G\": 0.26977247952022587, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.269943",
+     "predict_our_method": "0.496839",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"memristor\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.267200548541362, \"growth_W5_B5\": 1.421385680931161, \"offhome_share_W3\": 0.4, \"entropy_W3\": 1.277992138395836, \"reach_W3\": 7.0, \"G\": 0.565301245026569, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.913379",
+     "predict_our_method": "0.999690",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"metagenomics\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.68586094706836, \"growth_W5_B5\": 0.977618977381478, \"offhome_share_W3\": 0.3352272727272727, \"entropy_W3\": 1.1172666363847203, \"reach_W3\": 6.0, \"G\": 0.29175300928836156, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.591556",
+     "predict_our_method": "0.826111",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"single-incision laparoscopic surgery\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.495265555937008, \"growth_W5_B5\": -0.22006188477680164, \"offhome_share_W3\": 0.08333333333333333, \"entropy_W3\": 0.30003686390047657, \"reach_W3\": 2.0, \"G\": 0.04263192868518941, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.007002",
+     "predict_our_method": "0.005851",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"ChIP-seq\", \"t0\": 2008, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.903747257584598, \"growth_W5_B5\": 1.3029127521808397, \"offhome_share_W3\": 0.303886925795053, \"entropy_W3\": 0.9487055251361702, \"reach_W3\": 6.0, \"G\": 0.2797577274016556, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.506693",
+     "predict_our_method": "0.755070",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"copy number variation\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.898714534329988, \"growth_W5_B5\": 1.7109554368127589, \"offhome_share_W3\": 0.36607142857142855, \"entropy_W3\": 1.0400336144721534, \"reach_W3\": 6.0, \"G\": 0.2735650765113562, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.690737",
+     "predict_our_method": "0.857884",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"interactome\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.2285110035911835, \"growth_W5_B5\": 1.1688165473413583, \"offhome_share_W3\": 0.19889502762430938, \"entropy_W3\": 0.8472745250410423, \"reach_W3\": 6.0, \"G\": 0.3143124179302827, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.611686",
+     "predict_our_method": "0.829400",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"plug-in hybrid electric vehicle\", \"t0\": 2007, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.182084906716632, \"growth_W5_B5\": 1.1409146683587992, \"offhome_share_W3\": 0.12371134020618557, \"entropy_W3\": 0.4878748632537361, \"reach_W3\": 3.0, \"G\": 0.14488923307370158, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.580247",
+     "predict_our_method": "0.426032",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O1",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    }
+   ]
+  },
+  {
+   "dataset": "P78_dev_O3_transience",
+   "examples": [
+    {
+     "input": "{\"concept\": \"zinc finger nuclease\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.056245805348308, \"growth_W5_B5\": 1.3862943611198906, \"offhome_share_W3\": 0.17647058823529413, \"entropy_W3\": 0.6157672965598221, \"reach_W3\": 3.0, \"G\": 0.26607667973879245, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.034358",
+     "predict_our_method": "0.019621",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"sentiment analysis\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.834810737062605, \"growth_W5_B5\": 1.6236225474260568, \"offhome_share_W3\": 0.29545454545454547, \"entropy_W3\": 1.0237062533831107, \"reach_W3\": 3.0, \"G\": 0.1014606362132644, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.012691",
+     "predict_our_method": "0.017935",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"biosimilar\", \"t0\": 2006, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.021023349349527, \"growth_W5_B5\": 0.7683706017975328, \"offhome_share_W3\": 0.18518518518518517, \"entropy_W3\": 0.7437121829506829, \"reach_W3\": 5.0, \"G\": 0.29094152806425466, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"smart grid\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 8.22764270790443, \"growth_W5_B5\": 1.8004931491968095, \"offhome_share_W3\": 0.2073732718894009, \"entropy_W3\": 0.7559651060129727, \"reach_W3\": 5.0, \"G\": 0.07891811383281373, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.084625",
+     "predict_our_method": "0.137040",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cancer stem cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology;Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.78897174299217, \"growth_W5_B5\": 2.0104486701928845, \"offhome_share_W3\": 0.06976744186046512, \"entropy_W3\": 0.9959685964662067, \"reach_W3\": 5.0, \"G\": 0.17482584837008738, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"mashup\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.706862336602747, \"growth_W5_B5\": 0.4315762521118502, \"offhome_share_W3\": 0.5388888888888889, \"entropy_W3\": 1.4196992542842217, \"reach_W3\": 8.0, \"G\": 0.08609195526953034, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.002069",
+     "predict_our_method": "0.004024",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"microbial fuel cell\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8998973535824915, \"growth_W5_B5\": 1.2264456601779945, \"offhome_share_W3\": 0.6666666666666666, \"entropy_W3\": 1.4068566111600327, \"reach_W3\": 4.0, \"G\": 0.33112222354664156, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.002041",
+     "predict_our_method": "0.000930",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"DNA barcoding\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.5998704992128365, \"growth_W5_B5\": 1.2172982589230854, \"offhome_share_W3\": 0.5654761904761905, \"entropy_W3\": 1.2957538164914952, \"reach_W3\": 4.0, \"G\": 0.28331690548561644, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.005340",
+     "predict_our_method": "0.002850",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"pandemic H1N1\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.290292591224315, \"growth_W5_B5\": -1.1303065903770249, \"offhome_share_W3\": 0.20498220640569395, \"entropy_W3\": 0.7856535607034607, \"reach_W3\": 9.0, \"G\": 0.1776339508729787, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"latent Dirichlet allocation\", \"t0\": 2007, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.429345628954441, \"growth_W5_B5\": 1.824549292051046, \"offhome_share_W3\": 0.25, \"entropy_W3\": 0.9358789291911354, \"reach_W3\": 3.0, \"G\": 0.21820795993754538, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.012166",
+     "predict_our_method": "0.010119",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"social tagging\", \"t0\": 2006, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.683579767338681, \"growth_W5_B5\": 1.2335316065674804, \"offhome_share_W3\": 0.18604651162790697, \"entropy_W3\": 0.7261859821965022, \"reach_W3\": 4.0, \"G\": 0.16512453959518053, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.029561",
+     "predict_our_method": "0.030154",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"synthetic biology\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.525029657843462, \"growth_W5_B5\": 1.7303905228517629, \"offhome_share_W3\": 0.2422360248447205, \"entropy_W3\": 1.011080051381001, \"reach_W3\": 7.0, \"G\": 0.36949864991606524, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.007757",
+     "predict_our_method": "0.002934",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"long noncoding RNA\", \"t0\": 2008, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.16541785423142, \"growth_W5_B5\": 2.133962380558253, \"offhome_share_W3\": 0.3707865168539326, \"entropy_W3\": 1.0075511065784513, \"reach_W3\": 5.0, \"G\": 0.2710479884342106, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.006095",
+     "predict_our_method": "0.003558",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"comparative effectiveness research\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.32052696227274, \"growth_W5_B5\": 0.14201800650184135, \"offhome_share_W3\": 0.3426086956521739, \"entropy_W3\": 1.1229804009225564, \"reach_W3\": 9.0, \"G\": 0.14584008829608922, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"sirtuin\", \"t0\": 2003, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.627621113690637, \"growth_W5_B5\": 1.0986122886681098, \"offhome_share_W3\": 0.42857142857142855, \"entropy_W3\": 1.0922416985061851, \"reach_W3\": 5.0, \"G\": 0.26970047447431816, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.005618",
+     "predict_our_method": "0.003468",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"next-generation sequencing\", \"t0\": 2005, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.139884552226255, \"growth_W5_B5\": 2.8838143573500057, \"offhome_share_W3\": 0.32075471698113206, \"entropy_W3\": 0.812937597322811, \"reach_W3\": 3.0, \"G\": 0.3777870776013661, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"takotsubo cardiomyopathy\", \"t0\": 2004, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.846438775057724, \"growth_W5_B5\": 1.201266442728193, \"offhome_share_W3\": 0.03296703296703297, \"entropy_W3\": 0.16589319843770653, \"reach_W3\": 2.0, \"G\": 0.056881136952047516, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"energy harvesting\", \"t0\": 2004, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.293419278846481, \"growth_W5_B5\": 1.089801658985955, \"offhome_share_W3\": 0.4107142857142857, \"entropy_W3\": 1.6110672095808138, \"reach_W3\": 10.0, \"G\": 0.44990678785210414, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000407",
+     "predict_our_method": "0.000116",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"extreme learning machine\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.976350909297934, \"growth_W5_B5\": 1.7363296642887243, \"offhome_share_W3\": 0.38636363636363635, \"entropy_W3\": 1.2559012429427356, \"reach_W3\": 5.0, \"G\": 0.2469986172476866, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.003175",
+     "predict_our_method": "0.002605",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"wireless body area network\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 5.905361848054571, \"growth_W5_B5\": 0.6505875661411494, \"offhome_share_W3\": 0.4230769230769231, \"entropy_W3\": 1.0360349171031413, \"reach_W3\": 3.0, \"G\": 0.08005312373965433, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.016025",
+     "predict_our_method": "0.032059",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"learning to rank\", \"t0\": 2009, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.3706380281276624, \"growth_W5_B5\": 0.2657031657330057, \"offhome_share_W3\": 0.19672131147540983, \"entropy_W3\": 0.8483007367283925, \"reach_W3\": 4.0, \"G\": 0.1897809898877655, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.032546",
+     "predict_our_method": "0.030834",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"service-oriented architecture\", \"t0\": 2003, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 7.111512116496157, \"growth_W5_B5\": 1.5867526296030168, \"offhome_share_W3\": 0.2911392405063291, \"entropy_W3\": 0.919722154654944, \"reach_W3\": 4.0, \"G\": 0.16719872727902194, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.026837",
+     "predict_our_method": "0.025102",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"piRNA\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.030685260261263, \"growth_W5_B5\": 0.4886640519631383, \"offhome_share_W3\": 0.21212121212121213, \"entropy_W3\": 0.8544726318490401, \"reach_W3\": 6.0, \"G\": 0.19761297580879908, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.023899",
+     "predict_our_method": "0.020144",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"lipidomics\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 5.8522024797744745, \"growth_W5_B5\": 0.6632942174102642, \"offhome_share_W3\": 0.3902439024390244, \"entropy_W3\": 1.2097442850762246, \"reach_W3\": 6.0, \"G\": 0.4822980562448042, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.005316",
+     "predict_our_method": "0.001213",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"network coding\", \"t0\": 2004, \"home\": \"Computer Science;Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.0330862217988015, \"growth_W5_B5\": 1.8584508437267273, \"offhome_share_W3\": 0.06666666666666667, \"entropy_W3\": 0.9456622937972912, \"reach_W3\": 3.0, \"G\": 0.14918856825726218, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.029835",
+     "predict_our_method": "0.033743",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"severe acute respiratory syndrome\", \"t0\": 2003, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 8.60922527686273, \"growth_W5_B5\": -1.0887234565388626, \"offhome_share_W3\": 0.23359173126614988, \"entropy_W3\": 0.9074623092632317, \"reach_W3\": 16.0, \"G\": 0.30742537420969035, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cognitive radio\", \"t0\": 2005, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 7.327123292259293, \"growth_W5_B5\": 1.6904416965871873, \"offhome_share_W3\": 0.4857142857142857, \"entropy_W3\": 1.0893353160291837, \"reach_W3\": 4.0, \"G\": 0.06929273809047146, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.014037",
+     "predict_our_method": "0.032003",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"MapReduce\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.703188113240863, \"growth_W5_B5\": 1.8568460857479414, \"offhome_share_W3\": 0.3247863247863248, \"entropy_W3\": 1.0364183147157895, \"reach_W3\": 5.0, \"G\": 0.1822096225202417, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.009127",
+     "predict_our_method": "0.008969",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"cyber-physical system\", \"t0\": 2008, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.093569770045136, \"growth_W5_B5\": 2.017199232802615, \"offhome_share_W3\": 0.28846153846153844, \"entropy_W3\": 0.8490909315641008, \"reach_W3\": 4.0, \"G\": 0.2627327250112661, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.013315",
+     "predict_our_method": "0.008718",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"induced pluripotent stem cell\", \"t0\": 2007, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 7.762596048540069, \"growth_W5_B5\": 1.9669233386541296, \"offhome_share_W3\": 0.48218029350104824, \"entropy_W3\": 1.0458743556954981, \"reach_W3\": 7.0, \"G\": 0.2763799398747632, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.006813",
+     "predict_our_method": "0.003740",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"carbon capture and storage\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.486160788944089, \"growth_W5_B5\": 1.1952391243571814, \"offhome_share_W3\": 0.4485981308411215, \"entropy_W3\": 1.3792680740893308, \"reach_W3\": 6.0, \"G\": 0.18214603415894895, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.002716",
+     "predict_our_method": "0.003666",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"vehicular ad hoc network\", \"t0\": 2006, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.6293632534374485, \"growth_W5_B5\": 1.5629178967992075, \"offhome_share_W3\": 0.56, \"entropy_W3\": 1.1091414422754515, \"reach_W3\": 3.0, \"G\": 0.07930266867793341, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.009724",
+     "predict_our_method": "0.021317",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"compressed sensing\", \"t0\": 2007, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 7.254177846456518, \"growth_W5_B5\": 2.0646264558946954, \"offhome_share_W3\": 0.8064516129032258, \"entropy_W3\": 1.7026530587568782, \"reach_W3\": 8.0, \"G\": 0.16891654493490646, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"internet of things\", \"t0\": 2005, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 5.204006687076795, \"growth_W5_B5\": 0.8873031950009027, \"offhome_share_W3\": 0.6571428571428571, \"entropy_W3\": 1.7136813826288384, \"reach_W3\": 6.0, \"G\": 0.19848425883699003, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000409",
+     "predict_our_method": "0.000542",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 1
+    },
+    {
+     "input": "{\"concept\": \"ribotype 027\", \"t0\": 2007, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.43372200355424, \"growth_W5_B5\": 0.3242396681855786, \"offhome_share_W3\": 0.04807692307692308, \"entropy_W3\": 0.22516978000244367, \"reach_W3\": 3.0, \"G\": 0.236190142882221, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": false,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"folksonomy\", \"t0\": 2006, \"home\": \"Computer Science\", \"group\": \"CS\", \"log_count_W5\": 6.148468295917647, \"growth_W5_B5\": 0.0905140075408319, \"offhome_share_W3\": 0.32456140350877194, \"entropy_W3\": 1.0095982404782526, \"reach_W3\": 5.0, \"G\": 0.09809224851272175, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.021152",
+     "predict_our_method": "0.031235",
+     "metadata_group": "CS",
+     "metadata_fold": "leave-out-CS",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"human microbiome\", \"t0\": 2008, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 5.918893854273146, \"growth_W5_B5\": 1.519825753744413, \"offhome_share_W3\": 0.5555555555555556, \"entropy_W3\": 1.2656420409487434, \"reach_W3\": 6.0, \"G\": 0.3581082695934808, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"natural orifice transluminal endoscopic surgery\", \"t0\": 2006, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.892641641172089, \"growth_W5_B5\": 1.0393125463868178, \"offhome_share_W3\": 0.027950310559006212, \"entropy_W3\": 0.14665412417032397, \"reach_W3\": 2.0, \"G\": 0.0954253960106205, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"RNA-seq\", \"t0\": 2009, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 7.943072717277933, \"growth_W5_B5\": 1.8751735979635349, \"offhome_share_W3\": 0.2640845070422535, \"entropy_W3\": 0.965035458848547, \"reach_W3\": 8.0, \"G\": 0.26977247952022587, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.013277",
+     "predict_our_method": "0.007558",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"memristor\", \"t0\": 2008, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.267200548541362, \"growth_W5_B5\": 1.421385680931161, \"offhome_share_W3\": 0.4, \"entropy_W3\": 1.277992138395836, \"reach_W3\": 7.0, \"G\": 0.565301245026569, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.002147",
+     "predict_our_method": "0.000203",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"metagenomics\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.68586094706836, \"growth_W5_B5\": 0.977618977381478, \"offhome_share_W3\": 0.3352272727272727, \"entropy_W3\": 1.1172666363847203, \"reach_W3\": 6.0, \"G\": 0.29175300928836156, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.010526",
+     "predict_our_method": "0.005592",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"single-incision laparoscopic surgery\", \"t0\": 2009, \"home\": \"Medicine\", \"group\": \"Med\", \"log_count_W5\": 6.495265555937008, \"growth_W5_B5\": -0.22006188477680164, \"offhome_share_W3\": 0.08333333333333333, \"entropy_W3\": 0.30003686390047657, \"reach_W3\": 2.0, \"G\": 0.04263192868518941, \"G_missing\": 0.0}",
+     "output": "1.0",
+     "predict_baseline": "0.000000",
+     "predict_our_method": "0.000000",
+     "metadata_group": "Med",
+     "metadata_fold": "leave-out-Med",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"ChIP-seq\", \"t0\": 2008, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.903747257584598, \"growth_W5_B5\": 1.3029127521808397, \"offhome_share_W3\": 0.303886925795053, \"entropy_W3\": 0.9487055251361702, \"reach_W3\": 6.0, \"G\": 0.2797577274016556, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.015930",
+     "predict_our_method": "0.008649",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"copy number variation\", \"t0\": 2005, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.898714534329988, \"growth_W5_B5\": 1.7109554368127589, \"offhome_share_W3\": 0.36607142857142855, \"entropy_W3\": 1.0400336144721534, \"reach_W3\": 6.0, \"G\": 0.2735650765113562, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.008618",
+     "predict_our_method": "0.004893",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"interactome\", \"t0\": 2004, \"home\": \"Biochemistry, Genetics and Molecular Biology\", \"group\": \"BGM\", \"log_count_W5\": 6.2285110035911835, \"growth_W5_B5\": 1.1688165473413583, \"offhome_share_W3\": 0.19889502762430938, \"entropy_W3\": 0.8472745250410423, \"reach_W3\": 6.0, \"G\": 0.3143124179302827, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.019261",
+     "predict_our_method": "0.009165",
+     "metadata_group": "BGM",
+     "metadata_fold": "leave-out-BGM",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    },
+    {
+     "input": "{\"concept\": \"plug-in hybrid electric vehicle\", \"t0\": 2007, \"home\": \"Engineering\", \"group\": \"Eng\", \"log_count_W5\": 6.182084906716632, \"growth_W5_B5\": 1.1409146683587992, \"offhome_share_W3\": 0.12371134020618557, \"entropy_W3\": 0.4878748632537361, \"reach_W3\": 3.0, \"G\": 0.14488923307370158, \"G_missing\": 0.0}",
+     "output": "0.0",
+     "predict_baseline": "0.119984",
+     "predict_our_method": "0.115385",
+     "metadata_group": "Eng",
+     "metadata_fold": "leave-out-Eng",
+     "metadata_outcome": "O3",
+     "metadata_newborn": true,
+     "metadata_trunc": 0
+    }
+   ]
+  }
+ ]
+}
