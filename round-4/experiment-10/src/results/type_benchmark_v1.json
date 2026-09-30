@@ -1,0 +1,107 @@
+{
+ "version": "v1",
+ "n_gold": 60,
+ "per_class": {
+  "method": {
+   "n_m1": 15,
+   "correct": 11,
+   "precision": 0.7333333333333333,
+   "wilson95": [
+    0.4804911034231324,
+    0.8910272389681718
+   ],
+   "recall": 1.0
+  },
+  "object": {
+   "n_m1": 15,
+   "correct": 15,
+   "precision": 1.0,
+   "wilson95": [
+    0.7961107336956521,
+    1.0
+   ],
+   "recall": 0.5555555555555556
+  },
+  "property": {
+   "n_m1": 15,
+   "correct": 11,
+   "precision": 0.7333333333333333,
+   "wilson95": [
+    0.4804911034231324,
+    0.8910272389681718
+   ],
+   "recall": 0.9166666666666666
+  },
+  "topic": {
+   "n_m1": 15,
+   "correct": 9,
+   "precision": 0.6,
+   "wilson95": [
+    0.357464427565077,
+    0.8017577191740534
+   ],
+   "recall": 0.9
+  }
+ },
+ "kappa_m1_m2_300": 0.7798760443774826,
+ "agree_m1_m2_300": 0.8561872909698997,
+ "kappa_m1_gold": 0.6888888888888889,
+ "kappa_m2_gold": 0.6252755326965467,
+ "acc_m1_gold": 0.7666666666666667,
+ "acc_m2_gold": 0.7166666666666667,
+ "confusion_m1_vs_gold": {
+  "method": {
+   "method": 11,
+   "object": 0,
+   "property": 0,
+   "topic": 0
+  },
+  "object": {
+   "method": 3,
+   "object": 15,
+   "property": 4,
+   "topic": 5
+  },
+  "property": {
+   "method": 0,
+   "object": 0,
+   "property": 11,
+   "topic": 1
+  },
+  "topic": {
+   "method": 1,
+   "object": 0,
+   "property": 0,
+   "topic": 9
+  }
+ },
+ "confusion_m1_vs_m2_300": {
+  "method": {
+   "method": 44,
+   "object": 5,
+   "property": 1,
+   "topic": 10
+  },
+  "object": {
+   "method": 0,
+   "object": 144,
+   "property": 3,
+   "topic": 3
+  },
+  "property": {
+   "method": 2,
+   "object": 12,
+   "property": 38,
+   "topic": 4
+  },
+  "topic": {
+   "method": 3,
+   "object": 0,
+   "property": 0,
+   "topic": 30
+  }
+ },
+ "method_object_confusion_m1_m2": 5,
+ "gate_pass": false,
+ "gold_reader": "executor agent (LLM), blind to M1/M2 labels; disclosed as not a human annotator"
+}

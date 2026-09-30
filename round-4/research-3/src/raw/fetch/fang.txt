@@ -1,0 +1,123 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/abs/2510.03240
+Type: HTML
+Length: 7621 chars (truncated)
+
+--- Content ---
+
+Skip to main content [](https://arxiv.org/IgnoreMe) [ ](https://arxiv.org/) [ Search ](https://arxiv.org/search) [Submit](https://arxiv.org/user/create) [Donate](https://info.arxiv.org/about/donate.html) [Log in](https://arxiv.org/login)
+
+Search arXiv
+
+Press Enter to search * [Advanced search](https://arxiv.org/search/advanced)
+
+# Computer Science > Social and Information Networks
+
+**arXiv:2510.03240** (cs) 
+
+[Submitted on 22 Sep 2025 ([v1](https://arxiv.org/abs/2510.03240v1)), last revised 20 Sep 2026 (this version, v6)]
+
+# Title:Generalization and the Rise of System-level Creativity in Science
+
+Authors:[Hongbo Fang](https://arxiv.org/search/cs?searchtype=author&query=Fang,+H), [James Evans](https://arxiv.org/search/cs?searchtype=author&query=Evans,+J)
+
+View a PDF of the paper titled Generalization and the Rise of System-level Creativity in Science, by Hongbo Fang and 1 other authors
+
+[View PDF](/pdf/2510.03240)
+
+> Abstract:Scientific progress is widely understood as combinatorial, yet existing measures focus on the inputs a paper draws together, saying little about how knowledge is supplied for downstream reuse. Analyzing citation networks from tens of millions of publications in OpenAlex and the Web of Science, we decompose scientific contributions into three functional types, foundations, extensions, and generalizations, distinguishable by the roles they play in future science. Foundational and extensional works, which build and elaborate ideas within disciplines, dominated the post-war decades but declined steadily after the 1990s, while generalizations that catalyze innovation across many contexts rose sharply. Challenging the narrative of declining innovation inferred from the disruption index, our findings suggest the locus of innovation has shifted from within disciplines to between them, a transition the Internet and large language models may have facilitated. Our indices disentangle innovation modes conflated by existing measures, enabling reinterpretation of landmark findings of 'disruptive' science. 
+
+Comments: | 134 pages, 79 figures  
+---|---  
+Subjects: |  Social and Information Networks (cs.SI); Digital Libraries (cs.DL)  
+Cite as: | [arXiv:2510.03240](https://arxiv.org/abs/2510.03240) [cs.SI]  
+  | (or  [arXiv:2510.03240v6](https://arxiv.org/abs/2510.03240v6) [cs.SI] for this version)   
+  |  <https://doi.org/10.48550/arXiv.2510.03240> Focus to learn more arXiv-issued DOI via DataCite  
+  
+## Submission history
+
+From: Hongbo Fang [[view email](/show-email/183d28c2/2510.03240)]   
+**[[v1]](/abs/2510.03240v1)** Mon, 22 Sep 2025 18:56:23 UTC (4,991 KB)  
+**[[v2]](/abs/2510.03240v2)** Fri, 17 Oct 2025 23:13:44 UTC (5,371 KB)  
+**[[v3]](/abs/2510.03240v3)** Fri, 10 Apr 2026 16:56:31 UTC (8,254 KB)  
+**[[v4]](/abs/2510.03240v4)** Tue, 14 Apr 2026 13:00:47 UTC (8,386 KB)  
+**[[v5]](/abs/2510.03240v5)** Sat, 8 Aug 2026 21:51:19 UTC (21,161 KB)  
+**[v6]** Sun, 20 Sep 2026 03:20:16 UTC (22,041 KB)  
+
+
+Full-text links:
+
+## Access Paper:
+
+View a PDF of the paper titled Generalization and the Rise of System-level Creativity in Science, by Hongbo Fang and 1 other authors
+
+  * [View PDF](/pdf/2510.03240)
+
+
+
+[ view license ](http://creativecommons.org/licenses/by/4.0/ "Rights to this article")
+
+### Current browse context:
+
+cs.SI
+
+[< prev](/prevnext?id=2510.03240&function=prev&context=cs.SI "previous in cs.SI \(accesskey p\)")   |   [next >](/prevnext?id=2510.03240&function=next&context=cs.SI "next in cs.SI \(accesskey n\)")   
+
+
+[new](/list/cs.SI/new) |  [recent](/list/cs.SI/recent) | [2025-10](/list/cs.SI/2025-10)
+
+Change to browse by: 
+
+[cs](/abs/2510.03240?context=cs)  
+[cs.DL](/abs/2510.03240?context=cs.DL)  
+
+
+### References & Citations
+
+  * [NASA ADS](https://ui.adsabs.harvard.edu/abs/arXiv:2510.03240)
+  * [Google Scholar](https://scholar.google.com/scholar_lookup?arxiv_id=2510.03240)
+  * [Semantic Scholar](https://api.semanticscholar.org/arXiv:2510.03240)
+
+
+
+export BibTeX citation Loading...
+
+## BibTeX formatted citation
+
+×
+
+loading...
+
+Data provided by: 
+
+### Bookmark
+
+[ ](http://www.bibsonomy.org/BibtexHandler?requTask=upload&url=https://arxiv.org/abs/2510.03240&description=Generalization and the Rise of System-level Creativity in Science "Bookmark on BibSonomy") [ ](https://reddit.com/submit?url=https://arxiv.org/abs/2510.03240&title=Generalization and the Rise of System-level Creativity in Science "Bookmark on Reddit")
+
+Bibliographic Tools
+
+# Bibliographic and Citation Tools
+
+Bibliographic Explorer Toggle
+
+Bibliographic Explorer _([What is the Explorer?](https://info.arxiv.org/labs/showcase.html#arxiv-bibliographic-explorer))_
+
+Connected Papers Toggle
+
+Connected Papers _([What is Connected Papers?](https://www.connectedpapers.com/about))_
+
+Litmaps Toggle
+
+Litmaps _([What is Litmaps?](https://www.litmaps.co/))_
+
+scite.ai Toggle
+
+scite Smart Citations _([What are Smart Citations?](https://www.scite.ai/))_
+
+Code, Data, Media
+
+# Code, Data and Media Associated with this Article
+
+alphaXiv Toggle
+
+al

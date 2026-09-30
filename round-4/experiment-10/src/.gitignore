@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+passC/
+llm_cache/
+data/sealed/
+data/ego_open/
+*.pyc

@@ -1,0 +1,81 @@
+Search: early identification of general purpose technologies patent generality first years predicts later diffusion across sectors  [general via exa]
+Found: 8 results
+
+1. Methods for identifying emerging General Purpose Technologies: a case study of nanotechnologies
+   https://ideas.repec.org/a/spr/scient/v85y2010i1d10.1007_s11192-010-0244-2.html
+   Methods for identifying emerging General Purpose Technologies: a case study of nanotechnologies
+
+Printed from https://ideas.repec.org/a/spr/scient/v85y2010i1d10.1007_s11192-010-0244-2.html
+
+My bibliog...
+
+2. Mapping general purpose technologies with patent data
+   https://www.sciencedirect.com/science/article/abs/pii/S0048733320300925
+   Mapping general purpose technologies with patent data - ScienceDirect
+Skip to main contentSkip to article
+Elsevier logoScienceDirect
+My account
+Sign in
+* Access through**your institution**
+* Purchase ...
+
+3. C:\Working Papers\10901.wpd
+   https://www.nber.org/system/files/working_papers/w10901/w10901.pdf
+   NBER WORKING PAPER SERIES
+
+UNCOVERING GPTS WITH PATENT DATA 
+Bronwyn H. Hall 
+Manuel Trajtenberg 
+Working Paper 10901 
+http://www.nber.org/papers/w10901 
+
+NATIONAL BUREAU OF ECONOMIC RESEARCH 1050 Mas...
+
+4. Using Machine Learning to Predict Technology Generality
+   https://exa.ai/library/publication/p6bq2x9mxn6
+   # Using Machine Learning to Predict Technology Generality
+
+Academy of Management Proceedings. Published: 2021-07-26. 0 citations.
+
+## Abstract
+
+The future generality of technologies is hard to determi...
+
+5. Was Electricity a General Purpose Technology? Evidence from Historical Patent Citations
+   https://www.hbs.edu/ris/Publication%20Files/TPAER_0f07a9a5-2c03-4efa-adbb-1263d46bf8e3.pdf
+   ## Was Electricity a General Purpose Technology? Evidence from Historical Patent Citations
+
+By PETRA MOSER AND TOM NICHOLAS*
+
+General purpose technologies (GPTs) are credited with generating the incre...
+
+6. CROSSOVER INVENTIONS AND KNOWLEDGE DIFFUSION OF GENERAL PURPOSE TECHNOLOGIES? EVIDENCE FROM THE ELECTRICAL TECHNOLOGY
+   https://www.nber.org/system/files/working_papers/w14043/w14043.pdf
+   NBER WORKING PAPER SERIES
+
+CROSSOVER INVENTIONS AND KNOWLEDGE DIFFUSION OF GENERAL PURPOSE TECHNOLOGIES? EVIDENCE FROM THE ELECTRICAL TECHNOLOGY
+
+Shih-tse Lo Dhanoos Sutthiphisal
+
+Working Paper 14043 ...
+
+7. Uncovering GPTS with Patent Data
+   https://exa.ai/library/publication/bgndfdtgpcq
+   # Uncovering GPTS with Patent Data
+
+National Bureau of Economic Research. Published: 2004-11-01. Report. 175 citations.
+
+## Authors
+
+- Bronwyn H. Hall (University of California, Berkeley): h-index 84;...
+
+8. How fast is this novel technology going to be a hit? Antecedents predicting follow-on inventions
+   https://exa.ai/library/publication/rsy5ncsg43j
+   # How fast is this novel technology going to be a hit? Antecedents predicting follow-on inventions
+
+Research Policy. Published: 2021-12-18. 41 citations.
+
+## Authors
+
+- Michele Pezzoni (Centre Nationa...
+

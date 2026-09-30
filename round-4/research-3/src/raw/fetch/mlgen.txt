@@ -1,0 +1,90 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://exa.ai/library/publication/p6bq2x9mxn6
+Type: HTML
+Length: 4112 chars (truncated)
+
+--- Content ---
+
+Exa is a modern AI search engine with SERP API, website crawler tools, and deep research API. Power your app with web search AI and web crawling API.
+
+> **Exa Site Index**
+> 
+> Fetch the Exa site index at: <https://exa.ai/llms.txt>
+> 
+> Use this file to discover Exa products, pricing, evaluations, comparisons, use cases, agent interfaces, and technical documentation before exploring further.
+
+[Introducing Exa Agent Ultra](https://exa.ai/blog/exa-agent-ultra)[Introducing Exa Agent Ultra: Frontier Quality at a Fraction of the Cost](https://exa.ai/blog/exa-agent-ultra)[Learn more](https://exa.ai/blog/exa-agent-ultra)
+
+[](/)
+
+Products
+
+[Search API](/products/search)[Contents API](https://exa.ai/docs/reference/contents-api-guide)[Agent API](/products/agent)[Monitors API](https://exa.ai/docs/reference/monitors-api-guide)
+
+Integrations
+
+[Exa Connect](/connect)
+
+More
+
+[GTM](/use-cases/gtm)
+
+Resources
+
+[CareersWe're hiring](/careers)[Customers](/customers)[Webinars](/webinars)[Partners](/partners)[Demos](/demos)[About](/about)[Contact us](/contact)[Research](/research)[Brand](/brand)
+
+[Enterprise](/enterprise)
+
+[Blog](/blog)
+
+[Docs](https://exa.ai/docs)
+
+[Pricing](/pricing)
+
+[Contact sales](/contact/sales)[Sign up](https://dashboard.exa.ai)
+
+[](/)
+
+Products
+
+Resources
+
+[Enterprise](/enterprise)[Blog](/blog)[Docs](https://exa.ai/docs)[Pricing](/pricing)
+
+[Contact sales](/contact/sales)[Sign up](https://dashboard.exa.ai)
+
+Publication
+
+# Using Machine Learning to Predict Technology Generality
+
+Jul 26, 2021 · 4 authors · 3 topics
+
+### Abstract
+
+The future generality of technologies is hard to determine. The sources of these difficulties lie not only in technological factors, but also cognitive and organizational ones. However, with the advent of artificial intelligence (AI), can machine learning (ML) techniques be used to predict general purpose technologies? We find that an ensemble of deep learning models that analyze both the text of patents and their bibliometric information can ex-ante identify such technologies, accurately identifying 80 of the top 100 high generality patents in the hold-out sample. This ability to identify and adopt promising general technologies early in nascent stages can be highly valuable for firms and society as a whole, with implications for firm competitive advantage as well as national technology policy and R&D strategies.
+
+Showing the abstract — retrieve the full paper via the Exa API.
+
+### Authors
+
+Sen H. ChaiAnoop R. MenonHaris TabakovicClarence C. Lee
+
+### Topics
+
+Intellectual Property and PatentsMachine Learning in Materials ScienceComputational Drug Discovery Methods
+
+### About
+
+PublishedJul 26, 2021
+
+Citations0
+
+[View API Docs](https://exa.ai/docs/reference/get-contents)[Get API Key](https://dashboard.exa.ai)
+
+Powered by the [Exa API](https://exa.ai/docs/reference/get-contents)
+
+Search built for your AI
+
+The fastest, most accurate web search API. Give your agents the context they need.
+
+[Try API for free](https://dashboa
