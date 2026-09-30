@@ -1,0 +1,103 @@
+{
+ "tolerance": 0.001,
+ "rows": [
+  {
+   "indicator": "M0_density_end",
+   "outcome": "O2r_resid",
+   "record_source": "heldout_summary",
+   "record_key": "O2r_resid[indicator=M0_density_end].pooled",
+   "record_pooled": 0.37697368862603964,
+   "rederived_pooled": 0.37697368862603964,
+   "abs_diff": 0.0,
+   "rederived_ci": [
+    0.27994210219803123,
+    0.46638105473090075
+   ],
+   "I2": 0.7471270193676022,
+   "max_unit_point_diff": 5.551115123125783e-17,
+   "pass": true
+  },
+  {
+   "indicator": "M0_density_end",
+   "outcome": "O2r_m50",
+   "record_source": "heldout_summary",
+   "record_key": "O2r_m50[indicator=M0_density_end].pooled",
+   "record_pooled": 0.37451372992757587,
+   "rederived_pooled": 0.37451372992757587,
+   "abs_diff": 0.0,
+   "rederived_ci": [
+    0.2792932077918616,
+    0.4624400105750299
+   ],
+   "I2": 0.7364825462442499,
+   "max_unit_point_diff": 5.551115123125783e-17,
+   "pass": true
+  },
+  {
+   "indicator": "D_vol_end",
+   "outcome": "O2r_m50",
+   "record_source": "heldout_summary",
+   "record_key": "O2r_m50[indicator=D_vol_end].pooled",
+   "record_pooled": 0.30709109748223457,
+   "rederived_pooled": 0.30709109748223457,
+   "abs_diff": 0.0,
+   "rederived_ci": [
+    0.25601716955185855,
+    0.3564552990791093
+   ],
+   "I2": 0.1025566663720245,
+   "max_unit_point_diff": 5.551115123125783e-17,
+   "pass": true
+  },
+  {
+   "indicator": "n_comm_W3",
+   "outcome": "O2r_m50",
+   "record_source": "heldout_summary",
+   "record_key": "O2r_m50[indicator=n_comm_W3].pooled",
+   "record_pooled": 0.16662495958995882,
+   "rederived_pooled": 0.16662495958995882,
+   "abs_diff": 0.0,
+   "rederived_ci": [
+    0.06272620043130452,
+    0.26695081329012804
+   ],
+   "I2": 0.7818912269960893,
+   "max_unit_point_diff": 7.632783294297951e-17,
+   "pass": true
+  },
+  {
+   "indicator": "ego_density_W3",
+   "outcome": "O2r_m50",
+   "record_source": "heldout_summary",
+   "record_key": "O2r_m50[indicator=ego_density_W3].pooled",
+   "record_pooled": -0.10237290009952531,
+   "rederived_pooled": -0.10237290009952531,
+   "abs_diff": 0.0,
+   "rederived_ci": [
+    -0.15109792913974612,
+    -0.05315162683092448
+   ],
+   "I2": 0.0,
+   "max_unit_point_diff": 8.326672684688674e-17,
+   "pass": true
+  },
+  {
+   "indicator": "new_edge_rate",
+   "outcome": "O2r_m50",
+   "record_source": "portability_table",
+   "record_key": "portability_table DL4 of z/se_z (= prereg P3 new_edge_rate pooled_psp)",
+   "record_pooled": 0.11756687823572795,
+   "rederived_pooled": 0.11756687823572798,
+   "abs_diff": 2.7755575615628914e-17,
+   "rederived_ci": [
+    0.07204144431062226,
+    0.16260345817969615
+   ],
+   "I2": 0.0,
+   "max_unit_point_diff": 8.326672684688674e-17,
+   "pass": true
+  }
+ ],
+ "readme_note": "README table shows M0_density_end +0.375 (O2r_m50, 0.3745) while portability/heldout_summary headline +0.377 is O2r_resid; both are reproduced here",
+ "gate_T0_pass": true
+}

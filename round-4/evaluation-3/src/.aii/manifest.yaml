@@ -1,0 +1,10 @@
+entries:
+  - path: .venv/
+    delete: regenerable
+    source: "uv sync"
+  - path: lib/__pycache__/
+    delete: regenerable
+    source: "uv run python build_corrections.py"
+  - path: vendor/__pycache__/
+    delete: regenerable
+    source: "uv run python partb_core.py --stage t0"

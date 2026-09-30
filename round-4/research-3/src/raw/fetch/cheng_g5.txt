@@ -1,0 +1,40 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://journals.sagepub.com/doi/full/10.1177/00031224231166955
+Type: HTML
+Pattern: bridging|unrelated authors|structural hole|constraint|distal|network diversity (10 matches in 231050 chars)
+
+--- Content ---
+
+6515:...eas introduced over two decades (1993 to 2016) in the Web of Science and follow their diffusion across 38 million later publications. We find new ideas diffuse more widely when they socially and intellectually resonate. New ideas become core concepts of science when they reach expansive networks of unrelated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with extant research traditions. These ecological conditions play an increasingly decisive role later in an idea’s career, after their relations with the environment are established. This work advances the sy...
+--
+11138:...ory of diffusion that combines both external and internal factors (i.e., social and ideational factors). In particular, we argue that a new idea—in this study’s case, a new scientific idea introduced in published journal articles—diffuses when its authors have great social prominence, span diverse, distal research collectives, and have consistent champions. We additionally argue that an idea is likely to diffuse when it is linked to prominent scientific facts, when it is deeply integrated into extant research traditions, and when it achieves coherence through consistent conceptual linkages to the es...
+--
+37272:...ehensible and recognizable and, therefore, more likely to diffuse. Stated formally:
+
+_Hypothesis 6a_ : The more embedded it is within densely interconnected extant ideas, the more a new idea will diffuse.
+
+Yet a third complementing perspective on cultural fit foregrounds the importance of new ideas bridging hitherto disparate concepts and topics—not so much fitting into extant knowledge structures, but instead spanning cultural holes within them (Goldberg, Srivastava, et al. 2016; Pachucki and Breiger 2010; Vilhena et al. 2014). When ideas span cultural holes, they bring into contact ideas of different thought styles, or nonredundant ideas. Ideas garner attention and take off when they solve a problem or interrelate hitherto independent lines of thought (Hallett et al. 2019). However, some work finds that in the realm of ideational networks, spanning too distal a cultural hole makes it difficult to comprehend and translate the idea for use, and this inhibits its adoption (Hofstra et al. 2020). As such, one might expect, again, a curvilinear relation of spanning cultural holes and ideational diffusion. Together, this literature suggests that when new ideas...
+--
+70576:...nouns or noun phrases that use the same noun head or head noun compound. For example, “capital” is a root term that can be found in more specialized concepts of “social capital,” “human capital,” and so on. And “social capital” is also a root term, as it can be found in “bonding social capital” or “bridging social capital.” We measure the rootedness of a new idea as the number of unique other ideas in the corpus it can be found within, and we include it to control for the possibility that new ideas that are root terms might find greater uptake than new ideas using specialized terms by virtue of their ...
+--
+86461:...esonance. These results can be found in Models 2 and 4 of Table 4. As shown in Table 4, a one standard deviation change in social embeddedness is associated with a 15 percent (e−.16−1) decrease in the predicted number of articles it diffuses into. The inverse of this variable suggests the reach and bridging of authors into unrelated social communities is associated with higher term uptake. Smaller but significant effects are found when new terms are associated with prominent or core authors (social prominence; _b_ =.05). We see mostly negligible effects for social consistency (_b_ = .02). Together, we...
+--
+94193:...le.
+
+Panels a, b, and c in Figure 6 (Models 1, 2, and 3 in Table 5) show how the social conditions of associated authors can alter a new idea’s diffusion across its career. Of particular interest is social embeddedness. A new idea is increasingly adopted as it authors bridge and connect the term to distal communities (lowest social embeddedness) later in its career. A one standard deviation decrease in social embeddedness is likely to increase the diffusion of a new idea each year by one additional published article early in the term’s life (years 1 to 7), but this grows to over 15 additional articl...
+--
+112474:...iverse research communities. Insofar as these terms are elaborated, taken up, and championed by later researchers, they become more widely recognized as portable ideas that have resounding utility, much like a fact or machine that Latour (1987) describes. The idea begins to bridge institutional and structural holes to come into contact with different authors who translate and fit it to their needs (Perry-Smith and Mannucci 2017), perhaps becoming akin to a boundary object that is related to the same topic but selectively interpreted and distinctively repurposed for and by each community (Fujimura 1992; Star ...
+--
+121222:...els find the polynomial form (squared) has the expected relation for ideational embeddedness. There is a diminishing return to diffusion for increases in ideational embeddedness. For social embeddedness, we likewise find a curvilinear relation, but the inverse. Lessened social density (or increased structural hole) has positive returns to diffusion, but this diminishes and reverses at more extreme values. We refrained from presenting polynomial results here because they greatly complicate the results for interactions with the polynomial for age. Interacting two polynomials with standardized values is difficu...
+--
+135386:.../doi.org/10.1007/s10539-004-0835-5)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?title=Conceptual+Stability+and+the+Meaning+of+Natural+Kind+Terms&author=David+Braddon-Mitchell&publication_year=2005&journal=Biology+and+Philosophy&doi=10.1007%2Fs10539-004-0835-5)
+
+Burt Ronald S. 2004. “Structural Holes and Good Ideas.” _American Journal of Sociology_ 110(2):349–99.
+
+[Crossref](https://doi.org/10.1086/421787)
+
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/27656001/)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?title=Structural+Holes+and+Good+Ideas&author=Ronald+S.+Burt&publication_year=...

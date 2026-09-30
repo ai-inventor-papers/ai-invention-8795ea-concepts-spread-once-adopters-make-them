@@ -1,0 +1,34 @@
+{
+ "metadata": {
+  "method_name": "stub"
+ },
+ "datasets": [
+  {
+   "dataset": "fresh_cohort_2015_2017_open",
+   "examples": [
+    {
+     "input": "{\"concept\": \"Stub concept A\", \"openalex_id\": \"C123\", \"t0\": 2015, \"home_group\": \"SOC\"}",
+     "output": "3.2",
+     "predict_B5": "2.9",
+     "predict_B5_plus_OPEN_home": "3",
+     "metadata_type": "method",
+     "metadata_OPEN_home": 0.1,
+     "metadata_O1c": null
+    },
+    {
+     "input": "{\"concept\": \"Stub B\", \"openalex_id\": \"C456\", \"t0\": 2016, \"home_group\": \"PHYS\"}",
+     "output": "NA",
+     "predict_B5": "1",
+     "predict_B5_plus_OPEN_home": "NA",
+     "metadata_type": null
+    },
+    {
+     "input": "{\"concept\": \"Stub C\", \"openalex_id\": \"C789\", \"t0\": 2016, \"home_group\": \"BGM+Med\"}",
+     "output": "5",
+     "predict_B5": "4",
+     "predict_B5_plus_OPEN_home": "4.5"
+    }
+   ]
+  }
+ ]
+}

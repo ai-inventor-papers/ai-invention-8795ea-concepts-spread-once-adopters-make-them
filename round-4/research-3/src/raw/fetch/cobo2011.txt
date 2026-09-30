@@ -1,0 +1,50 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://sci2s.ugr.es/sites/default/files/ficherosPublicaciones/1321_mjcobo-joi-2010.pdf
+Type: PDF
+Pattern: emerging or declining|motor themes|basic and transversal|highly developed|density|centrality (25 matches in 75271 chars)
+
+--- Content ---
+
+24351:...ss for tuning the parameters is needed. A group of experts in the research ﬁeld under study is useful in
+order to carry out a feedback process to estimate the best parameter conﬁguration that allows us to detect the main themes
+of the ﬁeld.
+Two measures can represent the detected networks: Callon’s centrality, and Callon’s density.
+Callon’s centrality, to be referred to as centrality henceforth, measures the degree of interaction of a network with other
+networks (Callon et al., 1991) and it can be deﬁned as: c = 10 ×
+ekh, with k a keyword belonging to the theme and h a
+keyword belonging to other themes. Centrality measures the strength of external ties to other themes. We can understand
+this value as a measure of the importance of a theme in the development of the entire research ﬁeld analyzed.
+Callon’s density, to be referred to as density henceforth, measures the internal strength of the network (Callon et al., 1991)
+and it can be deﬁned as: d = 100(
+eij/w), with i and j keywords belonging to the theme and w the number of keywords
+in the theme. Density measures the strength of internal ties among all keywords describing the research theme. This value
+can be understood as a measure of the theme’s development.
+3.2. Visualizing themes and thematic networks
+When co-word analysis is used for mapping science, clusters of keywords (and their interconnections) are obtained.
+These clusters are considered as themes.
+Each research theme obtained in this process is characterized by two parameters (“density” and “centrality”). Both median
+and mean values for density and centrality can be used in classifying themes into four groups (Cahlik, 2000; Callon et al.,
+1991; Courtial & Michelet, 1994; Coulter et al., 1998; He, 1999). So a research ﬁeld can be understood to be a set of research
+themes, mapped in a two-dimensional space.
+A Strategic Diagram is a two-dimensional space built by plotting themes according to their centrality and density rank
+values (if we use median for classifying clusters) or values (if we use mean) along two axis, x-axis centrality, y-axis density.
+Strategic diagrams with rank values are used more commonly than ones with values, because of their legibility (Cahlik,
+2000). As an example, in Fig. 1a a strategic diagram is presented.
+We can ﬁnd four kinds of themes (Cahlik, 2000; Callon et al., 1991; Courtial & Michelet, 1994; Coulter et al., 1998; He,
+1999) according to the quadrant in which they are placed:
+• Themes in the upper-right quadrant are both well developed and important for the structuring of a research ﬁeld. They are
+known as the motor-themes of the specialty, given that they present strong centrality and high density. The placement of
+themes in this quadrant implies that they are related externally to concepts applicable to other themes that are conceptually
+closely related.
+• Themes in the upper-left quadrant have well developed internal ties but unimportant external ties and so are of only
+marginal importance for the ﬁeld. These themes are very specialized and peripheral in character.
+• Themes in the lower-left quadrant are both weakly developed and marginal. The themes of this quadrant have low density
+and low centrality, mainly representing either emerging or disappearing themes.
+
+M.J. Cobo et al. / Journal of Informetrics 5 (2011) 146–166
+151
+Fig. 1. The strategic diagram and thematic network.
+• Themes in the lower-right quadrant are important for a research ﬁeld but are not developed. So, this quadrant groups
+tr...
+--
+[5 more matches not shown]
