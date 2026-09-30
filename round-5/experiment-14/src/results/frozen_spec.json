@@ -1,0 +1,167 @@
+{
+ "title": "Cheng reach-vs-depth reversal on the selection bodies",
+ "label": "selection data, not confirmation",
+ "seed": 20260929,
+ "definitions": {
+  "paper_sets": {
+   "HOME": "grounded papers with vfield in the frozen home set",
+   "ALL": "every grounded paper",
+   "grounding": "TAG (legacy concept tag score >= 0.3; EXP5 frame = Exp11 Pass M rows; cohort = EXP10 passC_early tagstate == 1)"
+  },
+  "self_topics": "Exp11/EXP8 ego.self_topics on ALL papers t0..t0+2 (lemma rule + share >= 0.20)",
+  "v_t": "v_t[k] = # year-t papers of the concept in the paper set tagged with topic k (k not SELF)",
+  "CONS": "cosine(v_(t-1), v_t); defined iff both years >= 3 papers with >= 1 topic and >= 2 non-self topics; else NaN",
+  "CONS_r": "Cheng-verbatim sensitivity: cosine restricted to the t-1 neighbour support (0 if empty in t)",
+  "EMB": "ANALOGUE: co-usage-weighted (v_k v_l) mean positive backbone PMI over pairs of the top-20 year-t neighbours on EXP3 slice s(t); missing edge = 0; defined iff >= 3 papers, >= 2 topics",
+  "EMB_cos": "EXPLORATORY: mean pairwise cosine of neighbours' backbone PMI rows (second-order similarity)",
+  "SOC": "density of prior-tie graph among year-t authors (papers <= 15 authors; cap 200 nodes, seeded by (ci, year)); edge iff co-authored any concept paper in t-10..t-1; NaN if < 3 authors",
+  "V": "TAG-grounded yearly count (tagstate == 1), all fields, EXP5 scan/agg_counts; checked vs Exp11 counts_m (sum over vfield); F3 fallback to counts_m if < 99% of checked cells match exactly",
+  "V_cohort_t0p3": "sum of EXP10 sealed parts n at year t0+3 with tagstate == 1 (EXP10 s3 decision TAG); read-only, seal2.unseal() not called",
+  "static_early": "X_early = mean of defined X(t0+1), X(t0+2)"
+ },
+ "bodies": {
+  "EXP5": [
+   "DEV",
+   "OLD_HELDOUT",
+   "COHORT_2010_14"
+  ],
+  "cohort": "COHORT_2015_17",
+  "PRIMARY": "EXP5 pooled (DEV+OLD_HELDOUT+COHORT_2010_14, body dummies)",
+  "REPLICATION": "COHORT_2015_17"
+ },
+ "groups": {
+  "map": {
+   "CS": "CS+Eng",
+   "Eng": "CS+Eng",
+   "BGM": "BGM+Med",
+   "Med": "BGM+Med",
+   "PHYS": "PHYS",
+   "LIFEENV": "LIFEENV",
+   "SOC": "SOC",
+   "MATHDEC": "MATHDEC"
+  },
+  "pooled": [
+   "CS+Eng",
+   "BGM+Med",
+   "PHYS",
+   "LIFEENV",
+   "SOC"
+  ],
+  "report_only": [
+   "MATHDEC"
+  ]
+ },
+ "B5": [
+  "logvol",
+  "growth_c",
+  "offhome_share",
+  "entropy",
+  "reach"
+ ],
+ "depth_outcomes": [
+  "O1c",
+  "O1b",
+  "O3"
+ ],
+ "reach_outcomes": [
+  "O2r_m50",
+  "O2r_resid"
+ ],
+ "transience_note": "O3 = transience (1 = spike then collapse); its predicted sign is <= 0 for a depth-supporting trait",
+ "tests": {
+  "A": {
+   "rows": "EXP5 concept-years t0+1 <= t <= min(t0+10, 2021) with finite CONS_home(t)",
+   "standardise": "z over the pooled panel rows of each model",
+   "A1": "fepois V(t+1) ~ zCONS + zEMB + zSOC | age + year, CRV1 by ci (Cheng spec)",
+   "A1_NB": "statsmodels NegativeBinomial with age + year dummies",
+   "A2": "A1 + log1p V(t)",
+   "A3": "A2 | ci + year",
+   "variants": [
+    "HOME",
+    "ALL",
+    "SOC-complete joint",
+    "CONS-only"
+   ],
+   "ratio": "b_A2/b_A1 on CONS, 500-draw concept-cluster bootstrap, same draws",
+   "per_body_group": "per body and per group; DL across groups"
+  },
+  "B": {
+   "raw": "Spearman(CONS_early_home, V(t0+3))",
+   "size": "psp(CONS_early_home, V(t0+3) | log V(t0+2))",
+   "depth": "psp with O1c, O1b, O3 | B5 + onset-year dummies (+ group, body dummies when pooled)",
+   "reach": "psp with O2r_m50, O2r_resid | same",
+   "bootstrap": 2000,
+   "paired_diff": "psp(O1c) - psp(O2r_m50), same draws, common complete-case set",
+   "DL": "5 groups, I2, sign count",
+   "cohort_rungs": [
+    "R2",
+    "R3"
+   ],
+   "also": [
+    "EMB_early",
+    "SOC_early",
+    "CONS_early_all",
+    "CONS_r_early",
+    "EMB_cos_early"
+   ]
+  },
+  "C": {
+   "C1": "fepois entries(t+1) ~ zCONS_home(t) + log1p_home + log1p_all + log1p_deg + log_at_risk | ci + year, CRV1; Exp11 estimation sample (at_risk_next > 0, deg >= 2)",
+   "C2": "feols dHomeShare(t+1) ~ same; home share = home-field grounded count / all grounded count (counts_m)",
+   "bootstrap": 500
+  },
+  "D": {
+   "model": "OLS on ranks: rank O ~ rank CONS_early + rank logvol_early + product + rank B5 + t0 dummies (+ group/body dummies); O in {O3, O2r_m50}",
+   "tercile": "psp of CONS_early by early-size (logvol) tercile",
+   "palla_prediction": "interaction on O3 > 0"
+  },
+  "E": {
+   "model": "paired bootstrap psp(CONS_early_all) - psp(CONS_early_home) on O2r_m50 and O1c"
+  }
+ },
+ "predictions": {
+  "P1": "raw Spearman(CONS_early_home, V(t0+3)) > 0 and A1 b_CONS > 0 on HOME",
+  "P2": "RATIO A2/A1 < 0.5",
+  "P3": "psp(CONS_early_home, O2r_m50 | B5) < 0",
+  "P4": "psp(CONS_early_home, O3 | B5) <= 0",
+  "P5": "psp(O1c) - psp(O2r_m50) > 0",
+  "P6": "C1 b < 0"
+ },
+ "holm_family": [
+  "P1-A1",
+  "P2",
+  "P3",
+  "P4",
+  "P5"
+ ],
+ "holm_note": "PRIMARY body, one-sided in the predicted direction",
+ "verdict_rules": {
+  "REVERSAL CONFIRMED (on selection data)": "P1 raw rho > 0 with CI > 0 AND P3 psp < 0 with CI < 0 (PRIMARY)",
+  "REVERSAL REPLICATED": "same on COHORT_2015_17 (CI < 0 not required if n < 600; report MDE)",
+  "SIZE-DOMINATED": "A2/A1 ratio bootstrap CI upper bound < 0.5",
+  "DEPTH-REACH SPLIT": "P5 CI > 0",
+  "NULL-REVERSAL": "P3 CI includes 0",
+  "other": "EXPLORATORY; no post-hoc subgroup claims"
+ },
+ "drop_order": [
+  "A1-NB",
+  "EMB",
+  "SOC",
+  "Palla terciles",
+  "ALL build for test A"
+ ],
+ "created": "2026-09-29 05:30:03",
+ "code_sha256": {
+  "cheng.py": "b9200b3fa8b5c83f2646ac863f7190eea726cb602266fb71369183dbd33fe1d6",
+  "common.py": "f695b723675beedc93bec329281cdeb56208076d457f143234df0cd5c2f17f23",
+  "ego.py": "13f052f7578212a2557bc31cb11f6b343e8eb075af893e07f94375bdf9911c83",
+  "ego_ctx.py": "ca3ef632c90c5bf71d2bf9a39826945cb7b5504be8e86df81db904c49602bced",
+  "ego_yearly.py": "aaa2ab23a0dddb9e6ffe23844345bd1f7822116bfb8ec22de83611b03cebf0a3",
+  "fe_stats.py": "f96acf68cd4f542d7fa503c56b2aafb06687916b572664274b3886a112ae8eeb",
+  "panel_m.py": "3e2ff9c7353ece103258f17ef5110af1365ac5d7d7ce042fab70a49522338947",
+  "rq1stats.py": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+  "s0_spec.py": "55b390fc86b4f344c3f629964368a42fdecab7860eb8333728d19206cc710385",
+  "stats_core.py": "a1c30faeddf9a658bc6dcd9826619cd2f42f51bfa856ef772c1d293b7f2582e9"
+ },
+ "prereg_sha256": "ef6a2ddf16b3386b8466ec7714c44240f62ba1a8e0d496204ce53f6751f645e9"
+}

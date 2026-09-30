@@ -1,0 +1,30 @@
+{
+ "target_psp": 0.08,
+ "n_draws": 300,
+ "n_boot": 500,
+ "model": "y = X*beta_EXP5 + gamma*resid(rank x | Z) + eps; beta, sd(eps) from OLS of O2r_m50 on the standardised R4 continuous covariates in EXP5; realised Frame-N design matrices; the sample is the concepts with finite index and p(O2r_m50 defined) >= 0.5 (expected primary set)",
+ "OPEN_home": {
+  "n_sim_sample": 521,
+  "mean_est_R3": 0.09601104952901686,
+  "mean_est_R5": 0.08687881743077908,
+  "power_R3": 0.5633333333333334,
+  "power_R5": 0.4866666666666667,
+  "power_joint_R3_R5": 0.47,
+  "SE_R3": 0.04526527318965208,
+  "SE_R5": 0.04515238032032518,
+  "MDE_R3_2.8SE": 0.12674276493102582,
+  "MDE_R5_2.8SE": 0.1264266648969105
+ },
+ "NOVCHURN_home": {
+  "n_sim_sample": 507,
+  "mean_est_R3": 0.1658394562185777,
+  "mean_est_R5": 0.07847283214024067,
+  "power_R3": 0.95,
+  "power_R5": 0.38333333333333336,
+  "power_joint_R3_R5": 0.38333333333333336,
+  "SE_R3": 0.0458354331599278,
+  "SE_R5": 0.04695407951904916,
+  "MDE_R3_2.8SE": 0.12833921284779784,
+  "MDE_R5_2.8SE": 0.13147142265333764
+ }
+}

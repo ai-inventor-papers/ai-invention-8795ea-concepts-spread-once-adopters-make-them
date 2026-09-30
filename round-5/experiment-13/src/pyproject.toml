@@ -1,0 +1,5 @@
+[project]
+name = "frame-n-confirmation"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["pyarrow", "pandas", "numpy", "scipy", "statsmodels", "python-igraph", "leidenalg", "pyahocorasick", "xxhash", "spacy", "nltk", "scikit-learn", "matplotlib", "loguru", "requests", "openai", "aiohttp", "snowballstemmer", "pyyaml", "tenacity"]
