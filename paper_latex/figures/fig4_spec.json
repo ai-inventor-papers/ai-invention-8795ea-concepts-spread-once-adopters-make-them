@@ -1,0 +1,85 @@
+{
+  "figure_id": "fig4",
+  "title": "Retained-frontier entry model ladder",
+  "aspect": "4:3",
+  "width_in": 6.5,
+  "source": {
+    "artifact": "gen_art_experiment_7 (invention loop iter_3)",
+    "file": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json",
+    "primary_keys": "pooled4.ladder.frontier_primary_sample.{auc_within,LR,n}",
+    "sensitivity_keys": "pooled4.specificity_rebuild.m_min_conditional_probability_proximity.ladder.{auc_within,LR,n}",
+    "frame": "held-out EXP5-minus-EXP6 frame, pooled over 4 domain groups (PHYS, LIFEENV, SOC, MATHDEC)",
+    "n": {
+      "concepts": 3162,
+      "events": 6978,
+      "informative_strata": 6076
+    },
+    "note": "No bootstrap interval on within-stratum AUC exists in the artifact; per-step significance is the nested likelihood-ratio test (df = 1)."
+  },
+  "rungs": [
+    {
+      "key": "R0_M0",
+      "label": "R0\n(base)"
+    },
+    {
+      "key": "R1_rca",
+      "label": "R1\n(+RCA density)"
+    },
+    {
+      "key": "R2_vol",
+      "label": "R2\n(+volume density)"
+    },
+    {
+      "key": "R3_ret",
+      "label": "R3\n(+retained frontier)"
+    }
+  ],
+  "series": [
+    {
+      "label": "Backbone relatedness (primary)",
+      "auc_within": [
+        0.8460211531660047,
+        0.8468157232553982,
+        0.8470646150673604,
+        0.8516230827607852
+      ],
+      "lr_step": [
+        null,
+        40.11704796988488,
+        1.9345018094791158,
+        325.8407278855957
+      ],
+      "p_step": [
+        null,
+        2.3919240963048845e-10,
+        0.16426676468804782,
+        7.739262185789853e-73
+      ]
+    },
+    {
+      "label": "Min. conditional-probability proximity (sensitivity)",
+      "auc_within": [
+        0.8623758924663419,
+        0.8648788086897491,
+        0.8665965323889189,
+        0.8661702481802371
+      ],
+      "lr_step": [
+        null,
+        245.5226692711076,
+        37.14232299662399,
+        6.251574661015184
+      ],
+      "p_step": [
+        null,
+        2.4579488565911594e-55,
+        1.0981422480161409e-09,
+        0.012408295239020964
+      ]
+    }
+  ],
+  "chi2_df1_crit_p05": 3.841458820694124,
+  "ylabel_top": "Within-stratum AUC",
+  "ylabel_bottom": "LR χ² (df = 1)",
+  "xlabel": "Nested conditional-logit model"
+}

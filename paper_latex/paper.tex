@@ -1,0 +1,749 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, natbib, booktabs, xcolor, listings}
+\usepackage{tabularx}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+\title{Concepts spread where they stick: network signals of interdisciplinary diffusion in science}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+New scientific concepts differ in how broadly they spread across disciplines.
+We ask which early structural signals in a concept's topic co-occurrence network
+anticipate later cross field breadth (the breadth of a concept's diffusion
+across distinct scientific fields) and by what routes concepts move between
+fields. Using the full OpenAlex snapshot, we identify thousands of concepts by
+title matching, track their adoption episodes across scientific fields, and
+screen early network indicators against a popularity baseline on held out field
+groups never used in selection. Seven indicators survive multiple testing
+correction, and a learned ElasticNet over all 53 indicators exceeds the baseline by
+$+0.059$ in Spearman correlation for predicting rarefied cross field breadth.
+An early openness index computed from home field papers only has a small positive
+partial association with breadth, $+0.069$ [$+0.038$, $+0.100$] pooled over six
+nonselection bodies, but adds no forecasting gain; community count indicators
+lose their signal when computed from home field papers only.
+The retained frontier hypothesis, that concepts next enter fields related to the
+ones currently retaining them, is only partially supported by its preregistered held out test:
+the conditional logit coefficient is $d_0 = 0.322$ [$0.291$, $0.355$], with positive
+point estimates in all four domain groups, but a volume matched contrast is null and the
+coefficient reverses under an alternative field proximity, so retention cannot be
+separated from volume. As an association, this extends the principle of
+relatedness from economic geography to science.
+A decomposition, an accounting identity rather than a causal split, attributes 73\% of the
+breadth gap between integrating and localised concepts to early contact diversity,
+while frontier advance contributes near zero. The openness signal behaves like
+static topical nonredundancy of the early neighbourhood; a temporal partner
+turnover component could not be detected with about ten papers per year.
+\end{abstract}
+
+%% ===================================================================
+\section{Introduction}
+\label{sec:introduction}
+
+Some scientific concepts stay within their home discipline for decades, while
+others cross field boundaries within a few years. Optogenetics, originating in
+neuroscience, entered genetics, psychiatry and bioengineering; deep learning,
+rooted in computer science, now appears in medicine, materials science and
+linguistics. Understanding what distinguishes broadly diffusing concepts from
+locally absorbed ones matters for science policy, research evaluation and the
+design of interdisciplinary programmes \citep{Cheng2023, Hofstra2019}. If early
+structural signals predict later cross field integration, funders and
+institutions could identify concepts with high diffusion potential before that
+diffusion is observable in publication counts alone.
+
+The problem is hard because simple popularity metrics, including publication
+volume, growth rate and off home publication share, already explain much of the
+variance in later breadth (in our data the baseline alone reaches Spearman
+0.65--0.86 with later breadth). Any network indicator must add
+information beyond these baselines. Prior work has proposed several candidate
+signals: community diversity of early adopters \citep{Weng2013}, collaboration
+density among parent topics before emergence \citep{Salatino2017}, and structural variation in
+citation networks \citep{Chen2012}. These studies typically operate on
+curated concept sets without held out validation, mix units of analysis defined
+at the level of individual concepts with those at the field level, or do not
+control for volume based predictors.
+No prior study has screened a broad set of temporal knowledge network indicators
+against a shared baseline on held out field groups for the specific outcome of
+size adjusted interdisciplinary breadth.
+
+A second open question concerns the routes by which concepts move between
+fields. The principle of relatedness, established for regional economic
+diversification, predicts that actors diversify into activities related to their
+existing portfolio. For scientific fields adopting new concepts, this principle
+has been tested for entry but not for the role of currently retaining fields,
+those that have adopted a concept and kept publishing on it. Whether concepts
+spread next to fields related to the ones currently retaining them, beyond
+relatedness to the home field alone, is untested.
+
+This paper addresses both questions with a large scale empirical study. We
+identify 12,499 concepts from the OpenAlex bulk snapshot (476 million works),
+compute 53 early network indicators across seven families, and test them on
+held out field groups and a confirmatory onset cohort. We build a
+conditional logit model, a discrete choice model that estimates the probability
+of entry into each candidate field within a stratified choice set, to test
+whether retained field
+relatedness predicts the next field a concept enters. We decompose the breadth
+gap between integrating and localised concepts into early contact, frontier
+advance and retention channels.
+
+Our contributions are:
+\begin{enumerate}
+  \item We screen 53 early co-occurrence network indicators against a
+    five feature popularity baseline and confirm seven on held out field groups
+    for predicting rarefied cross field breadth, with an ElasticNet over all
+    53 indicators exceeding the baseline by $+0.059$ [$+0.046$, $+0.073$] in Spearman
+    correlation.
+  \item We test, in a preregistered test on 3,162 held out concepts, whether
+    concepts spread next to fields related to the ones currently retaining them.
+    The association holds (conditional logit $d_0 = 0.322$ [$0.291$, $0.355$]),
+    but the preregistered verdict is partial: a volume matched contrast is null,
+    so retention is not separated from volume.
+  \item We decompose the breadth gap between widely and narrowly spreading
+    concepts: 73\% is early contact diversity, near 0\% is frontier advance,
+    and 25\% is differential retention (an accounting identity, not a causal
+    decomposition).
+  \item We show that early neighbourhood consolidation, measured by ideational
+    consistency, predicts volume growth but narrower cross field reach, a
+    reversal that holds in all five domain groups of the selection data and on
+    the 2015--2017 cohort but is not confirmed on vocabulary free phrases.
+  \item We partially replicate the home field openness signal on a fresh 2015--2017 cohort (partial
+    Spearman $+0.091$ [$+0.013$, $+0.171$], with intervals including zero at the
+    strictest control rungs) and on vocabulary free newborn
+    phrases (frozen verdict partial).
+\end{enumerate}
+
+The remainder of the paper is organised as follows. Section~\ref{sec:related}
+surveys related work. Section~\ref{sec:methods} describes the data,
+indicators and models. Section~\ref{sec:results} presents results.
+Section~\ref{sec:discussion} discusses the findings, and
+Section~\ref{sec:limitations} states limitations.
+
+%% ===================================================================
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Concept diffusion in science.}
+\citet{Cheng2023} tracked nearly 60,000 new ideas in the Web of Science
+and found that ideas become core concepts when they reach expansive networks of
+unrelated authors, achieve consistent intellectual usage, are associated with
+prominent ideas and fit extant research traditions.
+Their ideational consistency measure, the cosine similarity of vectors recording which topics a concept's neighbours
+use across consecutive years, predicted next year volume.
+\citet{Rotolo2015} defined emerging technologies through five attributes
+including novelty and fast growth but did not test cross field spread.
+\citet{Salatino2017} showed that the density of interaction among existing
+topics rises before a new topic emerges. These studies provide the starting point for our work but do not
+screen a broad indicator set against a shared baseline with held out validation
+for size adjusted cross field breadth.
+
+\paragraph{Topic co-occurrence and citation networks.}
+\citet{Callon1991} introduced co-word analysis as a tool for mapping the
+structure of research fields. \citet{Chavalarias2013} found that dense term
+clusters survive longer, and that density rises during emergence and falls
+before decline. \citet{Salatino2018} proposed the AUGUR system for detecting
+topic emergence from co-occurrence backbone dynamics. Our work differs in that
+we test co-occurrence indicators as predictors of a specific outcome, cross field
+breadth, rather than using them descriptively.
+
+\paragraph{Novelty, recombination and impact.}
+\citet{Uzzi2013} found that high impact papers combine conventional and atypical
+journal pairings. \citet{Hofstra2019} documented the diversity--innovation
+paradox: researchers from underrepresented groups produce more novel work but
+receive fewer citations. \citet{Tria2013} modelled the dynamics of correlated
+novelties, showing that novelty begets novelty through the adjacent possible.
+\citet{Burt2004} showed that structural holes, brokerage positions spanning
+disconnected groups, generate good ideas. These studies operate at the paper or
+individual level; ours operates at the concept level and asks about cross field
+breadth rather than citation impact.
+
+\paragraph{The principle of relatedness.}
+\citet{Hidalgo2007} showed that a country's position in the product space
+predicts which products it diversifies into. \citet{Neffke2011} extended this to
+regional industry diversification. Our contribution is to test whether
+relatedness to the set of fields currently retaining a concept predicts entry,
+beyond relatedness to the home field and conventional density measures.
+
+\paragraph{Community structure and virality.}
+\citet{Weng2013} showed that early community diversity predicts virality of
+online content, with about seven times the precision of random guessing. \citet{Ugander2012} found that structural
+diversity drives social contagion on Facebook. \citet{Centola2010} demonstrated
+experimentally that behaviour spreads further in clustered networks, where
+adopters receive reinforcing signals from several contacts. \citet{Palla2007} tracked the evolution of overlapping communities
+in large networks. Our indicator screen tests the scholarly analogue of these
+mechanisms: whether a concept's early co-occurrence partners spanning multiple
+communities predicts later cross field breadth.
+
+%% ===================================================================
+\section{Data and Methods}
+\label{sec:methods}
+
+\subsection{Concept identification and panel construction}
+
+We use the OpenAlex bulk snapshot (476,196,327 works; 129.4 million base works
+1995--2022). Concepts are identified by Aho--Corasick title matching of 56,643
+legacy OpenAlex concepts (levels 2--5) plus Wikidata aliases, with stemmed
+verification. A per concept precision gate drops concepts with precision below
+0.80 (benchmark precision 0.947, recall 0.659, assessed on a benchmark of 390 pairs
+with 60 hand checked pairs at 90\% agreement).
+
+A concept's onset year $t_0$ is the first year it reaches 20 grounded
+publications. Home fields are the fields holding at least 40\% of the first 30
+grounded papers. The frame comprises 12,499 concepts and 27,393 adoption episodes (one per
+concept--field pair).
+
+The panel is split by home field family into a development set (DEV: Computer
+Science, Engineering, Biochemistry/Genetics/Medicine; 4,771 concepts), four
+held out field groups (Physical Sciences 742, Life and Environment 1,113, Social
+Sciences 1,352, Mathematics and Decision Sciences 165), and a 2010--2014 onset
+cohort (4,356 concepts, all fields). The specification was hash sealed on DEV
+before held out scoring.
+
+\subsection{Field backbone}
+
+The interfield backbone is a weighted graph over 26 fields, with edge weights
+given by positive pointwise mutual information (PMI) of topics appearing jointly
+in the same work within a preonset window (1998--2002). This backbone is used throughout for relatedness
+density, gateway centrality and community detection. Its time varying versions
+(computed in five year slices) correlate at Spearman 0.92 with the frozen version.
+
+\subsection{Outcome: rarefied cross field breadth}
+
+The primary outcome is rarefied cross field breadth $O_{2r}$ ($m = 50$): the
+expected number of distinct venue fields among a fixed size random draw of 50
+papers from a concept's publications in years $t_0 + 6$ to $t_0 + 8$, computed
+by exact hypergeometric rarefaction. Rarefaction separates size adjusted breadth
+from sheer volume. Secondary outcomes include sustained uptake, transience, and
+field- and year normalised citation growth.
+
+\subsection{Baseline}
+
+The five feature popularity baseline is: log publication volume at
+$t_0 + 2$, publication growth rate, off home share, Shannon entropy of the field
+distribution, and the number of fields reached, all in the $t_0$ to $t_0 + 2$ window. This baseline alone reaches Spearman correlations of 0.65--0.86 with
+$O_{2r}$ across domain groups, setting a high bar for incremental network
+indicators.
+
+\subsection{Indicator families}
+
+We compute 53 indicators across seven families in the $t_0$ to $t_0 + 2$
+window:
+
+\begin{itemize}
+  \item \textbf{Popularity (E):} publication growth, author growth, author count.
+  \item \textbf{Disciplinary composition (F):} Shannon entropy of field
+    distribution, home field relatedness, Rao--Stirling diversity.
+  \item \textbf{Landing position (G):} gateway centrality of home and early
+    off home fields.
+  \item \textbf{Retained frontier (FR):} relatedness density to fields with
+    revealed comparative advantage (RCA) $> 1$, volume weighted density, contact
+    reach (count of off home fields entered), retention ratio (share of contacted
+    fields that retain the concept).
+  \item \textbf{Co-occurrence ego network (A):} 27 indicators from the
+    concept's ego network on the co-occurrence backbone, including neighbourhood
+    novelty (share of new partners), edge persistence (share of retained
+    partners), number of Leiden communities among neighbours, ego density,
+    participation coefficient, brokerage.
+  \item \textbf{Author overlap ties (S):} shared authorship between concepts.
+  \item \textbf{External recognition:} whether the concept appears in domain
+    taxonomies or curated lists.
+\end{itemize}
+
+\subsection{Indicator selection and validation}
+
+Indicators are screened on DEV by partial Spearman correlation with $O_{2r}$
+given the popularity baseline, using leaving one home group out cross validation
+with 2,000 bootstrap resamples of concepts. The top 10 frozen indicators per outcome
+are evaluated on held out groups with DerSimonian--Laird random effects pooling
+across four domain groups and Holm--Bonferroni correction for multiplicity (a
+stepdown procedure controlling the familywise error rate).
+
+\subsection{Retained frontier model}
+
+For the field entry analysis, we construct risk sets indexed by concept, target
+field and year: at each year after onset, every off home field that the concept
+has not yet entered is at risk. Entry is defined as the concept reaching 5 grounded
+publications in the field. The conditional logit (Breslow partial likelihood) is
+stratified by each combination of concept and year, with standardised covariates
+added in four nested
+rungs: the baseline includes relatedness to home, log field size, entered field
+density based on revealed comparative advantage and own field gateway centrality;
+the second rung adds density of fields with revealed comparative advantage above
+unity; the third adds volume weighted density; and the full model adds
+retained field relatedness $d_0$, defined as the mean backbone relatedness
+between the target field and the set of off home fields currently retaining the
+concept. The specification is frozen on DEV and scored once on the held out
+frame.
+
+\subsection{Breadth decomposition}
+
+We decompose the gap in retained off home breadth at $t_0 + 8$ between the top
+and bottom terciles of size residualised breadth $O_{2r}$ (residualised on
+volume) into three multiplicative factors: early contact
+$E_2$ (fields entered by $t_0 + 2$), frontier advance $M$ (ratio of fields
+entered by $t_0 + 8$ to those entered by $t_0 + 2$), and retention ratio
+$\rho$ (share of entered fields retained at $t_0 + 8$). The decomposition is
+volume stratified. Because retained breadth and $O_{2r}$ are computed from the
+same papers, the shares are an accounting identity, not causal effects.
+
+%% ===================================================================
+\section{Results}
+\label{sec:results}
+
+\subsection{Which indicators predict cross field breadth?}
+
+Seven of the 53 screened indicators survive held out validation with
+Holm--Bonferroni correction for predicting rarefied cross field breadth ($O_{2r}$, $m = 50$),
+all positive in six of six domain groups and cohort bodies
+(Table~\ref{tab:confirmed}).
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Confirmed indicators for rarefied cross field breadth ($O_{2r}$,
+$m=50$). Pooled partial Spearman correlations from DerSimonian--Laird
+random effects pooling across four held out domain groups. All seven
+survive Holm--Bonferroni correction.}
+\label{tab:confirmed}
+\begin{tabularx}{\linewidth}{>{\raggedright\arraybackslash}p{4.2cm} c c c c}
+\toprule
+Indicator & Family & Pooled $\rho$ & 95\% CI & $I^2$ \\
+\midrule
+Relatedness density from entered fields (cumulative) & FR & $+0.375$ & $[+0.279, +0.462]$ & 0.74 \\
+Off home fields with cumulative presence ($\geq 2$ works) & FR & $+0.307$ & $[+0.256, +0.356]$ & 0.10 \\
+Contact reach (off home fields entered) & FR & $+0.211$ & $[+0.161, +0.261]$ & 0.00 \\
+Communities among co-occurrence neighbours & A & $+0.167$ & $[+0.063, +0.267]$ & 0.78 \\
+Neighbourhood novelty & A & $+0.151$ & $[+0.044, +0.255]$ & 0.75 \\
+Retention ratio of contacted fields & FR & $-0.114$ & $[-0.160, -0.067]$ & 0.00 \\
+Ego network density & A & $-0.102$ & $[-0.151, -0.053]$ & 0.00 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The first two indicators, cumulative relatedness density and cumulative field
+presence, use the cumulative field history up to $t_0 + 2$ and partly reflect a
+preonset footprint. After removing the preonset component, both attenuate to
+about half their raw value on the same sample (field presence $+0.176$ vs
+$+0.317$; relatedness density $+0.187$ vs $+0.374$), and postonset field presence
+is nearly rank identical to the baseline's reach component (Spearman 0.96--1.00).
+The remaining indicators are measured in the $t_0$ to $t_0 + 2$ window, but the
+community count is partly the outcome measured early: it is built from all of a
+concept's papers, including off home ones, and computed from home field papers
+only it is null on the fresh cohort (Section~\ref{sec:openness}).
+
+A learned ElasticNet over all 53 indicators exceeds the popularity
+baseline by $+0.059$ [$+0.046$, $+0.073$] in Spearman correlation on the pooled
+held out set. Held out increments by domain group are: Physical Sciences
+$+0.050$, Life and
+Environment $+0.059$, Social Sciences $+0.062$, Mathematics and Decision
+Sciences $+0.037$.
+
+For sustained uptake, only the number of early authors is confirmed. For
+citation growth, home field relatedness (negative) and author growth are
+confirmed, and the learned model reaches Spearman 0.188 against the popularity baseline's 0.015.
+No indicator or learned model predicts external recognition beyond the baseline
+and onset year.
+
+\subsection{Openness composite and confirmation}
+\label{sec:openness}
+
+Six ego network indicators (neighbourhood novelty, new edge rate, community
+count and participation, and, with negative sign, ego density and edge
+persistence) compose into an openness index (OPEN), defined as the mean of the
+six signed $z$-scored components with constants frozen on the full frame of all
+12,499 concepts.
+
+On a fresh 2015--2017 onset cohort of 1,443 concepts never used in any selection
+step, OPEN measured within the home field (OPEN\textsubscript{home}) shows a
+partial Spearman correlation with $O_{2r}$ of $+0.091$ [$+0.013$, $+0.171$]
+($n = 573$) at control rung R2 (controlling for the popularity baseline, onset
+year, contact reach and concept type), and
+$+0.080$ [$+0.001$, $+0.162$] at rung R3 (adding the
+preonset footprint). The confidence interval includes zero at higher rungs, and
+the DerSimonian--Laird pool across groups is $+0.083$ [$-0.007$, $+0.173$]. The
+signal carries no forecasting gain over the popularity baseline ($+0.002$ Spearman). The
+preregistered verdict is confirmed but marginal.
+
+The home only build matters. Computed from all of a concept's papers, the same
+index gives $+0.174$ on the cohort, and the paired difference between the
+all papers and home only builds is $+0.093$ [$+0.016$, $+0.169$]: part of the
+all papers signal is the off home spread itself, measured early. Among the
+home only components, community count ($+0.002$) and participation ($+0.050$)
+are null on the cohort, while neighbourhood novelty ($+0.134$ [$+0.049$, $+0.215$])
+and low edge persistence ($-0.112$ [$-0.199$, $-0.023$]) carry the signal.
+
+An evidence synthesis across six nonselection bodies (four held out domain
+groups plus the 2010--2014 and 2015--2017 cohorts) gives a DerSimonian--Laird
+pooled OPEN\textsubscript{home} partial Spearman of $+0.069$ [$+0.038$,
+$+0.100$] with $I^2 = 0$, all six bodies positive. The selection body (DEV)
+estimate of $+0.109$ shows shrinkage of $1.58\times$ relative to the
+nonselection pool.
+
+The pooled partial Spearman of the neighbourhood novelty and churn composite
+across five nonselection bodies is $+0.105$
+[$+0.069$, $+0.140$] with $I^2 = 0$. On the vocabulary free frame
+(Section~\ref{sec:framen}) novelty carries the signal and edge persistence is null.
+In an exploratory analysis on the pooled selection frame, controlling for the
+share of early home papers that are bridging papers (papers that also carry off
+home topics) halves the novelty and churn association (from $+0.118$ to
+$+0.056$), so much of the home signal travels through such mixed papers. Figure~\ref{fig:evidence_synthesis} summarises the evidence
+across all evaluation bodies.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig2_v0.pdf}
+  \caption{Partial Spearman correlation between home field openness (OPEN\textsubscript{home}) and rarefied cross field breadth ($O_{2r}$, $m=50$), controlling for the popularity baseline (control rung R2), per evaluation body. Blue squares are the six nonselection bodies: four held out domain groups and the 2010--14 and 2015--17 onset cohorts. Square area is proportional to inverse variance (Fisher-$z$) weight, and horizontal lines are 95\% bootstrap CIs (2,000 bootstrap resamples of concepts); $n$ is the number of concepts analysed. The blue diamond spans the DerSimonian--Laird random effects pool over these six bodies, $+0.069$ [$+0.038$, $+0.100$] with $I^2=0$, and the dotted blue line marks the pooled estimate. The grey row is the DEV selection body ($+0.109$ [$+0.073$, $+0.144$], $n=3{,}003$), on which the index was chosen. It is not part of the pool and is $1.58\times$ the pooled estimate, consistent with winner's curse shrinkage. The dashed grey line marks zero. All six nonselection estimates are positive, but only the two cohort intervals exclude zero. Because five of the six bodies had been unsealed earlier, the pool is descriptive rather than confirmatory.}
+  \label{fig:evidence_synthesis}
+\end{figure}
+
+\subsection{Confound analysis: topical dispersion, not temporal churn}
+
+The openness signal could be an artefact of small yearly samples. We test this
+with four null models:
+
+\begin{itemize}
+  \item \textbf{Fixed-$n$ rarefaction null} (drawing $n = 10$ partners per
+    year): neighbourhood novelty and churn retains 68\% of the raw effect
+    (pooled $+0.078$ vs $+0.116$).
+  \item \textbf{Temporal permutation null} (randomly reordering the year labels
+    within each concept's own time series, 200 permutations): the temporal excess is $+0.008$
+    with split half reliability below 0.05, so the measured contribution of the
+    temporal ordering of partner arrivals is near zero but poorly measured.
+  \item \textbf{Configuration model null} (rewiring the ego network while
+    preserving each node's degree, following the Molloy--Reed configuration
+    model): ego density normalised against the null ($z$-scored) still predicts
+    breadth (partial Spearman $-0.091$).
+  \item \textbf{Split half reliability}: neighbourhood novelty and churn
+    raw $= 0.48$, OPEN\textsubscript{home} $= 0.49$, rising to 0.58 after
+    configuration model cleaning.
+\end{itemize}
+
+Raw edge persistence is 66\% explained by its own temporal permutation null mean
+(computed by reordering year labels within each concept's time series), and that null mean predicts the
+outcome at least as strongly as raw
+persistence itself. The measurable signal is a static topical dispersion property of the
+home topic mix. The temporal excess variants are too unreliable (split half
+0.01--0.05) and failed a planted churn check, so a temporal partner turnover
+component cannot be ruled out at about ten papers per year; it can only be said
+not to be detected.
+
+\subsection{Reconciling consistency and breadth}
+
+\citet{Cheng2023} reported that ideational consistency (cosine of a concept's
+topic usage vector across consecutive years) predicts next year volume with
+a 53\% increase per standard deviation. We reproduce this almost exactly: our
+twin negative binomial model gives $+53.5\%$ per SD. Adding log current volume
+reduces this to $+1.3\%$ [$+0.5\%$, $+2.1\%$]: the raw association is
+size dominated.
+
+Net of size, consistency's partial Spearman with rarefied cross field breadth is
+$-0.069$ [$-0.093$, $-0.047$], negative in all five domain groups. On the
+2015--2017 cohort, the reversal replicates at $-0.111$ [$-0.197$, $-0.030$].
+These bodies are selection data (outcomes read earlier); on the vocabulary free
+frame (Section~\ref{sec:framen}), the confirmatory test, the reversal is not confirmed:
+$-0.064$ [$-0.159$, $+0.031$].
+Panel analysis tracking each concept over time shows that years of high
+consistency are followed by slightly more off home entries ($b = +0.025$
+[$+0.004$, $+0.048$]), so the reach penalty is a trait observed across concepts, not a mechanism operating within a single
+concept over time.
+
+Consistency and breadth are not opposed within a single concept's trajectory, but
+concepts whose neighbourhood is consistently structured tend to grow in volume
+rather than spreading across fields. This complements \citet{Cheng2023} by
+separating the volume and breadth outcomes.
+
+\subsection{How do concepts diffuse across fields?}
+
+\subsubsection{Retained frontier entry}
+
+The conditional logit model tests whether a concept's next field of entry is
+predicted by the target field's relatedness to the off home fields that
+currently retain the concept, beyond relatedness to the home field, field size,
+entered field density and own gateway centrality.
+
+Rebuilt on the held out frame of an earlier experiment (369 concepts, 961
+informative strata), the model reproduces that experiment's result exactly:
+likelihood ratio 68.6, $d_0 = 0.281$. On the development set of the independent
+frame (4,486 concepts), $d_0 = 0.246$ [$0.222$, $0.271$].
+
+On the independent held out frame (3,162 concepts, 6,978 entry events,
+hash frozen specification), the retained frontier coefficient is $d_0 = 0.322$
+[$0.291$, $0.355$] (concept bootstrap, 1,000 resamples; likelihood ratio
+325.8 for the retained frontier term over the volume density rung,
+$p < 10^{-72}$). The point estimate is positive in all four
+held out domain groups: Physical Sciences 0.148, Life and Environment 0.401,
+Social Sciences 0.297, Mathematics and Decision Sciences 0.065
+(underpowered and outside the preregistered sign rule). The DerSimonian--Laird pool over four groups gives 0.243
+[$0.118$, $0.368$] with $I^2 = 0.92$, reflecting genuine heterogeneity across
+domains. Three permutation tests confirm robustness: shuffling which fields
+retain the concept ($p = 0.001$), rewiring the field backbone ($p = 0.004$),
+and permuting field labels across backbone nodes ($p = 0.003$).
+
+The predeclared volume matched contrast, comparing entry rates of retained
+versus fields that were entered but not retained in the same volume cell, is null:
+$-0.028$ [$-0.105$, $+0.046$]. The frozen verdict is therefore partial:
+persistence is confounded with volume. Under a minimum conditional probability
+proximity \citep{Hidalgo2007}, the retained frontier coefficient reverses to
+$-0.021$ ($p = 0.012$), indicating backbone dependence.
+Table~\ref{tab:retained_frontier} reports all estimates by domain group.
+
+\begin{table}[!htbp]
+\centering
+\small
+\caption{Retained frontier coefficient $d_0$ from the conditional logit model
+of next field entry across domain groups and the 2010--2014 cohort (rung R3).
+95\% intervals are concept bootstrap percentile intervals (1,000 resamples) for
+the development, pooled and cohort rows, and Wald intervals from concept
+clustered standard errors for the four groups. Likelihood ratios are for adding
+$d_0$ to the rung with both density rivals.}
+\label{tab:retained_frontier}
+\begin{tabular}{l c c c}
+\toprule
+Model & $d_0$ coefficient & 95\% CI & Likelihood ratio \\
+\midrule
+Development set (4,486 concepts) & 0.246 & $[0.222, 0.271]$ & 365.6 \\
+Held out pooled & 0.322 & $[0.291, 0.355]$ & 325.8 \\
+Physical Sciences & 0.148 & $[0.078, 0.218]$ & 13.8 \\
+Life \& Environment & 0.401 & $[0.343, 0.460]$ & 157.7 \\
+Social Sciences & 0.297 & $[0.247, 0.347]$ & 116.8 \\
+Math \& Decision Sci. & 0.065 & $[-0.109, 0.239]$ & 0.3 \\
+2010--2014 cohort & 0.321 & $[0.292, 0.347]$ & -- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig3_v0.pdf}
+  \caption{Retained frontier coefficient $d_0$ from the conditional logit model of next field entry, estimated on held out data. $d_0$ measures how much a target field's relatedness to the fields currently retaining a concept predicts entry into it. It is net of relatedness to the home field, field size, entered field density and gateway centrality, and is expressed in log odds per standard deviation. Blue circles are the estimates for the four held out domain groups (top) and for the 2010--14 held out cohort. Horizontal bars are 95\% Wald confidence intervals from standard errors clustered by concept, and $n$ is the number of entry events. The dark diamond spans the DerSimonian--Laird random effects pooled estimate over the four groups, 0.243 [0.118, 0.368], with $I^2 = 0.92$. The dashed vertical line marks $d_0 = 0$, and the right hand column prints each estimate with its interval. The point estimate is positive in all four groups and in the cohort. The interval excludes zero for Physical Sciences, Life \& Env., Social Sciences and the cohort. Math \& Decision ($n = 296$) is the weak, imprecise group, 0.065 [$-0.109$, 0.239], and together with Life \& Env.\ (0.401) it drives the high heterogeneity. These are associations. In the same experiment, a volume matched contrast between retaining and nonretaining fields is null ($-0.028$ [$-0.105$, 0.046]; not plotted), so the preregistered frontier test is only partially supported: persistence is confounded with volume.}
+  \label{fig:retained_frontier}
+\end{figure}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig4_v0.pdf}
+  \caption{Nested conditional logit models of field entry on the held out frame (3,162 concepts, 6,978 entry events, 6,076 informative strata, one per combination of concept and year). The baseline rung includes home relatedness, log field size, entered field density and own field gateway centrality; successive rungs add density of fields with revealed comparative advantage above unity, then volume weighted density, then retained frontier relatedness. (a)~AUC computed within each stratum for each rung. Blue circles, solid line: primary specification using backbone relatedness. Amber squares, dashed line: sensitivity rebuild using minimum conditional probability proximity. (b)~Likelihood ratio $\chi^2$ (df $=1$, log scale) for the term each rung adds over the previous rung. Solid blue bars: primary. Hatched amber bars: sensitivity. The dotted line marks $p=0.05$ ($\chi^2=3.84$). In the primary specification, the retained frontier term gives the largest step (LR $=325.8$, $p<10^{-72}$), but AUC rises only from 0.847 to 0.852. The volume density step is not significant (LR $=1.9$). Under minimum conditional probability proximity, baseline discrimination is higher and the retained frontier term adds no AUC (0.867 to 0.866; LR $=6.3$). The increment therefore depends on the proximity definition. No confidence intervals on AUC are available.}
+  \label{fig:model_ladder}
+\end{figure}
+
+Figure~\ref{fig:retained_frontier} shows the estimates by domain group, and
+Figure~\ref{fig:model_ladder} displays the nested model ladder. The
+AUC within each stratum increases from 0.847 before adding the
+retained frontier term to 0.852 after. The increment is small
+because field size alone achieves AUC 0.76, density only 0.59, and the ceiling
+is constrained by having only 26 fields.
+
+\subsubsection{Gateway centrality does not predict retention}
+
+A separate preregistered test asks whether the adopting field's eigenvector
+centrality on the backbone predicts retention. On 8,515 held out episodes (3,085 concepts), the
+gateway centrality increment is effectively zero: $\Delta$-AUC $-0.00001$
+[$-0.0006$, $+0.0003$]. The minimum detectable effect is 0.004. Gateway alone
+has AUC 0.605 on DEV versus 0.506 on held out: the DEV signal is
+domain specific. Verdict: disconfirmed.
+
+\subsubsection{Breadth decomposition}
+
+We decompose the gap in retained off home breadth between the top and bottom
+terciles of size residualised $O_{2r}$ into log $E_2$ (early contact), log $M$ (frontier advance)
+and log $\rho$ (retention). Volume stratified, on the held out pool excluding
+Medicine (to avoid a domain that dominates the localised class):
+
+\begin{itemize}
+  \item Early contact share: 73.3\%
+  \item Frontier advance share: 1.3\%
+  \item Retention share: 25.4\%
+  \item Difference (exploration minus retention): 0.492 [$0.403$, $0.575$]
+\end{itemize}
+
+The DerSimonian--Laird pool of the exploration minus retention difference across three
+held out groups is 0.504 [$0.329$, $0.679$] with $I^2 = 0.76$.
+
+Breadth differences between concepts are set by how many fields a concept
+contacts early, not by how many more it enters later. Frontier advance, the
+ratio of fields at $t_0 + 8$ to those at $t_0 + 2$, contributes near zero
+because both broad and narrow concepts gain new fields at similar rates relative
+to their base (Figure~\ref{fig:decomposition}). The shares describe the
+outcome's composition; they are not estimates of causal channels.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig5_v0.pdf}
+  \caption{Decomposition of the gap in retained off home breadth (log scale) between the top and bottom tercile of size residualised $O_{2r}$ into three multiplicative channels: early contact ($E_2$, green), frontier advance ($M$, light grey) and retention ($\rho$, blue). The left bar stacks the three shares into the total gap (share $=1$; total log gap $D_{\text{total}}=1.035$, 95\% CI $[0.957, 1.108]$). The other three bars show each channel's share of the gap with 95\% percentile confidence intervals from 2{,}000 bootstrap resamples of concepts, with terciles and volume quintiles recomputed in each resample. The sample is the held out pool (PHYS, LIFEENV, SOC, MATHDEC), volume stratified, excluding Medicine homes ($n=1{,}825$ concepts). Early contact accounts for 73\% of the gap (0.733, $[0.688, 0.789]$), retention for 25\% (0.254, $[0.213, 0.298]$), and frontier advance for close to zero (0.013, $[-0.027, 0.047]$). The shares are an accounting identity for the breadth outcome, not causal effects.}
+  \label{fig:decomposition}
+\end{figure}
+
+\subsubsection{Diffusion trajectories: a continuum, not types}
+
+We tested whether concepts cluster into discrete trajectory types (localised
+emergence, rapid interdisciplinary diffusion, gradual integration) using DTW
+$k$-medoids and hidden Markov model (HMM) clustering on state sequences of
+field presence. No trajectory typology passes a naming rule: the adjusted Rand
+index between DTW $k = 4$ and HMM $S = 5$ is 0.222, and held out reclustering
+gives ARI $= 0.44$. Instead, PCA reveals a continuum: the first principal
+component (38.8\% of variance) is a breadth axis, and the second principal
+component (10.7\%) is a keep versus lose axis. Early openness (OPEN) correlates
+with the first principal component beyond the popularity baseline (held out
+DerSimonian--Laird partial correlation 0.120, $I^2 = 0$) but not with the
+second.
+
+\subsection{Replication on vocabulary free concepts}
+\label{sec:framen}
+
+To test whether the openness signal depends on the legacy concept lexicon, we
+constructed a separate frame of 636 newborn title noun phrases (onsets
+2003--2015) absent from the 56,643 legacy concepts. On this frame,
+OPEN\textsubscript{home} shows a partial Spearman with rarefied breadth
+($O_{2r}$, $m = 30$) of $+0.117$ [$+0.020$, $+0.218$] at the third control
+rung, and neighbourhood novelty and churn of $+0.108$ [$+0.007$, $+0.211$].
+Three of four estimable domain groups are positive. The verdict is partial: the
+confidence interval on OPEN\textsubscript{home} includes zero at the fifth
+control rung, and the $p$-value after Holm--Bonferroni correction is 0.052.
+Novelty alone carries the home signal ($+0.208$ at R3), edge persistence is null
+($-0.013$), and the all papers minus home only difference ($+0.056$
+[$-0.024$, $+0.131$]) is not significant on this frame.
+
+%% ===================================================================
+\section{Discussion}
+\label{sec:discussion}
+
+Our results address both research questions posed in the Introduction.
+
+For the first research question, seven temporal network indicators predict
+cross field breadth beyond a strong popularity baseline, and these indicators
+generalise across four held out scientific domain groups. Apart from the two
+indicators that partly carry a preonset footprint, the strongest are contact reach (the count of off home
+fields already entered) and neighbourhood novelty (the share of new
+co-occurrence partners). A learned model improves Spearman correlation by
+$+0.059$ over the baseline. The practical forecasting gain is modest: the popularity baseline already
+explains most of the variance, and OPEN adds only $+0.002$ Spearman on the
+fresh cohort. The signal identifies which concepts are structurally positioned
+for broader diffusion, rather than providing strong individual level forecasts.
+
+The confound analysis indicates that the measurable home signal is topical
+nonredundancy, a static structural property of the home topic mix; temporal
+partner turnover was not detected, but the test for it was underpowered. A
+concept whose early home partners introduce novel topical connections tends to
+spread more broadly, and this tendency behaves like a stable trait of the concept
+rather than a within-concept dynamic. Community count indicators, by contrast,
+are largely the outcome measured early: their signal comes from off home papers
+and disappears in the home only build.
+
+For the second research question, the retained frontier model shows that concepts tend to enter next
+the fields related to the ones currently retaining them. This extends the principle
+of relatedness from economic geography \citep{Hidalgo2007, Neffke2011}, where
+regions diversify into products related to their existing portfolio, to
+scientific concept diffusion. The novel element is retention: it is not merely
+which fields have adopted a concept that predicts the next field, but which of
+those fields continue to use it. The volume matched contrast is null, however,
+indicating that retention and volume are confounded and that the pure retention
+signal cannot be isolated at this sample size; the coefficient also reverses
+under minimum conditional probability proximity.
+
+The breadth decomposition shows that the gap between integrating and localised
+concepts is accounted for by early contact diversity (73\%) rather than by continued
+frontier advance (1\%); as an accounting identity this describes, rather than
+explains, the gap. This echoes \citet{Weng2013}, who found that early
+community diversity predicts virality, and extends it from social media to
+scientific knowledge networks.
+
+The reconciliation with \citet{Cheng2023} reveals an outcome dependent split:
+consistency predicts volume growth (size dominated) but narrower cross field
+reach on the selection data and the 2015--2017 cohort, though not on the
+vocabulary free frame. The two findings are compatible because volume growth and cross field
+breadth are partially independent outcomes.
+
+%% ===================================================================
+\section{Limitations}
+\label{sec:limitations}
+
+Several limitations bound the scope of these results.
+
+First, concept identification relies on title matching against a legacy lexicon
+that overrepresents the natural sciences and computer science. The
+vocabulary free replication partially addresses this, but its sample is smaller
+and the verdict is partial.
+
+Second, the field backbone uses a fixed classification of 26 fields from OpenAlex.
+A finer grained classification would produce more adoption episodes but also
+more noise in field assignment. Our results are conditioned on this specific
+resolution.
+
+Third, the retained frontier claim is partial by its own preregistered rule:
+the volume matched contrast is null, meaning that we cannot distinguish the
+effect of retention from that of volume. A larger sample with more fine grained
+volume controls would be needed to isolate pure retention.
+
+Fourth, the openness signal's practical forecasting value is small ($+0.002$
+Spearman on the fresh cohort). The indicators characterise rather than predict:
+they identify structural preconditions for broad diffusion but do not yield
+individually actionable forecasts.
+
+Fifth, outcomes are measured at $t_0 + 6$ to $t_0 + 8$, a horizon of 6--8
+years after concept onset. Longer horizons might reveal different dynamics, and
+our results do not speak to very long term disciplinary integration.
+
+Sixth, the analysis is observational. Early network structure is correlated with
+later breadth, but we cannot establish that it causes broader diffusion. The
+panel analysis tracking each concept over time suggests that the association is a
+trait observed across concepts rather than a mechanism operating within a single
+concept's trajectory.
+
+Seventh, the held out outcomes were previously unsealed by two earlier
+experiments in the same project, so the indicator screen held out results are
+robustness checks within the same frame rather than fully independent
+confirmations. The fresh 2015--2017 cohort and the vocabulary free phrase frame
+are the only bodies never used in any prior step; the consistency reversal and
+the confound analyses rest on selection data.
+
+Eighth, Mathematics and Decision Sciences is underpowered in both the indicator
+screen (165 concepts) and the retained frontier model ($d_0 = 0.065$, CI
+includes zero), so our results may not generalise to this domain.
+
+Ninth, several aims of the original study design are not covered. A
+background adjusted citation lineage (``naturalisation'') measure was screened
+early and did not beat the baseline ($\Delta\rho = -0.006$, 0 of 4 groups
+positive), so it is not developed here. A preregistered within concept closure
+test (does closing up at home slow later entry) was not supported. Only a small
+retrospective, outcome selected atlas of AI and computer science concepts was
+built, so no AI specific result is reported, and the persistence filtered
+relatedness density rival was not tested. The field level homophily
+decomposition of citation lineage and the venue label coverage bias measured in
+early screens, and the full indicator by outcome by field matrix, are not
+reported in this paper.
+
+%% ===================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+We have shown that early structural signals in a concept's co-occurrence network
+predict later cross field breadth across multiple scientific domains, that
+concepts tend to enter next the fields related to the ones currently retaining
+them (an association not separable from volume), and
+that early contact diversity, not continued frontier advance, accounts for most
+of the breadth difference between integrating and localised concepts. The
+home openness signal is small, gives no forecasting gain, and behaves like
+static topical nonredundancy of the home neighbourhood rather than detectable
+partner turnover. These findings connect the literatures on concept
+diffusion in science \citep{Cheng2023}, the principle of relatedness from
+economic geography \citep{Hidalgo2007}, and community structure in social
+contagion \citep{Weng2013, Ugander2012}, offering a network level account of
+why some scientific concepts become broadly integrated while others remain local.
+
+%% ===================================================================
+\section*{Availability of data and materials}
+All analyses use the OpenAlex bulk snapshot of 2026-09-23 (S3 release) and cached
+derivatives of it; no OpenAlex API credits were needed for the final frames. The
+code and result files for every experiment are available in the project
+repository.
+
+%% ===================================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
