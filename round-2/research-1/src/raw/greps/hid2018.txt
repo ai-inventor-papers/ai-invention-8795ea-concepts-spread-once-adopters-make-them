@@ -1,0 +1,52 @@
+URL: https://oec.world/pdf/Hidalgo2018_Chapter_ThePrincipleOfRelatedness.pdf
+Type: PDF
+Pattern: exit|AUC|area under|core|periphery|central (5 matches in 19130 chars)
+
+--- Content ---
+
+1842:... tradition. Yet, only recently this hypothesis has
+been empirically formalized and corroborated at multiple spatial scales, for
+different economic activities, and for a diversity of institutional regimes. The
+new synthesis is an empirical principle describing the probability that a region
+enters—or exits—an economic activity as a function of the number of related
+activities present in that location. In this paper we summarize some of the recent
+empirical evidence that has generalized the principle of relatedness to a fact
+describing the entry and exit of products, industries, occupations, and tech-
+nologies, at the national, regional, and metropolitan scales. We conclude by
+describing some of the policy implications and future avenues of research
+implied by this robust empirical principle.
+C. A. Hidalgo and P.-A. Balland—Contributed equally.
+© Springer Nature Switzerland AG 2018
+A. J. Morales et al. (Eds.): ICCS 2018, SPCOM, pp. 451–457, 2018.
+https://doi.org/10.1007/978-3-319-96661-8_46
+
+Keywords: Economic complexity  Relatedness  Economic geography
+1
+Introduction
+Why are human creativity and productivity concentrated in space and time? Is the
+computer revolution in Silicon Valley similar to England’s Industrial Revolution or to
+Florence’s Renaissance?
+An old idea in economic geography is that in dense indus...
+--
+3735:...e twentieth. Yet, only recently this hypothesis has been empirically
+formalized and corroborated at multiple spatial scales, for different economic activities,
+and for a variety of institutional regimes. The new synthesis is an empirical principle
+describing the probability that a region enters (or exits) an economic activity as a
+function of the number of related activities present in that location. This synthesis is the
+principle of relatedness.
+2
+The Principle of Relatedness
+In principle, we say that two activities, such as products, industries, or research areas
+are related when they require s...
+--
+18630:...ogrammes. Pap. Evol. Econ. Geogr. 17(22), 1–
+21 (2017)
+26. Alshamsi, A., Pinheiro, F.L., Hidalgo, C.A.: Nat. Commun. 9, 1328 (2018)
+27. Hidalgo, C.A., Hausmann, R.: PNAS 106, 10570 (2009)
+28. Hausmann, R., Hidalgo, C.A., Bustos, S., Coscia, M., Simoes, A., Yildirim, M.A.: The Atlas
+of Economic Complexity: Mapping Paths to Prosperity. MIT Press (2014)
+29. Hartmann, D., Guevara, M.R., Jara-Figueroa, C., Aristarán, M., Hidalgo, C.A.: World Dev.
+93, 75 (2017)
+30. Delgado, M., Porter, M.E., Stern, S.: Res. Policy 43, 1785 (2014)
+31. Frenken, K., Oort, F.V., Verburg, T.: Reg. Stud. 41, 685 (2007)
+32. De...

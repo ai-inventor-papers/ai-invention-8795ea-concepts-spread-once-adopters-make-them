@@ -1,0 +1,93 @@
+{
+  "date": "2026-09-23",
+  "format": "parquet",
+  "entity": "concepts",
+  "record_count": 65026,
+  "content_length": 10043542,
+  "files": [
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-11/part_0000.parquet",
+      "meta": {
+        "content_length": 10880,
+        "record_count": 2
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-13/part_0000.parquet",
+      "meta": {
+        "content_length": 16606,
+        "record_count": 36
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-14/part_0000.parquet",
+      "meta": {
+        "content_length": 9292,
+        "record_count": 2
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-15/part_0000.parquet",
+      "meta": {
+        "content_length": 10738,
+        "record_count": 3
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-16/part_0000.parquet",
+      "meta": {
+        "content_length": 11305,
+        "record_count": 10
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-17/part_0000.parquet",
+      "meta": {
+        "content_length": 14734,
+        "record_count": 26
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-18/part_0000.parquet",
+      "meta": {
+        "content_length": 16740,
+        "record_count": 39
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-19/part_0000.parquet",
+      "meta": {
+        "content_length": 20261,
+        "record_count": 63
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-20/part_0000.parquet",
+      "meta": {
+        "content_length": 20683,
+        "record_count": 60
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-21/part_0000.parquet",
+      "meta": {
+        "content_length": 38935,
+        "record_count": 171
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-22/part_0000.parquet",
+      "meta": {
+        "content_length": 87702,
+        "record_count": 484
+      }
+    },
+    {
+      "url": "s3://openalex/data/parquet/concepts/updated_date=2026-09-23/part_0000.parquet",
+      "meta": {
+        "content_length": 9785666,
+        "record_count": 64130
+      }
+    }
+  ]
+}

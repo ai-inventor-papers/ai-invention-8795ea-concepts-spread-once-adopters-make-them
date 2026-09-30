@@ -1,0 +1,47 @@
+URL: https://arxiv.org/abs/2205.01833
+Type: HTML
+Length: 7123 chars (truncated)
+
+--- Content ---
+
+Skip to main content [](https://arxiv.org/IgnoreMe) [ ](https://arxiv.org/) [ Search ](https://arxiv.org/search) [Submit](https://arxiv.org/user/create) [Donate](https://info.arxiv.org/about/donate.html) [Log in](https://arxiv.org/login)
+
+Search arXiv
+
+Press Enter to search * [Advanced search](https://arxiv.org/search/advanced)
+
+# Computer Science > Digital Libraries
+
+**arXiv:2205.01833** (cs) 
+
+[Submitted on 4 May 2022 ([v1](https://arxiv.org/abs/2205.01833v1)), last revised 17 Jun 2022 (this version, v2)]
+
+# Title:OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts
+
+Authors:[Jason Priem](https://arxiv.org/search/cs?searchtype=author&query=Priem,+J), [Heather Piwowar](https://arxiv.org/search/cs?searchtype=author&query=Piwowar,+H), [Richard Orr](https://arxiv.org/search/cs?searchtype=author&query=Orr,+R)
+
+View a PDF of the paper titled OpenAlex: A fully-open index of scholarly works, authors, venues, institutions, and concepts, by Jason Priem and 2 other authors
+
+[View PDF](/pdf/2205.01833)
+
+> Abstract:OpenAlex is a new, fully-open scientific knowledge graph (SKG), launched to replace the discontinued Microsoft Academic Graph (MAG). It contains metadata for 209M works (journal articles, books, etc); 2013M disambiguated authors; 124k venues (places that host works, such as journals and online repositories); 109k institutions; and 65k Wikidata concepts (linked to works via an automated hierarchical multi-tag classifier). The dataset is fully and freely available via a web-based GUI, a full data dump, and high-volume REST API. The resource is under active development and future work will improve accuracy and coverage of citation information and author/institution parsing and deduplication. 
+
+Comments: | Submitted to the 26th International Conference on Science, Technology and Innovation Indicators (STI 2022)  
+---|---  
+Subjects: |  Digital Libraries (cs.DL)  
+Cite as: | [arXiv:2205.01833](https://arxiv.org/abs/2205.01833) [cs.DL]  
+  | (or  [arXiv:2205.01833v2](https://arxiv.org/abs/2205.01833v2) [cs.DL] for this version)   
+  |  <https://doi.org/10.48550/arXiv.2205.01833> Focus to learn more arXiv-issued DOI via DataCite  
+  
+## Submission history
+
+From: Jason Priem [[view email](/show-email/cc863ef7/2205.01833)]   
+**[[v1]](/abs/2205.01833v1)** Wed, 4 May 2022 00:57:11 UTC (703 KB)  
+**[v2]** Fri, 17 Jun 2022 00:34:23 UTC (703 KB)  
+
+
+Full-text links:
+
+## Access Paper:
+
+View a PDF of the paper titled OpenAlex: A fu
