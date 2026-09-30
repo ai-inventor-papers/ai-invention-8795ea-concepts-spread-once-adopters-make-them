@@ -9,11 +9,11 @@ artifact's folder (`gen_art_experiment_8`). The other run artifacts it reads are
 
 | input | artifact id | how the code finds it |
 |---|---|---|
-| EXP5 frame, outcomes, basic features, `scan/agg_counts.parquet` | `art_wxWssKSUR45f` (`iter_2/gen_art/gen_art_experiment_5`) | `lib/common.py: EXP5` |
-| EXP3 ego-network code / backbones (copied into `lib/`, `inputs/`) | `art_yrradSC27HtQ` (`iter_1/gen_art/gen_art_experiment_3`) | `lib/common.py: EXP3` (only `tests/t0_8_ego_port.py` reads it) |
-| EXP6 D3 code / phi backbone (copied) and `results/frame_concepts.csv` | `art_N-mpomDZZ1ln` (`iter_2/gen_art/gen_art_experiment_6`) | `lib/common.py: EXP6` |
-| Eval1 F3 portability prior | `iter_2/gen_art/gen_art_evaluation_1` | `lib/common.py: EVAL1` |
-| O5 external recognition (declared dependency) | `art_O7Dq4L02QnDN` (`iter_2/gen_art/gen_art_dataset_2`) | `lib/common.py: O5DIR` |
+| EXP5 frame, outcomes, basic features, `scan/agg_counts.parquet` | `art_wxWssKSUR45f` (`round-2/experiment-5/src`) | `lib/common.py: EXP5` |
+| EXP3 ego-network code / backbones (copied into `lib/`, `inputs/`) | `art_yrradSC27HtQ` (`round-1/experiment-3/src`) | `lib/common.py: EXP3` (only `tests/t0_8_ego_port.py` reads it) |
+| EXP6 D3 code / phi backbone (copied) and `results/frame_concepts.csv` | `art_N-mpomDZZ1ln` (`round-2/experiment-6/src`) | `lib/common.py: EXP6` |
+| Eval1 F3 portability prior | `round-2/evaluation-1/src` | `lib/common.py: EVAL1` |
+| O5 external recognition (declared dependency) | `art_O7Dq4L02QnDN` (`round-2/dataset-2/src`) | `lib/common.py: O5DIR` |
 
 All of them resolve from ONE constant, `RUN_ROOT` in `lib/common.py` (default: four levels above this folder, i.e.
 the run tree layout). Set the environment variable `AII_RUN_ROOT` to the folder that contains `3_invention_loop/`

@@ -12,7 +12,7 @@ work packages (plan `gen_plan_evaluation_1_idx4`):
 | WP5 | Outputs and the corrections to the text | `eval_out.json` (exp_eval_sol_out, validated), `text_corrections.md` |
 
 All source paths in the outputs are **relative to the run's `3_invention_loop/` directory** (for example
-`iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json`). Workspace outputs are relative to this directory.
+`round-2/experiment-5/src/results/h1_heldout.json`). Workspace outputs are relative to this directory.
 
 ## Headline results
 

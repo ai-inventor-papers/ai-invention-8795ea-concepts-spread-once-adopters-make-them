@@ -20,15 +20,15 @@ ROOT = Path(os.environ.get("AII_RUN_ROOT", str(WS.parents[2]))).resolve()
 SEED = 20260928
 B_MAIN = 2000
 
-E5 = ROOT / "iter_2/gen_art/gen_art_experiment_5"
-E6 = ROOT / "iter_2/gen_art/gen_art_experiment_6"
-D2 = ROOT / "iter_2/gen_art/gen_art_dataset_2"
-EV1 = ROOT / "iter_2/gen_art/gen_art_evaluation_1"
-X1 = ROOT / "iter_1/gen_art/gen_art_experiment_1"
-X3 = ROOT / "iter_1/gen_art/gen_art_experiment_3"
-X4 = ROOT / "iter_1/gen_art/gen_art_experiment_4"
-DRAFT = ROOT / "iter_2/gen_report_text/gen_report_text/paper_draft.md"
-REVIEW = ROOT / "iter_2/review_report/review_report/.terminal_claude_agent_struct_out.json"
+E5 = ROOT / "round-2/experiment-5/src"
+E6 = ROOT / "round-2/experiment-6/src"
+D2 = ROOT / "round-2/dataset-2/src"
+EV1 = ROOT / "round-2/evaluation-1/src"
+X1 = ROOT / "round-1/experiment-1/src"
+X3 = ROOT / "round-1/experiment-3/src"
+X4 = ROOT / "round-1/experiment-4/src"
+DRAFT = ROOT / "round-2/report-text/paper_draft.md"
+REVIEW = ROOT / "round-2/review/.terminal_claude_agent_struct_out.json"
 
 RES = WS / "results"
 TAB = WS / "record_tables"

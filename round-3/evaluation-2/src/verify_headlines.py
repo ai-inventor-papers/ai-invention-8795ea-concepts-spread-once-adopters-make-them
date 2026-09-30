@@ -15,7 +15,7 @@ from sklearn.metrics import cohen_kappa_score
 
 WS = Path(__file__).resolve().parent
 ROOT = Path(os.environ.get("AII_RUN_ROOT", str(WS.parents[2]))).resolve()
-E5, E6 = ROOT / "iter_2/gen_art/gen_art_experiment_5", ROOT / "iter_2/gen_art/gen_art_experiment_6"
+E5, E6 = ROOT / "round-2/experiment-5/src", ROOT / "round-2/experiment-6/src"
 rng = np.random.default_rng(7)
 out = {}
 
@@ -116,7 +116,7 @@ out["ordering"] = {"before": int((T.gamma < T.tau).sum()), "after": int((T.gamma
                    "n_top": int(O.top_o2r.sum())}
 
 # 5. exp4 G delta-rho O2r_m30 with a hand-written closed-form ridge (no sklearn); placebo: G shuffled 200x
-f4 = pd.read_csv(ROOT / "iter_1/gen_art/gen_art_experiment_4/features.csv").dropna(subset=["O2r_m30"]).reset_index(drop=True)
+f4 = pd.read_csv(ROOT / "round-1/experiment-4/src/features.csv").dropna(subset=["O2r_m30"]).reset_index(drop=True)
 B5 = ["log_count_W5", "growth_W5_B5", "offhome_share_W3", "entropy_W3", "reach_W3"]
 
 

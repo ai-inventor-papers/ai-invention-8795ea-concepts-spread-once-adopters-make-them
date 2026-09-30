@@ -89,7 +89,7 @@
         "n_episodes_left": 1580,
         "n_newborn_left": 2,
         "R_rate_left": 0.30886075949367087,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       },
       {
@@ -100,7 +100,7 @@
         "n_episodes_left": 2992,
         "n_newborn_left": 4,
         "R_rate_left": 0.2911096256684492,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       },
       {
@@ -111,7 +111,7 @@
         "n_episodes_left": 3148,
         "n_newborn_left": 7,
         "R_rate_left": 0.3062261753494282,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       },
       {
@@ -122,7 +122,7 @@
         "n_episodes_left": 434,
         "n_newborn_left": 0,
         "R_rate_left": 0.22119815668202766,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       },
       {
@@ -133,7 +133,7 @@
         "n_episodes_left": 9045,
         "n_newborn_left": 26,
         "R_rate_left": 0.24723573639982308,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       },
       {
@@ -144,7 +144,7 @@
         "n_episodes_left": 8380,
         "n_newborn_left": 27,
         "R_rate_left": 0.2786396181384248,
-        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
         "key_path": "split==sp; concept_id normalised; set difference"
       }
     ],
@@ -287,7 +287,7 @@
         ],
         "ci_widening_ratio_90": 2.158265155182925,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json",
+        "source_file": "round-1/experiment-1/src/results/screen_result.json",
         "key_path": "delta_rho",
         "runtime_s": 30.4
       },
@@ -320,7 +320,7 @@
         ],
         "ci_widening_ratio_90": null,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+        "source_file": "round-1/experiment-3/src/results/screen_result.json",
         "key_path": "candidates.D.delta_rho",
         "runtime_s": 1.6
       },
@@ -353,7 +353,7 @@
         ],
         "ci_widening_ratio_90": null,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+        "source_file": "round-1/experiment-3/src/results/screen_result.json",
         "key_path": "candidates.F.delta_rho",
         "runtime_s": 1.4
       },
@@ -392,7 +392,7 @@
         ],
         "ci_widening_ratio_90": 1.7833331092232052,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+        "source_file": "round-1/experiment-4/src/screen_result.json",
         "key_path": "delta_rho_O2r_m30.delta",
         "runtime_s": 13.5
       },
@@ -425,7 +425,7 @@
         "earlier_refit_or_source_ci": null,
         "ci_widening_ratio_90": 1.3968309496176348,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+        "source_file": "round-1/experiment-4/src/screen_result.json",
         "key_path": "delta_rho_O2r_resid.delta",
         "runtime_s": 14.3
       },
@@ -461,7 +461,7 @@
         "earlier_refit_or_source_ci": null,
         "ci_widening_ratio_90": 1.245075063486312,
         "ci95_excludes_0": false,
-        "source_file": "iter_1/gen_art/gen_art_experiment_4/screen_result.json",
+        "source_file": "round-1/experiment-4/src/screen_result.json",
         "key_path": "delta_auc_O1.delta",
         "runtime_s": 18.1
       },
@@ -494,7 +494,7 @@
         ],
         "ci_widening_ratio_90": null,
         "ci95_excludes_0": false,
-        "source_file": "iter_2/gen_art/gen_art_evaluation_1/eval_out.json",
+        "source_file": "round-2/evaluation-1/src/eval_out.json",
         "key_path": "metadata.D_O1_artefact.G.B5+cov.delta",
         "runtime_s": 19.8
       }
@@ -618,7 +618,7 @@
           "input": "{\"claim_id\": \"H1_crit_pooled_dauc_ge_0.05\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantity\": \"verdict_H1.criteria.pooled_dauc_ge_0.05 (held-out, 8,515 episodes / 3,085 concepts)\", \"reported_value\": \"false\"}",
           "output": "False",
           "predict_status": "MATCH",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_source_file": "round-2/experiment-5/src/results/h1_heldout.json",
           "metadata_key_path": "verdict_H1.criteria.pooled_dauc_ge_0.05",
           "metadata_severity": "minor",
           "metadata_artifact_id": "art_wxWssKSUR45f",
@@ -630,7 +630,7 @@
           "input": "{\"claim_id\": \"H1_crit_refit_ci_gt0\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantity\": \"verdict_H1.criteria.refit_ci_gt0 (held-out, 8,515 episodes / 3,085 concepts)\", \"reported_value\": \"false\"}",
           "output": "False",
           "predict_status": "MATCH",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_source_file": "round-2/experiment-5/src/results/h1_heldout.json",
           "metadata_key_path": "verdict_H1.criteria.refit_ci_gt0",
           "metadata_severity": "minor",
           "metadata_artifact_id": "art_wxWssKSUR45f",
@@ -642,7 +642,7 @@
           "input": "{\"claim_id\": \"H1_crit_sign_ge3_of_4_evaluable\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantity\": \"verdict_H1.criteria.sign_ge3_of_4_evaluable (held-out, 8,515 episodes / 3,085 concepts)\", \"reported_value\": \"false\"}",
           "output": "False",
           "predict_status": "MATCH",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_source_file": "round-2/experiment-5/src/results/h1_heldout.json",
           "metadata_key_path": "verdict_H1.criteria.sign_ge3_of_4_evaluable",
           "metadata_severity": "minor",
           "metadata_artifact_id": "art_wxWssKSUR45f",
@@ -659,7 +659,7 @@
           "input": "{\"row\": \"exp1_Astar_h_delta_rho_O2r\", \"experiment\": \"exp1\", \"outcome\": \"O2r\", \"base\": \"B_logvol|B_growth|B_offhome|B_entropy|B_nfields|A_h_missing\", \"cand\": \"B_logvol|B_growth|B_offhome|B_entropy|B_nfields|A_h_missing|A_h\"}",
           "output": "{\"point_reported\": -0.005644811115935844, \"fixed_prediction_ci90\": [-0.033844584160467935, 0.016635147457856648]}",
           "predict_refit_bootstrap": "{\"point\": -0.005644811115935844, \"ci90\": [-0.08555324253766013, 0.023395403257155584], \"ci95\": [-0.1112492727207789, 0.03240124219469759], \"B\": 2000}",
-          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json",
+          "metadata_source_file": "round-1/experiment-1/src/results/screen_result.json",
           "metadata_key_path": "delta_rho",
           "eval_point_abs_diff": 0.0,
           "eval_ci95_width": 0.14365051491547648,
@@ -669,7 +669,7 @@
           "input": "{\"row\": \"exp3_D_ratio_delta_rho_O2r\", \"experiment\": \"exp3\", \"outcome\": \"O2r\", \"base\": \"logvol|growth|offhome_share|entropy|nfields2\", \"cand\": \"logvol|growth|offhome_share|entropy|nfields2|D_ratio\"}",
           "output": "{\"point_reported\": 0.006012950971322928, \"fixed_prediction_ci90\": null}",
           "predict_refit_bootstrap": "{\"point\": 0.006012950971322928, \"ci90\": [-0.08935118596392226, 0.12619674841748554], \"ci95\": [-0.11773524331545256, 0.1636755138424288], \"B\": 2000}",
-          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+          "metadata_source_file": "round-1/experiment-3/src/results/screen_result.json",
           "metadata_key_path": "candidates.D.delta_rho",
           "eval_point_abs_diff": 0.0,
           "eval_ci95_width": 0.28141075715788133
@@ -678,7 +678,7 @@
           "input": "{\"row\": \"exp3_F_res_delta_rho_O2r\", \"experiment\": \"exp3\", \"outcome\": \"O2r\", \"base\": \"logvol|growth|offhome_share|entropy|nfields2\", \"cand\": \"logvol|growth|offhome_share|entropy|nfields2|F_res\"}",
           "output": "{\"point_reported\": -0.06036077705827936, \"fixed_prediction_ci90\": null}",
           "predict_refit_bootstrap": "{\"point\": -0.06036077705827936, \"ci90\": [-0.16137470147654742, 0.015409124069064806], \"ci95\": [-0.18848776924300192, 0.02675252656473977], \"B\": 2000}",
-          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+          "metadata_source_file": "round-1/experiment-3/src/results/screen_result.json",
           "metadata_key_path": "candidates.F.delta_rho",
           "eval_point_abs_diff": 0.0,
           "eval_ci95_width": 0.2152402958077417
@@ -692,7 +692,7 @@
           "input": "{\"quantity\": \"n_rows\", \"how\": \"rows of entry_risk_sets_heldout.parquet with n_ret > 0 (primary sample)\"}",
           "output": "46433",
           "predict_recomputed": "46433",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_source_file": "round-2/experiment-6/src/results/heldout_result.json",
           "metadata_key_path": "H2_pooled.n_rows",
           "eval_match": 1.0
         },
@@ -700,7 +700,7 @@
           "input": "{\"quantity\": \"n_strata\", \"how\": \"unique strata in the primary sample (all, incl. strata with 0 events)\"}",
           "output": "2339",
           "predict_recomputed": "2339",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_source_file": "round-2/experiment-6/src/results/heldout_result.json",
           "metadata_key_path": "H2_pooled.n_strata",
           "eval_match": 1.0
         },
@@ -708,7 +708,7 @@
           "input": "{\"quantity\": \"n_strata_model\", \"how\": \"strata with >= 1 event and >= 1 non-event (the only strata that enter a conditional likelihood)\"}",
           "output": "961",
           "predict_recomputed": "961",
-          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_source_file": "round-2/experiment-6/src/results/heldout_result.json",
           "metadata_key_path": "H2_pooled.models.M0.n_strata",
           "eval_match": 1.0
         }

@@ -145,9 +145,9 @@ def load_rows() -> list[dict]:
     rows.append({"row": "exp1_Astar_h_delta_rho_O2r", "exp": "exp1", "df": D, "group": "dev_group",
                  "base": B5 + ["A_h_missing"], "cand": B5 + ["A_h_missing", "A_h"], "y": "O2r", "kind": "ridge",
                  "point_reported": -0.005644811115935844,
-                 "reported_src": ("iter_1/gen_art/gen_art_experiment_1/results/screen_result.json", "delta_rho"),
-                 "fixed_ci90_src": ("iter_1/gen_art/gen_art_experiment_1/results/screen_result.json", "ci90"),
-                 "old_refit_src": ("iter_1/gen_art/gen_art_experiment_1/results/screen_result.json", "refit_bootstrap.ci90")})
+                 "reported_src": ("round-1/experiment-1/src/results/screen_result.json", "delta_rho"),
+                 "fixed_ci90_src": ("round-1/experiment-1/src/results/screen_result.json", "ci90"),
+                 "old_refit_src": ("round-1/experiment-1/src/results/screen_result.json", "refit_bootstrap.ci90")})
     # exp3 D_ratio and F_res on O2r
     f3 = C.read_csv(C.X3 / "results/features.csv")
     o3 = C.read_csv(C.X3 / "results/outcomes.csv")
@@ -157,15 +157,15 @@ def load_rows() -> list[dict]:
     for key, feat_ in (("D", "D_ratio"), ("F", "F_res")):
         rows.append({"row": f"exp3_{feat_}_delta_rho_O2r", "exp": "exp3", "df": d3, "group": "group", "base": B5_3,
                      "cand": B5_3 + [feat_], "y": "O2r", "kind": "x3ridge",
-                     "reported_src": ("iter_1/gen_art/gen_art_experiment_3/results/screen_result.json", f"candidates.{key}.delta_rho"),
+                     "reported_src": ("round-1/experiment-3/src/results/screen_result.json", f"candidates.{key}.delta_rho"),
                      "fixed_ci90_src": None,
-                     "old_refit_src": ("iter_1/gen_art/gen_art_experiment_3/results/screen_result.json", f"candidates.{key}.CI95")})
+                     "old_refit_src": ("round-1/experiment-3/src/results/screen_result.json", f"candidates.{key}.CI95")})
     # exp4 G rows
     f4 = C.read_csv(C.X4 / "features.csv")
     B5_4 = ["log_count_W5", "growth_W5_B5", "offhome_share_W3", "entropy_W3", "reach_W3"]
     CAND = B5_4 + ["G", "G_missing"]
     d2 = f4.dropna(subset=["O2r_m30"]).reset_index(drop=True)
-    src4 = "iter_1/gen_art/gen_art_experiment_4/screen_result.json"
+    src4 = "round-1/experiment-4/src/screen_result.json"
     rows.append({"row": "exp4_G_delta_rho_O2r_m30", "exp": "exp4", "df": d2, "group": "group", "base": B5_4, "cand": CAND,
                  "y": "O2r_m30", "kind": "ridge", "reported_src": (src4, "delta_rho_O2r_m30.delta"),
                  "fixed_ci90_src": (src4, "delta_rho_O2r_m30.ci90"), "fixed_ci95_src": (src4, "delta_rho_O2r_m30.ci95"),
@@ -180,9 +180,9 @@ def load_rows() -> list[dict]:
     rows.append({"row": "exp4_G_delta_auc_O1_label_coverage_adjusted", "exp": "exp4", "df": f4.reset_index(drop=True),
                  "group": "group", "base": B5_4 + ["label_coverage_early"],
                  "cand": B5_4 + ["label_coverage_early", "G", "G_missing"], "y": "O1", "kind": "logit",
-                 "reported_src": ("iter_2/gen_art/gen_art_evaluation_1/eval_out.json", "metadata.D_O1_artefact.G.B5+cov.delta"),
+                 "reported_src": ("round-2/evaluation-1/src/eval_out.json", "metadata.D_O1_artefact.G.B5+cov.delta"),
                  "fixed_ci90_src": None,
-                 "old_refit_src": ("iter_2/gen_art/gen_art_evaluation_1/eval_out.json", "metadata.D_O1_artefact.G.B5+cov.ci95")})
+                 "old_refit_src": ("round-2/evaluation-1/src/eval_out.json", "metadata.D_O1_artefact.G.B5+cov.ci95")})
     return rows
 
 

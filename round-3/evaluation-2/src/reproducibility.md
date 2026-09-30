@@ -17,12 +17,12 @@ three levels above this folder, which is how the folders sit on the run server (
 
 | Relative path under `AII_RUN_ROOT` | Artifact id | Used for |
 |---|---|---|
-| `iter_2/gen_art/gen_art_experiment_5/` | art_wxWssKSUR45f | frame, episodes, outcomes, H1/H3 JSON, `models.py`, `frozen_spec.json` |
-| `iter_2/gen_art/gen_art_experiment_6/` | art_N-mpomDZZ1ln | frame, episodes, `entry_risk_sets_*.parquet`, `heldout_result.json`, `dev_result.json`, `full_method_out.json` |
-| `iter_2/gen_art/gen_art_dataset_2/` | art_O7Dq4L02QnDN | `full_data_out/full_data_out_{1,2,3}.json`, `out/coverage_report.json`, hand-check CSVs, README |
-| `iter_2/gen_art/gen_art_evaluation_1/` | art_lwI2DuRtQRZX | `eval_out.json` (F_record, E_power, A_replication, D_O1_artefact) |
+| `round-2/experiment-5/src/` | art_wxWssKSUR45f | frame, episodes, outcomes, H1/H3 JSON, `models.py`, `frozen_spec.json` |
+| `round-2/experiment-6/src/` | art_N-mpomDZZ1ln | frame, episodes, `entry_risk_sets_*.parquet`, `heldout_result.json`, `dev_result.json`, `full_method_out.json` |
+| `round-2/dataset-2/src/` | art_O7Dq4L02QnDN | `full_data_out/full_data_out_{1,2,3}.json`, `out/coverage_report.json`, hand-check CSVs, README |
+| `round-2/evaluation-1/src/` | art_lwI2DuRtQRZX | `eval_out.json` (F_record, E_power, A_replication, D_O1_artefact) |
 | `iter_1/gen_art/gen_art_experiment_{1,3,4}/` | art_xp8BGBJZsxeI, art_yrradSC27HtQ, art_33_KKk_G8Gw5 | iteration-1 features and outcomes (T3 refits), screen results |
-| `iter_2/gen_report_text/gen_report_text/paper_draft.md` | iteration-2 draft | the audited text |
+| `round-2/report-text/paper_draft.md` | iteration-2 draft | the audited text |
 | `iter_3/gen_strat/gen_strat_1/.terminal_claude_agent_struct_out.json` | iteration-3 strategy | hypothesis numbers (optional) |
 
 The repository publishes those artifacts as sibling folders. Arrange (or symlink) them under a directory in this layout, then run

@@ -2,7 +2,7 @@
  "trace": {
   "n_rows": {
    "reported": 46433,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.n_rows",
    "recomputed": 46433,
    "how": "rows of entry_risk_sets_heldout.parquet with n_ret > 0 (primary sample)",
@@ -10,7 +10,7 @@
   },
   "n_strata": {
    "reported": 2339,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.n_strata",
    "recomputed": 2339,
    "how": "unique strata in the primary sample (all, incl. strata with 0 events)",
@@ -18,7 +18,7 @@
   },
   "n_strata_model": {
    "reported": 961,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M0.n_strata",
    "recomputed": 961,
    "how": "strata with >= 1 event and >= 1 non-event (the only strata that enter a conditional likelihood)",
@@ -26,7 +26,7 @@
   },
   "n_rows_model": {
    "reported": 18846,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M0.n_rows",
    "recomputed": 18846,
    "how": "rows in informative strata",
@@ -34,7 +34,7 @@
   },
   "n_concepts": {
    "reported": 369,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.n_concepts",
    "recomputed": 369,
    "how": "unique cidx in primary sample",
@@ -42,7 +42,7 @@
   },
   "n_events": {
    "reported": 1373,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.n_events",
    "recomputed": 1373,
    "how": "sum(entered) in primary sample",
@@ -50,7 +50,7 @@
   },
   "LR_M2_vs_M0_breslow": {
    "reported": 71.71641463905598,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.LR.M2_vs_M0.LR",
    "recomputed": 71.71641464247477,
    "how": "independent Breslow refit",
@@ -58,14 +58,14 @@
   },
   "LR_M2_vs_M0_exact": {
    "reported": 77.30210998204348,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/audit.json",
+   "source_file": "round-2/experiment-6/src/results/audit.json",
    "key_path": "H2_LR.statsmodels_exact",
    "recomputed": 77.30210998204439,
    "how": "statsmodels ConditionalLogit (exact conditional likelihood)"
   },
   "LR_M1_vs_M0_breslow": {
    "reported": 68.56864172514634,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.LR.M1_vs_M0.LR",
    "recomputed": 68.5686417119814,
    "how": "independent Breslow refit",
@@ -80,7 +80,7 @@
   },
   "LR_M3_vs_M1_breslow": {
    "reported": 5.359129220855721,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.LR.M3_vs_M1.LR",
    "recomputed": 5.359130123642899,
    "how": "independent Breslow refit",
@@ -95,7 +95,7 @@
   },
   "LR_M2lost_vs_M0_breslow": {
    "reported": 3.692783297256028,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.LR.M2lost_vs_M0.LR",
    "recomputed": 3.6927832695946563,
    "how": "independent Breslow refit",
@@ -110,7 +110,7 @@
   },
   "coef_M1_d0_ret_rel": {
    "reported": 0.2809043442272664,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M1.coef.d0_ret_rel",
    "recomputed": 0.2809026011507777,
    "how": "independent Breslow refit",
@@ -118,7 +118,7 @@
   },
   "se_M1_d0_ret_rel": {
    "reported": 0.032159975704963886,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M1.se.d0_ret_rel",
    "recomputed": 0.03215998533887242,
    "how": "inverse observed information of the Breslow refit",
@@ -126,7 +126,7 @@
   },
   "coef_M2_d_ret_gate": {
    "reported": 0.3019648521082155,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M2.coef.d_ret_gate",
    "recomputed": 0.30196537577210303,
    "how": "independent Breslow refit",
@@ -134,7 +134,7 @@
   },
   "se_M2_d_ret_gate": {
    "reported": 0.03418983053914712,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M2.se.d_ret_gate",
    "recomputed": 0.034189872121772796,
    "how": "inverse observed information of the Breslow refit",
@@ -142,7 +142,7 @@
   },
   "coef_M2lost_d_lost_gate": {
    "reported": -0.06322615097883642,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M2lost.coef.d_lost_gate",
    "recomputed": -0.06322618857307781,
    "how": "independent Breslow refit",
@@ -150,7 +150,7 @@
   },
   "se_M2lost_d_lost_gate": {
    "reported": 0.034737288878067214,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.models.M2lost.se.d_lost_gate",
    "recomputed": 0.03473729146844634,
    "how": "inverse observed information of the Breslow refit",
@@ -158,7 +158,7 @@
   },
   "auc_within_M0": {
    "reported": 0.8091807114429179,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.auc_within_stratum.M0.mean",
    "recomputed": 0.8091807114429179,
    "how": "refit linear predictor, mean-rank AUC per informative stratum",
@@ -166,7 +166,7 @@
   },
   "auc_within_M2": {
    "reported": 0.8165524635722822,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.auc_within_stratum.M2.mean",
    "recomputed": 0.8165524635722822,
    "how": "refit",
@@ -174,7 +174,7 @@
   },
   "auc_within_M1": {
    "reported": 0.8168958319192421,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_pooled.auc_within_stratum.M1.mean",
    "recomputed": 0.8168958319192421,
    "how": "refit",
@@ -182,7 +182,7 @@
   },
   "auc_M0_frozen_dev_coef": {
    "reported": 0.8070954731216242,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "frozen_dev_coef_auc.M0.mean",
    "recomputed": 0.8070954731216242,
    "how": "full_method_out.json entry_events_heldout predict_M0 (frozen DEV coefficients)",
@@ -190,7 +190,7 @@
   },
   "auc_M2_frozen_dev_coef": {
    "reported": 0.8151394525018186,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "frozen_dev_coef_auc.M2.mean",
    "recomputed": 0.8151394525018186,
    "how": "full_method_out.json predict_M2",
@@ -198,7 +198,7 @@
   },
   "d_Physical": {
    "reported": 0.33190390712722606,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_per_group.Physical.d",
    "recomputed": 0.3319049928488407,
    "how": "Breslow refit within hgroup",
@@ -206,7 +206,7 @@
   },
   "d_LifeEnv": {
    "reported": 0.1782552843878218,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_per_group.LifeEnv.d",
    "recomputed": 0.1782532758619725,
    "how": "Breslow refit within hgroup",
@@ -214,7 +214,7 @@
   },
   "d_Social": {
    "reported": 0.24451473387184078,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_per_group.Social.d",
    "recomputed": 0.24451192797753865,
    "how": "Breslow refit within hgroup",
@@ -222,7 +222,7 @@
   },
   "d_Cohort": {
    "reported": 0.2916284471668024,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_per_group.Cohort.d",
    "recomputed": 0.2916286590322521,
    "how": "Breslow refit within hgroup",
@@ -230,7 +230,7 @@
   },
   "DL_pooled_d": {
    "reported": 0.2835280026617289,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+   "source_file": "round-2/experiment-6/src/results/heldout_result.json",
    "key_path": "H2_DL_pooled.b",
    "recomputed": 0.2835279254063415,
    "how": "DerSimonian-Laird over refit per-group d",
@@ -255,7 +255,7 @@
   },
   "dev_LR_M2_vs_M0": {
    "reported": null,
-   "source_file": "iter_2/gen_art/gen_art_experiment_6/results/dev_result.json",
+   "source_file": "round-2/experiment-6/src/results/dev_result.json",
    "key_path": "H2_pooled.LR.M2_vs_M0.LR",
    "recomputed": 38.62631815503755,
    "how": "Breslow refit on entry_risk_sets_dev.parquet"
