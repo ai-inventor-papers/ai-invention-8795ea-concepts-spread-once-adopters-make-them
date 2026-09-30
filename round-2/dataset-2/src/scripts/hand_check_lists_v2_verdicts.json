@@ -1,4 +1,0 @@
-{"annotator": "executor (Claude), 2026-09-28; relation of the LIST ITEM relative to the concept",
- "verdicts": ["same","same","same","broader_entry","narrower_entry","broader_entry","same","same","narrower_entry","broader_entry",
-              "related","narrower_entry","narrower_entry","related","related","narrower_entry","same","narrower_entry","same","same",
-              "narrower_entry","broader_entry","same","related","same","narrower_entry","broader_entry","narrower_entry","narrower_entry","same"]}

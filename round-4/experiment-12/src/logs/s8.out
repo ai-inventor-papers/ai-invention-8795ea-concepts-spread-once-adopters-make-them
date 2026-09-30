@@ -1,8 +1,0 @@
-03:40:00|INFO   |selected 7 pairs over ['BGM+Med', 'CS+Eng', 'PHYS', 'SOC']
-03:40:16|INFO   |pair01_CSEng: Graphics processing unit vs Vertical axis wind turbine; O2r_resid 3.2599171916920078 vs -0.9180104704375194
-03:40:18|INFO   |pair02_BGMMed: Shotgun proteomics vs Image-guided radiation therapy; O2r_resid 1.3359666347862138 vs -3.5168864406072657
-03:40:21|INFO   |pair03_PHYS: Nanocarriers vs Nanosheet; O2r_resid 2.787922462888554 vs 0.7304328490468972
-03:40:24|INFO   |pair04_SOC: Soft power vs Autonomous learning; O2r_resid 1.3480751627507148 vs 0.26018283759672567
-03:40:27|INFO   |pair05_CSEng: Scopus vs Oxygen reduction reaction; O2r_resid 5.685703432708352 vs 0.7422291339682907
-03:40:29|INFO   |pair06_BGMMed: Sclerostin vs IgG4-related disease; O2r_resid -0.9212264694059553 vs -1.578998499974558
-03:40:32|INFO   |pair07_SOC: User-generated content vs Mindfulness-based cognitive therapy; O2r_resid 0.739074703243495 vs -0.2206815977021952
