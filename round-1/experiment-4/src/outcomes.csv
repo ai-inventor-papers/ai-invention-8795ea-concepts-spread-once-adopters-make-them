@@ -1,0 +1,79 @@
+concept,panel_entry,aliases_used,intended_group,t0,newborn,status,dev,home,group,thin_home,label_coverage_early,label_coverage_outcome,outcome_window_pulled,trunc,trunc_share_outcome,N_outcome,O1,O2r_m30,O2r_m50,O2r_resid,O2_raw,O3,peak_year
+zinc finger nuclease,zinc finger nuclease,zinc finger nuclease,Biochem/Genetics,2005.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.9444444444444444,0.8224852071005917,1.0,0.0,0.053254437869822535,417.0,1.0,3.7281670795026987,4.328907914945842,-0.7828470226213948,3.0,0.0,2013.0
+Web 2.0,Web 2.0,Web 2.0,CS/AI,2006.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+sentiment analysis,sentiment analysis,sentiment analysis,CS/AI,2007.0,True,dev,1,Computer Science,CS,False,0.411214953271028,0.36941340782122906,1.0,1.0,0.5258379888268156,529.0,1.0,4.2128386881461255,4.967180671062457,-0.11878894635383563,3.0,0.0,2015.0
+biosimilar,biosimilar,biosimilar,Medicine,2006.0,True,dev,1,Medicine,Med,False,0.7346938775510204,0.4581704456606724,1.0,1.0,0.2142298670836591,586.0,1.0,4.8628335470214274,5.537876346669303,0.6083672839259204,5.0,0.0,2014.0
+smart grid,smart grid,smart grid,Engineering,2008.0,True,dev,1,Engineering,Eng,False,0.603336422613531,0.4813868613138686,1.0,1.0,0.44671532846715334,2638.0,0.0,2.786337053823176,3.1524110081838517,-0.3337171119618314,3.0,0.0,2014.0
+cancer stem cell,cancer stem cell,cancer stem cell,Biochem/Genetics,2003.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology;Medicine",Med,False,0.8269230769230769,0.5488174651303821,1.0,1.0,0.3392965433596119,1810.0,1.0,2.451660331552959,2.6914065633028867,-0.952434253668236,3.0,0.0,2011.0
+cardiac resynchronization therapy,cardiac resynchronization therapy,cardiac resynchronization therapy,Medicine,2002.0,True,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+crowdsourcing,crowdsourcing,crowdsourcing,CS/AI,2008.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+mashup,mashup,mashup,CS/AI,2007.0,True,dev,1,Computer Science,CS,False,0.4580152671755725,0.423841059602649,1.0,1.0,0.3973509933774835,192.0,0.0,6.03004343441261,7.271205267006544,0.9342070944991896,3.0,0.0,2010.0
+dictionary learning,dictionary learning,dictionary learning,CS/AI,2011.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+drug-eluting stent,drug-eluting stent,drug-eluting stent,Medicine,2001.0,True,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+H5N1,H5N1,H5N1,Medicine,2000.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+microbial fuel cell,microbial fuel cell,microbial fuel cell,Engineering,2003.0,False,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.5948275862068966,0.49778172138420584,1.0,1.0,0.17480035492457857,561.0,1.0,5.146310477042169,6.126665015187798,0.8589691523787097,4.0,0.0,2011.0
+DNA barcoding,DNA barcoding,DNA barcoding,Biochem/Genetics,2005.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.5936395759717314,0.451556077510276,1.0,1.0,0.31238990017615975,769.0,1.0,4.28826796610367,4.9062444743030555,0.23872654148380068,4.0,0.0,2013.0
+demand response,demand response,demand response,Engineering,2002.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+pandemic H1N1,pandemic H1N1/swine flu,pandemic H1N1|swine flu,Medicine,2009.0,True,dev,1,Medicine,Med,False,0.46005239030779305,0.49263502454991814,1.0,1.0,0.3273322422258592,301.0,0.0,6.430541175323941,8.27270146989543,1.673729964165183,3.0,0.0,2010.0
+genome-wide association study,genome-wide association study/GWAS,genome-wide association study|GWAS,Biochem/Genetics,2000.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+WiMAX,WiMAX,WiMAX,Engineering,2004.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+latent Dirichlet allocation,latent Dirichlet allocation,latent Dirichlet allocation,CS/AI,2007.0,True,dev,1,Computer Science,CS,False,0.4266666666666667,0.5800376647834274,1.0,1.0,0.3220338983050848,308.0,1.0,5.456927538068247,6.850222119094198,0.7174512161720896,3.0,0.0,2014.0
+microblog,microblog,microblog,CS/AI,2009.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+social tagging,social tagging,social tagging,CS/AI,2006.0,True,dev,1,Computer Science,CS,False,0.41346153846153844,0.7072243346007605,1.0,0.0,0.0,186.0,0.0,5.056432167800891,6.242241294005622,-0.06334378511945449,2.0,0.0,2010.0
+synthetic biology,synthetic biology,synthetic biology,Biochem/Genetics,2005.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.7488372093023256,0.5500899820035993,1.0,1.0,0.2741451709658068,917.0,1.0,5.267971679201736,6.970066905781428,1.351152765499803,6.0,0.0,2013.0
+long noncoding RNA,long noncoding RNA/lncRNA,long noncoding RNA|lncRNA,Biochem/Genetics,2008.0,False,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.839622641509434,0.5658866995073891,1.0,1.0,0.29146141215106736,2757.0,1.0,2.873602598106447,3.3541573772567514,-0.2131820000305371,5.0,0.0,2016.0
+comparative effectiveness research,comparative effectiveness research,comparative effectiveness research,Medicine,2009.0,True,dev,1,Medicine,Med,False,0.7555847568988173,0.6210045662100456,1.0,1.0,0.2557077625570776,408.0,0.0,5.164105404842837,6.169792243854105,0.6366389888118276,4.0,0.0,2012.0
+virtual power plant,virtual power plant,virtual power plant,Engineering,2011.0,False,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+exome sequencing,exome sequencing,exome sequencing,Biochem/Genetics,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+sirtuin,sirtuin,sirtuin,Biochem/Genetics,2003.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.8666666666666667,0.5712777191129884,1.0,1.0,0.2713833157338965,541.0,1.0,4.0295062221647715,4.849564371577565,-0.28520778044408246,3.0,0.0,2011.0
+next-generation sequencing,next-generation sequencing,next-generation sequencing,Biochem/Genetics,2005.0,False,dev,1,Medicine,Med,False,0.828125,0.501461038961039,1.0,1.0,0.3899350649350649,3089.0,1.0,3.686716140290592,4.355642515918467,0.6856684904473749,5.0,0.0,2013.0
+vehicle-to-grid,vehicle-to-grid,vehicle-to-grid,Engineering,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+takotsubo cardiomyopathy,takotsubo cardiomyopathy,takotsubo cardiomyopathy,Medicine,2004.0,True,dev,1,Medicine,Med,False,0.7583333333333333,0.7757685352622061,1.0,0.0,0.11573236889692584,429.0,0.0,1.3224439629667977,1.508524790057185,-3.167177655494486,1.0,0.0,2012.0
+energy harvesting,energy harvesting,energy harvesting,Engineering,2004.0,True,dev,1,Engineering,Eng,False,0.5957446808510638,0.5085146641438032,1.0,1.0,0.3869441816461684,1075.0,1.0,4.357279317086195,5.431315098586588,0.5603281086307756,4.0,0.0,2012.0
+ZigBee,ZigBee,ZigBee,Engineering,2004.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+extreme learning machine,extreme learning machine,extreme learning machine,CS/AI,2008.0,False,dev,1,Computer Science,CS,False,0.822429906542056,0.6204002582311169,1.0,1.0,0.3111684958037444,961.0,1.0,4.423351046616491,5.573318480481197,0.5418714188478608,3.0,0.0,2016.0
+chronic traumatic encephalopathy,chronic traumatic encephalopathy,chronic traumatic encephalopathy,Medicine,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+wireless body area network,wireless body area network,wireless body area network,CS/AI,2008.0,True,dev,1,Engineering,Eng,False,0.6624203821656051,0.6374829001367989,1.0,1.0,0.23529411764705888,466.0,1.0,3.4846061434853715,4.208884667486489,-0.9426351717972494,2.0,0.0,2016.0
+learning to rank,learning to rank,learning to rank,CS/AI,2009.0,False,dev,1,Computer Science,CS,False,0.5304347826086957,0.7808219178082192,1.0,0.0,0.0,171.0,1.0,4.410906353780082,5.357099752695544,-0.7722711681271708,1.0,0.0,2017.0
+service-oriented architecture,service-oriented architecture,service-oriented architecture,CS/AI,2003.0,True,dev,1,Computer Science,CS,False,0.4773413897280967,0.35020876826722336,1.0,1.0,0.5276617954070981,671.0,0.0,4.139942502193179,4.77482508058643,-0.01239028360067973,4.0,0.0,2008.0
+piRNA,piRNA,piRNA,Biochem/Genetics,2007.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.7857142857142857,0.7686274509803922,1.0,0.0,0.07450980392156858,392.0,0.0,3.9151259472794946,4.882253400816316,-0.6425058701602628,2.0,0.0,2015.0
+lipidomics,lipidomics,lipidomics,Biochem/Genetics,2004.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.7884615384615384,0.6576168929110106,1.0,1.0,0.21417797888386125,436.0,1.0,4.89075790319387,5.702450799899303,0.41334057730519724,3.0,0.0,2012.0
+network coding,network coding,network coding,CS/AI,2004.0,True,dev,1,Computer Science;Engineering,Eng,False,0.5597014925373134,0.7337792642140468,1.0,1.0,0.21337792642140463,1097.0,1.0,2.9852231913163836,3.3149766949415564,-0.7964523949000331,3.0,0.0,2012.0
+severe acute respiratory syndrome,severe acute respiratory syndrome/SARS coronavirus,severe acute respiratory syndrome|SARS coronavirus,Medicine,2003.0,True,dev,1,Medicine,Med,False,0.46358409199808337,0.47785787847579814,1.0,1.0,0.34603501544799176,464.0,0.0,4.582567175883152,5.812755556489692,0.15208269657653606,2.0,0.0,2004.0
+cognitive radio,cognitive radio,cognitive radio,CS/AI,2005.0,True,dev,1,Engineering,Eng,False,0.691358024691358,0.688344172086043,1.0,1.0,0.25862931465732864,2752.0,1.0,2.839376780859342,3.1605648218425326,-0.24877654967952623,3.0,0.0,2013.0
+structural health monitoring,structural health monitoring,structural health monitoring,Engineering,2000.0,True,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+MapReduce,MapReduce,MapReduce,CS/AI,2008.0,True,dev,1,Computer Science,CS,False,0.5391705069124424,0.5193113075849232,1.0,1.0,0.4164727780362959,1116.0,1.0,3.235279679259633,3.7262572700613505,-0.5334478662645568,4.0,0.0,2015.0
+differential privacy,differential privacy,differential privacy,CS/AI,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+cyber-physical system,cyber-physical system,cyber-physical system,CS/AI,2008.0,True,dev,1,Computer Science,CS,False,0.4642857142857143,0.5277044854881267,1.0,1.0,0.4030343007915568,800.0,1.0,3.1471912251602285,3.6615412504106035,-0.8725501854001401,3.0,0.0,2016.0
+ultra-wideband,ultra-wideband,ultra-wideband,Engineering,2000.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+induced pluripotent stem cell,induced pluripotent stem cell,induced pluripotent stem cell,Biochem/Genetics,2007.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.7743506493506493,0.5369169629784564,1.0,1.0,0.3530642125078436,2567.0,1.0,3.2933565921524908,3.731323058364045,0.15272998891698375,4.0,0.0,2015.0
+carbon capture and storage,carbon capture and storage,carbon capture and storage,Engineering,2006.0,True,dev,1,Engineering,Eng,False,0.46320346320346323,0.492831541218638,1.0,1.0,0.3055555555555556,550.0,1.0,5.104173606384216,6.4414392822972,0.8019004180804377,4.0,0.0,2014.0
+vehicular ad hoc network,vehicular ad hoc network/VANET,vehicular ad hoc network|VANET,CS/AI,2006.0,True,dev,1,Engineering,Eng,False,0.6410256410256411,0.5969773299748111,1.0,1.0,0.3607052896725441,1185.0,1.0,3.0090877234841766,3.210858479489036,-0.7144038533162105,3.0,0.0,2014.0
+compressed sensing,compressed sensing/compressive sensing,compressed sensing|compressive sensing,CS/AI,2007.0,True,dev,1,Medicine,Med,False,0.5961538461538461,0.5540473840078973,1.0,1.0,0.37216189536031585,2245.0,1.0,4.7787889645378865,5.539856782554374,1.5370973257397536,7.0,0.0,2014.0
+capsule endoscopy,capsule endoscopy,capsule endoscopy,Medicine,2002.0,True,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+internet of things,internet of things,internet of things,CS/AI,2005.0,False,dev,1,Computer Science,CS,False,0.4861111111111111,0.5471644343117698,1.0,1.0,0.3741806782559134,1920.0,1.0,2.9474776698860854,3.4035826316610684,-0.4121301325417708,3.0,0.0,2013.0
+ribotype 027,ribotype 027,ribotype 027,Medicine,2007.0,False,dev,1,Medicine,Med,False,0.8739495798319328,,0.0,,,,1.0,,,,,0.0,2011.0
+HPV vaccine,HPV vaccine,HPV vaccine,Medicine,2000.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+folksonomy,folksonomy,folksonomy,CS/AI,2006.0,True,dev,1,Computer Science,CS,False,0.46153846153846156,,0.0,,,,0.0,,,,,0.0,2011.0
+patient-centered medical home,patient-centered medical home,patient-centered medical home,Medicine,2008.0,True,sealed_home_dropped,0,Health Professions;Medicine,,,,,,,,,,,,,,,
+human microbiome,human microbiome,human microbiome,Biochem/Genetics,2008.0,True,dev,1,Medicine,Med,False,0.6639344262295082,,0.0,,,,1.0,,,,,0.0,2016.0
+natural orifice transluminal endoscopic surgery,natural orifice transluminal endoscopic surgery/NOTES,natural orifice transluminal endoscopic surgery|natural orifice translumenal endoscopic surgery,Medicine,2006.0,True,dev,1,Medicine,Med,False,0.9173789173789174,,0.0,,,,0.0,,,,,1.0,2009.0
+transcatheter aortic valve implantation,transcatheter aortic valve implantation/TAVI,transcatheter aortic valve implantation|TAVI,Medicine,2006.0,False,sealed_home_dropped,0,Physics and Astronomy,,,,,,,,,,,,,,,
+RNA-seq,RNA-seq,RNA-seq,Biochem/Genetics,2009.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.7932960893854749,,0.0,,,,1.0,,,,,0.0,2017.0
+memristor,memristor,memristor,Engineering,2008.0,True,dev,1,Engineering,Eng,False,0.6325301204819277,,0.0,,,,1.0,,,,,0.0,2016.0
+optogenetics,optogenetics,optogenetics,Biochem/Genetics,2009.0,True,sealed_home_dropped,0,Neuroscience,,,,,,,,,,,,,,,
+metagenomics,metagenomics,metagenomics,Biochem/Genetics,2004.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.6285714285714286,,0.0,,,,1.0,,,,,0.0,2012.0
+LTE-Advanced,LTE-Advanced,LTE-Advanced,Engineering,2008.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+cloud computing,cloud computing,cloud computing,CS/AI,2005.0,True,sealed_home_dropped,0,Social Sciences,,,,,,,,,,,,,,,
+nanopore sequencing,nanopore sequencing,nanopore sequencing,Biochem/Genetics,2012.0,False,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+mHealth,mHealth,mHealth,Medicine,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+single-incision laparoscopic surgery,single-incision laparoscopic surgery,single-incision laparoscopic surgery,Medicine,2009.0,True,dev,1,Medicine,Med,False,0.9025069637883009,,0.0,,,,0.0,,,,,1.0,2012.0
+ChIP-seq,ChIP-seq,ChIP-seq,Biochem/Genetics,2008.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.8323529411764706,,0.0,,,,1.0,,,,,0.0,2016.0
+microgrid,microgrid,microgrid,Engineering,2002.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,
+copy number variation,copy number variation,copy number variation,Biochem/Genetics,2005.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.875,,0.0,,,,1.0,,,,,0.0,2013.0
+interactome,interactome,interactome,Biochem/Genetics,2004.0,True,dev,1,"Biochemistry, Genetics and Molecular Biology",BGM,False,0.8418604651162791,,0.0,,,,1.0,,,,,0.0,2012.0
+NoSQL,NoSQL,NoSQL,CS/AI,2011.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+plug-in hybrid electric vehicle,plug-in hybrid electric vehicle,plug-in hybrid electric vehicle,Engineering,2007.0,True,dev,1,Engineering,Eng,False,0.5511363636363636,,0.0,,,,0.0,,,,,0.0,2012.0
+deep belief network,deep belief network,deep belief network,CS/AI,2010.0,True,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+piezoelectric nanogenerator,piezoelectric nanogenerator,piezoelectric nanogenerator,Engineering,2012.0,False,cohort_2010_2014,0,,,,,,,,,,,,,,,,
+pay for performance,pay for performance,pay for performance,Medicine,2000.0,False,t0_out_of_dev,0,,,,,,,,,,,,,,,,

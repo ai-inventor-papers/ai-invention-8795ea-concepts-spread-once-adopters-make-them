@@ -1,0 +1,2755 @@
+[
+ {
+  "concept": "zinc finger nuclease",
+  "top_nb_W3": [
+   [
+    "CAR-T cell therapy research",
+    4.87,
+    4
+   ],
+   [
+    "Chromosomal and Genetic Variations",
+    4.85,
+    7
+   ],
+   [
+    "Plant Virus Research Studies",
+    4.7,
+    7
+   ],
+   [
+    "Animal Genetics and Reproduction",
+    4.36,
+    5
+   ],
+   [
+    "Pluripotent Stem Cells Research",
+    4.27,
+    4
+   ],
+   [
+    "Viral Infectious Diseases and Gene Expression in Insects",
+    3.99,
+    3
+   ],
+   [
+    "Plant tissue culture and regeneration",
+    3.78,
+    4
+   ],
+   [
+    "HIV Research and Treatment",
+    3.57,
+    3
+   ],
+   [
+    "DNA Repair Mechanisms",
+    3.44,
+    2
+   ],
+   [
+    "Virus-based gene therapy research",
+    3.02,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Advanced biosensing and bioanalysis techniques",
+   "RNA Interference and Gene Delivery",
+   "CRISPR and Genetic Engineering"
+  ]
+ },
+ {
+  "concept": "sentiment analysis",
+  "top_nb_W3": [
+   [
+    "Spam and Phishing Detection",
+    6.41,
+    10
+   ],
+   [
+    "Text and Document Classification Technologies",
+    6.24,
+    11
+   ],
+   [
+    "Emotion and Mood Recognition",
+    5.52,
+    2
+   ],
+   [
+    "Authorship Attribution and Profiling",
+    5.47,
+    2
+   ],
+   [
+    "Web Data Mining and Analysis",
+    5.36,
+    12
+   ],
+   [
+    "Stock Market Forecasting Methods",
+    4.68,
+    3
+   ],
+   [
+    "Complex Network Analysis Techniques",
+    4.43,
+    5
+   ],
+   [
+    "Rough Sets and Fuzzy Logic",
+    4.41,
+    5
+   ],
+   [
+    "Digital Marketing and Social Media",
+    4.19,
+    6
+   ],
+   [
+    "Opinion Dynamics and Social Influence",
+    3.83,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Topic Modeling",
+   "Sentiment Analysis and Opinion Mining",
+   "Advanced Text Analysis Techniques"
+  ]
+ },
+ {
+  "concept": "biosimilar",
+  "top_nb_W3": [
+   [
+    "Neutropenia and Cancer Infections",
+    5.69,
+    17
+   ],
+   [
+    "Erythropoietin and Anemia Treatment",
+    5.62,
+    16
+   ],
+   [
+    "Pharmaceutical studies and practices",
+    5.26,
+    29
+   ],
+   [
+    "Biomedical Ethics and Regulation",
+    4.99,
+    18
+   ],
+   [
+    "Blood disorders and treatments",
+    4.95,
+    12
+   ],
+   [
+    "Statistical Methods in Clinical Trials",
+    4.78,
+    10
+   ],
+   [
+    "Heparin-Induced Thrombocytopenia and Thrombosis",
+    4.6,
+    5
+   ],
+   [
+    "Safe Handling of Antineoplastic Drugs",
+    4.57,
+    2
+   ],
+   [
+    "Bioeconomy and Sustainability Development",
+    4.31,
+    2
+   ],
+   [
+    "Protein purification and stability",
+    4.02,
+    5
+   ]
+  ],
+  "self_topics": [
+   "Health Systems, Economic Evaluations, Quality of Life",
+   "Pharmaceutical Economics and Policy",
+   "Biosimilars and Bioanalytical Methods"
+  ]
+ },
+ {
+  "concept": "smart grid",
+  "top_nb_W3": [
+   [
+    "Energy, Economy, and Technology Trends",
+    5.62,
+    7
+   ],
+   [
+    "Power Line Communications and Noise",
+    5.58,
+    158
+   ],
+   [
+    "IoT Networks and Protocols",
+    5.55,
+    8
+   ],
+   [
+    "Microgrid Control and Optimization",
+    5.4,
+    154
+   ],
+   [
+    "Blockchain Technology Applications and Security",
+    5.38,
+    28
+   ],
+   [
+    "Electricity Theft Detection Techniques",
+    5.07,
+    12
+   ],
+   [
+    "Electric Vehicles and Infrastructure",
+    5.04,
+    70
+   ],
+   [
+    "Islanding Detection in Power Systems",
+    5.02,
+    33
+   ],
+   [
+    "Optimal Power Flow Distribution",
+    4.85,
+    51
+   ],
+   [
+    "Network Time Synchronization Technologies",
+    4.62,
+    22
+   ]
+  ],
+  "self_topics": [
+   "Smart Grid Energy Management",
+   "Smart Grid Security and Resilience",
+   "Smart Grid and Power Systems"
+  ]
+ },
+ {
+  "concept": "cancer stem cell",
+  "top_nb_W3": [
+   [
+    "FOXO transcription factor regulation",
+    6.26,
+    14
+   ],
+   [
+    "Hedgehog Signaling Pathway Studies",
+    5.88,
+    37
+   ],
+   [
+    "Cancer Genomics and Diagnostics",
+    5.36,
+    30
+   ],
+   [
+    "Epigenetics and DNA Methylation",
+    5.1,
+    45
+   ],
+   [
+    "Chemical Reactions and Isotopes",
+    4.85,
+    12
+   ],
+   [
+    "Cancer Research and Treatment",
+    4.53,
+    3
+   ],
+   [
+    "Mathematical Biology Tumor Growth",
+    4.5,
+    5
+   ],
+   [
+    "Pluripotent Stem Cells Research",
+    4.48,
+    18
+   ],
+   [
+    "Hippo pathway signaling and YAP/TAZ",
+    4.4,
+    4
+   ],
+   [
+    "Microtubule and mitosis dynamics",
+    4.34,
+    16
+   ]
+  ],
+  "self_topics": [
+   "Cancer Cells and Metastasis"
+  ]
+ },
+ {
+  "concept": "crowdsourcing",
+  "top_nb_W3": [
+   [
+    "Expert finding and Q&A systems",
+    6.37,
+    21
+   ],
+   [
+    "Data Stream Mining Techniques",
+    6.02,
+    21
+   ],
+   [
+    "Human Mobility and Location-Based Analysis",
+    5.28,
+    21
+   ],
+   [
+    "Privacy-Preserving Technologies in Data",
+    5.28,
+    21
+   ],
+   [
+    "Auction Theory and Applications",
+    5.09,
+    34
+   ],
+   [
+    "Multimodal Machine Learning Applications",
+    4.95,
+    3
+   ],
+   [
+    "AI in Service Interactions",
+    4.86,
+    3
+   ],
+   [
+    "Wikis in Education and Collaboration",
+    4.82,
+    18
+   ],
+   [
+    "Information Retrieval and Search Behavior",
+    4.82,
+    11
+   ],
+   [
+    "Knowledge Management and Sharing",
+    4.72,
+    45
+   ]
+  ],
+  "self_topics": [
+   "Open Source Software Innovations",
+   "Mobile Crowdsensing and Crowdsourcing"
+  ]
+ },
+ {
+  "concept": "microbial fuel cell",
+  "top_nb_W3": [
+   [
+    "Advanced battery technologies research",
+    5.23,
+    8
+   ],
+   [
+    "Electrocatalysts for Energy Conversion",
+    4.7,
+    18
+   ],
+   [
+    "Metal Extraction and Bioleaching",
+    4.28,
+    8
+   ],
+   [
+    "Electrochemical Analysis and Applications",
+    3.69,
+    13
+   ],
+   [
+    "Wastewater Treatment and Nitrogen Removal",
+    3.56,
+    6
+   ],
+   [
+    "Microbial Community Ecology and Physiology",
+    3.3,
+    5
+   ],
+   [
+    "Magnetic and Electromagnetic Effects",
+    3.2,
+    2
+   ],
+   [
+    "Extraction and Separation Processes",
+    2.98,
+    3
+   ],
+   [
+    "Fuel Cells and Related Materials",
+    2.64,
+    3
+   ],
+   [
+    "Microbial Metabolic Engineering and Bioproduction",
+    2.37,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Supercapacitor Materials and Fabrication",
+   "Electrochemical sensors and biosensors",
+   "Microbial Fuel Cells and Bioremediation"
+  ]
+ },
+ {
+  "concept": "DNA barcoding",
+  "top_nb_W3": [
+   [
+    "Hymenoptera taxonomy and phylogeny",
+    5.3,
+    14
+   ],
+   [
+    "Lepidoptera: Biology and Taxonomy",
+    5.28,
+    33
+   ],
+   [
+    "Ichthyology and Marine Biology",
+    4.87,
+    19
+   ],
+   [
+    "Study of Mite Species",
+    4.86,
+    8
+   ],
+   [
+    "Leech Biology and Applications",
+    4.84,
+    3
+   ],
+   [
+    "Genomics and Phylogenetic Studies",
+    4.82,
+    47
+   ],
+   [
+    "Invertebrate Taxonomy and Ecology",
+    4.76,
+    10
+   ],
+   [
+    "Marine Ecology and Invasive Species",
+    4.6,
+    10
+   ],
+   [
+    "Biological and pharmacological studies of plants",
+    4.25,
+    3
+   ],
+   [
+    "Fish Biology and Ecology Studies",
+    4.24,
+    23
+   ]
+  ],
+  "self_topics": [
+   "Genetic diversity and population structure",
+   "Identification and Quantification in Food",
+   "Environmental DNA in Biodiversity Studies"
+  ]
+ },
+ {
+  "concept": "pandemic H1N1",
+  "top_nb_W3": [
+   [
+    "SARS-CoV-2 and COVID-19 Research",
+    6.1,
+    36
+   ],
+   [
+    "COVID-19 Clinical Research Studies",
+    5.87,
+    8
+   ],
+   [
+    "COVID-19 Impact on Reproduction",
+    5.7,
+    7
+   ],
+   [
+    "COVID-19 Pandemic Impacts",
+    5.61,
+    7
+   ],
+   [
+    "COVID-19 epidemiological studies",
+    5.57,
+    29
+   ],
+   [
+    "Animal Disease Management and Epidemiology",
+    4.89,
+    46
+   ],
+   [
+    "Infectious Encephalopathies and Encephalitis",
+    4.83,
+    12
+   ],
+   [
+    "COVID-19 and Mental Health",
+    4.83,
+    6
+   ],
+   [
+    "Long-Term Effects of COVID-19",
+    4.77,
+    3
+   ],
+   [
+    "Infection Control and Ventilation",
+    4.72,
+    8
+   ]
+  ],
+  "self_topics": [
+   "Influenza Virus Research Studies",
+   "Respiratory viral infections research"
+  ]
+ },
+ {
+  "concept": "latent Dirichlet allocation",
+  "top_nb_W3": [
+   [
+    "Multimodal Machine Learning Applications",
+    7.53,
+    2
+   ],
+   [
+    "Computational and Text Analysis Methods",
+    6.73,
+    2
+   ],
+   [
+    "Text and Document Classification Technologies",
+    6.46,
+    4
+   ],
+   [
+    "Advanced Text Analysis Techniques",
+    5.87,
+    4
+   ],
+   [
+    "Advanced Image and Video Retrieval Techniques",
+    5.59,
+    5
+   ],
+   [
+    "Music and Audio Processing",
+    5.52,
+    3
+   ],
+   [
+    "Image Retrieval and Classification Techniques",
+    5.36,
+    4
+   ],
+   [
+    "Remote-Sensing Image Classification",
+    5.28,
+    2
+   ],
+   [
+    "Machine Learning in Bioinformatics",
+    5.0,
+    2
+   ],
+   [
+    "Biomedical Text Mining and Ontologies",
+    4.93,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Topic Modeling",
+   "Natural Language Processing Techniques",
+   "Bayesian Methods and Mixture Models"
+  ]
+ },
+ {
+  "concept": "social tagging",
+  "top_nb_W3": [
+   [
+    "Advanced Graph Neural Networks",
+    7.02,
+    3
+   ],
+   [
+    "Mobile Crowdsensing and Crowdsourcing",
+    6.82,
+    5
+   ],
+   [
+    "Expert finding and Q&A systems",
+    6.77,
+    4
+   ],
+   [
+    "Information Retrieval and Search Behavior",
+    6.52,
+    10
+   ],
+   [
+    "Advanced Text Analysis Techniques",
+    6.14,
+    14
+   ],
+   [
+    "Tensor decomposition and applications",
+    5.93,
+    2
+   ],
+   [
+    "Web Data Mining and Analysis",
+    5.6,
+    13
+   ],
+   [
+    "Topic Modeling",
+    5.52,
+    10
+   ],
+   [
+    "Text and Document Classification Technologies",
+    5.51,
+    4
+   ],
+   [
+    "Complex Network Analysis Techniques",
+    5.38,
+    10
+   ]
+  ],
+  "self_topics": [
+   "Recommender Systems and Techniques",
+   "Wikis in Education and Collaboration"
+  ]
+ },
+ {
+  "concept": "synthetic biology",
+  "top_nb_W3": [
+   [
+    "Molecular Communication and Nanonetworks",
+    6.41,
+    13
+   ],
+   [
+    "Origins and Evolution of Life",
+    6.26,
+    25
+   ],
+   [
+    "Neuroethics, Human Enhancement, Biomedical Innovations",
+    5.2,
+    9
+   ],
+   [
+    "Genetics, Bioinformatics, and Biomedical Research",
+    5.17,
+    22
+   ],
+   [
+    "Law, AI, and Intellectual Property",
+    4.84,
+    4
+   ],
+   [
+    "Evolution and Genetic Dynamics",
+    4.67,
+    11
+   ],
+   [
+    "Bioinformatics and Genomic Networks",
+    4.52,
+    11
+   ],
+   [
+    "Biotechnology and Related Fields",
+    4.19,
+    15
+   ],
+   [
+    "Space Science and Extraterrestrial Life",
+    4.17,
+    6
+   ],
+   [
+    "Cell Image Analysis Techniques",
+    4.13,
+    4
+   ]
+  ],
+  "self_topics": [
+   "Gene Regulatory Network Analysis",
+   "CRISPR and Genetic Engineering",
+   "Microbial Metabolic Engineering and Bioproduction"
+  ]
+ },
+ {
+  "concept": "long noncoding RNA",
+  "top_nb_W3": [
+   [
+    "Plant and Fungal Interactions Research",
+    5.69,
+    12
+   ],
+   [
+    "Circular RNAs in diseases",
+    5.28,
+    10
+   ],
+   [
+    "Genetic Syndromes and Imprinting",
+    4.67,
+    5
+   ],
+   [
+    "Kruppel-like factors research",
+    4.56,
+    3
+   ],
+   [
+    "RNA regulation and disease",
+    4.51,
+    5
+   ],
+   [
+    "Yeasts and Rust Fungi Studies",
+    3.97,
+    2
+   ],
+   [
+    "Plant Molecular Biology Research",
+    3.88,
+    5
+   ],
+   [
+    "Invertebrate Immune Response Mechanisms",
+    3.71,
+    2
+   ],
+   [
+    "Mycobacterium research and diagnosis",
+    3.65,
+    5
+   ],
+   [
+    "Fungal and yeast genetics research",
+    3.57,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Cancer-related molecular mechanisms research",
+   "RNA Research and Splicing",
+   "RNA modifications and cancer"
+  ]
+ },
+ {
+  "concept": "comparative effectiveness research",
+  "top_nb_W3": [
+   [
+    "Advanced Causal Inference Techniques",
+    5.8,
+    33
+   ],
+   [
+    "Health Policy Implementation Science",
+    5.72,
+    60
+   ],
+   [
+    "Economic and Financial Impacts of Cancer",
+    5.29,
+    25
+   ],
+   [
+    "Statistical Methods in Clinical Trials",
+    5.14,
+    30
+   ],
+   [
+    "Artificial Intelligence in Healthcare and Education",
+    5.06,
+    4
+   ],
+   [
+    "Clinical practice guidelines implementation",
+    4.89,
+    46
+   ],
+   [
+    "Pharmaceutical Economics and Policy",
+    4.71,
+    30
+   ],
+   [
+    "Healthcare cost, quality, practices",
+    4.61,
+    20
+   ],
+   [
+    "Meta-analysis and systematic reviews",
+    4.51,
+    20
+   ],
+   [
+    "Qualitative Comparative Analysis Research",
+    4.47,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Health Systems, Economic Evaluations, Quality of Life"
+  ]
+ },
+ {
+  "concept": "sirtuin",
+  "top_nb_W3": [
+   [
+    "PARP inhibition in cancer therapy",
+    6.74,
+    11
+   ],
+   [
+    "Calcium signaling and nucleotide metabolism",
+    6.38,
+    7
+   ],
+   [
+    "Natural Compound Pharmacology Studies",
+    5.55,
+    2
+   ],
+   [
+    "Genetics, Aging, and Longevity in Model Organisms",
+    5.19,
+    5
+   ],
+   [
+    "GDF15 and Related Biomarkers",
+    5.15,
+    2
+   ],
+   [
+    "Biochemical effects in animals",
+    4.99,
+    6
+   ],
+   [
+    "Bioactive natural compounds",
+    4.99,
+    2
+   ],
+   [
+    "Histone Deacetylase Inhibitors Research",
+    4.95,
+    3
+   ],
+   [
+    "Tea Polyphenols and Effects",
+    4.93,
+    3
+   ],
+   [
+    "Fungal and yeast genetics research",
+    4.44,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Autophagy in Disease and Therapy",
+   "Sirtuins and Resveratrol in Medicine",
+   "Adipose Tissue and Metabolism"
+  ]
+ },
+ {
+  "concept": "next-generation sequencing",
+  "top_nb_W3": [
+   [
+    "Genome Rearrangement Algorithms",
+    6.14,
+    3
+   ],
+   [
+    "Genomics and Rare Diseases",
+    5.59,
+    9
+   ],
+   [
+    "Cancer Genomics and Diagnostics",
+    5.45,
+    13
+   ],
+   [
+    "Gene expression and cancer classification",
+    5.2,
+    13
+   ],
+   [
+    "Chromosomal and Genetic Variations",
+    5.12,
+    14
+   ],
+   [
+    "Single-cell and spatial transcriptomics",
+    5.0,
+    2
+   ],
+   [
+    "Genomic variations and chromosomal abnormalities",
+    4.61,
+    6
+   ],
+   [
+    "RNA modifications and cancer",
+    4.55,
+    12
+   ],
+   [
+    "Protist diversity and phylogeny",
+    4.55,
+    4
+   ],
+   [
+    "MicroRNA in disease regulation",
+    4.46,
+    6
+   ]
+  ],
+  "self_topics": [
+   "Genomics and Phylogenetic Studies"
+  ]
+ },
+ {
+  "concept": "takotsubo cardiomyopathy",
+  "top_nb_W3": [
+   [
+    "Electroconvulsive Therapy Studies",
+    5.77,
+    21
+   ],
+   [
+    "Chemotherapy-induced cardiotoxicity and mitigation",
+    5.2,
+    5
+   ],
+   [
+    "Neurosurgical Procedures and Complications",
+    5.05,
+    10
+   ],
+   [
+    "Pathogenesis and Treatment of Hiccups",
+    5.03,
+    6
+   ],
+   [
+    "Cardiovascular Issues in Pregnancy",
+    4.84,
+    9
+   ],
+   [
+    "Cardiac Health and Mental Health",
+    4.18,
+    7
+   ],
+   [
+    "Cardiovascular Syncope and Autonomic Disorders",
+    4.06,
+    6
+   ],
+   [
+    "Adrenal and Paraganglionic Tumors",
+    3.95,
+    4
+   ],
+   [
+    "Spinal Hematomas and Complications",
+    3.91,
+    2
+   ],
+   [
+    "Cardiomyopathy and Myosin Studies",
+    3.84,
+    5
+   ]
+  ],
+  "self_topics": [
+   "Cardiac Imaging and Diagnostics",
+   "Takotsubo Cardiomyopathy and Associated Phenomena",
+   "Pericarditis and Cardiac Tamponade",
+   "Cardiac Structural Anomalies and Repair"
+  ]
+ },
+ {
+  "concept": "energy harvesting",
+  "top_nb_W3": [
+   [
+    "Advanced Thermoelectric Materials and Devices",
+    5.15,
+    11
+   ],
+   [
+    "Molecular Communication and Nanonetworks",
+    4.86,
+    3
+   ],
+   [
+    "Vibration Control and Rheological Fluids",
+    4.64,
+    7
+   ],
+   [
+    "Dielectric materials and actuators",
+    4.63,
+    6
+   ],
+   [
+    "Aeroelasticity and Vibration Control",
+    4.6,
+    4
+   ],
+   [
+    "solar cell performance optimization",
+    4.47,
+    3
+   ],
+   [
+    "Thermal Radiation and Cooling Technologies",
+    4.44,
+    4
+   ],
+   [
+    "Modular Robots and Swarm Intelligence",
+    4.44,
+    9
+   ],
+   [
+    "Photovoltaic System Optimization Techniques",
+    4.41,
+    3
+   ],
+   [
+    "Photovoltaic Systems and Sustainability",
+    4.3,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Advanced Sensor and Energy Harvesting Materials",
+   "Innovative Energy Harvesting Technologies",
+   "Wireless Power Transfer Systems",
+   "Energy Harvesting in Wireless Networks"
+  ]
+ },
+ {
+  "concept": "extreme learning machine",
+  "top_nb_W3": [
+   [
+    "Domain Adaptation and Few-Shot Learning",
+    7.51,
+    17
+   ],
+   [
+    "Stochastic Gradient Optimization Techniques",
+    6.63,
+    5
+   ],
+   [
+    "Smart Systems and Machine Learning",
+    6.56,
+    2
+   ],
+   [
+    "Internet of Things and AI",
+    5.76,
+    2
+   ],
+   [
+    "Extracellular vesicles in disease",
+    5.75,
+    11
+   ],
+   [
+    "Face and Expression Recognition",
+    5.68,
+    31
+   ],
+   [
+    "Brain Tumor Detection and Classification",
+    5.47,
+    7
+   ],
+   [
+    "Wireless Signal Modulation Classification",
+    5.12,
+    2
+   ],
+   [
+    "Energy Load and Power Forecasting",
+    5.09,
+    10
+   ],
+   [
+    "Metaheuristic Optimization Algorithms Research",
+    4.73,
+    11
+   ]
+  ],
+  "self_topics": [
+   "Neural Networks and Applications",
+   "Advanced Memory and Neural Computing",
+   "Machine Learning and ELM"
+  ]
+ },
+ {
+  "concept": "wireless body area network",
+  "top_nb_W3": [
+   [
+    "Molecular Communication and Nanonetworks",
+    7.38,
+    22
+   ],
+   [
+    "Bluetooth and Wireless Communication Technologies",
+    6.4,
+    14
+   ],
+   [
+    "IoT and Edge/Fog Computing",
+    6.04,
+    9
+   ],
+   [
+    "Ultra-Wideband Communications Technology",
+    5.99,
+    5
+   ],
+   [
+    "Energy Harvesting in Wireless Networks",
+    5.93,
+    18
+   ],
+   [
+    "Context-Aware Activity Recognition Systems",
+    5.78,
+    10
+   ],
+   [
+    "Energy Efficient Wireless Sensor Networks",
+    5.3,
+    17
+   ],
+   [
+    "Antenna Design and Analysis",
+    5.04,
+    13
+   ],
+   [
+    "Advanced Authentication Protocols Security",
+    5.03,
+    3
+   ],
+   [
+    "Advanced MIMO Systems Optimization",
+    4.64,
+    7
+   ]
+  ],
+  "self_topics": [
+   "Wireless Body Area Networks"
+  ]
+ },
+ {
+  "concept": "learning to rank",
+  "top_nb_W3": [
+   [
+    "Domain Adaptation and Few-Shot Learning",
+    7.31,
+    4
+   ],
+   [
+    "Advanced Bandit Algorithms Research",
+    6.96,
+    3
+   ],
+   [
+    "Multimodal Machine Learning Applications",
+    6.8,
+    2
+   ],
+   [
+    "Expert finding and Q&A systems",
+    6.76,
+    3
+   ],
+   [
+    "Data Stream Mining Techniques",
+    5.93,
+    2
+   ],
+   [
+    "Mobile Crowdsensing and Crowdsourcing",
+    5.9,
+    2
+   ],
+   [
+    "Recommender Systems and Techniques",
+    5.89,
+    4
+   ],
+   [
+    "Topic Modeling",
+    5.63,
+    8
+   ],
+   [
+    "Imbalanced Data Classification Techniques",
+    5.38,
+    2
+   ],
+   [
+    "Optimization and Search Problems",
+    5.31,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Information Retrieval and Search Behavior",
+   "Advanced Image and Video Retrieval Techniques",
+   "Text and Document Classification Technologies",
+   "Machine Learning and Algorithms"
+  ]
+ },
+ {
+  "concept": "service-oriented architecture",
+  "top_nb_W3": [
+   [
+    "Advanced Software Engineering Methodologies",
+    5.75,
+    45
+   ],
+   [
+    "Software System Performance and Reliability",
+    5.2,
+    24
+   ],
+   [
+    "Energy Efficiency in Computing",
+    4.62,
+    2
+   ],
+   [
+    "Information Technology Governance and Strategy",
+    4.61,
+    10
+   ],
+   [
+    "Data Quality and Management",
+    4.47,
+    6
+   ],
+   [
+    "Advanced Database Systems and Queries",
+    4.42,
+    17
+   ],
+   [
+    "Scientific Computing and Data Management",
+    4.23,
+    9
+   ],
+   [
+    "Distributed systems and fault tolerance",
+    4.2,
+    10
+   ],
+   [
+    "Big Data and Business Intelligence",
+    4.06,
+    9
+   ],
+   [
+    "Systems Engineering Methodologies and Applications",
+    4.01,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Service-Oriented Architecture and Web Services",
+   "Business Process Modeling and Analysis"
+  ]
+ },
+ {
+  "concept": "piRNA",
+  "top_nb_W3": [
+   [
+    "Genome Rearrangement Algorithms",
+    6.0,
+    2
+   ],
+   [
+    "Mechanisms of cancer metastasis",
+    5.21,
+    2
+   ],
+   [
+    "MicroRNA in disease regulation",
+    5.08,
+    13
+   ],
+   [
+    "Plant Virus Research Studies",
+    4.93,
+    10
+   ],
+   [
+    "Genomics and Chromatin Dynamics",
+    4.14,
+    4
+   ],
+   [
+    "Animal Genetics and Reproduction",
+    4.11,
+    4
+   ],
+   [
+    "Cancer Mechanisms and Therapy",
+    4.02,
+    3
+   ],
+   [
+    "Plant Reproductive Biology",
+    3.43,
+    2
+   ],
+   [
+    "Plant Disease Resistance and Genetics",
+    3.42,
+    2
+   ],
+   [
+    "Insect Resistance and Genetics",
+    3.39,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Advanced biosensing and bioanalysis techniques",
+   "Chromosomal and Genetic Variations",
+   "RNA Interference and Gene Delivery",
+   "CRISPR and Genetic Engineering"
+  ]
+ },
+ {
+  "concept": "lipidomics",
+  "top_nb_W3": [
+   [
+    "Sphingolipid Metabolism and Signaling",
+    5.9,
+    10
+   ],
+   [
+    "Lipid metabolism and biosynthesis",
+    5.75,
+    11
+   ],
+   [
+    "Advanced Proteomics Techniques and Applications",
+    5.45,
+    15
+   ],
+   [
+    "Fatty Acid Research and Health",
+    5.01,
+    10
+   ],
+   [
+    "Cholesterol and Lipid Metabolism",
+    4.75,
+    5
+   ],
+   [
+    "Lipid Membrane Structure and Behavior",
+    4.73,
+    11
+   ],
+   [
+    "Cancer, Lipids, and Metabolism",
+    4.31,
+    6
+   ],
+   [
+    "ATP Synthase and ATPases Research",
+    4.17,
+    3
+   ],
+   [
+    "Peroxisome Proliferator-Activated Receptors",
+    4.01,
+    5
+   ],
+   [
+    "Gut microbiota and health",
+    3.96,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Mass Spectrometry Techniques and Applications",
+   "Metabolomics and Mass Spectrometry Studies"
+  ]
+ },
+ {
+  "concept": "network coding",
+  "top_nb_W3": [
+   [
+    "Advanced Wireless Communication Technologies",
+    7.72,
+    20
+   ],
+   [
+    "Wireless Communication Security Techniques",
+    7.31,
+    30
+   ],
+   [
+    "Wireless Networks and Protocols",
+    5.67,
+    27
+   ],
+   [
+    "Advanced MIMO Systems Optimization",
+    5.59,
+    26
+   ],
+   [
+    "Error Correcting Code Techniques",
+    5.42,
+    10
+   ],
+   [
+    "Advanced Wireless Network Optimization",
+    4.8,
+    14
+   ],
+   [
+    "Security in Wireless Sensor Networks",
+    4.74,
+    4
+   ],
+   [
+    "Cellular Automata and Applications",
+    4.66,
+    7
+   ],
+   [
+    "Caching and Content Delivery",
+    4.51,
+    7
+   ],
+   [
+    "Opportunistic and Delay-Tolerant Networks",
+    4.47,
+    6
+   ]
+  ],
+  "self_topics": [
+   "Mobile Ad Hoc Networks",
+   "Cooperative Communication and Network Coding",
+   "Full-Duplex Wireless Communications"
+  ]
+ },
+ {
+  "concept": "severe acute respiratory syndrome",
+  "top_nb_W3": [
+   [
+    "SARS-CoV-2 detection and testing",
+    7.19,
+    28
+   ],
+   [
+    "Long-Term Effects of COVID-19",
+    6.84,
+    34
+   ],
+   [
+    "COVID-19 and Mental Health",
+    6.33,
+    24
+   ],
+   [
+    "Infection Control and Ventilation",
+    5.94,
+    36
+   ],
+   [
+    "COVID-19 and healthcare impacts",
+    5.87,
+    5
+   ],
+   [
+    "Animal Virus Infections Studies",
+    5.79,
+    148
+   ],
+   [
+    "COVID-19 epidemiological studies",
+    5.62,
+    33
+   ],
+   [
+    "COVID-19 Impact on Reproduction",
+    5.57,
+    7
+   ],
+   [
+    "COVID-19 impact on air quality",
+    5.49,
+    3
+   ],
+   [
+    "COVID-19 Pandemic Impacts",
+    5.1,
+    3
+   ]
+  ],
+  "self_topics": [
+   "COVID-19 Clinical Research Studies",
+   "SARS-CoV-2 and COVID-19 Research"
+  ]
+ },
+ {
+  "concept": "cognitive radio",
+  "top_nb_W3": [
+   [
+    "Distributed Sensor Networks and Detection Algorithms",
+    6.9,
+    112
+   ],
+   [
+    "Advanced Signal Processing Techniques",
+    5.91,
+    12
+   ],
+   [
+    "Wireless Communication Security Techniques",
+    5.77,
+    34
+   ],
+   [
+    "Wireless Signal Modulation Classification",
+    5.68,
+    13
+   ],
+   [
+    "Age of Information Optimization",
+    5.48,
+    5
+   ],
+   [
+    "Power Line Communications and Noise",
+    5.2,
+    64
+   ],
+   [
+    "Advanced Bandit Algorithms Research",
+    5.15,
+    6
+   ],
+   [
+    "Advanced Scientific and Engineering Studies",
+    5.13,
+    6
+   ],
+   [
+    "PAPR reduction in OFDM",
+    5.09,
+    30
+   ],
+   [
+    "Cooperative Communication and Network Coding",
+    5.03,
+    91
+   ]
+  ],
+  "self_topics": [
+   "Advanced MIMO Systems Optimization",
+   "Wireless Communication Networks Research",
+   "Cognitive Radio Networks and Spectrum Sensing"
+  ]
+ },
+ {
+  "concept": "MapReduce",
+  "top_nb_W3": [
+   [
+    "Graph Theory and Algorithms",
+    7.06,
+    40
+   ],
+   [
+    "Advanced Graph Neural Networks",
+    6.7,
+    11
+   ],
+   [
+    "IoT and Edge/Fog Computing",
+    6.04,
+    30
+   ],
+   [
+    "Data Stream Mining Techniques",
+    5.81,
+    10
+   ],
+   [
+    "Data Mining Algorithms and Applications",
+    5.79,
+    60
+   ],
+   [
+    "Data Quality and Management",
+    5.67,
+    29
+   ],
+   [
+    "Cloud Data Security Solutions",
+    5.51,
+    18
+   ],
+   [
+    "Advanced Data Storage Technologies",
+    5.31,
+    35
+   ],
+   [
+    "Advanced Database Systems and Queries",
+    5.28,
+    33
+   ],
+   [
+    "Caching and Content Delivery",
+    4.97,
+    22
+   ]
+  ],
+  "self_topics": [
+   "Cloud Computing and Resource Management"
+  ]
+ },
+ {
+  "concept": "cyber-physical system",
+  "top_nb_W3": [
+   [
+    "Age of Information Optimization",
+    6.66,
+    5
+   ],
+   [
+    "Real-Time Systems Scheduling",
+    6.26,
+    26
+   ],
+   [
+    "Digital Transformation in Industry",
+    5.92,
+    6
+   ],
+   [
+    "Systems Engineering Methodologies and Applications",
+    5.72,
+    7
+   ],
+   [
+    "Simulation Techniques and Applications",
+    5.67,
+    18
+   ],
+   [
+    "Network Time Synchronization Technologies",
+    5.51,
+    7
+   ],
+   [
+    "Context-Aware Activity Recognition Systems",
+    5.3,
+    13
+   ],
+   [
+    "Safety Systems Engineering in Autonomy",
+    5.29,
+    5
+   ],
+   [
+    "Control and Stability of Dynamical Systems",
+    5.25,
+    5
+   ],
+   [
+    "Vehicular Ad Hoc Networks (VANETs)",
+    5.12,
+    8
+   ]
+  ],
+  "self_topics": [
+   "Embedded Systems Design Techniques",
+   "Smart Grid Security and Resilience"
+  ]
+ },
+ {
+  "concept": "induced pluripotent stem cell",
+  "top_nb_W3": [
+   [
+    "Biomedical Ethics and Regulation",
+    5.28,
+    108
+   ],
+   [
+    "3D Printing in Biomedical Research",
+    5.11,
+    90
+   ],
+   [
+    "Renal and related cancers",
+    5.07,
+    86
+   ],
+   [
+    "Tissue Engineering and Regenerative Medicine",
+    5.02,
+    98
+   ],
+   [
+    "Congenital heart defects research",
+    4.48,
+    37
+   ],
+   [
+    "Animal Genetics and Reproduction",
+    4.27,
+    45
+   ],
+   [
+    "Mesenchymal stem cell research",
+    4.08,
+    46
+   ],
+   [
+    "Neuroscience and Neural Engineering",
+    4.04,
+    36
+   ],
+   [
+    "Liver physiology and pathology",
+    3.97,
+    22
+   ],
+   [
+    "Neurogenesis and neuroplasticity mechanisms",
+    3.95,
+    29
+   ]
+  ],
+  "self_topics": [
+   "Pluripotent Stem Cells Research",
+   "CRISPR and Genetic Engineering"
+  ]
+ },
+ {
+  "concept": "carbon capture and storage",
+  "top_nb_W3": [
+   [
+    "Social Acceptance of Renewable Energy",
+    6.6,
+    16
+   ],
+   [
+    "Integrated Energy Systems Optimization",
+    6.36,
+    15
+   ],
+   [
+    "Chemical Looping and Thermochemical Processes",
+    6.03,
+    8
+   ],
+   [
+    "Hybrid Renewable Energy Systems",
+    5.71,
+    12
+   ],
+   [
+    "Oil, Gas, and Environmental Issues",
+    5.59,
+    3
+   ],
+   [
+    "Global Energy and Sustainability Research",
+    5.55,
+    22
+   ],
+   [
+    "Renewable Energy and Sustainability",
+    5.5,
+    5
+   ],
+   [
+    "Sustainability and Climate Change Governance",
+    5.47,
+    6
+   ],
+   [
+    "Climate Change Policy and Economics",
+    5.34,
+    21
+   ],
+   [
+    "Marine and Offshore Engineering Studies",
+    5.34,
+    6
+   ]
+  ],
+  "self_topics": [
+   "Carbon Dioxide Capture Technologies",
+   "CO2 Sequestration and Geologic Interactions"
+  ]
+ },
+ {
+  "concept": "vehicular ad hoc network",
+  "top_nb_W3": [
+   [
+    "Advanced Authentication Protocols Security",
+    6.24,
+    38
+   ],
+   [
+    "Privacy-Preserving Technologies in Data",
+    6.12,
+    25
+   ],
+   [
+    "User Authentication and Security Systems",
+    5.44,
+    17
+   ],
+   [
+    "IoT and Edge/Fog Computing",
+    5.18,
+    7
+   ],
+   [
+    "Caching and Content Delivery",
+    5.1,
+    26
+   ],
+   [
+    "Autonomous Vehicle Technology and Safety",
+    4.65,
+    6
+   ],
+   [
+    "IoT and GPS-based Vehicle Safety Systems",
+    4.52,
+    4
+   ],
+   [
+    "Human Mobility and Location-Based Analysis",
+    4.46,
+    5
+   ],
+   [
+    "Cognitive Computing and Networks",
+    4.36,
+    5
+   ],
+   [
+    "Traffic control and management",
+    4.29,
+    10
+   ]
+  ],
+  "self_topics": [
+   "Mobile Ad Hoc Networks",
+   "Vehicular Ad Hoc Networks (VANETs)",
+   "Opportunistic and Delay-Tolerant Networks"
+  ]
+ },
+ {
+  "concept": "compressed sensing",
+  "top_nb_W3": [
+   [
+    "Microwave Imaging and Scattering Analysis",
+    6.64,
+    113
+   ],
+   [
+    "Photoacoustic and Ultrasonic Imaging",
+    5.91,
+    125
+   ],
+   [
+    "Distributed Sensor Networks and Detection Algorithms",
+    5.81,
+    35
+   ],
+   [
+    "Blind Source Separation Techniques",
+    5.8,
+    114
+   ],
+   [
+    "Advanced SAR Imaging Techniques",
+    5.34,
+    38
+   ],
+   [
+    "Electrical and Bioimpedance Tomography",
+    5.32,
+    27
+   ],
+   [
+    "Indoor and Outdoor Localization Technologies",
+    5.13,
+    49
+   ],
+   [
+    "Random lasers and scattering media",
+    5.08,
+    13
+   ],
+   [
+    "Image and Signal Denoising Methods",
+    4.99,
+    68
+   ],
+   [
+    "Advanced MRI Techniques and Applications",
+    4.72,
+    105
+   ]
+  ],
+  "self_topics": [
+   "Sparse and Compressive Sensing Techniques"
+  ]
+ },
+ {
+  "concept": "internet of things",
+  "top_nb_W3": [
+   [
+    "Smart Grid Security and Resilience",
+    6.3,
+    3
+   ],
+   [
+    "Context-Aware Activity Recognition Systems",
+    6.21,
+    6
+   ],
+   [
+    "Network Time Synchronization Technologies",
+    5.87,
+    2
+   ],
+   [
+    "Cybersecurity and Cyber Warfare Studies",
+    5.84,
+    2
+   ],
+   [
+    "Cognitive Computing and Networks",
+    5.65,
+    2
+   ],
+   [
+    "RFID technology advancements",
+    5.55,
+    3
+   ],
+   [
+    "Privacy, Security, and Data Protection",
+    5.55,
+    3
+   ],
+   [
+    "Interactive and Immersive Displays",
+    5.51,
+    2
+   ],
+   [
+    "IoT-based Smart Home Systems",
+    5.15,
+    2
+   ],
+   [
+    "Big Data and Business Intelligence",
+    4.87,
+    3
+   ]
+  ],
+  "self_topics": [
+   "IoT and Edge/Fog Computing",
+   "Internet of Things and AI",
+   "Internet of Things and Social Network Interactions"
+  ]
+ },
+ {
+  "concept": "ribotype 027",
+  "top_nb_W3": [
+   [
+    "Infection Control in Healthcare",
+    6.62,
+    5
+   ]
+  ],
+  "self_topics": [
+   "Antimicrobial Resistance in Staphylococcus",
+   "Viral gastroenteritis research and epidemiology",
+   "Clostridium difficile and Clostridium perfringens research",
+   "Nosocomial Infections in ICU",
+   "Microscopic Colitis"
+  ]
+ },
+ {
+  "concept": "folksonomy",
+  "top_nb_W3": [
+   [
+    "Information Retrieval and Search Behavior",
+    6.65,
+    12
+   ],
+   [
+    "Recommender Systems and Techniques",
+    6.57,
+    11
+   ],
+   [
+    "Authorship Attribution and Profiling",
+    5.69,
+    2
+   ],
+   [
+    "Computational and Text Analysis Methods",
+    5.68,
+    2
+   ],
+   [
+    "Advanced Text Analysis Techniques",
+    5.39,
+    7
+   ],
+   [
+    "Web Data Mining and Analysis",
+    5.28,
+    10
+   ],
+   [
+    "Topic Modeling",
+    5.24,
+    8
+   ],
+   [
+    "Text and Document Classification Technologies",
+    5.17,
+    3
+   ],
+   [
+    "Video Analysis and Summarization",
+    5.03,
+    6
+   ],
+   [
+    "Spam and Phishing Detection",
+    5.02,
+    2
+   ]
+  ],
+  "self_topics": [
+   "Semantic Web and Ontologies"
+  ]
+ },
+ {
+  "concept": "human microbiome",
+  "top_nb_W3": [
+   [
+    "Clostridium difficile and Clostridium perfringens research",
+    5.23,
+    9
+   ],
+   [
+    "Metabolomics and Mass Spectrometry Studies",
+    5.22,
+    16
+   ],
+   [
+    "Immune responses and vaccinations",
+    5.12,
+    3
+   ],
+   [
+    "Digestive system and related health",
+    4.75,
+    5
+   ],
+   [
+    "Ethics in Clinical Research",
+    4.67,
+    5
+   ],
+   [
+    "Salivary Gland Disorders and Functions",
+    4.54,
+    4
+   ],
+   [
+    "Genomics and Phylogenetic Studies",
+    4.53,
+    12
+   ],
+   [
+    "Diet and metabolism studies",
+    4.52,
+    13
+   ],
+   [
+    "Nutrition, Genetics, and Disease",
+    4.36,
+    5
+   ],
+   [
+    "Microbial Community Ecology and Physiology",
+    4.27,
+    7
+   ]
+  ],
+  "self_topics": [
+   "Gut microbiota and health",
+   "Probiotics and Fermented Foods"
+  ]
+ },
+ {
+  "concept": "natural orifice transluminal endoscopic surgery",
+  "top_nb_W3": [
+   [
+    "Abdominal Surgery and Complications",
+    6.21,
+    27
+   ],
+   [
+    "Surgical Simulation and Training",
+    5.5,
+    15
+   ],
+   [
+    "Diverticular Disease and Complications",
+    5.11,
+    11
+   ],
+   [
+    "Veterinary Medicine and Surgery",
+    5.01,
+    5
+   ],
+   [
+    "Colorectal Cancer Surgical Treatments",
+    4.81,
+    13
+   ],
+   [
+    "Veterinary Oncology Research",
+    4.72,
+    5
+   ],
+   [
+    "Appendicitis Diagnosis and Management",
+    4.69,
+    8
+   ],
+   [
+    "Gastric Cancer Management and Outcomes",
+    4.52,
+    17
+   ],
+   [
+    "Teratomas and Epidermoid Cysts",
+    4.5,
+    3
+   ],
+   [
+    "Medical Device Sterilization and Disinfection",
+    4.33,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Gallbladder and Bile Duct Disorders",
+   "Gastrointestinal Tumor Research and Treatment",
+   "Minimally Invasive Surgical Techniques"
+  ]
+ },
+ {
+  "concept": "RNA-seq",
+  "top_nb_W3": [
+   [
+    "Single-cell and spatial transcriptomics",
+    5.93,
+    42
+   ],
+   [
+    "Gene expression and cancer classification",
+    5.63,
+    104
+   ],
+   [
+    "RNA Research and Splicing",
+    4.97,
+    102
+   ],
+   [
+    "Cancer-related molecular mechanisms research",
+    4.88,
+    101
+   ],
+   [
+    "RNA and protein synthesis mechanisms",
+    4.75,
+    108
+   ],
+   [
+    "RNA regulation and disease",
+    4.34,
+    22
+   ],
+   [
+    "Bioinformatics and Genomic Networks",
+    3.9,
+    22
+   ],
+   [
+    "Plant Gene Expression Analysis",
+    3.89,
+    11
+   ],
+   [
+    "Genetic Mapping and Diversity in Plants and Animals",
+    3.67,
+    17
+   ],
+   [
+    "Chromosomal and Genetic Variations",
+    3.55,
+    14
+   ]
+  ],
+  "self_topics": [
+   "Genomics and Phylogenetic Studies",
+   "RNA modifications and cancer",
+   "Molecular Biology Techniques and Applications"
+  ]
+ },
+ {
+  "concept": "memristor",
+  "top_nb_W3": [
+   [
+    "stochastic dynamics and bifurcation",
+    6.0,
+    37
+   ],
+   [
+    "Machine Learning and ELM",
+    5.66,
+    6
+   ],
+   [
+    "Neural Networks Stability and Synchronization",
+    5.64,
+    23
+   ],
+   [
+    "CCD and CMOS Imaging Sensors",
+    5.64,
+    25
+   ],
+   [
+    "Neural Networks and Reservoir Computing",
+    5.49,
+    7
+   ],
+   [
+    "Quantum-Dot Cellular Automata",
+    5.37,
+    7
+   ],
+   [
+    "Neural dynamics and brain function",
+    4.98,
+    47
+   ],
+   [
+    "Transition Metal Oxide Nanomaterials",
+    4.94,
+    23
+   ],
+   [
+    "Photoreceptor and optogenetics research",
+    4.92,
+    27
+   ],
+   [
+    "Phase-change materials and chalcogenides",
+    4.48,
+    7
+   ]
+  ],
+  "self_topics": [
+   "Advanced Memory and Neural Computing",
+   "Neuroscience and Neural Engineering",
+   "Ferroelectric and Negative Capacitance Devices"
+  ]
+ },
+ {
+  "concept": "metagenomics",
+  "top_nb_W3": [
+   [
+    "Gut microbiota and health",
+    5.8,
+    34
+   ],
+   [
+    "Environmental DNA in Biodiversity Studies",
+    5.57,
+    14
+   ],
+   [
+    "Microbial Metabolic Engineering and Bioproduction",
+    4.72,
+    31
+   ],
+   [
+    "Bacteriophages and microbial interactions",
+    4.65,
+    34
+   ],
+   [
+    "Enzyme Catalysis and Immobilization",
+    4.57,
+    20
+   ],
+   [
+    "Protist diversity and phylogeny",
+    4.5,
+    10
+   ],
+   [
+    "Genetics, Bioinformatics, and Biomedical Research",
+    4.43,
+    15
+   ],
+   [
+    "Probiotics and Fermented Foods",
+    4.34,
+    19
+   ],
+   [
+    "Single-cell and spatial transcriptomics",
+    4.09,
+    2
+   ],
+   [
+    "Clostridium difficile and Clostridium perfringens research",
+    3.92,
+    6
+   ]
+  ],
+  "self_topics": [
+   "Genomics and Phylogenetic Studies",
+   "Microbial Community Ecology and Physiology"
+  ]
+ },
+ {
+  "concept": "cloud computing",
+  "top_nb_W3": [
+   [
+    "Cloud Data Security Solutions",
+    6.92,
+    32
+   ],
+   [
+    "IoT and Edge/Fog Computing",
+    6.55,
+    17
+   ],
+   [
+    "Blockchain Technology Applications and Security",
+    6.33,
+    7
+   ],
+   [
+    "Internet of Things and AI",
+    6.02,
+    3
+   ],
+   [
+    "Graph Theory and Algorithms",
+    5.1,
+    4
+   ],
+   [
+    "Big Data and Business Intelligence",
+    4.85,
+    21
+   ],
+   [
+    "Advanced Data Storage Technologies",
+    4.84,
+    20
+   ],
+   [
+    "Distributed and Parallel Computing Systems",
+    4.81,
+    44
+   ],
+   [
+    "Caching and Content Delivery",
+    4.7,
+    13
+   ],
+   [
+    "Technology in Education and Healthcare",
+    4.46,
+    5
+   ]
+  ],
+  "self_topics": [
+   "Cloud Computing and Resource Management",
+   "Cloud Computing and Remote Desktop Technologies"
+  ]
+ },
+ {
+  "concept": "single-incision laparoscopic surgery",
+  "top_nb_W3": [
+   [
+    "Intestinal Malrotation and Obstruction Disorders",
+    5.92,
+    12
+   ],
+   [
+    "Abdominal Surgery and Complications",
+    5.89,
+    13
+   ],
+   [
+    "Gastrointestinal Tumor Research and Treatment",
+    5.69,
+    19
+   ],
+   [
+    "Hernia repair and management",
+    5.68,
+    16
+   ],
+   [
+    "Appendicitis Diagnosis and Management",
+    5.55,
+    13
+   ],
+   [
+    "Surgical Simulation and Training",
+    5.48,
+    11
+   ],
+   [
+    "Colorectal Cancer Surgical Treatments",
+    5.12,
+    12
+   ],
+   [
+    "Gastrointestinal disorders and treatments",
+    5.11,
+    14
+   ],
+   [
+    "Diverticular Disease and Complications",
+    5.09,
+    7
+   ],
+   [
+    "Gynecological conditions and treatments",
+    4.87,
+    6
+   ]
+  ],
+  "self_topics": [
+   "Minimally Invasive Surgical Techniques"
+  ]
+ },
+ {
+  "concept": "ChIP-seq",
+  "top_nb_W3": [
+   [
+    "Single-cell and spatial transcriptomics",
+    6.41,
+    12
+   ],
+   [
+    "Fractal and DNA sequence analysis",
+    5.12,
+    3
+   ],
+   [
+    "Machine Learning in Bioinformatics",
+    5.09,
+    9
+   ],
+   [
+    "Chromosomal and Genetic Variations",
+    4.72,
+    9
+   ],
+   [
+    "Bioinformatics and Genomic Networks",
+    4.67,
+    9
+   ],
+   [
+    "RNA and protein synthesis mechanisms",
+    4.65,
+    20
+   ],
+   [
+    "RNA modifications and cancer",
+    4.61,
+    17
+   ],
+   [
+    "Epigenetics and DNA Methylation",
+    4.59,
+    16
+   ],
+   [
+    "Genomic variations and chromosomal abnormalities",
+    4.33,
+    5
+   ],
+   [
+    "Molecular Biology Techniques and Applications",
+    4.19,
+    7
+   ]
+  ],
+  "self_topics": [
+   "Genomics and Phylogenetic Studies",
+   "Genomics and Chromatin Dynamics",
+   "RNA Research and Splicing",
+   "Gene expression and cancer classification"
+  ]
+ },
+ {
+  "concept": "copy number variation",
+  "top_nb_W3": [
+   [
+    "Cancer Genomics and Diagnostics",
+    5.15,
+    26
+   ],
+   [
+    "Congenital heart defects research",
+    5.15,
+    26
+   ],
+   [
+    "Prenatal Screening and Diagnostics",
+    5.09,
+    33
+   ],
+   [
+    "Williams Syndrome Research",
+    4.91,
+    3
+   ],
+   [
+    "Chromatin Remodeling and Cancer",
+    4.78,
+    4
+   ],
+   [
+    "Genetic Associations and Epidemiology",
+    4.74,
+    16
+   ],
+   [
+    "Genetics and Neurodevelopmental Disorders",
+    4.63,
+    18
+   ],
+   [
+    "Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities",
+    4.39,
+    11
+   ],
+   [
+    "Gene expression and cancer classification",
+    4.21,
+    13
+   ],
+   [
+    "Congenital Ear and Nasal Anomalies",
+    4.13,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Chromosomal and Genetic Variations",
+   "Genomic variations and chromosomal abnormalities",
+   "Genomics and Rare Diseases"
+  ]
+ },
+ {
+  "concept": "interactome",
+  "top_nb_W3": [
+   [
+    "Fungal and yeast genetics research",
+    5.16,
+    11
+   ],
+   [
+    "Microbial Metabolic Engineering and Bioproduction",
+    5.04,
+    19
+   ],
+   [
+    "Biotin and Related Studies",
+    4.98,
+    5
+   ],
+   [
+    "Advanced Proteomics Techniques and Applications",
+    4.76,
+    9
+   ],
+   [
+    "Protein Structure and Dynamics",
+    4.71,
+    15
+   ],
+   [
+    "Ubiquitin and proteasome pathways",
+    4.65,
+    11
+   ],
+   [
+    "Computational Drug Discovery Methods",
+    4.52,
+    12
+   ],
+   [
+    "Protein Kinase Regulation and GTPase Signaling",
+    4.42,
+    6
+   ],
+   [
+    "Genetics, Aging, and Longevity in Model Organisms",
+    4.35,
+    4
+   ],
+   [
+    "Biomedical Text Mining and Ontologies",
+    4.27,
+    4
+   ]
+  ],
+  "self_topics": [
+   "Bioinformatics and Genomic Networks"
+  ]
+ },
+ {
+  "concept": "plug-in hybrid electric vehicle",
+  "top_nb_W3": [
+   [
+    "Transportation and Mobility Innovations",
+    5.17,
+    12
+   ],
+   [
+    "Vehicle emissions and performance",
+    5.01,
+    23
+   ],
+   [
+    "Advanced DC-DC Converters",
+    4.89,
+    9
+   ],
+   [
+    "Hybrid Renewable Energy Systems",
+    4.73,
+    6
+   ],
+   [
+    "Multilevel Inverters and Converters",
+    4.64,
+    6
+   ],
+   [
+    "Advanced Combustion Engine Technologies",
+    4.37,
+    10
+   ],
+   [
+    "Real-time simulation and control systems",
+    4.3,
+    6
+   ],
+   [
+    "Smart Grid Energy Management",
+    4.3,
+    4
+   ],
+   [
+    "Advancements in Battery Materials",
+    3.79,
+    6
+   ],
+   [
+    "Energy and Environment Impacts",
+    3.72,
+    3
+   ]
+  ],
+  "self_topics": [
+   "Advanced Battery Technologies Research",
+   "Electric Vehicles and Infrastructure",
+   "Electric and Hybrid Vehicle Technologies",
+   "Energy, Environment, and Transportation Policies"
+  ]
+ }
+]

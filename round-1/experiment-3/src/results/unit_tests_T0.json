@@ -1,0 +1,37 @@
+{
+ "rarefy": {
+  "exact": 5.237852978657329,
+  "brute_force": 5.22945,
+  "pass": true
+ },
+ "pmi_independent": {
+  "weighted_mean_pmi": 0.029929958125688945,
+  "pass": true
+ },
+ "D_z_null_calibration": {
+  "mean": -0.019452710913463952,
+  "sd": 0.9685149658833299,
+  "pass": true
+ },
+ "F_res_size_null": {
+  "mean_F_res_10x_growth_fixed_mix": -0.14009247070920228,
+  "sd": 0.4644107683943087,
+  "mean_F_res_injected_selectivity": 1.9977598165999324,
+  "pass": false
+ },
+ "spearman_brown": {
+  "expected_full_reliability": 0.6666666666666666,
+  "estimated_SB_median": 0.5965697782895327,
+  "pass": true
+ },
+ "logo_planted": {
+  "delta_rho": 0.5906593406593404,
+  "per_group": {
+   "BIO": 0.49117647058823527,
+   "CS": 0.41470588235294115,
+   "ENG": 0.6588235294117647,
+   "MED": 0.6647058823529413
+  },
+  "pass": true
+ }
+}
