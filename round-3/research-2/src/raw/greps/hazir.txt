@@ -1,0 +1,268 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://afse2017.sciencesconf.org/142849/HAZIR_BELLONE_GAGLIO.pdf
+Type: PDF
+Pattern: drop|churn|exit|neighbo|density|RCA|abandon (66 matches in 64852 chars)
+
+--- Content ---
+
+35:Local Product Space and Firm Level Churning in
+Exported Products
+Cilem Selin Hazir ∗, Flora Bellone†, Cyrielle Gaglio ‡
+GREDEG Working Paper No. 2017–02
+Abstract
+This paper explores the determinants of changes in the range of ex-
+ports at the ﬁrm level with a particular interest in the role played by
+the locality via product relatedness. ...
+--
+1285:...he region.
+Our results also suggest that once ﬁrms alter their range of exports,
+among all new products they start exporting, they enjoy greater ex-
+port revenues in those that are more related to the core capabilities of
+the locality.
+Keywords: Local Product Space, Product Relatedness, Firm Export
+Churning, France
+JEL code: L25, F14, C49
+1
+Introduction
+Recent empirical evidence point out to intense product churning at the ﬁrm
+level and its contributions to growth of aggregate output.
+Iacovone and
+Javorcik (2010) report that in Mexico, over the period 1994-2003, export
+∗Corresponding author: Universit´e Cˆote d’Azur, GREDEG, France and OFCE Sci-
+encesPo, France. Email: cilemselin@gmail.com
+†Universit´e Cˆot...
+--
+2055:...‡Universit´e Cˆote d’Azur, GREDEG, France.
+1
+
+variety creation constitutes annually on the average 19% of all varieties ex-
+ported while export variety destruction accounts for 11%. Bernard et al.
+(2010) ﬁnd for US manufacturing ﬁrms over the period 1987-1997 that the
+gross contributions of product churning within ﬁrms to aggregate manu-
+facturing output is as large as that of ﬁrm entry and exit. Such changes
+in the product scope of ﬁrms are also key to understand the dynamics of
+comparative advantage at the country level. Hanson et al. (2015) studies
+135 industries in 90 countries between 1962 and 2007 and show that 60% of
+the products that account for the top 5% of a country’s absolute-a...
+--
+2768:...ries in a given year, have not been in the top 5% two decades ear-
+lier. Hence, what determines the changes in the range of products that a
+ﬁrm exports and whether these changes have a pattern or show some path
+dependency are important issues to investigate.
+Nevertheless the determinants of product churning within ﬁrms has been
+overlooked for a long time as the theory of international trade has mainly
+developed on the simplifying assumption of mono-product ﬁrms. Both the
+traditional theory of comparative advantage and the new trade theory, which
+introduces product diﬀerentiation (Krugman, 1979; Eth...
+--
+3488:...tiglitz, where ﬁrms are intrinsically mono-product. The
+mono-product assumption underlays also seminal models in industry dynam-
+ics (Hopenhayn, 1992; Melitz, 2003) except a recent extension by Bernard
+et al. (2010). Bernard et al. (2010) provides a theoretical model, distinguish-
+ing ﬁrm entry and exit from product market entry and exit. Their model
+explains ﬁrms’ product market entry decisions by means of evolving ﬁrm
+and ﬁrm-market speciﬁc factors, namely productivity and consumer tastes.
+While this simple setting of the model enables explaining key characteristics
+of observed phenomenon, it excludes two aspects: agglomeration e...
+--
+7177:...t the ﬁrm level and by trying to elucidate the
+role played by the locality via product relatedness in those changes. We
+ﬁrst oﬀer a theoretical framework, which is suitable to capture the essence
+of the relationship between the characteristics of local product spaces and
+the dynamics of ﬁrm product churning. This theoretical framework is built
+as an an extension of the industrial dynamics model proposed by Bernard
+et al. (2010) on multiple product ﬁrms and product switching. We extend
+this model to a multi-regional setting and introduce the local dimension via
+urbanization economies common to all ﬁ...
+--
+7811:...nd
+and export externalities that ﬁrms enjoy depending on the degree that their
+products are related to the products exported by the locality.
+On the empirical side, we base our investigations on a rich data set on
+French mono-regional manufacturing ﬁrms that export both in 2002 and
+2007.
+We use the density measure proposed by Hidalgo et al. (2007) to
+quantify product relatedness and investigate two main questions. The ﬁrst
+one refers to whether ﬁrms randomly add and drop new products to their
+export portfolio or whether these choices are impacted by the structure of
+the local product space. The second investigates given that a ﬁrms starts
+3
+
+exporting new products, whether each has an equal share in terms of revenue
+generation or the structure of the local product ...
+--
+9259:...Greenaway and Kneller, 2008; Koenig, 2009;
+Koenig et al., 2010). By focusing on product relatedness, this study elab-
+orates how spillovers ocur among co-located exporters. Third, the results
+provide preliminary evidence on the microdynamics of regional comparative
+advantage. Although ﬁrm entry and exit are not addressed in this study,
+the pattern of changes in the incumbents’ product range still sheds light on
+how changes in regional comparative advantege occur.
+Finally, the rest of the paper is organized in four sections. In the next
+section, the theoretical framework will be explained and econo...
+--
+10632:...le propositions of our empirical analysis.
+2.1
+The BRS Framework
+Bernard et al. (2010) extends existing theories in industrial dynamics by
+providing a model that explains how a ﬁrm chooses in which product mar-
+kets it will operate. In former models, this question has been the same as
+ﬁrm entry and exit as these models assume a single-product ﬁrm. In the
+model developed by Bernard et al. (2010), ﬁrms choose to produce an en-
+dogenous range of products as a result of evolving ﬁrm and ﬁrm-product
+level characteristics.
+4
+
+The model assumes that ﬁrm entry entails a sunk entry cost. Once this
+cost is ...
+--
+22850:... economies, which depend on the product-space
+of the locality, leads us to introduce two shifters to equation 2.
+πk(ϕ, l, λ∗
+k(ϕ, Ωl)) = Rk(ρPkϕλ∗
+k(ϕ, Ωl)))σ−1
+σ
+−(fpk + fpl) = 0
+(2)
+From Equation 2, we can derive a number of propositions, which concern
+both the spatial determinants of ﬁrm product churning strategies and the
+relationship between those microeconomic determinants and the dynamics of
+regional (local) competitiveness. Considering ﬁrst, ﬁrm churning strategies,
+Equation 2 has direct implications on both the probability for a ﬁrm to
+switch products and on the direction of the portfolio changes. More precisely,
+it can be expected that all else equal, for a given idiosyncratic productivity,
+8
+
+a ﬁrm will be be able to produce a larger set of products in a more urbanized
+area because of the ﬁxed production cost advantages it enjoyes there. Also,
+this ﬁrm is more likely to add new products that are more related to the
+core products of the locality because of the demand complementarities that
+prevail across neighborhood ﬁrms. Finally, all else equal, this ﬁrm is more
+likely to drop a product k if this product is less congruent with the local core
+products. From these implications, we derive our ﬁrst testable proposition
+about the direction of ﬁrm product churning:
+Testable proposition 1:
+For a given idiosyncratic productivity and a
+given location, ﬁrm i is more likely to add (drop) product k to (from) its ex-
+port portfolio if product k is more (less) congruent with locality l’s product
+space.
+A second set of implications of our extended BRS framework concerns
+ﬁrm sale dynamics. Basically, as equilibrium proﬁts for related products
+are higher in our framework, those products...
+--
+26801:...tedness variable. Existing empirical studies provide statistical
+evidence on a positive relationship between relatedness and new product
+introduction (Lo Turco and Maggioni, 2014), and export performance (Pon-
+cet and Starosta de Waldemar, 2015). Hence, β2 is also expected to take
+a positive value. RCAlk is a dummy variable to control for products that
+are already exported by the region with comparative advantage and β3 is
+the related coeﬃcient. β3 is also expected to be positive as consumer tastes
+that a ﬁrm observes for a product that is already being exported by the lo-
+cality with comparative advantage would be higher. Whereas, δl stands for
+locality ﬁxed eﬀects and captures urbanization economies that are common
+to all ﬁrms in locality l regardless of what they produce. Finally, ϵik is the
+error term.
+y1a
+ik = β0+αm+β1∗Productivityi+β2∗Relatednessl
+k +β3∗RCAlk +δl +ϵik
+(3)
+Equation 4 refers to the latter part of the ﬁrst proposition, which states
+that everything else being equal ﬁrms will be more likely to drop products
+that are less congruent with the product space in their locality. Equation
+4 diﬀers from Equation 3 only in terms of the deﬁnition of the dependent
+variable. y1b
+ik is also a binary variable, but it takes a value of 1 if ﬁrm i drops
+product k at time t, where k belongs to its initial product mix m in t −5.
+y1b
+ik = θ0+αm+θ1∗Productivityi+θ2∗Relatednessl
+k+θ3∗RCAlk+δl+ϵik (4)
+We study the second proposition by means of Equation 5 below. The
+second proposition states that, once a ﬁrm diversiﬁes it grows more in the
+product-market which is more congruent with the product space in its lo-
+cality. Hence, in Equation 5 the dependent variable (y2a
+ik ) is deﬁned as the
+ratio of export revenues that ﬁrm i obtains from a new product k to its
+total export revenues from all new products. ψ0 is the constant variable.
+αm, Relatednessl
+k, and RCAlk are deﬁned same as above. ψ1, which is the
+coeﬃcient associated with Relatednessl
+k is expected to take a positive value
+since ﬁrms are more likely to enjoy high consumer tastes for products that
+are related with the core products in the locality due to demand interde-
+pendencies. This would in turn cause equilibrium proﬁts to be higher for
+such products, leading the ﬁrm to grow more in that product line as com-
+pared to other products that it introduced during the same period. In the
+same line of reasoning ψ2, which is the coeﬃcient associated with RCAlk,
+is also expected to be positive. OTHik is a variable that is introduced to
+10
+
+control for other new products of the ﬁrm for two main reasons. First, there
+is a mechanical relationship between the number of new products and the
+value of y2a
+ik on the average: the higher the former, the lower wil...
+--
+30099:..., might have been introduced at any point in the time-window
+spanning t −5 to t. The earlier the ﬁrm enters in a product-market, the
+more time it will have to develop distribution channels and penetrate in the
+market. Hence, ψ4 is expected to have a positive sign.
+y2
+ik = ψ0+αm+ψ1∗Relatednessl
+k+ψ2∗RCAlk+ψ3∗OTHik+ψ4∗Pastik+ϵik
+(5)
+3
+Data Sources, Sample Selection and Variable
+Deﬁnitions
+For the empirical analysis, we bring together information from three diﬀer-
+ent sources and build an original data set comprising French manufacturing
+exporters that can be traced both in 2002 and 2007 and the pro...
+--
+31897:...mmerce International.
+7CEPII - Centre d’Etudes Prospectives et d’Informations Internationales. Accession
+date: 01/09/2015
+11
+
+3.1
+Data Sources and Sample
+To build the sample, ﬁrst we use French Customs data to determine the set
+of exporters that we can trace both in 2002 and 2007 to study ﬁrm level
+churning in exported products. In 2002, more than 119 thousand French
+ﬁrms export and make a revenue of 3200 billion Euros. In 2007, the number
+of exporters decrease to approximately 108 thousand and export revenues
+worth 3900 billion Euros. Those ﬁrms that export both in 2002 and 2007
+are almost 60 thou...
+--
+34830:... analysis we focus on mono-regional manufacturing
+ﬁrms.
+Over the course of ﬁve years, we observe from the table that ag-
+gregate export revenues generated by these ﬁrms increase by 27%.
+This
+aggregate growth, however, is created via diﬀerent processes taking place
+within ﬁrms: revenue losses due to dropping some products from the ex-
+port basket, increase or decrease in export revenues obtained from goods
+preserved in the export basket, generation of additional export revenues by
+adding new goods to the export basket.
+Table 2: Brakedown of Mono-Regional Manufacturing Firms by Type of
+Change in the Export Basket from 2002 to 2007
+Count
+Share (%)
+Only Adding
+1,684
+12.37
+Both Adding and Dropping
+7,936
+58.27
+No Change
+1,891
+13.89
+Only Dropping
+2,108
+15.48
+TOTAL*
+13,619
+100.00
+According to Table
+2, from 2002 to 2007 only 14% of mono-regional
+manufacturing ﬁrms 8 maintain the range of products that they export as it
+is. More than half of the ﬁrms (58%) modify their export basket by adding...
+--
+[36 more matches not shown]

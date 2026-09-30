@@ -1,0 +1,189 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.dallasfed.org/-/media/documents/institute/wpapers/2014/0185.pdf
+Type: PDF
+Pattern: signal is negative|negative signal|negative growth|declin|interaction term|Table [0-9]+ shows|we find (13 matches in 116530 chars)
+
+--- Content ---
+
+1071:...h a firm updates its prior belief about demand 
+in a foreign market based on several factors, including the number of neighbors currently 
+selling there, the level and heterogeneity of their export sales, and the firm’s own prior 
+knowledge about the market. A positive signal about demand inferred from neighbors’ 
+export performance raises the firm’s probability of entry and initial sales in the market but, 
+conditional on survival, lowers its post-entry growth. These learning effects are stronger 
+when there are more neighbors to learn from or when the firm is less familiar with the 
+market. We find supporting evidence for the main predictions of the model from 
+transaction-level data for all Chinese exporters from 2000 to 2006. Our findings are robust 
+to controlling for firms’ supply shocks, countries’ demand shocks, and city-country fixed 
+effects. 
+ 
+JEL codes: F1, F2 
+ 
+*Ana Fernandes, Department of Economics, University of Exeter, Rennes Drive, Exeter EX4 4PU, UK.  
+44-0-1392-723205. a.p.o.fernandes@exeter.ac.uk. Heiwai Tang, School of Advanced International Studies, 
+Johns Hopkins University, 1717 Massachusetts Avenue NW, Suite 709, Washington, DC 20036. 202-663-
+5679.  hwtang@jhu...
+--
+7723:...in the literature on information
+and technology spillover in trade, but also on other (measurable) factors, including the number of
+neighbors currently selling there, the level and heterogeneity of their export sales, and the ﬁrm’s
+own prior knowledge about the market. More neighbors may not encourage export entries. The
+relationship depends on the strength of the signal (average neighbors’export sales or growth). An
+increased prevalence of neighboring export activities will increase the rate of exporters’entry into
+new markets when the signal is positive, whereas it will deter entry when the signal is negative.
+Our model proposes the use of an interaction between the signal and the prevalence of neighboring
+export activities, rather than the prevalence measure only, as a more direct variable to empirically
+identify information spillover in trade.
+Our model yields several predictions. It predicts that a positive signal about foreign market
+demand from neighbors induces more export entries and larger initial sales among the entrants
+in the same market. This eﬀect is stronger when the signal is more precise, due to more ﬁrms
+revealing it.
+Given the positive relationship between the strength of the sig...
+--
+20364:...to the literature,
+our work is distinct in several respects. First, we examine the eﬀects not only on entry but on
+four diﬀerent measures of export performance: entry, survival, initial sales, and export growth
+conditional on survival. Second, not only do we examine the relationship between the prevalence
+of existing market-speciﬁc export activities and new exporters’performance, we also examine the
+correlation between them, conditional on the strength of the signal. To the extent that learning
+is the main channel, the prevalence of existing exporters should matter diﬀerently for positive and
+negative signals. Third, our model shows that in the presence of ﬁrm heterogeneity and ﬁxed costs,
+ﬁrm entry and survival are related, which requires controlling for ﬁrm or ﬁrm-year ﬁxed eﬀects
+in regression analyses. Fourth, we use city boundary to deﬁne geographic units, which are much
+ﬁner than what has been commonly used in existing research on information spillover. Finally, we
+explore information spillover across destinations within ﬁrms, controlling for all ﬁrm-speciﬁc and
+market-speciﬁc shocks.
+By analyzing the impact of the geographical agglomeration of exporters on ﬁrms’export per-
+formance, our pa...
+--
+68536:...nt of 0.449 on 100 × △ln (xcmt) in column 6 suggests that the (pooled)
+sample mean export growth of neighbors exporting from city c to country m (20%) is associated
+with a 0.1 percentage-point increase in the probability of entry into the market.49 The numbers
+appear to be small, but as reported in Table 2, the median entry rate in a country (after averaging
+across city-years) is about 0.3%.50 So a 20% higher growth rate of exports to a particular country
+is associated with about a one-third increase in the export entry rate, evaluated at the median. In
+addition, the coeﬃcient of 0.052 on the interaction term, 100 × ln(ncm,t−1) × △ln (xcmt), suggests
+that an increase in neighbors’export growth equal to the sample mean (20%) is associated with
+an increase in the entry probability by 0.02 percentage points when the log density of neighbors
+revealing the signal increases by one standard-deviation (that is, 1.7, or about 5 ﬁrms).51 This
+corresponds to an increase of about 10% in the entry rate evaluated at the median entry rate in
+the sample.
+In the online appendix, we conﬁrm the robustness of the results by measuring the prevalence of
+neighbors by the (log) number of ﬁrms instead of the density (colu...
+--
+76701:... with the regressor included in the last column of Table 3. While the
+estimated coeﬃcients on the quintile interactions are positive and statistically signiﬁcant, they are
+not decreasing in quantile ranks, as is expected based on Proposition 2. Importantly, we continue
+to ﬁnd a positive and signiﬁcant eﬀect of the density of neighbors on the entry learning eﬀects,
+consistent with our ﬁndings in Table 3.
+In column 3, we explore the diﬀerential learning eﬀects across destination markets, based on
+their distance from China. From the speciﬁcation in column 5 of Table 3, we additionally include
+an interaction term between the (log) distance of country m from China and the signal measure.
+We ﬁnd a positive and marginally signiﬁcant (at the 10% level) coeﬃcient on the interaction
+term, lending some support to Proposition 2, which predicts that learning is stronger for markets
+which ﬁrms are less familiar with. In column 4, we explore the potential non-linear relationship
+between distance from China and learning, by including interactions between quintile dummies of
+the distance and the signal. The coeﬃcients on all interaction terms are positive and signiﬁcant,
+with the smallest coeﬃcient found on the ﬁrst quintile interaction and the highest found on the
+fourth one.
+Though the coeﬃcient on the interaction term is not monotonically increasing in
+quintile rank, the average of the coeﬃcients on the fourth and ﬁfth quintile interactions is larger
+than the average of the ﬁrst three. The diﬀerence is also statistically signiﬁcant.
+We then investigate whether a ﬁrm’s previously served markets can aﬀect a new exporter’s prior
+and shape its entry patterns. We use the extended gravity measures explained above to capture
+market similarity. As reported in Table 6, when we use common oﬃcial language to group countries
+(column 1), we ﬁnd supporting evidence that new exporters have less to learn from neighbors
+ab...
+--
+78683:...served markets. The coeﬃcient on the
+56Note that for the extended gravity measures, vicmt = 1 if ﬁrm i has served a country in year t −1 that is close
+(in terms of one of the two criteria) to new market m in year t, and vicmt = 0 otherwise.
+57We use the city-market sample rather than the ﬁrm sample to assign observations to quantiles.
+24
+
+interaction between the signal and the indicator for whether the new market shares a common
+language with any of the ﬁrms’ existing markets is negative and signiﬁcant. When we use the
+“common border” criteria to deﬁne country similarity, the coeﬃcient on the interaction term is
+positive but insigniﬁcant (column 2). Column 3 includes simultaneously interactions between the
+signal and both the indicators for common language and common border. The interaction term
+remains negative and signiﬁcant for language and insigniﬁcant for common boarder. In sum, results
+from two of the three sets of regressions in Tables 4 and 6 support Proposition 2.
+5.2
+Entrants’Initial Sales
+Next, we study the eﬀects of learning from neighbors on exporters’initial sales in a new market.
+Proposition 3 states that new exporters’initial exports are increasing in the strength of the signal,
+more so if it is revealed by more neighbors. To examine this proposition, we estimate eq. (12) but
+with the entry dummy replaced by the (log) ﬁrm i’s initial exports to market m from city c in...
+--
+81667:...% initial exports in the same market.60
+The ﬁndings in this section are consistent with Proposition 3 and also existing studies that
+investigate why exporters tend to start small when exporting to a new market (Rauch and Watson,
+2004; Albornoz et al., 2012). Our results suggest that neighboring market-speciﬁc export activities
+reveal information about foreign demand, encouraging ﬁrms to enter a new market with a larger
+order.
+58Results remain robust when we measure the prevalence of neighbors by the log of their raw number (see columns
+3 and 4 of Table A4). In particular, the coeﬃcient on the interaction term between the signal and the ln(number) of
+neighbors is positive and statistically signiﬁcant.
+590.165 × 0.20 × 100.
+600.016 × 0.20 × 1.7 × 100
+25
+
+5.3
+Survival
+Proposition 4 predicts that conditional on entry, a new exporter’s survival rate is increasing in the
+strength of the signal revealed by neighbors’export activities, but is independent of the number
+of neighbors. The reason is that while the number of neighbors aﬀects the number of entrants by
+changing the entry threshold, conditional on entry, any ex ante information was already taken into
+account by the entrant at the time of entry an...
+--
+83057:..., xicm,t+1 > 0
+0 if xicm,t−1 = 0, xicm,t > 0, xicm,t+1 = 0
+,
+(14)
+That is, Survivalicmt equals 1 if the ﬁrm was not exporting to market m in year t −1, but
+starts exporting in year t and continues in t + 1. If the ﬁrm exports in year t but not in t + 1,
+Survivalicmt = 0. In the literature, Survivalicmt = 1 corresponds to successful export entrants,
+while Survivalicmt = 0 are referred to as one-time or occasional exporters. We examine Proposition
+3 by estimating eq. (12), but with the entry dummy replaced by Survivalicm,t as the dependent
+variable. We use the same baseline proxy for signal and interaction terms as above. The results are
+reported in Table 8. According to Proposition 4, there should be no relation between the number of
+neighbors and the exit rate. However, the strength of the signal aﬀects entry and thus the sample
+of new exporters. Thus, our model highlights the importance of controlling for ﬁrm ﬁxed eﬀects
+to account for the potential selection bias. For comparison, we continue to use speciﬁcations with
+diﬀerent combinations of ﬁxed eﬀects as above.
+Columns 1 and 2 of Table 8 control for city-country and country-year ﬁxed eﬀects, while columns
+3 and 4 control for city-year and city...
+--
+86468:...igniﬁcant
+coeﬃcients on the three regressors of interest: the density of existing exporters serving a market
+from the city, ln(ncm,t−1); the strength of the signal, △ln (xcmt); and the interaction between those
+two variables.61
+This suggests that export growth after entry in a market is decreasing in the
+performance of existing exporters serving that market from the same city, and more so with a
+higher density of neighbors. These results lend support to Proposition 5. In particular, in column
+6 where we control for ﬁrm-year and city-country ﬁxed eﬀects, we obtain an estimated coeﬃcient
+on the interaction term of -0.024. This suggests that in city-markets with an average growth of
+neighbors’ exports (20%), a one standard-deviation increase in the density of neighbors lowers
+post-entry export growth of a new exporter in the same market by about 1 percentage point.
+5.5
+Robustness Checks
+We also perform several robustness checks for the analyses conducted so far. First, in addition to
+city-country and ﬁrm-year ﬁxed eﬀects, we include country-year ﬁxed eﬀects in our regressions to
+make sure that new exporters’dynamics are not driven by country demand shocks, in addition to
+ﬁrm supply shocks and city-co...
+--
+88045:...rocessing export sector in terms of the number of exporting ﬁrms and export value. The results
+for entry and initial sales, as reported in the ﬁrst two columns of Table A7 in the online appendix,
+show that the coeﬃcients on both the stand-alone signal term and its interaction with the density
+of neighbors remain positive and statistically signiﬁcant at the 1% level. The regression results for
+post-entry growth (column 4) also remain largely robust, with negative and signiﬁcant coeﬃcients
+obtained on both terms. In the survival speciﬁcation (column 3), we obtain positive coeﬃcients on
+both the interaction term and the stand-alone term for the signal, although insigniﬁcant.
+61In column (6), when we add the controls for spillover eﬀects from ﬁrms serving markets other than the one the
+ﬁrm entered, the coeﬃcient on the stand-alone density term loses signiﬁcance.
+27
+
+Another robustness check we conduct is to investigate whether new exporters learn from neigh-
+bors located only in the same city or farther away as well. As reported in Table A8 in the online
+appendix, we continue to ﬁnd that the entry probability and initial sales in a market increase in the
+average performance of neighboring exporters in...

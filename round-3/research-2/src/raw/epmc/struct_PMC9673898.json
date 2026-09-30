@@ -1,0 +1,42 @@
+{
+ "PMC9673898": {
+  "pmcid": "PMC9673898",
+  "title": "Author multidisciplinarity and disciplinary roles in field of study networks",
+  "abstract_words": 214,
+  "abstract_structured": true,
+  "keywords": [],
+  "body_sections": [
+   "Introduction",
+   "Related work",
+   "Methods",
+   "Case studies",
+   "Conclusions",
+   "Acknowledgements",
+   "Author contributions",
+   "Funding",
+   "Availability of data and materials",
+   "Declarations",
+   "Footnotes",
+   "References",
+   "Associated Data"
+  ],
+  "back_sections": [],
+  "body_words": 6585,
+  "figures": 7,
+  "tables": 4,
+  "references": 29,
+  "fig_captions": [
+   "The formation of a static Field of Study (FoS) network involving two steps: a creation of a heterogenous network of papers, authors and fields; b projection to an undirected network of fields, preserving field-paper-author-paper-field meta-paths",
+   "Illustrative example of a temporal Field of Study (FoS) network, involving two steps: a creation of a heterogeneous network of authors and fields; b projection to a directed network of fields",
+   "FoS Network for research published in related to the journal “Applied Network Science” during 2016–2019. Node size encodes the number of papers attributed to a field of study. In (b) nodes are coloured to represent the parent discipline of the field of study. Edges are coloured to show the parent discipline if the edge is within a discipline/community. Edges between communities are not coloured"
+  ],
+  "declarations": [
+   "Author contributionsEC proposed the methods, implemented the code, and performed the experiments. EC, DG and BS wrote, read, and approved the manuscript.",
+   "FundingThis research was supported by Science Foundation Ireland (SFI) under Grant Number SFI/12/RC/2289_P2.",
+   "Availability of data and materialsAn archive of the relevant metadata for both case studies will be made available online before any final publication.",
+   "DeclarationsEthics approval and consent to participateNot applicable.Consent for publicationNot applicable.Competing interestsThe authors declare that they have no competing interests.",
+   "Competing interestsThe authors declare that they have no competing interests.",
+   "Data Availability StatementAn archive of the relevant metadata for both case studies will be made available online before any final publication."
+  ]
+ }
+}

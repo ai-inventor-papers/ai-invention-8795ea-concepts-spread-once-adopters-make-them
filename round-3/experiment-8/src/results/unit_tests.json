@@ -1,0 +1,38 @@
+{
+ "1_states": {
+  "pass": true,
+  "detail": null
+ },
+ "2_frontier": {
+  "pass": true,
+  "detail": null
+ },
+ "3_psp": {
+  "pass": true,
+  "detail": [
+   -0.0003261731484532046
+  ]
+ },
+ "4_dauc": {
+  "pass": true,
+  "detail": [
+   0.02345800616222493,
+   -0.0003082039952438387
+  ]
+ },
+ "5_dl_bcg": {
+  "pass": true,
+  "detail": [
+   0.3087602628623764,
+   -0.714117222073227
+  ]
+ },
+ "6_seal_gate": {
+  "pass": true,
+  "detail": null
+ },
+ "7_o5_rule": {
+  "pass": true,
+  "detail": null
+ }
+}

@@ -1,0 +1,388 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2205.02942
+Type: PDF
+Pattern: binary|RCA|continuous|density|exit|decline|lagged|persisten (194 matches in 131222 chars)
+
+--- Content ---
+
+227:Evaluating the principle of relatedness: Estimation,
+drivers and implications for policy
+Yang Li1,* and Frank Neﬀke2,1,**
+1Center for International Development, Harvard University - 79 JFK street, 02138 Cambridge MA, USA
+2Complexity Science Hub Vienna - Josefstädter Straße 39, 1080 Vienna, Austria
+*Yang_Li@hks.harvard.edu
+**Frank_Neffke@hks.harvard.edu
+March 30, 2023
+Abstract
+A growing body of research documents that the size and growth of an industry in a place
+depends on how much related activity is found there. This fact i...
+--
+5280:...it in the U.S., Manchester in the U.K. and the
+Ruhr area in Germany. The lack of renewal in such regions would later give rise to an extensive
+literature on path dependence and regional lock-in (e.g. Grabher, 1993; Martin and Sunley, 2006).
+An important conclusion of this research is that, to avoid decline, the successful regions of past
+epochs need to diversify into new activities. However, such new growth paths do not arise out of
+thin air. Instead, as Jacobs put it, cities grow by “adding new work to old” (Jacobs, 1969): new
+economic activities are often related to what a city already knows how to...
+--
+20189:...hat industries that coincide
+in establishments by construction also do so in ﬁrms.
+6
+
+Once we have picked a type of productive unit, we need to construct three interrelated quantities.
+The prevalence of an economic activity (step 1 of Fig. 1), the relatedness of pairs of industries (step
+2) and the density of related activity around an industry in a local economy (step 3). To facilitate
+calculations, we collect our data into matrices at the bottom of Fig. 1.
+Prevalence, 𝜈𝑖𝑢, expresses how strongly represented an industry 𝑖is in productive unit 𝑢. The
+simplest way to capture this is by the amount of employment unit 𝑢has in industry 𝑖. A more
+commonly used metric is the unit’s revealed comparative advantage (RCA) in the industry (e.g.
+Hidalgo et al., 2007). In appendix B, we list a number of plausible alternatives that mainly diﬀer in
+the benchmark against which they assess how large an industry’s presence in a productive unit is.
+When it comes to measuring relatedness between industries, our grid relies o...
+--
+22459:...ies
+co-occur in the same productive units. These counts are typically normalized to account for how
+often we would expect the industries to co-occur merely by chance. We explore several metrics
+that diﬀer mainly in these normalizations: correlations, cosine distances, conditional probabilities,
+and RCA-like transformations. We explain the diﬀerences and similarities between these methods
+from a mathematical and conceptual point of view in Appendix B.2. In addition, we distinguish
+between approaches that use continuous prevalence information and those that binarize prevalence
+information.
+The latter consider that an industry is present in a productive unit whenever its
+prevalence exceeds some threshold value.
+Furthermore, some authors (e.g., Muneepeerakul et al., 2013) have argued that positive relat-
+edness (ind...
+--
+23512:...versions in which all negative elements are set to zero.
+Finally, in step 3, we need to assess not just the relatedness between two industries, but also
+how related an industry is to a city’s entire portfolio of industries. To do so, we use a measure that
+Hidalgo et al. (2007) dubbed an industry’s “density” in the city. The density of industry 𝑖in city 𝑟,
+𝑑𝑖𝑟, is deﬁned as the average prevalence of all other industries, 𝑗, in 𝑟, weighted by their relatedness
+to 𝑖:
+7Neﬀke and Henning (2013) distinguish between resource-based and outcome-based relatedness measures.
+Resource-based measures deﬁne relatedness as the extent to whic...
+--
+24192:...ts.
+Examples are relatedness measures based on input-output tables (e.g., Fan and Lang, 2000), occupational employment
+vectors (e.g., Farjoun, 1994) or labor ﬂows (Neﬀke and Henning, 2013).
+7
+
+Step 1: Prevalence -
+Size in productive unit
+Overrepresentation
+Random
+Regression
+OLS
+Fixed eﬀects
+Poisson
+RCA
+RCA*
+PMI
+level
+log(level+1)
+Step 2: Relatedness - 
+Binarize?
+Continuous
+Correlation 
+Cosine
+no
+yes
+Step 3: Density - 
+Positive only?
+νiu
+φij
+
+k
+φij
+
+k φik νir
+Size of city
+Overrepresentation
+Random
+Regression
+OLS
+Fixed eﬀects
+Poisson
+RCA
+RCA*
+PMI
+level
+log(level+1)
+Binarize?
+Nearest neighbors?
+{0, 50, 100, 200, 300, 
+}
+all
+V =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ν11
+· · ·
+ν1Ni
+νNu1
+· · ·
+νNuNi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+industries
+productive units
+Φ =
+
+
+
+
+
+
+0
+φ12 · · · φ1Ni
+φ21
+φNi1
+φNiNi
+
+
+
+
+
+
+· · ·
+
+
+
+
+
+
+industries
+industries
+industries
+cities
+D = ˜ΦV =
+
+
+
+
+
+
+
+
+
+d11
+· · ·
+d1Ni
+dNr1
+· · ·
+dNrNi
+
+
+
+
+
+
+
+
+
+
+
+
+
+κ ∈{0.0, 0.1, ..., 1.0}
+Binarized
+Cond. prob. 
+RCA 
+Correlation 
+Cosine
+Figure 1: Constructing the speciﬁcation grid.
+8
+
+𝑑𝑖𝑟=
+∑︁
+𝑗≠𝑖∈𝐽𝑖
+𝜙𝑖𝑗
+Í
+𝑘≠𝑖∈𝐽𝑖
+𝜙𝑖𝑘
+𝜈𝑗𝑟.
+(1)
+where 𝐽𝑖is the set of 𝑘most closely related “neighboring” industries to industry 𝑖, 𝜙𝑖𝑗the relatedness
+between industry 𝑖and 𝑗and 𝜈𝑗𝑟industry 𝑗’s prevalence in city 𝑟.8 Once again, we can either use
+continuous prevalence information as weights or binary information on whether or not an industry
+is present in a city.
+This procedure leads to various ways to quantify prevalence, relatedness and density. Combining
+all alternatives of each step in Fig. 1, we arrive at 32,480 diﬀerent speciﬁcations.
+3.2
+Estimation
+To evaluate each speciﬁcation, we study its performance in two prediction tasks: out-of-sample
+prediction of employment levels and out-of-sample prediction of employment growth. For the ﬁrst
+task, we estimate the following regression model:
+log 𝐸𝑖𝑟𝑡= 𝛿𝑑𝑖𝑟𝑡+ 𝛽1 log 𝐸𝑖𝑡+ 𝛽2 log 𝐸𝑟𝑡+ 𝜖𝑖𝑟𝑡,
+(2)
+where 𝑑𝑖𝑟𝑡represents the density of industry 𝑖in city 𝑟at time 𝑡,9 𝐸𝑖𝑟𝑡the employment of industry
+𝑖in city 𝑟at time 𝑡, 𝐸𝑖𝑡the employment in industry 𝑖at time 𝑡and 𝐸𝑟𝑡the employment in city 𝑟at
+time 𝑡. 𝜖𝑖𝑟𝑡is a residual.
+For the second task, we estimate the following growth model:
+Δ log 𝐸𝑖𝑟𝑡= 𝛾log 𝐸𝑖𝑟𝑡+ 𝛿𝑑𝑖𝑟𝑡+ 𝛽1 log 𝐸𝑖𝑡+ 𝛽2 log 𝐸𝑟...
+--
+26528:...h is measured and 𝛾captures mean reversion ef-
+fects.10
+Accounting for the latter is crucial, because 𝐸𝑖𝑟𝑡and 𝑑𝑖𝑟𝑡are typically strongly and
+positively correlated. Therefore, failing to account for (negative) mean reversion eﬀects will lead
+to an underestimation of the (typically positive) eﬀect of density.11 Note that we only evaluate
+performance for growth at the intensive margin. That is, we only look at growth rates for local
+industries that exist in both 2011 and 2019. This simpliﬁes the analysis because it avoids values of
+log(0) in the dependent variable and mean reversion term.
+8If density is used to predict employment levels, the contribution of the industry itself to the sum in eq. (1) would
+render the regression analysis of section 3.2 circular. When instead predicting growth, we will capture the industry’s
+own contribution by adding a mean-reversion term. Therefore, we exclude industry 𝑖from its own neighborhood in eq.
+(1).
+9Because 𝑑𝑖𝑟𝑡can have a highly skewed distribution, we log-transform density in speciﬁcations where an industry’s
+prevalence in a city is based on RCAs or on raw employment counts.
+10These eﬀects – which quantify the inﬂuence of the size of an industry in the base year – have sometimes been
+interpreted as local competition eﬀects (e.g.
+Delgado et al., 2014). However, negative mean reversion eﬀects also
+arise as statistical artefacts if 𝐸𝑖𝑟𝑡is mea...
+--
+28268:...egion dummies. Note, however, that both sets of control
+variables assume information that is not available in a forecasting exercise: radial growth explicitly assumes that
+aggregate future growth rates are available and region and industry ﬁxed eﬀects make the same assumption implicitly.
+9
+
+R
+2 w/o density term
+0
+50
+100
+150
+200
+250
+.6
+.65
+.7
+.75
+Out-of-sample R
+2
+candidate specifications
+benchmark
+Employment levels
+R
+2 w/o density term
+0
+200
+400
+600
+800
+1000
+.055
+.06
+.065
+.07
+Out-of-sample R
+2
+candidate specifications
+benchmark
+Employment growth
+Figure 2: Kernel density plots of out-of-sample 𝑅2.
+Left: prediction of employment levels; right: prediction of employment growth. Vertical gray lines: 𝑅2 of
+speciﬁcations of eqs (2) and (3) without density (𝑑𝑖𝑟𝑡) term. Candidate speciﬁcations shows the distribution
+of the 𝑅2 in the speciﬁcation grid. Benchmark shows the distribution for runs in which density terms are
+based on random proximity matrices.
+To evaluate the models of eqs (2) and (3), we ﬁrst divide the dataset into a train and a test
+sample. The train sample is used to construct density and control variables, as well as to ﬁt the
+model’s parameters. To make it computational feasible to run millions of regression analyses, we
+ﬁt these models using Ordinary Least Squares (OLS). Next, predictive performance is evaluated
+on the test sample. We repeat this procedure 100 times to arrive at an average model ﬁt for each
+candidate speciﬁcation, expressed as the model’s out-of-sample 𝑅2, as well as conﬁdence bands
+around this average. Finally, as a benchmark, we estimate models without density terms and with
+density terms that are based on (symmetric) relatedness matrices whose elements are drawn at
+random from a uniform distribution.
+4
+Results
+4.1
+Grid search
+Fig. 2 shows distributions of model performanceacross speciﬁcations. The benchmark speciﬁcation
+without density term is marked by vertical lines and dashed curves show benchmark performance
+distributions for speciﬁcations with random relatedness matrices.
+The majority of speciﬁcations corroborate the principle of relatedness: 88% of candidate
+speciﬁcations outperform the median random benchmark in predicting employment levels and 78%
+10
+
+prediction task
+baseline
+log(emp.)
+Δ log(emp.)
+Relatedness
+entity
+City
+City
+n.a.
+prevalence
+resid. (OLS)
+RCA
+n.a.
+binarized
+no
+yes
+n.a.
+metric
+cosine dist.
+RCA*
+n.a.
+𝜅
+n.a.
+n.a.
+n.a.
+truncation
+yes
+yes
+n.a.
+Density
+prevalence
+resid. (OLS)
+RCA
+n.a.
+binarized
+yes
+yes
+n.a.
+# neighbors
+300
+100
+n.a.
+Out-of-sample 𝑅2
+log(emp.)
+0.770
+0.710
+0.666
+Δ log(emp.)
+0.063
+0.076
+0.060
+Table 2: Top speciﬁcations.
+Speciﬁcations with the highest out-of-sample 𝑅2 for employment levels (ﬁrst column), for employment
+growth regressi...
+--
+[159 more matches not shown]

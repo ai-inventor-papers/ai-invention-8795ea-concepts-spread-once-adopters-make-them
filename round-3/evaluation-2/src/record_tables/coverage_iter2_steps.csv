@@ -1,0 +1,13 @@
+step,status_after_iteration_2,artifact
+RQ1: candidate indicator screen (dev),Done (iteration 1); gateway family re-tested at scale,art_wxWssKSUR45f
+RQ1: holdout evaluation,"Done for gateway (H1 DISCONFIRMED; H3 small, CI includes 0)",art_wxWssKSUR45f
+RQ1: top-10 on holdout,Not started (co-occurrence indicators not rescored on the S1 frame),-
+RQ1: external ground truth (O5),Built (art_O7Dq4L02QnDN); validated in iteration 3 (this artifact),art_O7Dq4L02QnDN
+RQ1: exploratory AI first stage,Not started,-
+RQ2: diffusion trajectories,Done (DTW k=2; HMM ARI 0.09 = robustness failure),art_N-mpomDZZ1ln
+RQ2: field entry conditional logit,Done on held-out (H2 CONFIRMED on the 653-newborn frame only),art_N-mpomDZZ1ln
+RQ2: ordering,"MIXED (sign rule passes; lead-lag negative, pre-trend, dev reverse significant)",art_N-mpomDZZ1ln
+Grounding benchmark,"Done (390 pairs, 60 hand-checked; kappa 0.20)",art_wxWssKSUR45f
+Explain why strongest indicator works,Not started,-
+Case studies,"Figures exist (Exp6 case field-flow plots), not written up",art_N-mpomDZZ1ln
+Optional learned model,Not started,-
