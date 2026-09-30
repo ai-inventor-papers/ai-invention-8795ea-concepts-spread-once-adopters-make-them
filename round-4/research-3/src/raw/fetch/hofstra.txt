@@ -1,0 +1,59 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.pnas.org/doi/10.1073/pnas.1915378117
+Type: HTML
+Pattern: taken up|uptake|distal|novelty (158 matches in 88944 chars)
+
+--- Content ---
+
+6116:...s.1915378117)[ __Add to Reading List](/personalize/addFavoritePublication?doi=10.1073%2Fpnas.1915378117)
+
+__
+
+[__PDF](https://www.pnas.org/doi/epdf/10.1073/pnas.1915378117)
+
+ __Contents
+
+[ Vol. 117 | No. 17](/toc/pnas/117/17 "View Table of Contents")
+
+  * Significance
+  * Abstract
+  * Innovation as Novelty and Impactful Novelty in Text
+  * Results
+  * Discussion
+  * Materials and Methods
+  * Acknowledgments
+  * Supporting Information
+  * References
+
+
+
+  *  __Information & Authors
+  *  __Metrics & Citations
+  *  __View Options
+  *  __References
+  *  __Figures
+  *  __Tables
+  *  __Media
+  *  __Share
+
+
+
+## Significance
+
+By a...
+--
+7628:...swer a series of questions: How do we detect scientific innovations? Are underrepresented groups more likely to generate scientific innovations? And are the innovations of underrepresented groups adopted and rewarded? Our analyses show that underrepresented groups produce higher rates of scientific novelty. However, their novel contributions are devalued and discounted: For example, novel contributions by gender and racial minorities are taken up by other scholars at lower rates than novel contributions by gender and racial majorities, and equally impactful contributions of gender and racial minorities are less likely to result in successful scientific careers than for majority groups. These results suggest there may be unwarranted reproduc...
+--
+10528:...count of science using a near-complete population of US doctorate recipients (∼1.2 million) where we identify scientific innovations (14–19) and analyze the rates at which different demographic groups relate scientific concepts in novel ways, the extent to which those novel conceptual relations get taken up by other scholars, how “distal” those linkages are (14), and the subsequent returns they have to scientific careers. Our analyses use observations spanning three decades, all scientific disciplines, and all US doctorate-awarding institutions. Through them we are able 1) to compare minority scholars’ rates of scientific novelty vis-à-vis majority scholars and then ascertain whether and why their novel conceptualizations 2) are taken up by others and, in turn, 3) facilitate a successful research career.
+
+## Innovation as Novelty and Impactful Novelty in Text
+
+Our dataset stems from ProQuest dissertations (20), which includes records of nearly all US PhD theses and their metadata from 1977 to 2015: student names, advisors, institutions, thesis titles, abstracts, disciplines, etc. These structural and semantic footprints enable us to consider stu...
+--
+13455:...tary-materials)) (24). Next, we filter and identify when pairs of meaningful concepts are first related to one another in a thesis. By summing the number of novel conceptual co-occurrences within each thesis, we develop a measure of how conceptually novel a thesis and author are (# new links)—their novelty. However, not all novel conceptual linkages are taken up in ensuing works and have the same impact on scholarship. To capture impactful novelty, we measure how often a thesis’s new conceptual linkages are adopted in ensuing documents of each year (uptake per new link) (Fig. 1).
+
+Fig. 1.
+
+The introduction of innovations and their subsequent uptake. (_A_ –...
+--
+[146 more matches not shown]

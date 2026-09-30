@@ -1,0 +1,27 @@
+{
+ "T1": {
+  "controls": {
+   "cells": 3295,
+   "exact_share": 1.0,
+   "median_rel_diff": 0.0,
+   "max_abs_diff": 0,
+   "pass": true
+  },
+  "candidates": {
+   "cells": 10461,
+   "exact_share": 1.0,
+   "median_rel_diff": 0.0,
+   "max_abs_diff": 0,
+   "pass": true
+  },
+  "controls_full_cells_exact_share": 1.0
+ },
+ "T2": {
+  "equal": true,
+  "max_abs_diff": 0
+ },
+ "T3": {
+  "equal_1995_2022": true,
+  "max_abs_diff": 0
+ }
+}

@@ -1,0 +1,59 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nature.com/articles/s41467-023-36741-4
+Type: HTML
+Pattern: distant|outsiders|surpris.{0,80}(impact|cit)|audience|other fields (40 matches in 134915 chars)
+
+--- Content ---
+
+1302:...journal
+  * Publish with us
+
+
+  * [ Sign up for alerts ](https://journal-alerts.springernature.com/subscribe?journal_id=41467)
+  * [ RSS feed ](https://www.nature.com/ncomms.rss)
+
+
+
+  1. [nature](/)
+  2. [nature communications](/ncomms)
+  3. [articles](/ncomms/articles?type=article)
+  4. article
+
+
+
+Surprising combinations of research contents and contexts are related to impact and emerge with scientific outsiders from distant disciplines 
+
+[ Download PDF ](/articles/s41467-023-36741-4.pdf)
+
+[ Download PDF ](/articles/s41467-023-36741-4.pdf)
+
+  * Article
+  * [Open access](https://www.springernature.com/gp/open-science/about/the-fundamentals-of-open-access-and-open-research)
+  * Published: 24 March 2023
+
+
+
+# Surprising combinations of research contents and contexts are related to impact and emerge with scientific outsiders from distant disciplines
+
+  * Feng Shi [ORCID: orcid.org/0000-0001-5369-6695](https://orcid.org/0000-0001-5369-6695)1,2 &
+  * James Evans [ORCID: orcid.org/0000-0001-9838-0707](https://orcid.org/0000-0001-9838-0707)2,3,4
+
+
+
+[_Nature Communications_](/ncomms) **volume 14**, Article number: 1641 (2023) Cite this ...
+--
+3288:... that surprise in terms of unexpected combinations of contents and contexts predicts outsized impact (within the top 10% of citations). These surprising advances emerge across, rather than within researchers or teams—most commonly when scientists from one field publish problem-solving results to an audience from a distant field. Our approach characterizes the frontier of science and technology as a complex hypergraph drawn from high-dimensional embeddings of research contents and contexts, and offers a measure of path-breaking surprise in science and technology.
+
+### Similar content being viewed by others
+
+###  [Pap...
+--
+5318:...cience of Reasoning: Phaneroscopy, Semeiotic, Logic. \(Peter Lang Edition, 2015\)."). Surprise stimulates scientists to forge new claims that make the surprising unsurprising. Here we empirically demonstrate across the life sciences, physical sciences, and patented invention that, following Peirce, surprising discoveries and inventions are predictors of outsized impact. But it is unclear where new hypotheses come from. One account is serendipity or making the most of surprising encounters[2](/articles/s41467-023-36741-4#ref-CR2 "Merton, R. K. & Barber, E. The Travels and Adventures of Serenpidity \(Princeton University Press, 2004\)."),[3](/articles/s41467-023-36...
+--
+6451:...ntext to be surprised at anomalies, but enough outside that context to imagine why they should not be surprising. Here we show how surprising successes systematically emerge across, rather than within researchers; most commonly when those in one field surprisingly publish problem-solving results to audiences in a distant other.
+
+We frame surprise in science and technology as the violation of expectations held by those within a scientific field about future advance[5](/articles/s41467-023-36741-4#ref-CR5 "Kuhn, T. S. The Structure of Scientific Revolutions. Original edition \(University of Chicago press, 1962\)."). ...
+--
+12193:...lates a simple cognitive process: Scientists and inventors combine things together that are (1) scientifically or technologically close and (2) cognitively salient. While formally simple, this model is more effective than those from the literature and even advanced deep learning models in capturing surprise and impact (see SI for detailed comparisons). Following from this design, we model the likelihood that contents or contexts become combined in the future as a function of (1) their proximity in a latent embedding space derived from the complex network structure of prior relationship among contents and context...
+--
+[28 more matches not shown]

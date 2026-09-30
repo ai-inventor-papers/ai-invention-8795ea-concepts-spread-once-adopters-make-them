@@ -1,0 +1,6 @@
+02:29:27|INFO   |works loaded for 12499 concepts
+./s2_open.py:242: RuntimeWarning: Mean of empty slice
+  o = np.where(n >= 4, np.nanmean(np.where(np.isfinite(Z), Z, np.nan), axis=1), np.nan)
+02:30:01|INFO   |OPEN coverage: all 0.995, home 0.847, size 0.947
+02:30:01|INFO   |OPEN Spearman between builds: {'all~home': (0.571142366173651, 10566), 'all~size': (0.7317374189930094, 11816), 'home~size': (0.616323716718129, 10562)}
+S2DONE
