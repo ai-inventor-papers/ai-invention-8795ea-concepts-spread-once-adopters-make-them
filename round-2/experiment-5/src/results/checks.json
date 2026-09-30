@@ -1,0 +1,97 @@
+{
+ "T1_matcher_regression": {
+  "files": [
+   1407,
+   1125,
+   1918
+  ],
+  "n_old": 900,
+  "n_new": 855,
+  "n_both": 855,
+  "recall_vs_old": 0.95,
+  "precision_vs_old": 1.0,
+  "exact_set_equality": false,
+  "only_old_examples": [
+   [
+    1918,
+    2073,
+    44
+   ],
+   [
+    1918,
+    5247,
+    8
+   ],
+   [
+    1918,
+    13370,
+    8
+   ],
+   [
+    1918,
+    14955,
+    28
+   ],
+   [
+    1918,
+    23416,
+    57
+   ],
+   [
+    1918,
+    23600,
+    57
+   ],
+   [
+    1918,
+    25741,
+    23
+   ],
+   [
+    1918,
+    27629,
+    28
+   ],
+   [
+    1918,
+    32878,
+    28
+   ],
+   [
+    1918,
+    33642,
+    8
+   ]
+  ],
+  "only_new_examples": [],
+  "note": "new = surface Aho-Corasick (last-token s/es/ies variants) + stemmed verification; old = stemmed positional matcher on every title. Differences are stem-only inflections of non-final tokens."
+ },
+ "T3_p78_agreement": {
+  "n_p78_in_lexicon": 55,
+  "n_p78_in_frame": 48,
+  "median_rho_match_all": 0.9990113692535837,
+  "median_rho_grounded_all": 0.9920983318700615,
+  "median_rho_match_frame": 0.9991379023041315,
+  "share_abs_dt0_le1_all": 0.5272727272727272,
+  "share_abs_dt0_le1_frame": 0.5416666666666666,
+  "base_total_ratio_vs_iter1_min_max": [
+   1.0,
+   1.0
+  ],
+  "note": "iteration-1 counts are ungrounded stemmed title matches of P78 phrases (+aliases); t0_iter1_api is the S0 API onset (title_and_abstract search)"
+ },
+ "iteration1_replication": {
+  "n_episodes": 85,
+  "n_concepts": 39,
+  "auc_base": 0.85,
+  "auc_gateway": 0.8726666666666666,
+  "dauc_in_sample": 0.022666666666666613,
+  "ci95": [
+   -0.004082472495170955,
+   0.06833495670995672
+  ],
+  "iteration1_value": 0.103,
+  "same_sign_as_iteration1": true,
+  "note": "in-sample concept-clustered bootstrap, as in art_33 (80 rows, 28 concepts)"
+ }
+}

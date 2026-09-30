@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "method_name": "Gateway-weighted relatedness to retaining fields (H2 next-field entry) + rescue, relay, trajectories",
+    "baselines": "M0 = relatedness-to-home + log field size + Hidalgo relatedness density + target field's own gateway centrality",
+    "frame": {
+      "n_candidates": 653,
+      "drops": {
+        "no_onset_after_grounding": 0,
+        "precision_below_gate": 0,
+        "n_early_lt30": 0,
+        "no_labelled": 0
+      },
+      "n_frame": 653,
+      "n_newborn": 653,
+      "by_split": {
+        "dev": 279,
+        "heldout_cohort": 248,
+        "heldout_field": 126
+      },
+      "by_split_newborn": {
+        "dev": 279,
+        "heldout_cohort": 248,
+        "heldout_field": 126
+      },
+      "by_group_newborn": {
+        "dev|DEV_BGM": 27,
+        "dev|DEV_CS": 22,
+        "dev|DEV_Eng": 59,
+        "dev|DEV_Med": 171,
+        "heldout_cohort|DEV_BGM": 13,
+        "heldout_cohort|DEV_CS": 18,
+        "heldout_cohort|DEV_Eng": 37,
+        "heldout_cohort|DEV_Med": 109,
+        "heldout_cohort|LifeEnv": 13,
+        "heldout_cohort|OtherHealth": 2,
+        "heldout_cohort|Physical": 15,
+        "heldout_cohort|Social": 41,
+        "heldout_field|LifeEnv": 34,
+        "heldout_field|OtherHealth": 4,
+        "heldout_field|Physical": 34,
+        "heldout_field|Social": 54
+      },
+      "n_episodes": 1865,
+      "episodes_by_split": {
+        "heldout_cohort": 768,
+        "dev": 707,
+        "heldout_field": 390
+      },
+      "o2r_resid_coef_dev": [
+        -0.03808207780883798,
+        3.891852441738708
+      ],
+      "t0_dist": {
+        "2003": 79,
+        "2004": 64,
+        "2005": 57,
+        "2006": 55,
+        "2007": 53,
+        "2008": 40,
+        "2009": 57,
+        "2010": 51,
+        "2011": 54,
+        "2012": 46,
+        "2013": 51,
+        "2014": 46
+      },
+      "home_primary_dist": {
+        "27": 280,
+        "22": 96,
+        "33": 70,
+        "17": 40,
+        "13": 40,
+        "31": 29,
+        "11": 18,
+        "16": 14,
+        "14": 10,
+        "23": 10,
+        "28": 8,
+        "20": 8,
+        "25": 6,
+        "19": 6,
+        "24": 5,
+        "36": 5,
+        "32": 5,
+        "12": 2,
+        "35": 1
+      },
+      "label_coverage_by_home": {
+        "11": 0.567,
+        "12": 0.261,
+        "13": 0.779,
+        "14": 0.479,
+        "16": 0.81,
+        "17": 0.617,
+        "19": 0.608,
+        "20": 0.541,
+        "22": 0.747,
+        "23": 0.633,
+        "24": 0.835,
+        "25": 0.797,
+        "27": 0.84,
+        "28": 0.738,
+        "31": 0.791,
+        "32": 0.721,
+        "33": 0.498,
+        "35": 0.861,
+        "36": 0.315
+      }
+    },
+    "grounding": {
+      "kappa_llm1_llm2": 0.3901773533424283,
+      "agreement_llm1_hand": 0.8833333333333333,
+      "rules_test": {
+        "title_only": {
+          "n": 153,
+          "precision_weighted": 0.9876212453659056,
+          "precision_raw": 0.9738562091503268
+        },
+        "exact_only": {
+          "n": 95,
+          "precision_weighted": 0.989044724832428,
+          "precision_raw": 0.968421052631579
+        },
+        "lemma_variant_only": {
+          "n": 58,
+          "precision_weighted": 0.9778750229415875,
+          "precision_raw": 0.9827586206896551
+        },
+        "tag_and_title": {
+          "n": 82,
+          "precision_weighted": 0.9964655374775016,
+          "precision_raw": 0.9878048780487805
+        },
+        "tag_and_title_exact": {
+          "n": 51,
+          "precision_weighted": 1.0,
+          "precision_raw": 1.0
+        },
+        "untagged_work_title": {
+          "n": 16,
+          "precision_weighted": 0.9080264400377714,
+          "precision_raw": 0.9375
+        },
+        "title_without_tag_on_tagged_work": {
+          "n": 55,
+          "precision_weighted": 0.9528355437634531,
+          "precision_raw": 0.9636363636363636
+        }
+      },
+      "filter_test_auc": 0.24161073825503354,
+      "n_concepts_below_gate_0.8": 0
+    },
+    "dev_headline": {
+      "LR_M2_vs_M0": {
+        "LR": 38.62631818938462,
+        "df": 1,
+        "p": 5.132219947935693e-10
+      },
+      "d_coef": 0.2501733171946087,
+      "d_boot_ci": [
+        0.18226003805209737,
+        0.3208766317840767
+      ],
+      "perm_p": 0.008991008991008992,
+      "rewired": {
+        "n": 200,
+        "lr_obs": 38.62631818938462,
+        "p": 0.029850746268656716,
+        "null_q95": 26.15383167949332,
+        "null_median": 2.79862076309837,
+        "real_gain_le_null95": false
+      },
+      "auc": {
+        "M0": 0.800769410701218,
+        "M2": 0.8052609350157525,
+        "b_log_size": 0.7076228699652565,
+        "c_density": 0.6061033235502905,
+        "d_ret_gate": 0.5610132832561433
+      }
+    },
+    "heldout_decisions": {
+      "H2_entry": {
+        "LR_p<0.01": true,
+        "d>0_CI>0": true,
+        "field_groups_positive>=3_of_3": true,
+        "cohort_positive": true,
+        "perm_p<0.05": true,
+        "rewired_gain_above_null95": true,
+        "CONFIRMED": true
+      },
+      "H2_ordering": {
+        "p_gw": 0.6551724137931034,
+        "sign_p": 0.002506799450073193,
+        "peripheral_share": 0.5697674418604651,
+        "CONFIRMED": true
+      },
+      "RESCUE": {
+        "R1_interaction": -0.21735315531009167,
+        "R1_ci": [
+          -1.1162120533726436,
+          0.6815057427524602
+        ],
+        "indirect": 0.002469659972646257,
+        "indirect_ci": [
+          -0.006968969233683165,
+          0.009824928788321549
+        ],
+        "SUPPORTED": false
+      },
+      "RELAY": {
+        "fepois_ret_x_gate": -1.299228378652143,
+        "ci": [
+          -4.927263091478967,
+          2.32880633417468
+        ],
+        "mean_excess_gw_retained": -0.010675926846191609,
+        "SUPPORTED": false
+      }
+    },
+    "case_studies": [
+      {
+        "cidx": 94,
+        "name": "Anomaly detection",
+        "figure": "figures/fig_case_94.png"
+      },
+      {
+        "cidx": 41020,
+        "name": "Incretin",
+        "figure": "figures/fig_case_41020.png"
+      },
+      {
+        "cidx": 60310,
+        "name": "Influenza pandemic",
+        "figure": "figures/fig_case_60310.png"
+      },
+      {
+        "cidx": 57442,
+        "name": "Shale gas",
+        "figure": "figures/fig_case_57442.png"
+      }
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "entry_events_dev",
+      "examples": [
+        {
+          "input": "{\"concept\": \"Anomaly detection\", \"year\": 2004, \"age\": 1, \"candidate_field\": 11, \"field_name\": \"Agricultural and Biological Sciences\", \"phi_home\": 0.0, \"log_size\": 11.294, \"density\": 0.0, \"gateway_own\": 0.2841, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.04529",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.04611",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_CS",
+          "metadata_stratum": 9404,
+          "metadata_cidx": 94
+        },
+        {
+          "input": "{\"concept\": \"Anomaly detection\", \"year\": 2004, \"age\": 1, \"candidate_field\": 12, \"field_name\": \"Arts and Humanities\", \"phi_home\": 0.0, \"log_size\": 11.425, \"density\": 0.1506, \"gateway_own\": 0.0253, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.05549",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.05601",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_CS",
+          "metadata_stratum": 9404,
+          "metadata_cidx": 94
+        },
+        {
+          "input": "{\"concept\": \"Anomaly detection\", \"year\": 2004, \"age\": 1, \"candidate_field\": 13, \"field_name\": \"Biochemistry, Genetics and Molecular Biology\", \"phi_home\": 0.0, \"log_size\": 11.398, \"density\": 0.0, \"gateway_own\": 0.419, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.05338",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.05247",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_CS",
+          "metadata_stratum": 9404,
+          "metadata_cidx": 94
+        }
+      ]
+    },
+    {
+      "dataset": "entry_events_heldout",
+      "examples": [
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"year\": 2014, \"age\": 2, \"candidate_field\": 11, \"field_name\": \"Agricultural and Biological Sciences\", \"phi_home\": 0.0, \"log_size\": 12.042, \"density\": 0.1796, \"gateway_own\": 0.2841, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.04552",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.04089",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical",
+          "metadata_stratum": 80414,
+          "metadata_cidx": 804
+        },
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"year\": 2014, \"age\": 2, \"candidate_field\": 12, \"field_name\": \"Arts and Humanities\", \"phi_home\": 0.0, \"log_size\": 11.867, \"density\": 0.0, \"gateway_own\": 0.0253, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.02398",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.02559",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical",
+          "metadata_stratum": 80414,
+          "metadata_cidx": 804
+        },
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"year\": 2014, \"age\": 2, \"candidate_field\": 14, \"field_name\": \"Business, Management and Accounting\", \"phi_home\": 0.0, \"log_size\": 11.026, \"density\": 0.0, \"gateway_own\": 0.0771, \"ret_relatedness_d0\": 0.0, \"ret_gateway_relatedness_d\": 0.0, \"n_retaining_fields\": 1}",
+          "output": "0",
+          "predict_M0_size_density_home_owngateway": "0.01384",
+          "predict_M2_plus_retaining_gateway_relatedness": "0.01414",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical",
+          "metadata_stratum": 80414,
+          "metadata_cidx": 804
+        }
+      ]
+    },
+    {
+      "dataset": "retention_episodes_dev",
+      "examples": [
+        {
+          "input": "{\"concept\": \"Anomaly detection\", \"field\": 22, \"field_name\": \"Engineering\", \"t0\": 2003, \"entry_year\": 1995, \"n_early_j\": 27.0, \"gateway_j\": 0.2427, \"S_hanski\": 1.067, \"resc_logodds_bg_adjusted\": -2.5181}",
+          "output": "1",
+          "predict_base": "1.0000",
+          "predict_with_connectivity": "1.0000",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_CS"
+        },
+        {
+          "input": "{\"concept\": \"Anomaly detection\", \"field\": 33, \"field_name\": \"Social Sciences\", \"t0\": 2003, \"entry_year\": 2003, \"n_early_j\": 8.0, \"gateway_j\": 0.0282, \"S_hanski\": 1.6182, \"resc_logodds_bg_adjusted\": null}",
+          "output": "1",
+          "predict_base": "0.9491",
+          "predict_with_connectivity": "0.9570",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_CS"
+        },
+        {
+          "input": "{\"concept\": \"Biohydrogen\", \"field\": 13, \"field_name\": \"Biochemistry, Genetics and Molecular Biology\", \"t0\": 2004, \"entry_year\": 2001, \"n_early_j\": 16.0, \"gateway_j\": 0.419, \"S_hanski\": 0.775, \"resc_logodds_bg_adjusted\": -1.5261}",
+          "output": "1",
+          "predict_base": "0.8102",
+          "predict_with_connectivity": "0.8112",
+          "metadata_split": "dev",
+          "metadata_group": "DEV_Eng"
+        }
+      ]
+    },
+    {
+      "dataset": "retention_episodes_heldout",
+      "examples": [
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"field\": 13, \"field_name\": \"Biochemistry, Genetics and Molecular Biology\", \"t0\": 2012, \"entry_year\": 2013, \"n_early_j\": 2.0, \"gateway_j\": 0.419, \"S_hanski\": 1.3891, \"resc_logodds_bg_adjusted\": 0.3198}",
+          "output": "1",
+          "predict_base": "0.6169",
+          "predict_with_connectivity": "0.6215",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical"
+        },
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"field\": 16, \"field_name\": \"Chemistry\", \"t0\": 2012, \"entry_year\": 2011, \"n_early_j\": 11.0, \"gateway_j\": 1.0, \"S_hanski\": 1.3616, \"resc_logodds_bg_adjusted\": -0.3942}",
+          "output": "1",
+          "predict_base": "0.8050",
+          "predict_with_connectivity": "0.7936",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical"
+        },
+        {
+          "input": "{\"concept\": \"Pseudocapacitor\", \"field\": 31, \"field_name\": \"Physics and Astronomy\", \"t0\": 2012, \"entry_year\": 2014, \"n_early_j\": 2.0, \"gateway_j\": 0.4858, \"S_hanski\": 1.6906, \"resc_logodds_bg_adjusted\": null}",
+          "output": "0",
+          "predict_base": "0.5782",
+          "predict_with_connectivity": "0.5849",
+          "metadata_split": "heldout",
+          "metadata_group": "Physical"
+        }
+      ]
+    }
+  ]
+}
