@@ -1,0 +1,686 @@
+{
+ "title": "Openness boundary evaluation - frozen specification (Part B, EXPLORATORY on already-unsealed held-out)",
+ "status": "EXPLORATORY: the Exp8 held-out groups were unsealed in Exp5 and Exp8; nothing here can confirm OPEN",
+ "estimator": "Exp8 psp: rank x,y within unit; OLS-residualise on [1, rank(B5 + extra controls), t0 dummies (+ group dummies in COH units)]; Pearson of residuals (vendor/rq1stats.psp_point)",
+ "pooling": {
+  "primary_record_comparable": "DL on Fisher z over the 4 held-out groups PHYS/LIFEENV/SOC/MATHDEC (Exp8 heldout.pool_block; the record's +0.377 etc. are DL4)",
+  "plan_6unit": "DL over PHYS/LIFEENV/SOC/MATHDEC/COH_DEVHOME/COH_OTHER (reported alongside)",
+  "units4": [
+   "PHYS",
+   "LIFEENV",
+   "SOC",
+   "MATHDEC"
+  ],
+  "units6": [
+   "PHYS",
+   "LIFEENV",
+   "SOC",
+   "MATHDEC",
+   "COH_DEVHOME",
+   "COH_OTHER"
+  ],
+  "note": "The plan text says the record pools over 6 units; Exp8 heldout.py pools over HELD_GROUPS (4). Both are reported; T0 uses DL4 with bootstrap se_z exactly as Exp8."
+ },
+ "B5": [
+  "logvol",
+  "growth_c",
+  "offhome_share",
+  "entropy",
+  "reach"
+ ],
+ "open_definition": {
+  "components": [
+   "new_edge_rate",
+   "n_comm_W3",
+   "participation",
+   "NOV_res",
+   "ego_density_W3",
+   "edge_persistence"
+  ],
+  "signs": {
+   "new_edge_rate": 1,
+   "n_comm_W3": 1,
+   "participation": 1,
+   "NOV_res": 1,
+   "ego_density_W3": -1,
+   "edge_persistence": -1
+  },
+  "z": "z_c = sign_c * (x - mu_DEV) / sd_DEV (frozen constants below, applied to all rows)",
+  "OPEN": "mean of available component z; defined when >= 4 of 6 present",
+  "OPEN_PC1": "sum of loadings * z over the 6 components (complete cases), DEV PC1, sign so the new_edge_rate loading is positive",
+  "subset_rule": "subset of size s is defined when >= ceil(2s/3) of its components present",
+  "dev_constants": {
+   "mu": {
+    "new_edge_rate": 0.2182428893868127,
+    "n_comm_W3": 2.575351079438273,
+    "participation": 0.38328200581942223,
+    "NOV_res": -0.4479515175279694,
+    "ego_density_W3": 0.6482488030988981,
+    "edge_persistence": 0.25582227485488973
+   },
+   "sd": {
+    "new_edge_rate": 0.22843341910931145,
+    "n_comm_W3": 1.470724894852885,
+    "participation": 0.2496696440356384,
+    "NOV_res": 0.3316537688923089,
+    "ego_density_W3": 0.22538003480927246,
+    "edge_persistence": 0.15608042633757527
+   },
+   "n_dev": 4771,
+   "n_dev_complete": 4175,
+   "pc1": {
+    "new_edge_rate|n_comm_W3": {
+     "loadings": [
+      0.7589798411792225,
+      0.6511141226264118
+     ],
+     "var_explained": 0.6896167145301775
+    },
+    "new_edge_rate|participation": {
+     "loadings": [
+      0.8645216558465671,
+      0.5025955695908091
+     ],
+     "var_explained": 0.5727836712128139
+    },
+    "new_edge_rate|NOV_res": {
+     "loadings": [
+      0.9157012904478565,
+      0.4018596106504488
+     ],
+     "var_explained": 0.527368796607061
+    },
+    "new_edge_rate|ego_density_W3": {
+     "loadings": [
+      0.7863374890846638,
+      0.617797178093285
+     ],
+     "var_explained": 0.6020285309786796
+    },
+    "new_edge_rate|edge_persistence": {
+     "loadings": [
+      0.9311878158909962,
+      0.36453978045771107
+     ],
+     "var_explained": 0.5677590404115541
+    },
+    "n_comm_W3|participation": {
+     "loadings": [
+      0.7137247521369937,
+      0.7004262831925904
+     ],
+     "var_explained": 0.8829669277470372
+    },
+    "n_comm_W3|NOV_res": {
+     "loadings": [
+      0.6841057793221434,
+      0.7293828094341426
+     ],
+     "var_explained": 0.6614689813687498
+    },
+    "n_comm_W3|ego_density_W3": {
+     "loadings": [
+      0.6986486447180855,
+      0.715464933615605
+     ],
+     "var_explained": 0.6980047665069204
+    },
+    "n_comm_W3|edge_persistence": {
+     "loadings": [
+      0.8710967932650268,
+      -0.4911113690023751
+     ],
+     "var_explained": 0.5406282975431675
+    },
+    "participation|NOV_res": {
+     "loadings": [
+      0.6770760782847427,
+      0.735913027615732
+     ],
+     "var_explained": 0.7108672982131643
+    },
+    "participation|ego_density_W3": {
+     "loadings": [
+      0.6862299324383564,
+      0.7273846848990214
+     ],
+     "var_explained": 0.7047040435888456
+    },
+    "participation|edge_persistence": {
+     "loadings": [
+      0.9612985407585704,
+      0.2755088302313437
+     ],
+     "var_explained": 0.5163127157190698
+    },
+    "NOV_res|ego_density_W3": {
+     "loadings": [
+      0.7282962998739314,
+      0.6852623582175958
+     ],
+     "var_explained": 0.5924906145918578
+    },
+    "NOV_res|edge_persistence": {
+     "loadings": [
+      0.9225527470374543,
+      0.3858710003792031
+     ],
+     "var_explained": 0.5446257662519394
+    },
+    "ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.840920859815931,
+      0.5411581169366634
+     ],
+     "var_explained": 0.5621014758267656
+    },
+    "new_edge_rate|n_comm_W3|participation": {
+     "loadings": [
+      0.43425894397602083,
+      0.6751214253785726,
+      0.5963474076171006
+     ],
+     "var_explained": 0.621421258074896
+    },
+    "new_edge_rate|n_comm_W3|NOV_res": {
+     "loadings": [
+      0.6052951959846662,
+      0.659300980785406,
+      0.44602684050770625
+     ],
+     "var_explained": 0.5017353299591397
+    },
+    "new_edge_rate|n_comm_W3|ego_density_W3": {
+     "loadings": [
+      0.5901174670437693,
+      0.613380257760421,
+      0.5249057386613387
+     ],
+     "var_explained": 0.5490137973890552
+    },
+    "new_edge_rate|n_comm_W3|edge_persistence": {
+     "loadings": [
+      0.762648641933356,
+      0.6446846134513055,
+      0.052428981835895096
+     ],
+     "var_explained": 0.481678513968402
+    },
+    "new_edge_rate|participation|NOV_res": {
+     "loadings": [
+      0.3312479447975953,
+      0.6571903767105268,
+      0.6770344214487508
+     ],
+     "var_explained": 0.4700902724989369
+    },
+    "new_edge_rate|participation|ego_density_W3": {
+     "loadings": [
+      0.5034307056532026,
+      0.5738016911708945,
+      0.64599469333342
+     ],
+     "var_explained": 0.49655069777424043
+    },
+    "new_edge_rate|participation|edge_persistence": {
+     "loadings": [
+      0.8430836132286718,
+      0.4574673014872621,
+      0.282725466089013
+     ],
+     "var_explained": 0.4067927072118096
+    },
+    "new_edge_rate|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.6285660603502542,
+      0.4540852550789212,
+      0.6314358945258587
+     ],
+     "var_explained": 0.4294365474058996
+    },
+    "new_edge_rate|NOV_res|edge_persistence": {
+     "loadings": [
+      0.8261946498340609,
+      0.4118119351280339,
+      0.38446499277785656
+     ],
+     "var_explained": 0.3851815234918286
+    },
+    "new_edge_rate|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.7328523031684943,
+      0.5994974271615362,
+      0.32176130371337763
+     ],
+     "var_explained": 0.4369293049404483
+    },
+    "n_comm_W3|participation|NOV_res": {
+     "loadings": [
+      0.6145157144671567,
+      0.6295779014084804,
+      0.4753967845190102
+     ],
+     "var_explained": 0.6729048399972027
+    },
+    "n_comm_W3|participation|ego_density_W3": {
+     "loadings": [
+      0.6233066588349754,
+      0.6155484331531166,
+      0.4822747510441766
+     ],
+     "var_explained": 0.6870696336655826
+    },
+    "n_comm_W3|participation|edge_persistence": {
+     "loadings": [
+      0.7142228227781202,
+      0.6985325794511772,
+      -0.04402266311956751
+     ],
+     "var_explained": 0.6027419486957739
+    },
+    "n_comm_W3|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.6293623357409931,
+      0.5292827260946771,
+      0.5690016223249527
+     ],
+     "var_explained": 0.5351063675959309
+    },
+    "n_comm_W3|NOV_res|edge_persistence": {
+     "loadings": [
+      0.6841506157443219,
+      0.7293406180815624,
+      -0.0004447393282884993
+     ],
+     "var_explained": 0.4561420983131805
+    },
+    "n_comm_W3|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6896053432499396,
+      0.7210766047586776,
+      0.06702984880506903
+     ],
+     "var_explained": 0.4803528705095982
+    },
+    "participation|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.6292874672350848,
+      0.5628395264069542,
+      0.5359187915112211
+     ],
+     "var_explained": 0.5593906842319458
+    },
+    "participation|NOV_res|edge_persistence": {
+     "loadings": [
+      0.6701732866592081,
+      0.7341057843105889,
+      0.10934561395012578
+     ],
+     "var_explained": 0.49020509886474284
+    },
+    "participation|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6649067274183825,
+      0.724797480316734,
+      0.18046511119961625
+     ],
+     "var_explained": 0.4878101396506691
+    },
+    "NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6665243562335288,
+      0.667113423952609,
+      0.33272355211151866
+     ],
+     "var_explained": 0.42401538771464664
+    },
+    "new_edge_rate|n_comm_W3|participation|NOV_res": {
+     "loadings": [
+      0.33067711599507116,
+      0.61522155850127,
+      0.5811374226644765,
+      0.4176534147966948
+     ],
+     "var_explained": 0.519868086631685
+    },
+    "new_edge_rate|n_comm_W3|participation|ego_density_W3": {
+     "loadings": [
+      0.3690672491348462,
+      0.6026743205746288,
+      0.5470266505204516,
+      0.44870354640488636
+     ],
+     "var_explained": 0.5412929298795761
+    },
+    "new_edge_rate|n_comm_W3|participation|edge_persistence": {
+     "loadings": [
+      0.43474464942185026,
+      0.674849735832705,
+      0.5962753814894074,
+      0.0055311188074674104
+     ],
+     "var_explained": 0.47908783806811744
+    },
+    "new_edge_rate|n_comm_W3|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.4905648396722686,
+      0.6039382856891979,
+      0.3841983848664991,
+      0.4969872093143718
+     ],
+     "var_explained": 0.4449048851654975
+    },
+    "new_edge_rate|n_comm_W3|NOV_res|edge_persistence": {
+     "loadings": [
+      0.6087236808826219,
+      0.6524378498732207,
+      0.44716179684801705,
+      0.06186000182003034
+     ],
+     "var_explained": 0.3894133206439527
+    },
+    "new_edge_rate|n_comm_W3|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.5916460141886583,
+      0.6023225749219214,
+      0.5282262371624713,
+      0.09021946578913381
+     ],
+     "var_explained": 0.4263330665478213
+    },
+    "new_edge_rate|participation|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.3292278957424832,
+      0.5918519397113498,
+      0.5018434335536571,
+      0.538027362058814
+     ],
+     "var_explained": 0.4269054989620313
+    },
+    "new_edge_rate|participation|NOV_res|edge_persistence": {
+     "loadings": [
+      0.35111539948516657,
+      0.641390610991039,
+      0.6655499822374034,
+      0.14959706387728616
+     ],
+     "var_explained": 0.36666980749115263
+    },
+    "new_edge_rate|participation|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.504445701266131,
+      0.5493666132523436,
+      0.6373681434537988,
+      0.19363033963722887
+     ],
+     "var_explained": 0.38958671427090485
+    },
+    "new_edge_rate|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.5978704044342935,
+      0.428419981519009,
+      0.6072418403524258,
+      0.3004407533312116
+     ],
+     "var_explained": 0.34523586808641826
+    },
+    "n_comm_W3|participation|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.5675544204814044,
+      0.5795926073366275,
+      0.40625913104665573,
+      0.4206042174704907
+     ],
+     "var_explained": 0.5709833496783914
+    },
+    "n_comm_W3|participation|NOV_res|edge_persistence": {
+     "loadings": [
+      0.6145591247152485,
+      0.6295728482659146,
+      0.4753463382432006,
+      -0.0009847204432724696
+     ],
+     "var_explained": 0.5156277955602588
+    },
+    "n_comm_W3|participation|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6222136797533336,
+      0.6153350047001984,
+      0.48358458027798523,
+      0.0189452483696423
+     ],
+     "var_explained": 0.52563222198406
+    },
+    "n_comm_W3|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6204977970052119,
+      0.5299847685312343,
+      0.5730893672528404,
+      0.0752808486822013
+     ],
+     "var_explained": 0.41253783333651406
+    },
+    "participation|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.6185222299924743,
+      0.5572980750653298,
+      0.5381741079922658,
+      0.1312163710073672
+     ],
+     "var_explained": 0.4327595115616963
+    },
+    "new_edge_rate|n_comm_W3|participation|NOV_res|ego_density_W3": {
+     "loadings": [
+      0.3040469112268243,
+      0.5650201673433899,
+      0.5381064873095793,
+      0.362764985984593,
+      0.408840628518765
+     ],
+     "var_explained": 0.47203919742682393
+    },
+    "new_edge_rate|n_comm_W3|participation|NOV_res|edge_persistence": {
+     "loadings": [
+      0.3319651013807431,
+      0.6141076537642544,
+      0.5807983161616936,
+      0.41821855597036567,
+      0.020916893632641737
+     ],
+     "var_explained": 0.42544283584544285
+    },
+    "new_edge_rate|n_comm_W3|participation|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.3709996982086237,
+      0.5998763862830419,
+      0.5457534874449715,
+      0.4505724805126289,
+      0.04056002780394273
+     ],
+     "var_explained": 0.4428364361888394
+    },
+    "new_edge_rate|n_comm_W3|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.49218465008317863,
+      0.5937031373201835,
+      0.38407474246626305,
+      0.4996898787099564,
+      0.08981910861822447
+     ],
+     "var_explained": 0.3662443087221213
+    },
+    "new_edge_rate|participation|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.3366697622260067,
+      0.5768120917592068,
+      0.49282389057771264,
+      0.5373523521637691,
+      0.14939325454305025
+     ],
+     "var_explained": 0.3534646301630013
+    },
+    "n_comm_W3|participation|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.5656678468077294,
+      0.5790038635395346,
+      0.40691556488648994,
+      0.4221552950021413,
+      0.03128966361216771
+     ],
+     "var_explained": 0.46526151820551415
+    },
+    "new_edge_rate|n_comm_W3|participation|NOV_res|ego_density_W3|edge_persistence": {
+     "loadings": [
+      0.3058088485731993,
+      0.5621119278868584,
+      0.5367506136357932,
+      0.3631662075604526,
+      0.4105303020066979,
+      0.04455428423507754
+     ],
+     "var_explained": 0.40109639213043247
+    }
+   }
+  }
+ },
+ "spec_grid": {
+  "subsets": "all 63 non-empty subsets of the 6 components",
+  "weightings": [
+   "equal",
+   "pc1 (refit on DEV for each subset of size >= 2)"
+  ],
+  "n_composites": 120,
+  "outcomes": [
+   "O2r_m30",
+   "O2r_m50",
+   "O2r_resid",
+   "O2r_resid_N"
+  ],
+  "controls": {
+   "C0": "B5 (no t0 dummies; group dummies kept in COH units)",
+   "C1": "B5 + t0 dummies (Exp8 default)",
+   "C2": "C1 + rank(label_coverage_early) [column found in analysis_table]",
+   "C3": "C1 + rank(CONTACT_REACH)"
+  },
+  "label_coverage_column": "label_coverage_early",
+  "n_specs": 1920,
+  "se": "analytic Fisher z, var = 1/(n - k - 3), k = columns of Z incl. intercept",
+  "null": {
+   "type": "Freedman-Lane",
+   "draws": 200,
+   "detail": "per unit x outcome x control: y* = fitted(y ~ Z_C) + within-unit permutation of residuals; all 1,920 specs recomputed per draw"
+  },
+  "headline": {
+   "subset": "all 6",
+   "weights": "equal",
+   "outcome": "O2r_m50",
+   "control": "C1",
+   "bootstrap_B": 2000
+  },
+  "calibration": "headline + 50 random specs: 1,000-draw concept bootstrap; if the median bootstrap/analytic CI-width ratio > 1.2 the analytic SEs are inflated by it"
+ },
+ "B1": {
+  "post": "states() on gw (years t0..t0+2 only, zero before t0) -> D_vol_post, M0_density_post",
+  "footprint": {
+   "D_vol_pre": "# off-home fields entered (full-history state machine) by t0-1",
+   "footprint_share": "D_vol_pre / max(D_vol_end, 1)",
+   "log_pre_papers": "log1p(sum N over t0-3..t0-1) (grounded papers)"
+  },
+  "verdict_rule": {
+   "MOST": "upper CI of pooled psp_post < 0.5 * pooled psp_full",
+   "LITTLE": "paired difference (full - post) pooled CI includes 0",
+   "PARTIAL": "otherwise"
+  },
+  "bootstrap_B": 1000
+ },
+ "B4": {
+  "subunits": "primary home field (first listed, 26-field level) x onset period (2003-09 / 2010-14) over the 6 held-out units; cells with n (O2r_m50 non-missing and OPEN defined) < 60 merge into '<unit>_other' (if still < 60 it is dropped); fallback threshold 40 if < 20 sub-units",
+  "min_n": 60,
+  "fallback_min_n": 40,
+  "traits": [
+   "median_label_coverage",
+   "median_log_early_volume",
+   "share_multi_home",
+   "share_generic",
+   "median_O2r_m50",
+   "sd_OPEN",
+   "mean_t0"
+  ],
+  "generic_rule": {
+   "single_token_zipf_ge": 4.0,
+   "wordfreq_lang": "en",
+   "head_nouns": [
+    "variation",
+    "growth",
+    "rate",
+    "coefficient",
+    "model",
+    "analysis",
+    "method",
+    "theory",
+    "effect",
+    "system",
+    "index",
+    "distribution",
+    "process",
+    "function",
+    "measure",
+    "factor",
+    "network",
+    "structure"
+   ],
+   "head": "last token of the lower-cased label after stripping parentheses"
+  },
+  "meta_regression": "REML random effects, one trait at a time, Knapp-Hartung; permutation p (1,000 trait shuffles); Holm over the 7 traits; joint model with the 2 strongest",
+  "lifeenv_verdict_rule": {
+   "COVERAGE": "coverage slope CI > 0 AND reweighted LIFEENV psp CI overlaps others' pooled CI",
+   "VARIANCE": "SD-ratio CI < 1 AND Thorndike-corrected LIFEENV psp inside others' pooled CI",
+   "UNEXPLAINED": "otherwise (domain boundary)"
+  }
+ },
+ "seeds": {
+  "master": 20260929
+ },
+ "bootstrap": {
+  "table_cells": 1000,
+  "headline": 2000,
+  "null_draws": 200,
+  "meta_perm": 1000
+ },
+ "llm": "no LLM calls (optional GENERIC LLM check not run; $0 spent)",
+ "iter4_gen_art_listing_at_seal": [
+  {
+   "dir": "round-4/evaluation-3/src",
+   "mtime_utc": "2026-09-29T02:22:27+00:00",
+   "n_files": 9,
+   "candidate_cohort_outcome_files": []
+  },
+  {
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_experiment_10",
+   "mtime_utc": "2026-09-29T02:21:46+00:00",
+   "n_files": 40,
+   "candidate_cohort_outcome_files": [
+    "3_invention_loop/iter_4/gen_art/gen_art_experiment_10/data/cohort_candidates.csv"
+   ]
+  },
+  {
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_experiment_11",
+   "mtime_utc": "2026-09-29T02:23:39+00:00",
+   "n_files": 27,
+   "candidate_cohort_outcome_files": []
+  },
+  {
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_experiment_12",
+   "mtime_utc": "2026-09-29T02:23:47+00:00",
+   "n_files": 26,
+   "candidate_cohort_outcome_files": []
+  },
+  {
+   "dir": "3_invention_loop/iter_4/gen_art/gen_art_research_3",
+   "mtime_utc": "2026-09-29T02:16:42+00:00",
+   "n_files": 72,
+   "candidate_cohort_outcome_files": []
+  }
+ ],
+ "cohort_2015_16_statement": "At seal time no 2015-16 cohort outcome file is read by this evaluation; any file listed under candidate_cohort_outcome_files above belongs to other iteration-4 artifacts and is NOT read by Part B."
+}

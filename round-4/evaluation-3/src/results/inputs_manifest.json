@@ -1,0 +1,251 @@
+{
+ "generated_utc": "2026-09-29T02:22:45.996357+00:00",
+ "files": [
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/data/analysis_table.parquet",
+   "exists": true,
+   "bytes": 4314599,
+   "sha256": "631b4fb9acef82f95fa5226f2c115a845c3ffdab91fb70a38012b094460a2d98"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/data/frame_arrays.npz",
+   "exists": true,
+   "bytes": 2853717,
+   "sha256": "8142538ce4e03305754a9a34af7de9dffcb0b2e938d42c8b5c22e17fdf95d3b7"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/data/features_basic.parquet",
+   "exists": true,
+   "bytes": 1806341,
+   "sha256": "f12f17c5514d2b88943cd7756a4a321daae516d091dbfdb335e02692f3951208"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/data/ego_features.parquet",
+   "exists": true,
+   "bytes": 3381077,
+   "sha256": "7f60974ecff6fb20777d7f9362e3dba8ba1cef19f3100ac6b4a1ad76b9770c61"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/inputs/field_backbone.json",
+   "exists": true,
+   "bytes": 53044,
+   "sha256": "c8bbe41ee1658351917d2081e677f9f5285bea6188c5f7c0c18a968c7d5ed28d"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/lib/rq1stats.py",
+   "exists": true,
+   "bytes": 8080,
+   "sha256": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/rederive.py",
+   "exists": true,
+   "bytes": 7055,
+   "sha256": "62ee3a6a83de389d20773a8fd902346deb26bc39a35e338837cd313f7fdbd3f0"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/build_features.py",
+   "exists": true,
+   "bytes": 14229,
+   "sha256": "8d3ded8c8f25e0d01dcc414b573757cc155686ca7c3015d2235c767d4c372361"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/lib/indicators.py",
+   "exists": true,
+   "bytes": 5782,
+   "sha256": "621c5ecab831aa7c9810029acb44bc343dc068a382c1babbf22312f245914196"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/README.md",
+   "exists": true,
+   "bytes": 24369,
+   "sha256": "202ba6caab2cab1e168905cf5d96527d1c9a5c0480c693a2fa4e46edb0c418ce"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/portability_table.csv",
+   "exists": true,
+   "bytes": 352453,
+   "sha256": "1970d60e9826c5d3dcadca4b3fdab4bdd1f6b0ee9e525fd2a69cfacee2e69974"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv",
+   "exists": true,
+   "bytes": 157914,
+   "sha256": "550cd19aa2dd56549a5a44a78a41e9918841290e85ffe829049bb747eda93d4a"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_summary.json",
+   "exists": true,
+   "bytes": 158577,
+   "sha256": "b144a73cb375b171848767cf7b6f7a3d0875b8ebb63d2e9789152fd182753617"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_heldout.json",
+   "exists": true,
+   "bytes": 304459,
+   "sha256": "be7a28b06090012f178b0463a38679ff88a67db324e99e49902454aea1f0ff0b"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json",
+   "exists": true,
+   "bytes": 4219,
+   "sha256": "de116a03d3321fa7538408a36bf31a0fd2103de30a1f55a698281ddd56250d5a"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/frozen_spec.json",
+   "exists": true,
+   "bytes": 71258,
+   "sha256": "c3906b4f3dd696e8673f33529000870389a65906ec38fe5027b4f669331cf47b"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/learned_vs_single_heldout.json",
+   "exists": true,
+   "bytes": 45262,
+   "sha256": "e6acea66197453848c88d6d3d255dde601f3e017442e0cf7d92c7f0f5510adae"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/sensitivities_pooled.json",
+   "exists": true,
+   "bytes": 21675,
+   "sha256": "2325706fbd4fbb0ecd31f240e2f62d1a81795205a025d53a79e6740c9e14f2f3"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/sensitivities_heldout.csv",
+   "exists": true,
+   "bytes": 108825,
+   "sha256": "352457e3fc20fb4fcbad5787c7ad60a3274547b2208d68d1ca01c30ddde7144e"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_b5_minus_reach.csv",
+   "exists": true,
+   "bytes": 5911,
+   "sha256": "8bcd10d9a3c3f3a49b3fd608eb0458454d2206958e9ea896df59207ea1d00abb"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/indicator_dictionary.csv",
+   "exists": true,
+   "bytes": 6383,
+   "sha256": "ef2bac2c9c3b091208775269e9228413b59116c0376380249299dc8f845952f0"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/deviations.json",
+   "exists": true,
+   "bytes": 2596,
+   "sha256": "bed03ba4070753f5784f7f14848309a2c6d0ff6d6935f6b87af4f4a20a7f61b2"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/case_exemplars.json",
+   "exists": true,
+   "bytes": 5395,
+   "sha256": "f6520629aa267d431a9411fec47f4b282c9dd36542e4708feda30737ef8a3c5a"
+  },
+  {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv",
+   "exists": true,
+   "bytes": 2290579,
+   "sha256": "b91d4684ca81a54a9ef695d761fdfcdd4af9573d12f384d5ffa25879e51afd38"
+  },
+  {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_experiment_5/concept_features_basic.csv",
+   "exists": true,
+   "bytes": 5196667,
+   "sha256": "2dd5b7ff1c4a3766d7e27109eb9f05f5f4b64542b35a60883760c569c454cd03"
+  },
+  {
+   "path": "3_invention_loop/iter_2/gen_art/gen_art_experiment_5/scan/year_field_totals.npz",
+   "exists": true,
+   "bytes": 7690,
+   "sha256": "f64401c261480025cc7d5d7863ed60073ee9899909f8ce24c49929cd2b9853db"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_dev.json",
+   "exists": true,
+   "bytes": 64537,
+   "sha256": "6c0ccfcc3c712e6c26a64ab2e1eda610dcf17ecd3bdeb80fd3b5025d39500bd4"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/step2_heldout.json",
+   "exists": true,
+   "bytes": 92340,
+   "sha256": "19712e9f13a2c856b731bc2cd9c3cf231b23f72d7aede81dd0d6a9fb05e1f5a6"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/frontier_result.json",
+   "exists": true,
+   "bytes": 283797,
+   "sha256": "34e29920928fff9991cee6d0b91cb305b00b4ab25fe0b4c7fe0883669e1dd285"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/frozen_spec.json",
+   "exists": true,
+   "bytes": 117797,
+   "sha256": "345d391b73f2fb134cdc5551ba002a335ee0361668b4500e9690b2b44959d60d"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/deviations.json",
+   "exists": true,
+   "bytes": 3793,
+   "sha256": "9d78aae8a33c5bbedc74eff527735dfbf3bed5566503bb0ca5f83008fbb0a1ad"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_7/results/state_panel_dev.parquet",
+   "exists": true,
+   "bytes": 7102493,
+   "sha256": "bf3c5dc41dfc13d1f6450e7bcc20876cb05386edf9467ae57d02a24fee56933c"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/text_corrections.md",
+   "exists": true,
+   "bytes": 15894,
+   "sha256": "c5b08ddd6706cd49208bd92fe8e4ba3e4d66f5dd1b7171b0e4bd90775ef2faf6"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/claims_ledger.csv",
+   "exists": true,
+   "bytes": 82474,
+   "sha256": "49908852f4ea2d3e23564ece50c8f2954e45497a24018faa5b02479555246235"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/o5_validation.json",
+   "exists": true,
+   "bytes": 48678,
+   "sha256": "53497929fd6e9f2587ebe6279f23435f8f955d1e6bd249796a6d02b096ce5d90"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/frame_agreement.json",
+   "exists": true,
+   "bytes": 10409,
+   "sha256": "c7389898e69d21ab182d4bcea57018909148e9c42691ae2498c34e127a358c0e"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_associations.csv",
+   "exists": true,
+   "bytes": 70685,
+   "sha256": "2d6a603d2f86be2a4d931837515abce55aa5d77ba278ff2e28270fe1d27e913a"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_coverage_by_group_source.csv",
+   "exists": true,
+   "bytes": 20087,
+   "sha256": "39bc68a289ea0e6ba8a6912e0941125c529f9e5f57306a60a93f9991f13c9a5a"
+  },
+  {
+   "path": "3_invention_loop/iter_4/gen_strat/current_report.md",
+   "exists": true,
+   "bytes": 112532,
+   "sha256": "46ba5c53548ec6822af49a7696972d252bd71eff537deca4db570aaf08316b3c"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_experiment_9/.aii_worker_result.json",
+   "exists": true,
+   "bytes": 4414,
+   "sha256": "a5ed1f853e0c63eef80f78c3c92c6fd32813524669104a8c6fd1fe37c1d8cb1f"
+  },
+  {
+   "path": "3_invention_loop/iter_3/gen_art/gen_art_research_2/research_report.md",
+   "exists": true,
+   "bytes": 41532,
+   "sha256": "759d8fe665708de1a4a4fd5ce63b7a5fe9c3d58f7d1f5d9346229b0bb97d45a6"
+  }
+ ]
+}
