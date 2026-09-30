@@ -1,7 +1,0 @@
-{
- "n_method_object": 9751,
- "m2_labelled": 9744,
- "agree_share": 0.9031894164701056,
- "agree_by_frame_type": "{('cohort', 'method'): 0.841, ('cohort', 'object'): 0.888, ('exp5', 'method'): 0.873, ('exp5', 'object'): 0.915}",
- "llm_spent_total_usd": 2.0390545000000024
-}
