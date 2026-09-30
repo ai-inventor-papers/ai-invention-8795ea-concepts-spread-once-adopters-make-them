@@ -1,0 +1,579 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Early co-occurrence network openness predicts cross-disciplinary concept breadth</title>
+<style>
+:root {
+  --bg: #fafaf8;
+  --ink: #1c1c1c;
+  --ink-light: #5a5a5a;
+  --accent: #2563a0;
+  --accent-hover: #1a4a7a;
+  --border: #d5d3ce;
+  --surface: #fff;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 56px; }
+@media (min-width: 960px) { html { scroll-padding-top: 0; } }
+body {
+  font-family: var(--font);
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.skip-link {
+  position: fixed; left: -9999px; top: 1rem; z-index: 200;
+  padding: 0.6em 1.2em; background: var(--ink); color: #fff;
+  font-size: 0.9rem; text-decoration: none; border-radius: 3px;
+}
+.skip-link:focus { left: 1rem; }
+
+/* ── Navigation ── */
+.site-nav {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex; overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 0 1rem;
+}
+.site-nav a {
+  display: block; padding: 0.7rem 0.7rem;
+  font-size: 0.8rem; letter-spacing: 0.02em; text-transform: uppercase;
+  color: var(--ink-light); text-decoration: none; white-space: nowrap;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+.site-nav a:hover { color: var(--ink); }
+.site-nav a.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+
+@media (min-width: 960px) {
+  .site-nav {
+    position: fixed; left: 0; top: 0; bottom: 0; width: 180px;
+    flex-direction: column; border-bottom: none;
+    border-right: 1px solid var(--border);
+    padding: 3rem 0 2rem; overflow-x: visible; overflow-y: auto;
+  }
+  .site-nav a {
+    padding: 0.5rem 1.5rem; border-bottom: none;
+    border-left: 2px solid transparent; text-transform: none;
+    font-size: 0.85rem; letter-spacing: 0;
+  }
+  .site-nav a.active { border-bottom: none; border-left-color: var(--accent); }
+  .page-wrapper { margin-left: 180px; }
+  html { scroll-padding-top: 0; }
+}
+
+/* ── Content ── */
+.content { max-width: 42em; margin: 0 auto; padding: 0 1rem; }
+section, .code-list-section { padding-top: 3.5rem; padding-bottom: 1.5rem; }
+p { margin-bottom: 1em; }
+a { color: var(--accent); }
+a:hover { color: var(--accent-hover); }
+
+/* ── Typography ── */
+h1 {
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 700; line-height: 1.2; letter-spacing: -0.015em;
+}
+h2 {
+  font-size: 1.4rem; font-weight: 700; line-height: 1.3;
+  margin-bottom: 1.25rem; padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+h3 {
+  font-size: 1.05rem; font-weight: 600; line-height: 1.35;
+  margin-top: 2.5rem; margin-bottom: 0.75rem;
+}
+h3:first-child { margin-top: 0; }
+
+/* ── Hero ── */
+.hero { padding-top: 4rem; padding-bottom: 2rem; }
+.authors { color: var(--ink-light); font-size: 0.95rem; margin: 0.75rem 0 1.5rem; }
+.tldr { font-size: 1rem; max-width: 40em; }
+.hero-links {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem;
+  margin-top: 1.5rem; font-size: 0.9rem;
+}
+.hero-links a { text-decoration: none; border-bottom: 1px solid var(--accent); }
+.hero-links a:hover { border-bottom-color: var(--accent-hover); }
+.round-reports {
+  font-size: 0.85rem; color: var(--ink-light); margin-top: 0.6rem;
+}
+.round-reports a { font-size: 0.85rem; }
+
+/* ── Contribution cards ── */
+.cards { display: flex; flex-direction: column; gap: 1.5rem; margin-top: 0.5rem; }
+.card { border-left: 3px solid var(--accent); padding-left: 1rem; }
+.card h3 { margin: 0 0 0.3rem; font-size: 1rem; }
+.card p { font-size: 0.95rem; color: var(--ink-light); margin-bottom: 0; }
+
+/* ── Figures inline ── */
+figure { margin: 2rem 0; }
+figure a { display: block; text-decoration: none; }
+figure img {
+  display: block; width: 100%; height: auto; cursor: zoom-in;
+  border: 1px solid var(--border); background: #fff;
+}
+figcaption {
+  font-size: 0.82rem; color: var(--ink-light); line-height: 1.5;
+  margin-top: 0.6rem;
+}
+
+/* ── Result blocks ── */
+.result-block {
+  margin: 1.5rem 0 1rem; padding: 1rem 1.25rem;
+  border-left: 3px solid var(--accent); background: var(--surface);
+}
+.result-number {
+  font-size: 1.6rem; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2;
+}
+.result-ci { font-size: 0.9rem; color: var(--ink-light); margin-top: 0.15rem; }
+.result-label { font-size: 0.88rem; color: var(--ink-light); margin-top: 0.4rem; }
+
+/* ── Gallery ── */
+.gallery { display: grid; gap: 2.5rem; }
+.gallery figure { margin: 0; }
+.gallery figcaption { font-size: 0.8rem; }
+
+/* ── Limitations ── */
+.lim-list { list-style: none; padding: 0; }
+.lim-list li { margin-bottom: 1rem; font-size: 0.95rem; }
+.lim-list strong { font-weight: 600; color: var(--ink); }
+.lim-list li span { color: var(--ink-light); }
+
+/* ── Code list ── */
+.code-list-section ul { list-style: none; padding: 0; }
+.code-list-section li {
+  padding: 0.35rem 0; font-size: 0.88rem;
+  border-bottom: 1px solid var(--border);
+}
+.code-list-section li:last-child { border-bottom: none; }
+@media (min-width: 640px) {
+  .code-list-section ul { columns: 2; column-gap: 2rem; }
+  .code-list-section li { break-inside: avoid; }
+}
+
+/* ── Footer ── */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 0 3rem; margin-top: 1rem;
+}
+.footer-links {
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem;
+  font-size: 0.88rem; margin-bottom: 0.6rem;
+}
+.footer-links a { text-decoration: none; border-bottom: 1px solid var(--accent); }
+.footer-round {
+  font-size: 0.82rem; color: var(--ink-light); margin-bottom: 1.5rem;
+}
+.citation {
+  font-size: 0.82rem; color: var(--ink-light); padding: 1rem;
+  background: var(--surface); border: 1px solid var(--border);
+  line-height: 1.5;
+}
+
+/* ── Lightbox ── */
+.lightbox {
+  display: none; position: fixed; inset: 0; z-index: 300;
+  background: rgba(0,0,0,0.88);
+  flex-direction: column; align-items: center; justify-content: center;
+  padding: 1rem;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 100%; max-height: 78vh; object-fit: contain;
+  background: #fff;
+}
+.lb-close {
+  position: absolute; top: 0.75rem; right: 0.75rem;
+  background: rgba(255,255,255,0.15); border: none; color: #fff;
+  font-size: 1.6rem; width: 2.5rem; height: 2.5rem;
+  cursor: pointer; line-height: 1; border-radius: 3px;
+  display: flex; align-items: center; justify-content: center;
+}
+.lb-close:hover { background: rgba(255,255,255,0.3); }
+.lb-caption {
+  color: #ccc; font-size: 0.8rem; max-width: 56em; text-align: center;
+  margin-top: 0.75rem; max-height: 18vh; overflow-y: auto;
+  padding: 0 1rem; line-height: 1.45;
+}
+
+/* ── Inline code link ── */
+a.code-link {
+  font-size: 0.82rem; text-decoration: none;
+  border-bottom: 1px dashed var(--accent); white-space: nowrap;
+}
+
+/* ── Scrollbar hide for nav on mobile ── */
+@media (max-width: 959px) {
+  .site-nav { scrollbar-width: none; }
+  .site-nav::-webkit-scrollbar { display: none; }
+}
+
+/* ── Wide content overflow ── */
+.overflow-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<nav class="site-nav" data-scrollspy aria-label="Section navigation">
+  <a href="#hero">Overview</a>
+  <a href="#contributions">Contributions</a>
+  <a href="#method">Method</a>
+  <a href="#results">Results</a>
+  <a href="#figures">Figures</a>
+  <a href="#limitations">Limitations</a>
+</nav>
+
+<div class="page-wrapper">
+<main id="main">
+
+<!-- ════════ HERO ════════ -->
+<section id="hero" class="hero">
+<div class="content">
+  <h1>Early co-occurrence network openness predicts cross-disciplinary concept breadth: evidence from 12,499 scientific concepts</h1>
+  <p class="authors">AI Inventor</p>
+  <p class="tldr">Which early structural patterns predict whether a new scientific concept will cross disciplinary boundaries? This study tracked 12,499 concepts from the OpenAlex corpus across 26 scientific fields, screened 53 early co-occurrence network indicators against a popularity baseline, and identified seven that survive held-out validation. These seven compose into an openness index (OPEN) measuring how much a concept's early co-occurrence neighbourhood spans diverse topic communities. Pooled across six non-selection bodies, the partial Spearman correlation of OPEN with later cross-field breadth is +0.069: small, but positive in every body tested.</p>
+  <div class="hero-links">
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/paper.pdf">Read the paper (PDF)</a>
+    <a href="interactive.html">Explore the interactive demo</a>
+    <a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh">Code repository</a>
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/report.pdf">Read the full research report</a>
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/exec_summary.pdf">Read the executive summary</a>
+  </div>
+  <p class="round-reports">Round reports:
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-1/report.pdf">Round 1</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-2/report.pdf">Round 2</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-3/report.pdf">Round 3</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-4/report.pdf">Round 4</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-5/report.pdf">Round 5</a>
+  </p>
+</div>
+</section>
+
+<!-- ════════ CONTRIBUTIONS ════════ -->
+<section id="contributions">
+<div class="content">
+  <h2>Contributions</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Seven held-out validated indicators</h3>
+      <p>Of 53 early co-occurrence network indicators screened against a five-feature popularity baseline, seven survive held-out validation with Holm correction. Two carry negative signs: early retention ratio and ego-network density, meaning concepts with higher field retention or denser neighbourhoods spread less broadly.</p>
+    </article>
+    <article class="card">
+      <h3>The OPEN index</h3>
+      <p>A six-component composite of early co-occurrence openness, measuring how much a concept's neighbourhood acquires partners from diverse topic communities. Pooled across six non-selection bodies, the home-field OPEN index gives partial Spearman +0.069 [+0.038, +0.100] with rarefied cross-field breadth (I<sup>2</sup> = 0, all six bodies positive).</p>
+    </article>
+    <article class="card">
+      <h3>Retained-frontier relatedness</h3>
+      <p>Concepts spread next to fields related to the ones currently retaining them: d<sub>0</sub> = +0.322 [+0.291, +0.355] on an independent frame of 11,841 concepts. The pre-registered verdict is PARTIAL because the volume-matched contrast is null and the effect is backbone-specific.</p>
+    </article>
+    <article class="card">
+      <h3>Consistency predicts volume, not breadth</h3>
+      <p>Cheng et al.'s ideational consistency predicts next-year volume (+53.5%/SD) but, net of volume, predicts narrower cross-field reach. The reversal (partial Spearman -0.069, I<sup>2</sup> = 0) holds in all five field groups. Consolidation and broad spread are partly opposed.</p>
+    </article>
+    <article class="card">
+      <h3>Breadth is early contact diversity</h3>
+      <p>Early contact diversity accounts for 73% of the breadth gap between high- and low-breadth concepts. No discrete trajectory typology passes the naming rule; diffusion paths form a continuum along a breadth axis.</p>
+    </article>
+  </div>
+</div>
+</section>
+
+<!-- ════════ METHOD ════════ -->
+<section id="method">
+<div class="content">
+  <h2>Method</h2>
+
+  <figure>
+    <a href="figures/fig_overview_v0.jpg" data-lightbox="figures/fig_overview_v0.jpg" data-caption="Overview of the study design, read left to right. The OpenAlex snapshot (blue; 476M works, 129.4M base works 1995-2022) is title-matched against 56,643 legacy concepts, and Aho-Corasick matching plus an LLM precision gate (teal) keeps 12,499 grounded concepts. The panel split (green) assigns these to a development set (DEV 4,771), four held-out domain groups (3,372), a 2010-2014 onset cohort (4,356) and a fresh 2015-2017 cohort (1,443). For each concept, 53 early indicators in six families (orange) are computed in the t0 to t0+2 window and screened on DEV. Seven frozen indicators are confirmed on held-out, and the pooled partial Spearman of the OPEN index is +0.069. A conditional-logit entry model on 11,841 concepts gives d0 = 0.322 for retained-frontier relatedness, with verdict PARTIAL.">
+      <img src="figures/fig_overview_v0.jpg" alt="Flowchart showing the study pipeline from OpenAlex snapshot through concept identification, panel split, indicator computation to two research questions: indicator screening and field-entry modelling" loading="lazy">
+    </a>
+    <figcaption>Study design overview</figcaption>
+  </figure>
+
+  <h3>Data and concept identification</h3>
+  <p>The study draws on the OpenAlex bulk snapshot (476 million works, 129.4 million base works spanning 1995 to 2022). Concepts are identified by Aho-Corasick title matching of 56,643 legacy OpenAlex concepts (levels 2-5) plus Wikidata aliases, filtered through an LLM precision gate that drops concepts with precision below 0.80. This yields 12,499 grounded concepts, each assigned an onset year t<sub>0</sub> (the first year reaching 20 publications) and one or more home fields.</p>
+
+  <h3>Panel construction</h3>
+  <p>The panel splits concepts into a development set (DEV: 4,771 concepts in Computer Science, Engineering, Biochemistry/Genetics/Medicine and Medicine, onsets 2003-2009), four held-out domain groups (Physical Sciences, Life &amp; Environment, Social Sciences, Math &amp; Decision Sciences; 3,372 concepts), a 2010-2014 onset cohort (4,356), and a fresh 2015-2017 onset cohort (1,443) used only for final confirmation. The primary outcome is rarefied field breadth O<sub>2r</sub> (m = 50): the expected number of distinct venue fields among a fixed-size random draw of papers, separating size-adjusted breadth from sheer volume.</p>
+
+  <h3>Indicator screening and the OPEN index</h3>
+  <p>Fifty-three candidate indicators span six families: ego-network topology (27), popularity (6), disciplinary spread (3), retained frontier (7), gateway centrality (7), and co-author reach (3). All are computed in the early window t<sub>0</sub> to t<sub>0</sub>+2 and screened on DEV by partial Spearman priority against a five-feature popularity baseline (B5: log volume, growth, non-home share, Shannon entropy, field reach). Confirmation requires Holm-corrected p &lt; 0.05 and a 95% CI excluding zero on the DerSimonian-Laird pooled estimate.</p>
+  <p>The OPEN index is the mean of six signed z-scored components from the home-field co-occurrence graph: new edge rate (+), number of Leiden communities reached (+), participation coefficient (+), neighbourhood novelty residual (+), ego density (-), and edge persistence (-). High-OPEN concepts have diverse, non-redundant early neighbourhoods.</p>
+
+  <h3>Field-entry model</h3>
+  <p>A conditional logit (Breslow partial likelihood) on concept-year risk sets tests whether concepts spread next to fields related to the ones currently retaining them. The model runs on an independent frame of 11,841 concepts (6,978 entry events in 6,076 informative strata), controlling for home relatedness, field size, entered density, gateway centrality, RCA density, and volume density. A field is "retaining" a concept when it has published at least two grounded papers on it in each of the two most recent years. Relatedness is measured by positive pointwise mutual information (PMI) on the field-level backbone.</p>
+</div>
+</section>
+
+<!-- ════════ RESULTS ════════ -->
+<section id="results">
+<div class="content">
+  <h2>Results</h2>
+
+  <h3>Openness predicts cross-field breadth</h3>
+  <div class="result-block">
+    <div class="result-number">+0.069</div>
+    <div class="result-ci">[+0.038, +0.100], I<sup>2</sup> = 0, 6/6 bodies positive</div>
+    <div class="result-label">Partial Spearman of OPEN<sub>home</sub> with rarefied cross-field breadth, pooled across six non-selection bodies</div>
+  </div>
+  <p>Seven of 53 screened indicators survive held-out validation (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-3/experiment-8">code</a>). They span two families: retained frontier (field density, volume-weighted density, contact reach, retention ratio) and co-occurrence topology (community count, neighbourhood novelty residual, ego density). Two carry negative signs: early retention ratio (-0.114) and ego density (-0.102).</p>
+  <p>The OPEN index was tested on a 2015-2017 onset cohort (1,443 concepts) never used in any prior screen (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-4/experiment-10">code</a>). Pooled across six non-selection bodies (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-5/evaluation-4">code</a>), the DerSimonian-Laird estimate is +0.069 [+0.038, +0.100] with I<sup>2</sup> = 0, all six bodies positive. The development-set estimate (+0.109) shows 1.58x shrinkage relative to the non-selection pool. The practical forecasting gain is small: OPEN<sub>home</sub> adds only +0.002 Spearman on the fresh cohort.</p>
+
+  <figure>
+    <a href="figures/fig_evidence_synthesis_v0.png" data-lightbox="figures/fig_evidence_synthesis_v0.png" data-caption="Partial Spearman correlation of OPEN (home-neighbourhood openness) with rarefied cross-field breadth at ladder rung R2 (controlling for B5 plus onset year, contact reach, concept type, generic-concept flag and concept level). Blue squares with whiskers show each of six non-selection bodies. The black diamond is the DerSimonian-Laird pooled estimate, +0.069 [+0.038, +0.100], I² = 0. The grey row is the DEV selection body (+0.109), not pooled.">
+      <img src="figures/fig_evidence_synthesis_v0.png" alt="Forest plot showing partial Spearman correlation of the OPEN index with rarefied cross-field breadth across six non-selection bodies, with pooled estimate +0.069" loading="lazy">
+    </a>
+    <figcaption>Evidence synthesis across bodies</figcaption>
+  </figure>
+
+  <p>A vocabulary-free replication on 636 phrase-born concepts (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-5/experiment-13">code</a>) gives OPEN<sub>home</sub> PSP +0.117 [+0.020, +0.218] at control rung R3; the verdict is partial (most demanding rung includes zero, Holm p = 0.052).</p>
+
+  <h3>Concepts spread to retained-field neighbours</h3>
+  <div class="result-block">
+    <div class="result-number">d<sub>0</sub> = 0.322</div>
+    <div class="result-ci">[0.291, 0.355], LR = 325.8, p &lt; 10<sup>-70</sup></div>
+    <div class="result-label">Retained-frontier coefficient (log-odds of field entry per SD of relatedness to off-home retaining fields), independent frame of 11,841 concepts</div>
+  </div>
+  <p>On the independent held-out frame (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-3/experiment-7">code</a>), concepts enter fields that are related (by PMI on the field backbone) to the off-home fields currently retaining them. The result is positive in three of three evaluable held-out groups: Physical Sciences 0.148, Life &amp; Environment 0.401, Social Sciences 0.297. Math &amp; Decision Sciences (n = 165) is null (0.065 [-0.110, 0.234]). The DerSimonian-Laird pooled d<sub>0</sub> across four held-out groups is 0.243 [0.118, 0.368] with I<sup>2</sup> = 0.92.</p>
+  <p>The pre-registered verdict is PARTIAL. The volume-matched contrast is null: -0.028 [-0.105, +0.046]. The dose response is not monotone. Under minimum-conditional-probability proximity instead of PMI, d<sub>0</sub> reverses to -0.021. Persistence is confounded with volume, and the result is backbone-specific.</p>
+
+  <figure>
+    <a href="figures/fig_entry_v0.png" data-lightbox="figures/fig_entry_v0.png" data-caption="Retained-frontier coefficient d₀ (log-odds of entering a field per SD of relatedness to the off-home fields that currently retain the concept) from the conditional-logit entry model (rung R3). The light-blue row is the DEV set. Dark-blue rows are held-out domain groups and the 2010-14 onset cohort. The black diamond is the DerSimonian-Laird pooled estimate over four held-out groups, 0.243 [0.118, 0.368], I² = 0.92. The frozen verdict is PARTIAL.">
+      <img src="figures/fig_entry_v0.png" alt="Forest plot showing the retained-frontier coefficient d-zero across domain groups and cohort, with pooled estimate 0.243" loading="lazy">
+    </a>
+    <figcaption>Retained-frontier entry across domains</figcaption>
+  </figure>
+
+  <h3>Consistency predicts volume, not breadth</h3>
+  <div class="result-block">
+    <div class="result-number">-0.069</div>
+    <div class="result-ci">[-0.093, -0.047], I<sup>2</sup> = 0, 5/5 groups negative</div>
+    <div class="result-label">Partial Spearman of ideational consistency with rarefied breadth, net of B5 baseline</div>
+  </div>
+  <p>Rebuilding Cheng et al.'s ideational consistency on OpenAlex topic co-usage (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-5/experiment-14">code</a>), the model reproduces their estimate for volume growth: b = 0.428 (+53.5%/SD). Adding current volume removes almost all of it (residual-to-raw ratio 0.021). Net of the B5 baseline, consistency's partial Spearman with rarefied breadth is -0.069 [-0.093, -0.047] on the pooled bodies, replicating on the 2015-2017 cohort (-0.111 [-0.197, -0.030]). Consolidation predicts local growth; breadth requires the opposite.</p>
+
+  <h3>Breadth is mostly early contact diversity</h3>
+  <div class="result-block">
+    <div class="result-number">73%</div>
+    <div class="result-ci">DEV 77.9%, held-out pool 63.3% [53.7%, 72.7%]</div>
+    <div class="result-label">Share of the breadth gap attributable to early contact diversity</div>
+  </div>
+  <p>On DEV (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-4/experiment-12">code</a>), the breadth gap between the top and bottom O<sub>2r</sub> terciles decomposes as: early contact diversity 77.9%, frontier advance -4.6%, retention 26.8%. What distinguishes broadly spreading concepts is how many fields they contact early, not how many more fields they enter per year thereafter.</p>
+  <p>No discrete trajectory typology is stable: DTW k-medoids and HMM-based clustering give adjusted Rand index 0.222. PCA reveals a continuum along a breadth axis (PC1, 38.8% of variance).</p>
+
+  <figure>
+    <a href="figures/fig_case_study_v0.png" data-lightbox="figures/fig_case_study_v0.png" data-caption="Matched case-study pair (pair 1 of 7): GPU (onset t₀=2008, high OPEN) versus vertical-axis wind turbine (VAWT; t₀=2009, low OPEN). Both have an Engineering home field and are matched on early volume. (a) Off-home field entry and retention over time. (b, c) Topic co-occurrence ego networks: GPU has 34 topics in 8 communities (density 0.30), VAWT has 12 topics in 1 community (density 0.70). The pair illustrates the openness-breadth association and is not evidence for it.">
+      <img src="figures/fig_case_study_v0.png" alt="Three panels comparing GPU (high openness) and vertical-axis wind turbine (low openness): field entry trajectories over time, and topic co-occurrence ego networks showing 34 topics in 8 communities versus 12 topics in 1 community" loading="lazy">
+    </a>
+    <figcaption>Matched case-study pair</figcaption>
+  </figure>
+
+  <h3>Confound analysis</h3>
+  <p>Four null models test whether the openness signal is a measurement artefact (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-5/experiment-16">code</a>). Fixed-size rarefaction (10 papers/year) retains 68% of the association. A within-concept permutation null absorbs year-to-year churn: the temporal excess is indistinguishable from zero (pooled PSP +0.008 [-0.02, +0.03] vs raw +0.116 [+0.09, +0.14]). What predicts breadth is a static property of the concept's topic partner mix, not demonstrable temporal turnover. A within-concept closure test (<a class="code-link" href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-5/experiment-15">code</a>) is null on DEV and opposite-signed on held-out fields, confirming that openness operates as a between-concept trait rather than a within-concept mechanism.</p>
+</div>
+</section>
+
+<!-- ════════ FIGURES ════════ -->
+<section id="figures">
+<div class="content">
+  <h2>Figures</h2>
+  <div class="gallery">
+
+    <figure>
+      <a href="figures/fig_overview_v0.jpg" data-lightbox="figures/fig_overview_v0.jpg" data-caption="Overview of the study design, read left to right. The OpenAlex snapshot (blue; 476M works, 129.4M base works 1995-2022) is title-matched against 56,643 legacy concepts, and Aho-Corasick matching plus an LLM precision gate (teal) keeps 12,499 grounded concepts. The panel split (green) assigns these to a development set (DEV 4,771; CS, Eng, BGM, Med homes, onset 2003-2009), four held-out domain groups (3,372; PHYS, LIFEENV, SOC, MATHDEC) and a 2010-2014 onset cohort (4,356). A fresh 2015-2017 cohort (1,443; dashed box) comes from a separate scan. For each concept, 53 early indicators in six families (orange; A ego-network 27, E popularity 6, F disciplinary 3, FR frontier 7, G gateway 7, S co-author 3) are computed in the t0 to t0+2 window. They are screened on DEV and validated on held-out groups (RQ1, top right): 7 frozen indicators are confirmed on held-out, and the pooled partial Spearman of the OPEN index is +0.069. Separately (lower arrow, bypassing the indicators), a conditional-logit entry model is fitted on an independent concept frame of 11,841 concepts (RQ2, bottom right). It gives d0 = 0.322 for retained-frontier relatedness, and the pre-registered verdict is PARTIAL because persistence is confounded with volume.">
+        <img src="figures/fig_overview_v0.jpg" alt="Flowchart showing the study pipeline from OpenAlex snapshot through concept identification, panel split, indicator computation to two research questions: indicator screening (7 confirmed, OPEN pooled +0.069) and field-entry modelling (d0 = 0.322, verdict PARTIAL)" loading="lazy">
+      </a>
+      <figcaption><strong>Study design overview.</strong> The OpenAlex snapshot (blue; 476M works, 129.4M base works 1995-2022) is title-matched against 56,643 legacy concepts, and Aho-Corasick matching plus an LLM precision gate (teal) keeps 12,499 grounded concepts. The panel split (green) assigns these to a development set (DEV 4,771; CS, Eng, BGM, Med homes, onset 2003-2009), four held-out domain groups (3,372; PHYS, LIFEENV, SOC, MATHDEC) and a 2010-2014 onset cohort (4,356). A fresh 2015-2017 cohort (1,443; dashed box) comes from a separate scan. For each concept, 53 early indicators in six families (orange; A ego-network 27, E popularity 6, F disciplinary 3, FR frontier 7, G gateway 7, S co-author 3) are computed in the t<sub>0</sub> to t<sub>0</sub>+2 window. They are screened on DEV and validated on held-out groups (RQ1, top right): 7 frozen indicators are confirmed on held-out, and the pooled partial Spearman of the OPEN index is +0.069. Separately (lower arrow), a conditional-logit entry model is fitted on an independent concept frame of 11,841 concepts (RQ2, bottom right). It gives d<sub>0</sub> = 0.322 for retained-frontier relatedness, and the pre-registered verdict is PARTIAL because persistence is confounded with volume.</figcaption>
+    </figure>
+
+    <figure>
+      <a href="figures/fig_evidence_synthesis_v0.png" data-lightbox="figures/fig_evidence_synthesis_v0.png" data-caption="Partial Spearman correlation of OPEN_home (home-neighbourhood openness over t0..t0+2) with rarefied cross-field breadth (O2r, m=50) at ladder rung R2. R2 controls for the five-feature popularity baseline B5 plus onset year, contact reach, concept type, a generic-concept flag and concept level. Blue squares with whiskers show the estimate and 95% concept-bootstrap CI (2,000 draws) for each of six non-selection bodies: four held-out home groups (Physical Sciences, Life &amp; Environment, Social Sciences, Math &amp; Decision; onsets 2003-09), the 2010-14 onset cohort and the 2015-17 onset cohort. n is the number of concepts analysed. The black diamond spans the DerSimonian-Laird pooled estimate over these six bodies, +0.069 [+0.038, +0.100], I² = 0, 6/6 positive. The dotted vertical line marks this pooled estimate and the dashed line marks zero. The grey row below the separator is the DEV selection body, on which the index was chosen (+0.109 [+0.073, +0.144]). It is not pooled, and it is 1.58x the non-selection pool. The association is small and has the same sign in every body, but only the two cohort rows and the pool have CIs above zero individually. All non-selection bodies except the 2015-17 cohort had outcomes read in earlier analyses, so the pool is descriptive rather than confirmatory.">
+        <img src="figures/fig_evidence_synthesis_v0.png" alt="Forest plot showing partial Spearman correlation of the OPEN index with rarefied cross-field breadth across six non-selection bodies, with pooled estimate +0.069, all positive" loading="lazy">
+      </a>
+      <figcaption><strong>Evidence synthesis across bodies.</strong> Partial Spearman correlation of OPEN<sub>home</sub> (home-neighbourhood openness over t<sub>0</sub> to t<sub>0</sub>+2) with rarefied cross-field breadth (O<sub>2r</sub>, m=50) at ladder rung R2, controlling for the five-feature popularity baseline B5 plus onset year, contact reach, concept type, a generic-concept flag and concept level. Blue squares with whiskers show the estimate and 95% concept-bootstrap CI (2,000 draws) for each of six non-selection bodies. The black diamond spans the DerSimonian-Laird pooled estimate, +0.069 [+0.038, +0.100], I<sup>2</sup> = 0, 6/6 positive. The grey row is the DEV selection body (+0.109 [+0.073, +0.144]), not pooled, 1.58x the non-selection pool. The association is small and has the same sign in every body, but only the two cohort rows and the pool have CIs above zero individually.</figcaption>
+    </figure>
+
+    <figure>
+      <a href="figures/fig_entry_v0.png" data-lightbox="figures/fig_entry_v0.png" data-caption="Retained-frontier coefficient d0 (log-odds of entering a field per SD of relatedness to the off-home fields that currently retain the concept) from the conditional-logit entry model (rung R3, controlling for home relatedness, field size, entered density, own gateway centrality, RCA density and volume density), by unit. Circles with bars show point estimates with 95% concept-bootstrap confidence intervals. The light-blue row is the development (DEV) set used for selection. Dark-blue rows are the held-out domain groups and the 2010-14 onset cohort. The black diamond is the DerSimonian-Laird random-effects estimate pooled over the four held-out groups, and its width spans its 95% CI. d0 is positive with a CI excluding zero in all three evaluable held-out groups (Physical Sciences 0.148, Life &amp; Env. 0.401, Social Sciences 0.297) and in the cohort (0.321). Math &amp; Decision (n = 165, excluded as underpowered before the freeze) is null (0.065 [-0.110, 0.234]). The pooled estimate is 0.243 [0.118, 0.368] with high heterogeneity (I² = 0.92). The frozen verdict is PARTIAL: the pre-registered volume-matched contrast is null, and the effect is specific to the PMI backbone.">
+        <img src="figures/fig_entry_v0.png" alt="Forest plot showing the retained-frontier coefficient d-zero across domain groups and cohort, pooled estimate 0.243 with I-squared 0.92" loading="lazy">
+      </a>
+      <figcaption><strong>Retained-frontier entry across domains.</strong> Retained-frontier coefficient d<sub>0</sub> (log-odds of entering a field per SD of relatedness to the off-home fields currently retaining the concept) from the conditional-logit entry model (rung R3). Circles with bars show point estimates with 95% concept-bootstrap CIs. The light-blue row is DEV. Dark-blue rows are held-out groups and the 2010-14 cohort. The black diamond is the pooled estimate over four held-out groups: 0.243 [0.118, 0.368], I<sup>2</sup> = 0.92. d<sub>0</sub> is positive in all three evaluable held-out groups (Physical Sciences 0.148, Life &amp; Env. 0.401, Social Sciences 0.297) and in the cohort (0.321). Math &amp; Decision (n = 165) is null. The frozen verdict is PARTIAL.</figcaption>
+    </figure>
+
+    <figure>
+      <a href="figures/fig_case_study_v0.png" data-lightbox="figures/fig_case_study_v0.png" data-caption="Illustrative matched case-study pair (pair 1 of 7): graphics processing unit (GPU; onset t0=2008, high early-neighbourhood openness OPEN) versus vertical-axis wind turbine (VAWT; t0=2009, low OPEN). Both have an Engineering home field and are matched on early volume and growth. (a) Number of off-home venue fields each concept has ever entered (solid line) and currently retains (dashed line) in each year from t0 to t0+8; GPU is shown in black and VAWT in grey. By t0+2 GPU had entered 7 off-home fields and VAWT 2; by t0+8 they had entered 11 and 6 and retained 8 and 4. (b, c) Topic co-occurrence ego networks over the first three years. GPU's neighbourhood has 34 topics in 8 communities (density 0.30), led by Engineering &amp; Physics, Computer Science and Medicine communities. VAWT's has 12 topics in a single Engineering community (density 0.70). The pair illustrates the openness-breadth association and is not evidence for it.">
+        <img src="figures/fig_case_study_v0.png" alt="Three panels comparing GPU (high openness, 34 topics in 8 communities) and vertical-axis wind turbine (low openness, 12 topics in 1 community): field entry trajectories and topic co-occurrence ego networks" loading="lazy">
+      </a>
+      <figcaption><strong>Matched case-study pair.</strong> GPU (onset t<sub>0</sub>=2008, high OPEN) versus vertical-axis wind turbine (VAWT; t<sub>0</sub>=2009, low OPEN). Both have an Engineering home field and are matched on early volume. (a) Off-home field entry and retention over time: by t<sub>0</sub>+8, GPU had entered 11 fields and retained 8; VAWT had entered 6 and retained 4. (b, c) Topic ego networks over t<sub>0</sub> to t<sub>0</sub>+2: GPU has 34 topics in 8 communities (density 0.30); VAWT has 12 topics in 1 community (density 0.70). The pair illustrates the openness-breadth association and is not evidence for it.</figcaption>
+    </figure>
+
+  </div>
+</div>
+</section>
+
+<!-- ════════ LIMITATIONS ════════ -->
+<section id="limitations">
+<div class="content">
+  <h2>Limitations</h2>
+  <ul class="lim-list">
+    <li><strong>Effect size.</strong> <span>The OPEN-breadth association is modest. OPEN<sub>home</sub> adds no forecasting gain over B5 on the fresh cohort (+0.002 [-0.003, +0.008]).</span></li>
+    <li><strong>Measurement noise.</strong> <span>Split-half reliability of OPEN<sub>home</sub> is 0.49. The temporal-excess variants have split-half reliability below 0.05, so temporal versus static dispersion cannot be resolved at available sample sizes.</span></li>
+    <li><strong>Vocabulary bias.</strong> <span>The legacy OpenAlex concept vocabulary is survivor-selected. The vocabulary-free frame is small (636 concepts) with pre-unseal power of 0.47.</span></li>
+    <li><strong>Mechanical coupling.</strong> <span>About half of the OPEN<sub>all</sub> signal is mechanical coupling between the ego-network construction (which uses off-home papers) and the breadth outcome. OPEN<sub>home</sub> is free of this coupling but marginal.</span></li>
+    <li><strong>Domain heterogeneity.</strong> <span>Life &amp; Environment shows the weakest OPEN signal (PSP +0.042 vs pooled +0.069). The retained-field relatedness I<sup>2</sup> is 0.92.</span></li>
+    <li><strong>Not causal.</strong> <span>Early ego-network openness could reflect a concept's intrinsic generality, the diversity of the research community around it, or the breadth of the problems it addresses.</span></li>
+    <li><strong>Prior unsealing.</strong> <span>Held-out outcomes were previously unsealed by two earlier experiments in the same project, so the indicator-screen held-out results are robustness checks rather than fully independent confirmations.</span></li>
+  </ul>
+</div>
+</section>
+
+<!-- ════════ EXPERIMENT CODE ════════ -->
+<section class="code-list-section">
+<div class="content">
+  <h2>Experiment code</h2>
+  <ul>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-1/experiment-1">Does citing a concept 'as your own' predict its spread?</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-1/experiment-3">Do diverse topic ties predict concept spread?</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-1/experiment-4">Where a concept lands early vs how broadly it spreads</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-2/experiment-5">Do hub fields keep new concepts? Held-out test</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-2/experiment-6">Where new scientific concepts spread next</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-2/evaluation-1">Does the gateway-field retention signal replicate?</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-2/dataset-2">When research concepts were officially recognised</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-2/research-1">How our results compare with related papers</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-3/evaluation-2">Auditing the record before the paper</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-3/research-2">Is 'fields that keep it' new? Prior art and venue check</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-4/evaluation-3">Record fixes and openness robustness tests</a></li>
+    <li><a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh/round-4/research-3">Is 'keep exploring, spread widest' already known?</a></li>
+  </ul>
+</div>
+</section>
+
+</main>
+
+<!-- ════════ FOOTER ════════ -->
+<footer class="site-footer">
+<div class="content">
+  <div class="footer-links">
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/paper.pdf">Read the paper (PDF)</a>
+    <a href="interactive.html">Explore the interactive demo</a>
+    <a href="https://github.com/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them/tree/fork/run_e4QYTG8fEPNh">Code repository</a>
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/report.pdf">Read the full research report</a>
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/exec_summary.pdf">Read the executive summary</a>
+  </div>
+  <p class="footer-round">Round reports:
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-1/report.pdf">Round 1</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-2/report.pdf">Round 2</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-3/report.pdf">Round 3</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-4/report.pdf">Round 4</a>,
+    <a href="https://cdn.jsdelivr.net/gh/ai-inventor-papers/ai-invention-8795ea-concepts-spread-once-adopters-make-them@fork/run_e4QYTG8fEPNh/round-5/report.pdf">Round 5</a>
+  </p>
+  <div class="citation">AI Inventor. Early co-occurrence network openness predicts cross-disciplinary concept breadth: evidence from 12,499 scientific concepts. 2026.</div>
+</div>
+</footer>
+
+</div><!-- .page-wrapper -->
+
+<!-- ════════ LIGHTBOX ════════ -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Figure viewer" aria-hidden="true">
+  <button class="lb-close" id="lb-close" aria-label="Close figure viewer">&times;</button>
+  <img id="lb-img" src="figures/fig_overview_v0.jpg" alt="">
+  <p class="lb-caption" id="lb-caption"></p>
+</div>
+
+<script>
+/* aii-scroll-spy v1: paste verbatim */
+(function () {
+  var links = [], targets = [];
+  document.querySelectorAll('[data-scrollspy] a[href^="#"]').forEach(function (a) {
+    var el = document.getElementById(a.getAttribute('href').slice(1));
+    if (el) { links.push(a); targets.push(el); }
+  });
+  if (!links.length) return;
+  var queued = false;
+  function current() {
+    var view = window.innerHeight;
+    var doc = document.documentElement;
+    var atEnd = window.scrollY > 0 && view + window.scrollY >= doc.scrollHeight - 2;
+    var line = atEnd ? view - 1 : Math.min(view * 0.3, 200);
+    var best = null, bestTop = -Infinity;
+    targets.forEach(function (el) {
+      var top = el.getBoundingClientRect().top;
+      if (top <= line && top > bestTop) { best = el; bestTop = top; }
+    });
+    return best;
+  }
+  function update() {
+    queued = false;
+    var el = current();
+    links.forEach(function (a, i) {
+      var on = targets[i] === el;
+      a.classList.toggle('active', on);
+      if (on) a.setAttribute('aria-current', 'location');
+      else a.removeAttribute('aria-current');
+    });
+  }
+  function schedule() {
+    if (!queued) { queued = true; window.requestAnimationFrame(update); }
+  }
+  window.addEventListener('scroll', schedule, { passive: true });
+  window.addEventListener('resize', schedule);
+  window.addEventListener('load', schedule);
+  if (window.ResizeObserver) new ResizeObserver(schedule).observe(document.body);
+  update();
+})();
+
+/* Lightbox */
+(function () {
+  var lb = document.getElementById('lightbox');
+  var img = document.getElementById('lb-img');
+  var cap = document.getElementById('lb-caption');
+  var closeBtn = document.getElementById('lb-close');
+  var trigger = null;
+
+  document.querySelectorAll('[data-lightbox]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      trigger = a;
+      img.src = a.getAttribute('data-lightbox');
+      var inner = a.querySelector('img');
+      img.alt = inner ? inner.alt : '';
+      cap.textContent = a.getAttribute('data-caption') || '';
+      lb.classList.add('open');
+      lb.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      closeBtn.focus();
+    });
+  });
+
+  function close() {
+    lb.classList.remove('open');
+    lb.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+    if (trigger) { trigger.focus(); trigger = null; }
+  }
+
+  closeBtn.addEventListener('click', close);
+  lb.addEventListener('click', function (e) { if (e.target === lb) close(); });
+
+  document.addEventListener('keydown', function (e) {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') { close(); return; }
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      closeBtn.focus();
+    }
+  });
+})();
+</script>
+</body></html>
