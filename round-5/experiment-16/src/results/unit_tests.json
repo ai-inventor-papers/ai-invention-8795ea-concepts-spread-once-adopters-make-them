@@ -1,0 +1,61 @@
+{
+ "T0_gate": true,
+ "U1_fast6_equals_concept_core": true,
+ "U1_n_concepts": 1000,
+ "U2_permutation": true,
+ "U5_rarefy_identity": true,
+ "U6_chao": true,
+ "U3_curveball_toy_uniform": true,
+ "U3_curveball_margins_full_run": {
+  "column_sums_preserved": true,
+  "row_sizes_preserved": true,
+  "rows_remain_sets": true
+ },
+ "U4_rewire_calibration": true,
+ "U4_v1_single_graph_design": false,
+ "U7_psp_reproduces_EXP10": {
+  "OPEN_home": {
+   "mine": 0.09059049284973036,
+   "published": 0.0905904928497304,
+   "n_mine": 573,
+   "n_published": 573,
+   "abs_diff": 4.163336342344337e-17,
+   "pass": true
+  },
+  "NOV_res__home": {
+   "mine": 0.13368999979699833,
+   "published": 0.1336899997969982,
+   "n_mine": 506,
+   "n_published": 506,
+   "abs_diff": 1.3877787807814457e-16,
+   "pass": true
+  },
+  "edge_persistence__home": {
+   "mine": -0.11231075452403043,
+   "published": -0.1123107545240305,
+   "n_mine": 597,
+   "n_published": 597,
+   "abs_diff": 6.938893903907228e-17,
+   "pass": true
+  }
+ },
+ "U7b_fastpsp": true,
+ "PC1_stationary": true,
+ "PC2_planted_churn": false,
+ "PC3_planted_recovered_all_bodies": true,
+ "PC3_placebo_rule_le1_of_20": {
+  "OLDHO": 1,
+  "COH1014": 5,
+  "DEV": 0,
+  "POOLED": 5,
+  "COH1517": 0
+ },
+ "placebo_calibration_500": {
+  "DEV": 0.042,
+  "OLDHO": 0.054,
+  "COH1014": 0.044,
+  "COH1517": 0.058,
+  "POOLED": 0.036
+ },
+ "rederive": true
+}

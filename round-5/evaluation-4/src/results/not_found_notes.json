@@ -1,0 +1,3 @@
+[
+ "C2 'Exp8 raw sign flip +0.143 / -0.126': no key in any Exp8/Exp10/Eval3/Research-3 file holds these two values as a sign flip; only -0.126 occurs, as prereg_verdicts.P2.pooled_ci[0]"
+]
