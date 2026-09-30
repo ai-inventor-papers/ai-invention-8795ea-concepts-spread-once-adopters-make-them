@@ -1,8 +1,0 @@
-warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
-URL: https://link.springer.com/article/10.1140/epjds/s13688-019-0205-9
-Type: HTML
-Pattern: AUC|exit|abandon|leave|lose|RCA|threshold|predict|precision|density (0 matches in 290 chars)
-
---- Content ---
-
-No matches found for pattern: AUC|exit|abandon|leave|lose|RCA|threshold|predict|precision|density

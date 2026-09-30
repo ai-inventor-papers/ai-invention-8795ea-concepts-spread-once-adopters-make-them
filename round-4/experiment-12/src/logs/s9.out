@@ -1,2 +1,0 @@
-03:41:29|INFO   |atlas: tier {'RAPID': 0.1, 'GRADUAL': 0.3, 'LOCAL': 0.1, 'DIFFUSING': 0.3, 'TRANSIENT': 0.1}; per type {'RAPID': 8, 'GRADUAL': 8, 'DIFFUSING': 8, 'TRANSIENT': 8, 'LOCAL': 5}; eligible avail {'RAPID': 10, 'GRADUAL': 12, 'LOCAL': 5, 'DIFFUSING': 10, 'TRANSIENT': 13}
-03:41:51|INFO   |atlas looked-meaningful: ['n_c', 'H', 'n_ent_off', 'n_ret', 'comm_span', 'frontier', 'n_comm_W3_all', 'participation_all', 'ego_density_W3_all', 'OPEN_all', 'OPEN_home']

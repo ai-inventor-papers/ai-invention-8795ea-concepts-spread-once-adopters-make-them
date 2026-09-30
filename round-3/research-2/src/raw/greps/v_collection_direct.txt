@@ -1,8 +1,0 @@
-warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
-URL: https://link.springer.com/collections/fgcaicgjah
-Type: HTML
-Pattern: everyday|deadline|Guest|Editor|submission|scope|health|mobility (0 matches in 290 chars)
-
---- Content ---
-
-No matches found for pattern: everyday|deadline|Guest|Editor|submission|scope|health|mobility
