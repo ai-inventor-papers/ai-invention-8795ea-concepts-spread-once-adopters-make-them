@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "method_name": "HOME partner-class decomposition of NOVCHURN (Part A) + Exp11 completion",
+    "description": "One example per concept with a finite O2r_m50: output = O2r_m50; predictions are 5-fold concept-CV ridge within body: B5 baseline vs B5 + NOVCHURN_home, B5 + 12 partner-class parts, B5 + OPEN_home. Se...",
+    "status": "EXPLORATORY (selection data) for Part A",
+    "cv_metrics": {
+      "COHORT_2010_14": {
+        "n": 2182,
+        "B5": {
+          "spearman_oof": 0.7642295012073395,
+          "rmse_oof": 1.315235891817017
+        },
+        "B5_plus_NOVCHURN": {
+          "spearman_oof": 0.7657081663883343,
+          "rmse_oof": 1.3116917426048964
+        },
+        "B5_plus_partner_classes": {
+          "spearman_oof": 0.7672753217200984,
+          "rmse_oof": 1.309190250457266
+        },
+        "B5_plus_OPEN_home": {
+          "spearman_oof": 0.7656285109872099,
+          "rmse_oof": 1.3122845127410643
+        },
+        "gain_NOVCHURN_spearman": {
+          "est": 0.0014786651809948204,
+          "ci": [
+            -0.000653090011217905,
+            0.0037680914052591894
+          ]
+        }
+      },
+      "DEV": {
+        "n": 3188,
+        "B5": {
+          "spearman_oof": 0.7608244308460211,
+          "rmse_oof": 1.2381081196883679
+        },
+        "B5_plus_NOVCHURN": {
+          "spearman_oof": 0.7636722073328421,
+          "rmse_oof": 1.234990819852174
+        },
+        "B5_plus_partner_classes": {
+          "spearman_oof": 0.7659616560033431,
+          "rmse_oof": 1.232764555181366
+        },
+        "B5_plus_OPEN_home": {
+          "spearman_oof": 0.7661241209295417,
+          "rmse_oof": 1.2306665917369586
+        },
+        "gain_NOVCHURN_spearman": {
+          "est": 0.0028477764868209965,
+          "ci": [
+            0.0009674251300214737,
+            0.004712577656090343
+          ]
+        }
+      },
+      "OLD_HELDOUT": {
+        "n": 1833,
+        "B5": {
+          "spearman_oof": 0.7056733332020236,
+          "rmse_oof": 1.3631551227040437
+        },
+        "B5_plus_NOVCHURN": {
+          "spearman_oof": 0.7096649924944395,
+          "rmse_oof": 1.3595902712602015
+        },
+        "B5_plus_partner_classes": {
+          "spearman_oof": 0.7089614376974612,
+          "rmse_oof": 1.355835559836279
+        },
+        "B5_plus_OPEN_home": {
+          "spearman_oof": 0.7065815264241505,
+          "rmse_oof": 1.3601284354360432
+        },
+        "gain_NOVCHURN_spearman": {
+          "est": 0.00399165929241585,
+          "ci": [
+            0.0013455387914284745,
+            0.006682894017769369
+          ]
+        }
+      },
+      "COHORT_2015_17": {
+        "n": 634,
+        "B5": {
+          "spearman_oof": 0.7849264448885045,
+          "rmse_oof": 1.2774809998780408
+        },
+        "B5_plus_NOVCHURN": {
+          "spearman_oof": 0.787739899802977,
+          "rmse_oof": 1.2755364623639427
+        },
+        "B5_plus_partner_classes": {
+          "spearman_oof": 0.7836769701039418,
+          "rmse_oof": 1.2847413051230987
+        },
+        "B5_plus_OPEN_home": {
+          "spearman_oof": 0.7856580147410728,
+          "rmse_oof": 1.2748096686372363
+        },
+        "gain_NOVCHURN_spearman": {
+          "est": 0.0028134549144724907,
+          "ci": [
+            -0.0021909515687664888,
+            0.007962243497621957
+          ]
+        }
+      }
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "partner_home_concepts",
+      "examples": [
+        {
+          "input": "{\"concept\": \"Complete intersection\", \"ci\": 3, \"body\": \"COHORT_2010_14\", \"t0\": 2012, \"group\": \"MATHDEC\"}",
+          "output": "2.960784",
+          "predict_B5": "3.628718",
+          "predict_B5_plus_NOVCHURN": "3.350910",
+          "predict_B5_plus_partner_classes": "3.239747",
+          "predict_B5_plus_OPEN_home": "3.458411",
+          "metadata_body": "COHORT_2010_14",
+          "metadata_fold": 1,
+          "metadata_O2r_resid": -1.4819808004866881,
+          "metadata_NOVCHURN_home": -1.777876,
+          "metadata_NOV_res": -0.979137,
+          "metadata_edge_persistence": 0.5,
+          "metadata_new_edge_rate": 0.055556,
+          "metadata_churn": 0.5,
+          "metadata_bridging_share_home": 0.0,
+          "metadata_OPEN_home": -1.047779,
+          "metadata_M": 1.0,
+          "metadata_n1": 5.0,
+          "metadata_n_home_early": 59.0,
+          "metadata_nov_type_METHOD": 0.0,
+          "metadata_nov_type_DOMAIN": -0.979137,
+          "metadata_ch_type_METHOD": 0.2,
+          "metadata_ch_type_DOMAIN": 0.3,
+          "metadata_ner_comm_new": 0.0,
+          "metadata_ner_comm_old": 0.055556,
+          "metadata_nov_deg_low": -0.979137,
+          "metadata_nov_deg_high": 0.0,
+          "metadata_ner_carrier_mixed": 0.0,
+          "metadata_ner_carrier_pure": 0.055556,
+          "metadata_chd_all": 0.3,
+          "metadata_cha_all": 0.2
+        },
+        {
+          "input": "{\"concept\": \"Early adopter\", \"ci\": 16, \"body\": \"COHORT_2010_14\", \"t0\": 2011, \"group\": \"SOC\"}",
+          "output": "9.882396",
+          "predict_B5": "9.312038",
+          "predict_B5_plus_NOVCHURN": "9.164601",
+          "predict_B5_plus_partner_classes": "9.348918",
+          "predict_B5_plus_OPEN_home": "9.447515",
+          "metadata_body": "COHORT_2010_14",
+          "metadata_fold": 1,
+          "metadata_O2r_resid": 5.485668315394684,
+          "metadata_NOVCHURN_home": null,
+          "metadata_NOV_res": null,
+          "metadata_edge_persistence": null,
+          "metadata_new_edge_rate": 0.0,
+          "metadata_churn": null,
+          "metadata_bridging_share_home": 0.0,
+          "metadata_OPEN_home": null,
+          "metadata_M": 0.0,
+          "metadata_n1": 0.0,
+          "metadata_n_home_early": 8.0,
+          "metadata_nov_type_METHOD": null,
+          "metadata_nov_type_DOMAIN": null,
+          "metadata_ch_type_METHOD": null,
+          "metadata_ch_type_DOMAIN": null,
+          "metadata_ner_comm_new": 0.0,
+          "metadata_ner_comm_old": 0.0,
+          "metadata_nov_deg_low": null,
+          "metadata_nov_deg_high": null,
+          "metadata_ner_carrier_mixed": 0.0,
+          "metadata_ner_carrier_pure": 0.0,
+          "metadata_chd_all": null,
+          "metadata_cha_all": null
+        },
+        {
+          "input": "{\"concept\": \"World literature\", \"ci\": 92, \"body\": \"COHORT_2010_14\", \"t0\": 2010, \"group\": \"SOC\"}",
+          "output": "2.000000",
+          "predict_B5": "3.858290",
+          "predict_B5_plus_NOVCHURN": "3.781685",
+          "predict_B5_plus_partner_classes": "3.977783",
+          "predict_B5_plus_OPEN_home": "3.792267",
+          "metadata_body": "COHORT_2010_14",
+          "metadata_fold": 2,
+          "metadata_O2r_resid": -2.420413802633377,
+          "metadata_NOVCHURN_home": -0.422222,
+          "metadata_NOV_res": -0.91306,
+          "metadata_edge_persistence": 0.1,
+          "metadata_new_edge_rate": 0.166667,
+          "metadata_churn": 0.9,
+          "metadata_bridging_share_home": 0.0,
+          "metadata_OPEN_home": -0.334385,
+          "metadata_M": 2.0,
+          "metadata_n1": 3.0,
+          "metadata_n_home_early": 39.0,
+          "metadata_nov_type_METHOD": 0.0,
+          "metadata_nov_type_DOMAIN": -0.91306,
+          "metadata_ch_type_METHOD": 0.0,
+          "metadata_ch_type_DOMAIN": 0.9,
+          "metadata_ner_comm_new": 0.0,
+          "metadata_ner_comm_old": 0.166667,
+          "metadata_nov_deg_low": 0.0,
+          "metadata_nov_deg_high": -0.91306,
+          "metadata_ner_carrier_mixed": 0.0,
+          "metadata_ner_carrier_pure": 0.166667,
+          "metadata_chd_all": 0.45,
+          "metadata_cha_all": 0.45
+        }
+      ]
+    },
+    {
+      "dataset": "exp11_panel_predictions",
+      "examples": [
+        {
+          "input": "{\"ci\": 38611, \"year\": 2016, \"body\": \"COHORT\", \"age\": 3, \"density\": 1.0, \"OPEN_home\": -0.5187066796506081, \"log1p_home\": 2.0794415416798357, \"log1p_all\": 2.70805020110221, \"log1p_deg\": 1.09861228866810...",
+          "output": "0",
+          "predict_fe_density": "0.209360",
+          "predict_fe_open": "0.210639",
+          "predict_controls_only": "0.210923",
+          "metadata_body": "COHORT",
+          "metadata_fold": -1
+        },
+        {
+          "input": "{\"ci\": 37596, \"year\": 2018, \"body\": \"COHORT\", \"age\": 8, \"density\": 1.0, \"OPEN_home\": -0.4500407399991672, \"log1p_home\": 1.9459101490553132, \"log1p_all\": 3.1354942159291497, \"log1p_deg\": 1.098612288668...",
+          "output": "0",
+          "predict_fe_density": "0.000000",
+          "predict_fe_open": "0.000000",
+          "predict_controls_only": "0.000000",
+          "metadata_body": "COHORT",
+          "metadata_fold": -1
+        },
+        {
+          "input": "{\"ci\": 18921, \"year\": 2013, \"body\": \"COHORT\", \"age\": 0, \"density\": 1.0, \"OPEN_home\": 0.35191425644853824, \"log1p_home\": 2.8903717578961645, \"log1p_all\": 3.044522437723423, \"log1p_deg\": 1.0986122886681...",
+          "output": "1",
+          "predict_fe_density": "0.318387",
+          "predict_fe_open": "0.322569",
+          "predict_controls_only": "0.322098",
+          "metadata_body": "COHORT",
+          "metadata_fold": -1
+        }
+      ]
+    }
+  ]
+}

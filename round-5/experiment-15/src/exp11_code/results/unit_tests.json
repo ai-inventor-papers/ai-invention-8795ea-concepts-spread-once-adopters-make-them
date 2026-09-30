@@ -1,0 +1,112 @@
+{
+ "t1_ego_year_toy": {
+  "pass": true,
+  "max_abs_err": 0.0,
+  "errors": {
+   "2005_deg": 0.0,
+   "2005_new_rate": 0.0,
+   "2005_n_comm": 0.0,
+   "2005_participation": 0.0,
+   "2005_density": 0.0,
+   "2005_persistence": 0.0,
+   "2005_nov_res": 0.0,
+   "2006_deg": 0.0,
+   "2006_new_rate": 0.0,
+   "2006_n_comm": 0.0,
+   "2006_participation": 0.0,
+   "2006_density": 0.0,
+   "2006_persistence": 0.0
+  },
+  "note": "off-home works (vfield 2, topic 2) must not enter the home-only neighbourhood",
+  "seconds": 6.2
+ },
+ "t2_dens_null": {
+  "pass": true,
+  "complete": 1.0,
+  "empty": 0.0,
+  "random_p0.3_mean": 0.3000736842105263,
+  "graph_density": 0.3015075376884422,
+  "seconds": 0.1
+ },
+ "t3_d3": {
+  "pass": true,
+  "entries_match": true,
+  "at_risk_match": true,
+  "h2_exp6_equal": true,
+  "seconds": 9.3
+ },
+ "t7_seal": {
+  "missing_spec_raises": true,
+  "hash_mismatch_raises": true,
+  "second_attach_raises": true,
+  "valid_attach_ok": true,
+  "pass": true,
+  "seconds": 0.7
+ },
+ "t8_psp_exp8": {
+  "pass": true,
+  "unit_abs_err": {
+   "PHYS": 2.7755575615628914e-17,
+   "PHYS_n": 0,
+   "LIFEENV": 8.326672684688674e-17,
+   "LIFEENV_n": 0,
+   "SOC": 5.551115123125783e-17,
+   "SOC_n": 0,
+   "MATHDEC": 2.7755575615628914e-17,
+   "MATHDEC_n": 0
+  },
+  "pooled_from_stored_z": 0.11756687823572796,
+  "exp8_reported": 0.118,
+  "seconds": 5.9
+ },
+ "t5_sun_abraham": {
+  "pass": true,
+  "iw_max_abs_err": 0.0160589377404059,
+  "twfe_max_abs_err": 0.10295627057695489,
+  "iw_max_abs_lead": 0.015276031782822018,
+  "true_att": {
+   "0": 0.20719016083254496,
+   "1": 0.4143803216650899,
+   "2": 0.621570482497635,
+   "3": 0.8287606433301798,
+   "4": 1.0359508041627248
+  },
+  "iw_att": {
+   "-3": 0.015276031782822018,
+   "-2": 0.0009189192556244202,
+   "0": 0.22290350152147234,
+   "1": 0.4259145365027087,
+   "2": 0.6290577803046603,
+   "3": 0.8255426755510575,
+   "4": 1.0520097419031307
+  },
+  "twfe": {
+   "-3": -0.0048834265955549705,
+   "-2": -0.0060209026246183205,
+   "0": 0.23606022036193303,
+   "1": 0.4257794344122281,
+   "2": 0.606534734450654,
+   "3": 0.7710400964752382,
+   "4": 0.9329945335857699
+  },
+  "seconds": 0.7
+ },
+ "t6_reverse_path": {
+  "pass": true,
+  "share_HM3_one_directional": 1.0,
+  "share_HM3_symmetric": 0.025,
+  "n_sim": 40,
+  "seconds": 212.9
+ },
+ "t4_ppml_sim": {
+  "pass": true,
+  "mean_beta_effect": 0.2999695181221839,
+  "mean_abs_beta_null": 0.009009583463636449,
+  "crv1_coverage_null": 0.96,
+  "n_sim": 100,
+  "note": "coverage checked with the CRV1 intervals used for per-group results; the bootstrap is the same resampling unit (concept)",
+  "seconds": 35.7
+ },
+ "all_pass": true,
+ "note_t3_rerun": "t3 rerun after installing networkx==3.7 and copying build_d3.py verbatim (both missing on the first run)"
+}

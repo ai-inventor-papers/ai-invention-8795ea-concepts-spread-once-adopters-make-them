@@ -1,0 +1,59 @@
+{
+ "timing_exp5": {
+  "concepts": 12499,
+  "wall_s": 66.82686233520508,
+  "cpu_s_per_1000_concepts": 18.07728774338324,
+  "n_errors": 0,
+  "errors": []
+ },
+ "timing_cohort": {
+  "concepts": 1443,
+  "wall_s": 20.80127239227295,
+  "cpu_s_per_1000_concepts": 5.850524267882666,
+  "n_errors": 0,
+  "errors": [],
+  "n_rows": 160847
+ },
+ "n_rows_exp5": 5311676,
+ "diagnostics": {
+  "n_feature_rows": 279242,
+  "n_static": 13942,
+  "nan_share_CONS_early_home": 0.0817673217615837,
+  "nan_share_CONS_yearly_home_early": 0.11440252474537368,
+  "share_exact_0_or_1_CONS_yearly_home_early": 0.04959833596327643,
+  "CONS_early_home_quantiles": [
+   0.0,
+   0.14240623185313672,
+   0.2652341400908833,
+   0.40327094593048896,
+   0.5397620967845544,
+   0.6525213765926738,
+   0.9710607611177228
+  ],
+  "nan_share_by_body": {
+   "COHORT_2010_14": 0.0881542699724518,
+   "COHORT_2015_17": 0.079002079002079,
+   "DEV": 0.05701110878222595,
+   "OLD_HELDOUT": 0.10972716488730723
+  },
+  "nan_share_SOC_early_home": 0.008535360780375843,
+  "nan_share_EMB_early_home": 0.025175728016066563
+ },
+ "V_exp5": {
+  "U5_cells": 4600,
+  "U5_share_exact": 1.0,
+  "U5_mean_rel_diff": 0.0,
+  "U5_pearson": 1.0,
+  "V_source": "agg_counts",
+  "sum_agg": 131724.0,
+  "sum_m": 131724.0
+ },
+ "V_cohort": {
+  "n_sealed_parts": 2040,
+  "n_logged": 2040,
+  "sha_mismatch": [],
+  "missing": [],
+  "sealed_ok": true
+ },
+ "wall_min": 2.3677478949228923
+}

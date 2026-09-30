@@ -1,0 +1,13 @@
+{
+ "mined title n-gram keys (20% sample, k=3 superset)": 407114,
+ "candidate rule, k_t = 4": 216494,
+ "after legacy / generic / place exclusions": 182917,
+ "after POS filter (Pass-N candidates)": 132077,
+ "full-corpus onset 2003-2015 + selection clause": 4468,
+ "after containment dedup + home": 2257,
+ "LLM-gated (M1)": 2257,
+ "kept: M1 sense rule AND G2 concept": 636,
+ "finite OPEN_home": 578,
+ "finite OPEN_home & O2r_m30 (primary set)": 448,
+ "finite OPEN_home & O2r_m50": 397
+}
