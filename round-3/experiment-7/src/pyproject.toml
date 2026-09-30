@@ -1,0 +1,6 @@
+[project]
+name = "retained-frontier-exp7"
+version = "0.1.0"
+description = "Retained-frontier and abandonment-penalty test on concept x field entry risk sets"
+requires-python = ">=3.12"
+dependencies = ["numpy", "pandas", "pyarrow", "scipy", "statsmodels", "networkx", "matplotlib", "loguru", "joblib", "scikit-learn", "pyyaml"]

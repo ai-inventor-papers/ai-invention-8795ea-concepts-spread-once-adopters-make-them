@@ -1,0 +1,279 @@
+block,key_path,value,source_file
+delta_rho,delta_rho,-0.005644811115935844,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+ci90,ci90.0,-0.033844584160467935,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+ci90,ci90.1,0.016635147457856648,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+rho_B,rho_B,0.8338037342596614,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+rho_BC,rho_BC,0.8281589231437255,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+refit_bootstrap,refit_bootstrap.n,200.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+refit_bootstrap,refit_bootstrap.ci90.0,-0.09187184499185076,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+refit_bootstrap,refit_bootstrap.ci90.1,0.02335466662748035,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+refit_bootstrap,refit_bootstrap.mean,-0.018752421458182164,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h.r_half_mean,0.42830604178430265,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h.reliability_SB,0.5835386475610421,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_u.r_half_mean,0.5961750423489555,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_u.reliability_SB,0.7411576456722208,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_u.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.max_rho.r_half_mean,0.5901998870694524,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.max_rho.reliability_SB,0.7360334712469044,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.max_rho.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.n_nat_fields.r_half_mean,0.5580319187154145,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.n_nat_fields.reliability_SB,0.7069966563541257,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.n_nat_fields.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.bg_LOR.r_half_mean,0.8389296569691708,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.bg_LOR.reliability_SB,0.9120783873543035,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.bg_LOR.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_crude.r_half_mean,0.5731451157538114,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_crude.reliability_SB,0.7189812296147177,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_crude.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_MH.r_half_mean,0.6151089779785434,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_MH.reliability_SB,0.7568046107185309,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.A_h_MH.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.rho_star_field.r_half_mean,0.4549271020364391,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.rho_star_field.reliability_SB,0.6221705419471963,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+reliability,reliability.rho_star_field.n_splits_valid,50.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.metric_B,0.690909090909091,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.metric_BC,0.8090909090909091,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.delta,0.11818181818181805,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.ci90.0,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.ci90.1,0.35517163910855487,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,"eligible_subset_result.per_group.Biochemistry, Genetics and Molecular Biology.n",2.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Computer Science.n,4.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Computer Science.metric_B,0.6000000000000001,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Computer Science.metric_BC,0.6000000000000001,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Computer Science.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.per_group.Medicine.n,2.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+eligible_subset_result,eligible_subset_result.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.metric_B,0.8194635766955676,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.metric_BC,0.8246495421764848,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.delta,0.0051859654809172095,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.ci90.0,-0.0024376470213503974,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.ci90.1,0.01934729795335359,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.newborn_only.per_group.Biochemistry, Genetics and Molecular Biology.n",12.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.newborn_only.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.8601398601398602,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.newborn_only.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.8601398601398602,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.newborn_only.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Computer Science.n,18.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Computer Science.metric_B,0.8142414860681115,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Computer Science.metric_BC,0.8142414860681115,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Computer Science.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Medicine.n,9.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Medicine.metric_B,0.9666666666666667,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Medicine.metric_BC,0.9666666666666667,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.per_group.Medicine.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.newborn_only.n,42.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.metric_B,0.8698435277382643,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.metric_BC,0.8646277856804172,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.delta,-0.005215742057847139,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.ci90.0,-0.03472676691899025,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.ci90.1,0.019948348361599488,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.full_parent_sample.per_group.Biochemistry, Genetics and Molecular Biology.n",12.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.full_parent_sample.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.9020979020979022,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.full_parent_sample.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.9020979020979022,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.full_parent_sample.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Computer Science.n,13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Computer Science.metric_B,0.7802197802197801,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Computer Science.metric_BC,0.7307692307692307,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Computer Science.delta,-0.049450549450549386,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Engineering.n,2.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Medicine.n,10.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Medicine.metric_B,0.8787878787878788,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Medicine.metric_BC,0.8787878787878788,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.per_group.Medicine.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.full_parent_sample.n,37.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.metric_B,0.8342379504993486,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.metric_BC,0.8219713417281805,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.delta,-0.01226660877116803,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.ci90.0,-0.04444468595096206,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.ci90.1,0.013490235986865735,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m50.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m50.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.8681318681318682,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m50.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.8351648351648352,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m50.per_group.Biochemistry, Genetics and Molecular Biology.delta",-0.03296703296703296,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Computer Science.metric_B,0.7675324675324675,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Computer Science.metric_BC,0.751948051948052,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Computer Science.delta,-0.015584415584415479,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Medicine.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Medicine.metric_B,0.9636363636363637,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Medicine.metric_BC,0.9636363636363637,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.per_group.Medicine.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m50.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.metric_B,0.8603994789405123,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.metric_BC,0.8571428571428571,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.delta,-0.0032566217976551792,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.ci90.0,-0.02577102399936242,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.ci90.1,0.019131526530013526,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m20.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m20.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.8901098901098902,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m20.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.9065934065934067,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.O2r_m20.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.016483516483516536,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Computer Science.metric_B,0.8584415584415584,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Computer Science.metric_BC,0.8337662337662338,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Computer Science.delta,-0.024675324675324628,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Medicine.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Medicine.metric_B,0.881818181818182,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Medicine.metric_BC,0.8909090909090911,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.per_group.Medicine.delta,0.00909090909090915,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.n_pos_groups,2.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.O2r_m20.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.metric_B,0.8371689101172384,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.metric_BC,0.8234910985670865,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.delta,-0.013677811550151908,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.ci90.0,-0.04733656733125065,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.ci90.1,0.015125716974732025,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.B5_plus_offhome_vol_growth.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.B5_plus_offhome_vol_growth.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.8681318681318682,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.B5_plus_offhome_vol_growth.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.8681318681318682,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,"sensitivity.B5_plus_offhome_vol_growth.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Computer Science.metric_B,0.7935064935064934,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Computer Science.metric_BC,0.7727272727272727,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Computer Science.delta,-0.020779220779220675,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Medicine.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Medicine.metric_B,0.8909090909090911,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Medicine.metric_BC,0.8363636363636365,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.per_group.Medicine.delta,-0.054545454545454564,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+sensitivity,sensitivity.B5_plus_offhome_vol_growth.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+size_corr,size_corr.vol,0.1447182724846087,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+size_corr,size_corr.growth,-0.17652806531130816,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+size_corr,size_corr.offhome_vol,0.07469330192753998,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+size_corr,size_corr.offhome_growth,-0.033112582976598394,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.metric_B,0.8262626262626263,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.metric_BC,0.8,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.delta,-0.02626262626262621,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.ci90.0,-0.083984375,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.ci90.1,0.028462998102466774,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,"delta_auc_O1.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,"delta_auc_O1.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.4166666666666667,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,"delta_auc_O1.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.4166666666666667,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,"delta_auc_O1.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Computer Science.metric_B,0.8673469387755103,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Computer Science.metric_BC,0.8775510204081632,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Computer Science.delta,0.010204081632652962,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Engineering.metric_B,1.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Engineering.metric_BC,1.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Engineering.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Medicine.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Medicine.metric_B,0.7333333333333334,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Medicine.metric_BC,0.7,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.per_group.Medicine.delta,-0.03333333333333344,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.n_pos_groups,1.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O1,delta_auc_O1.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.metric_B,0.07954545454545453,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.metric_BC,0.07954545454545453,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.ci90.0,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.ci90.1,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,"delta_auc_O3.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Medicine.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Medicine.metric_B,0.5,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Medicine.metric_BC,0.5,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.per_group.Medicine.delta,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.n_pos_groups,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+delta_auc_O3,delta_auc_O3.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.n_units,367.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.n_concepts,46.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.n_units_with_data,186.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.R_j_rate,0.7629427792915532,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.auc_B,0.8530377668308703,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.auc_BC,0.854967159277504,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.delta,0.0019293924466337042,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.ci90.0,-0.010745801586309967,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.ci90.1,0.015779725494692025,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,"field_level.per_group.Biochemistry, Genetics and Molecular Biology.n",13.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,"field_level.per_group.Biochemistry, Genetics and Molecular Biology.metric_B",0.7714285714285714,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,"field_level.per_group.Biochemistry, Genetics and Molecular Biology.metric_BC",0.7746031746031746,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,"field_level.per_group.Biochemistry, Genetics and Molecular Biology.delta",0.0031746031746032743,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Computer Science.n,21.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Computer Science.metric_B,0.8401029748283753,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Computer Science.metric_BC,0.8368135011441648,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Computer Science.delta,-0.003289473684210509,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Engineering.n,3.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Engineering.metric_B,0.7777777777777778,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Engineering.metric_BC,0.8095238095238095,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Engineering.delta,0.031746031746031744,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Medicine.n,9.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Medicine.metric_B,0.875,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Medicine.metric_BC,0.8825757575757576,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.per_group.Medicine.delta,0.007575757575757569,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.n_pos_groups,2.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.n_units,186.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.auc_B,0.8557692307692308,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.auc_BC,0.8456730769230769,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.delta,-0.010096153846153921,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.ci90.0,-0.0362101008848094,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.ci90.1,0.016652789950335888,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+field_level,field_level.with_data_only.n_pos_groups,1.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.R2,0.658649967417526,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.ci90.0,0.3892168439684413,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.ci90.1,0.8285024315720316,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.spearman,0.6998480243161094,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.n,48.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.share_bg_positive,1.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+M1,M1.share_bg_ge_raw,0.7708333333333334,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.spearman_A_h_vs_A_h_crude_all,0.47584410225059265,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.optogenetics.probe_crude,-0.551,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.optogenetics.A_h_crude_new,-0.5353164296232231,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.optogenetics.A_h_new,-0.725544873302764,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.crowdsourcing.probe_crude,0.382,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.crowdsourcing.A_h_crude_new,-0.384983936444921,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.crowdsourcing.A_h_new,-0.5274614956474406,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.extreme learning machine.probe_crude,-1.063,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.extreme learning machine.A_h_crude_new,-0.8879642282462723,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.extreme learning machine.A_h_new,-0.7205780498872989,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.induced pluripotent stem cell.probe_crude,-0.628,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.induced pluripotent stem cell.A_h_crude_new,0.8240672838789065,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.induced pluripotent stem cell.A_h_new,-0.062148449775311206,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.compressed sensing.probe_crude,0.243,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.compressed sensing.A_h_crude_new,-0.39016861087745414,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.probe_overlap.compressed sensing.A_h_new,-0.44606459800744575,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.spearman_vs_probe_A_h,0.09999999999999999,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+agreement,agreement.spearman_vs_probe_crude,0.39999999999999997,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+s0_cross_source,s0_cross_source.n,11.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+s0_cross_source,s0_cross_source.spearman_O2r,0.8727272727272729,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.tau_c,0.29435799946446634,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.tau_cj,0.6480102378952861,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.intercept,0.251951021346834,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Biology,-0.09780085595259114,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Business,-0.5746159550215474,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Computer Science,-0.4698806212513673,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Economics,-0.21424105687367223,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Education,-0.27018513179493003,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Engineering,-0.45977230968702354,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Environmental Science,-0.40786808632473703,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Geography,-0.1771432950805807,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Law,0.5866053178979018,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Linguistics,0.27881768404708773,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Mathematics,-0.45865268546768584,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Medicine,-0.5019300933330966,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Physics,-0.08243330916795585,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Political Science,-0.20521434000395555,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Psychology,-0.3999311048212289,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.beta.Sociology,-0.8763625620296762,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pooling,pooling.n_cells,190.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.max_rhat,1.0097247007059889,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.spearman_vs_reml,0.9996047430830038,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.tau_c_mean,0.28995483858752114,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.tau_cj_mean,0.6562581671849119,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.seconds,17.098806619644165,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+pymc_check,pymc_check.divergences,0.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+glmm_check,glmm_check.n_rows,14663.0,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+glmm_check,glmm_check.fixed_cx,-0.5335465895717119,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+glmm_check,glmm_check.seconds,53.08157157897949,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json
+glmm_check,glmm_check.spearman_vs_primary,0.1625748298314591,iter_1/gen_art/gen_art_experiment_1/results/screen_result.json

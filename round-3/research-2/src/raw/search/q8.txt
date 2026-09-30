@@ -1,0 +1,43 @@
+Search: topic abandonment field adoption diffusion scientometrics  [scholarly via openalex]
+Found: 10 results
+
+1. A bibliometric review of the innovation adoption literature
+   https://doi.org/10.1016/j.techfore.2018.04.032
+   Technological Forecasting and Social Change · 2018 · cited by 278...
+
+2. Negative emissions—Part 1: Research landscape and synthesis
+   https://doi.org/10.1088/1748-9326/aabf9b
+   Environmental Research Letters · 2018 · cited by 892...
+
+3. The Adoption and Implementation of Transdisciplinary Research in the Field of Land-Use Science—A Comparative Case Study
+   https://doi.org/10.3390/su9111926
+   Sustainability · 2017 · cited by 63...
+
+4. Assessing Leading Institutions, Faculty, and Articles in Premier Information Systems Research Journals
+   https://doi.org/10.17705/1cais.02016
+   Communications of the Association for Information Systems · 2007 · cited by 115...
+
+5. Decentralization of Governance and Development
+   https://doi.org/10.1257/089533002320951037
+   The Journal of Economic Perspectives · 2002 · cited by 1825...
+
+6. To be or not to be digital? A bibliometric analysis of adoption of eHealth services
+   https://doi.org/10.1108/tqm-02-2023-0065
+   The TQM Journal · 2023 · cited by 20...
+
+7. Theories of Informetrics and Scholarly Communication
+   https://doi.org/10.1515/9783110308464
+   2016 · cited by 72...
+
+8. The Third Mission of the university: A systematic literature review on potentials and constraints
+   https://doi.org/10.1016/j.techfore.2020.120284
+   Technological Forecasting and Social Change · 2020 · cited by 888...
+
+9. Wearable technology and consumer interaction: A systematic review and research agenda
+   https://doi.org/10.1016/j.chb.2021.106710
+   Computers in Human Behavior · 2021 · cited by 192...
+
+10. The Diffusion of Second-Generation Statistical Techniques in Information Systems Research from 1990-2008
+   https://openalex.org/W2141373419
+   Journal of the Association for Information Systems · 2010 · cited by 25...
+

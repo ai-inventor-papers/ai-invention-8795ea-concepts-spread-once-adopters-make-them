@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m//FrVegPRT0l8fdHVrnr60dAeM</id>
+  <title>arXiv Query: search_query=&amp;id_list=2203.16316,2104.10812,1801.05352,2310.01046,2303.00622,1906.06843,1604.00696,1011.3120,2205.02942,1709.05392,1911.02890&amp;start=0&amp;max_results=20</title>
+  <updated>2026-09-28T21:51:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=20&amp;id_list=2203.16316,2104.10812,1801.05352,2310.01046,2303.00622,1906.06843,1604.00696,1011.3120,2205.02942,1709.05392,1911.02890" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.00696v1</id>
+    <title>Quantifying the Diaspora of Knowledge in the Last Century</title>
+    <updated>2016-04-03T22:22:22Z</updated>
+    <link href="https://arxiv.org/abs/1604.00696v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.00696v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Academic research is driven by several factors causing different disciplines to act as "sources" or "sinks" of knowledge. However, how the flow of authors' research interests -- a proxy of human knowledge -- evolved across time is still poorly understood. Here, we build a comprehensive map of such flows across one century, revealing fundamental periods in the raise of interest in areas of human knowledge. We identify and quantify the most attractive topics over time, when a relatively significant number of researchers moved from their original area to another one, causing what we call a "diaspora of the knowledge" towards sinks of scientific interest, and we relate these points to crucial historical and political events. Noticeably, only a few areas -- like Medicine, Physics or Chemistry -- mainly act as sources of the diaspora, whereas areas like Material Science, Chemical Engineering, Neuroscience, Immunology and Microbiology or Environmental Science behave like sinks.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-03T22:22:22Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Manlio De Domenico</name>
+    </author>
+    <author>
+      <name>Elisa Omodei</name>
+    </author>
+    <author>
+      <name>Alex Arenas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.02942v2</id>
+    <title>Evaluating the principle of relatedness: Estimation, drivers and implications for policy</title>
+    <updated>2023-03-29T15:33:44Z</updated>
+    <link href="https://arxiv.org/abs/2205.02942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.02942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A growing body of research documents that the size and growth of an industry in a place depends on how much related activity is found there. This fact is commonly referred to as the "principle of relatedness". However, there is no consensus on why we observe the principle of relatedness, how best to determine which industries are related or how this empirical regularity can help inform local industrial policy. We perform a structured search over tens of thousands of specifications to identify robust -- in terms of out-of-sample predictions -- ways to determine how well industries fit the local economies of US cities. To do so, we use data that allow us to derive relatedness from observing which industries co-occur in the portfolios of establishments, firms, cities and countries. Different portfolios yield different relatedness matrices, each of which help predict the size and growth of local industries. However, our specification search not only identifies ways to improve the performance of such predictions, but also reveals new facts about the principle of relatedness and important trade-offs between predictive performance and interpretability of relatedness patterns. We use these insights to deepen our theoretical understanding of what underlies path-dependent development in cities and expand existing policy frameworks that rely on inter-industry relatedness analysis.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-05T21:53:03Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Yang Li</name>
+    </author>
+    <author>
+      <name>Frank Neffke</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.02890v1</id>
+    <title>Where is your field going? A Machine Learning approach to study the relative motion of the domains of Physics</title>
+    <updated>2019-11-07T13:26:03Z</updated>
+    <link href="https://arxiv.org/abs/1911.02890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.02890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an original approach to describe the scientific progress in a quantitative way. Using innovative Machine Learning techniques we create a vector representation for the PACS codes and we use them to represent the relative movements of the various domains of Physics in a multi-dimensional space. This methodology unveils about 25 years of scientific trends, enables us to predict innovative couplings of fields, and illustrates how Nobel Prize papers and APS milestones drive the future convergence of previously unrelated fields.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-07T13:26:03Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Andrea Palmucci</name>
+    </author>
+    <author>
+      <name>Hao Liao</name>
+    </author>
+    <author>
+      <name>Andrea Napoletano</name>
+    </author>
+    <author>
+      <name>Andrea Zaccaria</name>
+    </author>
+    <arxiv:doi>10.1371/journal.pone.0233997</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1371/journal.pone.0233997" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.3120v2</id>
+    <title>The Local Emergence and Global Diffusion of Research Technologies: An Exploration of Patterns of Network Formation</title>
+    <updated>2011-01-31T18:22:30Z</updated>
+    <link href="https://arxiv.org/abs/1011.3120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.3120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Grasping the fruits of "emerging technologies" is an objective of many government priority programs in a knowledge-based and globalizing economy. We use the publication records (in the Science Citation Index) of two emerging technologies to study the mechanisms of diffusion in the case of two innovation trajectories: small interference RNA (siRNA) and nano-crystalline solar cells (NCSC). Methods for analyzing and visualizing geographical and cognitive diffusion are specified as indicators of different dynamics. Geographical diffusion is illustrated with overlays to Google Maps; cognitive diffusion is mapped using an overlay to a map based on the ISI Subject Categories. The evolving geographical networks show both preferential attachment and small-world characteristics. The strength of preferential attachment decreases over time, while the network evolves into an oligopolistic control structure with small-world characteristics. The transition from disciplinary-oriented ("mode-1") to transfer-oriented ("mode-2") research is suggested as the crucial difference in explaining the different rates of diffusion between siRNA and NCSC.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-13T09:29:04Z</published>
+    <arxiv:primary_category term="cs.DL"/>
+    <author>
+      <name>Loet Leydesdorff</name>
+    </author>
+    <author>
+      <name>Ismael Rafols</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.05352v3</id>
+    <title>Shooting High or Low: Do Countries Benefit from Entering Unrelated Activities?</title>
+    <updated>2018-03-20T16:19:44Z</updated>
+    <link href="https://arxiv.org/abs/1801.05352v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.05352v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Countries tend to diversify their exports by entering products that are related to their current exports. Yet this average behavior is not representative of every diversification path. In this paper, we introduce a method to identify periods when countries enter unrelated products. We analyze the economic diversification paths of 93 countries between 1965 and 2014 and find that countries enter unrelated products in only about 7.2% of all observations. We find that countries enter more unrelated products when they are at an intermediate level of economic development, and when they have higher levels of human capital. Finally, we ask whether countries entering more unrelated products grow faster than those entering only related products. The data shows that countries that enter more unrelated activities experience a small but significant increase in future economic growth, compared to countries with a similar level of income, human capital, capital stock per worker, and economic complexity.</summary>
+    <category term="q-fin.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-16T16:50:07Z</published>
+    <arxiv:comment>43 pages, 13 figures, 2 appendices</arxiv:comment>
+    <arxiv:primary_category term="q-fin.GN"/>
+    <author>
+      <name>Flávio L. Pinheiro</name>
+    </author>
+    <author>
+      <name>Aamena Alshamsi</name>
+    </author>
+    <author>
+      <name>Dominik Hartmann</name>
+    </author>
+    <author>
+      <name>Ron Boschma</name>
+    </author>
+    <author>
+      <name>César A. Hidalgo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.05392v1</id>
+    <title>Relatedness, Knowledge Diffusion, and the Evolution of Bilateral Trade</title>
+    <updated>2017-09-15T20:36:40Z</updated>
+    <link href="https://arxiv.org/abs/1709.05392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.05392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>During the last decades two important contributions have reshaped our understanding of international trade. First, countries trade more with those with whom they share history, language, and culture, suggesting that trade is limited by information frictions. Second, countries are more likely to start exporting products that are similar to their current exports, suggesting that knowledge diffusion among related industries is a key constrain shaping the diversification of exports. But does knowledge about how to export to a destination also diffuses among related products and geographic neighbors? Do countries need to learn how to trade each product to each destination? Here, we use bilateral trade data from 2000 to 2015 to show that countries are more likely to increase their exports of a product to a destination when: (i) they export related products to it, (ii) they export the same product to the neighbor of a destination, (iii) they have neighbors who export the same product to that destination. Then, we explore the magnitude of these effects for new, nascent, and experienced exporters, (exporters with and without comparative advantage in a product) and also for groups of products with different level of technological sophistication. We find that the effects of product and geographic relatedness are stronger for new exporters, and also, that the effect of product relatedness is stronger for more technologically sophisticated products. These findings support the idea that international trade is shaped by information frictions that are reduced in the presence of related products and experienced geographic neighbors.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-15T20:36:40Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Bogang Jun</name>
+    </author>
+    <author>
+      <name>Aamena Alshamsi</name>
+    </author>
+    <author>
+      <name>Jian Gao</name>
+    </author>
+    <author>
+      <name>Cesar A Hidalgo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01046v2</id>
+    <title>Epistemic integration and social segregation of AI in neuroscience</title>
+    <updated>2024-03-06T23:11:13Z</updated>
+    <link href="https://arxiv.org/abs/2310.01046v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01046v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, Artificial Intelligence (AI) shows a spectacular ability of insertion inside a variety of disciplines which use it for scientific advancements and which sometimes improve it for their conceptual and methodological needs. According to the transverse science framework originally conceived by Shinn and Joerges, AI can be seen as an instrument which is progressively acquiring a universal character through its diffusion across science. In this paper we address empirically one aspect of this diffusion, namely the penetration of AI into a specific field of research. Taking neuroscience as a case study, we conduct a scientometric analysis of the development of AI in this field. We especially study the temporal egocentric citation network around the articles included in this literature, their represented journals and their authors linked together by a temporal collaboration network. We find that AI is driving the constitution of a particular disciplinary ecosystem in neuroscience which is distinct from other subfields, and which is gathering atypical scientific profiles who are coming from neuroscience or outside it. Moreover we observe that this AI community in neuroscience is socially confined in a specific subspace of the neuroscience collaboration network, which also publishes in a small set of dedicated journals that are mostly active in AI research. According to these results, the diffusion of AI in a discipline such as neuroscience didn't really challenge its disciplinary orientations but rather induced the constitution of a dedicated socio-cognitive environment inside this field.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T09:48:42Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Sylvain Fontaine</name>
+    </author>
+    <author>
+      <name>Floriana Gargiulo</name>
+    </author>
+    <author>
+      <name>Michel Dubois</name>
+    </author>
+    <author>
+      <name>Paola Tubaro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06843v2</id>
+    <title>Predicting Research Trends with Semantic and Neural Networks with an application in Quantum Physics</title>
+    <updated>2020-01-08T07:40:13Z</updated>
+    <link href="https://arxiv.org/abs/1906.06843v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06843v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vast and growing number of publications in all disciplines of science cannot be comprehended by a single human researcher. As a consequence, researchers have to specialize in narrow sub-disciplines, which makes it challenging to uncover scientific connections beyond the own field of research. Thus access to structured knowledge from a large corpus of publications could help pushing the frontiers of science. Here we demonstrate a method to build a semantic network from published scientific literature, which we call SemNet. We use SemNet to predict future trends in research and to inspire new, personalized and surprising seeds of ideas in science. We apply it in the discipline of quantum physics, which has seen an unprecedented growth of activity in recent years. In SemNet, scientific knowledge is represented as an evolving network using the content of 750,000 scientific papers published since 1919. The nodes of the network correspond to physical concepts, and links between two nodes are drawn when two physical concepts are concurrently studied in research articles. We identify influential and prize-winning research topics from the past inside SemNet thus confirm that it stores useful semantic knowledge. We train a deep neural network using states of SemNet of the past, to predict future developments in quantum physics research, and confirm high quality predictions using historic data. With the neural network and theoretical network tools we are able to suggest new, personalized, out-of-the-box ideas, by identifying pairs of concepts which have unique and extremal semantic network properties. Finally, we consider possible future developments and implications of our findings.</summary>
+    <category term="cs.DL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-17T05:10:52Z</published>
+    <arxiv:comment>9+6 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.DL"/>
+    <arxiv:journal_ref>PNAS 117(4), 1910-1916 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Mario Krenn</name>
+    </author>
+    <author>
+      <name>Anton Zeilinger</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1914370116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1914370116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.10812v2</id>
+    <title>The latent structure of global scientific development</title>
+    <updated>2022-03-30T07:58:58Z</updated>
+    <link href="https://arxiv.org/abs/2104.10812v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.10812v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Science is essential to innovation and economic prosperity. Although studies have shown that national scientific development is affected by geographic, historic, and economic factors, it remains unclear whether there are universal structures and trajectories of national scientific development that can inform forecasting and policymaking. Here, by examining countries' scientific 'exports'-publications that are indexed in international databases-we reveal a three-cluster structure in the relatedness network of disciplines that underpin national scientific development and the organization of global science. Tracing the evolution of national research portfolios reveals that while nations are proceeding to more diverse research profiles individually, scientific production is increasingly specialized in global science over the past decades. By uncovering the underlying structure of scientific development and connecting it with economic development, our results may offer a new perspective on the evolution of global science.</summary>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-22T01:06:03Z</published>
+    <arxiv:comment>30 pages(main text), 5 figures(main text), 3 tables(main text)</arxiv:comment>
+    <arxiv:primary_category term="cs.SI"/>
+    <author>
+      <name>Lili Miao</name>
+    </author>
+    <author>
+      <name>Dakota Murray</name>
+    </author>
+    <author>
+      <name>Woo-Sung Jung</name>
+    </author>
+    <author>
+      <name>Vincent Larivière</name>
+    </author>
+    <author>
+      <name>Cassidy R. Sugimoto</name>
+    </author>
+    <author>
+      <name>Yong-Yeol Ahn</name>
+    </author>
+    <arxiv:doi>10.1038/s41562-022-01367-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41562-022-01367-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.16316v1</id>
+    <title>Some New Views on Product Space and Related Diversification</title>
+    <updated>2022-03-30T13:56:09Z</updated>
+    <link href="https://arxiv.org/abs/2203.16316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.16316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We aim to contribute to the literature on product space and diversification by proposing a number of extensions of the current literature: (1) we propose that the alternative but related idea of a country space also has empirical and theoretical appeal; (2) we argue that the loss of comparative advantage should be an integral part of (testing the empirical relevance of) the product space idea; (3) we propose several new indicators for measuring relatedness in product space; and (4) we propose a non-parametric statistical test based on bootstrapping to test the empirical relevance of the product space idea.</summary>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-30T13:56:09Z</published>
+    <arxiv:primary_category term="econ.GN"/>
+    <author>
+      <name>Önder Nomaler</name>
+    </author>
+    <author>
+      <name>Bart Verspagen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.00622v1</id>
+    <title>Mapping change in higher-order networks with multilevel and overlapping communities</title>
+    <updated>2023-03-01T16:22:36Z</updated>
+    <link href="https://arxiv.org/abs/2303.00622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.00622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>New network models of complex systems use layers, state nodes, or hyperedges to capture higher-order interactions and dynamics. Simplifying how the higher-order networks change over time or depending on the network model would be easy with alluvial diagrams, which visualize community splits and merges between networks. However, alluvial diagrams were developed for networks with regular nodes assigned to non-overlapping flat communities. How should they be defined for nodes in layers, state nodes, or hyperedges? How can they depict multilevel, overlapping communities? Here we generalize alluvial diagrams to map change in higher-order networks and provide an interactive tool for anyone to generate alluvial diagrams. We use the alluvial generator to illustrate the effect of modeling network flows with memory in a citation network, distinguishing multidisciplinary from field-specific journals.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-01T16:22:36Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Anton Holmgren</name>
+    </author>
+    <author>
+      <name>Daniel Edler</name>
+    </author>
+    <author>
+      <name>Martin Rosvall</name>
+    </author>
+  </entry>
+</feed>

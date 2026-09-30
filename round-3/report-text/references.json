@@ -1,0 +1,303 @@
+{
+  "Cheng2023": {
+    "source": "semantic_scholar",
+    "title": "How New Ideas Diffuse in Science",
+    "first_author": "Cheng",
+    "year": 2023,
+    "s2_paper_id": "f46ed26f87af6482ece832c64b75e3bf12fd6218",
+    "doi": "10.1177/00031224231166955"
+  },
+  "Chen2013": {
+    "source": "semantic_scholar",
+    "title": "A probe into dynamic measures for h-core and h-tail",
+    "first_author": "Chen",
+    "year": 2013,
+    "s2_paper_id": "622fbcdf4ac62b8f30f688f4072eb5424e33efe1",
+    "doi": "10.1016/j.joi.2012.10.002"
+  },
+  "Wallace2011": {
+    "source": "semantic_scholar",
+    "title": "A Small World of Citations? The Influence of Collaboration Networks on Citation Practices",
+    "first_author": "Wallace",
+    "year": 2011,
+    "s2_paper_id": "42a127ea4cba50201c3af71bb10580d8838feb8f",
+    "doi": "10.1371/journal.pone.0033339",
+    "arxiv": "1107.5469"
+  },
+  "Rotolo2015": {
+    "source": "semantic_scholar",
+    "title": "What is an emerging technology?",
+    "first_author": "Rotolo",
+    "year": 2015,
+    "s2_paper_id": "812470c7e76fa73b219a6a83b562fb33c69dc5b3",
+    "doi": "10.1016/J.RESPOL.2015.06.006",
+    "arxiv": "1503.00673"
+  },
+  "Wong2012": {
+    "source": "semantic_scholar",
+    "title": "Contextual question answering for the health domain",
+    "first_author": "Wong",
+    "year": 2012,
+    "s2_paper_id": "41ddec2f6ff730ce63004e232eeddb4df2e99fb8",
+    "doi": "10.1002/asi.22733"
+  },
+  "Yan2011": {
+    "source": "semantic_scholar",
+    "title": "P-Rank: An indicator measuring prestige in heterogeneous scholarly networks",
+    "first_author": "Yan",
+    "year": 2011,
+    "s2_paper_id": "92507ec471d207b65c99c5d517bd08fc50671ced",
+    "doi": "10.1002/ASI.21461"
+  },
+  "Maillart2026": {
+    "source": "semantic_scholar",
+    "title": "Forecasting Conceptual Diffusion in Science: The Case of Quantum Computing",
+    "first_author": "Maillart",
+    "year": 2026,
+    "s2_paper_id": "21e9e70a702618a0acb47bad740e13a3f75244ba",
+    "doi": "10.48550/arXiv.2606.03919",
+    "arxiv": "2606.03919"
+  },
+  "Maillart2026a": {
+    "source": "semantic_scholar",
+    "title": "Explainable Forecasting of Scientific Breakthroughs from Concept Network Dynamics",
+    "first_author": "Maillart",
+    "year": 2026,
+    "s2_paper_id": "973519152b17126fdf0969480be9e4d3d76098cb",
+    "doi": "10.48550/arXiv.2606.03864",
+    "arxiv": "2606.03864"
+  },
+  "Renoust2017": {
+    "source": "semantic_scholar",
+    "title": "Multiplex flows in citation networks",
+    "first_author": "Renoust",
+    "year": 2017,
+    "s2_paper_id": "aaa8c21658f677722bf02dba09548b0c6fa58736",
+    "doi": "10.1007/s41109-017-0035-2"
+  },
+  "Fontaine2023": {
+    "source": "semantic_scholar",
+    "title": "Epistemic integration and social segregation of AI in neuroscience",
+    "first_author": "Fontaine",
+    "year": 2023,
+    "s2_paper_id": "d0bd55741baf5efb9d3d7a2821112a55f63c86aa",
+    "doi": "10.1007/s41109-024-00618-2",
+    "arxiv": "2310.01046"
+  },
+  "Salatino2018": {
+    "source": "semantic_scholar",
+    "title": "AUGUR: Forecasting the Emergence of New Research Topics",
+    "first_author": "Salatino",
+    "year": 2018,
+    "s2_paper_id": "893c016b051ac2bc6c400d1d6f782b0a423962c1",
+    "doi": "10.1145/3197026.3197052"
+  },
+  "Rafols2009": {
+    "source": "semantic_scholar",
+    "title": "Diversity and network coherence as indicators of interdisciplinarity: case studies in bionanoscience",
+    "first_author": "Rafols",
+    "year": 2009,
+    "s2_paper_id": "ba67fce38122d7627e1ef7090ccb0a4dd6fe196b",
+    "doi": "10.1007/s11192-009-0041-y",
+    "arxiv": "0901.1380"
+  },
+  "Salatino2017": {
+    "source": "semantic_scholar",
+    "title": "How are topics born? Understanding the research dynamics preceding the emergence of new areas",
+    "first_author": "Salatino",
+    "year": 2017,
+    "s2_paper_id": "9715d30f3fa7297037ada5d8c04e5022fe3e7ba4",
+    "doi": "10.7287/peerj.preprints.2306v1"
+  },
+  "PastorSatorras2014": {
+    "source": "semantic_scholar",
+    "title": "Epidemic processes in complex networks",
+    "first_author": "Pastor-Satorras",
+    "year": 2014,
+    "s2_paper_id": "4a8ac5b3046ae990c8f6ab4244476a3ab25d8211",
+    "doi": "10.1103/RevModPhys.87.925",
+    "arxiv": "1408.2701"
+  },
+  "Hawkes1971": {
+    "source": "semantic_scholar",
+    "title": "Spectra of some self-exciting and mutually exciting point processes",
+    "first_author": "Hawkes",
+    "year": 1971,
+    "s2_paper_id": "c08206b44dd1f0ea54bd073e4effaf2e4483169b",
+    "doi": "10.1093/BIOMET/58.1.83"
+  },
+  "Lipsitch2010": {
+    "source": "semantic_scholar",
+    "title": "Negative Controls: A Tool for Detecting Confounding and Bias in Observational Studies",
+    "first_author": "Lipsitch",
+    "year": 2010,
+    "s2_paper_id": "730b1c3d7476589e4028f8d6ef367dc858a57264",
+    "doi": "10.1097/EDE.0b013e3181d61eeb"
+  },
+  "Gargiulo2022": {
+    "source": "semantic_scholar",
+    "title": "A meso-scale cartography of the AI ecosystem",
+    "first_author": "Gargiulo",
+    "year": 2022,
+    "s2_paper_id": "6f4f1be6c8cc7420b31607841ef750548bb5bed4",
+    "doi": "10.1162/qss_a_00267",
+    "arxiv": "2212.12263"
+  },
+  "Weng2013": {
+    "source": "semantic_scholar",
+    "title": "Virality Prediction and Community Structure in Social Networks",
+    "first_author": "Weng",
+    "year": 2013,
+    "s2_paper_id": "931e36708e74a0ce3b481912f6e153dd05b5a656",
+    "doi": "10.1038/srep02522",
+    "arxiv": "1306.0158"
+  },
+  "Eck2009": {
+    "source": "semantic_scholar",
+    "title": "Software survey: VOSviewer, a computer program for bibliometric mapping",
+    "first_author": "Eck",
+    "year": 2009,
+    "s2_paper_id": "edea882e8294537c76e16339ce32c2dd96753025",
+    "doi": "10.1007/s11192-009-0146-3"
+  },
+  "Estrada2005": {
+    "source": "semantic_scholar",
+    "title": "Subgraph centrality and clustering in complex hyper-networks",
+    "first_author": "Estrada",
+    "year": 2005,
+    "s2_paper_id": "584e985e7017d26b3da57e43264bb320aaab55ec",
+    "doi": "10.1016/j.physa.2005.12.002",
+    "arxiv": "physics/0505137"
+  },
+  "Muntakim2026": {
+    "source": "semantic_scholar",
+    "title": "How Does Research Evolve? Tracing Cross-Domain Trajectories in NLP, ML, and CV Through Claim-Grounded Typed Citations",
+    "first_author": "Muntakim",
+    "year": 2026,
+    "s2_paper_id": "aadc58c55f2ce5308846b1d879f8050c4ee0a1e1",
+    "arxiv": "2606.22342"
+  },
+  "Birkle2020": {
+    "source": "semantic_scholar",
+    "title": "Web of Science as a data source for research on scientific and scholarly activity",
+    "first_author": "Birkle",
+    "year": 2020,
+    "s2_paper_id": "010a8ed71c6a80c2c02c7f55e1718151f91ff35a",
+    "doi": "10.1162/qss_a_00018"
+  },
+  "Chen2006": {
+    "source": "semantic_scholar",
+    "title": "CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature",
+    "first_author": "Chen",
+    "year": 2006,
+    "s2_paper_id": "bf38bc0f0764485c18ae4fb1795ff03efcbc7a9c",
+    "doi": "10.1002/asi.20317"
+  },
+  "Miroiu2013": {
+    "source": "semantic_scholar",
+    "title": "Axiomatizing the Hirsch index: Quantity and quality disjoined",
+    "first_author": "Miroiu",
+    "year": 2013,
+    "s2_paper_id": "4c31fe84862e26765381cf558a17c948c503a884",
+    "doi": "10.1016/j.joi.2012.08.003"
+  },
+  "Ciotti2015": {
+    "source": "semantic_scholar",
+    "title": "Homophily and missing links in citation networks",
+    "first_author": "Ciotti",
+    "year": 2015,
+    "s2_paper_id": "30c4020f1156cec4e46b24a3a2d22b03e9b30086",
+    "doi": "10.1140/epjds/s13688-016-0068-2",
+    "arxiv": "1511.07643"
+  },
+  "Hoisl2015": {
+    "source": "semantic_scholar",
+    "title": "Forecasting Technological Discontinuities in the ICT Industry",
+    "first_author": "Hoisl",
+    "year": 2015,
+    "s2_paper_id": "84d6208139d3f4b6f4ed5d3449127cb3e31406bc",
+    "doi": "10.1016/J.RESPOL.2014.10.004"
+  },
+  "Hidalgo2007": {
+    "source": "semantic_scholar",
+    "title": "The Product Space Conditions the Development of Nations",
+    "first_author": "Hidalgo",
+    "year": 2007,
+    "s2_paper_id": "8f7b429a7056887b3c9c960e24e837f6432cda96",
+    "doi": "10.1126/science.1144581",
+    "arxiv": "0708.2090"
+  },
+  "Wagner2016": {
+    "source": "semantic_scholar",
+    "title": "Women through the glass ceiling: gender asymmetries in Wikipedia",
+    "first_author": "Wagner",
+    "year": 2016,
+    "s2_paper_id": "165111af64a34d5769f3ee8cbeada5c6618cf8c7",
+    "doi": "10.1140/epjds/s13688-016-0066-4",
+    "arxiv": "1601.04890"
+  },
+  "Buhl2006": {
+    "source": "semantic_scholar",
+    "title": "From Disorder to Order in Marching Locusts",
+    "first_author": "Buhl",
+    "year": 2006,
+    "s2_paper_id": "8374b2090aabb549f737de45f9f7e5c62c650dbd",
+    "doi": "10.1126/science.1125142"
+  },
+  "Neffke2011": {
+    "source": "semantic_scholar",
+    "title": "How Do Regions Diversify over Time? Industry Relatedness and the Development of New Growth Paths in Regions",
+    "first_author": "Neffke",
+    "year": 2011,
+    "s2_paper_id": "d37b77d21888350c9d115667a96eb9fe348958b5",
+    "doi": "10.1111/j.1944-8287.2011.01121.x"
+  },
+  "Gourlay2002": {
+    "source": "semantic_scholar",
+    "title": "The Determinants of Technology Diffusion: Evidence from the UK Financial Sector",
+    "first_author": "Gourlay",
+    "year": 2002,
+    "s2_paper_id": "e9a2914c99f6bf31adf7211d93f095648013c66d",
+    "doi": "10.1111/1467-9957.00291"
+  },
+  "Chinazzi2019": {
+    "source": "semantic_scholar",
+    "title": "Mapping the physics research space: a machine learning approach",
+    "first_author": "Chinazzi",
+    "year": 2019,
+    "s2_paper_id": "ad66755d1541af9e45538c90c3c60247fec2d5a2",
+    "doi": "10.1140/epjds/s13688-019-0210-z"
+  },
+  "Rigby2015": {
+    "source": "semantic_scholar",
+    "title": "Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes",
+    "first_author": "Rigby",
+    "year": 2015,
+    "s2_paper_id": "0c1b5de5f78bc1f81ef55e195f03bd91955c2d3d",
+    "doi": "10.1080/00343404.2013.854878"
+  },
+  "Hidalgo2018": {
+    "source": "semantic_scholar",
+    "title": "The Principle of Relatedness",
+    "first_author": "Hidalgo",
+    "year": 2018,
+    "s2_paper_id": "7532448fe542ad7d1aee6f0b9e2f6b32d3377d62",
+    "doi": "10.1007/978-3-319-96661-8_46"
+  },
+  "Liang2022": {
+    "source": "semantic_scholar",
+    "title": "China's new research evaluation policy: Evidence from economics faculty of Elite Chinese universities",
+    "first_author": "Liang",
+    "year": 2022,
+    "s2_paper_id": "2a4fe6336fd2d1d77d6a3713f0dff0c4a3dd0c86",
+    "doi": "10.1016/j.respol.2021.104407"
+  },
+  "Blackburn2011": {
+    "source": "semantic_scholar",
+    "title": "A proposed unified framework for biological invasions.",
+    "first_author": "Blackburn",
+    "year": 2011,
+    "s2_paper_id": "755ec5de3e7d5c22fb401d1e2110fb6f8e0cd2df",
+    "doi": "10.1016/j.tree.2011.03.023"
+  }
+}

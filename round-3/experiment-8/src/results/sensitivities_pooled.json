@@ -1,0 +1,1102 @@
+[
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.2025119205688432,
+  "ci": [
+   0.1632850149975716,
+   0.24109953457645808
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "D_vol_end",
+  "pooled": 0.29682474389477403,
+  "ci": [
+   0.25968469207252043,
+   0.33308800766453645
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "G_btw",
+  "pooled": 0.0711168885146042,
+  "ci": [
+   -0.008605888900546733,
+   0.14994131085329115
+  ],
+  "I2": 0.7385685198950649
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "M0_density_end",
+  "pooled": 0.32736079500415144,
+  "ci": [
+   0.2413335980518005,
+   0.40828306725079627
+  ],
+  "I2": 0.7676161561805179
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "NOV",
+  "pooled": 0.14249074137135584,
+  "ci": [
+   0.039880665160997184,
+   0.24212687877735892
+  ],
+  "I2": 0.8289569624455047
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "RETENTION_RATIO_early",
+  "pooled": -0.10023626166856404,
+  "ci": [
+   -0.14291547635471738,
+   -0.05718496116994758
+  ],
+  "I2": 0.16476292248287913
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "RS",
+  "pooled": -0.10122203339258898,
+  "ci": [
+   -0.14580263792085876,
+   -0.05623117948476647
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "ego_density_W3",
+  "pooled": -0.0818728523020265,
+  "ci": [
+   -0.12068332293304437,
+   -0.042812475950874694
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "log_offhome_volume",
+  "pooled": -0.07770083264538437,
+  "ci": [
+   -0.1423337740444916,
+   -0.012408103299453951
+  ],
+  "I2": 0.6069111986402078
+ },
+ {
+  "sensitivity": "O2r_m30",
+  "outcome": "O2r_m30",
+  "indicator": "n_comm_W3",
+  "pooled": 0.14515247786729982,
+  "ci": [
+   0.07654144092142548,
+   0.21239533673441163
+  ],
+  "I2": 0.6571553766334097
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.20392467596923183,
+  "ci": [
+   0.16480458920492064,
+   0.24240417949950965
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "D_vol_end",
+  "pooled": 0.2952190096072048,
+  "ci": [
+   0.25807611584429185,
+   0.3314905023019847
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "G_btw",
+  "pooled": 0.07280632789368184,
+  "ci": [
+   -0.010029515381165631,
+   0.15464971975453803
+  ],
+  "I2": 0.7565728139330866
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "M0_density_end",
+  "pooled": 0.328412197872273,
+  "ci": [
+   0.24100860665147353,
+   0.41053148195121497
+  ],
+  "I2": 0.7753642156292978
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "NOV",
+  "pooled": 0.140106143814285,
+  "ci": [
+   0.03992484728720423,
+   0.23749869140367444
+  ],
+  "I2": 0.820799571203623
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "RETENTION_RATIO_early",
+  "pooled": -0.09758275353069351,
+  "ci": [
+   -0.14283848995161597,
+   -0.05191982836168059
+  ],
+  "I2": 0.23671512296316108
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "RS",
+  "pooled": -0.10022829522975085,
+  "ci": [
+   -0.1447993898002235,
+   -0.05525127247959154
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "ego_density_W3",
+  "pooled": -0.08207494284213343,
+  "ci": [
+   -0.12078392591046977,
+   -0.04311673757543556
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "log_offhome_volume",
+  "pooled": -0.07065592153408377,
+  "ci": [
+   -0.13975544002264786,
+   -0.000871569265448138
+  ],
+  "I2": 0.647043029681901
+ },
+ {
+  "sensitivity": "O2r_resid_N_exp5_definition",
+  "outcome": "O2r_resid_N",
+  "indicator": "n_comm_W3",
+  "pooled": 0.14539411577397632,
+  "ci": [
+   0.0769031074483849,
+   0.21251936078304268
+  ],
+  "I2": 0.6570335967999257
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.056451724142437654,
+  "ci": [
+   0.021260657273464156,
+   0.09150307998610288
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "S_comp_n",
+  "pooled": -0.09616122091487152,
+  "ci": [
+   -0.2097436569211486,
+   0.019981978913223213
+  ],
+  "I2": 0.8767517294067763
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "author_growth",
+  "pooled": 0.03415544097089518,
+  "ci": [
+   -0.026360271354128238,
+   0.09442172861611307
+  ],
+  "I2": 0.6425540791768158
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "burst",
+  "pooled": 0.01367344860310085,
+  "ci": [
+   -0.05903448383192268,
+   0.08623707316514113
+  ],
+  "I2": 0.6978782401579713
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "comm_transitions",
+  "pooled": 0.01360851361649443,
+  "ci": [
+   -0.038116764501300804,
+   0.06526106137961521
+  ],
+  "I2": 0.5051487678264092
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "fields_gained_per_yr",
+  "pooled": -0.013023676254066838,
+  "ci": [
+   -0.0491107960129312,
+   0.023097402136717488
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "growth_ind",
+  "pooled": -0.012036853388032764,
+  "ci": [
+   -0.045932838164175004,
+   0.021886817182367076
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "n_authors_early",
+  "pooled": 0.16652719786324924,
+  "ci": [
+   0.09312332537180146,
+   0.23813061810358793
+  ],
+  "I2": 0.7231905670305944
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "new_edge_rate",
+  "pooled": -0.0029532038379413597,
+  "ci": [
+   -0.04299883795868077,
+   0.03710190443358654
+  ],
+  "I2": 0.21810897514316602
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O1c",
+  "indicator": "share",
+  "pooled": 0.011569219663909024,
+  "ci": [
+   -0.028845925175292154,
+   0.051946600808009905
+  ],
+  "I2": 0.09998795840936778
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.22856226525684453,
+  "ci": [
+   0.177975509156381,
+   0.2779441492173892
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "D_vol_end",
+  "pooled": 0.30979482029500405,
+  "ci": [
+   0.2582554674792979,
+   0.3595757451271135
+  ],
+  "I2": 0.1500790293290956
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "G_btw",
+  "pooled": 0.04870714545272928,
+  "ci": [
+   -0.03420623384817969,
+   0.13095463629827825
+  ],
+  "I2": 0.5736116387040466
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "M0_density_end",
+  "pooled": 0.37577306973463825,
+  "ci": [
+   0.2784400126771232,
+   0.46546625363761435
+  ],
+  "I2": 0.7503503429872834
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "NOV",
+  "pooled": 0.1430449418894628,
+  "ci": [
+   0.035813952085659406,
+   0.24701959761363174
+  ],
+  "I2": 0.7331313264689912
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "RETENTION_RATIO_early",
+  "pooled": -0.09111779619849422,
+  "ci": [
+   -0.13642745021410974,
+   -0.04542771932972465
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "RS",
+  "pooled": -0.05811250342814855,
+  "ci": [
+   -0.11643034003080029,
+   0.0006046661921068662
+  ],
+  "I2": 0.06997466812165277
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "ego_density_W3",
+  "pooled": -0.09938312898819433,
+  "ci": [
+   -0.1552365057601999,
+   -0.042896393979371526
+  ],
+  "I2": 0.18878914051982712
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "log_offhome_volume",
+  "pooled": -0.001832843112635365,
+  "ci": [
+   -0.07169417372731846,
+   0.0680463829134031
+  ],
+  "I2": 0.4917312415770575
+ },
+ {
+  "sensitivity": "coverage_covs",
+  "outcome": "O2r_resid",
+  "indicator": "n_comm_W3",
+  "pooled": 0.15409246104141064,
+  "ci": [
+   0.049361271428266046,
+   0.2554718842763682
+  ],
+  "I2": 0.7704808386552123
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.05040360041983849,
+  "ci": [
+   0.015156769948521047,
+   0.08552532085604322
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "S_comp_n",
+  "pooled": -0.07510679995055261,
+  "ci": [
+   -0.19125723312710974,
+   0.043118048292380404
+  ],
+  "I2": 0.8880943059572948
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "author_growth",
+  "pooled": 0.03677155825129672,
+  "ci": [
+   -0.028465811080906518,
+   0.10169700912804933
+  ],
+  "I2": 0.6738195186934639
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "burst",
+  "pooled": 0.006151135714240647,
+  "ci": [
+   -0.035108490708740656,
+   0.047389829115438396
+  ],
+  "I2": 0.24066813125722053
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "comm_transitions",
+  "pooled": 0.01926894714549148,
+  "ci": [
+   -0.03903265786640303,
+   0.07743980410334601
+  ],
+  "I2": 0.6004008586180439
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "fields_gained_per_yr",
+  "pooled": 0.003997131556957841,
+  "ci": [
+   -0.03257009850182099,
+   0.040553674941644226
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "growth_ind",
+  "pooled": -0.016222640574530284,
+  "ci": [
+   -0.05022784387025136,
+   0.017820132285149986
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "n_authors_early",
+  "pooled": 0.1624996752126338,
+  "ci": [
+   0.08184871399796148,
+   0.24103624141635363
+  ],
+  "I2": 0.7745830745316918
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "new_edge_rate",
+  "pooled": -0.0034635976385208635,
+  "ci": [
+   -0.03963189042004048,
+   0.032713759301370465
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O1c",
+  "indicator": "share",
+  "pooled": 0.006506804908580429,
+  "ci": [
+   -0.043879785130936,
+   0.05686037613829598
+  ],
+  "I2": 0.40457914643103937
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.20084682062745374,
+  "ci": [
+   0.14756030733357087,
+   0.25297073048636726
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "D_vol_end",
+  "pooled": 0.3079270278437869,
+  "ci": [
+   0.2538974782960719,
+   0.3600408799234765
+  ],
+  "I2": 0.16852029885876654
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "G_btw",
+  "pooled": 0.05157918530069101,
+  "ci": [
+   -0.0037745959203005193,
+   0.10661784608707889
+  ],
+  "I2": 0.15027782513366547
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "M0_density_end",
+  "pooled": 0.3746012330128913,
+  "ci": [
+   0.2772704468505442,
+   0.46432162999658905
+  ],
+  "I2": 0.7553964345919564
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "NOV",
+  "pooled": 0.1477928026577613,
+  "ci": [
+   0.035334952929676616,
+   0.25655457844499385
+  ],
+  "I2": 0.7402745849805694
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "RETENTION_RATIO_early",
+  "pooled": -0.1046425149953478,
+  "ci": [
+   -0.15215347854712194,
+   -0.056649053064810335
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "RS",
+  "pooled": -0.06068937462977648,
+  "ci": [
+   -0.14320005376827535,
+   0.022659129238014702
+  ],
+  "I2": 0.3903767099750822
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "ego_density_W3",
+  "pooled": -0.09744157182028844,
+  "ci": [
+   -0.14454444895121424,
+   -0.04989808298821371
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "log_offhome_volume",
+  "pooled": -0.09059442496485548,
+  "ci": [
+   -0.16197061951308414,
+   -0.01827521752376386
+  ],
+  "I2": 0.4739251569236508
+ },
+ {
+  "sensitivity": "excl_in_exp6",
+  "outcome": "O2r_resid",
+  "indicator": "n_comm_W3",
+  "pooled": 0.16250716054954534,
+  "ci": [
+   0.054352919329325934,
+   0.2668925502315649
+  ],
+  "I2": 0.7828751277676964
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.04589799824979994,
+  "ci": [
+   0.011417401571950708,
+   0.08026957301305555
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "S_comp_n",
+  "pooled": -0.08066539326821129,
+  "ci": [
+   -0.19950961008563617,
+   0.04051750892833987
+  ],
+  "I2": 0.8911412432221177
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "author_growth",
+  "pooled": 0.035336143740775476,
+  "ci": [
+   -0.016038557989255936,
+   0.0865247591445072
+  ],
+  "I2": 0.4930262955329542
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "burst",
+  "pooled": 0.03153789490715515,
+  "ci": [
+   -0.0455108163247051,
+   0.10821359824267505
+  ],
+  "I2": 0.7346798395205086
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "comm_transitions",
+  "pooled": 0.02258794130881076,
+  "ci": [
+   -0.03440355548883871,
+   0.07943300774714392
+  ],
+  "I2": 0.6028202716580869
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "fields_gained_per_yr",
+  "pooled": -0.004674892675716016,
+  "ci": [
+   -0.039748658289515564,
+   0.030410378779091835
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "growth_ind",
+  "pooled": -0.008300017544558528,
+  "ci": [
+   -0.04280214470877261,
+   0.026221882935043867
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "n_authors_early",
+  "pooled": 0.1658566674896631,
+  "ci": [
+   0.09192398621008527,
+   0.23797076334149797
+  ],
+  "I2": 0.7221505759976281
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "new_edge_rate",
+  "pooled": 0.002400118568570855,
+  "ci": [
+   -0.032173274628050245,
+   0.03696777486710568
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O1c",
+  "indicator": "share",
+  "pooled": 0.0205707347523327,
+  "ci": [
+   -0.016306103722993667,
+   0.05739168603452527
+  ],
+  "I2": 0.002288946288886188
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "CONTACT_REACH",
+  "pooled": 0.110627382558599,
+  "ci": [
+   0.06275180478204774,
+   0.15799499274460718
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "D_vol_end",
+  "pooled": 0.263175150951587,
+  "ci": [
+   0.21455430917561089,
+   0.3104948892240999
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "G_btw",
+  "pooled": 0.04542233809004257,
+  "ci": [
+   -0.026400100488483385,
+   0.11677823925197177
+  ],
+  "I2": 0.42002985835623785
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "M0_density_end",
+  "pooled": 0.3583355632062685,
+  "ci": [
+   0.25124325352569077,
+   0.4567608518843242
+  ],
+  "I2": 0.7814175858519071
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "NOV",
+  "pooled": 0.14451617289531826,
+  "ci": [
+   0.030988641439204233,
+   0.25436242193698755
+  ],
+  "I2": 0.7345018265219124
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "RETENTION_RATIO_early",
+  "pooled": -0.09036059936410512,
+  "ci": [
+   -0.1383719568395088,
+   -0.04192552709925317
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "RS",
+  "pooled": 0.08376251349860123,
+  "ci": [
+   0.01998801476990356,
+   0.1468581465202138
+  ],
+  "I2": 0.30750792563681606
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "ego_density_W3",
+  "pooled": -0.09129705216068958,
+  "ci": [
+   -0.14165184682177065,
+   -0.04047101011549475
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "log_offhome_volume",
+  "pooled": -0.10160193873762213,
+  "ci": [
+   -0.1755928666877093,
+   -0.026469594923348813
+  ],
+  "I2": 0.5103060700932919
+ },
+ {
+  "sensitivity": "excl_intersection",
+  "outcome": "O2r_resid",
+  "indicator": "n_comm_W3",
+  "pooled": 0.16329054955891814,
+  "ci": [
+   0.0575086229354838,
+   0.2654466744257925
+  ],
+  "I2": 0.7910152279133533
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "FRONTIER_POTENTIAL",
+  "pooled": 0.009388281529583237,
+  "ci": [
+   -0.00770943073704676,
+   0.026485993796213234
+  ],
+  "I2": 0.025677319037601894
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "G_A",
+  "pooled": 0.009797990044316491,
+  "ci": [
+   -0.014320939547264423,
+   0.03391691963589741
+  ],
+  "I2": 0.3836006486696599
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "G_btw",
+  "pooled": 0.0037098514044938725,
+  "ci": [
+   -0.009484903386622952,
+   0.016904606195610697
+  ],
+  "I2": 0.03519317891188885
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "G_deg",
+  "pooled": 0.011027298765791567,
+  "ci": [
+   -0.029846054638341876,
+   0.05190065216992501
+  ],
+  "I2": 0.54186241837619
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "G_phimin",
+  "pooled": 0.001947122429787886,
+  "ci": [
+   -0.03038283673092355,
+   0.034277081590499324
+  ],
+  "I2": 0.4497188413183429
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "REL_home",
+  "pooled": -0.011347411696857828,
+  "ci": [
+   -0.047233930058754356,
+   0.024539106665038696
+  ],
+  "I2": 0.4773932099217572
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "S_comp",
+  "pooled": -0.003676707101692282,
+  "ci": [
+   -0.032933072681093356,
+   0.025579658477708794
+  ],
+  "I2": 0.19148817537435128
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "btw_end",
+  "pooled": 0.004661677951957491,
+  "ci": [
+   -0.013765105342710162,
+   0.023088461246625145
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "ego_density_W3",
+  "pooled": 0.005115240221882891,
+  "ci": [
+   -0.023003020519785526,
+   0.03323350096355131
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_WW_sens",
+  "indicator": "rao_stirling",
+  "pooled": -0.01358593390103016,
+  "ci": [
+   -0.053544279065696074,
+   0.02637241126363575
+  ],
+  "I2": 0.5469785905674698
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "FRONTIER_POTENTIAL",
+  "pooled": 0.00502275809789498,
+  "ci": [
+   -0.008864009235475437,
+   0.0189095254312654
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "G",
+  "pooled": -2.889334146385222e-05,
+  "ci": [
+   -0.006692491982930402,
+   0.0066347053000026975
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "G_btw",
+  "pooled": 0.0006411011481615507,
+  "ci": [
+   -0.007888363764746931,
+   0.009170566061070032
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "G_phimin",
+  "pooled": 0.002904557987998791,
+  "ci": [
+   -0.021302317037283542,
+   0.027111433013281127
+  ],
+  "I2": 0.10173042682276595
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "REL_home",
+  "pooled": -0.009840254361544665,
+  "ci": [
+   -0.039460565724365904,
+   0.019780057001276576
+  ],
+  "I2": 0.4627036033842394
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "S_comp_n",
+  "pooled": 0.005295448025042532,
+  "ci": [
+   -0.008606586966830441,
+   0.019197483016915505
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "burst",
+  "pooled": -0.003789403106283266,
+  "ci": [
+   -0.016964391259354093,
+   0.009385585046787562
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "deg_W1",
+  "pooled": 0.017475137336210245,
+  "ci": [
+   -0.0007668376654972053,
+   0.035717112337917696
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "n_authors_early",
+  "pooled": 0.00011736977566345714,
+  "ci": [
+   -0.009353255624524565,
+   0.009587995175851481
+  ],
+  "I2": 0.0
+ },
+ {
+  "sensitivity": "relation_same_or_narrower",
+  "outcome": "O5_sens",
+  "indicator": "share",
+  "pooled": 0.20876217986889917,
+  "ci": [
+   0.16796335182209005,
+   0.2495610079157083
+  ],
+  "I2": 0.0
+ }
+]

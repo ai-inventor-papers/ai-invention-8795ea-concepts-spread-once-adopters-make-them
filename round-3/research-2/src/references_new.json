@@ -1,0 +1,719 @@
+{
+ "verified_new": [
+  {
+   "key": "pinheiro2022",
+   "authors": [
+    "Flávio L. Pinheiro",
+    "Dominik Hartmann",
+    "Ron Boschma",
+    "César A. Hidalgo"
+   ],
+   "year": 2022,
+   "title": "The time and frequency of unrelated diversification",
+   "venue": "Research Policy",
+   "doi_or_arxiv": "10.1016/j.respol.2021.104323",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim A: persistence filter (Δ=4) on entry outcome"
+  },
+  {
+   "key": "albora2023",
+   "authors": [
+    "Giambattista Albora",
+    "Luciano Pietronero",
+    "Andrea Tacchella",
+    "Andrea Zaccaria"
+   ],
+   "year": 2023,
+   "title": "Product progression: a machine learning approach to forecasting industrial upgrading",
+   "venue": "Scientific Reports",
+   "doi_or_arxiv": "10.1038/s41598-023-28179-x",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim A: activation rule RCA<0.25 in all prior years; RCA benchmark; RQ1/RQ2 PR-AUC comparator"
+  },
+  {
+   "key": "bahar2014",
+   "authors": [
+    "Dany Bahar",
+    "Ricardo Hausmann",
+    "Cesar A. Hidalgo"
+   ],
+   "year": 2014,
+   "title": "Neighbors and the evolution of the comparative advantage of nations: Evidence of international knowledge diffusion?",
+   "venue": "Journal of International Economics",
+   "doi_or_arxiv": "10.1016/j.jinteco.2013.11.001",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim A/B: neighbour current RCA raises entry (+65%)"
+  },
+  {
+   "key": "jun2020",
+   "authors": [
+    "Bogang Jun",
+    "Aamena Alshamsi",
+    "Jian Gao",
+    "César A. Hidalgo"
+   ],
+   "year": 2019,
+   "title": "Bilateral relatedness: knowledge diffusion and the evolution of bilateral trade",
+   "venue": "Journal of Evolutionary Economics",
+   "doi_or_arxiv": "10.1007/s00191-019-00638-7",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: bilateral relatedness, volume outcome"
+  },
+  {
+   "key": "fernandes2014",
+   "authors": [
+    "Ana P. Fernandes",
+    "Heiwai Tang"
+   ],
+   "year": 2014,
+   "title": "Learning to export from neighbors",
+   "venue": "Journal of International Economics",
+   "doi_or_arxiv": "10.1016/j.jinteco.2014.06.003",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim B: negative neighbour signal deters entry (model); entry rises with neighbour export growth"
+  },
+  {
+   "key": "fe2025",
+   "authors": [
+    "Hao Fe",
+    "Yang Liang",
+    "Mary E. Lovely"
+   ],
+   "year": 2025,
+   "title": "Follow thy neighbor: The role of first exporters",
+   "venue": "Journal of Urban Economics",
+   "doi_or_arxiv": "10.1016/j.jue.2025.103813",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: first-exporter spillovers (abstract only)"
+  },
+  {
+   "key": "hausmann2003",
+   "authors": [
+    "Ricardo Hausmann",
+    "Dani Rodrik"
+   ],
+   "year": 2003,
+   "title": "Economic development as self-discovery",
+   "venue": "Journal of Development Economics",
+   "doi_or_arxiv": "10.1016/S0304-3878(03)00124-X",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim B: self-discovery externalities"
+  },
+  {
+   "key": "aleta2019",
+   "authors": [
+    "Alberto Aleta",
+    "Sandro Meloni",
+    "Nicola Perra",
+    "Yamir Moreno"
+   ],
+   "year": 2019,
+   "title": "Explore with caution: mapping the evolution of scientific interest in physics",
+   "venue": "EPJ Data Science",
+   "doi_or_arxiv": "10.1140/epjds/s13688-019-0205-9",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: physics topic exploration (full text not read)"
+  },
+  {
+   "key": "chinazzi2019",
+   "authors": [
+    "Matteo Chinazzi",
+    "Bruno Gonçalves",
+    "Qian Zhang",
+    "Alessandro Vespignani"
+   ],
+   "year": 2019,
+   "title": "Mapping the physics research space: a machine learning approach",
+   "venue": "EPJ Data Science",
+   "doi_or_arxiv": "10.1140/epjds/s13688-019-0210-z",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: physics research space (full text not read)"
+  },
+  {
+   "key": "palmucci2020",
+   "authors": [
+    "Andrea Palmucci",
+    "Hao Liao",
+    "Andrea Napoletano",
+    "Andrea Zaccaria"
+   ],
+   "year": 2020,
+   "title": "Where is your field going? A machine learning approach to study the relative motion of the domains of physics",
+   "venue": "PLOS ONE",
+   "doi_or_arxiv": "10.1371/journal.pone.0233997",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: PACS-pair forecasting (values in figure only)"
+  },
+  {
+   "key": "galuppoazevedo2021",
+   "authors": [
+    "Francisco Galuppo Azevedo",
+    "Fabricio Murai"
+   ],
+   "year": 2021,
+   "title": "Evaluating the state-of-the-art in mapping research spaces: A Brazilian case study",
+   "venue": "PLOS ONE",
+   "doi_or_arxiv": "10.1371/journal.pone.0248724",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ2/Table P: field-entry AUROC 0.879/0.856/0.631; graded RCA states"
+  },
+  {
+   "key": "oclery2021",
+   "authors": [
+    "Neave O’Clery",
+    "Muhammed Ali Yıldırım",
+    "Ricardo Hausmann"
+   ],
+   "year": 2021,
+   "title": "Productive Ecosystems and the arrow of development",
+   "venue": "Nature Communications",
+   "doi_or_arxiv": "10.1038/s41467-021-21689-0",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: product appearance model"
+  },
+  {
+   "key": "lockwood2005",
+   "authors": [
+    "Julie L. Lockwood",
+    "Phillip Cassey",
+    "Tim Blackburn"
+   ],
+   "year": 2005,
+   "title": "The role of propagule pressure in explaining species invasions",
+   "venue": "Trends in Ecology &amp; Evolution",
+   "doi_or_arxiv": "10.1016/j.tree.2005.02.004",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim B analogy: propagule pressure explains failed introductions"
+  },
+  {
+   "key": "blackburn2011",
+   "authors": [
+    "Tim M. Blackburn",
+    "Petr Pyšek",
+    "Sven Bacher",
+    "James T. Carlton",
+    "Richard P. Duncan",
+    "Vojtěch Jarošík",
+    "John R.U. Wilson",
+    "David M. Richardson"
+   ],
+   "year": 2011,
+   "title": "A proposed unified framework for biological invasions",
+   "venue": "Trends in Ecology &amp; Evolution",
+   "doi_or_arxiv": "10.1016/j.tree.2011.03.023",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Mechanism analogy: invasion stage/barrier framework"
+  },
+  {
+   "key": "pysek2005",
+   "authors": [
+    "Petr Pyšek",
+    "Vojtěch Jarošík"
+   ],
+   "year": null,
+   "title": "Residence time determines the distribution of alien plants",
+   "venue": "Invasive Plants: Ecological and Agricultural Aspects",
+   "doi_or_arxiv": "10.1007/3-7643-7380-6_5",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Residence-time analogy for tenure dose test (title-level)"
+  },
+  {
+   "key": "cheng2023",
+   "authors": [
+    "Mengjie Cheng",
+    "Daniel Scott Smith",
+    "Xiang Ren",
+    "Hancheng Cao",
+    "Sanne Smith",
+    "Daniel A. McFarland"
+   ],
+   "year": 2023,
+   "title": "How New Ideas Diffuse in Science",
+   "venue": "American Sociological Review",
+   "doi_or_arxiv": "10.1177/00031224231166955",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Claim A (science): consistent usage predicts core status; RQ2 comparator"
+  },
+  {
+   "key": "small2014",
+   "authors": [
+    "Henry Small",
+    "Kevin W. Boyack",
+    "Richard Klavans"
+   ],
+   "year": 2014,
+   "title": "Identifying emerging topics in science and technology",
+   "venue": "Research Policy",
+   "doi_or_arxiv": "10.1016/j.respol.2014.02.005",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: 71 emerging topics, external validation"
+  },
+  {
+   "key": "porter2019",
+   "authors": [
+    "Alan L. Porter",
+    "Jon Garner",
+    "Stephen F. Carley",
+    "Nils C. Newman"
+   ],
+   "year": 2019,
+   "title": "Emergence scoring to identify frontier R&amp;D topics and key players",
+   "venue": "Technological Forecasting and Social Change",
+   "doi_or_arxiv": "10.1016/j.techfore.2018.04.016",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: emergence score (baseline indicator)"
+  },
+  {
+   "key": "wang2018",
+   "authors": [
+    "Qi Wang"
+   ],
+   "year": 2017,
+   "title": "A bibliometric model for identifying emerging research topics",
+   "venue": "Journal of the Association for Information Science and Technology",
+   "doi_or_arxiv": "10.1002/asi.23930",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: criteria-based emerging-topic identification"
+  },
+  {
+   "key": "krenn2020",
+   "authors": [
+    "Mario Krenn",
+    "Anton Zeilinger"
+   ],
+   "year": 2020,
+   "title": "Predicting research trends with semantic and neural networks with an application in quantum physics",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "doi_or_arxiv": "10.1073/pnas.1914370116",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: SemNet link forecast AUC 0.85 (level)"
+  },
+  {
+   "key": "kleinberg2003",
+   "authors": [
+    "Jon Kleinberg"
+   ],
+   "year": 2003,
+   "title": "Bursty and Hierarchical Structure in Streams",
+   "venue": "Data Mining and Knowledge Discovery",
+   "doi_or_arxiv": "10.1023/A:1024940629314",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: burst detection baseline"
+  },
+  {
+   "key": "chen2006",
+   "authors": [
+    "Chaomei Chen"
+   ],
+   "year": 2005,
+   "title": "CiteSpace II: Detecting and visualizing emerging trends and transient patterns in scientific literature",
+   "venue": "Journal of the American Society for Information Science and Technology",
+   "doi_or_arxiv": "10.1002/asi.20317",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ1: CiteSpace II baseline"
+  },
+  {
+   "key": "sun2013",
+   "authors": [
+    "Xiaoling Sun",
+    "Jasleen Kaur",
+    "Staša Milojević",
+    "Alessandro Flammini",
+    "Filippo Menczer"
+   ],
+   "year": 2013,
+   "title": "Social Dynamics of Science",
+   "venue": "Scientific Reports",
+   "doi_or_arxiv": "10.1038/srep01069",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "RQ2: discipline birth/decline model"
+  },
+  {
+   "key": "jia2017",
+   "authors": [
+    "Tao Jia",
+    "Dashun Wang",
+    "Boleslaw K. Szymanski"
+   ],
+   "year": 2017,
+   "title": "Quantifying patterns of research-interest evolution",
+   "venue": "Nature Human Behaviour",
+   "doi_or_arxiv": "10.1038/s41562-017-0078",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Related work: research-interest evolution"
+  },
+  {
+   "key": "henrich2004",
+   "authors": [
+    "Joseph Henrich"
+   ],
+   "year": 2004,
+   "title": "Demography and Cultural Evolution: How Adaptive Cultural Processes Can Produce Maladaptive Losses—The Tasmanian Case",
+   "venue": "American Antiquity",
+   "doi_or_arxiv": "10.2307/4128416",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Optional: loss of cultural traits (not quoted)"
+  },
+  {
+   "key": "tacchella2018",
+   "authors": [
+    "A. Tacchella",
+    "D. Mazzilli",
+    "L. Pietronero"
+   ],
+   "year": 2018,
+   "title": "A dynamical systems approach to gross domestic product forecasting",
+   "venue": "Nature Physics",
+   "doi_or_arxiv": "10.1038/s41567-018-0204-y",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Optional: economic-complexity forecasting (not read)"
+  },
+  {
+   "key": "zaccaria2014",
+   "authors": [
+    "Andrea Zaccaria",
+    "Matthieu Cristelli",
+    "Andrea Tacchella",
+    "Luciano Pietronero"
+   ],
+   "year": 2014,
+   "title": "How the Taxonomy of Products Drives the Economic Development of Countries",
+   "venue": "PLoS ONE",
+   "doi_or_arxiv": "10.1371/journal.pone.0113770",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Optional: product progression (not read)"
+  },
+  {
+   "key": "boschma2015",
+   "authors": [
+    "R. Boschma",
+    "P.-A. Balland",
+    "D. F. Kogler"
+   ],
+   "year": 2014,
+   "title": "Relatedness and technological change in cities: the rise and fall of technological knowledge in US metropolitan areas from 1981 to 2010",
+   "venue": "Industrial and Corporate Change",
+   "doi_or_arxiv": "10.1093/icc/dtu012",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P candidate: rise and fall of technologies in cities (not read)"
+  },
+  {
+   "key": "balland2019",
+   "authors": [
+    "Pierre-Alexandre Balland",
+    "Ron Boschma",
+    "Joan Crespo",
+    "David L. Rigby"
+   ],
+   "year": 2018,
+   "title": "Smart specialization policy in the European Union: relatedness, knowledge complexity and regional diversification",
+   "venue": "Regional Studies",
+   "doi_or_arxiv": "10.1080/00343404.2018.1437900",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Relatedness density in EU regions (not read)"
+  },
+  {
+   "key": "rigby2015",
+   "authors": [
+    "David L. Rigby"
+   ],
+   "year": 2013,
+   "title": "Technological Relatedness and Knowledge Space: Entry and Exit of US Cities from Patent Classes",
+   "venue": "Regional Studies",
+   "doi_or_arxiv": "10.1080/00343404.2013.854878",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: entry and exit of US cities from patent classes"
+  },
+  {
+   "key": "neffke2011",
+   "authors": [
+    "Frank Neffke",
+    "Martin Henning",
+    "Ron Boschma"
+   ],
+   "year": 2011,
+   "title": "How Do Regions Diversify over Time? Industry Relatedness and the Development of New Growth Paths in Regions",
+   "venue": "Economic Geography",
+   "doi_or_arxiv": "10.1111/j.1944-8287.2011.01121.x",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: entry and exit of industries in regions"
+  },
+  {
+   "key": "hidalgo2007",
+   "authors": [
+    "C. A. Hidalgo",
+    "B. Klinger",
+    "A.-L. Barabási",
+    "R. Hausmann"
+   ],
+   "year": 2007,
+   "title": "The Product Space Conditions the Development of Nations",
+   "venue": "Science",
+   "doi_or_arxiv": "10.1126/science.1144581",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Table P: RCA>1 density definition"
+  },
+  {
+   "key": "richardson2000",
+   "authors": [
+    "David M. Richardson",
+    "Petr Pyšek",
+    "Marcel Rejmánek",
+    "Michael G. Barbour",
+    "F. Dane Panetta",
+    "Carol J. West"
+   ],
+   "year": 2000,
+   "title": "Naturalization and invasion of alien plants: concepts and definitions",
+   "venue": "Diversity and Distributions",
+   "doi_or_arxiv": "10.1046/j.1472-4642.2000.00083.x",
+   "verified_via": "api.crossref.org/works (2026-09-28)",
+   "used_for": "Mechanism analogy: casual vs naturalised aliens"
+  },
+  {
+   "key": "fontaine2024",
+   "authors": [
+    "Sylvain Fontaine",
+    "Floriana Gargiulo",
+    "Michel Dubois",
+    "Paola Tubaro"
+   ],
+   "year": 2024,
+   "title": "Epistemic integration and social segregation of AI in neuroscience",
+   "venue": "Applied Network Science",
+   "doi_or_arxiv": "10.1007/s41109-024-00618-2",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "ANS template; RQ2 comparator"
+  },
+  {
+   "key": "behrouzi2020",
+   "authors": [
+    "Saman Behrouzi",
+    "Zahra Shafaeipour Sarmoor",
+    "Khosrow Hajsadeghi",
+    "Kaveh Kavousi"
+   ],
+   "year": 2020,
+   "title": "Predicting scientific research trends based on link prediction in keyword networks",
+   "venue": "Journal of Informetrics",
+   "doi_or_arxiv": "10.1016/j.joi.2020.101079",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "RQ1: keyword link prediction"
+  },
+  {
+   "key": "liang2021",
+   "authors": null,
+   "year": 2021,
+   "title": "Combining deep neural network and bibliometric indicator for emerging research topic prediction",
+   "venue": "Information Processing & Management",
+   "doi_or_arxiv": "10.1016/j.ipm.2021.102611",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "RQ1: DNN + indicators (numbers not accessible)"
+  },
+  {
+   "key": "xu2021",
+   "authors": null,
+   "year": 2021,
+   "title": "A topic models based framework for detecting and forecasting emerging technologies",
+   "venue": "Technological Forecasting and Social Change",
+   "doi_or_arxiv": "10.1016/j.techfore.2020.120366",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "RQ1: topic-model emerging technologies (8/10 contest criteria)"
+  },
+  {
+   "key": "mao2020",
+   "authors": null,
+   "year": 2020,
+   "title": "Quantifying cross-disciplinary knowledge flow from the perspective of content: Introducing an approach based on knowledge memes",
+   "venue": "Journal of Informetrics",
+   "doi_or_arxiv": "10.1016/j.joi.2020.101092",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "RQ2: knowledge-meme diffusion"
+  },
+  {
+   "key": "cunningham2022",
+   "authors": [
+    "Eoghan Cunningham",
+    "Barry Smyth",
+    "Derek Greene"
+   ],
+   "year": 2022,
+   "title": "Author multidisciplinarity and disciplinary roles in field of study networks",
+   "venue": "Applied Network Science",
+   "doi_or_arxiv": "10.1007/s41109-022-00517-4",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "ANS template (published full text)"
+  },
+  {
+   "key": "holmgren2023",
+   "authors": [
+    "Anton Holmgren",
+    "Daniel Edler",
+    "Martin Rosvall"
+   ],
+   "year": 2023,
+   "title": "Mapping change in higher-order networks with multilevel and overlapping communities",
+   "venue": "Applied Network Science",
+   "doi_or_arxiv": "10.1007/s41109-023-00572-5",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "ANS template; RQ2 method"
+  },
+  {
+   "key": "du2025",
+   "authors": null,
+   "year": 2025,
+   "title": "Journal publications in medicine: ranking vs. interdisciplinarity",
+   "venue": "Applied Network Science",
+   "doi_or_arxiv": "10.1007/s41109-025-00769-w",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "ANS sci-sci precedent (not read in full)"
+  },
+  {
+   "key": "tattershall2021",
+   "authors": null,
+   "year": 2021,
+   "title": "Modelling trend life cycles in scientific research using the Logistic and Gompertz equations",
+   "venue": "Scientometrics",
+   "doi_or_arxiv": "10.1007/s11192-021-04137-0",
+   "verified_via": "api.crossref.org/works (2026-09-28; first author/year/title/venue checked)",
+   "used_for": "RQ2: topic life-cycle curve fits (title-level)"
+  },
+  {
+   "key": "nomaler2022",
+   "authors": [
+    "Önder Nomaler",
+    "Bart Verspagen"
+   ],
+   "year": 2022,
+   "title": "Some New Views on Product Space and Related Diversification",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:2203.16316",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "Claim B: absence/loss information, anti-relatedness"
+  },
+  {
+   "key": "miao2022",
+   "authors": [
+    "Lili Miao",
+    "Dakota Murray",
+    "Woo-Sung Jung",
+    "Vincent Larivière",
+    "Cassidy R. Sugimoto",
+    "Yong-Yeol Ahn"
+   ],
+   "year": 2021,
+   "title": "The latent structure of global scientific development",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:2104.10812",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "Table P: country×discipline entry and exit"
+  },
+  {
+   "key": "pinheiro2018wp",
+   "authors": [
+    "Flávio L. Pinheiro",
+    "Aamena Alshamsi",
+    "Dominik Hartmann",
+    "Ron Boschma",
+    "César A. Hidalgo"
+   ],
+   "year": 2018,
+   "title": "Shooting High or Low: Do Countries Benefit from Entering Unrelated Activities?",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:1801.05352",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "Working-paper precursor; four consecutive years rule"
+  },
+  {
+   "key": "li2022",
+   "authors": [
+    "Yang Li",
+    "Frank Neffke"
+   ],
+   "year": 2022,
+   "title": "Evaluating the principle of relatedness: Estimation, drivers and implications for policy",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:2205.02942",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "Rival R2: binary vs continuous density"
+  },
+  {
+   "key": "krenn2019arxiv",
+   "authors": [
+    "Mario Krenn",
+    "Anton Zeilinger"
+   ],
+   "year": 2019,
+   "title": "Predicting Research Trends with Semantic and Neural Networks with an application in Quantum Physics",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:1906.06843",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "arXiv version of PNAS 2020 (AUC2017=0.85)"
+  },
+  {
+   "key": "dedomenico2016arxiv",
+   "authors": [
+    "Manlio De Domenico",
+    "Elisa Omodei",
+    "Alex Arenas"
+   ],
+   "year": 2016,
+   "title": "Quantifying the Diaspora of Knowledge in the Last Century",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:1604.00696",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "RQ2: source/sink indices"
+  },
+  {
+   "key": "leydesdorff2011arxiv",
+   "authors": [
+    "Loet Leydesdorff",
+    "Ismael Rafols"
+   ],
+   "year": 2010,
+   "title": "The Local Emergence and Global Diffusion of Research Technologies",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:1011.3120",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "RQ2 comparator"
+  },
+  {
+   "key": "jun2017arxiv",
+   "authors": [
+    "Bogang Jun",
+    "Aamena Alshamsi",
+    "Jian Gao",
+    "Cesar A Hidalgo"
+   ],
+   "year": 2017,
+   "title": "Relatedness, Knowledge Diffusion, and the Evolution of Bilateral Trade",
+   "venue": "arXiv",
+   "doi_or_arxiv": "arXiv:1709.05392",
+   "verified_via": "export.arxiv.org API (2026-09-28)",
+   "used_for": "working paper of Jun 2020"
+  }
+ ],
+ "unverified": [
+  {
+   "key": "albornoz2012",
+   "title": "Sequential exporting",
+   "status": "UNVERIFIED (guessed DOI 10.1016/j.jinteco.2012.04.011 returned 404) - do not cite"
+  },
+  {
+   "key": "coniglio2021",
+   "title": "On the evolution of comparative advantage: Path-dependent versus path-defying changes",
+   "status": "UNVERIFIED (guessed DOI 10.1016/j.jinteco.2021.103508 returned 404) - do not cite"
+  },
+  {
+   "key": "hazir2017",
+   "title": "Local Product Space and Firm Level Churning in Exported Products (AFSE 2017 conference paper)",
+   "status": "No DOI; cite only as working paper if needed"
+  },
+  {
+   "key": "math2026",
+   "title": "From Research Spaces to Strategic Portfolio Design (Mathematics 14:1953)",
+   "status": "snippet only, not read - do not cite"
+  }
+ ],
+ "prior_references": "Merged by reference: art_dxvRpQufMR0e research_report.md sources section (~95 Crossref-verified entries); not copied."
+}

@@ -1,0 +1,7 @@
+exp5_split,n_concepts_exp5,n_removed_in_exp6,n_left_exp5_minus_exp6,n_episodes_left,n_newborn_left,R_rate_left,source_file,key_path
+HELDOUT_PHYS,742,34,708,1580,2,0.30886075949367087,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
+HELDOUT_LIFEENV,1113,32,1081,2992,4,0.2911096256684492,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
+HELDOUT_SOC,1352,51,1301,3148,7,0.3062261753494282,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
+HELDOUT_MATHDEC,165,0,165,434,0,0.22119815668202766,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
+COHORT,4356,239,4117,9045,26,0.24723573639982308,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
+DEV,4771,272,4499,8380,27,0.2786396181384248,iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv,split==sp; concept_id normalised; set difference
