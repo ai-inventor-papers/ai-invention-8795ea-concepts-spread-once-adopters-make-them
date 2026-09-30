@@ -13,10 +13,10 @@ variable `AII_RUN_ROOT` to the folder that contains `3_invention_loop/` if your 
 
 | input | artifact id / folder | what is read |
 |---|---|---|
-| EXP5 frame + scan | art_wxWssKSUR45f, `iter_2/gen_art/gen_art_experiment_5` | `frame_concepts.csv`, `scan/agg_counts.parquet`, `scan/year_field_totals.npz`, `scan/reservoir/`, `scan/llm_cache/` (read-only cache lookup), `concept_features_basic.csv`, `grounding_precision.csv`, `results/backbones.json` |
-| EXP8 indicators + frozen models | art_dFQ6jbgNsR6Q, `iter_3/gen_art/gen_art_experiment_8` | `data/frame_matches_early/`, `data/ego_features.parquet`, `data/features_basic.parquet`, `data/outcomes.parquet`, `data/bg_topics.npz` (copied into `data/`), `data/analysis_table.parquet`, `results/indicator_matrix.parquet`, `results/frozen_spec.json`, `results/learned_model.json`, `models/*.joblib`, `inputs/` (copied into `inputs/`) |
-| art_33 field backbone | `iter_1/gen_art/gen_art_experiment_4` | `field_backbone.json` (`phi_min`, learned-model inputs only) |
-| external recognition (declared dependency) | art_O7Dq4L02QnDN, `iter_2/gen_art/gen_art_dataset_2` | `full_data_out/full_data_out_{1,2,3}.json` (Wikipedia creation years -> `fp_wiki_pre`) |
+| EXP5 frame + scan | art_wxWssKSUR45f, `round-2/experiment-5/src` | `frame_concepts.csv`, `scan/agg_counts.parquet`, `scan/year_field_totals.npz`, `scan/reservoir/`, `scan/llm_cache/` (read-only cache lookup), `concept_features_basic.csv`, `grounding_precision.csv`, `results/backbones.json` |
+| EXP8 indicators + frozen models | art_dFQ6jbgNsR6Q, `round-3/experiment-8/src` | `data/frame_matches_early/`, `data/ego_features.parquet`, `data/features_basic.parquet`, `data/outcomes.parquet`, `data/bg_topics.npz` (copied into `data/`), `data/analysis_table.parquet`, `results/indicator_matrix.parquet`, `results/frozen_spec.json`, `results/learned_model.json`, `models/*.joblib`, `inputs/` (copied into `inputs/`) |
+| art_33 field backbone | `round-1/experiment-4/src` | `field_backbone.json` (`phi_min`, learned-model inputs only) |
+| external recognition (declared dependency) | art_O7Dq4L02QnDN, `round-2/dataset-2/src` | `full_data_out/full_data_out_{1,2,3}.json` (Wikipedia creation years -> `fp_wiki_pre`) |
 
 No user-uploaded file is used.
 

@@ -26,7 +26,7 @@ The draft's 19.8 paraphrases P1-P5 with statements that were never pre-registere
 | P4 | RETENTION_RATIO_early and FRONTIER_POTENTIAL: pooled psp > 0 with CI > 0 for O2r_resid AND O1c | **FAILS** | RETENTION_RATIO_early on O2r_resid -0.120 [-0.166, -0.074] (predicted > 0: wrong sign); on O1c -0.006 [-0.041, +0.029]; FRONTIER_POTENTIAL on O2r_resid +0.055 [-0.057, +0.165] |
 | P5 | CONTACT_REACH: pooled psp CI includes 0 (also reported given B5 minus reach) | **FAILS** | CONTACT_REACH pooled psp on O2r_m50 +0.213 [+0.159, +0.265] (predicted: CI includes 0); given B5 minus reach on O2r_resid +0.223 [+0.172, +0.273] |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/frozen_spec.json` -> `preregistered_predictions.P1..P5`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P1..P5.{verdict,detail,...}`
+Source: `round-3/experiment-8/src/results/frozen_spec.json` -> `preregistered_predictions.P1..P5`; `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P1..P5.{verdict,detail,...}`
 
 Reading: P1 fails on BOTH parts (D_rare is positive in fewer than 3 groups, and all four breadth candidates add more than the 0.10 bound). P3 was a prediction of FAILURE; its failure means new_edge_rate transfers to held-out groups. P4 fails because the retention ratio has the opposite sign. P5 predicted that CONTACT_REACH adds nothing; it adds a clearly positive amount.
 
@@ -61,4 +61,4 @@ Reading: P1 fails on BOTH parts (D_rare is positive in fewer than 3 groups, and 
 | entropy | n/a (B5 member) | n/a | +0.775 | +0.631 | +0.639 | +0.847 |
 | edge_persistence | -0.080 | [-0.126, -0.033] | -0.076 | -0.112 | -0.107 | -0.217 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P1.detail.<ind>.{pooled_psp,pooled_ci,raw_rho.<group>}`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/prereg_verdicts.json` -> `P2.{pooled_psp,pooled_ci,raw_rho}`
+Source: `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P1.detail.<ind>.{pooled_psp,pooled_ci,raw_rho.<group>}`; `round-3/experiment-8/src/results/prereg_verdicts.json` -> `P2.{pooled_psp,pooled_ci,raw_rho}`

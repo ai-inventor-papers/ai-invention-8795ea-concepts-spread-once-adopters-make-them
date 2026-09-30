@@ -19,8 +19,8 @@
 
 Also: 0.81 of the 253 Wikidata inception events predate t0 by more than 10 years; 0.78 of Wikipedia dates fall in Wikipedia's 2001-2007 growth wave.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/o5_validation.json` -> `precedence_leakage.<source>.{n_matched,share_first_event_le_t0}; lag.<source>.{median,iqr}`
-Coverage per group and source (share found, share qualifying in window) is in `iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_coverage_by_group_source.csv`.
+Source: `round-3/evaluation-2/src/o5_validation.json` -> `precedence_leakage.<source>.{n_matched,share_first_event_le_t0}; lag.<source>.{median,iqr}`
+Coverage per group and source (share found, share qualifying in window) is in `round-3/evaluation-2/src/record_tables/o5_coverage_by_group_source.csv`.
 
 ## O5-O3 association per held-out group (O5_main; Spearman)
 
@@ -33,4 +33,4 @@ Coverage per group and source (share found, share qualifying in window) is in `i
 
 Pooled (DL, 4 held-out groups): -0.049 [-0.083, -0.016], p = 0.004, I2 = 0.55. Recognised concepts are slightly LESS transient, but the association is small and heterogeneous.
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/record_tables/o5_associations.csv` -> `group==<g>&variant==O5_main::{n,rho_O3,rho_O3_ci95}`; `3_invention_loop/iter_3/gen_art/gen_art_evaluation_2/o5_validation.json` -> `associations_pooled_heldout_DL.O5_main.rho_O3.{pooled,ci95,p,I2}`
+Source: `round-3/evaluation-2/src/record_tables/o5_associations.csv` -> `group==<g>&variant==O5_main::{n,rho_O3,rho_O3_ci95}`; `round-3/evaluation-2/src/o5_validation.json` -> `associations_pooled_heldout_DL.O5_main.rho_O3.{pooled,ci95,p,I2}`

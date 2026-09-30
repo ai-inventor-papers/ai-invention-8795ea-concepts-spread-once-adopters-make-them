@@ -11,7 +11,7 @@
 | S_comp_n | O2r_resid | -0.028 | [-0.244, +0.190] | 0.94 | 3 | 3 |
 | S_comp_n | O4 | -0.049 | [-0.192, +0.096] | 0.93 | 3 | 2 |
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/heldout_unit_results.csv` -> `indicator in S_* :: {z, se_z, rho, ci_lo, ci_hi}`; `round-4/evaluation-3/src/results/partA_derived.json` -> `candidate_S_DL4.*`
+Source: `round-3/experiment-8/src/results/heldout_unit_results.csv` -> `indicator in S_* :: {z, se_z, rho, ci_lo, ci_hi}`; `round-4/evaluation-3/src/results/partA_derived.json` -> `candidate_S_DL4.*`
 Reading: candidate S is now tested (not only 'not run'); none of its rows is in a frozen top-10 confirmed set for breadth; the social-reach rival is weak beyond B5.
 
 ## Indicator families (from indicator_dictionary.csv, column 'family')
@@ -39,10 +39,10 @@ Reading: candidate S is now tested (not only 'not run'); none of its rows is in 
 - **G: landing on gateway fields** (7): G, G_A, G_btw, G_deg, G_phimin, REL_home, RS
 - **S: co-author (social) reach** (3): S_comp, S_comp_n, S_isolated_share
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/indicator_dictionary.csv` -> `family column (counts per value)`; `round-4/evaluation-3/src/results/partA_derived.json` -> `families.*`
+Source: `round-3/experiment-8/src/results/indicator_dictionary.csv` -> `family column (counts per value)`; `round-4/evaluation-3/src/results/partA_derived.json` -> `families.*`
 
 ## D-family exclusion (why D_ratio, D_rare and the other D indicators were never frozen)
 
 [Correction, iteration 4, from art_dFQ6jbgNsR6Q] DEV missing share: D_ratio 0.311, D_z 0.311, D_sub 0.311, D_obs 0.311, D_rare 0.883; the DEV eligibility rule excludes indicators with more than 30% missing. Deviation record, verbatim: 'T4 median M = 3.5 (> 3) so the n_ck >= 2 neighbour rule is kept; consequence: D-family indicators (need M >= 3; D_rare M >= 10) are missing for many concepts and may exceed the 30% missing eligibility bound.'
 
-Source: `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/rq1_dev_selection.json` -> `missing.<indicator>`; `3_invention_loop/iter_3/gen_art/gen_art_experiment_8/results/deviations.json` -> `T4_M_median`
+Source: `round-3/experiment-8/src/results/rq1_dev_selection.json` -> `missing.<indicator>`; `round-3/experiment-8/src/results/deviations.json` -> `T4_M_median`

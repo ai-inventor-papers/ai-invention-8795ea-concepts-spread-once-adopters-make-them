@@ -23,7 +23,7 @@ import statsmodels.api as sm
 
 WS = Path(__file__).resolve().parent
 RUN = Path(_os.environ.get("AII_RUN_LOOP", str(WS.parents[2])))
-E8 = RUN / "iter_3/gen_art/gen_art_experiment_8"
+E8 = RUN / "round-3/experiment-8/src"
 RES = WS / "results"
 B5 = ["logvol", "growth_c", "offhome_share", "entropy", "reach"]
 HELD4 = ["PHYS", "LIFEENV", "SOC", "MATHDEC"]

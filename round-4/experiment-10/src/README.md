@@ -1,7 +1,7 @@
 # Do open-neighbourhood concepts spread? A sealed fresh-cohort test (RQ1)
 
 AI Inventor, invention loop iteration 4, artifact `gen_art_experiment_10` (plan `gen_plan_experiment_1_idx1`).
-This DEEPENS the EXP8 lead (`iter_3/gen_art/gen_art_experiment_8`): early ego-network "openness" of a concept
+This DEEPENS the EXP8 lead (`round-3/experiment-8/src`): early ego-network "openness" of a concept
 anticipates later disciplinary breadth. Here we test it **once**, from a hash-sealed spec, on a **fresh onset cohort
 (2015-2017) that no earlier screen touched**, and we attack the three confounds a reviewer names first: mechanical
 coupling (off-home papers inside the ego network), concept TYPE (methods travel), and a pre-existing generic footprint.
@@ -291,9 +291,9 @@ Details are in `results/type_benchmark_final.json`.
 .venv/bin/python method.py                     # full pipeline; or --only <step>; see method.py for the order
 ```
 
-The pipeline reads the sibling run artifacts (EXP5 `iter_2/gen_art/gen_art_experiment_5`, EXP8
-`iter_3/gen_art/gen_art_experiment_8`, art_33 `iter_1/gen_art/gen_art_experiment_4`, dataset
-`iter_2/gen_art/gen_art_dataset_2`) through `RUN_ROOT` in `lib/common.py` (env `AII_RUN_ROOT`). The OpenAlex snapshot
+The pipeline reads the sibling run artifacts (EXP5 `round-2/experiment-5/src`, EXP8
+`round-3/experiment-8/src`, art_33 `round-1/experiment-4/src`, dataset
+`round-2/dataset-2/src`) through `RUN_ROOT` in `lib/common.py` (env `AII_RUN_ROOT`). The OpenAlex snapshot
 is read from the public S3 bucket; no API key is needed and 0 OpenAlex credits were used. LLM calls go through OpenRouter
 (`OPENROUTER_BASE_URL`, `OPENROUTER_API_KEY`); the total spend was **$2.04**. A re-run with `llm_cache/` in place costs $0.
 The single unseal cannot be repeated (`logs/unsealed.json`). `s9_unseal.py` resumes scoring from the hashed

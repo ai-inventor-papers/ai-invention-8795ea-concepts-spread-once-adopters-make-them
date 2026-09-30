@@ -29,11 +29,11 @@ The code finds these inputs through ONE setting: the directory that contains the
 - By default this is three levels above this folder (`Path(__file__).parents[2]` in `lib/common.py`).
 - To override it, set `AII_RUN_LOOP=<dir>`.
 - If your clone names the sibling folders by artifact id instead, arrange (or symlink) them into that layout:
-  - `iter_3/gen_art/gen_art_experiment_8` → `art_dFQ6jbgNsR6Q`
-  - `iter_3/gen_art/gen_art_experiment_7` → `art_22ppE1snfHKj`
-  - `iter_3/gen_art/gen_art_evaluation_2` → `art_7W9xiIO3FVBs`
-  - `iter_2/gen_art/gen_art_experiment_5` → `art_wxWssKSUR45f`
-  - `iter_3/gen_art/gen_art_research_2` → `art_EesdB8cuSfcU`
+  - `round-3/experiment-8/src` → `art_dFQ6jbgNsR6Q`
+  - `round-3/experiment-7/src` → `art_22ppE1snfHKj`
+  - `round-3/evaluation-2/src` → `art_7W9xiIO3FVBs`
+  - `round-2/experiment-5/src` → `art_wxWssKSUR45f`
+  - `round-3/research-2/src` → `art_EesdB8cuSfcU`
   - `iter_3/gen_art/gen_art_experiment_9` → the failed Exp9 folder (only its `.aii_worker_result.json` is read)
 
 `results/inputs_manifest.json` lists every input with its size and sha256, so you can check your copies. No user-uploaded file is used.

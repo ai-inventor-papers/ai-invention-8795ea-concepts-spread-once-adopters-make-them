@@ -15,9 +15,9 @@
 
 **Inputs read (internal, not web).**
 - Prior reports:
-  - `iter_3/gen_art/gen_art_research_2/research_report.md` (art_EesdB8cuSfcU)
-  - `iter_2/gen_art/gen_art_research_1/research_report.md` and `research_out.json` (art_dxvRpQufMR0e)
-- Exp8 results (`iter_3/gen_art/gen_art_experiment_8/results/`): `heldout_summary.json`, `prereg_verdicts.json`, `portability_table.csv`, `learned_vs_single_heldout.json`, `rq1_heldout.json`, `indicator_dictionary.csv`, `case_exemplars.json`, `provenance.json`.
+  - `round-3/research-2/src/research_report.md` (art_EesdB8cuSfcU)
+  - `round-2/research-1/src/research_report.md` and `research_out.json` (art_dxvRpQufMR0e)
+- Exp8 results (`round-3/experiment-8/src/results/`): `heldout_summary.json`, `prereg_verdicts.json`, `portability_table.csv`, `learned_vs_single_heldout.json`, `rq1_heldout.json`, `indicator_dictionary.csv`, `case_exemplars.json`, `provenance.json`.
 
 ## Order of work (as run)
 

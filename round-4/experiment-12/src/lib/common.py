@@ -32,11 +32,11 @@ for _d in (DATA, RES, LOGS, FIGS, CASES, ATLAS):
 
 RUN_ROOT = Path(os.environ.get("AII_RUN_ROOT", str(ROOT.parents[3])))
 # input artifacts (read-only); each can be pointed elsewhere with its own environment variable
-E5 = Path(os.environ.get("AII_EXP5_DIR", RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_5"))  # art_wxWssKSUR45f
-E6 = Path(os.environ.get("AII_EXP6_DIR", RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_experiment_6"))  # art_N-mpomDZZ1ln
-E7 = Path(os.environ.get("AII_EXP7_DIR", RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_7"))  # art_22ppE1snfHKj
-E8 = Path(os.environ.get("AII_EXP8_DIR", RUN_ROOT / "3_invention_loop/iter_3/gen_art/gen_art_experiment_8"))  # art_dFQ6jbgNsR6Q
-DS2 = Path(os.environ.get("AII_DS2_DIR", RUN_ROOT / "3_invention_loop/iter_2/gen_art/gen_art_dataset_2"))  # art_O7Dq4L02QnDN
+E5 = Path(os.environ.get("AII_EXP5_DIR", RUN_ROOT / "round-2/experiment-5/src"))  # art_wxWssKSUR45f
+E6 = Path(os.environ.get("AII_EXP6_DIR", RUN_ROOT / "round-2/experiment-6/src"))  # art_N-mpomDZZ1ln
+E7 = Path(os.environ.get("AII_EXP7_DIR", RUN_ROOT / "round-3/experiment-7/src"))  # art_22ppE1snfHKj
+E8 = Path(os.environ.get("AII_EXP8_DIR", RUN_ROOT / "round-3/experiment-8/src"))  # art_dFQ6jbgNsR6Q
+DS2 = Path(os.environ.get("AII_DS2_DIR", RUN_ROOT / "round-2/dataset-2/src"))  # art_O7Dq4L02QnDN
 E8_DATA = E8 / "data"
 E8_INPUTS = E8 / "inputs"
 

@@ -101,7 +101,7 @@ def metrics() -> tuple[dict, dict]:
     m["ledger_rows"] = int(len(LG))
     m["ledger_verify_disagreements"] = LV["n_disagreements"]
     m["ledger_orphan_numeric_tokens"] = LV["n_orphan_numeric_tokens"]
-    ev2 = pd.read_csv(WS.parents[2] / "iter_3/gen_art/gen_art_evaluation_2/claims_ledger.csv")
+    ev2 = pd.read_csv(WS.parents[2] / "round-3/evaluation-2/src/claims_ledger.csv")
     m["eval2_open_rows_resolved"] = int(ev2.status.isin(["MISMATCH", "MISLABELLED"]).sum())
     m = {k: (float(v) if isinstance(v, (float, np.floating)) else int(v)) for k, v in m.items() if fin(v)}
     info = {"B1_verdicts": {k: v["verdict"] for k, v in B1["pooled"].items()},
