@@ -1,0 +1,20 @@
+{
+ "ledger_status_counts": {
+  "MATCH": 224,
+  "MISLABELLED": 15,
+  "MISMATCH": 6,
+  "FILE_FLAG_OVERRIDDEN": 1
+ },
+ "n_rows": 246,
+ "n_blocking": 58,
+ "harvest": {
+  "AUTO_MATCH": 494,
+  "NO_AUTOMATIC_SOURCE": 61
+ },
+ "T1_n_indicators": 34,
+ "T1_expected_34": true,
+ "T1_all_match_exp3": true,
+ "T2_n_rows": 278,
+ "T2_glmm_key": "glmm_check.spearman_vs_primary",
+ "n_partial_candidates": 12
+}

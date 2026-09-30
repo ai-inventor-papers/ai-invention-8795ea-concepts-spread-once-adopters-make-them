@@ -1,0 +1,514 @@
+{
+  "metadata": {
+    "evaluation_name": "Checking the record before the paper (iteration-3 record audit)",
+    "plan_id": "gen_plan_evaluation_1_idx4",
+    "resampling_unit": "concept",
+    "bootstrap": {
+      "B": 2000,
+      "seed": 20260928
+    },
+    "path_convention": "source paths are relative to the run's 3_invention_loop directory; workspace outputs relative to this workspace",
+    "dependencies": [
+      "art_wxWssKSUR45f",
+      "art_N-mpomDZZ1ln",
+      "art_O7Dq4L02QnDN"
+    ],
+    "read_by_path": [
+      "art_lwI2DuRtQRZX",
+      "iter_1 exp1/exp3/exp4",
+      "iter_2 paper_draft.md"
+    ],
+    "ledger_status_counts": {
+      "MATCH": 224,
+      "MISLABELLED": 15,
+      "MISMATCH": 6,
+      "FILE_FLAG_OVERRIDDEN": 1
+    },
+    "frame_agreement": {
+      "n_exp5": 12499,
+      "n_exp6": 653,
+      "n_both": 628,
+      "pooling": {
+        "criteria": {
+          "onset_pm1_ge_0.80": true,
+          "home_kappa_ge_0.60": true,
+          "o2r_m50_spearman_ge_0.70": true,
+          "retention_kappa_ge_0.40": false
+        },
+        "n_met": 3,
+        "verdict": "PARTIAL",
+        "retention_kappa_with_matched_definition_R_abs2": 0.9795716013524622,
+        "implication": "A failed Exp5-minus-Exp6 confirmation can be read as a failure of the H2 claim only if the frames agree on the retention and episode definitions. Retention kappa between Exp5 R (relative share rule) a...",
+        "scope_limit": "agreement is measured on the 628 shared (newborn-candidate) concepts only; Exp6's frame is not a random subset of Exp5, so it may overstate agreement for Exp5-only (mostly non-newborn) concepts"
+      },
+      "disagreement_attribution": {
+        "rules_in_order": [
+          "GROUNDING: early-volume ratio Exp5/Exp6 outside [0.5, 2] (count in year t0 is not stored; early t0..t0+2 volume used)",
+          "ONSET_RULE: counts agree but t0 differs",
+          "HOME_RULE: t0 agrees, home differs (or episode field is a home field in one frame)"
+        ],
+        "share_by_type": {
+          "episode_set": {
+            "EPISODE_THRESHOLD": 0.4878,
+            "ONSET_RULE": 0.2439,
+            "HOME_RULE": 0.1707,
+            "UNEXPLAINED": 0.0976
+          },
+          "home": {
+            "HOME_RULE": 0.8,
+            "ONSET_RULE": 0.2
+          },
+          "onset": {
+            "ONSET_RULE": 0.7333,
+            "GROUNDING": 0.2667
+          },
+          "retention": {
+            "RETENTION_WINDOW": 0.9985,
+            "GROUNDING": 0.0015
+          }
+        },
+        "count_by_type": {
+          "episode_set": 41,
+          "home": 5,
+          "onset": 15,
+          "retention": 652
+        },
+        "grounding_ratio_outside_share": 0.009554140127388535
+      }
+    },
+    "exp5_minus_exp6": [
+      {
+        "exp5_split": "HELDOUT_PHYS",
+        "n_concepts_exp5": 742,
+        "n_removed_in_exp6": 34,
+        "n_left_exp5_minus_exp6": 708,
+        "n_episodes_left": 1580,
+        "n_newborn_left": 2,
+        "R_rate_left": 0.30886075949367087,
+        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "key_path": "split==sp; concept_id normalised; set difference"
+      },
+      {
+        "exp5_split": "HELDOUT_LIFEENV",
+        "n_concepts_exp5": 1113,
+        "n_removed_in_exp6": 32,
+        "n_left_exp5_minus_exp6": 1081,
+        "n_episodes_left": 2992,
+        "n_newborn_left": 4,
+        "R_rate_left": 0.2911096256684492,
+        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "key_path": "split==sp; concept_id normalised; set difference"
+      },
+      {
+        "exp5_split": "HELDOUT_SOC",
+        "n_concepts_exp5": 1352,
+        "n_removed_in_exp6": 51,
+        "n_left_exp5_minus_exp6": 1301,
+        "n_episodes_left": 3148,
+        "n_newborn_left": 7,
+        "R_rate_left": 0.3062261753494282,
+        "source_file": "iter_2/gen_art/gen_art_experiment_5/frame_concepts.csv + iter_2/gen_art/gen_art_experiment_6/results/frame_concepts.csv",
+        "key_path": "split==sp; concept_id normalised; set difference"
+      }
+    ],
+    "o5_readings": {
+      "O5_main": "UNRELATED",
+      "O5_wiki": "UNRELATED",
+      "O5_tax": "RELATED_NOT_DUPLICATE",
+      "O5_anyrel": "UNRELATED",
+      "O5_main_noRF": "UNRELATED"
+    },
+    "o5_hand_check": {
+      "label": "executor-checked (LLM judge + executor reading + MediaWiki first-revision API); NOT a human expert annotation",
+      "n_items": 100,
+      "n_positive": 50,
+      "n_negative": 50,
+      "n_executor_read": 100,
+      "n_reused_verdicts": 0,
+      "positive_precision_strict": 0.86,
+      "positive_precision_lenient_partial_counts": 0.96,
+      "wikipedia_date_error_years": {
+        "n": 20,
+        "median": 0.0,
+        "share_le_1": 0.95,
+        "share_eq_0": 0.95,
+        "distribution": {
+          "0": 19,
+          "4": 1
+        }
+      },
+      "non_wikipedia_date_first_recognition": {
+        "yes": 20,
+        "unclear": 9,
+        "no": 1
+      },
+      "date_error_le_1y_share_all_checked": 0.9512195121951219,
+      "n_date_checked": 41,
+      "negatives_false_negative_rate": 0.14,
+      "negatives_wiki_page_any_in_window": 0.16,
+      "negatives_wiki_page_exists_share": 1.0,
+      "negatives_wiki_page_precedes_t0_share": 0.84,
+      "fn_note": "lower bound: only Wikipedia was checked for false negatives (not MeSH/taxonomies)",
+      "positives_emergence_meaningful_share": 0.42,
+      "positives_emergence_meaningful_note": "executor judgement: does the event plausibly mark recognition of a NEW concept (vs dating a long-known phenomenon)?",
+      "executor_vs_llm_kappa_same_concept": 0.4966442953020133,
+      "executor_vs_llm_pct_agree": 0.82,
+      "n_executor_llm_pairs": 50,
+      "llm": {
+        "model": "openai/gpt-4.1-mini",
+        "llm_cost_usd": 0.009030400000000001,
+        "n_llm_calls": 50,
+        "cap_usd": 1.0
+      },
+      "FIT_FOR_USE_rule": "precision_strict >= 0.85 AND date error <= 1 year in >= 80% of checked positives",
+      "FIT_FOR_USE": true
+    },
+    "o5_definitions": {
+      "written_before_any_association": true,
+      "common_conditions": "year_usable == true AND t0 < year <= t0 + 8 (t0 = Exp5 frame onset)",
+      "qualifying_event_types": {
+        "mesh": "event_type == mesh_descriptor_introduced AND detail.mesh_baseline is not true AND year > 1966 (supplementary records mesh_supplementary_record_introduced excluded: not descriptors)",
+        "wikipedia_en": "event_type in {wikipedia_article_created (exact first revision), wikipedia_page_created_estimated}",
+        "wikidata": "event_type in {wikidata_inception (P571), wikidata_discovery_or_invention (P575)}",
+        "taxonomies": "acm_ccs / msc / pacs_physh event_type == taxonomy_added_between (taxonomy_in_version is a membership, not an addition date)",
+        "curated_lists": "gartner_hype_cycle, mit_tr10, nature_methods_moty, science_boty, physics_world_boty, research_fronts (any listed event)",
+        "excluded": "jel (present-day membership only, no dated events)"
+      },
+      "variants": {
+        "O5_main": "1 if >= 1 qualifying event with relation == 'same' from MeSH / Wikipedia / Wikidata / taxonomy_added_between / curated lists",
+        "O5_wiki": "O5_main restricted to wikipedia_en + wikidata (the only sources that run in every group)",
+        "O5_tax": "O5_main restricted to dated taxonomies (mesh descriptor + acm_ccs/msc/pacs_physh taxonomy_added_between)",
+        "O5_anyrel": "O5_main with relation in {same, narrower, broader}",
+        "O5_main_noRF": "ADDITIONAL (declared here, before results): O5_main without research_fronts, which are citation-derived (leakage risk)",
+        "O5_lag": "year of the first qualifying (relation same) event minus t0, for O5_main positives"
+      },
+      "outcomes": {
+        "O1": "concept_outcomes.csv",
+        "O2r_m50": "concept_outcomes.csv",
+        "O3": "concept_outcomes.csv",
+        "O2r_resid": "O2r_m50 residualised on log N_outcome by OLS within Exp5 split (Exp5 has no O2r_resid column)",
+        "log_N_outcome": "log N_outcome",
+        "log_early_volume": "log frame_concepts.early_volume"
+      },
+      "B5_for_partial": [
+        "logvol",
+        "growth_c",
+        "offhome_share"
+      ],
+      "bootstrap": {
+        "unit": "concept",
+        "B": 2000,
+        "seed": 20260928
+      },
+      "reading_rule": {
+        "DUPLICATE": "|pooled rho| >= 0.8 for any publication outcome",
+        "RELATED_NOT_DUPLICATE": "pooled rho with O2r_m50 or O1 has 95% CI > 0 and |rho| < 0.8",
+        "UNRELATED": "pooled CI covers 0 for all of O1, O2r_m50 and O2r_resid",
+        "pooled": "DerSimonian-Laird across the 4 held-out groups (PHYS, LIFEENV, SOC, MATHDEC), bootstrap SEs"
+      },
+      "precedence_flag": "source flagged if > 30% of matched concepts have their first usable same-relation event at or before t0",
+      "fit_for_use_rule": "positive precision >= 0.85 AND date error <= 1 year in >= 80% of checked positives (hand check)",
+      "written_at": "2026-09-28 21:51:15"
+    },
+    "next_field_clashes": {
+      "strata_clash_resolution": "The hypothesis text's '961 strata' is the number of INFORMATIVE strata (>= 1 event and >= 1 non-event) that enter the conditional likelihood (961 recomputed; 18846 rows); the file's n_strata = 2,339 c...",
+      "LR_clash_resolution": "LR 68.6 = M1 (plain retaining relatedness d0_ret_rel) vs M0, Breslow; LR 71.7 = M2 (gateway-weighted d_ret_gate) vs M0, Breslow; LR 77.3 = M2 vs M0 with the exact conditional likelihood (statsmodels, ...",
+      "d_clash_resolution": "d = 0.281 is the M1 coefficient of plain retaining relatedness (d0_ret_rel, SE 0.032); d = 0.302 ('0.30') is the M2 coefficient of gateway-weighted retaining relatedness (d_ret_gate). Both are Breslow..."
+    },
+    "t3_refit": [
+      {
+        "row": "exp1_Astar_h_delta_rho_O2r",
+        "experiment": "exp1",
+        "outcome": "O2r",
+        "base_cols": "B_logvol|B_growth|B_offhome|B_entropy|B_nfields|A_h_missing",
+        "cand_cols": "B_logvol|B_growth|B_offhome|B_entropy|B_nfields|A_h_missing|A_h",
+        "point_reported": -0.005644811115935844,
+        "point_reproduced": -0.005644811115935844,
+        "abs_diff": 0.0,
+        "reproduction_status": "MATCH",
+        "ci90_refit": [
+          -0.08555324253766013,
+          0.023395403257155584
+        ],
+        "ci95_refit": [
+          -0.1112492727207789,
+          0.03240124219469759
+        ],
+        "B": 2000,
+        "B_requested": 2000,
+        "n_concepts": 48,
+        "fixed_prediction_ci90": [
+          -0.033844584160467935,
+          0.016635147457856648
+        ],
+        "fixed_prediction_ci95": null,
+        "earlier_refit_or_source_ci": [
+          -0.09187184499185076,
+          0.02335466662748035
+        ],
+        "ci_widening_ratio_90": 2.158265155182925,
+        "ci95_excludes_0": false,
+        "source_file": "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json",
+        "key_path": "delta_rho",
+        "runtime_s": 30.4
+      },
+      {
+        "row": "exp3_D_ratio_delta_rho_O2r",
+        "experiment": "exp3",
+        "outcome": "O2r",
+        "base_cols": "logvol|growth|offhome_share|entropy|nfields2",
+        "cand_cols": "logvol|growth|offhome_share|entropy|nfields2|D_ratio",
+        "point_reported": 0.006012950971322928,
+        "point_reproduced": 0.006012950971322928,
+        "abs_diff": 0.0,
+        "reproduction_status": "MATCH",
+        "ci90_refit": [
+          -0.08935118596392226,
+          0.12619674841748554
+        ],
+        "ci95_refit": [
+          -0.11773524331545256,
+          0.1636755138424288
+        ],
+        "B": 2000,
+        "B_requested": 2000,
+        "n_concepts": 47,
+        "fixed_prediction_ci90": null,
+        "fixed_prediction_ci95": null,
+        "earlier_refit_or_source_ci": [
+          -0.10798712408922832,
+          0.1707076671709234
+        ],
+        "ci_widening_ratio_90": null,
+        "ci95_excludes_0": false,
+        "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+        "key_path": "candidates.D.delta_rho",
+        "runtime_s": 1.6
+      },
+      {
+        "row": "exp3_F_res_delta_rho_O2r",
+        "experiment": "exp3",
+        "outcome": "O2r",
+        "base_cols": "logvol|growth|offhome_share|entropy|nfields2",
+        "cand_cols": "logvol|growth|offhome_share|entropy|nfields2|F_res",
+        "point_reported": -0.06036077705827936,
+        "point_reproduced": -0.06036077705827936,
+        "abs_diff": 0.0,
+        "reproduction_status": "MATCH",
+        "ci90_refit": [
+          -0.16137470147654742,
+          0.015409124069064806
+        ],
+        "ci95_refit": [
+          -0.18848776924300192,
+          0.02675252656473977
+        ],
+        "B": 2000,
+        "B_requested": 2000,
+        "n_concepts": 47,
+        "fixed_prediction_ci90": null,
+        "fixed_prediction_ci95": null,
+        "earlier_refit_or_source_ci": [
+          -0.19017711343114307,
+          0.02269966804816404
+        ],
+        "ci_widening_ratio_90": null,
+        "ci95_excludes_0": false,
+        "source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+        "key_path": "candidates.F.delta_rho",
+        "runtime_s": 1.4
+      }
+    ],
+    "record_tables": [
+      "coverage_iter2.csv",
+      "coverage_iter2_steps.csv",
+      "definitions_diff.csv"
+    ],
+    "files": [
+      "claims_ledger.csv",
+      "frame_agreement.json",
+      "o5_validation.json"
+    ]
+  },
+  "metrics_agg": {
+    "n_ledger_rows": 246.0,
+    "n_match": 224.0,
+    "n_rounding": 0.0,
+    "n_mismatch": 6.0,
+    "n_missing": 0.0,
+    "n_mislabelled": 15.0,
+    "n_file_flag_overridden": 1.0,
+    "n_blocking_rows": 58.0,
+    "n_blocking_fixed": 48.0,
+    "n_draft_numbers_harvested": 555.0,
+    "n_draft_numbers_auto_matched": 494.0,
+    "t1_n_portability_indicators": 34.0,
+    "n_partial_association_candidates": 12.0,
+    "frame_n_exp5": 12499.0,
+    "frame_n_exp6": 653.0,
+    "frame_n_both": 628.0,
+    "onset_exact_agree": 0.9761146496815286,
+    "onset_pm1_agree": 0.9888535031847133,
+    "home_kappa": 0.9896520587130324,
+    "o1_kappa": 0.968138324319388,
+    "o3_kappa": 0.9341477481256227,
+    "o2r_spearman": 0.9976798313829333,
+    "o2r_m50_lin_ccc": 0.9973662925119795,
+    "early_volume_log_spearman": 0.95861104497199,
+    "episode_jaccard_median": 1.0,
+    "episode_jaccard_pooled": 0.9774972557628979,
+    "retention_kappa": 0.2800944323827687,
+    "retention_kappa_R_abs2_matched_definition": 0.9795716013524622,
+    "pooling_criteria_met": 3.0,
+    "o5_main_base_rate_heldout": 0.23754448398576514,
+    "o5_main_base_rate_all": 0.2248179854388351,
+    "o5_rho_O2r_pooled": 0.013753680945736549,
+    "o5_rho_O2r_pooled_ci_lo": -0.04499988896005439,
+    "o5_rho_O2r_pooled_ci_hi": 0.07250725085152748,
+    "o5_rho_O1_pooled": 0.0005301207834114344,
+    "o5_rho_O1_pooled_ci_lo": -0.033210340965104994,
+    "o5_rho_O1_pooled_ci_hi": 0.034270582531927864,
+    "o5_rho_O2r_resid_pooled": 0.014485438536483115,
+    "o5_rho_logN_pooled": 0.07155106051543882,
+    "o5_tax_rho_O2r_pooled": 0.06887912399864002,
+    "o5_share_recognised_at_or_before_t0": 0.6697335786862949,
+    "o5_pos_precision": 0.86,
+    "o5_pos_precision_lenient": 0.96,
+    "o5_neg_fn_rate": 0.14,
+    "o5_date_error_le1_share": 0.9512195121951219,
+    "o5_executor_llm_kappa": 0.4966442953020133,
+    "o5_fit_for_use": 1.0,
+    "llm_cost_usd": 0.009030400000000001,
+    "next_field_LR_M1_vs_M0_reproduced": 68.5686417119814,
+    "next_field_LR_M2_vs_M0_reproduced": 71.71641464247477,
+    "next_field_LR_M2_vs_M0_exact": 77.30210998204439,
+    "next_field_trace_matches": 26.0,
+    "next_field_trace_checked": 26.0,
+    "t3_exp1_Astar_h_delta_rho_O2r_point": -0.005644811115935844,
+    "t3_exp1_Astar_h_delta_rho_O2r_ci95_lo": -0.1112492727207789,
+    "t3_exp1_Astar_h_delta_rho_O2r_ci95_hi": 0.03240124219469759,
+    "t3_exp3_D_ratio_delta_rho_O2r_point": 0.006012950971322928,
+    "t3_exp3_D_ratio_delta_rho_O2r_ci95_lo": -0.11773524331545256,
+    "t3_exp3_D_ratio_delta_rho_O2r_ci95_hi": 0.1636755138424288,
+    "t3_exp3_F_res_delta_rho_O2r_point": -0.06036077705827936,
+    "t3_exp3_F_res_delta_rho_O2r_ci95_lo": -0.18848776924300192,
+    "t3_exp3_F_res_delta_rho_O2r_ci95_hi": 0.02675252656473977,
+    "t3_exp4_G_delta_rho_O2r_m30_point": 0.03330786860198626,
+    "t3_exp4_G_delta_rho_O2r_m30_ci95_lo": -0.24954030033711316,
+    "t3_exp4_G_delta_rho_O2r_m30_ci95_hi": 0.3394444720783207,
+    "t3_exp4_G_delta_rho_O2r_resid_point": 0.1503437738731856,
+    "t3_exp4_G_delta_rho_O2r_resid_ci95_lo": -0.1269027531271129,
+    "t3_exp4_G_delta_rho_O2r_resid_ci95_hi": 0.42812381978073777,
+    "t3_exp4_G_delta_auc_O1_point": 0.07226107226107226,
+    "t3_exp4_G_delta_auc_O1_ci95_lo": -0.012170385395537501,
+    "t3_exp4_G_delta_auc_O1_ci95_hi": 0.23057088744588744,
+    "t3_exp4_G_delta_auc_O1_label_coverage_adjusted_point": 0.01631701631701632,
+    "t3_exp4_G_delta_auc_O1_label_coverage_adjusted_ci95_lo": -0.04242571524577574,
+    "t3_exp4_G_delta_auc_O1_label_coverage_adjusted_ci95_hi": 0.15915915915915912
+  },
+  "datasets": [
+    {
+      "dataset": "claims_ledger",
+      "examples": [
+        {
+          "input": "{\"claim_id\": \"H1_crit_pooled_dauc_ge_0.05\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantity\": ...",
+          "output": "False",
+          "predict_status": "MATCH",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_key_path": "verdict_H1.criteria.pooled_dauc_ge_0.05",
+          "metadata_severity": "minor",
+          "metadata_artifact_id": "art_wxWssKSUR45f",
+          "metadata_in_draft": false,
+          "metadata_correction": "",
+          "eval_match": 1.0
+        },
+        {
+          "input": "{\"claim_id\": \"H1_crit_refit_ci_gt0\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantity\": \"verdic...",
+          "output": "False",
+          "predict_status": "MATCH",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_key_path": "verdict_H1.criteria.refit_ci_gt0",
+          "metadata_severity": "minor",
+          "metadata_artifact_id": "art_wxWssKSUR45f",
+          "metadata_in_draft": false,
+          "metadata_correction": "",
+          "eval_match": 1.0
+        },
+        {
+          "input": "{\"claim_id\": \"H1_crit_sign_ge3_of_4_evaluable\", \"draft_section\": \"10.3 Field retention hypothesis: result: DISCONFIRMED\", \"claim_text\": \"Verdict: DISCONFIRMED by all preregistered criteria.\", \"quantit...",
+          "output": "False",
+          "predict_status": "MATCH",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_5/results/h1_heldout.json",
+          "metadata_key_path": "verdict_H1.criteria.sign_ge3_of_4_evaluable",
+          "metadata_severity": "minor",
+          "metadata_artifact_id": "art_wxWssKSUR45f",
+          "metadata_in_draft": false,
+          "metadata_correction": "",
+          "eval_match": 1.0
+        }
+      ]
+    },
+    {
+      "dataset": "refit_bootstrap_iter1",
+      "examples": [
+        {
+          "input": "{\"row\": \"exp1_Astar_h_delta_rho_O2r\", \"experiment\": \"exp1\", \"outcome\": \"O2r\", \"base\": \"B_logvol|B_growth|B_offhome|B_entropy|B_nfields|A_h_missing\", \"cand\": \"B_logvol|B_growth|B_offhome|B_entropy|B_nf...",
+          "output": "{\"point_reported\": -0.005644811115935844, \"fixed_prediction_ci90\": [-0.033844584160467935, 0.016635147457856648]}",
+          "predict_refit_bootstrap": "{\"point\": -0.005644811115935844, \"ci90\": [-0.08555324253766013, 0.023395403257155584], \"ci95\": [-0.1112492727207789, 0.03240124219469759], \"B\": 2000}",
+          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_1/results/screen_result.json",
+          "metadata_key_path": "delta_rho",
+          "eval_point_abs_diff": 0.0,
+          "eval_ci95_width": 0.14365051491547648,
+          "eval_ci_widening_ratio_90": 2.158265155182925
+        },
+        {
+          "input": "{\"row\": \"exp3_D_ratio_delta_rho_O2r\", \"experiment\": \"exp3\", \"outcome\": \"O2r\", \"base\": \"logvol|growth|offhome_share|entropy|nfields2\", \"cand\": \"logvol|growth|offhome_share|entropy|nfields2|D_ratio\"}",
+          "output": "{\"point_reported\": 0.006012950971322928, \"fixed_prediction_ci90\": null}",
+          "predict_refit_bootstrap": "{\"point\": 0.006012950971322928, \"ci90\": [-0.08935118596392226, 0.12619674841748554], \"ci95\": [-0.11773524331545256, 0.1636755138424288], \"B\": 2000}",
+          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+          "metadata_key_path": "candidates.D.delta_rho",
+          "eval_point_abs_diff": 0.0,
+          "eval_ci95_width": 0.28141075715788133
+        },
+        {
+          "input": "{\"row\": \"exp3_F_res_delta_rho_O2r\", \"experiment\": \"exp3\", \"outcome\": \"O2r\", \"base\": \"logvol|growth|offhome_share|entropy|nfields2\", \"cand\": \"logvol|growth|offhome_share|entropy|nfields2|F_res\"}",
+          "output": "{\"point_reported\": -0.06036077705827936, \"fixed_prediction_ci90\": null}",
+          "predict_refit_bootstrap": "{\"point\": -0.06036077705827936, \"ci90\": [-0.16137470147654742, 0.015409124069064806], \"ci95\": [-0.18848776924300192, 0.02675252656473977], \"B\": 2000}",
+          "metadata_source_file": "iter_1/gen_art/gen_art_experiment_3/results/screen_result.json",
+          "metadata_key_path": "candidates.F.delta_rho",
+          "eval_point_abs_diff": 0.0,
+          "eval_ci95_width": 0.2152402958077417
+        }
+      ]
+    },
+    {
+      "dataset": "next_field_trace",
+      "examples": [
+        {
+          "input": "{\"quantity\": \"n_rows\", \"how\": \"rows of entry_risk_sets_heldout.parquet with n_ret > 0 (primary sample)\"}",
+          "output": "46433",
+          "predict_recomputed": "46433",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_key_path": "H2_pooled.n_rows",
+          "eval_match": 1.0
+        },
+        {
+          "input": "{\"quantity\": \"n_strata\", \"how\": \"unique strata in the primary sample (all, incl. strata with 0 events)\"}",
+          "output": "2339",
+          "predict_recomputed": "2339",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_key_path": "H2_pooled.n_strata",
+          "eval_match": 1.0
+        },
+        {
+          "input": "{\"quantity\": \"n_strata_model\", \"how\": \"strata with >= 1 event and >= 1 non-event (the only strata that enter a conditional likelihood)\"}",
+          "output": "961",
+          "predict_recomputed": "961",
+          "metadata_source_file": "iter_2/gen_art/gen_art_experiment_6/results/heldout_result.json",
+          "metadata_key_path": "H2_pooled.models.M0.n_strata",
+          "eval_match": 1.0
+        }
+      ]
+    }
+  ]
+}
