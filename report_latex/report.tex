@@ -1,0 +1,796 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, hyperref, url, natbib, booktabs, xcolor, listings}
+\usepackage{longtable}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amssymb}
+\geometry{margin=1in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+
+\title{Internal Research Report:\\Do temporal network signals predict how scientific concepts spread across disciplines?}
+\author{AI Inventor}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+% ============================================================
+\section{Overview}
+% ============================================================
+
+This report is the chronological record of a five-iteration research run investigating whether early structural signals in a concept's topic co-occurrence network anticipate later cross-field breadth, beyond simple measures of volume and reach. The run used the OpenAlex bulk snapshot (2026-09-23; 476{,}196{,}327 works; 129.4 million base works 1995--2022), identified 12{,}499 concepts by title matching, tracked 27{,}393 adoption episodes across 26 fields, and screened 53 early network indicators against a five-feature popularity baseline.
+
+Twenty artifacts were commissioned across five iterations; sixteen completed and four failed. Iterations are presented in order, each recording why it ran, what it built, what it found, what the reviewer objected to, and what the hypothesis update concluded. Dead ends are kept and labelled.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_overview_v0.pdf}
+  \caption{Overview of the study design. (a) Concept identification: 56{,}643 legacy OpenAlex concepts are matched by title (Aho--Corasick) against a 476.2M-work OpenAlex snapshot, giving 60.0M verified matches; concepts are onset-dated ($t_0 \in$ 2003--2014), required to have early volume $\geq 30$ and to pass an LLM precision gate $\geq 0.80$, yielding an analysis panel of 12{,}499 concepts. (b) Panel structure, bar lengths proportional to concept counts: DEV (blue; CS, Eng, BGM and Med homes, onset 2003--09) 4{,}771, held-out field groups (grey; onset 2003--09) 3{,}372, and the 2010--14 onset cohort (green) 4{,}356. The expanded lower bar splits the held-out block into PHYS 742, LIFEENV 1{,}113, SOC 1{,}352 and MATHDEC 165. The panel contains 27{,}393 concept $\times$ off-home-field episodes over 26 venue fields; a separate fresh 2015--17 onset cohort of 1{,}443 concepts serves as a confirmatory frame. (c) Indicator screen for the breadth outcome (O2r\_m50). Bars are coloured by indicator family with lengths proportional to indicator counts: 53 early indicators computed over $t_0..t_0{+}2$; 48 eligible on DEV; the 10 frozen on DEV by partial Spearman priority given B5; and the 7 confirmed on held-out units. (d) The two research questions. RQ1: does an open early ego network predict later cross-field breadth beyond B5? RQ2: does the next field a concept enters relate to the off-home fields that currently retain it?}
+  \label{fig:overview}
+\end{figure}
+
+% ============================================================
+\section{Data and outcomes}
+\label{sec:data}
+% ============================================================
+
+\subsection{Panel composition}
+
+The analysis panel (Table~\ref{tab:panel}) comprises 12{,}499 concepts and 27{,}393 concept-by-field adoption episodes, built from the Experiment~5 frame.
+
+\begin{table}[!htbp]
+\centering
+\caption{Panel composition (Experiment~5, iteration~2). DEV concepts have home fields in Computer Science, Engineering, Biochemistry/Genetics/Medicine. Held-out groups cover the remaining field families.}
+\label{tab:panel}
+\small
+\begin{tabular}{lrr}
+\toprule
+Split & Concepts & Episodes \\
+\midrule
+DEV (CS/Eng/BGM/Med, onset 2003--2009) & 4{,}771 & 9{,}079 \\
+Cohort (onset 2010--2014, all fields) & 4{,}356 & 9{,}799 \\
+Held-out Physical Sciences & 742 & 1{,}662 \\
+Held-out Life \& Environment & 1{,}113 & 3{,}099 \\
+Held-out Social Sciences & 1{,}352 & 3{,}320 \\
+Held-out Math \& Decision Sci. & 165 & 434 \\
+\midrule
+\textbf{Total} & \textbf{12{,}499} & \textbf{27{,}393} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Outcome: rarefied field breadth}
+
+The primary outcome is rarefied field breadth $O_{2r}$ ($m=50$): the expected number of distinct venue fields among a fixed-size random draw of $m$ papers from a concept's publications in years $t_0 + 6$ to $t_0 + 8$. Secondary outcomes include sustained uptake ($O_{1c}$), transience ($O_3$), field- and year-normalised citation growth ($O_4$), and external recognition ($O_5$, from Dataset~2).
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_outcomes_v0.pdf}
+  \caption{Distribution of the primary outcome, rarefied field breadth ($O_{2r}$, $m=50$), over the 7{,}203 of 12{,}499 frame concepts that have at least 50 papers in the $t_0{+}6$..$t_0{+}8$ outcome window. (a) Histogram with dashed orange line at the median (4.73) and light-blue band for the interquartile range [3.41, 6.20]. (b) $O_{2r}$ against the raw field count. Rarefied breadth is nearly independent of outcome-window volume ($\rho = -0.06$), whereas the thresholded raw count grows with volume ($\rho = 0.41$).}
+  \label{fig:outcomes}
+\end{figure}
+
+
+% ============================================================
+\section{Iteration~1: Wide screen of five rival mechanisms}
+\label{sec:iter1}
+% ============================================================
+
+\subsection{Why this iteration ran}
+
+The run began with five rival mechanisms for why new concepts spread broadly: (1)~lineage naturalisation (background-adjusted $A^*_h$), (2)~social reach through unconnected author groups, (3)~structural diversity of co-occurrence neighbours, (4)~frequency-free selectivity, and (5)~landing in gateway fields. All five were screened on one frozen dev panel with one baseline and one pre-registered rule. The strategy was a wide screen: rather than deepening one candidate, all five were tested coarsely within one day's shared OpenAlex allowance.
+
+\subsection{Artifacts commissioned and executed}
+
+Five artifacts were commissioned; three completed and two failed:
+
+\begin{itemize}
+% gen_art_experiment_1
+\item \textbf{Experiment~1} (``Does citing a concept `as your own' predict its spread?''): Completed. Screen of candidate $A^*_h$ on 48 dev concepts.
+% gen_art_experiment_2
+\item \textbf{Experiment~2} (``Do independent author groups predict spread?''): \textbf{Failed}---REPL turn stalled. Candidate~S (co-author independent groups) was not tested.
+% gen_art_experiment_3
+\item \textbf{Experiment~3} (``Do diverse topic ties predict concept spread?''): Completed. Screen of co-occurrence emergence indicators on 47 dev concepts.
+% gen_art_experiment_4
+\item \textbf{Experiment~4} (``Where a concept lands early vs how broadly it spreads''): Completed. Screen of gateway landing on 46 dev concepts; also produced the authoritative outcome tables.
+% gen_art_dataset_1
+\item \textbf{Dataset~1} (``Sealed test set of new science concepts''): \textbf{Failed}---REPL turn stalled. No held-out frame was produced.
+\end{itemize}
+
+\subsection{Data deviation}
+
+The shared OpenAlex credit pool ran dry (139 own credits spent). Yearly counts ($t_0$, $O_1$, $O_3$, volume, growth) used OpenAlex S0; field labels, concept papers and citation lineage came from free Semantic Scholar data with s2-fos text-classifier fields. The S2 and OpenAlex $O_{2r}$ agree with Spearman 0.87 on 11 concepts.
+
+\subsection{Experiment~1: Naturalisation gap $A^*_h$}
+
+The headline: $A^*_h$ does \textbf{not} survive the pre-registered rule.
+
+\begin{table}[!htbp]
+\centering
+\caption{Experiment~1 screen result for $A^*_h$ (iteration~1). Source: Experiment~1 \texttt{screen\_result.json}.}
+\label{tab:exp1_screen}
+\small
+\begin{tabular}{p{5cm}cc}
+\toprule
+Clause & Value & Pass? \\
+\midrule
+LOGO $\Delta\rho$ for $O_{2r}$ over B5 & $-0.006$ [$-0.034$, $0.017$] & Fail \\
+Positive left-out groups & 0 of 4 & Fail \\
+Split-half reliability (Spearman--Brown) & 0.58 & Fail ($<0.6$) \\
+$|\rho|$ with log early vol / early growth & 0.14 / 0.18 & Pass \\
+$\rho_{\text{B5}}$ & 0.834 & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+$A^*_h$'s within-field direction flips: the within-group Spearman with $O_{2r}$ is $+0.45$ in Medicine and $-0.18$ in Computer Science. Actual median $A^*_h$ is negative in every group (BGM $-0.26$, CS $-0.30$, Eng $-0.04$, Med $-0.18$).
+
+The background-homophily finding (M1): among 48 concepts, 100\% have a positive background log-odds ratio. The $R^2$ of the raw concept-lineage log-odds ratio on the background log-odds ratio is 0.66 (90\% CI [0.39, 0.83]). Two-thirds of the between-concept variance in raw lineage autonomy is general disciplinary homophily.
+
+REML variance decomposition: $\tau_c = 0.29$, $\tau_{cj} = 0.65$. PyMC NUTS check passes (Spearman 0.9996 with REML).
+
+None of the 14 candidate and foil features, scored as exploratory candidates, beat B5.
+
+\textbf{Dead end.} $A^*_h$ is closed as a headline bet. The lineage measure is unreliable at typical sample sizes and dominated by background homophily.
+
+\subsection{Experiment~3: Co-occurrence diversity}
+
+Screen of two co-occurrence emergence indicators on 47 dev concepts (BIO~16, CS~12, MED~10, ENG~9). The backbone was full-corpus topic PMI per slice (2000--04/05--09/10--14), Leiden $\gamma=3$ (25/26/23 communities). $D_z$ failed the T3 size diagnostic ($\rho$ with log volume $-0.63$), so the pre-declared fallback $D_{\text{ratio}}$ was the primary.
+
+\begin{table}[!htbp]
+\centering
+\caption{Experiment~3 screen results (iteration~1). Source: Experiment~3 \texttt{screen\_result.json}.}
+\label{tab:exp3_screen}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Indicator & $\Delta\rho$ & 90\% CI & Groups+ & SB & Survives? \\
+\midrule
+$D_{\text{ratio}}$ & $+0.006$ & [$-0.092$, $0.135$] & 3/4 & 0.83 & No \\
+$F_{\text{res}}$ & $-0.060$ & [$-0.158$, $0.014$] & 1/4 & 0.44 & No \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+B5 alone reached $\rho = 0.770$ with $O_{2r}$. Exploratory partial association of $D_{\text{ratio}}$ given B5: $+0.335$ [90\% CI $0.02$, $0.65$], permutation $p = 0.037$ (from \texttt{audit.json}), marginal and uncorrected across 12 tests. The portability table (34 indicators) showed $D_{\text{ratio}}$, $D_{\text{rare}}$, participation and NOV$_{\text{res}}$ associated with $O_{2r}$ in all four groups (pooled $\rho$ 0.45--0.63; within-group minima as low as 0.12 for participation in CS). Edge persistence showed a portable negative signal (within-group $-0.07$ to $-0.52$). CS-only degree/strength/new-edge growth failed to generalise.
+
+\textbf{Dead end.} No candidate survives the pre-registered rule. $D_{\text{ratio}}$ is carried forward as the best available result.
+
+\subsection{Experiment~4: Gateway landing}
+
+Screen of gateway landing $G$ on 46 dev concepts (34 with an outcome window).
+
+\begin{table}[!htbp]
+\centering
+\caption{Experiment~4 screen result for $G$ (iteration~1). Source: Experiment~4 \texttt{screen\_result.json}.}
+\label{tab:exp4_screen}
+\small
+\begin{tabular}{lcc}
+\toprule
+Clause & Value & Pass? \\
+\midrule
+$\Delta\rho$ B5$+$G over B5 ($O_{2r}$, $m=30$) & $+0.033$ [$-0.095$, $0.168$] & No \\
+Positive left-out groups & 2/4 & --- \\
+SB reliability & 0.92 & Pass \\
+Size check $|\rho| \leq 0.13$ & Pass & Pass \\
+$\rho_{\text{B5}}$ & 0.327 & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+$G$ does not survive the pre-registered rule for $O_{2r}$. However, at the field level, the adopting field's gateway (eigenvector) centrality added $\Delta$AUC $+0.103$ [$0.03$, $0.17$] for retention, the strongest field-level signal. Note: B5 baseline reached only $\rho = 0.327$ on Experiment~4 (per group: CS~0.10, Eng~0.86, BGM~0.65, Med~0.57), much lower than Experiments~1 and~3 due to top-200-source truncation and labels through $t_0+2$ only.
+
+Relatedness density predicted next-field entry (AUC~0.61), but lost to log field size (AUC~0.74).
+
+\textbf{Lead carried forward.} Field-level gateway retention $\Delta$AUC $+0.10$.
+
+\subsection{Review (score 3, blocking)}
+
+The reviewer found that headline screen numbers were correct and reproducible but identified serious defects: (1)~a conclusion about the B5 ceiling contradicted Experiment~4's own $\rho_{\text{B5}} = 0.327$; (2)~the $A^*_h$ medians were misread as correlations; (3)~$G$'s $O_1$ $\Delta$AUC $+0.072$ was not the strongest secondary signal; (4)~Experiment~3's portability range was misquoted; (5)~two failed artifacts were missing from the record entirely; (6)~cross-experiment outcomes were not comparable; (7)~large executed outputs were absent; (8)~the exploratory partial association was overclaimed. Soundness was scored~1.
+
+\subsection{Hypothesis update}
+
+\textbf{Move:} Deepen. The headline moved from $A^*_h$ (null) to the field-level gateway-retention lead ($\Delta$AUC $+0.10$). The unit of analysis became the concept $\times$ off-home-field adoption episode. Power was directed into more units (a full zero-credit OpenAlex S3 snapshot scan), not more metrics. The failed held-out dataset was to be rebuilt first. Confidence decreased.
+
+
+% ============================================================
+\section{Iteration~2: Hub fields and field entry}
+\label{sec:iter2}
+% ============================================================
+
+\subsection{Why this iteration ran}
+
+Iteration~1 produced one lead: field-level gateway retention $\Delta$AUC $+0.10$ on 80 episodes. Iteration~2 was designed to (1)~test this decisively on held-out data with all named confounds, (2)~deliver the mechanism and RQ2 trajectories, (3)~stress-test the lead immediately on iteration-1 data, (4)~build external-recognition ground truth, and (5)~produce the related-work comparison.
+
+\subsection{Artifacts commissioned and executed}
+
+Five artifacts were commissioned; all five completed:
+
+\begin{itemize}
+% gen_art_experiment_5
+\item \textbf{Experiment~5} (``Do hub fields keep new concepts? Held-out test''): The authoritative S1 frame (12{,}499 concepts, 27{,}393 episodes). H1 gateway retention: \textbf{disconfirmed} on held-out data.
+% gen_art_experiment_6
+\item \textbf{Experiment~6} (``Where new scientific concepts spread next''): H2 retained-field relatedness predicts next-field entry. 653 newborn concepts, 1{,}865 episodes.
+% gen_art_evaluation_1
+\item \textbf{Evaluation~1}
+  (``Does the gateway-field retention signal replicate?''): Stress test of the iteration-1 lead.
+  Union panel $\Delta$AUC $+0.001$ [$-0.012$, $0.012$].
+% gen_art_dataset_2
+\item \textbf{Dataset~2}
+  (``When research concepts were officially recognised''): External-recognition lookup for 65{,}026 concepts (O5 outcome).
+  Sources: MeSH, Wikipedia, Wikidata, ACM~CCS, MSC, PACS/PhySH, curated lists.
+% gen_art_research_1
+\item \textbf{Research~1}
+  (``How our results compare with related papers''): Positioning study for the Applied Network Science paper.
+  22 citable ANS papers.
+\end{itemize}
+
+\subsection{Experiment~5: Gateway retention disconfirmed}
+
+On the full panel of 27{,}393 episodes, gateway centrality added $\Delta$AUC $-0.00001$ (95\% CI [$-0.0006$, $+0.0003$]) on held-out data. DL pooled: $-0.00004$ ($I^2 = 0$). The signal vanished once the field's leave-concept-out retention propensity was controlled.
+
+\begin{table}[!htbp]
+\centering
+\caption{H1 gateway retention baseline ladder (Experiment~5, iteration~2). Source: \texttt{h1\_heldout.json}.}
+\label{tab:h1_ladder}
+\small
+\begin{tabular}{lcc}
+\toprule
+Rung & DEV $\Delta$AUC & Held-out $\Delta$AUC \\
+\midrule
+L0: B5 only & --- & --- \\
+L1: +gateway & $+0.0019$ & $-0.0003$ \\
+L2: +field size & $+0.0015$ & $-0.0004$ \\
+L3: +$P_{j(-c)}$ & $+0.00003$ & $-0.0001$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Gateway alone had AUC~0.605 on DEV vs 0.506 on held-out (0.41 in Social Sciences): a domain-specific proxy for ``fields that keep things.'' The shuffled-$R$ placebo's 95th percentile (0.130) exceeded the original $+0.103$, so the iteration-1 lead cannot be certified above chance on 80 episodes.
+
+The within-field LPM gave $\beta_{\text{within}} = +0.068$ per SD, $p_{\text{concept}} = 0.041$ (two-way clustered $p = 0.17$), so one pre-registered criterion passed. The overall verdict remained \textbf{disconfirmed}.
+
+H3 (concept-level gateway-weighted landing): held-out partial $\rho$ for $G$: 0.030, $G_A$: 0.026, $G_{\text{btw}}$: 0.046 (Holm $p = 0.0045$). DL pooled $G$: 0.068 [0.029, 0.107]. The effect was small; DEV-to-held-out shrinkage was about 4$\times$ (DEV $G = 0.138$). The concept-bootstrap CI of pooled $G$ was [$-0.006$, $0.065$], including zero.
+
+\textbf{Dead end.} Gateway retention is closed. The signal is a domain-specific proxy, not a position-dependent causal factor.
+
+\subsection{Experiment~6: Retained-field relatedness predicts next-field entry}
+
+On 653 newborn concepts (1{,}373 held-out entry events), the held-out LR was 71.7, $d_0 = 0.302$ [0.240, 0.369], DL pooled 0.284 [0.216, 0.352], $I^2 = 0$. Permutation $p = 0.001$, rewired-backbone $p = 0.015$. The gateway weighting added nothing (M3 vs M1 permutation $p = 0.17$).
+
+Trajectory clustering: DTW $k$-medoids $k=2$ (bootstrap ARI 1.0 within DTW), but HMM (6 states) vs DTW ARI = 0.094, so the typology was not robust. The localised class was dominated by Medicine homes (55~Med $+$ 7~Eng on DEV).
+
+Ordering: first retained gateway field preceded the calibrated entropy take-off in 66\% of the 87 non-tied evaluable broad concepts (57 of 175 broad concepts overall), sign $p = 0.003$. However, the concept-FE forward regression was \emph{negative} ($b = -0.028$, $p = 0.0007$ on held-out), a significant pre-trend existed, and on DEV the reverse path (entropy $\to$ gateway retention) was significant ($b = 0.232$, $p = 0.006$). The lead-lag gateway-permutation placebo was $p = 0.63$.
+
+\textbf{Lead carried forward.} Retained-field relatedness $d_0 \approx 0.28$--0.30 on the Experiment~6 frame, pending confirmation on the independent Experiment~5 frame.
+
+\textbf{Dead end: Ordering.} Moved to MIXED: negative lead-lag, pre-trend, and non-specific to gateway fields.
+
+\textbf{Dead end: Rescue and relay.} Not supported on held-out data; the iteration-1 gateway-retention lead did not replicate (coefficient $\approx 0$).
+
+\subsection{Evaluation~1: Stress test}
+
+Union panel (362 episodes, 54 concepts): $\Delta$AUC $+0.001$ [$-0.012$, $0.012$]. Experiment~4's own M0 lead kept a refit CI of [0.010, 0.212]. Node-label permutation: the union real value was at the 54th percentile. The gateway-retention signal was not replicable.
+
+\subsection{Dataset~2: External recognition}
+
+Built with zero OpenAlex credits and \$1.49 of OpenRouter calls. 65{,}026 concepts with events from MeSH (20{,}872), English Wikipedia (6{,}540 exact first revisions), Wikidata (1{,}425), ACM CCS (1{,}298 concepts), MSC (1{,}121 concepts), PACS/PhySH (2{,}635 concepts), and curated lists (589 concepts). 67\% of concepts are recognised at or before $t_0$. O5 was ultimately unrelated to publication outcomes: pooled $\rho$ with $O_{2r,m50}$ was $0.014$ [$-0.045$, $0.073$].
+
+\subsection{Review (score 3, blocking)}
+
+The reviewer found headline numbers correct but identified contradictions: (1)~``disconfirmed by all preregistered criteria'' when one criterion (LPM) passed; (2)~ordering listed as confirmed despite negative lead-lag evidence; (3)~H3 labelled confirmed despite CI including zero; (4)~unapplied corrections from iteration~1. Coverage was partial: the 30--50 indicator screen was still missing. Soundness scored~1.
+
+\subsection{Hypothesis update}
+
+\textbf{Move:} Deepen. The headline moved from gateway centrality (closed) to the retained-frontier lead ($d_0 = +0.281$). The decisive test: $d_0$ must beat the conventional RCA$>$1 Hidalgo/Guevara density. Confidence decreased. RQ1's held-out deliverable was made mandatory.
+
+
+% ============================================================
+\section{Iteration~3: The decisive frontier test and the indicator screen}
+\label{sec:iter3}
+% ============================================================
+
+\subsection{Why this iteration ran}
+
+Iteration~2 closed gateway centrality and produced one strong lead: retained-field relatedness $d_0 \approx 0.28$ on 653 concepts. This iteration aimed to (1)~test the frontier claim against the RCA-thresholded density rival on an independent frame, (2)~deliver the RQ1 held-out indicator screen, (3)~re-run the failed RQ2 artifact, (4)~repair the record, and (5)~produce prior-art positioning.
+
+\subsection{Artifacts commissioned and executed}
+
+Five artifacts were commissioned; four completed and one failed:
+
+\begin{itemize}
+% gen_art_experiment_7
+\item \textbf{Experiment~7} (``Do concepts spread from fields that keep them?''): Decisive retained-frontier test on the independent frame (Experiment~5 minus Experiment~6). \textbf{Verdict: FRONTIER = PARTIAL.}
+% gen_art_experiment_8
+\item \textbf{Experiment~8} (``Which early network signals of new topics travel''): The RQ1 held-out deliverable. 53 indicators, 7 families, held-out confirmation.
+% gen_art_experiment_9
+\item \textbf{Experiment~9} (``How new concepts spread: paths and reasons''): \textbf{Failed}---output format validation failed after 5 retries. Method never ran. This was iteration~3's entire RQ2 artifact.
+% gen_art_evaluation_2
+\item \textbf{Evaluation~2} (``Auditing the record before the paper''): Claims ledger (246 rows: 224 MATCH, 15 MISLABELLED, 6 MISMATCH, 1 overridden).
+% gen_art_research_2
+\item \textbf{Research~2} (``Is `fields that keep it' new?''): Prior-art check. Retained-field entry: PARTIALLY ANTICIPATED.
+\end{itemize}
+
+\subsection{Experiment~7: Retained frontier --- PARTIAL}
+
+On the independent frame (11{,}841 concepts; 6{,}978 entry events in 6{,}076 informative strata), the held-out pooled $d_0 = 0.322$ [0.291, 0.355], LR(R3 vs R2) = 325.8. Positive in Physical (0.15), Life \& Environment (0.40), Social (0.30), Math \& Decision (0.07, underpowered). DL over 4 groups: 0.243 [0.118, 0.368], $I^2 = 0.92$.
+
+$d_0$ survived RCA$>$1 density: under S\_strict, $d_0 = 0.304$ [0.268, 0.336]. Specificity nulls passed: retained-label permutation $p = 0.001$, rewired backbone $p = 0.004$, node-label $p = 0.003$.
+
+\textbf{However, the pre-registered volume-matched contrast was null}: $-0.028$ [$-0.105$, $0.046$] on held-out ($-0.008$ on DEV). Under Hidalgo's min-conditional-probability proximity, $d_0$ reversed: $-0.021$ ($p = 0.012$). The frozen verdict was \textbf{FRONTIER = PARTIAL}: ``persistence confounded with volume.''
+
+Dose-response by retention age: held-out values were 0.098 / 0.075 / 0.304 (not monotone; monotone\_nondecreasing = false).
+
+Abandonment penalty: $d_{\text{lost}}$ in A1 $= -0.007$ [$-0.036$, $0.022$]; in R4 (with $d_0$), $d_{\text{lost}} = +0.064$ [$0.030$, $0.095$]. Inconclusive.
+
+\begin{table}[!htbp]
+\centering
+\caption{Experiment~7 retained-frontier ladder on the independent held-out frame (iteration~3). Source: \texttt{step2\_heldout.json}.}
+\label{tab:exp7_ladder}
+\small
+\begin{tabular}{lcc}
+\toprule
+Rung & Pooled $d_0$ & 95\% CI \\
+\midrule
+R0: home rel., log size, entered density, own gateway & --- & --- \\
+R1: +$D_{\text{rca},1y}$ & 0.171 & --- \\
+R2: +$D_{\text{vol}}$ & --- & --- \\
+R3: +$d_0$ (retained-frontier) & 0.322 & [0.291, 0.355] \\
+S\_strict: all RCA + both $D_{\text{vol}}$ & 0.304 & [0.268, 0.336] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_field_entry_v0.pdf}
+  \caption{Retained-field relatedness predicts the next field a concept enters. (a) Conditional-logit coefficient $d_0$ on the held-out groups of the independent frame. Coloured circles are per-group estimates with 95\% concept-bootstrap CIs. The black diamond is the pooled held-out estimate, $d_0 = 0.322$ [0.291, 0.355]. Three groups are clearly positive; Math \& Decision crosses zero ($I^2 = 0.92$). (b) $d_0$ split by retention age (2, 3, $\geq$4 years). The increase is monotone in the development frame only; on held-out data the 3-year estimate (0.075) falls below the 2-year one (0.098).}
+  \label{fig:field_entry}
+\end{figure}
+
+\subsection{Experiment~8: Held-out indicator screen}
+
+53 indicators in 6 families (A: ego-network 27, E: popularity 6, F: disciplinary spread 3, FR: retained frontier 7, G: gateway landing 7, S: co-author 3), screened on DEV, hash-sealed, scored once on held-out. The D family ($>$30\% missing) was excluded before freezing.
+
+Seven of the ten frozen indicators were confirmed with $p < 0.05$ after Holm correction and CI excluding zero (Table~\ref{tab:screen}).
+
+\begin{table}[!htbp]
+\centering
+\caption{Held-out indicator screen: the 10 indicators with highest DEV partial Spearman priority for rarefied breadth ($O_{2r}$, $m = 50$), tested on held-out groups (Experiment~8, iteration~3). DerSimonian--Laird pooled estimates with 95\% CI. Source: \texttt{heldout\_summary.json}.}
+\label{tab:screen}
+\small
+\begin{tabular}{llccccc}
+\toprule
+Indicator & Family & Pooled PSP & 95\% CI & $I^2$ & Sign & Confirmed \\
+\midrule
+M0\_density\_end & FR & $+0.375$ & [$+0.279$, $+0.462$] & 0.74 & 6/6 & \textbf{Yes} \\
+D\_vol\_end & FR & $+0.307$ & [$+0.256$, $+0.356$] & 0.10 & 6/6 & \textbf{Yes} \\
+CONTACT\_REACH & FR & $+0.211$ & [$+0.161$, $+0.261$] & 0.00 & 6/6 & \textbf{Yes} \\
+$n_\text{comm}$ (W3) & A & $+0.167$ & [$+0.063$, $+0.267$] & 0.78 & 6/6 & \textbf{Yes} \\
+NOV$_{\text{res}}$ & A & $+0.151$ & [$+0.044$, $+0.255$] & 0.75 & 6/6 & \textbf{Yes} \\
+RETENTION\_RATIO & FR & $-0.114$ & [$-0.160$, $-0.067$] & 0.00 & 6/6 & \textbf{Yes} \\
+ego\_density (W3) & A & $-0.102$ & [$-0.151$, $-0.053$] & 0.00 & 6/6 & \textbf{Yes} \\
+Rao--Stirling & A & $-0.072$ & [$-0.153$, $+0.010$] & 0.44 & 5/6 & No \\
+$G_\text{btw}$ & G & $+0.056$ & [$-0.006$, $+0.118$] & 0.33 & 6/6 & No \\
+log offhome vol. & F & $-0.089$ & [$-0.171$, $-0.007$] & 0.63 & 5/6 & No \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_rq1_confirmed_v0.pdf}
+  \caption{Held-out screen of the 10 indicators frozen on DEV for rarefied cross-field breadth ($O_{2r,m50}$). Each row shows the DerSimonian--Laird pooled partial Spearman $\rho$ given B5. Filled circles: confirmed (Holm $p<0.05$, pooled sign equals frozen DEV sign). Open circles: not confirmed. Seven of ten survive. M0\_density\_end and D\_vol\_end use cumulative field history up to $t_0+2$, so part of their signal predates onset.}
+  \label{fig:rq1_confirmed}
+\end{figure}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_full_screen_v0.pdf}
+  \caption{Complete indicator screen for rarefied cross-field breadth ($O_{2r}$). (a) Partial Spearman of all 53 screened indicators on DEV, coloured by family. Large filled circles: 7 confirmed on held-out. Large open circles: 3 selected but not confirmed. Small dots: 43 not selected. (b) Frozen top 10 in DEV rank order; grey squares are DEV estimates, circles are held-out DL pooled. All FR and A selections replicate; G and F do not.}
+  \label{fig:full_screen}
+\end{figure}
+
+An ElasticNet combining all indicators added Spearman $+0.059$ [$+0.046$, $+0.073$] over B5 on held-out groups; an EBM added $+0.052$ [$+0.037$, $+0.067$].
+
+Pre-registered predictions: P1 failed (ego indicators added more than predicted); P2 held (edge persistence negative); P3 failed (new\_edge\_rate \emph{does} transfer, $+0.118$ [$0.072$, $0.163$], reversing an iteration-1 dead end); P4 failed (RETENTION\_RATIO\_early is significantly negative, $-0.120$, the opposite sign); P5 failed (CONTACT\_REACH adds $+0.223$).
+
+Additional outcomes: O1c (sustained uptake): only n\_authors\_early confirmed ($+0.161$). O4 (citation growth): REL\_home $-0.114$, author\_growth $+0.065$; EBM Spearman 0.188 vs B5 0.015. O3 (transience): n\_authors\_early was the only confirmed indicator; L1-logit AUC $+0.093$ [$0.028$, $0.163$] over B5 at 0.506. O5 (external recognition): no indicator or model beat B5 + onset year. Candidate S (co-author family, 3 indicators): tested and not confirmed for any outcome.
+
+\subsection{Evaluation~2: Claims ledger}
+
+246 rows audited: 224 MATCH, 15 MISLABELLED, 6 MISMATCH, 1 overridden. 58 blocking items. Cross-frame agreement (628 shared concepts): onset exact 0.976, home $\kappa = 0.99$, $O_{2r,m50}$ $\rho = 0.998$, but retention $\kappa = 0.28$ (0.98 with matched absolute rule).
+
+O5 validation: held-out base rate 0.238, unrelated to publication outcomes. 67\% recognised at or before $t_0$. Precision 0.86 on 100-item hand check; only 42\% of positives mark a genuinely new concept.
+
+\subsection{Review (score 3, blocking)}
+
+The reviewer found headline numbers correct but flagged: (1)~O4 results mislabelled as transience; (2)~pre-registered predictions misstated; (3)~Experiment~7 results misread (volume-matched contrast, dose-response, proximity dependence); (4)~Evaluation~2 corrections not applied; (5)~a failed artifact (Experiment~9) missing from the record. Soundness scored~1.
+
+\subsection{Hypothesis update}
+
+\textbf{Move:} Deepen. The headline moved from the retained frontier (closed, volume-matched null, min-cp reversal) to openness vs consolidation: the Experiment~8 held-out lead. The fresh confirmation body was a 2015--17 onset cohort. Confidence decreased.
+
+
+% ============================================================
+\section{Iteration~4: Fresh-cohort test and RQ2 decomposition}
+\label{sec:iter4}
+% ============================================================
+
+\subsection{Why this iteration ran}
+
+Iteration~3 produced the held-out indicator screen (seven confirmed) and closed the retained frontier as PARTIAL. The lead was now the openness signal from Experiment~8. This iteration attacked it on four sides: (1)~replication on a never-screened 2015--17 onset cohort, (2)~confound controls (concept type, pre-onset footprint, coupling), (3)~mechanism (within-concept closure), and (4)~the missing RQ2 decomposition and typology.
+
+\subsection{Artifacts commissioned and executed}
+
+Five artifacts were commissioned; three completed, one incomplete, one completed the prior-art check:
+
+\begin{itemize}
+% gen_art_experiment_10
+\item \textbf{Experiment~10}
+  (``Do open-neighbourhood concepts spread? Fresh-cohort test''): Single-unseal confirmation on a 2015--2017 onset cohort of 1{,}443 concepts.
+  \textbf{Verdict: CONFIRMED but marginal.}
+% gen_art_experiment_11
+\item \textbf{Experiment~11}
+  (``Does closing up at home slow a concept's spread?''): Within-concept closure test. Hash-sealed spec. DEV result: \textbf{NOT SUPPORTED}.
+  The event study was interrupted (OpenBLAS crash); held-out/cohort not run.
+% gen_art_experiment_12
+\item \textbf{Experiment~12}
+  (``How concepts spread: early reach vs keeping fields''): RQ2 decomposition and typology on 12{,}499 concepts.
+  Breadth decomposition, PCA continuum, case pairs.
+% gen_art_evaluation_3
+\item \textbf{Evaluation~3}
+  (``Record fixes and openness robustness tests''): Post-onset rescore of footprint indicators, specification curve, per-group tables, corrections pack.
+% gen_art_research_3
+\item \textbf{Research~3}
+  (``Is `keep exploring, spread widest' already known?''): Novelty verdicts.
+  C1 openness$\to$breadth: PARTIALLY ANTICIPATED.
+  C2 consolidation$\to$less breadth: PARTIALLY ANTICIPATED.
+\end{itemize}
+
+\subsection{Experiment~10: OPEN index on the fresh cohort}
+
+The OPEN index is the mean of six signed, $z$-scored ego-network components (new edge rate, $n_{\text{comm}}$, participation coefficient, NOV$_{\text{res}}$, $-$ego density, $-$edge persistence), with $z$-score constants frozen from DEV. Three builds: OPEN$_{\text{home}}$ (home-field graph), OPEN$_{\text{all}}$ (corpus-wide), OPEN$_{\text{sizematch}}$ (subsampled to home counts).
+
+\begin{table}[!htbp]
+\centering
+\caption{OPEN index control ladder on the 2015--2017 confirmatory cohort (Experiment~10, iteration~4). PSP = partial Spearman priority with $O_{2r}$ ($m = 50$), 95\% concept-bootstrap CI. Source: \texttt{cohort\_result.json}.}
+\label{tab:ladder}
+\small
+\begin{tabular}{lccccccc}
+\toprule
+Build & R0 & R1 & R2 & R3 & R4 & R5 & $n$ \\
+\midrule
+OPEN$_{\text{home}}$ & \small{$+.12$} & \small{$+.10$} & \small{$+.09$} & \small{$+.08$} & \small{$+.07$} & \small{$+.06$} & 573 \\
+OPEN$_{\text{all}}$ & \small{$+.21$} & \small{$+.18$} & \small{$+.17$} & \small{$+.17$} & \small{$+.15$} & \small{$+.14$} & 630 \\
+OPEN$_{\text{size}}$ & \small{$+.18$} & \small{$+.15$} & \small{$+.15$} & \small{$+.14$} & \small{$+.12$} & \small{$+.11$} & 591 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_open_ladder_v0.pdf}
+  \caption{Control ladder for OPEN on the fresh 2015--2017 onset cohort. Circles are point estimates; error bars are 95\% concept-bootstrap CIs; the dashed line marks $\rho = 0$. OPEN$_{\text{all}}$ (red) and OPEN$_{\text{sizematch}}$ (orange) stay above zero at every rung; OPEN$_{\text{home}}$ (blue) is marginal: its CI touches zero at R3 and includes zero at R4 and R5.}
+  \label{fig:open_ladder}
+\end{figure}
+
+OPEN$_{\text{home}}$ PSP at R2: $+0.091$ [$+0.013$, $+0.171$] (Holm $p = 0.048$). At R3: $+0.080$ [$+0.001$, $+0.162$]. CIs include zero at R4 and R5. DL pool over groups: $+0.083$ [$-0.007$, $+0.173$], including zero. OPEN$_{\text{all}}$ minus OPEN$_{\text{home}}$: $+0.093$ [$+0.016$, $+0.169$], confirming coupling.
+
+\textbf{Predictive value was negligible:} adding OPEN$_{\text{home}}$ gave B5 Spearman $+0.002$ [$-0.003$, $+0.008$]. The planted PSP = 0.10 control was not recovered ($+0.047$ [$-0.045$, $0.132$]). Pre-seal power was only 0.16.
+
+Home-only components: NOV$_{\text{res}}$ ($+0.134$) and low edge persistence ($-0.112$) carried the signal; $n_{\text{comm}}$ ($+0.002$) and participation ($+0.050$) were null at home.
+
+\subsection{Experiment~11: Within-concept closure test (incomplete)}
+
+DEV body models on 35{,}328 concept-years from 4{,}661 concepts. H-M1 density PPML $b = -0.070$ [$-0.180$, $0.040$]; H-M2 OPEN$_{\text{home}}$ $b = +0.015$ [$-0.038$, $0.069$]. Both null. DL density $-0.075$ [$-0.210$, $0.061$]. Frozen verdict: \textbf{NOT SUPPORTED}. The Sun--Abraham event study was interrupted; held-out and cohort were not run.
+
+\textbf{Dead end.} Within-concept closure does not predict entry hazard on DEV.
+
+\subsection{Experiment~12: Breadth decomposition and typology}
+
+Exact decomposition: $\log B_n = \log E_2 + \log M + \log \rho$, where $E_2$ = early contact diversity, $M$ = frontier advance, $\rho$ = retention rate. On 3{,}188 DEV concepts:
+
+\begin{table}[!htbp]
+\centering
+\caption{Breadth decomposition (variant i\_pooled, Experiment~12, iteration~4). Share of the top-vs-bottom tercile gap in retained off-home breadth. Source: \texttt{decomposition\_dev.json}.}
+\label{tab:decomp}
+\small
+\begin{tabular}{lcc}
+\toprule
+Component & Share & 95\% CI \\
+\midrule
+Exploration ($s_{E2} + s_M$) & 0.732 & [0.703, 0.764] \\
+\quad Early contact diversity ($s_{E2}$) & 0.779 & [0.738, 0.818] \\
+\quad Frontier advance ($s_M$) & $-0.046$ & [$-0.074$, $-0.017$] \\
+Retention ($s_\rho$) & 0.268 & [0.236, 0.297] \\
+Difference (explore $-$ retain) & 0.464 & [0.407, 0.528] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_decomp_v0.pdf}
+  \caption{Log-additive decomposition of the gap in retained off-home breadth between the top and bottom terciles of size-adjusted breadth. DEV concepts, $n=3{,}188$. Early contact diversity $E_2$ (blue) contributes 78\%, frontier advance $M$ (amber) is slightly negative at $-5$\%, and retention $\rho$ (green) contributes 27\%.}
+  \label{fig:decomp}
+\end{figure}
+
+The pre-registered PR1 test (variant iv, Medicine excluded): DEV $0.633$ [0.537, 0.727], held-out pooled $0.492$ [0.403, 0.575], cohort $0.445$ [0.358, 0.527], DL $0.504$ [0.329, 0.679], $I^2 = 0.76$. PR1 was supported. The shares are an accounting identity, not causal effects.
+
+No trajectory typology passed the naming rule: DTW $k=4$ vs HMM $S=5$ ARI = 0.222; held-out recluster ARI 0.44/0.38. The outcome was a \textbf{continuum}: PC1 (38.8\%) = breadth-of-spread axis, PC2 (10.7\%) = keep-vs-lose axis. OPEN tracked PC1 (DEV partial 0.174/0.117/0.135 for ALL/HOME/SIZE), not PC2.
+
+PR2 (``localised keep more early''): REVERSED on DEV ($-0.110$ [$-0.132$, $-0.086$]), null on held-out ($+0.011$), reversed on cohort.
+
+Sequence test: no ordering signal beyond the mechanical lag (excess $\leq 1.7$ pp). Intersection-born concepts took off off-home later (HR $\sim 0.47$ [0.42, 0.54]).
+
+Case pairs: 7 pairs from \texttt{case\_pairs.json} (e.g., GPU / Vertical-axis wind turbine, Shotgun proteomics / Image-guided RT). These are illustrative only.
+
+37-concept retrospective AI/CS atlas: a stage-1 inspection, outcome-selected.
+
+\textbf{Dead end: Discrete typology.} No stable trajectory classes; the spread space is a continuum.
+
+\subsection{Evaluation~3: Post-onset footprint and specification curve}
+
+About half of M0\_density\_end and D\_vol\_end is pre-onset footprint: M0\_density\_end drops from $+0.374$ to $+0.187$ post-onset (attenuation $0.50$ [0.38, 0.60]); D\_vol\_end from $+0.317$ to $+0.176$ (attenuation $0.45$).
+
+OPEN pooled PSP: $+0.181$ [0.082, 0.277] (DL over 4 held-out groups, $O_{2r,m50}$), 6/6 units positive.
+
+Specification curve: 1{,}920 specifications, 99.7\% with pooled CIs $>0$, median 0.152, Freedman--Lane $p = 0.005$. This was exploratory on already-unsealed groups using the all-papers build.
+
+Per-group: Life \& Environment showed the weakest OPEN signal (PSP $+0.071$ vs $+0.186$ for the other five units pooled). The weakness was unexplained---not coverage, not range restriction.
+
+Claims ledger v3: 1{,}290 rows, 0 MISMATCH, 0 NOT\_FOUND.
+
+\subsection{Review (score 2, blocking)}
+
+The reviewer found: (1)~case-study rows partly invented (5 of the pairs in the report existed in no artifact); (2)~Experiment~11 (executed, null on DEV) missing; (3)~OPEN conclusions contradicted Experiment~10's own reading of coupling; (4)~Experiment~12 predictions misstated; (5)~corrections still mostly unapplied; (6)~iteration-3 conclusions silently replaced. Soundness scored~1 (fabricated case rows).
+
+\subsection{Hypothesis update}
+
+\textbf{Move:} Deepen. Claim sharpened from six-component ``openness'' to the decoupled home-only signal: NOV$_{\text{res}}$ and low edge persistence. RETENTION\_RATIO demoted. Confirmation moved to a second population (Frame~N). Confidence decreased.
+
+
+% ============================================================
+\section{Iteration~5: Vocabulary-free confirmation and confound tests}
+\label{sec:iter5}
+% ============================================================
+
+\subsection{Why this iteration ran}
+
+The fresh-cohort lead was fragile (R4/R5 and DL CI included zero, pre-seal power 0.16, half of Experiment~8's signal was coupling).
+Iteration~5 delivered: (1)~a sealed confirmation on vocabulary-free Frame~N concepts, (2)~the Cheng reach-vs-depth reversal, (3)~the mechanism analysis and completion of Experiment~11, (4)~a confound test of the churn signal, and (5)~record repair and evidence synthesis.
+
+\subsection{Artifacts commissioned and executed}
+
+Five artifacts were commissioned; all five completed:
+
+\begin{itemize}
+% gen_art_experiment_13
+\item \textbf{Experiment~13}
+  (``Does the churn signal hold for brand-new phrases?''): Frame~N confirmation.
+  636 vocabulary-free phrase-born concepts. \textbf{Frozen verdict: PARTIAL.}
+% gen_art_experiment_14
+\item \textbf{Experiment~14}
+  (``Cheng's consistency: size effect, not reach''): Rebuilds \citet{cheng2023} ideational consistency. Size-dominated; reach reversal.
+% gen_art_experiment_15
+\item \textbf{Experiment~15}
+  (``Why churning concepts spread; Exp11 test completed''): Three parts.
+  (A)~Partner decomposition. (B)~Trait stability. (C)~Experiment~11 completion.
+% gen_art_evaluation_4
+\item \textbf{Evaluation~4}
+  (``Record repair and openness evidence pool''): Evidence synthesis across non-selection bodies.
+  Ledger v4: 1{,}769 rows, 0 MISMATCH.
+% gen_art_experiment_16
+\item \textbf{Experiment~16}
+  (``Is research-topic churn real or small-sample noise?''): Confound check. Mechanical verdict: PARTLY\_THIN.
+\end{itemize}
+
+\subsection{Experiment~13: Frame~N --- PARTIAL}
+
+\begin{sloppypar}
+636 vocabulary-free phrase-born concepts (2003--2015 onsets), outside the legacy vocabulary. OPEN$_{\text{home}}$ PSP at R3: $+0.117$ [$+0.020$, $+0.218$] ($O_{2r}$, $m=30$); at R5: $+0.086$ [$-0.009$, $+0.190$].
+On $O_{2r,m50}$: R3 $+0.161$ and R5 $+0.122$, both CIs $>0$. Three of four estimable groups positive (SOC $-0.025$). DL $+0.112$ [$-0.015$, $+0.239$]. Holm $p = 0.052$.
+\end{sloppypar}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_frame_n_v0.pdf}
+  \caption{Confirmation of the OPEN signal on vocabulary-free Frame~N concepts. (a) Forest plot of OPEN$_{\text{home}}$ PSP at R3: legacy cohort $+0.080$ [$+0.001$, $+0.162$], Frame~N $+0.117$ [$+0.020$, $+0.218$], exploratory pool $+0.096$ [$+0.034$, $+0.158$]. (b) Component PSP on Frame~N: NOV$_{\text{res}}$ carries the signal ($+0.208$ [$+0.113$, $+0.303$]); edge persistence is null ($-0.013$).}
+  \label{fig:frame_n}
+\end{figure}
+
+Frame~N concepts had 14\% lower breadth, 89\% higher transience and 26\% less sustained uptake than legacy concepts, confirming survivorship bias in the curated vocabulary. The Cheng reversal was \textbf{not confirmed} on Frame~N ($-0.064$, CI includes 0). No forecasting gain over B5 (Spearman 0.80).
+
+Pooling Frame~N with Experiment~10: R3 $+0.096$ [$+0.034$, $+0.158$] (exploratory, non-identical rungs).
+
+\subsection{Experiment~14: Cheng consistency reversal}
+
+Ideational consistency \citep{cheng2023} is the cosine of a concept's neighbour co-usage vector from year $t-1$ to $t$. Rebuilt on 12{,}311 concepts (105{,}839 concept-years).
+
+\begin{table}[!htbp]
+\centering
+\caption{Cheng consistency test results (Experiment~14, iteration~5). Source: \texttt{cheng\_verdict.json}.}
+\label{tab:cheng}
+\small
+\begin{tabular}{p{6.5cm}c}
+\toprule
+Test & Result \\
+\midrule
+Test A: NB twin of Cheng design (no size control) & $b = 0.428$ ($+53.5$\%/SD) \\
+Test A: PPML & $+83.1$\% \\
+Test A: PPML + log $V(t)$ & $+1.3$\% [$+0.5$, $+2.1$] \\
+A2/A1 ratio (size removes 98\%) & 0.021 [0.009, 0.035] \\
+Test B: PSP with $O_{2r,m50}$ given B5 & $-0.069$ [$-0.093$, $-0.047$] \\
+Test B: DL over 5 groups & $-0.079$, $I^2 = 0$, 5/5 negative \\
+Test B: 2015--17 cohort replication & $-0.111$ [$-0.197$, $-0.030$] \\
+Test C: within-concept (concept+year FE) & $b = +0.025$ [0.004, 0.048] \\
+Test D: Palla size $\times$ consistency interaction & Null \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_cheng_reversal_v0.pdf}
+  \caption{The consistency--breadth reversal. (a) Effect of consistency on next-year volume: $+53.5$\% without size control drops to $+1.3$\% with log $V(t)$. (b) Partial Spearman with rarefied breadth: all five field groups are negative (DL pooled $-0.079$, $I^2 = 0$).}
+  \label{fig:cheng_reversal}
+\end{figure}
+
+Consistency has Spearman $+0.77$ with Experiment~11 Jaccard persistence and 0.34 with log early volume. The reach penalty is a between-concept trait: within concepts, a more consistent year is followed by slightly \emph{more} off-home entries ($b = +0.025$). All bodies are selection data, not confirmation.
+
+\subsection{Experiment~15: Mechanism and Experiment~11 completion}
+
+\textbf{Part A: Partner decomposition.} NOVCHURN$_{\text{home}}$ pooled PSP: $+0.118$, held-out DL $+0.097$ ($I^2 = 0$), 2015--17 cohort $+0.171$/$+0.144$ at R0/R3.
+
+New-community partners carried the signal ($C_2 = +0.102$ [$+0.069$, $+0.133$], Holm $p = 0.0025$). Partners arriving through mixed-field papers carried it ($C_4 = +0.103$ [$+0.071$, $+0.134$], Holm $p = 0.0025$). Domain partners, not methodological partners, were the main contributors (domain Shapley $\phi = +0.132$ on the 2015--17 cohort, method $= +0.012$).
+
+Bridging papers (5\% of early home papers) halved NOVCHURN's PSP from 0.118 to 0.056. They had more first-time authors and more off-home topics.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_mechanism_v0.pdf}
+  \caption{Which co-occurrence partners carry the openness--breadth signal? (a) Partners from new Leiden communities carry the signal; same-community partners do not ($C_2 = +0.102$, Holm $p = 0.0025$). (b) Partners arriving through mixed-field papers carry it; pure-home-field papers do not ($C_4 = +0.103$, Holm $p = 0.0025$).}
+  \label{fig:mechanism}
+\end{figure}
+
+\textbf{Part B: Trait stability.} Yearly OPEN$_{\text{home}}$ ICC: 0.34--0.39. NOVCHURN ICC: 0.26--0.29. P-B1 (trait prediction) \textbf{fails}. Window retest: 0.51--0.57; disattenuated retest 0.86--0.91. Openness is a noisy trait.
+
+\begin{sloppypar}
+\textbf{Part C: Experiment~11 completion.} DEV verdict unchanged: NOT SUPPORTED.
+OLD\_HELDOUT PPML: OPEN$_{\text{home}}$ $-0.079$ [$-0.146$, $-0.013$], the \emph{opposite} of the predicted sign. COHORT: both null.
+Sun--Abraham event study (DEV, never-treated): lag 0..2 $= -0.018$ [$-0.042$, $+0.004$], pre-trend $p = 0.52$, event-date placebo $p = 0.19$.
+H-S1 (home prominence) held on DEV ($+0.113$), COHORT ($+0.105$) and pooled ($+0.076$ [$+0.024$, $+0.126$]) but not OLD\_HELDOUT ($+0.001$).
+H-P1 (partner decomposition as preregistered) \textbf{fails}: the community half was $+0.216$, the method half $-0.055$.
+\end{sloppypar}
+
+\textbf{Dead end: Within-concept closure test.} Not supported on DEV; opposite-signed on held-out. The mechanism is between-concept, not within-concept.
+
+\subsection{Evaluation~4: Evidence synthesis}
+
+Descriptive pool of OPEN$_{\text{home}}$ over 6 non-selection bodies (4 held-out groups $+$ 2010--14 cohort $+$ 2015--17 cohort): $+0.069$ DL [+0.038, +0.100], HKSJ [+0.042, +0.096], $I^2 = 0$, 6/6 positive. DEV selection body: $+0.109$ (shrinkage ratio 1.58). NOVCHURN$_{\text{home}}$ ($k=5$): $+0.105$ [+0.069, +0.140].
+
+Shuffled-feature placebo pool: $+0.021$ [$-0.010$, $+0.051$], which includes zero. Frame~N slot is empty (not yet scored at time of evaluation).
+
+Claims ledger v4: 1{,}769 rows, 0 MISMATCH, 0 NOT\_FOUND.
+
+\subsection{Experiment~16: Confound test --- PARTLY\_THIN}
+
+Mechanical verdict: \textbf{PARTLY\_THIN}. Raw persistence is 66\% explained by its own within-concept permutation-null mean. The permutation excess cuts NOVCHURN from $+0.117$ to $+0.008$ [$-0.018$, $+0.031$]. Fixed-$n$ rarefaction at 10 papers/year retains 68\% ($+0.078$). Configuration-null $z$-scores retain 100\% of NOVCHURN and raise OPEN$_{\text{home}}$ from $+0.092$ to $+0.115$.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{figures/fig_confound_v0.pdf}
+  \caption{The churn/openness signal behaves like topical non-redundancy, not year-to-year partner turnover. (a) The within-concept permutation excess cuts NOVCHURN from $+0.117$ to $+0.008$. (b) Fixed-$n$ rarefaction retains 68\%; configuration-null $z$-scores retain 100\% and raise OPEN$_{\text{home}}$ to $+0.115$.}
+  \label{fig:confound}
+\end{figure}
+
+V2 excess variants had split-half SB $\sim 0.01$--$0.05$, and the planted-churn check (PC2) failed.
+Exp16 could not adjudicate temporal churn at $\sim$10 papers/year. What predicted breadth was a static property: the non-redundancy of the concept's home-topic partner mix.
+
+\begin{sloppypar}
+Split-half reliability of NOVCHURN$_{\text{raw}}$: 0.48. OPEN$_{\text{home}}$: 0.49. Disattenuated pooled NOVCHURN$_{\text{raw}}$ PSP: $0.178$ [0.141, 0.214] (approximate; CI not independently re-derived).
+\end{sloppypar}
+
+\subsection{Review (score 2, blocking)}
+
+The reviewer found the document submitted was the paper manuscript, not the research chronicle. The chronological notebook with iterations 1--4 was not carried forward. Headline numbers traced to artifacts correctly. But: (1)~the abstract's $+0.17$ was the mechanically coupled build; (2)~Frame~N's frozen verdict was PARTIAL, not confirmation; (3)~``demonstrates non-redundancy'' was unsupported by Experiment~16's own reliability finding; (4)~dose response still called monotone; (5)~many dead ends had vanished. Coverage was partial: RQ2 trajectories, ordering, external recognition, per-field results, case studies and learned-model comparison were absent.
+
+\subsection{Hypothesis update}
+
+\textbf{Move:} Deepen (hold and write up). The headline became the Evaluation~4 descriptive pool of OPEN$_{\text{home}}$ over 6 non-selection bodies: $+0.069$ [$+0.038$, $+0.100$], $I^2 = 0$. Mechanism restated from temporal churn to static between-concept dispersion. Confidence unchanged. Evidence state: lead.
+
+% ============================================================
+\section{Dead ends and negative results: full inventory}
+\label{sec:dead_ends}
+% ============================================================
+
+\begin{enumerate}
+\item \textbf{Naturalisation gap $A^*_h$} (iteration~1, Experiment~1): fails every clause of the pre-registered rule. $\Delta\rho = -0.006$, 0/4 groups positive, SB = 0.58.
+\item \textbf{Co-occurrence diversity $D_{\text{ratio}}$, $F_{\text{res}}$} (iteration~1, Experiment~3): no candidate survives the rule. $D_{\text{ratio}}$ $\Delta\rho = +0.006$.
+\item \textbf{Gateway landing $G$ on $O_{2r}$} (iteration~1, Experiment~4): $\Delta\rho = +0.033$, 2/4 groups.
+\item \textbf{Candidate S} (co-author independent groups; iteration~1, Experiment~2): \textbf{failed to run}. Tested in iteration~3 (Experiment~8, S family): not confirmed for any outcome.
+\item \textbf{Gateway-field retention} (iterations~1--2, Experiments~4/5, Evaluation~1): held-out $\Delta$AUC $-0.00001$; placebo 95th pct exceeds the original.
+\item \textbf{H3 gateway-weighted landing} (iteration~2, Experiment~5): pooled CI [$-0.006$, $0.065$] includes zero; DEV-to-held-out shrinkage $4\times$.
+\item \textbf{Rescue and relay} (iteration~2, Experiment~6): not supported on held-out.
+\item \textbf{Ordering} (iteration~2, Experiment~6): MIXED. Negative lead-lag, pre-trend, non-specific to gateway fields.
+\item \textbf{Two-class trajectory typology} (iteration~2, Experiment~6 $\to$ iteration~4, Experiment~12): HMM-vs-DTW ARI = 0.094 (Experiment~6); DTW-HMM ARI = 0.222 (Experiment~12). The localised class was dominated by Medicine homes.
+\item \textbf{Retained frontier} (iteration~3, Experiment~7): PARTIAL. Volume-matched contrast null; reverses under min-cp proximity.
+\item \textbf{Abandonment penalty} (iteration~3, Experiment~7): $d_{\text{lost}}$ in A1 $= -0.007$ (null); in R4 $= +0.064$ (positive).
+\item \textbf{External recognition O5} (iterations~2--3, Dataset~2, Experiments~5/8): no indicator or model beats B5 + onset year. O5 unrelated to publication outcomes.
+\item \textbf{Experiment~9: RQ2 decomposition/typology} (iteration~3): \textbf{failed to run} (output format validation failure).
+\item \textbf{Within-concept closure} (iteration~4, Experiment~11; completed iteration~5, Experiment~15-C): NOT SUPPORTED on DEV; opposite-signed on held-out.
+\item \textbf{RETENTION\_RATIO\_early} (iterations~3--4): confirmed on held-out screen ($-0.114$) but attenuates to $-0.043$ [$-0.116$, $0.031$] at R2 on the fresh cohort; does not survive concept-type controls.
+\item \textbf{Discrete trajectory typology} (iteration~4, Experiment~12): no typology passes the naming rule. CONTINUUM.
+\item \textbf{PR2 ``localised keep more early''} (iteration~4, Experiment~12): REVERSED on DEV and cohort.
+\item \textbf{Trait prediction P-B1} (iteration~5, Experiment~15): \textbf{fails}. ICC 0.34--0.39.
+\item \textbf{Frame~N Cheng reversal} (iteration~5, Experiment~13): not confirmed ($-0.064$, CI includes 0).
+\item \textbf{G-variant O1 gains} (iteration~2, Evaluation~1): label-coverage artefacts (G $+0.072$ $\to$ $+0.002$).
+\item \textbf{Persistence-filtered RCA rival} $D_{\text{rca,persist,k}}$ (Research~2): untested. Experiment~7's $D_{\text{rca,pers}}$ differs (max $\rho = 0.877$).
+\end{enumerate}
+
+
+% ============================================================
+\section{What the run learned overall}
+\label{sec:overall}
+% ============================================================
+
+\subsection{Confirmed findings}
+
+\begin{enumerate}
+\item \textbf{Seven early indicators predict breadth on held-out fields} (Experiment~8, iteration~3). The confirmed set spans two families: retained frontier (M0\_density\_end, D\_vol\_end, CONTACT\_REACH, RETENTION\_RATIO) and cooccurrence topology ($n_{\text{comm}}$, NOV$_{\text{res}}$, ego\_density). M0\_density\_end and D\_vol\_end are partly pre-onset footprint (about 50\%).
+\item \textbf{OPEN$_{\text{home}}$ is a replicated weak association} (Evaluation~4, iteration~5). Descriptive pool over 6 non-selection bodies: PSP $+0.069$ [$+0.038$, $+0.100$], $I^2 = 0$, 6/6 positive. No forecasting gain ($+0.002$). Split-half reliability 0.49.
+\item \textbf{Concepts spread to fields related to those retaining them} (Experiment~7, iteration~3). Held-out $d_0 = 0.322$ [0.291, 0.355], LR = 325.8. Verdict: FRONTIER = PARTIAL (volume-matched contrast null; reverses under min-cp proximity).
+\item \textbf{The consistency--breadth reversal} (Experiment~14, iteration~5). Cheng's consistency predicts volume ($+53.5$\%/SD) but, net of volume, predicts narrower breadth ($-0.069$ [$-0.093$, $-0.047$]; DL $-0.079$, $I^2 = 0$). Size removes 98\% of the volume effect.
+\item \textbf{Breadth is 73\% early exploration, 27\% retention} (Experiment~12, iteration~4). Broad concepts start with wider contact, not by advancing a wider frontier.
+\item \textbf{The openness signal is topical non-redundancy, not temporal turnover} (Experiment~16, iteration~5). The within-concept permutation null absorbs the year-to-year component. However, turnover could not be tested at available sample sizes (V2 excess unreliable, planted churn not recovered). What survives behaves like a static dispersion property.
+\item \textbf{New-community partners carry the signal} (Experiment~15-A, iteration~5). $C_2 = +0.102$, Holm $p = 0.0025$; arriving through mixed-field papers, $C_4 = +0.103$, Holm $p = 0.0025$.
+\item \textbf{Background homophily dominates raw lineage} (Experiment~1, iteration~1). $R^2 = 0.66$ of raw concept-lineage log-odds on background log-odds.
+\end{enumerate}
+
+\subsection{What is still open}
+
+\begin{enumerate}
+\item \textbf{Mechanism.} The within-concept closure test was null. The between-concept association could reflect intrinsic generality, community diversity, or problem breadth.
+\item \textbf{Domain heterogeneity.} Life \& Environment shows the weakest OPEN signal; $I^2 = 0.92$ for the retained-frontier effect.
+\item \textbf{Persistence-filtered RCA rival} ($D_{\text{rca,persist,k}}$): untested against the standard literature version.
+\item \textbf{Temporal turnover vs static dispersion.} V2 cannot adjudicate at $\sim$10 papers/year.
+\item \textbf{External recognition.} O5 is unrelated to publication outcomes and was not validated as a useful ground truth.
+\item \textbf{Causal identification.} No causal claim is supported; only association.
+\end{enumerate}
+
+
+% ============================================================
+\section{Run bookkeeping}
+\label{sec:bookkeeping}
+% ============================================================
+
+\begin{table}[!htbp]
+\centering
+\caption{Run bookkeeping. 20 artifacts were commissioned across 5 iterations; 16 completed, 4 failed. All review scores were 2--3 and all reviews were blocking. No trajectory log with per-iteration ledger spend was available for this run.}
+\label{tab:bookkeeping}
+\small
+\begin{tabularx}{\linewidth}{c p{3.5cm} c c X}
+\toprule
+Iter. & Move & Review & Executed? & Key artifacts \\
+\midrule
+1 & Wide screen of 5 rivals & 3 (blocking) & 3/5 & Exp1 ($A^*_h$ null), Exp3 ($D$ null), Exp4 ($G$ null, field retention lead). Exp2, Dataset~1 failed. \\
+2 & Deepen gateway retention & 3 (blocking) & 5/5 & Exp5 (H1 disconfirmed), Exp6 (H2 $d_0 = 0.28$), Eval1 (stress test null), Dataset~2 (O5), Research~1. \\
+3 & Deepen retained frontier & 3 (blocking) & 4/5 & Exp7 (PARTIAL), Exp8 (7/10 confirmed), Eval2 (ledger), Research~2. Exp9 failed. \\
+4 & Fresh-cohort test & 2 (blocking) & 3+1/5 & Exp10 (OPEN marginal), Exp11 (NOT SUPPORTED, incomplete), Exp12 (continuum), Eval3, Research~3. \\
+5 & Vocabulary-free test & 2 (blocking) & 5/5 & Exp13 (PARTIAL), Exp14 (reversal), Exp15 (mechanism), Eval4 (synthesis), Exp16 (PARTLY\_THIN). \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+
+\nocite{*}
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
