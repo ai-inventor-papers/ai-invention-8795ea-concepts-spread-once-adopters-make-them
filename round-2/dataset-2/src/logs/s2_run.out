@@ -1,0 +1,27 @@
+17:40:20|INFO   |58910 QIDs, 5179 cached, 53731 to fetch
+17:40:20|WARNING|maxlag (1 total): Waiting for wdqs1013: 6.2 seconds lagged.
+17:40:32|INFO   |verified properties: {'P486': 'MeSH descriptor ID', 'P6694': 'MeSH concept ID', 'P672': 'MeSH tree code', 'P2179': 'ACM Classification Code (2012)', 'P3285': 'Mathematics Subject Classification ID', 'P571': 'inception', 'P575': 'time of discovery or invention', 'P61': 'discoverer or inventor', 'P31': 'instance of', 'P279': 'subclass of', 'P361': 'part of', 'P6366': 'Microsoft Academic ID (discontinued)'}
+17:40:32|INFO   |property search: {"PhySH": [], "JEL": [{"id": "P913", "label": "notation", "description": "mathematical notation or another symbol"}, {"id": "P136", "label": "genre", "description": "creative work's genre or an artist's field of work (P101). Use main subject (P921) to relate creative works to their topic"}, {"id": "P7937", "label": "form of creative work", "description": "structure of a creative work"}, {"id": "P793", "label": "significant event", "description": "significant or notable events associated with the subject"}, {"id": "P5137", "label": "item for this sense", "description": "concept corresponding to this sense of a lexeme. Use only on lexeme senses; do not use on items or properties"}, {"id": "P3602", "label": "candidacy in election", "description": "election where the subject is a candidate"}, {"id": "P800", "label": "notable work", "description": "notable scientific, artistic or literary work, or other work of significance among subject's works"}, {"id": "P1411", "label": "nominated for", "description": "award nomination received by a person, organisation or creative work (inspired from \"award received\" (Property:P166))"}, {"id": "P3842", "label": "located in the present-day administrative territorial entity", "description": "the item was located in the territory of this present-day administrative unit; however the two did not at any point coexist in time"}, {"id": "P7153", "label": "significant place", "description": "significant or notable places associated with the subject"}], "Journal of Economic Literature classification": [], "PACS": []}
+17:41:10|INFO   |50/1075 batches, 38s, eta 774s
+17:41:51|INFO   |100/1075 batches, 79s, eta 766s
+17:42:23|INFO   |150/1075 batches, 111s, eta 686s
+17:43:13|INFO   |200/1075 batches, 161s, eta 706s
+17:43:37|INFO   |250/1075 batches, 185s, eta 611s
+17:44:00|INFO   |300/1075 batches, 208s, eta 538s
+17:44:33|INFO   |350/1075 batches, 241s, eta 500s
+17:44:54|INFO   |400/1075 batches, 262s, eta 442s
+17:45:13|INFO   |450/1075 batches, 280s, eta 390s
+17:45:35|WARNING|maxlag (51 total): Waiting for wdqs1012: 8.0333333333333 seconds lagged.
+17:45:43|INFO   |500/1075 batches, 311s, eta 358s
+17:46:02|INFO   |550/1075 batches, 330s, eta 315s
+17:46:23|INFO   |600/1075 batches, 351s, eta 278s
+17:46:51|INFO   |650/1075 batches, 379s, eta 248s
+17:47:11|INFO   |700/1075 batches, 399s, eta 214s
+17:47:27|INFO   |750/1075 batches, 415s, eta 180s
+17:47:40|INFO   |800/1075 batches, 428s, eta 147s
+17:47:55|INFO   |850/1075 batches, 443s, eta 117s
+17:48:21|INFO   |900/1075 batches, 469s, eta 91s
+17:48:33|INFO   |950/1075 batches, 481s, eta 63s
+17:48:54|INFO   |1000/1075 batches, 502s, eta 38s
+17:49:16|INFO   |1050/1075 batches, 524s, eta 12s
+17:49:36|INFO   |wikidata done

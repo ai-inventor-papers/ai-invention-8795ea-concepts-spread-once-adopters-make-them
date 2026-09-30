@@ -1,0 +1,85 @@
+URL: https://arxiv.org/pdf/2606.03919
+Type: PDF
+Pattern: R\^?2|R2|test|cross-field|robotics|LightGBM|split (71 matches in 59222 chars)
+
+--- Content ---
+
+930:...f scientific concepts. Using the
+quantum computing subtree of concepts in OpenAlex, we construct a temporally resolved
+concept co-occurrence network and track each concept pair through its upstream citation
+lineage and downstream diffusion. We train LightGBM models on distributional and diversity-
+aware features to predict four outcomes: endogenous reinforcement, exogenous diffusion,
+their ratio, and diffusion entropy. After controlling for overall publication growth of the
+scientific body, endogenous r...
+--
+1494:...
+quantum-computing benchmark. In contrast, exogenous diffusion and entropy are strongly
+predictable (𝑅2 up to 0.78) and are driven by upstream heterogeneity, citation breadth, and
+distributional dispersion, as shown by SHAP analyses; replications on robotics, advanced
+materials, and neuro implants confirm that exogenous diffusion remains the top-ranked
+target across fields (𝑅2
+test ≈0.60–0.87), while endogenous predictability rises markedly in
+neuro implants (𝑅2
+test = 0.83), indicating that the quantum-computing asymmetry does not
+generalise uniformly. Case studies reveal that sharp entropy increases coincide with the
+opening of new conceptual frontiers, while entropy collapses signal technological convergence
+...
+--
+20496:...standard
+Diversity
+Shannon entropy
+Diversity of upstream pair support (in nats);
+core diffusion-breadth indicator.
+Jost, 2006
+Volume
+total
+normalised
+weight, # unique
+cited papers
+Aggregate intellectual “mass” supporting
+the focal pair.
+—
+Endo / exo split
+endogenous count,
+exogenous count
+Decomposition into self-reinforcement vs.
+cross-pair recombination, mirroring the
+persistence-vs-diffusion distinction.
+Shi and Evans,
+2023; Uzzi et al.,
+2013; Wu et al.,
+2019
+Downstream construction involved extrac...
+--
+21806:...t distribution. These
+outcomes correspond to internal reinforcement, cross-domain diffusion, relative balance between
+the two, and the breadth of interpretive contexts. They also map into the above formulated
+hypotheses (Section 3).
+Considering data splitting, concept pair weight distributions (downstream) typically exhibit
+heavy-tailed, highly skewed characteristics, with many concept pairs receiving few citations
+and a small fraction receiving disproportionately high attention. To ensure representative train-
+validation splits that preserve this distributional structure, we implemented a stratified sampling
+strategy based on logarithmic binning: Zero-valued observations were assigned to dedicated
+strata (predicted weight is 0); positive target values were binned logarithmically, with bin counts
+adjusted to ensure at least two points per stratum. We then performed an 80–20 split using
+train-test-split with stratification to preserve empirical distributional structure. Regression models
+were fitted using LightGBM (Ke et al., 2017), chosen for its efficiency and ability to capture
+nonlinear feature interactions. Hyperparameters were tuned via Bayesian optimisation using
+Optuna (Akiba et al., 2019) with the Tree-Structured Parzen Estimator sampler, running 20 ...
+--
+23763:...eature contributions, enabling direct interpretation of which
+distributional characteristics, such as entropy, dispersion, or tail weight, drive model behaviour.
+All analyses were implemented in Python using pandas, numpy, scipy.stats, scikit-learn,
+lightgbm, optuna, and shap, with fixed random seeds to ensure reproducibility.
+Comparative validation protocol.
+To assess whether the diffusion asymmetries reported
+for quantum computing generalise beyond a single testbed, we replicated the same forecasting
+protocol on three additional OpenAlex subtrees: robotics, advanced materials, and neuro implants
+(Appendix A.2.1). All comparative runs used the same OpenAlex validation subsample (≈40%
+of snapshot works by partition volume, structurally representative across 1990–2024). Focal
+years 2022–2023 were held out for testing; earlier years were used for training with fixed
+LightGBM hyperparameters (no per-domain Optuna). Because the 2023 snapshot does not yet
+contain the full five-year citation tail for these recent focal years, comparative test metrics reflect
+partial downstream windows (Appendix A.1.2), unlike Table 2, which...
+--
+[55 more matches not shown]

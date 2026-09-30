@@ -1,0 +1,105 @@
+{
+ "n_candidates": 653,
+ "drops": {
+  "no_onset_after_grounding": 0,
+  "precision_below_gate": 0,
+  "n_early_lt30": 0,
+  "no_labelled": 0
+ },
+ "n_frame": 653,
+ "n_newborn": 653,
+ "by_split": {
+  "dev": 279,
+  "heldout_cohort": 248,
+  "heldout_field": 126
+ },
+ "by_split_newborn": {
+  "dev": 279,
+  "heldout_cohort": 248,
+  "heldout_field": 126
+ },
+ "by_group_newborn": {
+  "dev|DEV_BGM": 27,
+  "dev|DEV_CS": 22,
+  "dev|DEV_Eng": 59,
+  "dev|DEV_Med": 171,
+  "heldout_cohort|DEV_BGM": 13,
+  "heldout_cohort|DEV_CS": 18,
+  "heldout_cohort|DEV_Eng": 37,
+  "heldout_cohort|DEV_Med": 109,
+  "heldout_cohort|LifeEnv": 13,
+  "heldout_cohort|OtherHealth": 2,
+  "heldout_cohort|Physical": 15,
+  "heldout_cohort|Social": 41,
+  "heldout_field|LifeEnv": 34,
+  "heldout_field|OtherHealth": 4,
+  "heldout_field|Physical": 34,
+  "heldout_field|Social": 54
+ },
+ "n_episodes": 1865,
+ "episodes_by_split": {
+  "heldout_cohort": 768,
+  "dev": 707,
+  "heldout_field": 390
+ },
+ "o2r_resid_coef_dev": [
+  -0.03808207780883798,
+  3.891852441738708
+ ],
+ "t0_dist": {
+  "2003": 79,
+  "2004": 64,
+  "2005": 57,
+  "2006": 55,
+  "2007": 53,
+  "2008": 40,
+  "2009": 57,
+  "2010": 51,
+  "2011": 54,
+  "2012": 46,
+  "2013": 51,
+  "2014": 46
+ },
+ "home_primary_dist": {
+  "27": 280,
+  "22": 96,
+  "33": 70,
+  "17": 40,
+  "13": 40,
+  "31": 29,
+  "11": 18,
+  "16": 14,
+  "14": 10,
+  "23": 10,
+  "28": 8,
+  "20": 8,
+  "25": 6,
+  "19": 6,
+  "24": 5,
+  "36": 5,
+  "32": 5,
+  "12": 2,
+  "35": 1
+ },
+ "label_coverage_by_home": {
+  "11": 0.567,
+  "12": 0.261,
+  "13": 0.779,
+  "14": 0.479,
+  "16": 0.81,
+  "17": 0.617,
+  "19": 0.608,
+  "20": 0.541,
+  "22": 0.747,
+  "23": 0.633,
+  "24": 0.835,
+  "25": 0.797,
+  "27": 0.84,
+  "28": 0.738,
+  "31": 0.791,
+  "32": 0.721,
+  "33": 0.498,
+  "35": 0.861,
+  "36": 0.315
+ }
+}
