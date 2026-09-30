@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "method_name": "Held-out test of adopting-field gateway centrality for concept retention (H1) and concept-level gateway landing vs size-adjusted breadth (H3)",
+    "description": "One zero-credit scan of the full OpenAlex works snapshot (2,040 parquet files); legacy concept lexicon (levels 2-5) + Wikidata aliases; Aho-Corasick title matching with stemmed verification; grounding by legacy concept tags validated on an LLM-labelled benchmark and a per-concept LLM precision gate; frozen dev specification (hashed) scored once on sealed held-out home groups and the 2010-2014 cohort.",
+    "baseline": "X0 = B5 + log field size + phi(home,j) + relatedness density + P_j(-c) + coverage + episode size",
+    "method": "X1 = X0 + frozen 1998-2002 eigenvector gateway centrality of the adopting field",
+    "frame": {
+      "ladder": [
+        {
+          "early_min": 30,
+          "weak_home": true,
+          "n_concepts": 12499,
+          "n_episodes": 27393
+        }
+      ],
+      "n_concepts": 12499,
+      "n_episodes": 27393,
+      "by_split": {
+        "DEV": 4771,
+        "COHORT": 4356,
+        "HELDOUT_SOC": 1352,
+        "HELDOUT_LIFEENV": 1113,
+        "HELDOUT_PHYS": 742,
+        "HELDOUT_MATHDEC": 165
+      },
+      "episodes_by_split": {
+        "COHORT": 9799,
+        "DEV": 9079,
+        "HELDOUT_SOC": 3320,
+        "HELDOUT_LIFEENV": 3099,
+        "HELDOUT_PHYS": 1662,
+        "HELDOUT_MATHDEC": 434
+      },
+      "by_group": {
+        "Med": 3868,
+        "SOC": 2211,
+        "Eng": 2087,
+        "LIFEENV": 1668,
+        "PHYS": 1097,
+        "BGM": 719,
+        "CS": 581,
+        "MATHDEC": 268
+      },
+      "newborn_share": 0.05392431394511561,
+      "weak_home": 1150,
+      "intersect40": 502,
+      "dev_R_rate": 0.29364467452362597
+    },
+    "grounding": {
+      "frozen_grounding_rule": "c_TAG",
+      "kappa_l1_l2": 0.199518587857716,
+      "rules_test": {
+        "a_stemmed_any": {
+          "precision": 0.8541666666666666,
+          "recall": 1.0,
+          "f1": 0.9213483146067416,
+          "n_pred_pos": 96
+        },
+        "b_exact_name_only": {
+          "precision": 0.8717948717948718,
+          "recall": 0.4146341463414634,
+          "f1": 0.5619834710743802,
+          "n_pred_pos": 39
+        },
+        "c_TAG": {
+          "precision": 0.9473684210526315,
+          "recall": 0.6585365853658537,
+          "f1": 0.776978417266187,
+          "n_pred_pos": 57
+        },
+        "d_filter_p05": {
+          "precision": 0.8617021276595744,
+          "recall": 0.9878048780487805,
+          "f1": 0.9204545454545454,
+          "n_pred_pos": 94
+        },
+        "e_TAG_or_untagged_filter": {
+          "precision": 0.9384615384615385,
+          "recall": 0.7439024390243902,
+          "f1": 0.8299319727891157,
+          "n_pred_pos": 65
+        }
+      },
+      "handcheck": {
+        "n": 60,
+        "agree_with_gold": 0.9,
+        "agree_with_L1": 0.8833333333333333
+      },
+      "filter": {
+        "C": 0.1,
+        "test_auc": 0.8710801393728222,
+        "coef": {
+          "cos": 0.917,
+          "single_token": -0.177,
+          "is_alias": -0.272,
+          "is_variant": 0.169,
+          "ts1": 0.216,
+          "ts2": -0.168,
+          "ts3": -0.158,
+          "title_len": 0.275,
+          "cap": 0.055
+        }
+      }
+    },
+    "H1_dev": {
+      "n_episodes": 9079,
+      "n_concepts": 3987,
+      "R_rate": 0.29364467452362597,
+      "dauc": 1.3686565255799366e-05,
+      "ci95": [
+        -0.0007070657674354858,
+        0.0004759588102118098
+      ],
+      "per_group": {
+        "CS": 2.341783267956199e-05,
+        "Eng": 9.334665149218768e-05,
+        "BGM": 0.00010189060702647801,
+        "Med": -5.499642523210113e-05
+      },
+      "placebo_real_exceeds_p95": false,
+      "cond_logit": {
+        "n_episodes_informative": 4671,
+        "n_concepts_informative": 1470,
+        "beta_gateway_std": 0.05760821669635307,
+        "se": 0.050620675092339903,
+        "z": 1.138037305730649,
+        "p_two_sided": 0.2551049050718702,
+        "LR": 1.2934423734448046,
+        "LR_p": 0.2554145329529829,
+        "method": "ConditionalLogit"
+      },
+      "lpm": {
+        "n": 9079,
+        "within_field_sd_of_regressor": 0.025486300560656133,
+        "beta_within_per_sd": -0.00345886836143571,
+        "se_concept": 0.03468988448996966,
+        "p_concept": 0.9205759349273591,
+        "se_twoway": 0.07500050998634529,
+        "p_twoway": 0.9632162541624284
+      }
+    },
+    "H1_heldout": {
+      "dauc": -8.9655543402678e-06,
+      "ci95": [
+        -0.0006173982106458864,
+        0.00033315644834805376
+      ],
+      "auc_X0": 0.8372646639437369,
+      "auc_X1": 0.8372556983893966,
+      "per_group": {
+        "PHYS": 0.0004977576102344061,
+        "LIFEENV": -0.00025573305214199316,
+        "SOC": -0.00012125323271283683,
+        "MATHDEC": 0.0005239151873767112
+      },
+      "dl_pool": {
+        "k": 4,
+        "pooled": -4.3991314466003225e-05,
+        "se": 0.00019697749811468297,
+        "ci95": [
+          -0.0004300672107707818,
+          0.0003420845818387754
+        ],
+        "tau2": 0.0,
+        "I2": 0.0,
+        "Q": 1.6886147538161116
+      },
+      "cohort_dauc": -0.00014840221616119198,
+      "cohort_ci95": [
+        -0.0008346141305692056,
+        0.0001320457681476844
+      ],
+      "verdict": {
+        "verdict": "DISCONFIRMED",
+        "criteria": {
+          "pooled_dauc_ge_0.05": false,
+          "refit_ci_gt0": false,
+          "sign_ge3_of_4_evaluable": false,
+          "n_groups_positive": 2,
+          "cohort_same_sign": true,
+          "lpm_beta_within_gt0_p05": true,
+          "placebo_null": false
+        }
+      },
+      "placebo_p95": 0.00011013988603601445,
+      "cond_logit": {
+        "n_episodes_informative": 5036,
+        "n_concepts_informative": 1452,
+        "beta_gateway_std": -0.0746527649197613,
+        "se": 0.06240505008412258,
+        "z": -1.1962615977253235,
+        "p_two_sided": 0.23159448975679897,
+        "LR": 1.4407798330089463,
+        "LR_p": 0.23001318820583636,
+        "method": "ConditionalLogit"
+      },
+      "lpm": {
+        "n": 8515,
+        "within_field_sd_of_regressor": 0.024114481018227937,
+        "beta_within_per_sd": 0.06778995979996934,
+        "se_concept": 0.0331393319594772,
+        "p_concept": 0.04079531852765418,
+        "se_twoway": 0.04966999749594251,
+        "p_twoway": 0.17231372111171483
+      },
+      "rival_head_to_head": {
+        "dauc_relatedness_pair": 0.0033563007447128257,
+        "relatedness_ci95": [
+          0.0010094242010481095,
+          0.005105673731210405
+        ],
+        "dauc_gateway": -4.8790806590703895e-05,
+        "gateway_ci95": [
+          -0.0006670042214246024,
+          0.0001791307761191849
+        ],
+        "diff_gateway_minus_relatedness": -0.0034050915513035296
+      },
+      "pigeonhole_ci95": [
+        -0.0022785500497700143,
+        0.0010009281747794191
+      ]
+    },
+    "ladder_dev": {
+      "L1_iter1_base": 0.0019460073189199179,
+      "L2_plus_relatedness": 0.0006932771708442198,
+      "L3_plus_Pj": 2.667125537048065e-05,
+      "L4_full_X0": 1.3686565255799366e-05,
+      "L0_size_only": 0.004223358194140769
+    },
+    "ladder_heldout": {
+      "L1_iter1_base": -0.001621790818804647,
+      "L2_plus_relatedness": -0.0011816340749275511,
+      "L3_plus_Pj": -3.5147571725069326e-05,
+      "L4_full_X0": -8.9655543402678e-06,
+      "L0_size_only": -0.0017103419098605244
+    },
+    "gateway_alone_auc": {
+      "dev": 0.6054439015180273,
+      "heldout": 0.5056949785879173
+    },
+    "H3_heldout": {
+      "G": {
+        "partial_rho": 0.02950282637789586,
+        "p": 0.001999000499750125,
+        "ci95": [
+          -0.005645316827696381,
+          0.06495220976417931
+        ]
+      },
+      "G_A": {
+        "partial_rho": 0.026181155490031614,
+        "p": 0.00399800099950025,
+        "ci95": [
+          -0.01115668861449585,
+          0.06661133096553447
+        ]
+      },
+      "G_btw": {
+        "partial_rho": 0.04559887078144679,
+        "p": 0.0014992503748125937,
+        "ci95": [
+          0.009104121849222446,
+          0.0862495145333611
+        ]
+      },
+      "REL_home": {
+        "partial_rho": -0.13639675894418873,
+        "p": 1.0,
+        "ci95": [
+          -0.17351749913750902,
+          -0.10147997097025221
+        ]
+      },
+      "holm": {
+        "G_btw": 0.004497751124437781,
+        "G": 0.004497751124437781,
+        "G_A": 0.004497751124437781
+      },
+      "verdict": "CONFIRMED",
+      "verdict_qualified": "CONFIRMED (pre-registered Holm permutation test) -- small effect: within-group partial rho ~0.07",
+      "dl_pool_G": {
+        "k": 4,
+        "pooled": 0.06832581887291983,
+        "se": 0.019813935258362395,
+        "ci95": [
+          0.029490505766529534,
+          0.10716113197931013
+        ],
+        "tau2": 0.0,
+        "I2": 0.0,
+        "Q": 1.6898313170596742
+      }
+    },
+    "files": {
+      "h1_dev": "results/h1_dev.json",
+      "h1_heldout": "results/h1_heldout.json",
+      "h3": "results/h3_results.json",
+      "frozen_spec": "frozen_spec.json",
+      "seal_log": "logs/seal.log",
+      "deviations": "results/deviations.json"
+    }
+  },
+  "datasets": [
+    {
+      "dataset": "episodes_dev_LOGO_oof",
+      "examples": [
+        {
+          "input": "{\"concept_id\": 252157, \"concept\": \"Scatternet\", \"adopting_field\": 22, \"adopting_field_name\": \"Engineering\", \"home\": \"17\", \"t0\": 2003, \"group\": \"CS\", \"split\": \"DEV\", \"covariates\": {\"logvol\": 4.35671, \"growth_c\": 0.0, \"offhome_share\": 0.30189, \"entropy\": 0.75814, \"reach\": 3.0, \"log_field_size\": 15.14617, \"phi_home\": 0.01544, \"density\": 0.25923, \"P_j\": 0.52571, \"label_coverage_early\": 0.68831, \"precision_c\": 1.0, \"tag_coverage\": 0.91667, \"log_n_early\": 2.63906, \"share_early\": 0.24528, \"growth_j\": 0.69315, \"gateway_j\": 0.24272}}",
+          "output": "0",
+          "predict_baseline": "0.887660",
+          "predict_gateway": "0.886883",
+          "metadata_split": "DEV",
+          "metadata_group": "CS",
+          "metadata_concept_id": 252157,
+          "metadata_field": 22,
+          "metadata_n_early": 13.0,
+          "metadata_n_out": 3.0,
+          "metadata_gateway_j": 0.2427178906876991
+        },
+        {
+          "input": "{\"concept_id\": 252157, \"concept\": \"Scatternet\", \"adopting_field\": 33, \"adopting_field_name\": \"Social Sciences\", \"home\": \"17\", \"t0\": 2003, \"group\": \"CS\", \"split\": \"DEV\", \"covariates\": {\"logvol\": 4.35671, \"growth_c\": 0.0, \"offhome_share\": 0.30189, \"entropy\": 0.75814, \"reach\": 3.0, \"log_field_size\": 15.21054, \"phi_home\": 0.0, \"density\": 0.55268, \"P_j\": 0.14204, \"label_coverage_early\": 0.68831, \"precision_c\": 1.0, \"tag_coverage\": 0.91667, \"log_n_early\": 1.38629, \"share_early\": 0.0566, \"growth_j\": 0.0, \"gateway_j\": 0.02816}}",
+          "output": "0",
+          "predict_baseline": "0.075990",
+          "predict_gateway": "0.076163",
+          "metadata_split": "DEV",
+          "metadata_group": "CS",
+          "metadata_concept_id": 252157,
+          "metadata_field": 33,
+          "metadata_n_early": 3.0,
+          "metadata_n_out": 0.0,
+          "metadata_gateway_j": 0.0281553368995909
+        },
+        {
+          "input": "{\"concept_id\": 482391, \"concept\": \"Acronym\", \"adopting_field\": 11, \"adopting_field_name\": \"Agricultural and Biological Sciences\", \"home\": \"27\", \"t0\": 2004, \"group\": \"Med\", \"split\": \"DEV\", \"covariates\": {\"logvol\": 4.17439, \"growth_c\": 0.25131, \"offhome_share\": 0.45455, \"entropy\": 1.61002, \"reach\": 4.0, \"log_field_size\": 13.75128, \"phi_home\": 0.0, \"density\": 0.0, \"P_j\": 0.41712, \"label_coverage_early\": 0.51562, \"precision_c\": 0.8, \"tag_coverage\": 0.47407, \"log_n_early\": 1.09861, \"share_early\": 0.06061, \"growth_j\": -0.69315, \"gateway_j\": 0.2841}}",
+          "output": "0",
+          "predict_baseline": "0.085295",
+          "predict_gateway": "0.082808",
+          "metadata_split": "DEV",
+          "metadata_group": "Med",
+          "metadata_concept_id": 482391,
+          "metadata_field": 11,
+          "metadata_n_early": 2.0,
+          "metadata_n_out": 0.0,
+          "metadata_gateway_j": 0.284099881223133
+        }
+      ]
+    },
+    {
+      "dataset": "episodes_heldout_frozen_model",
+      "examples": [
+        {
+          "input": "{\"concept_id\": 339426, \"concept\": \"Prospect theory\", \"adopting_field\": 14, \"adopting_field_name\": \"Business, Management and Accounting\", \"home\": \"20\", \"t0\": 2004, \"group\": \"SOC\", \"split\": \"HELDOUT_SOC\", \"covariates\": {\"logvol\": 4.30407, \"growth_c\": 0.1226, \"offhome_share\": 0.64444, \"entropy\": 1.61661, \"reach\": 4.0, \"log_field_size\": 13.02173, \"phi_home\": 1.35632, \"density\": 0.48943, \"P_j\": 0.37026, \"label_coverage_early\": 0.61644, \"precision_c\": 0.96773, \"tag_coverage\": 0.73, \"log_n_early\": 2.07944, \"share_early\": 0.15556, \"growth_j\": 0.28768, \"gateway_j\": 0.07712}}",
+          "output": "1",
+          "predict_baseline": "0.583649",
+          "predict_gateway": "0.566987",
+          "metadata_split": "HELDOUT_SOC",
+          "metadata_group": "SOC",
+          "metadata_concept_id": 339426,
+          "metadata_field": 14,
+          "metadata_n_early": 7.0,
+          "metadata_n_out": 14.0,
+          "metadata_gateway_j": 0.0771156548797982
+        },
+        {
+          "input": "{\"concept_id\": 339426, \"concept\": \"Prospect theory\", \"adopting_field\": 22, \"adopting_field_name\": \"Engineering\", \"home\": \"20\", \"t0\": 2004, \"group\": \"SOC\", \"split\": \"HELDOUT_SOC\", \"covariates\": {\"logvol\": 4.30407, \"growth_c\": 0.1226, \"offhome_share\": 0.64444, \"entropy\": 1.61661, \"reach\": 4.0, \"log_field_size\": 15.14617, \"phi_home\": 0.0, \"density\": 0.25125, \"P_j\": 0.41302, \"label_coverage_early\": 0.61644, \"precision_c\": 0.96773, \"tag_coverage\": 0.73, \"log_n_early\": 1.94591, \"share_early\": 0.13333, \"growth_j\": 0.0, \"gateway_j\": 0.24272}}",
+          "output": "1",
+          "predict_baseline": "0.425366",
+          "predict_gateway": "0.423478",
+          "metadata_split": "HELDOUT_SOC",
+          "metadata_group": "SOC",
+          "metadata_concept_id": 339426,
+          "metadata_field": 22,
+          "metadata_n_early": 6.0,
+          "metadata_n_out": 31.0,
+          "metadata_gateway_j": 0.2427178906876991
+        },
+        {
+          "input": "{\"concept_id\": 339426, \"concept\": \"Prospect theory\", \"adopting_field\": 33, \"adopting_field_name\": \"Social Sciences\", \"home\": \"20\", \"t0\": 2004, \"group\": \"SOC\", \"split\": \"HELDOUT_SOC\", \"covariates\": {\"logvol\": 4.30407, \"growth_c\": 0.1226, \"offhome_share\": 0.64444, \"entropy\": 1.61661, \"reach\": 4.0, \"log_field_size\": 15.21054, \"phi_home\": 0.07546, \"density\": 0.70034, \"P_j\": 0.30292, \"label_coverage_early\": 0.61644, \"precision_c\": 0.96773, \"tag_coverage\": 0.73, \"log_n_early\": 2.56495, \"share_early\": 0.26667, \"growth_j\": -0.31845, \"gateway_j\": 0.02816}}",
+          "output": "0",
+          "predict_baseline": "0.741198",
+          "predict_gateway": "0.737298",
+          "metadata_split": "HELDOUT_SOC",
+          "metadata_group": "SOC",
+          "metadata_concept_id": 339426,
+          "metadata_field": 33,
+          "metadata_n_early": 12.0,
+          "metadata_n_out": 6.0,
+          "metadata_gateway_j": 0.0281553368995909
+        }
+      ]
+    },
+    {
+      "dataset": "episodes_cohort_2010_2014_frozen_model",
+      "examples": [
+        {
+          "input": "{\"concept_id\": 37253, \"concept\": \"Complete intersection\", \"adopting_field\": 17, \"adopting_field_name\": \"Computer Science\", \"home\": \"26\", \"t0\": 2012, \"group\": \"MATHDEC\", \"split\": \"COHORT\", \"covariates\": {\"logvol\": 4.29046, \"growth_c\": 0.2657, \"offhome_share\": 0.14493, \"entropy\": 0.50234, \"reach\": 3.0, \"log_field_size\": 13.60604, \"phi_home\": 1.46301, \"density\": 0.4975, \"P_j\": 0.26654, \"label_coverage_early\": 0.95833, \"precision_c\": 1.0, \"tag_coverage\": 0.59016, \"log_n_early\": 2.07944, \"share_early\": 0.10145, \"growth_j\": 0.69315, \"gateway_j\": 0.09721}}",
+          "output": "0",
+          "predict_baseline": "0.425243",
+          "predict_gateway": "0.416215",
+          "metadata_split": "COHORT",
+          "metadata_group": "MATHDEC",
+          "metadata_concept_id": 37253,
+          "metadata_field": 17,
+          "metadata_n_early": 7.0,
+          "metadata_n_out": 1.0,
+          "metadata_gateway_j": 0.0972089563793993
+        },
+        {
+          "input": "{\"concept_id\": 37253, \"concept\": \"Complete intersection\", \"adopting_field\": 31, \"adopting_field_name\": \"Physics and Astronomy\", \"home\": \"26\", \"t0\": 2012, \"group\": \"MATHDEC\", \"split\": \"COHORT\", \"covariates\": {\"logvol\": 4.29046, \"growth_c\": 0.2657, \"offhome_share\": 0.14493, \"entropy\": 0.50234, \"reach\": 3.0, \"log_field_size\": 13.50876, \"phi_home\": 1.05192, \"density\": 0.25559, \"P_j\": 0.15247, \"label_coverage_early\": 0.95833, \"precision_c\": 1.0, \"tag_coverage\": 0.59016, \"log_n_early\": 1.38629, \"share_early\": 0.04348, \"growth_j\": 0.0, \"gateway_j\": 0.48583}}",
+          "output": "0",
+          "predict_baseline": "0.071856",
+          "predict_gateway": "0.074772",
+          "metadata_split": "COHORT",
+          "metadata_group": "MATHDEC",
+          "metadata_concept_id": 37253,
+          "metadata_field": 31,
+          "metadata_n_early": 3.0,
+          "metadata_n_out": 2.0,
+          "metadata_gateway_j": 0.4858337648309395
+        },
+        {
+          "input": "{\"concept_id\": 125502, \"concept\": \"Early adopter\", \"adopting_field\": 14, \"adopting_field_name\": \"Business, Management and Accounting\", \"home\": \"33\", \"t0\": 2011, \"group\": \"SOC\", \"split\": \"COHORT\", \"covariates\": {\"logvol\": 4.17439, \"growth_c\": 0.1226, \"offhome_share\": 0.75, \"entropy\": 2.144, \"reach\": 7.0, \"log_field_size\": 13.02173, \"phi_home\": 0.05428, \"density\": 0.03467, \"P_j\": 0.28585, \"label_coverage_early\": 0.5, \"precision_c\": 1.0, \"tag_coverage\": 0.7619, \"log_n_early\": 1.94591, \"share_early\": 0.1875, \"growth_j\": 0.0, \"gateway_j\": 0.07712}}",
+          "output": "1",
+          "predict_baseline": "0.384673",
+          "predict_gateway": "0.368546",
+          "metadata_split": "COHORT",
+          "metadata_group": "SOC",
+          "metadata_concept_id": 125502,
+          "metadata_field": 14,
+          "metadata_n_early": 6.0,
+          "metadata_n_out": 11.0,
+          "metadata_gateway_j": 0.0771156548797982
+        }
+      ]
+    }
+  ]
+}

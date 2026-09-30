@@ -1,0 +1,117 @@
+{
+ "n": 390,
+ "n_double": 146,
+ "kappa_l1_l2": 0.199518587857716,
+ "agree_l1_l2": 0.7191780821917808,
+ "adjudicated": true,
+ "n_disagree": 41,
+ "positive_rate": 0.8615384615384616,
+ "models": {
+  "L1": "google/gemini-2.5-flash-lite",
+  "L2": "openai/gpt-4.1-nano",
+  "L3": "google/gemini-2.5-flash"
+ },
+ "llm_spent_usd": 0.013316999999999999,
+ "split_counts": {
+  "train": 294,
+  "test": 96
+ },
+ "positive_rate_by_tagstate": {
+  "1": 0.9285714285714286,
+  "2": 0.7932960893854749,
+  "3": 0.8
+ },
+ "positive_rate_by_mtype": {
+  "alias": 0.7478260869565218,
+  "name_exact": 0.8888888888888888,
+  "name_variant": 0.9344262295081968
+ },
+ "filter": {
+  "C": 0.1,
+  "test_auc": 0.8710801393728222,
+  "coef": {
+   "cos": 0.917,
+   "single_token": -0.177,
+   "is_alias": -0.272,
+   "is_variant": 0.169,
+   "ts1": 0.216,
+   "ts2": -0.168,
+   "ts3": -0.158,
+   "title_len": 0.275,
+   "cap": 0.055
+  }
+ },
+ "rules_test": {
+  "a_stemmed_any": {
+   "precision": 0.8541666666666666,
+   "recall": 1.0,
+   "f1": 0.9213483146067416,
+   "n_pred_pos": 96
+  },
+  "b_exact_name_only": {
+   "precision": 0.8717948717948718,
+   "recall": 0.4146341463414634,
+   "f1": 0.5619834710743802,
+   "n_pred_pos": 39
+  },
+  "c_TAG": {
+   "precision": 0.9473684210526315,
+   "recall": 0.6585365853658537,
+   "f1": 0.776978417266187,
+   "n_pred_pos": 57
+  },
+  "d_filter_p05": {
+   "precision": 0.8617021276595744,
+   "recall": 0.9878048780487805,
+   "f1": 0.9204545454545454,
+   "n_pred_pos": 94
+  },
+  "e_TAG_or_untagged_filter": {
+   "precision": 0.9384615384615385,
+   "recall": 0.7439024390243902,
+   "f1": 0.8299319727891157,
+   "n_pred_pos": 65
+  }
+ },
+ "rules_train": {
+  "a_stemmed_any": {
+   "precision": 0.8639455782312925,
+   "recall": 1.0,
+   "f1": 0.927007299270073,
+   "n_pred_pos": 294
+  },
+  "b_exact_name_only": {
+   "precision": 0.8947368421052632,
+   "recall": 0.4015748031496063,
+   "f1": 0.5543478260869565,
+   "n_pred_pos": 114
+  },
+  "c_TAG": {
+   "precision": 0.920863309352518,
+   "recall": 0.5039370078740157,
+   "f1": 0.6513994910941476,
+   "n_pred_pos": 139
+  },
+  "d_filter_p05": {
+   "precision": 0.8842105263157894,
+   "recall": 0.9921259842519685,
+   "f1": 0.935064935064935,
+   "n_pred_pos": 285
+  },
+  "e_TAG_or_untagged_filter": {
+   "precision": 0.910958904109589,
+   "recall": 0.5236220472440944,
+   "f1": 0.665,
+   "n_pred_pos": 146
+  }
+ },
+ "T4_filter_beats_exact": false,
+ "frozen_grounding_rule": "c_TAG",
+ "handcheck": {
+  "n": 60,
+  "agree_with_gold": 0.9,
+  "agree_with_L1": 0.8833333333333333
+ },
+ "n_untagged_sample_rows": 14319,
+ "positive_rate_test": 0.8541666666666666
+}
