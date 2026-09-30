@@ -1,0 +1,9 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://api.crossref.org/works?query.bibliographic=Forecasting+the+Spreading+of+Technologies+in+Research+Communities+Osborne&rows=3&select=DOI,title,author,container-title,issued
+Type: HTML
+Length: 1625 chars
+
+--- Content ---
+
+{"status":"ok","message-type":"work-list","message-version":"1.0.0","message":{"facets":{},"total-results":11200562,"items":[{"DOI":"10.1145\/3148011.3148030","title":["Forecasting the Spreading of Technologies in Research Communities"],"author":[{"given":"Francesco","family":"Osborne","sequence":"first","affiliation":[{"name":"Knowledge Media Institute, The Open University, Milton Keynes, UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Andrea","family":"Mannocci","sequence":"additional","affiliation":[{"name":"Knowledge Media Institute, The Open University, Milton Keynes, UK"}],"role":[{"role":"author","vocabulary":"crossref"}]},{"given":"Enrico","family":"Motta","sequence":"additional","affiliation":[{"name":"Knowledge Media Institute, The Open University, Milton Keynes, UK"}],"role":[{"role":"author","vocabulary":"crossref"}]}],"container-title":["Proceedings of the Knowledge Capture Conference"],"issued":{"date-parts":[[2017,12,4]]}},{"DOI":"10.1016\/j.techfore.2018.03.027","title":["Smart infrastructure technologies: Crowdsourcing future development and benefits for Australian communities"],"author":[{"given":"John","family":"Rice","sequence":"first","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]},{"given":"Nigel","family":"Martin","sequence":"additional","affiliation":[],"role":[{"vocabulary":"crossref","role":"author"}]}],"container-title":["Technological Forecasting and Social Change"],"issued":{"date-parts":[[2020,4]]}},{"DOI":"10.3030\/763781","issued":{"date-parts":[[2017,9,1]]}}],"items-per-page":3,"query":{"start-index":0,"search-terms":null}}}
+

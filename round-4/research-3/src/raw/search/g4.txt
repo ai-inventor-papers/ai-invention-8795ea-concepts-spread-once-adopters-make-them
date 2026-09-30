@@ -1,0 +1,35 @@
+Search: topic life cycle keyword co-occurrence network clustering coefficient increases before decline  [general via ddgs]
+Found: 8 results
+
+1. Co-occurrence network - Wikipedia
+   https://en.wikipedia.org/wiki/Co-occurrence_network
+   August 11, 2026 - Co-occurrence networks were found ... and topics (such as in a large number of social media posts), revealing biases in the text (such as biases in news coverage), or even mapping an...
+
+2. Top ten keyword co-occurrence network clustering coefficients over the... | Download Scientific Diagram
+   https://www.researchgate.net/figure/Top-ten-keyword-co-occurrence-network-clustering-coefficients-over-the-four-seasons_tbl1_337620867
+   The formula C w i > C w showed that they were highly concentrated and had strong correlations with haze and PM2.5 at the core position, i.e., these sensory keyword node clusters were also hotspots of ...
+
+3. Novel keyword co-occurrence network-based methods ... - PMC
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC5362196/
+   Checking your browser before accessing pmc.ncbi.nlm.nih.gov · Click here if you are not automatically redirected after 5 seconds...
+
+4. Topic Network Analysis Based on Co-Occurrence Time Series Clustering
+   https://www.mdpi.com/2227-7390/10/16/2846
+   August 10, 2022 - Zhu et al. used LDA model to extract topics, and constructed “word-topic” coupling network [18]. Wu et al. proposed a new approach based on the LDA model, and predicted the trends of...
+
+5. Novel keyword co-occurrence network-based methods to foster systematic reviews of scientific literature | PLOS One
+   https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0172778
+   March 22, 2017 - The value of average weighted nearest neighbor degree increases rapidly between degree 2 to degree 10; thereafter, the rate of increase declines and reaches a plateau for degrees grea...
+
+6. A temporal keyword co-occurrence network mining framework for detecting structural transitions in cancer biomarker research (2006–2023) - PMC
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC13388673/
+   Network density increased by 181.4%, ... research topics have become more closely integrated over time. Furthermore, the average clustering coefficient increased by 30.3%, from 0.424 to 0.553, indicat...
+
+7. Technology life cycle analysis based on patent co-classification. A dynamic network analysis of hydrogen-related technologies - ScienceDirect
+   https://www.sciencedirect.com/science/article/pii/S0360319926033380
+   July 25, 2026 - We define fragmentation as a period where both NMI and Jaccard values drop significantly, indicating a breakdown of established community structures and the redistribution of CPCs into...
+
+8. (PDF) Topic Network Analysis Based on Co-Occurrence Time Series Clustering
+   https://www.researchgate.net/publication/362615570_Topic_Network_Analysis_Based_on_Co-Occurrence_Time_Series_Clustering
+   August 10, 2022 - Traditional topic research divides similar topics into the same cluster according to clustering or classification from the perspective of users, which ignores the deep relationship w...
+

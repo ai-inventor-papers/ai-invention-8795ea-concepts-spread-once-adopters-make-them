@@ -1,0 +1,67 @@
+######## cao20
+URL: https://aclanthology.org/2020.findings-emnlp.158.pdf
+Type: PDF
+Pattern: abstract|feature|diversity|network|predict|AUC|accuracy|field (164 matches in 49108 chars)
+--- Content ---
+573:...rpora
+Hancheng Cao∗
+Stanford University
+hanchcao@stanford.edu
+Mengjie Cheng∗
+Harvard Business School
+macheng@hbs.edu
+Zhepeng Cen∗
+Carnegie Mellon University
+zcen@andrew.cmu.edu
+Daniel A. McFarland
+Stanford University
+dmcfarla@stanford.edu
+Xiang Ren
+University of Southern California
+xiangren@usc.edu
+Abstract
+What kind of basic research ideas are more
+likely to get applied in practice? There is a
+long line of research investigating patterns of
+knowledge transfer, but it generally focuses on
+documents as the unit of analysis and follow
+their transfer into practice for a speciﬁc sci-
+entiﬁc domain.
+Here we study translational
+research at the level of scientiﬁc concepts for
+all scientiﬁc ﬁelds. We do this through text
+mining and predictive modeling using three
+corpora: 38.6 million paper abstracts, 4 mil-
+lion patent documents, and 0.28 million clini-
+cal trials. We extract scientiﬁc concepts (i.e.,
+phrases) from corpora as instantiations of “re-
+search ideas", create concept-level features
+as motivated by literature, and then follow
+the trajectories of over 450,000 new concepts
+(emerged from 1995-2014) to identify factors
+that lead only a small proportion of these ideas
+to be used in inventions and drug trials. Re-
+sults from our analysis suggest several mech-
+anisms that distinguish which scientiﬁc con-
+cept will be adopted in practice, and which
+will not.
+We also demonstrate that our de-
+rived features can be used to explain and pre-
+dict knowledge transfer with high accuracy.
+Our work provides greater understanding of
+knowledge transfer for researchers, practition-
+ers, and government agencies interested in en-
+couraging translational research.
+1
+Introduction
+Science generates a myriad of new ideas, only
+some of which ﬁnd value in practical uses (Backer,
+1991; Lane and...
+--
+2482:...e hopes that it will span
+######## mckeown
+Error: HTTP 503
+######## osb17
+Error: HTTP 403
+######## vilhena
+Error: HTTP 406

@@ -1,0 +1,66 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2606.07994
+Type: PDF
+Pattern: fields|disciplines|diffus|spread|more widely|% (57 matches in 37207 chars)
+
+--- Content ---
+
+1026:...han 3 million articles across science published between 1980 and 2019, we find that science has 
+undergone a fundamental structural transition. The share of papers that primarily contribute new 
+methods—methods papers—has doubled across science over the past four decades, rising 
+universally across disciplines and citation impact levels. Rather than a gradual evolution, this 
+transition marks a pivotal shift beginning in the early 1990s, aligning with the computational 
+revolution and the emergence of data-intensive science. The surge in methodological research is 
+not confined to the most cited, elite p...
+--
+3721:... papers across the entire range of scientific impact. Using 
+a cross-validated machine-learning classifier applied to over 3 million papers in Web of Science 
+(WoS, Clarivate) and Scopus (Elsevier) between 1980 and 2019, we identify and track the 
+prevalence of methods‑focused research across time, disciplines and citation strata (see 
+Methods and data section). This enables analysing how the landscape of scientific knowledge 
+is shifting. We first examine the prevalence of methods papers and whether they extend beyond 
+the scientific elite to ‘ordinary science’ that constitutes the bulk of scientific literature. We then 
+trace the evolution of methods papers over time and across different citation strata to determine 
+whether and when a structural shift occurred. We finally assess the universality of the transition 
+across diverse disciplines. 
+Our analysis reveals that science has undergone a major structural transition. We find that 
+the share of methods papers doubled over the past four decades, rising from roughly 20% to 
+40% of all published research. This shift is visible not only among the most cited papers—
+where methods papers have long been dominant—but across the full distribution of scientific 
+impact, including the vast majority of papers that receive less attention. Viewing this 
+‘methodization’ of science sol...
+--
+5182:...of methods is not a gradual evolution 
+but marks a pivotal transition in the early 1990s, coinciding with the computational revolution 
+and the emergence of data-intensive science. While the precise timing varies, the dominance 
+and reorientation towards methods-focused research is universal across disciplines, from 
+natural sciences to engineering and technology. 
+Important implications emerge. Conceptually, these findings challenge the traditional 
+dichotomy between theory and empirical research: they underscore that widely reusable 
+methods—which can often transfer across fields—have become essential infrastructure to 
+achieve scientific advances. Strategically, the scientific community needs to recalibrate its 
+attention and resources to value the methodological infrastructure underlying scientific 
+advances. Science policy, funding mechanisms and career structures need t...
+--
+6389:...’ outliers, we stratified over 3 million papers by citation impact. 
+We find that methods papers are not confined to the scientific elite, but are ubiquitous across 
+
+3 
+ 
+the entire scientific landscape (Fig. 1). Across both WoS and Scopus datasets, methods papers 
+consistently represent between 30% and 50% of publications at every citation level—whether 
+they belong to the top 1% of cited papers or to the broad base of everyday research. This 
+challenges the view that method papers are only significant when they become ‘citation classics’ 
+but they actually represent a foundational component of research output at every level of 
+impact. 
+ 
+ 
+Figure 1. Share of methods papers across five stratified citation levels, ranging from the top 1% (highest citation 
+impact, normalised by discipline and year) to the bottom 1% (lowest). Data is shown for Web of Science (left) and 
+Scopus (right) for all years between 1980 and 2019. 
+ 
+The great acceleration of the early 1990s. Our analysis reveals a stark structural transition 
+in how scientific knowledge is produced over time. Between 1980 and 2019, the share of 
+method...
+--
+[45 more matches not shown]

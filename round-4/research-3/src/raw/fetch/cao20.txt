@@ -1,0 +1,211 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://aclanthology.org/2020.findings-emnlp.158.pdf
+Type: PDF
+Pattern: abstract|feature|diversity|network|predict|AUC|accuracy|field (164 matches in 49108 chars)
+
+--- Content ---
+
+573:...rpora
+Hancheng Cao∗
+Stanford University
+hanchcao@stanford.edu
+Mengjie Cheng∗
+Harvard Business School
+macheng@hbs.edu
+Zhepeng Cen∗
+Carnegie Mellon University
+zcen@andrew.cmu.edu
+Daniel A. McFarland
+Stanford University
+dmcfarla@stanford.edu
+Xiang Ren
+University of Southern California
+xiangren@usc.edu
+Abstract
+What kind of basic research ideas are more
+likely to get applied in practice? There is a
+long line of research investigating patterns of
+knowledge transfer, but it generally focuses on
+documents as the unit of analysis and follow
+their transfer into practice for a speciﬁc sci-
+entiﬁc domain.
+Here we study translational
+research at the level of scientiﬁc concepts for
+all scientiﬁc ﬁelds. We do this through text
+mining and predictive modeling using three
+corpora: 38.6 million paper abstracts, 4 mil-
+lion patent documents, and 0.28 million clini-
+cal trials. We extract scientiﬁc concepts (i.e.,
+phrases) from corpora as instantiations of “re-
+search ideas", create concept-level features
+as motivated by literature, and then follow
+the trajectories of over 450,000 new concepts
+(emerged from 1995-2014) to identify factors
+that lead only a small proportion of these ideas
+to be used in inventions and drug trials. Re-
+sults from our analysis suggest several mech-
+anisms that distinguish which scientiﬁc con-
+cept will be adopted in practice, and which
+will not.
+We also demonstrate that our de-
+rived features can be used to explain and pre-
+dict knowledge transfer with high accuracy.
+Our work provides greater understanding of
+knowledge transfer for researchers, practition-
+ers, and government agencies interested in en-
+couraging translational research.
+1
+Introduction
+Science generates a myriad of new ideas, only
+some of which ﬁnd value in practical uses (Backer,
+1991; Lane and...
+--
+2482:...e hopes that it will span
+the research-practice divide so as to generate pri-
+vate sector advances in technologies (Narin and
+∗Equal contribution
+Figure 1: An illustration of scientiﬁc concept’s “knowl-
+edge transfer" from basic research to practice use: we
+analyze individual concept’s time-varying features (e.g., pop-
+ularity) and relative positions with other concepts (i.e., co-
+occurrence) to understand the key mechanisms behind knowl-
+edge transfer, using Web of Science research papers, USPTO
+patents and clinical trial documents.
+Noma, 1985), social policies (McDonald and Mair,
+2010), and pharmac...
+--
+5667:...erm or set of terms that have semanti-
+cally coherent usage and reﬂect scientiﬁc entities
+– e.g., curricula, tools, programs, ideas, theories,
+substances, methods, processes, and propositions,
+which are argued to be the basic units of scientiﬁc
+discovery and advance (Toulmin). We use the titles
+and abstracts of 38.6 million academic publications
+from the Web of Science (WoS) to identify 0.45
+million new scientiﬁc concepts emerging between
+1995 to 2014 through state of the art phrase mining
+techniques (AutoPhrase), and follow their trajec-
+tories in 4 million patent documents of the United
+States Paten...
+--
+6617:...cepts
+Internet, world wide web,
+ethnographic exploration,
+interactive visualization, web server,
+immersive virtual reality,
+gpu, recombinant protein production,
+european maize,
+hcci engine, cloud service,
+institutional demand,
+artiﬁcial magnetic conductor
+automatic imitation,
+multifunctional enzym,
+network reorganization,
+tissue remodeling,
+human capital,
+single photon detector
+amercian theatre
+new scientiﬁc concepts that successfully transfer
+into patents with those that did not. We ﬁnd that
+(a) the intrinsic properties of ideas and their tempo-
+ral behavior, and (b) relative position of the ideas
+a...
+--
+7548:...ge in interdisciplinary venues
+over time, are early signs of impending knowledge
+transfer into technological inventions. Finally, we
+ﬁnd that new concepts positioned close to concepts
+that already transferred into patents are far more
+likely to transfer than their counterparts. Based on
+the derived features, we further built model to pre-
+dict the likelihood of knowledge transfer from pa-
+pers to patents/clinical trials at individual concept
+level, and demonstrated our derived feature can
+achieve great performance, indicating that our pro-
+posed features can explain majority of the knowl-
+edge transfer cases.
+Contributions Our main contributions are summa-
+rized as follows: (1) To the best of our knowledge,
+we present the ﬁrst ever research that aims at under-
+standing knowledge transfer at a large scale, using
+multiple corpora. (2) We are the ﬁrs...
+--
+8438:...iques to understand transfer on
+scientiﬁc concept level, rather than document level.
+(3) We systematically analyzed the differences be-
+tween transferable and non-transferable concepts,
+and identiﬁed the key mechanisms behind knowl-
+edge transfer. We showed our derived insights can
+help explain and predict knowledge transfer with
+high accuracy.
+2
+Data Preparation and Processing
+In this section we introduce the dataset used in our
+study (Sec. 2.1), and present the concept extraction
+process (Sec. 2.2).
+
+1748
+2.1
+Collection of Text Corpora
+Research Papers from WoS. We used scientiﬁc
+concepts extracted from Web of Science (WoS)
+as represent...
+--
+10066:...nal science from research to practice (Ah-
+madpoor and Jones, 2017). Moreover, we have
+tried our best to mitigate such bias by investigating
+transfer patterns in both patent-heavy and patent-
+light ﬁelds, where we found very similar patterns
+emerge.
+2.2
+Scientiﬁc Concept Extraction
+Using titles and abstracts of articles, patents and
+clinical trials, we employ phrase detection tech-
+nique AutoPhrase (Shang et al., 2018), to identify
+key concepts in the two corpora and trace their
+emergence and transfer across domains over time.
+Phrase detection identiﬁes 1,471,168 concepts for
+research papers, 316,442 ...
+--
+12183:...wledge transfer via these new
+scientiﬁc concepts, and ﬁnd only ∼2.7% of all con-
+cepts get transferred to patent, and only ∼11.3%
+of bio & health concepts get transferred to clinical
+trials across years. The number of transferred con-
+cepts each year from WoS to USPTO is illustrated
+in Fig. 2(b).
+3
+Feature Creation and Analysis
+Based on the concepts extracted from research pa-
+pers, patent and clinical trial documents, we ﬁrst
+create concept level features as motivated by prior
+literature on knowledge diffusion, and present a
+large-scale data analysis on transferred and non-
+transferred concepts to better understand properties
+facilitating the knowledge transfer process. Here
+we present transfer patterns from research paper to
+patent and omit clinical trial due to page limit 3.
+3.1
+Intrinsic Properties of Concepts
+Motivated by previous works on knowledge dif-
+fusion and transfer, we extracted intrinsic concept
+features that would most likely facilitate a scientiﬁc
+idea’s transfer into technological inventions, which
+can be classiﬁed into four categories: 1) hype fea-
+tures (Latour, 1987; Rossiter, 1993), 2) bridge posi-
+tioning features (Shi et al., 2010; Kim et al., 2017),
+3) ideational conditions (Berger and Heath, 2005),
+and 4) technological resonance (Narin and Noma,
+3We ﬁnd very similar transfer patterns emerge from re-
+search paper to clinical trial.
+
+1749
+1985)4. The four sets of features represent the char-
+acteristic of individual concept from diverse angles,
+and as we will show signify the differences between
+transferred and non-transferred concepts, both in
+mean value (Appendix E) and temporal behavior.
+To illustrate concepts’ temporal behavior over
+time, we plot the feature cu...
+--
+[144 more matches not shown]

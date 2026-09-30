@@ -1,0 +1,285 @@
+=== raw/fetch/cheng_g2.txt
+=== raw/fetch/cheng_g3.txt
+
+--- Content ---
+
+12737:...LP) techniques, socio-semantic network analysis, and over-dispersed Poisson regression adapted to a multilevel context. Specifically, we extract scientific ideas from articles, identify which are new, and then trace their diffusion across published articles over time. By identifying the authors and neighbor terms associated with these new ideas within and across articles, we capture each new idea’s networks of collaborating authors and networks of interrelated concepts. We then aggregate these networks over distinct periods to reflect a new idea’s changing social and ideational context. In so doing, we deve...
+--
+29439:...sts. Complementarily, in the management literature, dense and closed social networks of collaboration facilitate the efficient exchange of information and new insights (Fleming et al. 2007; Uzzi and Spiro 2005).
+
+However, there is a diminishing return to such dense interconnection; with greater and overlapping interconnections among collaborating scientists comes redundancy of contacts and perhaps even competition (i.e., density dependence, see Hannan and Freeman 1989). Still, the insight here is that embeddedness in a densely interconnected, collaborative community predicts later uptake, because the...
+--
+46740:...al science subjects (HSS), and their core specializations. As our primary data source, we analyze the titles and abstracts that summarize each article. We apply a data-driven phrase segmentation algorithm, AutoPhrase (Shang et al. 2018), to identify the most coherent phrases in these articles, thus operationalizing our construct of an idea (for details, see Figure 1 and Part S1 of the online supplement). We then post-process these ideas, removing cases that are clearly spurious and collapsing successive unigrams into identified ngrams (“social” “capital” = “social capital”). After post-processing, we ident...
+--
+53711:...d behavioral sciences are collapsed into one field in our predictive models due to their similar behaviors and smaller sample sizes in comparison with science and engineering fields.
+
+### Outcome of Interest: The Diffusion of New Ideas
+
+Our dependent variable is a measure of a new idea’s diffusion. We measure a new idea’s diffusion as the number of distinct articles in which the new idea appears each year after its first publication (_N published articles_). If the new idea occurs multiple times in a single article, we count it once. We construct our dependent variable as the number of articles a new id...
+--
+56356:...onstruct indicators reflective of our hypotheses concerning diffusion mechanisms and conditions. These indicators are derived from a new idea’s aggregated social networks of its authors who work on and elaborate it, and its ideational networks in which it is related to established scientific ideas. We measure each indicator in the current year (i.e., one year behind the dependent variable) and model them longitudinally (i.e., multilevel growth models) to test whether the social and ideational conditions of a new idea predict its later diffusion (see Tables 2 and 3).
+
+Table 2. Variable Descriptions
+
+Vari...
+--
+57025:...ariable for Term Adoption_  
+ _N_ published articles| The number of unique published articles in Web of Science in which an idea is used in the future (time _t_ \+ 1).  
+_Key Independent Variables: Social and Ideational Conditions of Resonance_  
+Social prominence| For each focal term at time _t_ , we measure the weighted average publication number of its related authors at time _t_ , where weight is the number of times the author uses the term at time _t_. This captures the degree to which a focal term is used by highly productive authors (i.e., author page rank), and thus likely to be encountered in the social space.  
+Social consistency| For each focal term at time _t_ , we focus on the authors in the prior year (_t_ – 1) who used the term and then compare their rate of focal term usage (as number of term adoptions per author in _t_ – 1) to rate of focal term usage in year _t_ using cosine similarity. Should all the authors in _t_ – 1 stop using the term in _t_ , the cosine similarity is rendered as 0. Should there be no authors in _t_ – 1 when there are some in _t_ , then cosine similarity is again equal to 0.  
+Social embeddedness| For all authors associated with a focal term in year _t_ , we estimate their density of collaboration with each other (number of observed ties divided by the total possible ties between them) in the prior 10 years of the WoS. We ignore papers with more than 15 authors. High values indicate a term is used by authors in an interconnected research community; low values indicate a term is used by unrelated and expansively located sets of authors.  
+Ideational prominence| For each focal term at time _t_ , we measure the weighted average popularity of its neighbor terms at time _t_ , where weight is the number of co-occurrences between them. This captures the degree to which a focal term is co-used with other highly used terms (i.e., term page rank), and thereby likely to be encountered in the semantic space.  
+Ideational consistency| For each focal term at time _t_ , we focus on its neighbor terms co-used with the focal term in the prior year (_t_ – 1), and then compare each neighbor terms’ rate of co-usage with the focal term in year _t_ – 1 to that observed in year _t_ using cosine similarity. Should all the neighbor terms in _t_ – 1 stop being co-used with the term in _t_ , the cosine similarity is rendered as 0. Should there be no neighbor terms in _t_ – 1 when there are some in _t_ , then cosine similarity is again equal to 0.  
+Ideational embeddedness| For each focal term’s neighbor terms at time _t_ , we estimate their variation in semantic network positioning. We first take the cumulative 10-year semantic network of terms (valued ties by number of cooccurrence) and estimate network embeddings using word2vec (200 dimensions). We then take the neighbor terms associated with a focal term, and for all pairs of neighbors, we calculate their cosine similarity on these dimensional arrays. The average of this measures the degree to which a focal term is used with a set of neighbor terms with similar semantic placement (or conversely, used in a neighborhood composed of many distinctive neighbor terms, in a cultural hole).  
+_Time Variables_  
+Age| How many years the term has been in usage since its first publication.  
+Age2| The square of age (for polynomial growth in document term frequency).  
+Start year| The year a term appeared for the first time.  
+_Control Variables_  
+Root term| The tota...
+--
+61627:...ct factor of journals using the focal term, across all instances of the term’s use in year _t_.  
+Abstract length| The average word count or length of abstracts in which the term is embedded.  
+Abstract readability| The degree to which a focal term is situated in abstracts with accessible language. We measure this via a modified Dale-Chall Formula that uses Google Book Ngrams’ most common 10,000 unigram list (<http://norvig.com/ngrams/count_1w.txt>). This is measured for each abstract in which a term is embedded and taken as an average across abstracts.  
+Abstract positivity| The degree to which a focal term is situated in abstracts with greater proportion of positive or negative terms. We use VADER (Valence Aware Dictionary and sEntiment Reasoner), a widely us...
+--
+64394:...| .228| 0| 1  
+Abstract negativity| .451| .300| 0| 1  
+Journal abstract history| 5.436| 5.349| –23| 91  
+WoS inward citation| .659| .226| 0| 1  
+  
+ _Note_ : There are 995,945 observations across 56,540 new concepts. Some variables are log transformed due to their skewness.
+
+#### Social prominence
+
+We measure the social prominence of a new idea as the average weighted page rank of all its authors at time _t_ , where the page rank, a measure of network centrality, is computed based on co-authorships in the previous 10 years and weighted by each author’s number of publications based on the new idea at time _t_. We add the weight to better calibrate the measure to the authors who publish on the new idea most prolifically (Bonacich 1987; Freeman 1978).
+
+#### Ideational prominence
+
+We measure the ideational prominence of a new idea as the average weighted page rank of all the established ideas it is interlinked to at time _t_ , where page rank is computed based on a new idea’s interlinks among established ideas in articles published during the previous 10 years and weighted by each established idea’s number of links to the new idea at time _t_. We add the weight to calibrate the measure to the extant ideas that are most frequently published in connection with the new idea.
+
+#### Social consistency
+
+We measure a new idea’s social consistency as the cosine similarity between its authors’ rate of publishing articles using the focal term at year _t_ – 1 with their rate of publishing articles using the same focal term at year _t_. Only authors from _t_ – 1 are the focal group, and new authors at time _t_ are ignored. As such, it is a measure of past authors’ consistent usage of the term. Should all the authors in _t_ – 1 stop using the term in _t_ , the cosine similarity is rendered as 0. Should there be no authors in _t_ – 1 when there are some in _t_ , then cosine similarity is again equal to 0. There is no author consistency score for the first year of a term’s existence, as there is no prior history of author usage.
+
+#### Ideational consistency
+
+To m...
+--
+[14 more matches not shown]
+=== raw/fetch/cheng_g4.txt
+
+--- Content ---
+
+53599:... (_n_ articles diffused into). Ideas in bold are plotted in Figure 4a. Education, law, humanities, and social and behavioral sciences are collapsed into one field in our predictive models due to their similar behaviors and smaller sample sizes in comparison with science and engineering fields.
+
+### Outcome of Interest: The Diffusion of New Ideas
+
+Our dependent variable is a measure of a new idea’s diffusion. We measure a new idea’s diffusion as the number of distinct articles in which the new idea appears each year after its first publication (_N published articles_). If the new idea occurs multiple times in a single article, we count it once. We construct our dependent variable as the number of articles a new idea diffuses into the year ahead (time _t_ \+ 1). Given that new ideas arrive in different years and span different year ranges, these 56,540 new ideas sum to 995,945 observations at the idea-year level.
+
+On average, once introduced, a new idea diffuses into 27 articles, with a standard devi...
+--
+54799:...ple of 100 new ideas introduced in 1993 and illustrates the changing number of published articles they reach over time. The bold line highlights the average trajectory of this subsample. For this subsample, a new scientific idea in 1993 diffuses to as many as 35 articles a year. Figure 4b shows the number of articles for an illustrative set of recognizable new ideas that come from multiple fields noted in Table 1. In both figures, the careers vary in their commencement, amplitude, and slope. Some new ideas, like “dark energy,” gain popularity early, with a steep slope and higher uptake, whereas “smartphone” has...
+--
+55894:...a faster speed and surpasses the growth of “dark energy” in the most recent periods. Such variation motivates our research question: Why do some new ideas have greater uptake than others, and why do they have such varied careers over time?
+
+Figure 3. Distribution of New Ideas in Published Articles (Dependent Variable)
+
+Figure 4. Ideational Careers
+
+### Focal Predictors
+
+We use the articles’ meta-data (author name, institution, subjects, year, citations) to construct indicators reflective of our hypotheses concerning diffusion mechanisms and conditions. These indicators are derived from a new idea’s aggregated social networks of its authors who work on and elaborate it, and its ideational networks in which it is related to established scientific ideas. We measure each indicator in the current year (i.e., one year behind the dependent variable) and model them longitudinally (i.e., multilevel growth models) to test whether the social and ideational conditions of a new idea predict its later diffusion (see Tables 2 and 3).
+
+Table 2. Variable Descriptions
+
+Variable Names| Variable Descriptions  
+---|---  
+ _Dependent Variable for Term Adoption_  
+ _N_ published articles| The number of unique published articles in Web of Science in which an idea is used in the future (time _t_ \+ 1).  
+_Key Independent Variables: Social and Ideational Conditions of Resonance_  
+Social prominence| For each focal term at time _t_ , we measure the weighted average publication number of its related authors at time _t_ , where weight is the number of times the author uses the term at time _t_. This captures the degree to which...
+--
+63005:... across all the journals that the term appears in year _t_.  
+WoS inward citation| For all the papers using the term, we estimate the percentage of all their citations that are within the Web of Science.  
+  
+Table 3. Summary Statistics
+
+Variable Names| Mean| SD| Min.| Max.  
+---|---|---|---|---  
+_Dependent Variable_  
+ _N_ published articles| 21.063| 49.603| 0| 4703  
+ _Key Independent Variables_  
+Social prominence (log)| .581| .344| 0| 1.642  
+Social embeddedness| .197| .261| 0| 1  
+Social consistency (log)| .181| .180| 0| .693  
+Ideational prominence (log)| .924| .262| 0| 3.434  
+Ideational embeddedness| .320| .039| .133| .937  
+Ideational consistency (log)| .444| .171| 0| .693  
+ _Tim...
+--
+66268:... , then cosine similarity is again equal to 0. There is no author consistency score for the first year of a term’s existence, as there is no prior history of author usage.
+
+#### Ideational consistency
+
+To measure the ideational consistency of a new idea, we compute the cosine similarity between the number of articles the new idea shares with established ideas at _t_ – 1 and then the frequency for that same set at time _t_. Should all the associated ideas in _t_ – 1 stop their association in time _t_ , the cosine similarity is rendered as 0. Should an idea not exist at time _t_ – 1 when it does at time _t_ , the...
+--
+78467:... show variable definitions and summary statistics, respectively. For some variables, we log transform them in our predictive models because they are skewed. Table 3 presents unstandardized sample statistics and log transformations where applicable. In the ensuing regressions, we report standardized coefficients to help readers interpret the magnitudes of reported results across measures with diverse scales and to better capture substantive significance, as the research design is sufficiently powered to detect even the smallest of relationships.
+
+### Statistical Approach
+
+Our analyses have two inferential...
+--
+79565:...ew idea’s diffusion depends on the idea’s career stage. For this aim, we estimate interactions between the new idea’s age and our main predictors, asking, _How does the lifespan of a new idea depend on its evolving social and ideational contexts?_
+
+As suggested by the curve in Figure 3, the average number of articles a new idea diffuses into (mean = 27) is smaller than its standard deviation (SD = 49), which means our outcome of interest is an over-dispersed count variable. Therefore, we use an over-dispersed Poisson regression model to model the data (Gardner, Mulvey, and Shaw 1995).13 We observe an idea multiple times across the years of its life span. Therefore, we adopt a multilevel (panel or longitudinal) version of the over-dispersed Poisson model with random intercepts (Hox, Moerbeek, and van de Schoot 2017), where years are nested within ideas. A multilevel model leads to more accurate estimation of the standard errors when independent variables are analyzed at both levels, as it takes the clustered nature of the data into account (i.e., time points within terms are more alike than time points between terms). We fit the mod
+
+Because negative binomial regression is also a common way to model over-dispersed count data (Ver Hoef and Boveng 2007), we explore other model specifications (e.g., log-linear and negative binomial models) as robustness checks. Thos...
+--
+81301:...bles using the variation inflation index and find no collinearity aside from the obvious cases of age and Age2 (see Part S2 of the online supplement).
+
+## Results
+
+The results in Table 4 and Figure 5 answer the question as to why some ideas diffuse widely while others do not. To gauge how well this outcome is explained by our above expectations, we present a taxonomy of fitted models in Table 4, where Model 1 (Time) is nested in Model 2 (Time + Predictors), Model 3 (Time + Controls), and Model 4 (Full). Model 1, which includes a new idea’s start year, age, and squared age explains around 51 percent of the variation in the number of articles that new ideas diffuse into. Model 2 builds off Model 1 but includes our six key predictors, improving model fitness by 24 percentage points. Model 3 also builds off Model 1 and includes our 14 control variables, improving the variance explained by 17 percentage points, significantly less than our ...
+--
+82400:... articles. Shifts in AIC and deviance tell a similar story and suggest our ecological variables reflecting social and intellectual conditions are especially relevant.
+
+Table 4. Multilevel Over-Dispersed Poisson Regression Explaining the Diffusion of New Ideas in _N_ Published Articles (Standardized Coefficients Reported)
+
+| (1)| (2)| (3)| (4)  
+---|---|---|---|---  
+_Time Variables_  
+Age| 1.234  
+***  
+(.002)| .663  
+***  
+(.002)| .550  
+***  
+(.002)| .579  
+***  
+(.002)  
+Age2| –.505  
+***  
+(.002)| –.156  
+***  
+(.002)| –.231  
+***  
+(.002)| –.155  
+***  
+(.002)  
+Start year| .092  
+***  
+(.002)| .071  
+***  
+(.002)| .120  
+***  
+(.003)| .087  
+***  
+(.002)  
+_Key Independent Variables_  
+Social prominence (log)|  | .069  
+***  
+(.001)|  | .053  
+***  
+(.000)  
+Social embeddedness|  | –.262  
+***  
+(.001)|  | –.158  
+***  
+(.001)  
+Social consistency (log)|  | .019  
+***  
+(.001)|  | .021  
+***  
+(.000)  
+Ideational prominence (log)|  | .135  
+***  
+(.001)|  | .136  
+***  
+(.000...
+--
+84878:...56,540. Standard errors are in parentheses. This model was run on the “loosely” identified version of terms. We had near identical results using a more strictly identified version of terms (see the online supplement).
+
+*
+
+_p_ < .05; **_p_ < .01; ***_p_ < .001 (two-tailed tests).
+
+Figure 5. Plots of Incidence Rates by Age for Models 1 and 4 in Table 4
+
+Turning to the specific results, we begin with the intercept. Because we standardize our variables beforehand, the intercept describes, on average, the number of articles a new idea has diffused into once it has reached the average age of 14 years old, which is roughly 9 to 12 articles (i.e., e2.24 to e2.47 articles), depending on the model specification.
+
+The time variables tell an expected story: for Models 1 and 4, Figure 5 shows the plotted incidence rate of how often an average new term is used in articles each year of their age. The plot shows that when new ideas are introduced into the WoS corpus in later years, they have a slightly higher rate of diffusion, most likely due to the expansion of the corpus (more articles are published) over time. G...
+--
+86372:...e focus on our question predictors, which reflect conditions of social and intellectual resonance. These results can be found in Models 2 and 4 of Table 4. As shown in Table 4, a one standard deviation change in social embeddedness is associated with a 15 percent (e−.16−1) decrease in the predicted number of articles it diffuses into. The inverse of this variable suggests the reach and bridging of authors into unrelated social communities is associated with higher term uptake. Smaller but significant effects are found when new terms are associated with prominent or core authors (social prominence; _b_ =.05). We...
+--
+87269:...(Hypothesis 3b).
+
+Notably, our internalist measures of a new idea’s ideational ecology are more predictive of its diffusion than are social, externalist ones. A one standard deviation increase in ideational consistency of a new idea is associated with a 53 percent (e.43−1) increase in the estimated number of articles it diffuses into. This is the average effect of increased ideational consistency, holding age and all other variables constant.15 Less influential but important are the effects of ideational embeddedness and ideational prominence. In terms of the number of published articles on a new idea, a one st...
+--
+91547:...m interactions one at a time. Interactions can be hard to interpret, so we plot them in Figure 6 in ways consistent with prior work on multilevel over-dispersed Poisson models (Keppel 1982; McFarland 2001).17 In Figure 6, the _x_ -axis represents age from 1 to 23 years. The _y_ -axis represents the incidence rate ratio (i.e., the expected number of new articles an idea is taken up in each year).
+
+Table 5. Interaction of Social and Ideational Conditions with Term Age (Standardized Coefficients Reported)
+
+| Social Conditions| Ideational Conditions  
+---|---|---  
+| (1)| (2)| (3)| (4)| (5)| (6)  
+Prominence| .044  
+***  
+(.001)|  |  | .137  
+***  
+(.000)|  |   
+Prominence × Age| –.055  
+***  
+(.002)|  |  | –.061  
+***  
+(.002)|  |   
+Prominence × Age2| .075  
+***  
+(.002)|  |  | .125  
+**...
+--
+93712:... with age, when each variable is at a high (mean + one standard deviation), average (mean), or low (mean – one standard deviation) level.18 The average curve is mostly consistent across models, as that is the case where the focal condition (X) is the mean, or effectively zero when standardized. The coefficient of age and the model intercept slightly change due to different model specifications and which focal variable and age interactions are included, but it is generally stable.
+
+Panels a, b, and c in Figure 6 (Models 1, 2, and 3 in Table 5) show how the social conditions of associated authors can alter...
+--
+95008:...ng to panels d, e, and f in Figure 6 (Models 4, 5, and 6 in Table 5), we see how ideational conditions can alter a term’s rate of adoption in documents. In general, the magnitude of effects for ideational conditions are consistently stronger than those for social conditions. This can be seen in the coefficients of Table 5 and in the greater difference between low and high lines for each ideational condition—they are generally wider at most term ages. Should a term be co-used with the same set of neighbor terms, a one standard deviation change in ideational consistency is likely to increase term adoption ...
+--
+[6 more matches not shown]
+=== raw/fetch/cheng_g5.txt
+
+--- Content ---
+
+6515:...eas introduced over two decades (1993 to 2016) in the Web of Science and follow their diffusion across 38 million later publications. We find new ideas diffuse more widely when they socially and intellectually resonate. New ideas become core concepts of science when they reach expansive networks of unrelated authors, achieve consistent intellectual usage, are associated with other prominent ideas, and fit with extant research traditions. These ecological conditions play an increasingly decisive role later in an idea’s career, after their relations with the environment are established. This work advances the sy...
+--
+11138:...ory of diffusion that combines both external and internal factors (i.e., social and ideational factors). In particular, we argue that a new idea—in this study’s case, a new scientific idea introduced in published journal articles—diffuses when its authors have great social prominence, span diverse, distal research collectives, and have consistent champions. We additionally argue that an idea is likely to diffuse when it is linked to prominent scientific facts, when it is deeply integrated into extant research traditions, and when it achieves coherence through consistent conceptual linkages to the es...
+--
+37272:...ehensible and recognizable and, therefore, more likely to diffuse. Stated formally:
+
+_Hypothesis 6a_ : The more embedded it is within densely interconnected extant ideas, the more a new idea will diffuse.
+
+Yet a third complementing perspective on cultural fit foregrounds the importance of new ideas bridging hitherto disparate concepts and topics—not so much fitting into extant knowledge structures, but instead spanning cultural holes within them (Goldberg, Srivastava, et al. 2016; Pachucki and Breiger 2010; Vilhena et al. 2014). When ideas span cultural holes, they bring into contact ideas of different thought styles, or nonredundant ideas. Ideas garner attention and take off when they solve a problem or interrelate hitherto independent lines of thought (Hallett et al. 2019). However, some work finds that in the realm of ideational networks, spanning too distal a cultural hole makes it difficult to comprehend and translate the idea for use, and this inhibits its adoption (Hofstra et al. 2020). As such, one might expect, again, a curvilinear relation of spanning cultural holes and ideatio
+--
+70576:...nouns or noun phrases that use the same noun head or head noun compound. For example, “capital” is a root term that can be found in more specialized concepts of “social capital,” “human capital,” and so on. And “social capital” is also a root term, as it can be found in “bonding social capital” or “bridging social capital.” We measure the rootedness of a new idea as the number of unique other ideas in the corpus it can be found within, and we include it to control for the possibility that new ideas that are root terms might find greater uptake than new ideas using specialized terms by virtue of their ...
+--
+86461:...esonance. These results can be found in Models 2 and 4 of Table 4. As shown in Table 4, a one standard deviation change in social embeddedness is associated with a 15 percent (e−.16−1) decrease in the predicted number of articles it diffuses into. The inverse of this variable suggests the reach and bridging of authors into unrelated social communities is associated with higher term uptake. Smaller but significant effects are found when new terms are associated with prominent or core authors (social prominence; _b_ =.05). We see mostly negligible effects for social consistency (_b_ = .02). Together, we...
+--
+94193:...le.
+
+Panels a, b, and c in Figure 6 (Models 1, 2, and 3 in Table 5) show how the social conditions of associated authors can alter a new idea’s diffusion across its career. Of particular interest is social embeddedness. A new idea is increasingly adopted as it authors bridge and connect the term to distal communities (lowest social embeddedness) later in its career. A one standard deviation decrease in social embeddedness is likely to increase the diffusion of a new idea each year by one additional published article early in the term’s life (years 1 to 7), but this grows to over 15 additional articl...
+--
+112474:...iverse research communities. Insofar as these terms are elaborated, taken up, and championed by later researchers, they become more widely recognized as portable ideas that have resounding utility, much like a fact or machine that Latour (1987) describes. The idea begins to bridge institutional and structural holes to come into contact with different authors who translate and fit it to their needs (Perry-Smith and Mannucci 2017), perhaps becoming akin to a boundary object that is related to the same topic but selectively interpreted and distinctively repurposed for and by each community (Fujimura 1992; Star ...
+--
+121222:...els find the polynomial form (squared) has the expected relation for ideational embeddedness. There is a diminishing return to diffusion for increases in ideational embeddedness. For social embeddedness, we likewise find a curvilinear relation, but the inverse. Lessened social density (or increased structural hole) has positive returns to diffusion, but this diminishes and reverses at more extreme values. We refrained from presenting polynomial results here because they greatly complicate the results for interactions with the polynomial for age. Interacting two polynomials with standardized values is difficu...
+--
+135386:.../doi.org/10.1007/s10539-004-0835-5)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?title=Conceptual+Stability+and+the+Meaning+of+Natural+Kind+Terms&author=David+Braddon-Mitchell&publication_year=2005&journal=Biology+and+Philosophy&doi=10.1007%2Fs10539-004-0835-5)
+
+Burt Ronald S. 2004. “Structural Holes and Good Ideas.” _American Journal of Sociology_ 110(2):349–99.
+
+[Crossref](https://doi.org/10.1086/421787)
+
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/27656001/)
+
+[Google Scholar](https://scholar.google.com/scholar_lookup?title=Structural+Holes+and+Good+Ideas&author=Ronald+S.+Burt&publication_year=...

@@ -1,0 +1,107 @@
+{
+ "n": 12499,
+ "by_split": {
+  "DEV": 4771,
+  "COHORT": 4356,
+  "HELDOUT": 3372
+ },
+ "by_split_group": [
+  {
+   "split": "COHORT",
+   "group": "BGM",
+   "n": 236
+  },
+  {
+   "split": "COHORT",
+   "group": "CS",
+   "n": 208
+  },
+  {
+   "split": "COHORT",
+   "group": "Eng",
+   "n": 742
+  },
+  {
+   "split": "COHORT",
+   "group": "LIFEENV",
+   "n": 555
+  },
+  {
+   "split": "COHORT",
+   "group": "MATHDEC",
+   "n": 103
+  },
+  {
+   "split": "COHORT",
+   "group": "Med",
+   "n": 1298
+  },
+  {
+   "split": "COHORT",
+   "group": "PHYS",
+   "n": 355
+  },
+  {
+   "split": "COHORT",
+   "group": "SOC",
+   "n": 859
+  },
+  {
+   "split": "DEV",
+   "group": "BGM",
+   "n": 483
+  },
+  {
+   "split": "DEV",
+   "group": "CS",
+   "n": 373
+  },
+  {
+   "split": "DEV",
+   "group": "Eng",
+   "n": 1345
+  },
+  {
+   "split": "DEV",
+   "group": "Med",
+   "n": 2570
+  },
+  {
+   "split": "HELDOUT",
+   "group": "LIFEENV",
+   "n": 1113
+  },
+  {
+   "split": "HELDOUT",
+   "group": "MATHDEC",
+   "n": 165
+  },
+  {
+   "split": "HELDOUT",
+   "group": "PHYS",
+   "n": 742
+  },
+  {
+   "split": "HELDOUT",
+   "group": "SOC",
+   "n": 1352
+  }
+ ],
+ "by_rgroup": {
+  "BGM+Med": 4587,
+  "CS+Eng": 2668,
+  "SOC": 2211,
+  "LIFEENV": 1668,
+  "PHYS": 1097,
+  "MATHDEC": 268
+ },
+ "med_home": 3814,
+ "med_home_by_split": {
+  "COHORT": 1264,
+  "DEV": 2532,
+  "HELDOUT": 18
+ },
+ "intersection_born": 502,
+ "in_exp6": 658,
+ "label_coverage_equal_e8": true
+}
