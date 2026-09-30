@@ -1,0 +1,128 @@
+{
+ "n_frame_n": 578,
+ "n_legacy": 12499,
+ "legacy_source": "EXP5 concept_outcomes (TAG grounding), t0 2003-2014; O2r_m50_MATCH from EXP10 features",
+ "reweighting": "legacy reweighted to Frame N's (onset year x Frame-N logvol decile) distribution",
+ "caveat": "Frame N is MATCH-grounded (verified title phrases); legacy base rates are TAG-grounded",
+ "measures": {
+  "O2r_m50_vs_legacy_O2r_m50": {
+   "frame_n_mean": 4.282156991393733,
+   "legacy_raw_mean": 4.9185235533422835,
+   "legacy_reweighted_mean": 4.976798407674592,
+   "rel_diff_vs_reweighted": -0.13957596016139026,
+   "rel_diff_ci": [
+    -0.1777501240822273,
+    -0.10265405046124929
+   ],
+   "FLAG_gt_25pct": false,
+   "n_frame_n_finite": 363,
+   "n_legacy_finite": 7203
+  },
+  "O2r_m50_vs_legacy_O2r_m50_MATCH": {
+   "frame_n_mean": 4.282156991393733,
+   "legacy_raw_mean": 5.503860348042065,
+   "legacy_reweighted_mean": 5.437032593746669,
+   "rel_diff_vs_reweighted": -0.21240917401915171,
+   "rel_diff_ci": [
+    -0.24586808056312423,
+    -0.17509736681908153
+   ],
+   "FLAG_gt_25pct": false,
+   "n_frame_n_finite": 363,
+   "n_legacy_finite": 9880
+  },
+  "O3_vs_legacy_O3": {
+   "frame_n_mean": 0.08304498269896193,
+   "legacy_raw_mean": 0.03824305944475558,
+   "legacy_reweighted_mean": 0.04396396442201784,
+   "rel_diff_vs_reweighted": 0.8889329884311278,
+   "rel_diff_ci": [
+    0.2926698121125845,
+    1.7704309872548532
+   ],
+   "FLAG_gt_25pct": true,
+   "n_frame_n_finite": 578,
+   "n_legacy_finite": 12499
+  },
+  "O1b_vs_legacy_O1b": {
+   "frame_n_mean": 0.40657439446366783,
+   "legacy_raw_mean": 0.5442835426834147,
+   "legacy_reweighted_mean": 0.5505206789279258,
+   "rel_diff_vs_reweighted": -0.26147298362084487,
+   "rel_diff_ci": [
+    -0.3403271127463149,
+    -0.18223339346591572
+   ],
+   "FLAG_gt_25pct": true,
+   "n_frame_n_finite": 578,
+   "n_legacy_finite": 12499
+  }
+ },
+ "mining_recall": {
+  "n_2_3_token_legacy_newborns": 8546,
+  "share_minable": 0.9425462204540136,
+  "recall_t_det_le_t0p2_all": 0.09899368125438802,
+  "recall_among_minable": 0.10415890751086282,
+  "recall_by_logvol_tertile": {
+   "low": 0.07613519972686923,
+   "mid": 0.07785888077858881,
+   "high": 0.14562043795620438
+  },
+  "recall_by_logvol_tertile_minable": {
+   "low": 0.07975460122699386,
+   "mid": 0.08117001828153565,
+   "high": 0.15535504119262455
+  },
+  "detected_ever_share": 0.10613152351977534,
+  "recall_newborn_true_subset": {
+   "n": 371,
+   "recall": 0.4123989218328841
+  },
+  "t_det_minus_t0": {
+   "-11": 3,
+   "-10": 13,
+   "-9": 15,
+   "-8": 28,
+   "-7": 42,
+   "-6": 42,
+   "-5": 65,
+   "-4": 64,
+   "-3": 78,
+   "-2": 75,
+   "-1": 99,
+   "0": 273,
+   "1": 29,
+   "2": 20,
+   "3": 8,
+   "4": 14,
+   "5": 15,
+   "6": 7,
+   "7": 2,
+   "8": 3,
+   "9": 4,
+   "10": 4,
+   "11": 1,
+   "12": 1,
+   "13": 1,
+   "14": 1
+  },
+  "k_t": {
+   "2003": 4,
+   "2004": 4,
+   "2005": 4,
+   "2006": 4,
+   "2007": 4,
+   "2008": 4,
+   "2009": 4,
+   "2010": 4,
+   "2011": 4,
+   "2012": 4,
+   "2013": 4,
+   "2014": 4,
+   "2015": 4,
+   "2016": 4,
+   "2017": 4
+  },
+  "note": "report only; the rule is not changed by this benchmark unless recall < 15% (plan)"
+ }
+}
