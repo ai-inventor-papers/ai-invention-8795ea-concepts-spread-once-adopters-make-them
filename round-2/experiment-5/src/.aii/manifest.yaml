@@ -1,0 +1,20 @@
+entries:
+  - path: scan/agg_counts.parquet
+    keep: merged output of the 33-min full-snapshot scan (19.7M concept x year x field x tagstate cells); not reproducible bit-for-bit after a monthly snapshot update
+  - path: scan/reservoir/
+    keep: hash-sampled matched titles (12 per concept x era, 3 parquet parts) that the LLM benchmark and precision gate labelled; source of all grounding labels
+  - path: scan/arrays_grounded.npz
+    delete: regenerable
+    source: "uv run frame.py grounded  (rebuilds the compressed dense count arrays from scan/agg_counts.parquet)"
+  - path: scan/arrays_match.npz
+    delete: regenerable
+    source: "uv run frame.py match  (rebuilds the compressed dense count arrays from scan/agg_counts.parquet)"
+  - path: scan/sample_titles/
+    delete: regenerable
+    source: "uv run prescreen.py sample  (1% file sample, seed 20260928; written as part_*.parquet)"
+  - path: .venv/
+    delete: redownloadable
+    source: "bash restore.sh  (uv venv .venv --python=3.12 && uv pip install -r pyproject.toml --extra-index-url https://download.pytorch.org/whl/cpu)"
+  - path: __pycache__/
+    delete: regenerable
+    source: "created automatically by Python"
