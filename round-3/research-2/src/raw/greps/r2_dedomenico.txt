@@ -1,0 +1,185 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/1604.00696
+Type: PDF
+Pattern: trajector|typolog|cluster(s|ing) of|classes|exit|abandon|retain|retention|persist|stop|leave|lose|decline|fade|transient|source|sink (31 matches in 39620 chars)
+
+--- Content ---
+
+303:Quantifying the Diaspora of Knowledge in the Last Century
+Manlio De Domenico1, Elisa Omodei2, Alex Arenas1
+1Departament d’Enginyeria Inform`atica i Matem`atiques, Universitat Rovira i Virgili, 43007 Tarragona, Spain
+Academic research is driven by several factors causing diﬀerent disciplines to act as “sources”
+or “sinks” of knowledge. However, how the ﬂow of authors’ research interests – a proxy of human
+knowledge – evolved across time is still poorly understood. Here, we build a comprehensive map
+of such ﬂows across one century, revealing fundamental periods in the raise of interest in areas of
+human knowledge. We identify and quantify the most attractive topics over time, when a relatively
+signiﬁcant number of researchers moved from their original area to another one, causing what we
+call a “diaspora of the knowledge” towards sinks of scientiﬁc interest, and we relate these points
+to crucial historical and political events. Noticeably, only a few areas – like Medicine, Physics or
+Chemistry – mainly act as sources of the diaspora, whereas areas like Material Science, Chemical
+Engineering, Neuroscience, Immunology and Microbiology or Environmental Science behave like
+sinks.
+I.
+INTRODUCTION
+Nowadays, the research carried out by academics in all
+areas of human knowledge is heavily driven by exogenous
+factors, such as allocation of funding resources or politi-
+cal interests [1, 2]. Two decades ago, pioneering studies
+by Etzkowitz and Leydesdorﬀalready put in evidence
+the importance of relationships between university, in-
+dustry and government [3–5], a “triple helix” that shapes
+and drives the development of knowledge, impelling re-
+searchers to change research interests or their institu-
+ti...
+--
+2629:...ent
+of human knowledge. In fact, the interest of researchers
+are not rarely driven by currently available funding op-
+portunities or by political choices, an emblematic exam-
+ple being the investments in nuclear physics during the
+World War II. Such factors, often external to the context
+of academy research, act as catalysts pushing researchers
+to leave their current area of interest towards diﬀerent
+areas.
+To study this phenomenon of “knowledge diaspora”,
+we consider the Microsoft Academic Graph, a data set of
+more than 35,000,000 of papers published in more than
+21,000 diﬀerent journals in the last 100 years. We are
+interested in exploiting metadata information to classify
+each paper into one o...
+--
+6813:... second obstacle
+was the unclear mechanisms adopted to assign one or
+more keywords to each paper.
+In fact, we have found
+many misclassiﬁed papers, an emblematic case being a
+paper about Agricultural Science that has been classiﬁed
+in several topics, among which General Relativity. In-
+stead, we gathered data from an external (publicly avail-
+able) source. More speciﬁcally, we used SCImago Journal
+and Country Rank in 20142 to classify journals into 306
+distinct research topics and 27 unique knowledge areas.
+Successively, we ﬁltered out from the Microsoft Academic
+Graph data set all the papers that were not published in
+journals, thus excluding other venues such as conferences,
+and in particular we ...
+--
+7640:...of papers survived this
+ﬁltering procedure, representing a promising 28.7% of the
+original data set, and more than 60% of the original set of
+papers published in journals only. The number of diﬀer-
+ent journals matching the SCImago data set was 21,729,
+and we report in Supplementary Table I some informa-
+tion about the distribution of their multiplexity, i.e. the
+number of diﬀerent topics and areas where they are clas-
+siﬁed. If a journal is classiﬁed into just one topic or area,
+the papers published in that journal will not be classi-
+ﬁed as multiplex, whereas, conversely, papers published
+in journals that are classiﬁed into more than one topic or
+area, will be treated as multiplex. Finally, it...
+--
+8743:...t names
+with a higher number of papers per year probably corre-
+sponds to diﬀerent authors having the same name.
+1 http://research.microsoft.com/en-us/projects/mag/
+2 http://www.scimagojr.com/journalrank.php
+# of Topics % of Journals
+1
+31.6%
+2
+33.4%
+3
+19.8%
+4
+9.2%
+5
+3.3%
+# of Areas % of Journals
+1
+50.9%
+2
+36.2%
+3
+9.8%
+4
+2.1%
+5
+0.5%
+Table I. Multiplexity of journals with respect to topics and
+areas. We report the percentage of journals that are classi-
+ﬁed by SCImago in exactly 1, 2, ..., etc, topics (areas). Only
+statistics for the top ﬁve are reported, with rapidly decreas-
+ing percentage of journals classiﬁed in more than ﬁve topics
+(areas).
+III.
+MULTILAYER NETWORK MODEL
+The data set used in o...
+--
+17620:...nd is reported. Two topics are connected if at least one author at time τ switched from one to another 5 years later.
+(A) Flow of authors moving his/her research activity from one topic to others across time. (B) How to read this visualization:
+switches between topics of the same area, namely “intra-area ﬂows”, are represented as ‘U” shaped links close to sectors, to
+distinguish them from “cross-area ﬂows”. The outgoing ﬂow is colored by the area of origin. The width of edges is proportional
+to the observed ﬂow. See Appendix for more details about topics classiﬁcation and this type of visualization.
+1950
+1955
+1960
+1965
+1970
+1975
+1980
+1985
+1990
+1995
+2000
+2005
+2010
+1940
+1945
+1925
+1930
+1935
+Biophys...
+--
+21874:... authors is negligible with re-
+spect to the existing authors population in the area –
+to 1 – indicating areas where the existing authors pop-
+ulation is negligible with respect to the incoming (out-
+going) ﬂow of immigrating (emigrating) authors. How-
+ever, these two local indices alone, do not allow to gain
+global insight about the diaspora from sources and to
+sinks of knowledge. For instance, such indices do not al-
+low to understand if areas like –Physics and Astronomy–,
+–Mathematics– or –Computer Science–, producing aca-
+demics whose modeling and abstraction skills make them
+suitable for challenging problems in other disciplines, act
+as global sources of the diaspora or not. In fact, it might
+happen that even if academics from these areas are com-
+monly perceived to be very multidisciplinary, their ﬂow
+with respect to the intra-area ﬂow of authors could be
+rather small. To this aim we introduce two global de-
+scriptors, namely the sink and source indices deﬁned by
+ρa(τ) =
+V [to]
+a
+(τ)
+P
+a′ V [to]
+a′ (τ)
+(5)
+σa(τ) =
+V [from]
+a
+(τ)
+P
+a′ V [from]
+a′
+(τ)
+,
+(6)
+respectively. As before, such indices range from 0 – in-
+dicating areas where the incoming (outgoing) ﬂow of au-
+thors is negligible with respect to the overall incoming
+(outgoing) ﬂow – to 1 – characterizing areas where the
+i...
+--
+[16 more matches not shown]

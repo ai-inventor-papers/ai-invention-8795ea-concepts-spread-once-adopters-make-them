@@ -1,0 +1,12 @@
+entries:
+  - path: __pycache__/
+    delete: regenerable
+    source: "any .venv/bin/python run regenerates it"
+  - path: .venv/
+    delete: regenerable
+    source: "bash install.sh"
+  - path: lib/__pycache__/
+    delete: regenerable
+    source: "any .venv/bin/python run of method.py regenerates it"
+  - path: results/
+    keep: frozen risk sets, state panels, null draws and sealed held-out results; the held-out stage may run only once

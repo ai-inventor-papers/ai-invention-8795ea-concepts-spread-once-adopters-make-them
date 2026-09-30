@@ -1,0 +1,49 @@
+{
+ "written_before_any_association": true,
+ "common_conditions": "year_usable == true AND t0 < year <= t0 + 8 (t0 = Exp5 frame onset)",
+ "qualifying_event_types": {
+  "mesh": "event_type == mesh_descriptor_introduced AND detail.mesh_baseline is not true AND year > 1966 (supplementary records mesh_supplementary_record_introduced excluded: not descriptors)",
+  "wikipedia_en": "event_type in {wikipedia_article_created (exact first revision), wikipedia_page_created_estimated}",
+  "wikidata": "event_type in {wikidata_inception (P571), wikidata_discovery_or_invention (P575)}",
+  "taxonomies": "acm_ccs / msc / pacs_physh event_type == taxonomy_added_between (taxonomy_in_version is a membership, not an addition date)",
+  "curated_lists": "gartner_hype_cycle, mit_tr10, nature_methods_moty, science_boty, physics_world_boty, research_fronts (any listed event)",
+  "excluded": "jel (present-day membership only, no dated events)"
+ },
+ "variants": {
+  "O5_main": "1 if >= 1 qualifying event with relation == 'same' from MeSH / Wikipedia / Wikidata / taxonomy_added_between / curated lists",
+  "O5_wiki": "O5_main restricted to wikipedia_en + wikidata (the only sources that run in every group)",
+  "O5_tax": "O5_main restricted to dated taxonomies (mesh descriptor + acm_ccs/msc/pacs_physh taxonomy_added_between)",
+  "O5_anyrel": "O5_main with relation in {same, narrower, broader}",
+  "O5_main_noRF": "ADDITIONAL (declared here, before results): O5_main without research_fronts, which are citation-derived (leakage risk)",
+  "O5_lag": "year of the first qualifying (relation same) event minus t0, for O5_main positives"
+ },
+ "outcomes": {
+  "O1": "concept_outcomes.csv",
+  "O2r_m50": "concept_outcomes.csv",
+  "O3": "concept_outcomes.csv",
+  "O2r_resid": "O2r_m50 residualised on log N_outcome by OLS within Exp5 split (Exp5 has no O2r_resid column)",
+  "log_N_outcome": "log N_outcome",
+  "log_early_volume": "log frame_concepts.early_volume"
+ },
+ "B5_for_partial": [
+  "logvol",
+  "growth_c",
+  "offhome_share",
+  "entropy",
+  "reach"
+ ],
+ "bootstrap": {
+  "unit": "concept",
+  "B": 2000,
+  "seed": 20260928
+ },
+ "reading_rule": {
+  "DUPLICATE": "|pooled rho| >= 0.8 for any publication outcome",
+  "RELATED_NOT_DUPLICATE": "pooled rho with O2r_m50 or O1 has 95% CI > 0 and |rho| < 0.8",
+  "UNRELATED": "pooled CI covers 0 for all of O1, O2r_m50 and O2r_resid",
+  "pooled": "DerSimonian-Laird across the 4 held-out groups (PHYS, LIFEENV, SOC, MATHDEC), bootstrap SEs"
+ },
+ "precedence_flag": "source flagged if > 30% of matched concepts have their first usable same-relation event at or before t0",
+ "fit_for_use_rule": "positive precision >= 0.85 AND date error <= 1 year in >= 80% of checked positives (hand check)",
+ "written_at": "2026-09-28 21:51:15"
+}

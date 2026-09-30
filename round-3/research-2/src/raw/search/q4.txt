@@ -1,0 +1,43 @@
+Search: duration-weighted relatedness density  [scholarly via openalex]
+Found: 10 results
+
+1. A critical review of high entropy alloys and related concepts
+   https://doi.org/10.1016/j.actamat.2016.08.081
+   Acta Materialia · 2016 · cited by 9082...
+
+2. R: A Language and Environment for Statistical Computing
+   https://doi.org/10.32614/r.manuals
+   2000 · cited by 363782...
+
+3. Estimating kinetic parameters from dynamic contrast-enhanced t1-weighted MRI of a diffusable tracer: Standardized quantities and symbols
+   https://doi.org/10.1002/(sici)1522-2586(199909)10:3<223::aid-jmri2>3.0.co;2-s
+   Journal of Magnetic Resonance Imaging · 1999 · cited by 3167...
+
+4. Diffusion-Weighted Magnetic Resonance Imaging as a Cancer Biomarker: Consensus and Recommendations
+   https://doi.org/10.1593/neo.81328
+   Neoplasia · 2009 · cited by 2015...
+
+5. mclust 5: Clustering, Classification and Density Estimation Using Gaussian Finite Mixture Models
+   https://doi.org/10.32614/rj-2016-021
+   The R Journal · 2016 · cited by 3114...
+
+6. Short Sleep Duration Is Associated with Reduced Leptin, Elevated Ghrelin, and Increased Body Mass Index
+   https://doi.org/10.1371/journal.pmed.0010062
+   PLoS Medicine · 2004 · cited by 2504...
+
+7. Chronic Back Pain Is Associated with Decreased Prefrontal and Thalamic Gray Matter Density
+   https://doi.org/10.1523/jneurosci.2541-04.2004
+   Journal of Neuroscience · 2004 · cited by 1448...
+
+8. Weighted finite-state transducers in speech recognition
+   https://doi.org/10.1006/csla.2001.0184
+   Computer Speech & Language · 2002 · cited by 896...
+
+9. A Mathematical Theory of Communication
+   https://doi.org/10.1002/j.1538-7305.1948.tb00917.x
+   Bell System Technical Journal · 1948 · cited by 49841...
+
+10. Brain Gray Matter Changes in Migraine Patients With T2-Visible Lesions
+   https://doi.org/10.1161/01.str.0000226589.00599.4d
+   Stroke · 2006 · cited by 328...
+
