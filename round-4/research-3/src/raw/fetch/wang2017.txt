@@ -1,0 +1,109 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nber.org/system/files/working_papers/w22180/w22180.pdf
+Type: PDF
+Pattern: other fields|distant|foreign|interdisciplin|high impact|delayed (105 matches in 107887 chars)
+
+--- Content ---
+
+2836:...ferenced journals, taking into account the difficulty of making such combinations.  We apply 
+this newly developed measure of novelty to all Web of Science research articles published in 
+2001 across all scientific disciplines.  We find that highly novel papers, defined to be those that 
+make more (distant) new combinations, deliver high gains to science:  they are more likely to be a 
+top 1% highly cited paper in the long run, to inspire follow on highly cited research, and to be 
+cited in a broader set of disciplines.  At the same time, novel research is also more risky, reflected 
+by a higher variance in its citation performance.  In addition, we find that novel research is 
+significantly more highly cited in “foreign” fields but not in its “home” field.  We also find strong 
+evidence of delayed recognition of novel papers and that novel papers are less likely to be top 
+cited when using a short time window.  Finally, novel papers typically are published in journals 
+with a lower than expected Impact Factor.  These findings suggest that science policy, in 
+particular funding decisions whic...
+--
+5078:..., 1962; Merton, 1973; Planck, 1950) or because of the 
+longer time required to incorporate the findings of novel research into follow-on research 
+(Garfield, 1980; Wyatt, 1975).  The “high risk/high gain” nature of novel research makes it 
+particularly appropriate for public support (Arrow, 1962).  Delayed recognition may, however, 
+lead novel research to be undervalued in research evaluations which use classic bibliometric 
+indicators based on short term citations. 
+This bias in classic bibliometric indicators against novel research, to the extent it exists, is of 
+concern given the increased relian...
+--
+7252:...es of 773,311 research articles across all scientific disciplines published in 2001 and 
+indexed in the Web of Science (WoS), as well as the profile of papers citing them. 
+We find novel papers to have a larger variance in their citation distribution and be more likely to 
+populate both the tail of high impact as well as the tail of low impact, reflecting their “high risk” 
+profile.  At the same time, novel papers also display a “high gain” characteristic:  They have a 
+much higher chance of being a top cited paper in the long run, a higher likelihood of stimulating 
+follow-on top cited research, and a broader impact transcending disciplinary boundaries and 
+reaching more scientific fields.  We further scrutinize the impact profile of novel research and 
+uncover intriguing characteristics associated with novelty.  First, we distinguish between impact 
+in “home” and “foreign” fields and find that novel papers are significantly more likely to be 
+highly cited in foreign fields but not in their home field.  Second, an examination of time 
+dynamics in the citation accumulation process reveals delayed recognition for novel research.  
+Specifically, although novel papers are highly cited in the long run, they are less likely to be top 
+cited in the short run.  We also find that novel papers are less likely to be published in high 
+Impact Factor journals.  These findings suggest that over-reliance...
+--
+18016:...new combinations.  Papers without new 
+combinations get 0 by definition. 
+𝑁𝑜𝑣𝑒𝑙𝑡𝑦= ෍
+൫1 −𝐶𝑂𝑆𝑖,𝑗൯
+𝐽𝑖−𝐽𝑗 𝑝𝑎𝑖𝑟 𝑖𝑠 𝑛𝑒𝑤
+    
+• We also construct two alternative measures for robustness tests (details in Appendix III): 
+the maximum novelty score which focuses exclusively on the novelty score of the most 
+distant new journal pair and the weighted share of new journal pairs in all pairs, which is 
+essentially a means of normalizing our novelty measure for the number of all journal 
+pairs. 
+• In addition, to avoid trivial combinations, we focus only on the most important journal 
+combinations, i.e., we exclud...
+--
+24090:...inations, (2) moderately novel, if a paper makes at least one new combination but has a 
+novelty score lower than the top 1% of its subject category, and (3) highly novel, if a paper has a 
+novelty score among the top 1% of its subject category. 
+Highly novel papers not only make more but also more distant new combinations.  The median 
+number of new combinations they make is 7, while the median for moderately novel papers is 1.  
+In addition, the new combinations that highly novel papers make are more distant, as suggested 
+by their lower cosine similarity scores compared with that of moderately novel papers (Table 1). 
+In addition, fields differ in their propensity to make new combinations.  The Life Sciences score 
+relatively higher, especially Neurosciences, Pharmacology and Biology & Biochemistry.  ...
+--
+28521:...egory and publication year, into 
+three citation classes based on their citations in the 14-year time window: the top 10%, the 
+lowest 10%, and the middle 80%.  There is clear evidence that highly novel papers, which have a 
+higher dispersion in their citations, are more likely to be in the tail of high impact, specifically, 
+the odds of being the top 10% cited versus being the middle 80% cited are 16.80% higher for 
+highly novel than non-novel papers.  There is equally strong evidence that highly novel papers 
+are more likely to be in the tail of least cited papers:  the odds of being in the lowest 10% ...
+--
+33075:...orrespondingly, we control for the 
+number of direct citations in the same 9-year period. 
+
+13 
+ 
+We examine whether the impact of a novel paper is more likely to be outside its own field than 
+within its own field.  To this end, we partition a paper’s forward citations into two types: “home” 
+and “foreign” field citations, that is, citations received from subsequent publications that share at 
+least one common WoS subject category (home field citations) and citations from publication 
+that share no common WoS subject categories (foreign field citations).  Then we calculate, for 
+each paper, the proportion of its citations that are foreign field citations.  An OLS model (Table 4 
+column 4) shows that novel papers have a larger ratio of citations from foreign fields, suggesting 
+that novel research has a greater transdisciplinary impact than does non-novel research6. 
+The broader and more transdisciplinary impact of novel research raises the question of whether 
+the major impact that novel papers generates is driven by their impact within and/or outside their 
+own field.  To answer this question we examine separately whether novel papers are among the 
+top 1% highly cited in their home field and in foreign fields (Table 4 columns 5-6 and Figure 
+1E)7.  We find that the odds of being top cited in home fields are not significantly larger for 
+highly novel papers than non-novel papers, and for moderately novel papers they are even 8.37% 
+lower compared with that of non-novel papers.  The lower chance for novel papers to be highly 
+cited in their home field is consistent with resistance from existing paradigms against novel 
+approaches.  At the same time, novel papers, compared with non-novel ones, have higher odds of 
+being highly cited in foreign fields.  Although this holds for moderately novel papers, it 
+especially holds for highly novel papers, i.e., the odds of being highly cited in foreign fields are 
+29.39% and 62.37% higher for moderately and highly novel papers respectively, compared with 
+that of non-novel papers.  The finding that the overall high impact of novel research is due to its 
+success in foreign fields rather than in its home field calls to mind the passage from Luke 4:24:  
+“Verily I say unto you, No prophet is accepted in his own country.” 
+                                                        
+6 The findings that novel papers has an ...
+--
+[85 more matches not shown]

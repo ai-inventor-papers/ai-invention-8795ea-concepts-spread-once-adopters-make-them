@@ -1,0 +1,57 @@
+{
+ "all_pass": true,
+ "tests": {
+  "a_panel_states_hand_built": {
+   "pass": true
+  },
+  "b_decomposition_identity": {
+   "pass": true,
+   "identity_max_err": 4.440892098500626e-16
+  },
+  "c_planted_decomposition": {
+   "pass": true,
+   "contact": {
+    "s_contact": 1.0179475917415395,
+    "s_ret": -0.018212868028615922
+   },
+   "retention": {
+    "s_ret": 1.050962863601856,
+    "s_contact": -0.04936028805456453
+   }
+  },
+  "d_planted_typology": {
+   "pass": true,
+   "k_chosen": 3,
+   "ari_dtw": 1.0,
+   "ari_hmm": 1.0,
+   "noise_named": false,
+   "noise_jaccard": [
+    0.5849872707767053,
+    0.3501498542370026,
+    0.39858816644465617
+   ],
+   "dtw_vs_tslearn_max_abs_diff": 0.0
+  },
+  "e_open_formula": {
+   "pass": true,
+   "n_components": [
+    4,
+    3,
+    5,
+    5,
+    6
+   ]
+  },
+  "f_seal": {
+   "pass": true
+  },
+  "g_generic_filter": {
+   "pass": true,
+   "why": [
+    "generic_regex",
+    "generic_regex",
+    ""
+   ]
+  }
+ }
+}

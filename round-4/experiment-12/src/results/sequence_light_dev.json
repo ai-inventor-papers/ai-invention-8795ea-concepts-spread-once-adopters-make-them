@@ -1,0 +1,84 @@
+{
+ "definitions": {
+  "A": "first age 0..8 with HP >= 0.5 * max_{0..8} HP (HP = home-field papers per 10k home-field works)",
+  "T": "first age 0..8 with new_entries >= 2 or n_ret >= 1",
+  "null": "1000 within-concept permutations of the HP series",
+  "verdict_rule": "HOME-FIRST if the excess share of A < T over the mechanical-lag null is > 0 (95% CI > 0) and the intersection-born take-off hazard ratio CI does not lie above 1; INTERSECTION-ROUTE if the hazard ratio CI lies above 1 and the excess-share CI does not lie above 0; MIXED otherwise."
+ },
+ "DEV": {
+  "label": "DEV",
+  "order": {
+   "n": 4555,
+   "A_lt_T": 0.25554335894621294,
+   "tie": 0.5657519209659715,
+   "A_gt_T": 0.1787047200878156,
+   "n_no_takeoff": 216
+  },
+  "mechanical_lag_null": {
+   "null_A_lt_T": 0.2643231613611416,
+   "null_tie": 0.47626344676180027,
+   "excess_A_lt_T": -0.008779802414928648,
+   "excess_ci": [
+    -0.01468655323819978,
+    -0.002912541163556533
+   ]
+  },
+  "km": {
+   "0": {
+    "n": 4575,
+    "S": [
+     0.3222,
+     0.2369,
+     0.1679,
+     0.1294,
+     0.1005,
+     0.0817,
+     0.0664,
+     0.056,
+     0.0444
+    ],
+    "share_T_le_2": 0.8321311475409836
+   },
+   "1": {
+    "n": 196,
+    "S": [
+     0.6429,
+     0.4898,
+     0.3571,
+     0.2449,
+     0.1786,
+     0.1429,
+     0.1122,
+     0.0969,
+     0.0663
+    ],
+    "share_T_le_2": 0.6428571428571429
+   }
+  },
+  "cloglog_hazard": {
+   "n_person_periods": 10527,
+   "n_concepts": 4771,
+   "coef_ib": -0.7453502267461268,
+   "se": 0.06776147191758665,
+   "HR": 0.4745680644025345,
+   "HR_ci": [
+    0.41554568797575514,
+    0.5419737330156299
+   ],
+   "p": 3.8375908910107725e-28,
+   "coef_logvol": 0.18560089634632634
+  },
+  "open_by_intersection_flag": {
+   "0": {
+    "OPEN_home": 0.07365490543681508,
+    "OPEN_all": -0.0007831326143638548
+   },
+   "1": {
+    "OPEN_home": 0.08617677944871417,
+    "OPEN_all": -0.054792058853384285
+   }
+  },
+  "verdict": "MIXED"
+ },
+ "Source": "s6_sequence.py --scope dev; panel.parquet (S3)"
+}

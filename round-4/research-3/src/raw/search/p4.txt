@@ -1,0 +1,32 @@
+Search: interdisciplinary diffusion of knowledge entities prediction  [scholarly via crossref]
+Found: 8 results
+
+1. Public and private entities and their role in knowledge diffusion
+   https://doi.org/10.5380/re.v35i3.16706
+   Revista de Economia · 2010...
+
+2. Supplemental Information 2: The disease entities, symptom entities and their relations in the knowledge graph.
+   https://doi.org/10.7717/peerj-cs.667/supp-2
+
+3. Table 2: Prediction score for weakly represented entities.
+   https://doi.org/10.7717/peerj-cs.1163/table-2
+
+4. PKP-Diffmol: A Physicochemical Knowledge-Prompt Encoding and Latent Diffusion Framework for Molecular Property Prediction
+   https://doi.org/10.1021/acs.jcim.6c01547.s001
+
+5. WOMEN’S OMBUDSMAN: A POLICY BRIEF FOR THE CONFEA/CREA SYSTEM AND ENCOURAGEMENT FOR OTHER PUBLIC ENTITIES
+   https://doi.org/10.48021/978-65-288-1708-5-c12
+   Knowledge, innovation and society: global interdisciplinary perspectives - Volume 4 / Conocimiento, innovación y sociedad: perspectivas interdisciplinarias globales - Volume 4 · 2026...
+
+6. Influential Force: Shafts and the Diffusion of Knowledge at the Fin de Siécle
+   https://doi.org/10.16995/ntn.449
+   19: Interdisciplinary Studies in the Long Nineteenth Century · 2006...
+
+7. Stochastic human motion prediction using a quantized conditional diffusion model
+   https://doi.org/10.1016/j.knosys.2024.112823
+   Knowledge-Based Systems · 2025...
+
+8. Matching Entities from Multiple Sources with Hierarchical Agglomerative Clustering
+   https://doi.org/10.5220/0010649600003064
+   Proceedings of the 13th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management · 2021...
+
