@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "description": "External, dated recognition events for OpenAlex legacy concepts (zero OpenAlex credits). See README.md for field definitions, source biases and lags.",
+    "parts_note": "Datasets are split across numbered parts; concatenate examples of equal 'dataset' names.",
+    "part": 1,
+    "n_parts": 3
+  },
+  "datasets": [
+    {
+      "dataset": "concept_recognition",
+      "examples": [
+        {
+          "input": "{\"openalex_id\": \"C199520974\", \"qid\": \"Q746806\", \"qid_resolved\": \"Q746806\", \"label\": \"Computer network operations\", \"label_norm\": \"computer network operation\", \"aliases\": [\"computer network operations\", \"CNO\"], \"aliases_norm\": [\"cno\"], \"acronyms\": [\"CNO\"], \"level\": 4, \"ancestor_ids\": [\"C16986412\", \"C193415008\", \"C31258907\", \"C38652104\", \"C41008148\"], \"level0_disciplines\": [\"Computer science\"], \"enwiki_title\": \"Computer network operations\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"acm_ccs\", \"event_type\": \"taxonomy_in_version\", \"year\": 1998, \"date\": null, \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"fuzzy+llm\", \"match_confidence\": 0.81, \"relation\": \"same\", \"entry_id\": \"acm_ccs:1998:C.2.3\", \"detail\": {\"version\": 1998, \"code\": \"C.2.3\", \"node_label\": \"Network Operations\"}}, {\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2006, \"date\": \"2006-10-02\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Computer network operations\", \"pageid\": 7255138, \"date_method\": \"pageid_median_bin_estimate (page creation; no redirect repair)\", \"title_followed_redirect\": false}}, {\"source\": \"acm_ccs\", \"event_type\": \"taxonomy_in_version\", \"year\": 2012, \"date\": null, \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"acm_ccs:2012:10003456.10003457.10003490.10003511\", \"detail\": {\"version\": 2012, \"code\": \"10003456.10003457.10003490.10003511\", \"node_label\": \"Network operations\"}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"not_applicable\", \"acm_ccs\": \"found\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_applicable\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 8, \"openalex_works_count\": 94, \"openalex_cited_by_count\": 59, \"wikidata_n_claims\": 4, \"wikidata_instance_of\": [], \"wikidata_subclass_of\": [], \"wikidata_part_of\": [], \"mesh_tree_codes_wikidata\": [], \"jel\": [], \"wikidata_mag_id_matches_openalex\": true}}",
+          "metadata_fold": "dev",
+          "metadata_group": "CS",
+          "metadata_group_plurality": "CS",
+          "metadata_group_plurality_share": 1.0,
+          "metadata_level": 4,
+          "metadata_l1_fields": [
+            "17",
+            "17"
+          ],
+          "metadata_level0": [
+            "Computer science"
+          ],
+          "metadata_n_events": 3,
+          "metadata_n_events_year_usable": 3,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C199520974",
+          "metadata_qid": "Q746806"
+        },
+        {
+          "input": "{\"openalex_id\": \"C2780848089\", \"qid\": \"Q5955554\", \"qid_resolved\": \"Q5955554\", \"label\": \"Hydroxycorticosteroids\", \"label_norm\": \"hydroxycorticosteroid\", \"aliases\": [\"hydroxycorticosteroids\"], \"aliases_norm\": [], \"acronyms\": [], \"level\": 3, \"ancestor_ids\": [\"C2780026642\", \"C55493867\", \"C134018914\", \"C126322002\", \"C86803240\", \"C185592680\", \"C71924100\"], \"level0_disciplines\": [\"Biology\", \"Chemistry\", \"Medicine\"], \"enwiki_title\": \"Hydroxycorticosteroids\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 1973, \"date\": \"1973-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D006889\", \"detail\": {\"ui\": \"D006889\", \"name\": \"Hydroxycorticosteroids\", \"date_introduced\": \"1973-01-01\", \"history_note\": \"73(72)\", \"history_year\": 1973.0, \"history_year_earlier\": 1972.0, \"year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"D06.472.040.585\"], \"top_branches\": [\"D\"], \"previous_indexing\": [\"Adrenal Cortex Hormones (1966-1971)\", \"Glucocorticoids (1967-1971)\", \"Mineralocorticoids (1967-1971)\"], \"link_status\": \"accepted_without_llm\"}}, {\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_page_created_estimated\", \"year\": 2006, \"date\": \"2006-06-10\", \"date_precision\": \"estimated\", \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 0.8, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Hydroxycorticosteroids\", \"pageid\": 5497136, \"date_method\": \"pageid_median_bin_estimate (page creation; no redirect repair)\", \"title_followed_redirect\": false}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found_estimated\", \"mesh\": \"found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 1, \"openalex_works_count\": 843, \"openalex_cited_by_count\": 7861, \"wikidata_n_claims\": 9, \"wikidata_instance_of\": [\"Q56256178\"], \"wikidata_subclass_of\": [\"Q210420\", \"Q2157080\"], \"wikidata_part_of\": [], \"mesh_tree_codes_wikidata\": [\"D06.472.040.585\"], \"jel\": [], \"wikidata_mag_id_matches_openalex\": true}}",
+          "metadata_fold": "dev",
+          "metadata_group": "Med",
+          "metadata_group_plurality": "Med",
+          "metadata_group_plurality_share": 0.667,
+          "metadata_level": 3,
+          "metadata_l1_fields": [
+            "13",
+            "27",
+            "27"
+          ],
+          "metadata_level0": [
+            "Biology",
+            "Chemistry",
+            "Medicine"
+          ],
+          "metadata_n_events": 2,
+          "metadata_n_events_year_usable": 2,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C2780848089",
+          "metadata_qid": "Q5955554"
+        },
+        {
+          "input": "{\"openalex_id\": \"C2911060680\", \"qid\": \"Q1995526\", \"qid_resolved\": \"Q1995526\", \"label\": \"Cerebral trauma\", \"label_norm\": \"cerebral trauma\", \"aliases\": [\"traumatic brain injury\", \"TBI\", \"intracranial injury\", \"Brain Injuries, Traumatic\", \"Traumatic brain injury\"], \"aliases_norm\": [\"brain injuries traumatic\", \"intracranial injury\", \"tbi\", \"traumatic brain injury\"], \"acronyms\": [\"TBI\"], \"level\": 2, \"ancestor_ids\": [\"C42219234\", \"C141071460\", \"C71924100\"], \"level0_disciplines\": [\"Medicine\"], \"enwiki_title\": \"Traumatic brain injury\", \"frame_role\": \"target\"}",
+          "output": "{\"events\": [{\"source\": \"wikipedia_en\", \"event_type\": \"wikipedia_article_created\", \"year\": 2004, \"date\": \"2004-10-11\", \"date_precision\": 11, \"year_usable\": true, \"match_method\": \"wikidata_sitelink\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": null, \"detail\": {\"title\": \"Traumatic brain injury\", \"pageid\": 1057414, \"first_rev_ts\": \"2004-10-11T14:12:13Z\", \"first_rev_size\": 2642, \"first_is_redirect\": false, \"first_article_ts\": \"2004-10-11T14:12:13Z\", \"title_followed_redirect\": false, \"date_method\": \"first_revision\"}}, {\"source\": \"mesh\", \"event_type\": \"mesh_descriptor_introduced\", \"year\": 2017, \"date\": \"2017-01-01\", \"date_precision\": 9, \"year_usable\": true, \"match_method\": \"wikidata_property\", \"match_confidence\": 1.0, \"relation\": \"same\", \"entry_id\": \"mesh:D000070642\", \"detail\": {\"ui\": \"D000070642\", \"name\": \"Brain Injuries, Traumatic\", \"date_introduced\": \"2017-01-01\", \"history_note\": \"2017; use BRAIN INJURIES 2000-2016\", \"history_year\": 2017.0, \"history_year_earlier\": null, \"year_rule\": \"date_introduced\", \"mesh_baseline\": false, \"tree_numbers\": [\"C10.228.140.199.444\", \"C10.900.300.087.235\", \"C26.915.300.200.194\"], \"top_branches\": [\"C\"], \"previous_indexing\": [], \"link_status\": \"accepted_without_llm\"}}], \"sources_checked\": {\"wikidata\": \"not_found\", \"wikipedia_en\": \"found\", \"mesh\": \"found\", \"acm_ccs\": \"not_applicable\", \"msc\": \"not_applicable\", \"pacs_physh\": \"not_applicable\", \"jel\": \"not_applicable\", \"nature_methods_moty\": \"not_found\", \"science_boty\": \"not_found\", \"physics_world_boty\": \"not_applicable\", \"mit_tr10\": \"not_found\", \"gartner_hype_cycle\": \"not_found\", \"research_fronts\": \"not_found\"}, \"present_day\": {\"year_known\": false, \"n_wiki_sitelinks\": 37, \"openalex_works_count\": 724, \"openalex_cited_by_count\": 1591, \"wikidata_n_claims\": 56, \"wikidata_instance_of\": [\"Q112193867\", \"Q1047113\"], \"wikidata_subclass_of\": [\"Q3280669\", \"Q54926685\"], \"wikidata_part_of\": [], \"mesh_tree_codes_wikidata\": [\"C10.228.140.199.444\", \"C10.900.300.087.235\", \"C26.915.300.200.194\"], \"jel\": [], \"wikidata_mag_id_matches_openalex\": false}}",
+          "metadata_fold": "dev",
+          "metadata_group": "Med",
+          "metadata_group_plurality": "Med",
+          "metadata_group_plurality_share": 1.0,
+          "metadata_level": 2,
+          "metadata_l1_fields": [
+            "27",
+            "27"
+          ],
+          "metadata_level0": [
+            "Medicine"
+          ],
+          "metadata_n_events": 2,
+          "metadata_n_events_year_usable": 2,
+          "metadata_frame_role": "target",
+          "metadata_openalex_id": "C2911060680",
+          "metadata_qid": "Q1995526"
+        }
+      ]
+    }
+  ]
+}
