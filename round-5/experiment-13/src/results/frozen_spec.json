@@ -1,0 +1,956 @@
+{
+ "source": "EXP10 results/frozen_spec.json (constants copied verbatim)",
+ "open_constants": {
+  "home": {
+   "new_edge_rate": {
+    "lo": 0.0,
+    "hi": 2.0,
+    "mu": 0.24226876611794407,
+    "sd": 0.29476323739891586,
+    "sign": 1,
+    "n": 12499
+   },
+   "n_comm_W3": {
+    "lo": 0.0,
+    "hi": 5.0,
+    "mu": 1.251940155212417,
+    "sd": 1.1109950408968348,
+    "sign": 1,
+    "n": 12499
+   },
+   "participation": {
+    "lo": 0.0,
+    "hi": 0.7422196372922436,
+    "mu": 0.23128455585636246,
+    "sd": 0.2522103838072288,
+    "sign": 1,
+    "n": 8968
+   },
+   "NOV_res": {
+    "lo": -0.9844771539499432,
+    "hi": 0.09593876134862721,
+    "mu": -0.540875353868789,
+    "sd": 0.3801298233025086,
+    "sign": 1,
+    "n": 9475
+   },
+   "ego_density_W3": {
+    "lo": 0.0,
+    "hi": 1.0,
+    "mu": 0.7333316442122908,
+    "sd": 0.2796180574838275,
+    "sign": -1,
+    "n": 6810
+   },
+   "edge_persistence": {
+    "lo": 0.0,
+    "hi": 0.6739705882352984,
+    "mu": 0.12122673391085216,
+    "sd": 0.15763666320353067,
+    "sign": -1,
+    "n": 11236
+   }
+  },
+  "all": {
+   "new_edge_rate": {
+    "lo": 0.0,
+    "hi": 1.3333333333333333,
+    "mu": 0.2137749421116557,
+    "sd": 0.18712524937508748,
+    "sign": 1,
+    "n": 12499
+   },
+   "n_comm_W3": {
+    "lo": 0.0,
+    "hi": 8.0,
+    "mu": 2.5383630690455234,
+    "sd": 1.4439512430434749,
+    "sign": 1,
+    "n": 12499
+   },
+   "participation": {
+    "lo": 0.0,
+    "hi": 0.8162630102040815,
+    "mu": 0.3770766100053555,
+    "sd": 0.2530890675222482,
+    "sign": 1,
+    "n": 12167
+   },
+   "NOV_res": {
+    "lo": -0.9817103130304184,
+    "hi": 0.09383222083132174,
+    "mu": -0.4551814113804676,
+    "sd": 0.33277132442558904,
+    "sign": 1,
+    "n": 11747
+   },
+   "ego_density_W3": {
+    "lo": 0.0,
+    "hi": 1.0,
+    "mu": 0.6560566200808624,
+    "sd": 0.22979526084840923,
+    "sign": -1,
+    "n": 11547
+   },
+   "edge_persistence": {
+    "lo": 0.0,
+    "hi": 0.7083333333333333,
+    "mu": 0.2470663128945874,
+    "sd": 0.15118497685800866,
+    "sign": -1,
+    "n": 12493
+   }
+  },
+  "sizematch": {
+   "new_edge_rate": {
+    "lo": 0.0,
+    "hi": 1.7250706349206375,
+    "mu": 0.24845495214503804,
+    "sd": 0.24328311545526088,
+    "sign": 1,
+    "n": 12499
+   },
+   "n_comm_W3": {
+    "lo": 0.0,
+    "hi": 5.25,
+    "mu": 1.2666453316265303,
+    "sd": 1.027356604119412,
+    "sign": 1,
+    "n": 12499
+   },
+   "participation": {
+    "lo": 0.0,
+    "hi": 0.7258810098712725,
+    "mu": 0.2372154124611128,
+    "sd": 0.20147339071645637,
+    "sign": 1,
+    "n": 9186
+   },
+   "NOV_res": {
+    "lo": -0.9785446383270374,
+    "hi": 0.08258017262804533,
+    "mu": -0.5182734615755821,
+    "sd": 0.27745837112441457,
+    "sign": 1,
+    "n": 10314
+   },
+   "ego_density_W3": {
+    "lo": 0.06410416666666666,
+    "hi": 1.0,
+    "mu": 0.7203220375558843,
+    "sd": 0.18711738942122572,
+    "sign": -1,
+    "n": 6878
+   },
+   "edge_persistence": {
+    "lo": 0.0,
+    "hi": 0.5544195054026879,
+    "mu": 0.11378938999765759,
+    "sd": 0.12655438549382703,
+    "sign": -1,
+    "n": 11602
+   }
+  }
+ },
+ "open_min_home_papers": 10,
+ "open_min_components": 4,
+ "O2r_resid": {
+  "a": 2.7410366547641205,
+  "b": 0.3966308230599589,
+  "source": "EXP8 o2r_resid_fit.json"
+ },
+ "groups": [
+  "CS+Eng",
+  "BGM+Med",
+  "PHYS",
+  "LIFEENV",
+  "SOC"
+ ],
+ "bootstrap": {
+  "B": 2000,
+  "seed": 20260929,
+  "unit": "concept"
+ },
+ "prediction_models": {
+  "B5": {
+   "coef": [
+    4.766039224098753,
+    -0.05511164665586871,
+    0.008765664104716067,
+    -0.42563667808882066,
+    1.6369692811444325,
+    0.2840929545239369
+   ],
+   "mu": {
+    "logvol": 4.387217461299273,
+    "growth_c": 0.13591487868338373,
+    "offhome_share": 0.2628714872549475,
+    "entropy": 0.7831561038968538,
+    "reach": 3.228179741051028
+   },
+   "sd": {
+    "logvol": 0.3554731095580416,
+    "growth_c": 0.43536192389233147,
+    "offhome_share": 0.19848326295216012,
+    "entropy": 0.4615603694432812,
+    "reach": 1.550401785313322
+   }
+  },
+  "B5_plus_OPEN_home": {
+   "coef": [
+    4.7493521889170065,
+    -0.06837795978395791,
+    -0.02011091421381037,
+    -0.40906407771822595,
+    1.6165855309086605,
+    0.275042267432687,
+    0.2256976026865884
+   ]
+  },
+  "n_fit": 6565,
+  "note": "OLS on EXP5 concepts with finite O2r_m50 (TAG), B5 standardised with EXP5 constants"
+ },
+ "exp10_rungs": {
+  "R0": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag"
+   ]
+  },
+  "R1": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag"
+   ]
+  },
+  "R2": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "generic",
+    "level_3",
+    "level_4",
+    "level_5"
+   ]
+  },
+  "R3": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "generic",
+    "level_3",
+    "level_4",
+    "level_5",
+    "fp_reemerge",
+    "fp_wiki_pre",
+    "newborn"
+   ]
+  },
+  "R4": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields",
+    "label_coverage_early",
+    "home_coverage_early"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "generic",
+    "level_3",
+    "level_4",
+    "level_5",
+    "fp_reemerge",
+    "fp_wiki_pre",
+    "newborn"
+   ]
+  },
+  "R5": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields",
+    "label_coverage_early",
+    "home_coverage_early"
+   ],
+   "cat": [
+    "t0_2016",
+    "t0_2017",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "generic",
+    "level_3",
+    "level_4",
+    "level_5",
+    "fp_reemerge",
+    "fp_wiki_pre",
+    "newborn",
+    "g_CS+Eng",
+    "g_LIFEENV",
+    "g_MATHDEC",
+    "g_PHYS",
+    "g_SOC"
+   ]
+  }
+ },
+ "mining": {
+  "file_sample": "fi % 5 == 0",
+  "years": [
+   2000,
+   2017
+  ],
+  "ngram_n": [
+   2,
+   3
+  ],
+  "token_valid": "^(?=.*[a-z])[a-z0-9]{2,}$",
+  "filler": [
+   "study",
+   "studies",
+   "effect",
+   "effects",
+   "role",
+   "impact",
+   "case",
+   "review",
+   "new",
+   "novel",
+   "recent",
+   "based",
+   "using",
+   "towards",
+   "toward",
+   "via",
+   "approach",
+   "results",
+   "evaluation",
+   "investigation",
+   "assessment",
+   "comparison",
+   "analysis",
+   "application",
+   "applications",
+   "development",
+   "use",
+   "influence",
+   "characterization",
+   "synthesis",
+   "performance",
+   "properties",
+   "preparation",
+   "design",
+   "first",
+   "two",
+   "three",
+   "high",
+   "low",
+   "different",
+   "various"
+  ],
+  "generic": [
+   "case study",
+   "case report",
+   "case series",
+   "systematic review",
+   "literature review",
+   "recent advances",
+   "recent progress",
+   "recent developments",
+   "novel approach",
+   "new approach",
+   "preliminary results",
+   "preliminary study",
+   "clinical trial",
+   "randomized controlled trial",
+   "controlled trial",
+   "pilot study",
+   "cross sectional",
+   "cross sectional study",
+   "united states",
+   "united kingdom",
+   "south africa",
+   "new zealand",
+   "hong kong",
+   "saudi arabia",
+   "south korea",
+   "north america",
+   "latin america",
+   "european union",
+   "middle east",
+   "sub saharan africa",
+   "developing countries",
+   "developing country",
+   "risk factors",
+   "risk factor",
+   "associated factors",
+   "health care",
+   "higher education",
+   "retrospective study",
+   "prospective study",
+   "cohort study",
+   "comparative study",
+   "experimental study",
+   "numerical simulation",
+   "numerical study",
+   "numerical analysis",
+   "theoretical study",
+   "theoretical analysis",
+   "empirical study",
+   "empirical analysis",
+   "empirical evidence",
+   "field study",
+   "future directions",
+   "future perspectives",
+   "current status",
+   "state of the art",
+   "overview of",
+   "short communication",
+   "brief report",
+   "editorial comment",
+   "research progress",
+   "research advances",
+   "research status",
+   "annual meeting",
+   "annual report",
+   "special issue",
+   "conference proceedings",
+   "book review",
+   "letter to the editor",
+   "invited review",
+   "mini review",
+   "open access",
+   "meta analysis",
+   "systematic review and meta analysis",
+   "quality of life",
+   "years of age",
+   "significant difference",
+   "long term",
+   "short term",
+   "large scale",
+   "small scale",
+   "real time",
+   "high performance",
+   "low cost",
+   "key role",
+   "important role",
+   "critical role",
+   "potential role",
+   "part ii",
+   "part i",
+   "part iii",
+   "et al",
+   "vice versa"
+  ],
+  "candidate_rule": "s_t >= k_t and max(s_{t-3..t-1}) <= floor(0.25 s_t)",
+  "k_t": "max(3, smallest k with |cand_t after exclusions| <= 4500)",
+  "pos_rule": "(ADJ|NOUN|PROPN)* (NOUN|PROPN) in >= 60% of <= 5 contexts; trigram middle ADP/CCONJ/DET ok"
+ },
+ "onset": {
+  "years": [
+   2003,
+   2014
+  ],
+  "min_N": 20,
+  "newborn_ratio": 0.25,
+  "selection_clause": "t_det <= t0+2",
+  "extension": {
+   "t0": 2015,
+   "shift": 1
+  }
+ },
+ "gate": {
+  "model": "google/gemini-2.5-flash-lite",
+  "m2": "openai/gpt-4.1-mini",
+  "titles": 20,
+  "seed": "7919+ci",
+  "keep": "specific and sense_share >= 0.8 and not generic",
+  "cap_usd": 1.35
+ },
+ "home_rule": {
+  "share": 0.4,
+  "first_n": 30
+ },
+ "rungs": {
+  "R0": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach"
+   ],
+   "cat": [
+    "t0 dummies ref 2008"
+   ]
+  },
+  "R1": {
+   "add_cont": [
+    "CONTACT_REACH"
+   ]
+  },
+  "R2": {
+   "add_cat": [
+    "type_method",
+    "type_object",
+    "type_property",
+    "generic"
+   ]
+  },
+  "R3": {
+   "add_cont": [
+    "fp_logN",
+    "fp_nfields"
+   ]
+  },
+  "R4": {
+   "add_cont": [
+    "label_coverage_early",
+    "home_coverage_early"
+   ]
+  },
+  "R5": {
+   "add_cat": [
+    "home-group FE ref BGM+Med"
+   ]
+  }
+ },
+ "primary": "OPEN_home | O2r_m50 (MATCH, t0+6..t0+8)",
+ "holm_family": [
+  "OPEN_home|O2r_m50|R3",
+  "OPEN_home|O2r_m50|R5",
+  "NOVCHURN_home|O2r_m50|R3",
+  "CHENG_consistency_home|O2r_m50|R0",
+  "OPEN_all-OPEN_home|O2r_m50|R3"
+ ],
+ "directions": {
+  "OPEN_home|O2r_m50|R3": 1,
+  "OPEN_home|O2r_m50|R5": 1,
+  "NOVCHURN_home|O2r_m50|R3": 1,
+  "CHENG_consistency_home|O2r_m50|R0": -1,
+  "OPEN_all-OPEN_home|O2r_m50|R3": 1
+ },
+ "fallbacks": {
+  "A": "n(finite O2r_m50 & OPEN_home) < 800 -> O2r_m30",
+  "E": "expected n < 800 -> add t0=2015",
+  "power_cap": "power < 0.5 -> verdict capped at PARTIAL"
+ },
+ "prereg_sha256": "e7ded245ece00557e66a229cb64863b0a8fb6eaa07dc6bcf64c89eb1939defb0",
+ "spec_v0_sha256": "9dc23914f9ed1a071b26967b630970261c2f31e7caffea64eca5d488795bda9c",
+ "rungs_realised": {
+  "R0": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag"
+   ]
+  },
+  "R1": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag"
+   ]
+  },
+  "R2": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property"
+   ]
+  },
+  "R3": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "fp_reemerge"
+   ]
+  },
+  "R4": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields",
+    "label_coverage_early",
+    "home_coverage_early"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "fp_reemerge"
+   ]
+  },
+  "R5": {
+   "cont": [
+    "logvol",
+    "growth_c",
+    "offhome_share",
+    "entropy",
+    "reach",
+    "CONTACT_REACH",
+    "fp_logN",
+    "fp_nfields",
+    "label_coverage_early",
+    "home_coverage_early"
+   ],
+   "cat": [
+    "t0_2003",
+    "t0_2004",
+    "t0_2005",
+    "t0_2006",
+    "t0_2007",
+    "t0_2009",
+    "t0_2010",
+    "t0_2011",
+    "t0_2012",
+    "t0_2013",
+    "t0_2014",
+    "t0_2015",
+    "window_flag",
+    "type_method",
+    "type_object",
+    "type_property",
+    "fp_reemerge",
+    "g_CS+Eng",
+    "g_LIFEENV",
+    "g_MATHDEC",
+    "g_PHYS",
+    "g_SOC"
+   ]
+  }
+ },
+ "power": {
+  "target_psp": 0.08,
+  "n_draws": 300,
+  "n_boot": 500,
+  "model": "y = X*beta_EXP5 + gamma*resid(rank x | Z) + eps; beta, sd(eps) from OLS of O2r_m50 on the standardised R4 continuous covariates in EXP5; realised Frame-N design matrices; the sample is the concepts with finite index and p(O2r_m50 defined) >= 0.5 (expected primary set)",
+  "OPEN_home": {
+   "n_sim_sample": 521,
+   "mean_est_R3": 0.09601104952901686,
+   "mean_est_R5": 0.08687881743077908,
+   "power_R3": 0.5633333333333334,
+   "power_R5": 0.4866666666666667,
+   "power_joint_R3_R5": 0.47,
+   "SE_R3": 0.04526527318965208,
+   "SE_R5": 0.04515238032032518,
+   "MDE_R3_2.8SE": 0.12674276493102582,
+   "MDE_R5_2.8SE": 0.1264266648969105
+  },
+  "NOVCHURN_home": {
+   "n_sim_sample": 507,
+   "mean_est_R3": 0.1658394562185777,
+   "mean_est_R5": 0.07847283214024067,
+   "power_R3": 0.95,
+   "power_R5": 0.38333333333333336,
+   "power_joint_R3_R5": 0.38333333333333336,
+   "SE_R3": 0.0458354331599278,
+   "SE_R5": 0.04695407951904916,
+   "MDE_R3_2.8SE": 0.12833921284779784,
+   "MDE_R5_2.8SE": 0.13147142265333764
+  }
+ },
+ "fallback_E": {
+  "n_gated_main": 578,
+  "n_gated_ext": 58,
+  "n_open_home_finite_main": 528,
+  "n_expected_primary_main": 450.9223739901441,
+  "n_expected_primary_with_ext": 495.8894770021387,
+  "fallback_E_triggered": true,
+  "extension_used": true,
+  "model": "logistic [O2r_m50 defined] ~ B5 + label_coverage_early, fitted on EXP5 (TAG)"
+ },
+ "gate_benchmark": {
+  "m1_m2": {
+   "n_kappa_sample": 100,
+   "kappa_keep": 0.6119518820333721,
+   "agree_keep": 0.8,
+   "n_type_both_kept": 42,
+   "kappa_type": 0.7331215250198571,
+   "agree_type": 0.8095238095238095,
+   "m2_all_method_object": true,
+   "n_m2_total": 752
+  },
+  "blind_check": {
+   "n": 60,
+   "agreement": 0.6833333333333333,
+   "kappa": 0.3666666666666667,
+   "keep_precision_vs_executor": 0.36666666666666664,
+   "reject_npv_vs_executor": 1.0,
+   "reader": "executor agent (an LLM), blind to the model label; NOT a human annotator",
+   "rule_tightened": "keep-precision < 0.8 -> sense_share >= 0.9 (declared, before the freeze)"
+  },
+  "sense_share_threshold": 0.9,
+  "blind_check_2_consensus": {
+   "n": 40,
+   "n_consensus_kept": 30,
+   "keep_precision_vs_executor": 0.43333333333333335,
+   "m2_reject_agreement_vs_executor": 1.0,
+   "reader": "executor agent (an LLM), blind to the model labels; NOT a human annotator",
+   "sample": "fresh: 30 consensus-kept + 10 M1-kept/M2-rejected, excluding sheet 1"
+  },
+  "gate_v2": {
+   "n_m1_kept": 1135,
+   "n_final": 636,
+   "n_final_main": 578,
+   "g2_categories_on_m1_kept": {
+    "concept": 638,
+    "named_entity": 234,
+    "non_english": 171,
+    "fragment_or_generic": 91,
+    "boilerplate": 3
+   },
+   "eval": {
+    "n": 100,
+    "category_counts": {
+     "concept": 45,
+     "named_entity": 23,
+     "fragment_or_generic": 14,
+     "non_english": 14,
+     "boilerplate": 4
+    },
+    "keep_precision_vs_executor": 0.631578947368421,
+    "keep_recall_vs_executor": 1.0,
+    "n_g2_keep": 38,
+    "n_executor_keep": 24,
+    "agreement": 0.86,
+    "note": "dev evaluation on the 100 executor-labelled phrases (sheets 1 and 2); executor = an LLM agent, not a human annotator"
+   }
+  }
+ },
+ "analysis_n": 636,
+ "analysis_n_by_t0": {
+  "2003": 31,
+  "2004": 42,
+  "2005": 36,
+  "2006": 39,
+  "2007": 42,
+  "2008": 44,
+  "2009": 70,
+  "2010": 44,
+  "2011": 59,
+  "2012": 57,
+  "2013": 59,
+  "2014": 55,
+  "2015": 58
+ },
+ "sha256": {
+  "data/analysis_features_frame_n.parquet": "c7e47f3a3a5fb759905ff257e94338135f9368b3c703bc2ab2c881257985ae5d",
+  "data/features_frame_n.parquet": "7803a38fd2a8ffccb83c24aed119d42bbb6b030979a7c048c3c2c0ba03dc3342",
+  "data/frame_n_concepts.csv": "341c8260f0214108a5d0228611fe50e2efd58d07a93082c61018c68f2587e835",
+  "data/frame_n_candidates.csv": "be1909f867bb8cb87183f788f029065ad113c716e184c3c03ac534407a790edb",
+  "data/frame_n_onset.csv": "0d1c1f2b59eff84de774fd26752b4653a8b86892c075158d517fc5872ce99d4f",
+  "open/early_frame.parquet": "a61aaa80e95b334fd20e53b41b2ac5a73d8100e3f2ed7542d0bd561757585fbd",
+  "open/passN_pre_agg.parquet": "038e2a1bce3a51b5eac9d5c5c85c34eea5063052f345bcf8312d01058688f3f5",
+  "logs/sealed_files.log": "dc282f799b10b9a96fb20e99155cf6d9513d3f2604167b2454c3404379c1b92b"
+ },
+ "code_sha256": {
+  "lib/common.py": "220f2ab3ae4cf629bd084bdbb5080f50eafd8ca89c8f605a832dc5fed50a217b",
+  "lib/common3.py": "ae354fc0d1c97c7434325d3c42326dd8c42e07fcbc7d2017dd0380c6e6d9970e",
+  "lib/common5.py": "733282462213a461dd20dde257267e3fdd7d5c2d56e3fad9f2626f02a6ab95e2",
+  "lib/design.py": "5afc9e94b128fdf575144441a9c915f69806e9c1b3722ea622a0fef95c722f59",
+  "lib/ego.py": "0cd1e8ff522af30d6ecc1b52ffd9f78d82d9233295e445898870c065171af135",
+  "lib/ego_ctx.py": "ca3ef632c90c5bf71d2bf9a39826945cb7b5504be8e86df81db904c49602bced",
+  "lib/ego_exp3_orig.py": "af7b46c965433008d95e7887dddc49f53e037481f9c06761e97a527fe4c64120",
+  "lib/featport.py": "0c394189f8cf53d9a6a01c95d95414f76f04ac179b39b52c0ad55324e8831020",
+  "lib/frame_exp5.py": "e6693f6b5b4c5e832306249acf1fe58988eb0028242665bc773cbc55b3a9486f",
+  "lib/h2.py": "c0886d2410fc14aae21dac338a8bd510a0e97da638642181f1060fe7cd847421",
+  "lib/indicators.py": "621c5ecab831aa7c9810029acb44bc343dc068a382c1babbf22312f245914196",
+  "lib/ladder.py": "f9b5a7618048aa2ba83fd0fb1c3c88aa1a1268e16d513970cccb4c4295e0100a",
+  "lib/laddern.py": "416ad9b0070d1ac6b1c42c06981e3b6417a54c174eb0d10732023c60a52ad7a5",
+  "lib/llmc.py": "120fa7de3c9e3abf68197a66f5a816670647366b082f6f69a63696fb9b2a6991",
+  "lib/matcher.py": "652635cba4f9f5daabd2084f283db6469495bb85dc7e7b5d32ed4480b4356fbb",
+  "lib/models_exp5.py": "b44d873b4df40f8be13a04df77eb2d97159704aabc5e3183510b729f0c5bac4c",
+  "lib/nrules.py": "d24f965ba17e8f2cfb99023eec7f14e55e2806587d2de7356b71c520e7aebab8",
+  "lib/outc.py": "5f25d62d44091e7aa9319187887ae660cc08ed519ff15c9cb34938827d73f301",
+  "lib/outjson.py": "eea19a06becad807a13b8b4ba353ee1bfe7582600dbce82187abdc06275afaa2",
+  "lib/panel_exp5.py": "598798bd81c83c134c32f485a96d8a58029a9391341b78b29a661255afd00f0b",
+  "lib/rangefile.py": "0ae5c0b9c527da96cd4bc84a78247aa9eeec1d0644fe43ada8ec95a263fa9b14",
+  "lib/rq1stats.py": "40c779fee977f7a31a55971c6983662f27155cc1b98ada9616ca268bddbf58f1",
+  "lib/s6cov_port.py": "7673e153ec6eaa34cee4d5b798f059726182de1dc14a81836602a318f27b7d38",
+  "lib/s7ego_port.py": "d44acf19fd534e04cb10184b05c7eed463e32be20440e0cd75a234ac396f5075",
+  "lib/scoring.py": "c2f4fbd00ff63aea0a61c4b7e10bbfdc105e5b2ad087c696ef8750cad29aeba4",
+  "lib/seal.py": "afe1cc003819f3f04924a566ffc29755d6322caeee259fb5d45f5bbca6da68bd",
+  "lib/seal2.py": "4feaa74f1886cafc5f93279bdff7f83900d3d009b45f11c8b25edb954a419212",
+  "lib/seal_exp5.py": "e6dece9ba83ce211475917fa3ec6cd389ffd7f1f65783ecf4786d1d61039967e",
+  "lib/sealn.py": "76a3a048d8fca73f00418a881ff98191430988d9ea9aef26aca3495fe91471eb",
+  "lib/stats_core.py": "a1c30faeddf9a658bc6dcd9826619cd2f42f51bfa856ef772c1d293b7f2582e9",
+  "passM.py": "1bddffe780d8e8055fb72f33c200f65126089286eb4ce659afc1f343a372ad8d",
+  "passN.py": "e7b02ca14f0602d73f8f3ae14d09eb79572fe65c5fb80e607b6b399869603798",
+  "s0_prereg.py": "9f81b467c8d697d6ffe4ace73b59666dd62f85165b0ee84bbcf87ceab78844be",
+  "s3_candidates.py": "8c55bc8e02c916ee03c1acf656bea85683956176b098cf0a4723ac55798dc0fe",
+  "s5_gate.py": "a695e0f9d93609ecd72caacc2dc3de6892e91508a08e476e1796996fc6e86c3d",
+  "s5_gate2.py": "83b5163f680b6f49729fdd3940f81987291571703f188c4dd7c4b26314cbab35",
+  "s5_onset.py": "ff2e87f4950ff761d54b3d03e375ff8b8e1902de75d45f81917527aaf2641925",
+  "s6_features.py": "6361b9d1772d44b5edef7ad38dc1ed78475499e4cc9867200c99bfe7cd9bda68",
+  "s7_freeze.py": "977dca878ad798b8bac324d0ccf59ffb4538f985abfbbf90e0178d0cd464ec95",
+  "s8_unseal.py": "8de4b97a4264cee2cdd52f8956d91082bae4936bbf77e1c1e3ef9a93e19acb30"
+ },
+ "pre_unseal_checklist": {
+  "sealed_parts": {
+   "n_logged": 2041,
+   "n_present": 2041,
+   "mismatch": [],
+   "unlogged": [],
+   "ok": true
+  },
+  "outcome_columns_in_feature_table": []
+ }
+}

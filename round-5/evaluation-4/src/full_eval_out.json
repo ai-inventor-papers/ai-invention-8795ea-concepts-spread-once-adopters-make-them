@@ -1,0 +1,2100 @@
+{
+  "metadata": {
+    "evaluation_name": "Fix the record and pool the openness evidence (iteration 5, evaluation 4)",
+    "plan": "3_invention_loop/iter_5/gen_plan/gen_plan_evaluation_1",
+    "llm_spend_usd": 0.0,
+    "openalex_credit": 0,
+    "new_data": false,
+    "unseal": false,
+    "mustfix": {
+      "1_case_studies_26_4": true,
+      "2_exp11_25a": true,
+      "3_exp10_rewrite": true,
+      "4_exp12_rewrite": true,
+      "5_eval3_application": true,
+      "6_section23_restore": true,
+      "7_section28_evidence": true,
+      "8_secondary": true,
+      "9_coverage_table_30": true,
+      "10_minor_and_refs": true
+    },
+    "gates": {
+      "G0_inputs_exist": true,
+      "G1_R0": true,
+      "G1_R2": true,
+      "G2": true,
+      "G3": true
+    },
+    "estimator": "Exp10 ladder.psp_boot2 (vendor/ladder.py, vendor/rq1stats.py verbatim)",
+    "synthesis_design": {
+      "estimator": "Exp10 ladder.psp_boot2 (vendor/ladder.py, vendor/rq1stats.py verbatim)",
+      "n_boot": 2000,
+      "seed": 20260929,
+      "rungs": [
+        "R0",
+        "R2",
+        "R3"
+      ],
+      "primary_rung": "R2",
+      "outcome": "O2r_m50 (EXP5 bodies: EXP8 outcomes.parquet; cohort: Exp10 analysis_cohort TAG)",
+      "NOVCHURN_home": "mean(z_NOV_res, -z_edge_persistence), HOME build, frozen EXP5 constants; NaN unless both finite and n_home_early >= 10",
+      "pooling": "DL on Fisher z with bootstrap se_z; HKSJ interval with t_{k-1}; back-transformed",
+      "headline_pool": "non-selection bodies only: B2 groups + B3 (+ B4 for OPEN_home)",
+      "placebo": "within-body outcome permutation at R2, 200 draws, 95th pct of |psp|",
+      "deviation_seed": "bootstrap seed = Exp10's 20260929 (not 0) so CIs are comparable to the record; the G2 check is also run with seed 0 and reported"
+    },
+    "status_labels": {
+      "selection": "data on which the index / constants were chosen",
+      "already-unsealed": "held-out data whose outcomes earlier artifacts had read",
+      "confirmatory": "never used before the test",
+      "pending iteration-5 artifact": "Frame N slot, empty"
+    },
+    "not_claimed": [
+      "no new confirmation: the pooled estimate is descriptive and uses already-unsealed bodies",
+      "NOVCHURN_home on the 2015-17 cohort is a selection estimate",
+      "the ledger checks numbers against files, not the reasoning around them"
+    ],
+    "not_found_notes": [
+      "C2 'Exp8 raw sign flip +0.143 / -0.126': no key in any Exp8/Exp10/Eval3/Research-3 file holds these two values as a sign flip; only -0.126 occurs, as prereg_verdicts.P2.pooled_ci[0]"
+    ],
+    "deviations": [
+      "bootstrap seed = Exp10's frozen 20260929 (plan said 0) so every CI is comparable with the record; G2 was also run with seed 0 (CI within +-0.005, reported in results/gates_g1_g2.json)",
+      "DL pooling on Fisher z (plan) whereas Exp10 pooled raw psp; reported values are back-transformed",
+      "the 37-concept AI atlas is atlas.json -> concepts (ai_atlas/table.csv is the per-measure median table)",
+      "the OPEN~PC1/PC2 table is read from trajectories_dev/heldout.json (open_diagnostics.json has no PC table)",
+      "reference de-duplication uses first-author surname + year + first 5 words of the title head (before ':' or '?') and a prefix pass, because the end-of-report list abbreviates titles",
+      "Eval3 blocks already present with >= 90% of their numbers are marked ALREADY_PRESENT; partial ones are appended in full with a note",
+      "the review's 'Exp8 raw sign flip +0.143 / -0.126' is not in any file (NOT_FOUND) and is not used"
+    ],
+    "artifact_counts": {
+      "rows": [
+        {
+          "dir": "iter_1/gen_art/gen_art_dataset_1",
+          "status": "failed/incomplete",
+          "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+        },
+        {
+          "dir": "round-1/experiment-1/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "iter_1/gen_art/gen_art_experiment_2",
+          "status": "failed/incomplete",
+          "evidence": "result.failed = true (REPL timeout: REPL turn stalled (no new JSONL records for 19)"
+        },
+        {
+          "dir": "round-1/experiment-3/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-1/experiment-4/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-2/dataset-2/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-2/evaluation-1/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-2/experiment-5/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-2/experiment-6/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-2/research-1/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-3/evaluation-2/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-3/experiment-7/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-3/experiment-8/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "iter_3/gen_art/gen_art_experiment_9",
+          "status": "failed/incomplete",
+          "evidence": "result.failed = true (output_format validation failed after 5 retries: The output )"
+        },
+        {
+          "dir": "round-3/research-2/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-4/evaluation-3/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-4/experiment-10/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "iter_4/gen_art/gen_art_experiment_11",
+          "status": "failed/incomplete",
+          "evidence": "no .aii_worker_result.json"
+        },
+        {
+          "dir": "round-4/experiment-12/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        },
+        {
+          "dir": "round-4/research-3/src",
+          "status": "completed",
+          "evidence": "structured output present"
+        }
+      ],
+      "commissioned": 20,
+      "completed": 16,
+      "failed": 4,
+      "failed_dirs": [
+        "iter_1/gen_art/gen_art_dataset_1",
+        "iter_1/gen_art/gen_art_experiment_2",
+        "iter_3/gen_art/gen_art_experiment_9",
+        "iter_4/gen_art/gen_art_experiment_11"
+      ]
+    },
+    "references": {
+      "n_master": 120,
+      "n_cited": 18,
+      "n_uncited": 102,
+      "n_list_A": 23,
+      "n_list_B": 51,
+      "n_excluded": 10,
+      "n_rewritten_citation_groups": 19,
+      "required_additions": {
+        "fernandes": "present",
+        "nomaler": "present"
+      },
+      "n_doi_corrected": 0
+    }
+  },
+  "metrics_agg": {
+    "n_mustfix_cleared": 10.0,
+    "n_mustfix_total": 10.0,
+    "ledger_v3_rows": 1290.0,
+    "ledger_v3_mismatch": 0.0,
+    "ledger_v3_not_found": 0.0,
+    "ledger_v3_orphans": 9.0,
+    "ledger_v4_rows": 1769.0,
+    "ledger_v4_mismatch": 0.0,
+    "ledger_v4_not_found": 0.0,
+    "ledger_v4_orphans": 0.0,
+    "ledger_v4_disagreements": 0.0,
+    "text_present_v3": 1244.0,
+    "text_present_elsewhere_v3": 43.0,
+    "text_absent_v3": 3.0,
+    "text_present_v4": 1769.0,
+    "text_absent_v4": 0.0,
+    "stale_hits": 0.0,
+    "stale_correction_note_mentions": 1.0,
+    "verbatim_checks_passed": 7.0,
+    "verbatim_checks_total": 7.0,
+    "gate_G0_pass": 1.0,
+    "gate_G1_R0_pass": 1.0,
+    "gate_G1_R2_pass": 1.0,
+    "gate_G2_pass": 1.0,
+    "gate_G3_pass": 1.0,
+    "G1_open_home_R0_recomputed": 0.09900783964721559,
+    "G1_open_home_R2_recomputed": 0.07638769544359042,
+    "G2_cohort_open_home_R2": 0.09059049284973036,
+    "G2_cohort_open_home_R3": 0.080445709669764,
+    "corrections_applied": 76.0,
+    "corrections_already_present": 5.0,
+    "corrections_not_applied_target_missing": 0.0,
+    "corrections_not_applied_superseded": 5.0,
+    "references_master_n": 120.0,
+    "references_cited_n": 18.0,
+    "references_excluded_unverified_n": 10.0,
+    "psp_R2_OPEN_home_B1_dev": 0.1085857289075347,
+    "psp_R2_NOVCHURN_home_B1_dev": 0.1158298954254299,
+    "psp_R2_OPEN_home_B2_heldout_pooled": 0.07000693490786902,
+    "psp_R2_NOVCHURN_home_B2_heldout_pooled": 0.1129961757210529,
+    "psp_R2_OPEN_home_B3_cohort1014": 0.0738008954516124,
+    "psp_R2_NOVCHURN_home_B3_cohort1014": 0.1129190786416205,
+    "psp_R2_OPEN_home_B4_cohort1517": 0.09059049284973036,
+    "psp_R2_NOVCHURN_home_B4_cohort1517": 0.1611906180277367,
+    "psp_R2_OPEN_home_B2_phys": 0.02450913595713996,
+    "psp_R2_NOVCHURN_home_B2_phys": 0.06136030101497143,
+    "psp_R2_OPEN_home_B2_lifeenv": 0.0668497667304333,
+    "psp_R2_NOVCHURN_home_B2_lifeenv": 0.08421482937466415,
+    "psp_R2_OPEN_home_B2_soc": 0.04433074258857871,
+    "psp_R2_NOVCHURN_home_B2_soc": 0.12429335399704086,
+    "psp_R2_OPEN_home_B2_mathdec": 0.18744657923069769,
+    "psp_R2_NOVCHURN_home_B2_mathdec": 0.0928350992955549,
+    "pooled_nonselection_OPEN_home_R0": 0.08583399939729182,
+    "pooled_nonselection_OPEN_home_R0_dl_lo": 0.05503923406476594,
+    "pooled_nonselection_OPEN_home_R0_dl_hi": 0.11646562946559212,
+    "pooled_nonselection_OPEN_home_R0_hksj_lo": 0.047326911629728026,
+    "pooled_nonselection_OPEN_home_R0_hksj_hi": 0.12408634572616573,
+    "pooled_nonselection_OPEN_home_R0_I2": 0.0,
+    "pooled_nonselection_OPEN_home_R0_tau2_z": 0.0,
+    "pooled_nonselection_OPEN_home_R0_k": 6.0,
+    "pooled_all_bodies_OPEN_home_R0": 0.1010719917775334,
+    "shrinkage_selection_over_nonselection_OPEN_home_R0": 1.62471572708518,
+    "sign_agreement_nonselection_OPEN_home_R0_pos": 6.0,
+    "sign_agreement_nonselection_OPEN_home_R0_k": 6.0,
+    "pooled_nonselection_OPEN_home_R2": 0.06875561049536172,
+    "pooled_nonselection_OPEN_home_R2_dl_lo": 0.03786528723068281,
+    "pooled_nonselection_OPEN_home_R2_dl_hi": 0.09951465593638788,
+    "pooled_nonselection_OPEN_home_R2_hksj_lo": 0.04173001731164287,
+    "pooled_nonselection_OPEN_home_R2_hksj_hi": 0.09568066621946635,
+    "pooled_nonselection_OPEN_home_R2_I2": 0.0,
+    "pooled_nonselection_OPEN_home_R2_tau2_z": 0.0,
+    "pooled_nonselection_OPEN_home_R2_k": 6.0,
+    "pooled_all_bodies_OPEN_home_R2": 0.08545345403925761,
+    "shrinkage_selection_over_nonselection_OPEN_home_R2": 1.5792999018583356,
+    "sign_agreement_nonselection_OPEN_home_R2_pos": 6.0,
+    "sign_agreement_nonselection_OPEN_home_R2_k": 6.0,
+    "pooled_nonselection_OPEN_home_R3": 0.057008166907234495,
+    "pooled_nonselection_OPEN_home_R3_dl_lo": 0.025708814935098304,
+    "pooled_nonselection_OPEN_home_R3_dl_hi": 0.08819585842938213,
+    "pooled_nonselection_OPEN_home_R3_hksj_lo": 0.035641362679677074,
+    "pooled_nonselection_OPEN_home_R3_hksj_hi": 0.0783228756874113,
+    "pooled_nonselection_OPEN_home_R3_I2": 0.0,
+    "pooled_nonselection_OPEN_home_R3_tau2_z": 0.0,
+    "pooled_nonselection_OPEN_home_R3_k": 6.0,
+    "pooled_all_bodies_OPEN_home_R3": 0.06807714750447696,
+    "shrinkage_selection_over_nonselection_OPEN_home_R3": 1.468072021261312,
+    "sign_agreement_nonselection_OPEN_home_R3_pos": 6.0,
+    "sign_agreement_nonselection_OPEN_home_R3_k": 6.0,
+    "pooled_nonselection_NOVCHURN_home_R0": 0.11032876291023645,
+    "pooled_nonselection_NOVCHURN_home_R0_dl_lo": 0.07450178644115706,
+    "pooled_nonselection_NOVCHURN_home_R0_dl_hi": 0.14587129579917163,
+    "pooled_nonselection_NOVCHURN_home_R0_hksj_lo": 0.08351570714147051,
+    "pooled_nonselection_NOVCHURN_home_R0_hksj_hi": 0.13698218048035501,
+    "pooled_nonselection_NOVCHURN_home_R0_I2": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R0_tau2_z": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R0_k": 5.0,
+    "pooled_all_bodies_NOVCHURN_home_R0": 0.1214529020518517,
+    "shrinkage_selection_over_nonselection_NOVCHURN_home_R0": 1.1364271031721402,
+    "sign_agreement_nonselection_NOVCHURN_home_R0_pos": 5.0,
+    "sign_agreement_nonselection_NOVCHURN_home_R0_k": 5.0,
+    "pooled_nonselection_NOVCHURN_home_R2": 0.10471164561555044,
+    "pooled_nonselection_NOVCHURN_home_R2_dl_lo": 0.06880131284643445,
+    "pooled_nonselection_NOVCHURN_home_R2_dl_hi": 0.1403509828334166,
+    "pooled_nonselection_NOVCHURN_home_R2_hksj_lo": 0.07838604103705253,
+    "pooled_nonselection_NOVCHURN_home_R2_hksj_hi": 0.13089131647554017,
+    "pooled_nonselection_NOVCHURN_home_R2_I2": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R2_tau2_z": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R2_k": 5.0,
+    "pooled_all_bodies_NOVCHURN_home_R2": 0.11390951259979494,
+    "shrinkage_selection_over_nonselection_NOVCHURN_home_R2": 1.1061796875077314,
+    "sign_agreement_nonselection_NOVCHURN_home_R2_pos": 5.0,
+    "sign_agreement_nonselection_NOVCHURN_home_R2_k": 5.0,
+    "pooled_nonselection_NOVCHURN_home_R3": 0.09473025852885376,
+    "pooled_nonselection_NOVCHURN_home_R3_dl_lo": 0.058475706430829805,
+    "pooled_nonselection_NOVCHURN_home_R3_dl_hi": 0.13073525982679854,
+    "pooled_nonselection_NOVCHURN_home_R3_hksj_lo": 0.07850582656329345,
+    "pooled_nonselection_NOVCHURN_home_R3_hksj_hi": 0.11090452239871297,
+    "pooled_nonselection_NOVCHURN_home_R3_I2": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R3_tau2_z": 0.0,
+    "pooled_nonselection_NOVCHURN_home_R3_k": 5.0,
+    "pooled_all_bodies_NOVCHURN_home_R3": 0.10026588247378157,
+    "shrinkage_selection_over_nonselection_NOVCHURN_home_R3": 1.0349841551674916,
+    "sign_agreement_nonselection_NOVCHURN_home_R3_pos": 5.0,
+    "sign_agreement_nonselection_NOVCHURN_home_R3_k": 5.0
+  },
+  "datasets": [
+    {
+      "dataset": "evidence_synthesis",
+      "examples": [
+        {
+          "input": "body=B1_DEV | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=selection",
+          "output": "psp +0.139 [+0.103, +0.174] n=3003",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "selection",
+          "metadata_n": 3003,
+          "eval_psp": 0.13945584873939987,
+          "eval_ci_lo": 0.10324092712995059,
+          "eval_ci_hi": 0.17407891081224827
+        },
+        {
+          "input": "body=B1_DEV | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=selection",
+          "output": "psp +0.109 [+0.073, +0.144] n=3003",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "selection",
+          "metadata_n": 3003,
+          "eval_psp": 0.1085857289075347,
+          "eval_ci_lo": 0.07285627005441767,
+          "eval_ci_hi": 0.14365460672440747,
+          "eval_placebo_p95_abs_psp": 0.03527289803604305
+        },
+        {
+          "input": "body=B1_DEV | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=selection",
+          "output": "psp +0.084 [+0.048, +0.121] n=3003",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "selection",
+          "metadata_n": 3003,
+          "eval_psp": 0.08369209481990598,
+          "eval_ci_lo": 0.048455965548650504,
+          "eval_ci_hi": 0.12050224968797933
+        },
+        {
+          "input": "body=B1_DEV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=selection",
+          "output": "psp +0.125 [+0.088, +0.162] n=2741",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "selection",
+          "metadata_n": 2741,
+          "eval_psp": 0.1253805964306459,
+          "eval_ci_lo": 0.08796983370734487,
+          "eval_ci_hi": 0.1615859087657037
+        },
+        {
+          "input": "body=B1_DEV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=selection",
+          "output": "psp +0.116 [+0.079, +0.153] n=2741",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "selection",
+          "metadata_n": 2741,
+          "eval_psp": 0.1158298954254299,
+          "eval_ci_lo": 0.0786307150122015,
+          "eval_ci_hi": 0.15327773335093609,
+          "eval_placebo_p95_abs_psp": 0.034657812680690916
+        },
+        {
+          "input": "body=B1_DEV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=selection",
+          "output": "psp +0.098 [+0.061, +0.137] n=2741",
+          "metadata_body": "B1_DEV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "selection",
+          "metadata_n": 2741,
+          "eval_psp": 0.09804431659228378,
+          "eval_ci_lo": 0.06074335603407371,
+          "eval_ci_hi": 0.13733398887250847
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.083 [+0.035, +0.133] n=1569",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1569,
+          "eval_psp": 0.08339940797200394,
+          "eval_ci_lo": 0.034736978815115754,
+          "eval_ci_hi": 0.1331484523325648
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.070 [+0.021, +0.120] n=1569",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1569,
+          "eval_psp": 0.07000693490786902,
+          "eval_ci_lo": 0.02088995014865847,
+          "eval_ci_hi": 0.11989044894226872,
+          "eval_placebo_p95_abs_psp": 0.0560070248085042
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.069 [+0.018, +0.119] n=1569",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1569,
+          "eval_psp": 0.06892701724563882,
+          "eval_ci_lo": 0.01821985568803537,
+          "eval_ci_hi": 0.11861241795591228
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.118 [+0.066, +0.169] n=1404",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1404,
+          "eval_psp": 0.1181659775981763,
+          "eval_ci_lo": 0.0662401541182277,
+          "eval_ci_hi": 0.1688976858475963
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.113 [+0.061, +0.163] n=1404",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1404,
+          "eval_psp": 0.1129961757210529,
+          "eval_ci_lo": 0.06148408354908191,
+          "eval_ci_hi": 0.16289660833224515,
+          "eval_placebo_p95_abs_psp": 0.05139682156883573
+        },
+        {
+          "input": "body=B2_HELDOUT_pooled | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.112 [+0.060, +0.163] n=1404",
+          "metadata_body": "B2_HELDOUT_pooled",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1404,
+          "eval_psp": 0.11162400921855509,
+          "eval_ci_lo": 0.05959995430379018,
+          "eval_ci_hi": 0.16332275251946632
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.092 [+0.049, +0.136] n=1993",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1993,
+          "eval_psp": 0.09197015677161516,
+          "eval_ci_lo": 0.04870469386817972,
+          "eval_ci_hi": 0.13620209303831848
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.074 [+0.029, +0.117] n=1993",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1993,
+          "eval_psp": 0.0738008954516124,
+          "eval_ci_lo": 0.029491025717576246,
+          "eval_ci_hi": 0.11654301306720145,
+          "eval_placebo_p95_abs_psp": 0.037241609589344034
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.053 [+0.008, +0.097] n=1993",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1993,
+          "eval_psp": 0.053214856129999016,
+          "eval_ci_lo": 0.008105357598100466,
+          "eval_ci_hi": 0.09670205337703316
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.121 [+0.072, +0.167] n=1799",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1799,
+          "eval_psp": 0.1209379231463441,
+          "eval_ci_lo": 0.07239911245402804,
+          "eval_ci_hi": 0.16660422666593924
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.113 [+0.065, +0.158] n=1799",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1799,
+          "eval_psp": 0.1129190786416205,
+          "eval_ci_lo": 0.06496565063934492,
+          "eval_ci_hi": 0.15803153320260455,
+          "eval_placebo_p95_abs_psp": 0.048302448780816375
+        },
+        {
+          "input": "body=B3_EXP5_COHORT_2010_14 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.097 [+0.050, +0.144] n=1799",
+          "metadata_body": "B3_EXP5_COHORT_2010_14",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 1799,
+          "eval_psp": 0.09681836419232542,
+          "eval_ci_lo": 0.04963331020688424,
+          "eval_ci_hi": 0.14443907579519355
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=confirmatory",
+          "output": "psp +0.123 [+0.041, +0.205] n=573",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "confirmatory",
+          "metadata_n": 573,
+          "eval_psp": 0.12258114548096312,
+          "eval_ci_lo": 0.04136619666988477,
+          "eval_ci_hi": 0.20503524532232123
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=confirmatory",
+          "output": "psp +0.091 [+0.013, +0.171] n=573",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "confirmatory",
+          "metadata_n": 573,
+          "eval_psp": 0.09059049284973036,
+          "eval_ci_lo": 0.013236035063533571,
+          "eval_ci_hi": 0.1710465954349315,
+          "eval_placebo_p95_abs_psp": 0.07736960085340348
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=confirmatory",
+          "output": "psp +0.080 [+0.001, +0.162] n=573",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "confirmatory",
+          "metadata_n": 573,
+          "eval_psp": 0.080445709669764,
+          "eval_ci_lo": 0.0005254040720848963,
+          "eval_ci_hi": 0.16173726767650493
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=selection (index chosen here)",
+          "output": "psp +0.171 [+0.079, +0.256] n=506",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "selection (index chosen here)",
+          "metadata_n": 506,
+          "eval_psp": 0.17071883228940363,
+          "eval_ci_lo": 0.0788725458347446,
+          "eval_ci_hi": 0.25576837721703244
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=selection (index chosen here)",
+          "output": "psp +0.161 [+0.071, +0.246] n=506",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "selection (index chosen here)",
+          "metadata_n": 506,
+          "eval_psp": 0.1611906180277367,
+          "eval_ci_lo": 0.07093376642010887,
+          "eval_ci_hi": 0.24585961927575953,
+          "eval_placebo_p95_abs_psp": 0.08661989265597646
+        },
+        {
+          "input": "body=B4_COHORT_2015_17 | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=selection (index chosen here)",
+          "output": "psp +0.144 [+0.059, +0.226] n=506",
+          "metadata_body": "B4_COHORT_2015_17",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "selection (index chosen here)",
+          "metadata_n": 506,
+          "eval_psp": 0.1439838738205213,
+          "eval_ci_lo": 0.05856356118549734,
+          "eval_ci_hi": 0.22560608639327057
+        },
+        {
+          "input": "body=B2_PHYS | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.083 [-0.014, +0.179] n=385",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 385,
+          "eval_psp": 0.08292084280931923,
+          "eval_ci_lo": -0.014233745054362569,
+          "eval_ci_hi": 0.1789765942443685
+        },
+        {
+          "input": "body=B2_PHYS | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.025 [-0.076, +0.128] n=385",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 385,
+          "eval_psp": 0.02450913595713996,
+          "eval_ci_lo": -0.07585393993426756,
+          "eval_ci_hi": 0.12819555195586702,
+          "eval_placebo_p95_abs_psp": 0.09694830257532291
+        },
+        {
+          "input": "body=B2_PHYS | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.041 [-0.065, +0.144] n=385",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 385,
+          "eval_psp": 0.04062287287847143,
+          "eval_ci_lo": -0.064718926845316,
+          "eval_ci_hi": 0.144454050091025
+        },
+        {
+          "input": "body=B2_PHYS | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.099 [-0.006, +0.201] n=348",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 348,
+          "eval_psp": 0.09861161221600923,
+          "eval_ci_lo": -0.006221757990857919,
+          "eval_ci_hi": 0.2007776579677862
+        },
+        {
+          "input": "body=B2_PHYS | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.061 [-0.046, +0.179] n=348",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 348,
+          "eval_psp": 0.06136030101497143,
+          "eval_ci_lo": -0.04635785071034276,
+          "eval_ci_hi": 0.17919224067880096,
+          "eval_placebo_p95_abs_psp": 0.09617321468967213
+        },
+        {
+          "input": "body=B2_PHYS | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.078 [-0.030, +0.191] n=348",
+          "metadata_body": "B2_PHYS",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 348,
+          "eval_psp": 0.07811971816508638,
+          "eval_ci_lo": -0.030480206373823975,
+          "eval_ci_hi": 0.19102084392264762
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.058 [-0.025, +0.140] n=552",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 552,
+          "eval_psp": 0.05783535498205769,
+          "eval_ci_lo": -0.02514591247858568,
+          "eval_ci_hi": 0.1400451417217592
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.067 [-0.018, +0.148] n=552",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 552,
+          "eval_psp": 0.0668497667304333,
+          "eval_ci_lo": -0.01768568759766467,
+          "eval_ci_hi": 0.1478234069945016,
+          "eval_placebo_p95_abs_psp": 0.08366416039789482
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.064 [-0.022, +0.147] n=552",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 552,
+          "eval_psp": 0.0641713311380149,
+          "eval_ci_lo": -0.021776440514073556,
+          "eval_ci_hi": 0.146682577384194
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.082 [-0.005, +0.168] n=500",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 500,
+          "eval_psp": 0.08163622990533315,
+          "eval_ci_lo": -0.005287058117534444,
+          "eval_ci_hi": 0.168320393119772
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.084 [-0.008, +0.175] n=500",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 500,
+          "eval_psp": 0.08421482937466415,
+          "eval_ci_lo": -0.007951327652891346,
+          "eval_ci_hi": 0.17496865057056396,
+          "eval_placebo_p95_abs_psp": 0.09217618206321011
+        },
+        {
+          "input": "body=B2_LIFEENV | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.079 [-0.011, +0.172] n=500",
+          "metadata_body": "B2_LIFEENV",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 500,
+          "eval_psp": 0.07893419873998397,
+          "eval_ci_lo": -0.011253135916451915,
+          "eval_ci_hi": 0.17224359904389716
+        },
+        {
+          "input": "body=B2_SOC | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.038 [-0.047, +0.121] n=546",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 546,
+          "eval_psp": 0.03794000350358625,
+          "eval_ci_lo": -0.047218567649726914,
+          "eval_ci_hi": 0.12079361260328324
+        },
+        {
+          "input": "body=B2_SOC | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.044 [-0.041, +0.124] n=546",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 546,
+          "eval_psp": 0.04433074258857871,
+          "eval_ci_lo": -0.04113117287001374,
+          "eval_ci_hi": 0.12400005580620052,
+          "eval_placebo_p95_abs_psp": 0.08683693496278246
+        },
+        {
+          "input": "body=B2_SOC | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.037 [-0.052, +0.121] n=546",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 546,
+          "eval_psp": 0.0371000754462777,
+          "eval_ci_lo": -0.05202771043313212,
+          "eval_ci_hi": 0.12051149274707137
+        },
+        {
+          "input": "body=B2_SOC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.102 [+0.007, +0.188] n=489",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 489,
+          "eval_psp": 0.10158617055991705,
+          "eval_ci_lo": 0.0068226438293231715,
+          "eval_ci_hi": 0.18791538546295272
+        },
+        {
+          "input": "body=B2_SOC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.124 [+0.029, +0.210] n=489",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 489,
+          "eval_psp": 0.12429335399704086,
+          "eval_ci_lo": 0.029094019259677383,
+          "eval_ci_hi": 0.20968918917013377,
+          "eval_placebo_p95_abs_psp": 0.09575354447158516
+        },
+        {
+          "input": "body=B2_SOC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.114 [+0.020, +0.199] n=489",
+          "metadata_body": "B2_SOC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 489,
+          "eval_psp": 0.11429153476174829,
+          "eval_ci_lo": 0.020017776313041656,
+          "eval_ci_hi": 0.19921797451453416
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=OPEN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.259 [+0.008, +0.465] n=86",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 86,
+          "eval_psp": 0.258763901617061,
+          "eval_ci_lo": 0.008446016636763386,
+          "eval_ci_hi": 0.46492564899335115
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.187 [-0.077, +0.409] n=86",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 86,
+          "eval_psp": 0.18744657923069769,
+          "eval_ci_lo": -0.07686818745790715,
+          "eval_ci_hi": 0.40922074669943864,
+          "eval_placebo_p95_abs_psp": 0.2321147103867891
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=OPEN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.168 [-0.099, +0.404] n=86",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 86,
+          "eval_psp": 0.1678977316020746,
+          "eval_ci_lo": -0.09885808875156842,
+          "eval_ci_hi": 0.40392061020666403
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R0 | status=already-unsealed",
+          "output": "psp +0.204 [-0.095, +0.429] n=67",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R0",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 67,
+          "eval_psp": 0.203569543357744,
+          "eval_ci_lo": -0.09549124328937714,
+          "eval_ci_hi": 0.42870241221458216
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=already-unsealed",
+          "output": "psp +0.093 [-0.209, +0.408] n=67",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 67,
+          "eval_psp": 0.0928350992955549,
+          "eval_ci_lo": -0.2089866691827066,
+          "eval_ci_hi": 0.4083501586595853,
+          "eval_placebo_p95_abs_psp": 0.2831646695949907
+        },
+        {
+          "input": "body=B2_MATHDEC | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R3 | status=already-unsealed",
+          "output": "psp +0.078 [-0.236, +0.411] n=67",
+          "metadata_body": "B2_MATHDEC",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R3",
+          "metadata_status": "already-unsealed",
+          "metadata_n": 67,
+          "eval_psp": 0.07847667850787003,
+          "eval_ci_lo": -0.23598199499428849,
+          "eval_ci_hi": 0.411215380575612
+        },
+        {
+          "input": "body=B5_FRAME_N | feature=OPEN_home | outcome=O2r_m50 | rung=R2 | status=pending iteration-5 artifact",
+          "output": "pending iteration-5 artifact",
+          "metadata_body": "B5_FRAME_N",
+          "metadata_feature": "OPEN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "pending iteration-5 artifact",
+          "metadata_n": null
+        },
+        {
+          "input": "body=B5_FRAME_N | feature=NOVCHURN_home | outcome=O2r_m50 | rung=R2 | status=pending iteration-5 artifact",
+          "output": "pending iteration-5 artifact",
+          "metadata_body": "B5_FRAME_N",
+          "metadata_feature": "NOVCHURN_home",
+          "metadata_rung": "R2",
+          "metadata_status": "pending iteration-5 artifact",
+          "metadata_n": null
+        }
+      ]
+    },
+    {
+      "dataset": "per_group_table_exp8_O2r_m50",
+      "examples": [
+        {
+          "input": "indicator=M0_density_end | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.429 [+0.333, +0.520] n=413",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "PHYS",
+          "eval_psp": 0.429385180186509,
+          "eval_ci_lo": 0.3325730349373037,
+          "eval_ci_hi": 0.5201296946515865,
+          "eval_n": 413,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=M0_density_end | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.298 [+0.223, +0.372] n=630",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": 0.2976949596051312,
+          "eval_ci_lo": 0.2227414059983647,
+          "eval_ci_hi": 0.3720914910307679,
+          "eval_n": 630,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=M0_density_end | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.302 [+0.227, +0.372] n=689",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "SOC",
+          "eval_psp": 0.3021688813477198,
+          "eval_ci_lo": 0.2271342503219388,
+          "eval_ci_hi": 0.3721049269566196,
+          "eval_n": 689,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=M0_density_end | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.547 [+0.377, +0.673] n=101",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": 0.546511034346066,
+          "eval_ci_lo": 0.377490006454098,
+          "eval_ci_hi": 0.6728924051242655,
+          "eval_n": 101,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=M0_density_end | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.276 [+0.219, +0.327] n=1368",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": 0.2761105105447902,
+          "eval_ci_lo": 0.2193251225488898,
+          "eval_ci_hi": 0.3273249825319567,
+          "eval_n": 1368,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=M0_density_end | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.354 [+0.290, +0.415] n=814",
+          "metadata_indicator": "M0_density_end",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": 0.3537916161391017,
+          "eval_ci_lo": 0.2901678094567091,
+          "eval_ci_hi": 0.4148084831911507,
+          "eval_n": 814,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.372 [+0.262, +0.477] n=413",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "PHYS",
+          "eval_psp": 0.3721962802252989,
+          "eval_ci_lo": 0.2615165037358361,
+          "eval_ci_hi": 0.4765470237664158,
+          "eval_n": 413,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.264 [+0.182, +0.348] n=630",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": 0.2641986319804635,
+          "eval_ci_lo": 0.1823724723866245,
+          "eval_ci_hi": 0.3478302117016162,
+          "eval_n": 630,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.325 [+0.256, +0.395] n=689",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "SOC",
+          "eval_psp": 0.3247540778402151,
+          "eval_ci_lo": 0.2559936302737657,
+          "eval_ci_hi": 0.3950039596072675,
+          "eval_n": 689,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.226 [+0.045, +0.434] n=101",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": 0.2262201641527363,
+          "eval_ci_lo": 0.0448926225363891,
+          "eval_ci_hi": 0.4343835679944965,
+          "eval_n": 101,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.294 [+0.244, +0.350] n=1368",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": 0.2943430227233283,
+          "eval_ci_lo": 0.2439450925024381,
+          "eval_ci_hi": 0.349939615461372,
+          "eval_n": 1368,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=D_vol_end | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.318 [+0.251, +0.378] n=814",
+          "metadata_indicator": "D_vol_end",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": 0.3184815841216905,
+          "eval_ci_lo": 0.2507432776182874,
+          "eval_ci_hi": 0.3776786770286338,
+          "eval_n": 814,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.254 [+0.152, +0.350] n=413",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "PHYS",
+          "eval_psp": 0.2544239851024669,
+          "eval_ci_lo": 0.1523643088525608,
+          "eval_ci_hi": 0.3499484140052954,
+          "eval_n": 413,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.184 [+0.094, +0.273] n=630",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": 0.1839951676712063,
+          "eval_ci_lo": 0.0941724338559528,
+          "eval_ci_hi": 0.2726967968805294,
+          "eval_n": 630,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.210 [+0.134, +0.290] n=689",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "SOC",
+          "eval_psp": 0.2097427988100121,
+          "eval_ci_lo": 0.133643484759718,
+          "eval_ci_hi": 0.2903342496942654,
+          "eval_n": 689,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.174 [-0.062, +0.449] n=101 (CI includes 0)",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": 0.1740842547071089,
+          "eval_ci_lo": -0.0622370314090562,
+          "eval_ci_hi": 0.4493709103742417,
+          "eval_n": 101,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.213 [+0.154, +0.268] n=1368",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": 0.2134169904761971,
+          "eval_ci_lo": 0.1541500395866736,
+          "eval_ci_hi": 0.2679330187289807,
+          "eval_n": 1368,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=CONTACT_REACH | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.227 [+0.158, +0.296] n=814",
+          "metadata_indicator": "CONTACT_REACH",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": 0.2269784869405667,
+          "eval_ci_lo": 0.1575850072263289,
+          "eval_ci_hi": 0.2955815451919519,
+          "eval_n": 814,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.124 [+0.020, +0.225] n=413",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "PHYS",
+          "eval_psp": 0.1240960464573413,
+          "eval_ci_lo": 0.0200152357945896,
+          "eval_ci_hi": 0.2253252664853054,
+          "eval_n": 413,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.055 [-0.017, +0.136] n=630 (CI includes 0)",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": 0.0550126871016957,
+          "eval_ci_lo": -0.0167747841211194,
+          "eval_ci_hi": 0.1360088749006331,
+          "eval_n": 630,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.193 [+0.118, +0.263] n=689",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "SOC",
+          "eval_psp": 0.1928731662636539,
+          "eval_ci_lo": 0.118478522293237,
+          "eval_ci_hi": 0.2632464316114824,
+          "eval_n": 689,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.360 [+0.193, +0.503] n=101",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": 0.359662671205568,
+          "eval_ci_lo": 0.1930506270837695,
+          "eval_ci_hi": 0.5031894487081898,
+          "eval_n": 101,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.222 [+0.169, +0.272] n=1368",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": 0.2216085502306486,
+          "eval_ci_lo": 0.1690752660315682,
+          "eval_ci_hi": 0.2717814823170233,
+          "eval_n": 1368,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=n_comm_W3 | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.096 [+0.029, +0.169] n=814",
+          "metadata_indicator": "n_comm_W3",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": 0.0956303304172472,
+          "eval_ci_lo": 0.0294365260688401,
+          "eval_ci_hi": 0.1687078654109741,
+          "eval_n": 814,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.062 [-0.154, +0.036] n=413 (CI includes 0)",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "PHYS",
+          "eval_psp": -0.0618744640835958,
+          "eval_ci_lo": -0.1536265061571053,
+          "eval_ci_hi": 0.0357412239373546,
+          "eval_n": 413,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.117 [-0.191, -0.037] n=630",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": -0.1168430835825775,
+          "eval_ci_lo": -0.190925008572001,
+          "eval_ci_hi": -0.0366794726953586,
+          "eval_n": 630,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.139 [-0.217, -0.069] n=689",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "SOC",
+          "eval_psp": -0.1388642829183333,
+          "eval_ci_lo": -0.2171176680450674,
+          "eval_ci_hi": -0.068599218807781,
+          "eval_n": 689,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.178 [-0.433, +0.076] n=101 (CI includes 0)",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": -0.1777003234264172,
+          "eval_ci_lo": -0.4332318035441753,
+          "eval_ci_hi": 0.0760141477055483,
+          "eval_n": 101,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.187 [-0.231, -0.134] n=1368",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": -0.1868879761281938,
+          "eval_ci_lo": -0.2313414270557649,
+          "eval_ci_hi": -0.134290638726862,
+          "eval_n": 1368,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=RETENTION_RATIO_early | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.105 [-0.169, -0.037] n=814",
+          "metadata_indicator": "RETENTION_RATIO_early",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": -0.1048159908933637,
+          "eval_ci_lo": -0.1691334395886116,
+          "eval_ci_hi": -0.0368297362217685,
+          "eval_n": 814,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=NOV | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.175 [+0.076, +0.265] n=391",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "PHYS",
+          "eval_psp": 0.1751879216961377,
+          "eval_ci_lo": 0.0759565117234083,
+          "eval_ci_hi": 0.2653612767685274,
+          "eval_n": 391,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=NOV | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.033 [-0.046, +0.119] n=604 (CI includes 0)",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": 0.0327414001685315,
+          "eval_ci_lo": -0.0462033641707573,
+          "eval_ci_hi": 0.1191732695750336,
+          "eval_n": 604,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=NOV | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.132 [+0.051, +0.210] n=668",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "SOC",
+          "eval_psp": 0.1319593159942788,
+          "eval_ci_lo": 0.0513855949009816,
+          "eval_ci_hi": 0.2095405577332093,
+          "eval_n": 668,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=NOV | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.440 [+0.194, +0.632] n=85",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": 0.4404772995938982,
+          "eval_ci_lo": 0.1940584712356949,
+          "eval_ci_hi": 0.6324661209538215,
+          "eval_n": 85,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=NOV | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.114 [+0.058, +0.170] n=1296",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": 0.1143112059791148,
+          "eval_ci_lo": 0.0576993050059944,
+          "eval_ci_hi": 0.1699596506111788,
+          "eval_n": 1296,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=NOV | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp +0.038 [-0.032, +0.109] n=782 (CI includes 0)",
+          "metadata_indicator": "NOV",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": 0.0383009226068613,
+          "eval_ci_lo": -0.0323472504026284,
+          "eval_ci_hi": 0.1091603986773263,
+          "eval_n": 782,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=PHYS | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.081 [-0.182, +0.024] n=397 (CI includes 0)",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "PHYS",
+          "eval_psp": -0.0808891112713094,
+          "eval_ci_lo": -0.1819289051997589,
+          "eval_ci_hi": 0.0235104283153732,
+          "eval_n": 397,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=LIFEENV | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.078 [-0.164, +0.008] n=610 (CI includes 0)",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "LIFEENV",
+          "eval_psp": -0.0779292832762475,
+          "eval_ci_lo": -0.1635624396589772,
+          "eval_ci_hi": 0.0077800581995232,
+          "eval_n": 610,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=SOC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.122 [-0.199, -0.043] n=668",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "SOC",
+          "eval_psp": -0.1215689989292654,
+          "eval_ci_lo": -0.1989035294299551,
+          "eval_ci_hi": -0.0431789345872406,
+          "eval_n": 668,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=MATHDEC | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.236 [-0.434, +0.029] n=96 (CI includes 0)",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "MATHDEC",
+          "eval_psp": -0.2360278020148872,
+          "eval_ci_lo": -0.4339649056762575,
+          "eval_ci_hi": 0.0287381056685502,
+          "eval_n": 96,
+          "eval_ci_includes_0": 1
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=COH_DEVHOME | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.095 [-0.150, -0.034] n=1319",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "COH_DEVHOME",
+          "eval_psp": -0.0947519039700384,
+          "eval_ci_lo": -0.15020665000371,
+          "eval_ci_hi": -0.0343204273429593,
+          "eval_n": 1319,
+          "eval_ci_includes_0": 0
+        },
+        {
+          "input": "indicator=ego_density_W3 | unit=COH_OTHER | outcome=O2r_m50 (EXP8 held-out)",
+          "output": "psp -0.041 [-0.112, +0.030] n=794 (CI includes 0)",
+          "metadata_indicator": "ego_density_W3",
+          "metadata_unit": "COH_OTHER",
+          "eval_psp": -0.0406036651592096,
+          "eval_ci_lo": -0.1120632468650441,
+          "eval_ci_hi": 0.0302183940251875,
+          "eval_n": 794,
+          "eval_ci_includes_0": 1
+        }
+      ]
+    },
+    {
+      "dataset": "corrections_applied",
+      "examples": [
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New 19.4 O1c (sustained uptake) -> ^### 19\\.4  (replace-section)",
+          "output": "ALREADY_PRESENT: first sentence already in iter-5 report: 'Only n_authors_early is confirmed for O1c: pooled '",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "ALREADY_PRESENT",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New 19.5 O4 (field- and year-normalised citation growth): 2 of 10 confirmed -> ^### 19\\.5  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1249
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New 19.5b O3 (transience): 1 of 10 confirmed -> ^### 19\\.5b  (replace-section)",
+          "output": "ALREADY_PRESENT: first sentence already in iter-5 report: 'For transience (O3, binary; groups with an estimab'",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "ALREADY_PRESENT",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New 19.6 External recognition (O5, O5_WW): 0 and 0 of 10 confirmed -> ^### 19\\.6  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1288
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New 19.7 Learned models vs B5 vs B5 + best single (held-out groups pooled) -> ^### 19\\.7  (replace-section)",
+          "output": "ALREADY_PRESENT: first sentence already in iter-5 report: 'All 8 outcomes; Spearman(pred, y) for continuous o'",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "ALREADY_PRESENT",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: O3 as a positive held-out result -> ^### 19\\.5b  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1075
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: New dead end 22.6 -> ^## 22\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1233
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: New 19.8 -> ^### 19\\.8  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1320
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: Correction to dead end 7.4 (Section 7, item 4) -> ^## 7\\.  (append-to-section)",
+          "output": "ALREADY_PRESENT: first sentence already in iter-5 report: '4. **Raw cooccurrence growth indicators.** Degree '",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "ALREADY_PRESENT",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: Correction to Section 4.3 -> ^### 4\\.3  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 169
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: New dead end 22.7 -> ^## 22\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1242
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: Held-out table: iteration-1 candidates (O2r_m50) -> ^### 19\\.8  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1120
+        },
+        {
+          "input": "03_exp7_tables.md :: 18.5 Volume-matched contrast (retained R vs entered-not-retained N, same current x cumulative volume cell) -> ^### 18\\.5  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1008
+        },
+        {
+          "input": "03_exp7_tables.md :: 18.4 Dose by persistence age (held-out pooled 4) -> ^### 18\\.4  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 988
+        },
+        {
+          "input": "03_exp7_tables.md :: 18.9 Abandonment penalty d_lost: A1 vs R4 and variants (held-out pooled 4) -> ^### 18\\.9  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1094
+        },
+        {
+          "input": "03_exp7_tables.md :: 18.3 d0_ret_rel with three resampling units (held-out pooled 4, R3) -> ^### 18\\.3  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 941
+        },
+        {
+          "input": "03_exp7_tables.md :: 18.6 Held-out sensitivities of d0 (R3) -> ^### 18\\.6  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1030
+        },
+        {
+          "input": "03_exp7_tables.md :: New subsection 18.6a Proximity dependence -> ^### 18\\.6  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1061
+        },
+        {
+          "input": "03_exp7_tables.md :: Step-3 comparison: Exp7 D_rca_pers vs Research 2 D_rca_persist_k -> ^### 18\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 836
+        },
+        {
+          "input": "03_exp7_tables.md :: Nearest-neighbour paragraph (draft for Section 18.1 / Related work) -> ^### 18\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "03_exp7_tables.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 851
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 10.3 H1 criteria (blocking) -> ^### 10\\.3  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 430
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 11.3 / 16.3 Ordering -> MIXED (blocking) -> ^### 11\\.3  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 599
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 10.6 / 16.5 H3 (blocking) -> ^### 10\\.6  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 484
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 10.7 Power attribution and MDE wording (blocking) -> ^### 10\\.7  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 502
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 5.4 The 'B5 + all_four' row (blocking) -> ^### 5\\.4  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 231
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 13.1 Dataset 2 coverage counts (blocking) -> ^### 13\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 718
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 8a Coverage table, iteration-2 column (blocking) -> ^## 8a\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 352
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 4.4 Remaining partial associations (blocking) -> ^### 4\\.4  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 172
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 11.2 / hypothesis LR, d and strata clashes -> ^### 11\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 542
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 16.1 'positive in all three evaluable groups' -> ^## 16\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 796
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 10.5 Relatedness pair is held-out only -> ^### 10\\.5  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 475
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: 11.5 Trajectory robustness -> ^### 11\\.5  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 621
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: New: frame comparison (Exp5 vs Exp6) for Section 9/11 -> ^## 9\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 401
+        },
+        {
+          "input": "04_eval2_text_corrections.md :: New: O5 external recognition status (13 / 16 Open) -> ^### 13\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_eval2_text_corrections.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 744
+        },
+        {
+          "input": "05_record_tables_map.md :: (whole file) 05_record_tables_map.md -> ^### 20\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "05_record_tables_map.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1315
+        },
+        {
+          "input": "06_ledger_open_rows.md :: (whole file) 06_ledger_open_rows.md -> ^### 20\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "06_ledger_open_rows.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1345
+        },
+        {
+          "input": "07_failed_artifacts.md :: New Section 22b (or addition to 5a): Experiment 9 did not run -> ^## 22a\\.  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "07_failed_artifacts.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1666
+        },
+        {
+          "input": "07_failed_artifacts.md :: Iteration counts (from each artifact's .aii_worker_result.json) -> ^## 24\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "07_failed_artifacts.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1526
+        },
+        {
+          "input": "07_failed_artifacts.md :: Artifact id placeholders -> real ids -> ^## 24\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "07_failed_artifacts.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1535
+        },
+        {
+          "input": "08_candidate_S_and_families.md :: Candidate S (co-author reach; Cheng et al. 2023) on held-out groups -> ^### 19\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_candidate_S_and_families.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1169
+        },
+        {
+          "input": "08_candidate_S_and_families.md :: New 19.1 family list -> ^### 19\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_candidate_S_and_families.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1142
+        },
+        {
+          "input": "08_candidate_S_and_families.md :: D-family exclusion (why D_ratio, D_rare and the other D indicators were never frozen) -> ^### 19\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_candidate_S_and_families.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1192
+        },
+        {
+          "input": "09_o5_leakage.md :: (whole file) 09_o5_leakage.md -> ^### 20\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "09_o5_leakage.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1427
+        },
+        {
+          "input": "10_minor_slips.md :: 19.6 cross-reference -> ^### 19\\.6  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "10_minor_slips.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1288
+        },
+        {
+          "input": "10_minor_slips.md :: 18.11 home-field mismatch sentence -> ^### 18\\.11  (append-to-section)",
+          "output": "ALREADY_PRESENT: first sentence already in iter-5 report: 'The primary sample is the Experiment 5 frame minus'",
+          "metadata_source_file": "10_minor_slips.md",
+          "metadata_status": "ALREADY_PRESENT",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "10_minor_slips.md :: M0_density_end +0.375 vs +0.377 (source note for 19.2) -> ^### 19\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "10_minor_slips.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1220
+        },
+        {
+          "input": "11_boundary_results.md :: (whole file) 11_boundary_results.md -> ^### 19\\.9  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "11_boundary_results.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1338
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: Old text (19.5, verbatim) -> - (none)",
+          "output": "NOT_APPLIED_SUPERSEDED: verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "NOT_APPLIED_SUPERSEDED",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "01_exp8_outcomes_relabel.md :: Old text (dead end 22.6, verbatim) -> - (none)",
+          "output": "NOT_APPLIED_SUPERSEDED: verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+          "metadata_source_file": "01_exp8_outcomes_relabel.md",
+          "metadata_status": "NOT_APPLIED_SUPERSEDED",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: Old text (19.8, verbatim) -> - (none)",
+          "output": "NOT_APPLIED_SUPERSEDED: verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "NOT_APPLIED_SUPERSEDED",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "02_prereg_P1_P5.md :: Old text (dead end 22.7, verbatim) -> - (none)",
+          "output": "NOT_APPLIED_SUPERSEDED: verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+          "metadata_source_file": "02_prereg_P1_P5.md",
+          "metadata_status": "NOT_APPLIED_SUPERSEDED",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "08_candidate_S_and_families.md :: Old text (19.1 family list, verbatim) -> - (none)",
+          "output": "NOT_APPLIED_SUPERSEDED: verbatim quote of the old draft text, kept in Eval3 file as evidence; the matching 'New' block is applied instead",
+          "metadata_source_file": "08_candidate_S_and_families.md",
+          "metadata_status": "NOT_APPLIED_SUPERSEDED",
+          "eval_applied": 0,
+          "eval_line_in_corrected": -1
+        },
+        {
+          "input": "01_case_studies_26_4.md :: 26.4_rebuilt -> ^### 26\\.4  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "01_case_studies_26_4.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2048
+        },
+        {
+          "input": "01_case_studies_26_4.md :: 26.5_atlas -> ^### 26\\.4  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "01_case_studies_26_4.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2068
+        },
+        {
+          "input": "02_exp11_25a.md :: 25a_exp11 -> ^### 25\\.7  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section; new ## 25a placed after 25.7 (before Section 26)",
+          "metadata_source_file": "02_exp11_25a.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1920
+        },
+        {
+          "input": "02_exp11_25a.md :: 29_deadend_exp11 -> ^## 29\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_exp11_25a.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2236
+        },
+        {
+          "input": "02_exp11_25a.md :: 28.1_c4 -> ^### 28\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_exp11_25a.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2190
+        },
+        {
+          "input": "02_exp11_25a.md :: 24_counts -> ^## 24\\.  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "02_exp11_25a.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1722
+        },
+        {
+          "input": "02_exp11_25a.md :: 31_counts -> Four iterations and sixteen artifacts (fifteen commissioned, twelve completed; t (text-replace)",
+          "output": "APPLIED: text-replace (1 occurrence(s))",
+          "metadata_source_file": "02_exp11_25a.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2299
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 25.1 -> ^### 25\\.1  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1786
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 25.2 -> ^### 25\\.2  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1794
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 25.4 -> ^### 25\\.4  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1821
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 25.7 -> ^### 25\\.7  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1864
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 25.8 -> ^### 25\\.7  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1876
+        },
+        {
+          "input": "03_exp10_rewrite.md :: 31.1 -> 1. **Early cooccurrence openness (OPEN) predicts later cross field breadth on a  (text-prefix)",
+          "output": "APPLIED: text-prefix (1 occurrence(s))",
+          "metadata_source_file": "03_exp10_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2121
+        },
+        {
+          "input": "04_exp12_rewrite.md :: 26.1 -> ^### 26\\.1  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "04_exp12_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1973
+        },
+        {
+          "input": "04_exp12_rewrite.md :: 31.3_caveat -> 3. **Breadth is driven by exploration, not retention.** (text-prefix)",
+          "output": "APPLIED: text-prefix (1 occurrence(s))",
+          "metadata_source_file": "04_exp12_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2141
+        },
+        {
+          "input": "04_exp12_rewrite.md :: 26.3 -> ^### 26\\.3  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "04_exp12_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2034
+        },
+        {
+          "input": "04_exp12_rewrite.md :: 26.2_pc -> ^### 26\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "04_exp12_rewrite.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2006
+        },
+        {
+          "input": "06_section23_restore.md :: 23_restore -> ^## 23\\.  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "06_section23_restore.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1671
+        },
+        {
+          "input": "06_section23_restore.md :: 16.2_tag -> 2. **Two stable trajectory classes (text-append-line)",
+          "output": "APPLIED: text-append-line (1 occurrence(s))",
+          "metadata_source_file": "06_section23_restore.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 793
+        },
+        {
+          "input": "07_section28_evidence.md :: 28.1_evidence -> ^### 28\\.1  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "07_section28_evidence.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2190
+        },
+        {
+          "input": "07_section28_evidence.md :: 28.2_survives -> ^### 28\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "07_section28_evidence.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2216
+        },
+        {
+          "input": "07_section28_evidence.md :: 31.2_retention -> RETENTION_RATIO_early (−0.114),  (text-replace)",
+          "output": "APPLIED: text-replace (1 occurrence(s))",
+          "metadata_source_file": "07_section28_evidence.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2223
+        },
+        {
+          "input": "08_exp8_exp10_secondary.md :: 25.5_leads -> ^### 25\\.5  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_exp8_exp10_secondary.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1827
+        },
+        {
+          "input": "08_exp8_exp10_secondary.md :: 25.6 -> ^### 25\\.6  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "08_exp8_exp10_secondary.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1849
+        },
+        {
+          "input": "08_exp8_exp10_secondary.md :: 19.5b_tag -> ^### 19\\.5b  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_exp8_exp10_secondary.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1268
+        },
+        {
+          "input": "08_exp8_exp10_secondary.md :: 19.7_tag -> ^### 19\\.7  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_exp8_exp10_secondary.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1299
+        },
+        {
+          "input": "08_exp8_exp10_secondary.md :: 19.2_pergroup -> ^### 19\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "08_exp8_exp10_secondary.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 1199
+        },
+        {
+          "input": "09_coverage_table_30.md :: 30_table -> ^## 30\\.  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "09_coverage_table_30.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2261
+        },
+        {
+          "input": "10_minor_and_refs.md :: fcr -> footprint control rung (text-replace-all)",
+          "output": "APPLIED: text-replace-all (1 occurrence(s))",
+          "metadata_source_file": "10_minor_and_refs.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2144
+        },
+        {
+          "input": "10_minor_and_refs.md :: 27.4_fcr_note -> ^### 27\\.4  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "10_minor_and_refs.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2146
+        },
+        {
+          "input": "10_minor_and_refs.md :: 27.3_I2 -> Higgins I² drops to 0.43 (vs 0.66 over the 6 units) (text-replace)",
+          "output": "APPLIED: text-replace (1 occurrence(s))",
+          "metadata_source_file": "10_minor_and_refs.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2140
+        },
+        {
+          "input": "10_minor_and_refs.md :: 27.2_label -> ^### 27\\.2  (append-to-section)",
+          "output": "APPLIED: appended at end of section",
+          "metadata_source_file": "10_minor_and_refs.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2130
+        },
+        {
+          "input": "11_evidence_synthesis.md :: 32_synthesis -> ^## 31\\.  (insert-new-section-after)",
+          "output": "APPLIED: new section inserted after target section",
+          "metadata_source_file": "11_evidence_synthesis.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2348
+        },
+        {
+          "input": "05_eval3_application.md :: 27.6_list -> ^### 27\\.6  (replace-section)",
+          "output": "APPLIED: section replaced",
+          "metadata_source_file": "05_eval3_application.md",
+          "metadata_status": "APPLIED",
+          "eval_applied": 1,
+          "eval_line_in_corrected": 2158
+        }
+      ]
+    }
+  ]
+}

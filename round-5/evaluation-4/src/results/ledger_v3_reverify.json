@@ -1,0 +1,74 @@
+{
+ "n_rows": 1290,
+ "ledger_status_counts": {
+  "MATCH": 753,
+  "ROUNDING_ONLY": 537
+ },
+ "recomputed_status_counts": {
+  "MATCH": 753,
+  "ROUNDING_ONLY": 537
+ },
+ "n_disagreements": 0,
+ "n_mismatch_recomputed": 0,
+ "n_not_found_recomputed": 0,
+ "n_carry_rows": 519,
+ "n_value_rows": 771,
+ "n_orphan_numeric_tokens": 9,
+ "orphans": [
+  {
+   "file": "00_index.md",
+   "line": 3,
+   "token": "04",
+   "context": "Each file replaces or adds the report sections listed. Inserts carry the tag `[Correction, iteration 4, from art_...]` (or `[Correction, ite"
+  },
+  {
+   "file": "00_index.md",
+   "line": 10,
+   "token": "11",
+   "context": "| `04_eval2_text_corrections.md` | the 14 blocks of Eval2 (10.3, 11.3/16.3, 10.6/16.5, 10.7, 5.4, 13.1, 8a, 4.4, 11.2, 16.1, 10.5, 11.5, 9/1"
+  },
+  {
+   "file": "01_exp8_outcomes_relabel.md",
+   "line": 5,
+   "token": "87",
+   "context": "The draft's Section 19.5 is headed 'Transience' but reports the **O4** results (field- and year-normalised citation growth; REL_home and aut"
+  },
+  {
+   "file": "01_exp8_outcomes_relabel.md",
+   "line": 70,
+   "token": "8",
+   "context": "[Correction, iteration 4, from art_dFQ6jbgNsR6Q] All 8 outcomes; Spearman(pred, y) for continuous outcomes, AUC for binary (O1c, O1b, O3, O5"
+  },
+  {
+   "file": "05_record_tables_map.md",
+   "line": 7,
+   "token": "11",
+   "context": "| `record_tables/definitions_diff.csv` | 12 | 9 / 11 (frame comparison Exp5 vs Exp6) |"
+  },
+  {
+   "file": "05_record_tables_map.md",
+   "line": 9,
+   "token": "11",
+   "context": "| `record_tables/frame_crosstab_split_group.csv` | 14 | 9 / 11 (frame comparison) |"
+  },
+  {
+   "file": "05_record_tables_map.md",
+   "line": 10,
+   "token": "11",
+   "context": "| `record_tables/frame_disagreement_causes.csv` | 713 | 9 / 11 (frame comparison) |"
+  },
+  {
+   "file": "05_record_tables_map.md",
+   "line": 11,
+   "token": "11",
+   "context": "| `record_tables/frame_overlap_by_group.csv` | 6 | 9 / 11 (frame comparison) |"
+  },
+  {
+   "file": "05_record_tables_map.md",
+   "line": 18,
+   "token": "13",
+   "context": "| `record_tables/o5_concept_panel.csv` | 12,499 | 20.2 / 13 (O5 panel) |"
+  }
+ ],
+ "disagreements": []
+}

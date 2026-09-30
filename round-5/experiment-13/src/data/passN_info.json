@@ -1,0 +1,14 @@
+{
+ "files_done": 2040,
+ "n": 476196327,
+ "n_base": 141253251,
+ "n_win_titles": 129326281,
+ "n_hits": 24223902,
+ "n_sealed_hits": 12031439,
+ "n_early": 9661308,
+ "n_pre_hits": 2531155,
+ "early_rows": 9661308,
+ "open_hi": 4,
+ "pre_agg_rows": 1390532,
+ "sealed_parts": 2040
+}

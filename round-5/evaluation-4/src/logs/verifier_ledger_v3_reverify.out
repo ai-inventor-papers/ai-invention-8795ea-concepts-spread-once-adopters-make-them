@@ -1,0 +1,10 @@
+06:01:35|INFO   |verify: {'MATCH': 753, 'ROUNDING_ONLY': 537}; disagreements 0; orphans 9
+06:01:35|WARNING|orphan 00_index.md:3 '04' | Each file replaces or adds the report sections listed. Inserts carry the tag `[Correction, iteration
+06:01:35|WARNING|orphan 00_index.md:10 '11' | | `04_eval2_text_corrections.md` | the 14 blocks of Eval2 (10.3, 11.3/16.3, 10.6/16.5, 10.7, 5.4, 13
+06:01:35|WARNING|orphan 01_exp8_outcomes_relabel.md:5 '87' | The draft's Section 19.5 is headed 'Transience' but reports the **O4** results (field- and year-norm
+06:01:35|WARNING|orphan 01_exp8_outcomes_relabel.md:70 '8' | [Correction, iteration 4, from art_dFQ6jbgNsR6Q] All 8 outcomes; Spearman(pred, y) for continuous ou
+06:01:35|WARNING|orphan 05_record_tables_map.md:7 '11' | | `record_tables/definitions_diff.csv` | 12 | 9 / 11 (frame comparison Exp5 vs Exp6) |
+06:01:35|WARNING|orphan 05_record_tables_map.md:9 '11' | | `record_tables/frame_crosstab_split_group.csv` | 14 | 9 / 11 (frame comparison) |
+06:01:35|WARNING|orphan 05_record_tables_map.md:10 '11' | | `record_tables/frame_disagreement_causes.csv` | 713 | 9 / 11 (frame comparison) |
+06:01:35|WARNING|orphan 05_record_tables_map.md:11 '11' | | `record_tables/frame_overlap_by_group.csv` | 6 | 9 / 11 (frame comparison) |
+06:01:35|WARNING|orphan 05_record_tables_map.md:18 '13' | | `record_tables/o5_concept_panel.csv` | 12,499 | 20.2 / 13 (O5 panel) |

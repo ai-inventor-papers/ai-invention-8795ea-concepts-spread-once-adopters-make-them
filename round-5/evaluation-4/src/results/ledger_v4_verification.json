@@ -1,0 +1,19 @@
+{
+ "n_rows": 1769,
+ "ledger_status_counts": {
+  "ROUNDING_ONLY": 1197,
+  "MATCH": 572
+ },
+ "recomputed_status_counts": {
+  "ROUNDING_ONLY": 1197,
+  "MATCH": 572
+ },
+ "n_disagreements": 0,
+ "n_mismatch_recomputed": 0,
+ "n_not_found_recomputed": 0,
+ "n_carry_rows": 213,
+ "n_value_rows": 1556,
+ "n_orphan_numeric_tokens": 0,
+ "orphans": [],
+ "disagreements": []
+}
