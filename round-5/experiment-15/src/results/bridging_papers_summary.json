@@ -1,0 +1,211 @@
+{
+ "exp5": {
+  "frame": "EXP5",
+  "n_papers": 462675,
+  "n_bridging": 24377,
+  "profile": {
+   "team_size": {
+    "bridging": 3.6515157730647743,
+    "other": 3.7974688453974235,
+    "diff": -0.1459530723326492,
+    "diff_ci_concept_cluster": [
+     -0.3306393934539827,
+     -0.005594651315629972
+    ],
+    "n_papers_bridging": 24377,
+    "n_papers_other": 438298
+   },
+   "share_new_authors": {
+    "bridging": 0.869976817854746,
+    "other": 0.8219492927722799,
+    "diff": 0.048027525082466105,
+    "diff_ci_concept_cluster": [
+     0.04248583652323599,
+     0.0535338541818932
+    ],
+    "n_papers_bridging": 23332,
+    "n_papers_other": 426008
+   },
+   "has_offhome_topic": {
+    "bridging": 0.5965459244369693,
+    "other": 0.3480965005544173,
+    "diff": 0.24844942388255198,
+    "diff_ci_concept_cluster": [
+     0.23709532022247398,
+     0.2602257246220882
+    ],
+    "n_papers_bridging": 24377,
+    "n_papers_other": 438298
+   },
+   "n_topics": {
+    "bridging": 2.8222915042868277,
+    "other": 2.738595658661459,
+    "diff": 0.08369584562536891,
+    "diff_ci_concept_cluster": [
+     0.06832784073566277,
+     0.09849856470867432
+    ],
+    "n_papers_bridging": 24377,
+    "n_papers_other": 438298
+   },
+   "is_review": {
+    "bridging": 0.004307338885014563,
+    "other": 0.004957814089957061,
+    "diff": -0.000650475204942498,
+    "diff_ci_concept_cluster": [
+     -0.0016250405391554429,
+     0.0003064547060659591
+    ],
+    "n_papers_bridging": 24377,
+    "n_papers_other": 438298
+   }
+  }
+ },
+ "cohort_2015_17": {
+  "frame": "COHORT_2015_17",
+  "n_papers": 56402,
+  "n_bridging": 3043,
+  "is_review": "doc_type missing for this frame (logged)",
+  "profile": {
+   "team_size": {
+    "bridging": 4.170555372987184,
+    "other": 4.950973593957908,
+    "diff": -0.7804182209707244,
+    "diff_ci_concept_cluster": [
+     -1.6938819542540506,
+     -0.16306194112619757
+    ],
+    "n_papers_bridging": 3043,
+    "n_papers_other": 53359
+   },
+   "share_new_authors": {
+    "bridging": 0.9530719927742436,
+    "other": 0.9021298834497453,
+    "diff": 0.050942109324498275,
+    "diff_ci_concept_cluster": [
+     0.04127659532547341,
+     0.061360108708757216
+    ],
+    "n_papers_bridging": 2903,
+    "n_papers_other": 51433
+   },
+   "has_offhome_topic": {
+    "bridging": 0.5619454485704897,
+    "other": 0.36023913491632154,
+    "diff": 0.20170631365416813,
+    "diff_ci_concept_cluster": [
+     0.17323202048368486,
+     0.23395149914066946
+    ],
+    "n_papers_bridging": 3043,
+    "n_papers_other": 53359
+   },
+   "n_topics": {
+    "bridging": 2.830759119290174,
+    "other": 2.7819861691560934,
+    "diff": 0.048772950134080784,
+    "diff_ci_concept_cluster": [
+     0.02442908564886446,
+     0.07394775111962328
+    ],
+    "n_papers_bridging": 3043,
+    "n_papers_other": 53359
+   }
+  },
+  "note_doc_type": "passC_early has authors but no doc_type: is_review not computed (logged)"
+ },
+ "psp": {
+  "POOLED_EXP5": {
+   "bridging_share_home|B5": {
+    "rho": 0.09657595573597008,
+    "ci": [
+     0.07482450573309944,
+     0.12001240129395882
+    ],
+    "se": 0.011488405344865251,
+    "z": 0.09687789918365049,
+    "se_z": 0.011599257386767413,
+    "p_two": 0.0005,
+    "n_boot_ok": 2000,
+    "n": 7203,
+    "extra_controls": []
+   },
+   "NOVCHURN_home|B5": {
+    "rho": 0.11761381315582084,
+    "ci": [
+     0.09192566604280485,
+     0.14240047815875698
+    ],
+    "se": 0.013110652905489129,
+    "z": 0.11816067689223868,
+    "se_z": 0.013297226126674838,
+    "p_two": 0.0005,
+    "n_boot_ok": 2000,
+    "n": 5944,
+    "extra_controls": []
+   },
+   "NOVCHURN_home|B5+bridging_share_home": {
+    "rho": 0.05610245610657437,
+    "ci": [
+     0.028604230324570747,
+     0.08155047563358969
+    ],
+    "se": 0.01310481656948405,
+    "z": 0.056161428071967494,
+    "se_z": 0.013148209224396079,
+    "p_two": 0.0005,
+    "n_boot_ok": 2000,
+    "n": 5944,
+    "extra_controls": [
+     "bridging_share_home"
+    ]
+   }
+  },
+  "OLD_HELDOUT": {
+   "bridging_share_home|B5": {
+    "rho": 0.07997663775690754,
+    "ci": [
+     0.03445385231936686,
+     0.12630402972098057
+    ],
+    "se": 0.023668004771737493,
+    "z": 0.08014781235728369,
+    "se_z": 0.02383176334661745,
+    "p_two": 0.0005,
+    "n_boot_ok": 2000,
+    "n": 1833,
+    "extra_controls": []
+   },
+   "NOVCHURN_home|B5": {
+    "rho": 0.1034929031672186,
+    "ci": [
+     0.04826390725530994,
+     0.15319580365491822
+    ],
+    "se": 0.02678710827856864,
+    "z": 0.10386479265210338,
+    "se_z": 0.02708953400546132,
+    "p_two": 0.0015,
+    "n_boot_ok": 2000,
+    "n": 1404,
+    "extra_controls": []
+   },
+   "NOVCHURN_home|B5+bridging_share_home": {
+    "rho": 0.050875568780078796,
+    "ci": [
+     -0.002716227225768936,
+     0.10243162852674437
+    ],
+    "se": 0.027233507106810308,
+    "z": 0.050919531217101036,
+    "se_z": 0.027322186715581544,
+    "p_two": 0.0665,
+    "n_boot_ok": 2000,
+    "n": 1404,
+    "extra_controls": [
+     "bridging_share_home"
+    ]
+   }
+  }
+ }
+}

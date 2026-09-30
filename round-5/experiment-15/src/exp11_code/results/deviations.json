@@ -1,0 +1,3 @@
+{
+ "es_draws": "event-study draws per cell after the timing gate: {'DEV|primary_never': 1000, 'DEV|not_yet_treated_last_cohort': 500, 'DEV|outcome_entries_t': 300, 'DEV|mechanical_home_volume': 300, 'OLD_HELDOUT|primary_never': 300, 'OLD_HELDOUT|not_yet_treated_last_cohort': 300, 'COHORT|primary_never': 300, 'COHORT|not_yet_treated_last_cohort': 300}, perm 1000"
+}

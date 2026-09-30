@@ -1,0 +1,14 @@
+{
+ "n_master": 120,
+ "n_cited": 18,
+ "n_uncited": 102,
+ "n_list_A": 23,
+ "n_list_B": 51,
+ "n_excluded": 10,
+ "n_rewritten_citation_groups": 19,
+ "required_additions": {
+  "fernandes": "present",
+  "nomaler": "present"
+ },
+ "n_doi_corrected": 0
+}
