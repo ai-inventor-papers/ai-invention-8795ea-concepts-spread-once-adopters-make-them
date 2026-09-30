@@ -1,0 +1,115 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2303.00622
+Type: PDF
+Pattern: trajector|typolog|cluster(s|ing) of|classes|exit|abandon|retain|retention|persist|stop|leave|lose|decline|fade|transient|science|scientific|alluvial (81 matches in 41682 chars)
+
+--- Content ---
+
+159:Mapping change in higher-order networks
+with multilevel and overlapping communities
+Anton Holmgren
+,1, ∗Daniel Edler
+,1, 2 and Martin Rosvall
+1, †
+1Integrated Science Lab,
+Department of Physics,
+Ume˚a University,
+SE-901 87 Ume˚a,
+Sweden
+2Gothenburg Global Biodiversity Centre,
+Department of Biological and Environmental Sciences,
+University of Gothenburg,
+SE-405 30 Gothenburg,
+Sweden
+(Dated: March 2, 2023)
+New network models of complex systems use layers, state nodes, or hyperedges to cap-
+ture higher-order interactions and dynamics.
+Simplifying how the higher-order net-
+works change over time or depending on the network model would be easy with alluvial
+diagrams, which visualize community splits and merges between networks. However,
+alluvial diagrams were developed for networks with regular nodes assigned to non-
+overlapping ﬂat communities.
+How should they be deﬁned for nodes in layers, state
+nodes, or hyperedges? How can they depict multilevel, overlapping communities? Here
+we generalize alluvial diagrams to map change in higher-order networks and provide an
+interactive tool for anyone to generate alluvial diagrams. We use the alluvial generator
+to illustrate the eﬀect of modeling network ﬂows with memory in a citation network,
+distinguishing multidisciplinary from ﬁeld-speciﬁc journals.
+INTRODUCTION
+Complex systems are inherently dynamic. Their com-
+ponents inﬂuence each other through various informa-
+tional and physical processes, changing interaction pat-
+terns over time. Res...
+--
+1856:...rchers represent these interactions
+with networks1,2,3,4,5,6,7 and simplify their organization
+with community-detection algorithms8,9,10,11,12. For ex-
+ample, community-detection algorithms that model the
+various processes as ﬂows on networks assign nodes to
+possibly nested modules of typically densely connected
+nodes, among which the network ﬂows persist relatively
+long8.
+Identifying modules in multiple networks with
+shared nodes enables exploring organizational changes
+when the systems they represent change over time or be-
+tween states: Modules merge and split when groups in
+students’ social networks form and dissolve during school
+days, or new research ﬁelds emerge when old ﬁelds fuse
+or break and move apart.
+Various summary statistics
+can quantify these structural changes13,14,15, but they
+destroy essential information about how the networks
+change.
+Alluvial diagrams with modules represented as stacks
+of blocks joined by stream ﬁelds were introduced to re-
+veal network organizational changes by depicting merg-
+∗Corresponding author; anton.holmgren@umu.se
+† martin.rosvall@umu.se
+ing and splitting modules16. Researchers have success-
+fully used them to map shifting regional tendencies in
+urban networks17, study dynamics of hot topics in re-
+search ﬁelds18,19, track changing bitcoin user activity20,
+and explore evolving media channel preferences across
+crisis phases21.
+Generating alluvial diagrams requires
+dedicated software to remove tedious manual work. How-
+ever, current applications to generate alluvial diagrams
+work only for standard networks partitioned into mod-
+ules.
+Today researchers use temporal, multilayer, and mem-
+ory networks to capture interactions in complex sys-
+tems with higher accuracy22,23,24,25,26,27 and multilevel
+modular solutions to reveal more regularities in their
+organization28,29. Multilayer networks can represent net-
+works over time with links in time-windowed layers.
+Memory networks can represent higher-order network
+ﬂow models where the transition rates depend on the
+current node and previously visited nodes. Both repre-
+sentations enable overlapping modules. Mapping change
+in these rich network representations requires generaliz-
+ing alluvial diagrams and their generators to higher-order
+networks with multilevel and overlapping modular solu-
+tions.
+Here we introduce alluvial diagrams for multilayer and
+memory networks with multilevel and overlapping mod-
+ular solutions. We demonstrate a new alluvial generator
+for higher-order networks available for anyone to use at
+https://www.mapequation.org/alluvial30, and illustrate
+arXiv:2303.00622v1  [physics.soc-ph]  1 Mar 2023
+
+2
+a Modular network
+b Two-level solution
+c Alluvial diagram
+d Multilevel solution
+e Multilevel network
+Level
+1
+2
+3
+2
+1
+FIG. 1 Schematic alluvial diagram of a multilevel network structure. a) A weighted network with modular structure, organized
+into a two-level solution in b). c) A...
+--
+[66 more matches not shown]

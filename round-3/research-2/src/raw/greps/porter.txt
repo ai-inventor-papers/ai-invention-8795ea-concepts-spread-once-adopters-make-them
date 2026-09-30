@@ -1,0 +1,2 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+Error: HTTPSConnectionPool(host='par.nsf.gov', port=443): Max retries exceeded with url: /servlets/purl/10076502 (Caused by ConnectTimeoutError(<HTTPSConnection(host='par.nsf.gov', port=443) at 0x7db8055ea300>, 'Connection to par.nsf.gov timed out. (connect timeout=120)'))

@@ -1,0 +1,374 @@
+{
+ "n_exp5": 12499,
+ "n_exp6": 653,
+ "n_both": 628,
+ "n_exp6_only": 25,
+ "share_exp6_in_exp5": 0.9617151607963247,
+ "pooling_rule_predeclared": {
+  "onset_pm1_agree_min": 0.8,
+  "home_kappa_min": 0.6,
+  "o2r_m50_spearman_min": 0.7,
+  "retention_kappa_min": 0.4,
+  "n_both_min": 50
+ },
+ "id_normaliser": "Exp5 int -> 'C'+int; Exp6 URL -> last path segment; idempotence asserted",
+ "crosstab_file": "record_tables/frame_crosstab_split_group.csv",
+ "exp5_minus_exp6": [
+  {
+   "exp5_split": "HELDOUT_PHYS",
+   "n_concepts_exp5": 742,
+   "n_removed_in_exp6": 34,
+   "n_left_exp5_minus_exp6": 708,
+   "n_episodes_left": 1580,
+   "n_newborn_left": 2,
+   "R_rate_left": 0.30886075949367087,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  },
+  {
+   "exp5_split": "HELDOUT_LIFEENV",
+   "n_concepts_exp5": 1113,
+   "n_removed_in_exp6": 32,
+   "n_left_exp5_minus_exp6": 1081,
+   "n_episodes_left": 2992,
+   "n_newborn_left": 4,
+   "R_rate_left": 0.2911096256684492,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  },
+  {
+   "exp5_split": "HELDOUT_SOC",
+   "n_concepts_exp5": 1352,
+   "n_removed_in_exp6": 51,
+   "n_left_exp5_minus_exp6": 1301,
+   "n_episodes_left": 3148,
+   "n_newborn_left": 7,
+   "R_rate_left": 0.3062261753494282,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  },
+  {
+   "exp5_split": "HELDOUT_MATHDEC",
+   "n_concepts_exp5": 165,
+   "n_removed_in_exp6": 0,
+   "n_left_exp5_minus_exp6": 165,
+   "n_episodes_left": 434,
+   "n_newborn_left": 0,
+   "R_rate_left": 0.22119815668202766,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  },
+  {
+   "exp5_split": "COHORT",
+   "n_concepts_exp5": 4356,
+   "n_removed_in_exp6": 239,
+   "n_left_exp5_minus_exp6": 4117,
+   "n_episodes_left": 9045,
+   "n_newborn_left": 26,
+   "R_rate_left": 0.24723573639982308,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  },
+  {
+   "exp5_split": "DEV",
+   "n_concepts_exp5": 4771,
+   "n_removed_in_exp6": 272,
+   "n_left_exp5_minus_exp6": 4499,
+   "n_episodes_left": 8380,
+   "n_newborn_left": 27,
+   "R_rate_left": 0.2786396181384248,
+   "source_file": "round-2/experiment-5/src/frame_concepts.csv + round-2/experiment-6/src/results/frame_concepts.csv",
+   "key_path": "split==sp; concept_id normalised; set difference"
+  }
+ ],
+ "agreement": {
+  "onset_exact": {
+   "value": 0.9761146496815286,
+   "ci95": [
+    0.9633757961783439,
+    0.9872611464968153
+   ],
+   "n": 628
+  },
+  "onset_pm1": {
+   "value": 0.9888535031847133,
+   "ci95": [
+    0.9792993630573248,
+    0.9968152866242038
+   ],
+   "n": 628
+  },
+  "onset_bland_altman": {
+   "mean_diff_exp6_minus_exp5": 0.041401273885350316,
+   "sd_diff": 0.3680275605079467,
+   "loa95": [
+    -0.6799327447102252,
+    0.7627352924809259
+   ],
+   "mean_diff_ci95": [
+    0.01592356687898089,
+    0.0732484076433121
+   ],
+   "diff_table": {
+    "-1": 1,
+    "0": 613,
+    "1": 7,
+    "2": 5,
+    "3": 1,
+    "7": 1
+   }
+  },
+  "newborn_kappa": {
+   "value": 0.0,
+   "pct_agree": 0.9681528662420382,
+   "exp5_share_newborn": 0.9681528662420382,
+   "exp6_share_newborn": 1.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "n": 628
+  },
+  "home_kappa_26": {
+   "value": 0.9896520587130324,
+   "pct_agree": 0.9920382165605095,
+   "ci95": [
+    0.9796380499525524,
+    0.9979218442954972
+   ],
+   "n": 628,
+   "home_set_overlap_share": 0.9952229299363057,
+   "note": "Exp5 primary = first listed home code; Exp6 home_primary; set overlap counts any shared home field"
+  },
+  "group_agreement": {
+   "pct_agree": 0.9777070063694268,
+   "kappa": 0.9702185172263114,
+   "n": 628
+  },
+  "early_volume_log": {
+   "spearman": 0.95861104497199,
+   "lin_ccc": 0.9708482981884812,
+   "spearman_ci95": [
+    0.933901421774781,
+    0.9780988283106868
+   ],
+   "ccc_ci95": [
+    0.952470980207414,
+    0.984920297832787
+   ],
+   "median_ratio_exp5_over_exp6": 1.0,
+   "window_note": "both frames: grounded works t0..t0+2 (same window, own t0 and own grounding); CCC valid as absolute agreement only where t0 agrees"
+  },
+  "early_volume_log_same_t0": {
+   "n": 613,
+   "spearman": 0.9823277988220408,
+   "lin_ccc": 0.9846156461318425
+  },
+  "label_coverage_early": {
+   "spearman": 0.998065611430192,
+   "ci95": [
+    0.9965299377103318,
+    0.9990454056573184
+   ],
+   "n": 628
+  },
+  "O1_kappa": {
+   "value": 0.968138324319388,
+   "pct_agree": 0.9840764331210191,
+   "n": 628,
+   "base_rate_exp5": 0.5143312101910829,
+   "base_rate_exp6": 0.5079617834394905,
+   "ci95": [
+    0.9458696175600448,
+    0.9872243242005897
+   ]
+  },
+  "O3_kappa": {
+   "value": 0.9341477481256227,
+   "pct_agree": 0.9936305732484076,
+   "n": 628,
+   "base_rate_exp5": 0.04936305732484077,
+   "base_rate_exp6": 0.052547770700636945,
+   "ci95": [
+    0.8599855080541778,
+    0.9854653261602186
+   ]
+  },
+  "O2r_m30": {
+   "spearman": 0.9970301309326652,
+   "lin_ccc": 0.9971660765658831,
+   "n": 594,
+   "spearman_ci95": [
+    0.9946653658083683,
+    0.9984148233591527
+   ],
+   "ccc_ci95": [
+    0.9952948921911474,
+    0.9985215952204548
+   ],
+   "mean_diff_exp6_minus_exp5": 0.0019087469277040455
+  },
+  "O2r_m50": {
+   "spearman": 0.9976798313829333,
+   "lin_ccc": 0.9973662925119795,
+   "n": 557,
+   "spearman_ci95": [
+    0.9960716190492919,
+    0.9986706641622004
+   ],
+   "ccc_ci95": [
+    0.9951417630621068,
+    0.9988310263829531
+   ],
+   "mean_diff_exp6_minus_exp5": 0.0048905378875652335
+  },
+  "split_agreement": {
+   "pct_agree": 0.9872611464968153,
+   "n": 628
+  },
+  "episode_jaccard": {
+   "median": 1.0,
+   "iqr": [
+    1.0,
+    1.0
+   ],
+   "mean": 0.9772303862523087,
+   "pooled": 0.9774972557628979,
+   "share_ge_0.5": 0.9915682967959528,
+   "n_concepts": 593,
+   "n_concepts_no_episodes_either": 35,
+   "median_ci95": [
+    1.0,
+    1.0
+   ],
+   "n_episodes_exp5_shared_concepts": 1814,
+   "n_episodes_exp6_shared_concepts": 1789
+  },
+  "retention": {
+   "n_pairs": 1781,
+   "n_concepts": 590,
+   "R_rate_exp5": 0.4879281302638967,
+   "R_rate_exp6": 0.8528916339135317,
+   "kappa_R_vs_Rcj": 0.2800944323827687,
+   "pct_agree": 0.6339135317237508,
+   "ci95": [
+    0.24971925699442904,
+    0.3103324803098186
+   ],
+   "kappa_R_abs1_vs_Rcj": 0.6515119022088781,
+   "pct_agree_R_abs1": 0.9298147108366086,
+   "kappa_R_abs2_vs_Rcj": 0.9795716013524622,
+   "pct_agree_R_abs2": 0.9949466591802358,
+   "kappa_R_abs3_vs_Rcj": 0.8057795025274586,
+   "pct_agree_R_abs3": 0.9444132509825941,
+   "ci95_R_abs2": [
+    0.9637321807399428,
+    0.9928273008742107
+   ],
+   "crosstab_R_vs_Rcj": {
+    "exp5R=0_exp6R=0": 261,
+    "exp5R=0_exp6R=1": 651,
+    "exp5R=1_exp6R=0": 1,
+    "exp5R=1_exp6R=1": 868
+   },
+   "early_count_spearman_shared_pairs": 0.9907766958293314
+  }
+ },
+ "disagreement_attribution": {
+  "rules_in_order": [
+   "GROUNDING: early-volume ratio Exp5/Exp6 outside [0.5, 2] (count in year t0 is not stored; early t0..t0+2 volume used)",
+   "ONSET_RULE: counts agree but t0 differs",
+   "HOME_RULE: t0 agrees, home differs (or episode field is a home field in one frame)",
+   "EPISODE_THRESHOLD: field present in one frame with <= 3 early works (next to the shared >= 2 threshold)",
+   "RETENTION_WINDOW: shared episode, R differs but Exp5 R_abs2 equals Exp6 R_cj (definition difference)",
+   "UNEXPLAINED otherwise"
+  ],
+  "share_by_type": {
+   "episode_set": {
+    "EPISODE_THRESHOLD": 0.4878,
+    "ONSET_RULE": 0.2439,
+    "HOME_RULE": 0.1707,
+    "UNEXPLAINED": 0.0976
+   },
+   "home": {
+    "HOME_RULE": 0.8,
+    "ONSET_RULE": 0.2
+   },
+   "onset": {
+    "ONSET_RULE": 0.7333,
+    "GROUNDING": 0.2667
+   },
+   "retention": {
+    "RETENTION_WINDOW": 0.9985,
+    "GROUNDING": 0.0015
+   }
+  },
+  "count_by_type": {
+   "episode_set": 41,
+   "home": 5,
+   "onset": 15,
+   "retention": 652
+  },
+  "grounding_ratio_outside_share": 0.009554140127388535
+ },
+ "any_disagreement_logit": {
+  "n": 628,
+  "rate": 0.03343949044585987,
+  "scaling": "numeric covariates z-scored (OR per SD)",
+  "odds_ratios": {
+   "level": {
+    "OR": 1.0528279779925958,
+    "ci95": [
+     0.6502062249565567,
+     1.7047618258623076
+    ],
+    "p": 0.8341695763506399
+   },
+   "precision_c": {
+    "OR": 0.8630526073415257,
+    "ci95": [
+     0.6201910033667708,
+     1.2010167819195336
+    ],
+    "p": 0.38236370618989524
+   },
+   "tag_coverage": {
+    "OR": 0.7249461430029529,
+    "ci95": [
+     0.49063830598278035,
+     1.0711493657270672
+    ],
+    "p": 0.10633409571349181
+   },
+   "label_coverage_early": {
+    "OR": 1.1353972940295256,
+    "ci95": [
+     0.6827754468179061,
+     1.8880687952350674
+    ],
+    "p": 0.6245776011359935
+   },
+   "log_early_volume": {
+    "OR": 0.7645311058792528,
+    "ci95": [
+     0.4637452022938541,
+     1.2604072429553188
+    ],
+    "p": 0.2925132294980314
+   }
+  }
+ },
+ "pooling": {
+  "criteria": {
+   "onset_pm1_ge_0.80": true,
+   "home_kappa_ge_0.60": true,
+   "o2r_m50_spearman_ge_0.70": true,
+   "retention_kappa_ge_0.40": false
+  },
+  "n_met": 3,
+  "verdict": "PARTIAL",
+  "retention_kappa_with_matched_definition_R_abs2": 0.9795716013524622,
+  "implication": "A failed Exp5-minus-Exp6 confirmation can be read as a failure of the H2 claim only if the frames agree on the retention and episode definitions. Retention kappa between Exp5 R (relative share rule) and Exp6 R_cj (absolute >= 2) is the binding criterion; with the matched absolute definition (R_abs2) the frames agree much better, so the confirmation must rebuild RETAINED/LOST on the Exp5 frame with Exp6's R_cj rule (R_abs2) before reading a null as a failure.",
+  "scope_limit": "agreement is measured on the 628 shared (newborn-candidate) concepts only; Exp6's frame is not a random subset of Exp5, so it may overstate agreement for Exp5-only (mostly non-newborn) concepts"
+ }
+}

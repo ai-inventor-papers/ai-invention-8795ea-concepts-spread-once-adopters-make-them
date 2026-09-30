@@ -1,0 +1,208 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://run.unl.pt/bitstreams/e0c3b563-f946-4b3a-9a9b-5c2583cfd12a/download
+Type: PDF
+Pattern: consecutive|backward condition|forward condition|we say that a country|new product|density (16 matches in 93819 chars)
+
+--- Content ---
+
+7715:...n is not 
+only infrequent, but a risky development endeavor. 
+So, when should we expect unrelated diversification to take place? 
+This paper contributes to the growing understanding of unrelated diversification by 
+empirically studying when it happens. We use two datasets that summarize product exports to 
+analyze the relatedness of diversification events at different levels of development—proxied 
+by economic complexity. To answer this question, we introduce a normalization of the 
+relatedness density metric (Hidalgo et al., 2007) that allows us to compare the relative 
+relatedness of diversification events for countries at different levels of development. We find 
+that unrelated diversification events grow together with a country’s development, until a 
+relatively high level of complexity.  
+We explain this change in the frequency of unrelated diversification by looking at the 
+relationship between complexity and relatedness. At low levels of complexity, locations are 
+related to low comple...
+--
+19902:...#
+!#"#
+&
+(1) 
+where $!" is a matrix summarizing the exports of country + in product ,, and !!" is a matrix 
+of specialization or Revealed Comparative Advantages.  
+We call the set of products present in a country with an RCA greater one (!!" ≥1) as that 
+countries’ product basket. Conversely, products with RCA below a one (!!" < 1) represent 
+countries’ option set (/!), i.e., they are not present yet in a country product basket but could 
+be, thus, present opportunities of development. 
+
+ 
+ 
+8 
+We say that a country (+) enters a new product (,), between years 0 and 0′, when there is 
+an increase in RCA from !!" < 1 in year y to !!" ≥1  in year 0#. However, since RCA time 
+series can have a significant amount of noise (e.g., due to exchange rate and commodity price 
+fluctuations), we consider two additional conditions. First, we consider a backward condition 
+requiring a location to have !!" < 1 for activity , for the Δ years preceding y, and a forward 
+condition requiring that a location c maintains !!" ≥1 for activity , during Δ years. In the 
+main manuscript we will consider a standard Δ = 4, in Appendix B we show the robustness of 
+our findings for variations of this parameter and RCA thresholds. These conditions help reduce 
+the number of false-positive observations. We only consider entry events as those events that 
+satisfy these conditions....
+--
+22006:...value equation whose solution is a location's ECI: 
+ECI! = 8
+9!"
+7"7!
+"
+8 9!"ECI!
+!
+(3) 
+ECI offers a measure of the combination of factors that drive the specialization pattern of a 
+location, whereas PCI measure the combination of factors required by a product or industry 
+(Hidalgo, 2021). Like ECI, PCI can be computed by solving the following eigenvalue equation: 
+PCI! = 8 9!"
+7"7!
+!
+8 9!"PCI!
+"
+(4) 
+
+ 
+ 
+9 
+Results and Discussion 
+Principle of Relatedness  
+We estimate relatedness using the density approach introduced by Hidalgo et al. (2007). We 
+start by estimating the proximity between a pair of products. To that end, we define 9!", a 
+matrix that is equal to one if a location has RCA in a product (!!" ≥1), and zero otherwise. 
+The number of activities present in a country, or its diversity, can be computed from 9!", as 
+9! = ∑9!"
+"
+. Conversely, the ubiquity of a product is equal to the number of countries where 
+the product is present with !!" ≥1 (9" = ∑9!"
+!
+). The proximity between...
+--
+23707:...ations, et cetera (Bahar, Rosenow, 
+Stein, & Wagner, 2019; Balland & Boschma, 2021; Delgado, Porter, & Stern, 2015; Diodato, 
+Neffke, & O’Clery, 2018; Farinha, Balland, Morrison, & Boschma, 2019; Hidalgo, 2021; Jara-
+Figueroa, Jun, Glaeser, & Hidalgo, 2018). 
+We can estimate the relatedness between products and regions by dividing the proximities 
+from a product to all of the products present in a country’s basket by the sum of the proximities 
+from that product to all products. The relatedness density, G!", of product , in country + is 
+defined as: 
+ω%$ =
+∑
+9!"#?""#
+"#
+∑
+?""#
+"#
+(6) 
+Figure 1 shows the probability that a country enters a product as a function of their 
+relatedness. While this figure verifies the basic finding of the principle of relatedness (Hidalgo 
+et al., 2018), it also shows that relatedness (G!") cannot be readily used for cross-country 
+comparison. More complex economies tend to have higher relatedness values across all 
+
+ 
+ 
+10 
+activities; so high-relatedness entry e...
+--
+24835:...ents are skewed towards those 
+of low complexity economies (red segments). Nevertheless, a relatedness value of 0.3 may be 
+considered low for a high complexity economy (e.g., an unrelated entry event) and high for a 
+low complexity economy (related entry event). This motivates the introduction of a metric of 
+relative relatedness (GJ!") that makes diversification events comparable across countries.  
+  
+Figure 1 – Probability of entering a new activity in two years as a function of relatedness density, estimated for 
+the SITC (left) and HS92 (right) international trade product classifications. More details on the procedure for the 
+identification of new products can be found in Appendix A. 
+Relative Relatedness 
+Unlike relatedness (G!"), which is an absolute measure, relative relatedness (GJ!") is a measure 
+that compares the relatedness of a countries' new activities with the average relatedness of the 
+activities in a countries' option set1 (activities with !!" < 1). The relative relatedness of 
+country + in product ,, in year 0 is computed as a simple z-transform: 
+GJ!" =
+G!" −∑
+G!"#
+L&!
+M
+"#
+N'!"#
+(7) 
+ 
+1 Alternatively, we could have made the mea...
+--
+26334:...f opportunities of country +, and N'!"# is the standard deviation 
+of the relatedness of the products (,′) in /!. Relative relatedness (GJ!") is comparable across 
+countries because it indicates whether a location enters a product that was more or less related 
+than the average product in its option set. Note that we are omitting the year index from all the 
+formulas, but these quantities are measured independently on a year-by-year basis. 
+Figure 2 shows the probability that a country enters a new product as a function of the 
+relative relatedness. While results are consistent with the principle of relatedness, in that 
+countries are more successful in entering activities for which they have relatively higher 
+relatedness, relative relatedness overcomes the limitations shown in Figure 1. In particular, we 
+now see that for the entire range of relative relatedness's we have a more evenly distributed 
+representation of countries with different levels of complexity. This helps mitigate the bias 
+introduced by an unnormalized metric of relatedness.  
+ 
+Figure 2 – Probability of entering a new activity in two years as a function of the relative relatedness density, 
+estimated for the SITC (left) and HS92 (right) international trade product classifications. 
+Unrelated Diversification and Economic Complexity 
+Equipped with our normalized measure of relatedness, we now explore the timing when 
+locations enter relatively more unrelated activities. To that end, we define Ω!,)→)+,  as the 
+average relative relatedness GJ!" of the products entered by country + between years 0 and 0 +
+2. 
+
+ 
+ 
+12 
+ 
+Figure 3 – Average deviation in the relatedness of new activiti...
+--
+28934:...ITC-4 (left) and HS92 (right) datasets. Solid lines show the best third-order 
+polynomial fit. 
+Figure 4 extends the analysis of Figure 3 but uses GDP per capita as a metric of 
+development (for the datasets for which this data was available). Although a similar behavior 
+is captured, the effect is not as pronounced as with the Economic Complexity Index.  
+Next, we explore the relationship between relative relatedness and development using a 
+model that regresses the relative relatedness of the new products developed as function of linear 
+
+ 
+ 
+13 
+and quadratic terms for a Human Capital Index, ECI, and GDP per capita; while controlling 
+for year fixed effects. Formally, the models take the form: 
+Ω!,)→)+)#  = S- × ECI!) + S, × ECI!)
+, + S. × UVWXYZ[!)\ + S/ × UVW,XYZ[!)\
++S0 × UVWXHC%1\ + S2 × UVW,XHC!)\ + ^) + _!)
+(8) 
+where the dependent variable Ω!,)→)+)# represents the average relative relatedness of the newly 
+products developed by country c between year 0 and 0′. The remaining variables in...
+--
+36872:...trivial pattern. If countries would enter activities at random, they would 
+all cluster around (0,0) (because of the definitions of GJ!" and PCI
+d !"). If countries would enter 
+the most related products only (blue dots simulation), they would cluster on the top of the chart. 
+In this simulation, we estimate the relative relatedness and relative complexity of products of 
+each country if they would have entered only in the most related products. For this purpose, we 
+consider the same number of new products as observed in the real datasets. 
+Stages of Economic Diversification 
+To explain the patterns identified above, we study the correlation between the relative 
+relatedness and relative complexity of a location's option set. This is defined using the Pearson 
+correlation coefficient as:  
+g! = +VhhXPCI
+d "!, GJ"!\ =
+∑
+XPCI
+d "! −〈PCI
+d "!〉\XGJ"! −〈GJ"!〉\
+&!,*
+∑
+XPCI
+d "! −〈PCI
+d "!〉\
+,XGJ"! −〈GJ"!〉\
+,
+&!,*
+(10) 
+In this equation, a negative correlation (g! < 0) implies that a location is relate...
+--
+[4 more matches not shown]
