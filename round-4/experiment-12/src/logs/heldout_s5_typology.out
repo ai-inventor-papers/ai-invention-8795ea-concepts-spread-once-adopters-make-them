@@ -1,5 +1,0 @@
-03:29:34|INFO   |rule 4 HELDOUT: ARI 0.443
-03:29:36|INFO   |rule 4 COHORT: ARI 0.378
-03:33:02|INFO   |held-out DL OPEN_all ~ PC1: rho 0.432 [0.312, 0.552] I2 0.94; partial 0.120 [0.085, 0.155]
-03:33:02|INFO   |held-out DL OPEN_home ~ PC1: rho 0.212 [0.089, 0.335] I2 0.90; partial 0.060 [0.023, 0.097]
-03:33:02|INFO   |held-out DL OPEN_size ~ PC1: rho 0.208 [0.005, 0.411] I2 0.97; partial 0.094 [0.06, 0.129]

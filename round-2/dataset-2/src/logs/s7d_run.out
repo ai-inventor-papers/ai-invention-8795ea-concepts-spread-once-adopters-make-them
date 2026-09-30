@@ -1,3 +1,0 @@
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1150.57it/s]
-18:38:06|INFO   |added 2896 embed065 candidates for list items
-18:40:16|INFO   |lists v2 done $1.4427: {'n_pairs': 1764, 'v1_model': 'google/gemini-2.5-flash-lite', 'v2_model': 'openai/gpt-4.1-mini', 'raw_agreement_5class': 0.5657596371882087, 'kappa_5class': 0.43142866159623827, 'raw_agreement_accept': 0.8134920634920635, 'kappa_accept': 0.6176414781082491, 'v2_accepted_pairs': 1997, 'v2_same_pairs': 455}

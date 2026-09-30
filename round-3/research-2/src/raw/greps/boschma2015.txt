@@ -1,2 +1,0 @@
-warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
-Error: HTTPSConnectionPool(host='econ.geo.uu.nl', port=443): Max retries exceeded with url: /peeg/peeg1316.pdf (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)')))

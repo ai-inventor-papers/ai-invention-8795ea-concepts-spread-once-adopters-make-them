@@ -1,6 +1,0 @@
-entries:
-  - path: .venv/
-    delete: regenerable
-    source: "bash install.sh"
-  - path: scan/agg_counts.npz
-    keep: full-corpus concept x year x venue-field count aggregates over 476M works; the OpenAlex snapshot drifts between releases
