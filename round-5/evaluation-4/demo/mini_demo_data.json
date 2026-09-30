@@ -1,5 +1,5 @@
 {
- "_about": "Inputs read by eval.py's assembly step (art_a43GbNXWVFaL, iteration-5 evaluation 4), copied verbatim from its results/ folder. evidence_synthesis holds the 18 body x feature psp rows (R0/R2/R3, O2r_m50) and the DL/HKSJ pools; the other keys are the small side files eval.py reads (ledger re-run, corrections applied, per-group table, reference summary, notes, artifact counts, input manifest). CSV files are stored as lists of row dicts with string values, exactly as csv.DictReader returns them.",
+ "_description": "Inputs of eval.py's assembly step (iteration-5 evaluation 4), copied from its results/ folder. CSV files are stored as lists of row dicts with string values, exactly as csv.DictReader yields them.",
  "evidence_synthesis": {
   "gates": {
    "G1": {
