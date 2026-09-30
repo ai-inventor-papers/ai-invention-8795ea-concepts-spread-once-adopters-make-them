@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "method_name": "naturalisation gap A*_h (candidate L) screen",
+    "description": "Background-adjusted, field-stratified, partially pooled lineage naturalisation gap vs the common B5 count baseline",
+    "screen_result_summary": {
+      "n_used": 48,
+      "delta_rho": -0.005644811115935844,
+      "ci90": [
+        -0.033844584160467935,
+        0.016635147457856648
+      ],
+      "rho_B": 0.8338037342596614,
+      "rho_BC": 0.8281589231437255,
+      "n_pos_groups": 0,
+      "survives": false,
+      "clause_results": {
+        "delta_rho_ge_0.10_and_ci_low_gt_0": {
+          "value": [
+            -0.005644811115935844,
+            [
+              -0.033844584160467935,
+              0.016635147457856648
+            ]
+          ],
+          "pass": false
+        },
+        "positive_groups_ge_3_of_4": {
+          "value": 0,
+          "pass": false
+        },
+        "reliability_ge_0.6": {
+          "value": 0.5835386475610421,
+          "pass": false
+        },
+        "size_abs_rho_le_0.6": {
+          "value": [
+            0.1447182724846087,
+            -0.17652806531130816
+          ],
+          "pass": true
+        }
+      },
+      "size_corr": {
+        "vol": 0.1447182724846087,
+        "growth": -0.17652806531130816,
+        "offhome_vol": 0.07469330192753998,
+        "offhome_growth": -0.033112582976598394
+      },
+      "eligibility_threshold": 60,
+      "credits_used": 139
+    },
+    "deviations": [
+      "D1 (plan): availability-cancelling MH table with home children as the control row, not the literal off-home-only GLMM (T0 test ii demonstrates the drift).",
+      "D2 (plan): two-stage crossed random-effects pooling (REML-EB via Henderson MME) with PyMC NUTS and a one-stage BinomialBayesMixedGLM as checks.",
+      "D8 (new, credit-bound): the shared OpenAlex daily pool (10,000 credits, five artifacts) was at 2,098 at start and fell below the 1,000-credit sibling floor after 139 own credits; OpenAlex S0 is comple..."
+    ]
+  },
+  "datasets": [
+    {
+      "dataset": "P78_dev_concepts_O2r",
+      "examples": [
+        {
+          "input": "{\"concept\": \"zinc finger nuclease\", \"t0\": 2005, \"dev_group\": \"Biochemistry, Genetics and Molecular Biology\", \"home_s2\": \"Biology\", \"B5\": {\"B_logvol\": 5.056245805348308, \"B_growth\": 1.3862943611198906,...",
+          "output": "5.1245",
+          "predict_baseline_B5": "5.1496",
+          "predict_our_method_B5_plus_A_h": "5.2137",
+          "metadata_task": "predict rarefied venue-field breadth O2r (m=30) in t0+6..t0+8 from t0..t0+4 features",
+          "metadata_fold": "Biochemistry, Genetics and Molecular Biology",
+          "metadata_O1": 1,
+          "metadata_O3": 0,
+          "metadata_newborn": true,
+          "metadata_eligible": 0,
+          "metadata_A_h": -0.6236388477496668,
+          "metadata_A_h_u": -0.10362199157947072,
+          "metadata_A_h_MH": -0.9515830224297892,
+          "metadata_A_h_crude": -0.4706137738474837,
+          "metadata_raw_LOR": -0.08455514215105583,
+          "metadata_bg_LOR": 0.2419516759763174,
+          "metadata_relay_share": 0.2513721999703308,
+          "metadata_self_share": 0.2838443139813003,
+          "metadata_coverage": 0.5069444444444444,
+          "metadata_R_away": 0.1636148614526407,
+          "metadata_A_unif": -0.19084947269253477,
+          "metadata_A_imp": -0.04545203420587324,
+          "metadata_n_nat_fields": 0,
+          "metadata_max_rho": -0.46354271701682453,
+          "metadata_n_children": 64,
+          "metadata_n_links": 260
+        },
+        {
+          "input": "{\"concept\": \"Web 2.0\", \"t0\": 2006, \"dev_group\": \"Computer Science\", \"home_s2\": \"Computer Science\", \"B5\": {\"B_logvol\": 8.888894669371593, \"B_growth\": 0.9093702890295813, \"B_offhome\": 0.5240388694453308...",
+          "output": "9.6646",
+          "predict_baseline_B5": "7.8375",
+          "predict_our_method_B5_plus_A_h": "7.8377",
+          "metadata_task": "predict rarefied venue-field breadth O2r (m=30) in t0+6..t0+8 from t0..t0+4 features",
+          "metadata_fold": "Computer Science",
+          "metadata_O1": 0,
+          "metadata_O3": 0,
+          "metadata_newborn": true,
+          "metadata_eligible": 1,
+          "metadata_A_h": -0.0637597650235339,
+          "metadata_A_h_u": 0.24209453346867554,
+          "metadata_A_h_MH": -0.35399443727886815,
+          "metadata_A_h_crude": -0.4714930977597964,
+          "metadata_raw_LOR": 0.33810526929950263,
+          "metadata_bg_LOR": 0.6965492097081195,
+          "metadata_relay_share": 0.29310114013156724,
+          "metadata_self_share": 0.11018998272884283,
+          "metadata_coverage": 0.07675787464206173,
+          "metadata_R_away": 0.06195520753332921,
+          "metadata_A_unif": 0.05896102891567065,
+          "metadata_A_imp": 0.06431419289437787,
+          "metadata_n_nat_fields": 7,
+          "metadata_max_rho": 1.3862613082758464,
+          "metadata_n_children": 867,
+          "metadata_n_links": 1216
+        },
+        {
+          "input": "{\"concept\": \"sentiment analysis\", \"t0\": 2007, \"dev_group\": \"Computer Science\", \"home_s2\": \"Computer Science\", \"B5\": {\"B_logvol\": 5.834810737062605, \"B_growth\": 1.6236225474260568, \"B_offhome\": 0.29871...",
+          "output": "5.8543",
+          "predict_baseline_B5": "5.3489",
+          "predict_our_method_B5_plus_A_h": "5.4215",
+          "metadata_task": "predict rarefied venue-field breadth O2r (m=30) in t0+6..t0+8 from t0..t0+4 features",
+          "metadata_fold": "Computer Science",
+          "metadata_O1": 1,
+          "metadata_O3": 0,
+          "metadata_newborn": true,
+          "metadata_eligible": 0,
+          "metadata_A_h": -0.18619466530375536,
+          "metadata_A_h_u": -0.24345639225361818,
+          "metadata_A_h_MH": -0.6970029629440071,
+          "metadata_A_h_crude": -0.22942087083139925,
+          "metadata_raw_LOR": 0.19610336972275627,
+          "metadata_bg_LOR": 0.3204405241876497,
+          "metadata_relay_share": 0.2177877428998505,
+          "metadata_self_share": 0.05423280423280423,
+          "metadata_coverage": 0.2076923076923077,
+          "metadata_R_away": 0.13134883720930232,
+          "metadata_A_unif": 0.5889915152915095,
+          "metadata_A_imp": 0.5612852635517458,
+          "metadata_n_nat_fields": 0,
+          "metadata_max_rho": -0.0890000200024173,
+          "metadata_n_children": 180,
+          "metadata_n_links": 248
+        }
+      ]
+    },
+    {
+      "dataset": "P78_dev_field_retention_units",
+      "examples": [
+        {
+          "input": "{\"concept\": \"zinc finger nuclease\", \"field\": \"Engineering\", \"dev_group\": \"Biochemistry, Genetics and Molecular Biology\", \"log_n_j_early\": 2.327277705584417, \"growth_j\": 0.7252354951114458, \"share_j\": ...",
+          "output": "1",
+          "predict_rho_star_cj": "-0.4635",
+          "metadata_has_data": 1,
+          "metadata_task": "field retention R_j of off-home field j in t0+6..t0+8"
+        },
+        {
+          "input": "{\"concept\": \"zinc finger nuclease\", \"field\": \"Medicine\", \"dev_group\": \"Biochemistry, Genetics and Molecular Biology\", \"log_n_j_early\": 3.578878558899608, \"growth_j\": 0.8685000680378064, \"share_j\": 0.2...",
+          "output": "1",
+          "predict_rho_star_cj": "-0.7037",
+          "metadata_has_data": 1,
+          "metadata_task": "field retention R_j of off-home field j in t0+6..t0+8"
+        },
+        {
+          "input": "{\"concept\": \"zinc finger nuclease\", \"field\": \"Chemistry\", \"dev_group\": \"Biochemistry, Genetics and Molecular Biology\", \"log_n_j_early\": 2.03688192726104, \"growth_j\": 1.0414538748281612, \"share_j\": 0.0...",
+          "output": "1",
+          "predict_rho_star_cj": "0.1483",
+          "metadata_has_data": 0,
+          "metadata_task": "field retention R_j of off-home field j in t0+6..t0+8"
+        }
+      ]
+    }
+  ]
+}
