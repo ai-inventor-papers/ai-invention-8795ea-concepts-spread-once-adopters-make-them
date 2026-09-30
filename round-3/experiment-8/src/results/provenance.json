@@ -1,0 +1,66 @@
+{
+ "lib/matcher.py": {
+  "source": "EXP5 matcher.py (import line -> common5)",
+  "sha256": "652635cba4f9f5daabd2084f283db6469495bb85dc7e7b5d32ed4480b4356fbb"
+ },
+ "lib/rangefile.py": {
+  "source": "EXP5 rangefile.py",
+  "sha256": "0ae5c0b9c527da96cd4bc84a78247aa9eeec1d0644fe43ada8ec95a263fa9b14"
+ },
+ "lib/common5.py": {
+  "source": "EXP5 common.py (mkdir side effect removed)",
+  "sha256": "733282462213a461dd20dde257267e3fdd7d5c2d56e3fad9f2626f02a6ab95e2"
+ },
+ "inputs/lexicon_v1.parquet": {
+  "source": "EXP5 lexicon_v1.parquet (sha matches frozen_lexicon.sha256)",
+  "sha256": "b9f410fa998037297a25960678aaab85a17e080aca1c79c2b47394eb28a35ae8"
+ },
+ "inputs/source_field.parquet": {
+  "source": "EXP5 results/source_field.parquet",
+  "sha256": "78d2bff6bbb6789a302dde2a52d2f63ca0e74b8512c5e669e2c9c6e209d139a4"
+ },
+ "snapshot/works_manifest.json": {
+  "source": "EXP5 snapshot/works_manifest.json",
+  "sha256": "a72ff4b43c9d13d0911386e1a5dd1b9d71b3c1080ac44ccfc016e11d6390a059"
+ },
+ "lib/ego_exp3_orig.py": {
+  "source": "EXP3 features.py (unmodified)",
+  "sha256": "af7b46c965433008d95e7887dddc49f53e037481f9c06761e97a527fe4c64120"
+ },
+ "lib/common3.py": {
+  "source": "EXP3 common.py",
+  "sha256": "ae354fc0d1c97c7434325d3c42326dd8c42e07fcbc7d2017dd0380c6e6d9970e"
+ },
+ "inputs/backbone/slice0.npz": {
+  "source": "EXP3 backbone",
+  "sha256": "a9f39251bcbf1916947ae02ba0d341087bb04e62bd48b2e94f2936c8cda1179a"
+ },
+ "inputs/backbone/slice1.npz": {
+  "source": "EXP3 backbone",
+  "sha256": "6c20e691e181d4c556156be19f959381aa2210f1d35fa43b45c67e77c95673b5"
+ },
+ "inputs/backbone/slice2.npz": {
+  "source": "EXP3 backbone",
+  "sha256": "a51f9a9c3f77fd33526d41ca61109724452280bca3ebc7f4c830146ba3217426"
+ },
+ "inputs/topic_ids.json": {
+  "source": "EXP3 scan/topic_ids.json",
+  "sha256": "f34b9634af895bb36216114d79d980aa6a5f968d71ee3ba5b4797787a76d8223"
+ },
+ "inputs/topic_meta.csv": {
+  "source": "EXP3 results/topic_meta.csv",
+  "sha256": "df38cad6cd268ef3a991d9a1ec816a9549b169a0ae4336e3e7cf965a54772765"
+ },
+ "lib/h2.py": {
+  "source": "EXP6 lib/h2.py",
+  "sha256": "c0886d2410fc14aae21dac338a8bd510a0e97da638642181f1060fe7cd847421"
+ },
+ "lib/stats_core.py": {
+  "source": "EXP6 lib/stats_core.py",
+  "sha256": "a1c30faeddf9a658bc6dcd9826619cd2f42f51bfa856ef772c1d293b7f2582e9"
+ },
+ "inputs/field_backbone.json": {
+  "source": "EXP6 inputs/field_backbone.json",
+  "sha256": "c8bbe41ee1658351917d2081e677f9f5285bea6188c5f7c0c18a968c7d5ed28d"
+ }
+}

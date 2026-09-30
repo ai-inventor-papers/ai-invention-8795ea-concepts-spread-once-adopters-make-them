@@ -1,0 +1,131 @@
+group,source,n,share_found,share_not_applicable,share_with_usable_event,share_qualifying_in_window,match_method_mix,relation_mix
+DEV_CS,acm_ccs,373,0.19839142091152814,0.0938337801608579,0.19839142091152814,0.128686327077748,"{'exact_norm_label': 0.459, 'wikidata_property': 0.349, 'fuzzy+llm': 0.158, 'exact_norm_alias+llm': 0.034}","{'same': 0.986, 'narrower': 0.014}"
+DEV_CS,gartner_hype_cycle,373,0.09115281501340483,0.0,0.09115281501340483,0.0160857908847185,"{'embed+llm': 0.606, 'fuzzy+llm': 0.156, 'exact_norm_label+llm': 0.147, 'exact_norm_alias+llm': 0.092}","{'narrower': 0.404, 'broader': 0.33, 'same': 0.266}"
+DEV_CS,mesh,373,0.05361930294906166,0.8793565683646113,0.05361930294906166,0.00804289544235925,"{'wikidata_property': 0.8, 'exact_norm_label+llm': 0.2}","{'same': 0.95, 'narrower': 0.05}"
+DEV_CS,mit_tr10,373,0.021447721179624665,0.0,0.021447721179624665,0.0,"{'embed+llm': 0.778, 'fuzzy+llm': 0.111, 'exact_norm_label+llm': 0.111}","{'narrower': 0.778, 'same': 0.111, 'broader': 0.111}"
+DEV_CS,msc,373,0.013404825737265416,0.806970509383378,0.013404825737265416,0.0,"{'fuzzy+llm': 0.5, 'wikidata_property': 0.25, 'exact_norm_label': 0.25}",{'same': 1.0}
+DEV_CS,nature_methods_moty,373,0.0,0.9571045576407506,0.0,0.0,{},{}
+DEV_CS,pacs_physh,373,0.021447721179624665,0.9276139410187667,0.021447721179624665,0.002680965147453083,"{'exact_norm_label': 0.875, 'exact_norm_alias+llm': 0.125}",{'same': 1.0}
+DEV_CS,physics_world_boty,373,0.0,0.9436997319034852,0.0,0.0,{},{}
+DEV_CS,research_fronts,373,0.005361930294906166,0.0,0.005361930294906166,0.0,{'embed+llm': 1.0},"{'same': 0.5, 'narrower': 0.5}"
+DEV_CS,science_boty,373,0.0,0.0,0.0,0.0,{},{}
+DEV_CS,wikidata,373,0.06970509383378017,0.0,0.06702412868632708,0.005361930294906166,{'wikidata_property': 1.0},{'same': 1.0}
+DEV_CS,wikipedia_en,373,0.9946380697050938,0.0,0.8284182305630027,0.19839142091152814,{'wikidata_sitelink': 1.0},{'same': 1.0}
+DEV_CS,jel,373,0.002680965147453083,0.9329758713136729,0.0,0.0,{},{}
+DEV_Eng,acm_ccs,1345,0.03420074349442379,0.7308550185873606,0.03420074349442379,0.016356877323420074,"{'exact_norm_label': 0.548, 'fuzzy+llm': 0.262, 'exact_norm_alias+llm': 0.119, 'wikidata_property': 0.071}",{'same': 1.0}
+DEV_Eng,gartner_hype_cycle,1345,0.020074349442379184,0.0,0.020074349442379184,0.0007434944237918215,"{'embed+llm': 0.618, 'fuzzy+llm': 0.176, 'exact_norm_alias+llm': 0.147, 'exact_norm_label+llm': 0.059}","{'narrower': 0.515, 'broader': 0.382, 'same': 0.103}"
+DEV_Eng,mesh,1345,0.0654275092936803,0.6877323420074349,0.0654275092936803,0.01412639405204461,"{'wikidata_property': 0.809, 'exact_norm_label+llm': 0.146, 'exact_norm_alias+llm': 0.045}","{'same': 0.989, 'narrower': 0.011}"
+DEV_Eng,mit_tr10,1345,0.017100371747211896,0.0,0.017100371747211896,0.001486988847583643,"{'embed+llm': 0.769, 'exact_norm_label+llm': 0.115, 'fuzzy+llm': 0.115}","{'narrower': 0.577, 'broader': 0.231, 'same': 0.192}"
+DEV_Eng,msc,1345,0.01486988847583643,0.8736059479553904,0.01486988847583643,0.0,"{'fuzzy+llm': 0.51, 'wikidata_property': 0.294, 'exact_norm_label': 0.137, 'exact_norm_alias+llm': 0.059}","{'same': 0.882, 'broader': 0.118}"
+DEV_Eng,nature_methods_moty,1345,0.0,0.7286245353159851,0.0,0.0,{},{}
+DEV_Eng,pacs_physh,1345,0.05947955390334572,0.420817843866171,0.05947955390334572,0.009665427509293681,"{'exact_norm_label': 0.504, 'fuzzy+llm': 0.348, 'exact_norm_alias+llm': 0.149}","{'same': 0.901, 'narrower': 0.099}"
+DEV_Eng,physics_world_boty,1345,0.0037174721189591076,0.4356877323420074,0.0037174721189591076,0.0,{'embed+llm': 1.0},"{'narrower': 0.8, 'broader': 0.2}"
+DEV_Eng,research_fronts,1345,0.011152416356877323,0.0,0.011152416356877323,0.0007434944237918215,"{'embed+llm': 0.619, 'fuzzy+llm': 0.19, 'exact_norm_alias+llm': 0.095, 'exact_norm_label+llm': 0.095}","{'narrower': 0.524, 'same': 0.476}"
+DEV_Eng,science_boty,1345,0.0,0.0,0.0,0.0,{},{}
+DEV_Eng,wikidata,1345,0.023048327137546468,0.0,0.021561338289962824,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+DEV_Eng,wikipedia_en,1345,0.9940520446096655,0.0,0.7925650557620818,0.22379182156133828,{'wikidata_sitelink': 1.0},{'same': 1.0}
+DEV_Eng,jel,1345,0.0022304832713754648,0.9390334572490706,0.0,0.0,{},{}
+DEV_BGM,acm_ccs,483,0.004140786749482402,0.9875776397515528,0.004140786749482402,0.002070393374741201,{'exact_norm_label': 1.0},{'same': 1.0}
+DEV_BGM,gartner_hype_cycle,483,0.0,0.0,0.0,0.0,{},{}
+DEV_BGM,mesh,483,0.6066252587991718,0.006211180124223602,0.6066252587991718,0.13871635610766045,"{'wikidata_property': 0.694, 'exact_norm_label+llm': 0.199, 'exact_norm_alias+llm': 0.107}","{'same': 0.984, 'narrower': 0.013, 'broader': 0.003}"
+DEV_BGM,mit_tr10,483,0.014492753623188406,0.0,0.014492753623188406,0.002070393374741201,"{'embed+llm': 0.5, 'exact_norm_label+llm': 0.375, 'exact_norm_alias+llm': 0.125}","{'narrower': 0.625, 'same': 0.375}"
+DEV_BGM,msc,483,0.002070393374741201,0.989648033126294,0.002070393374741201,0.002070393374741201,{'fuzzy+llm': 1.0},{'same': 1.0}
+DEV_BGM,nature_methods_moty,483,0.010351966873706004,0.012422360248447204,0.010351966873706004,0.002070393374741201,"{'embed+llm': 0.875, 'wikilink+llm': 0.125}","{'narrower': 0.625, 'broader': 0.25, 'same': 0.125}"
+DEV_BGM,pacs_physh,483,0.022774327122153208,0.8053830227743272,0.022774327122153208,0.002070393374741201,"{'exact_norm_label': 0.714, 'exact_norm_alias+llm': 0.19, 'fuzzy+llm': 0.095}",{'same': 1.0}
+DEV_BGM,physics_world_boty,483,0.0,0.8260869565217391,0.0,0.0,{},{}
+DEV_BGM,research_fronts,483,0.022774327122153208,0.0,0.022774327122153208,0.0,{'embed+llm': 1.0},"{'narrower': 0.733, 'same': 0.267}"
+DEV_BGM,science_boty,483,0.006211180124223602,0.0,0.006211180124223602,0.0,"{'wikilink+llm': 0.667, 'embed+llm': 0.333}","{'narrower': 0.667, 'same': 0.333}"
+DEV_BGM,wikidata,483,0.008281573498964804,0.0,0.008281573498964804,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+DEV_BGM,wikipedia_en,483,0.9958592132505176,0.0,0.7971014492753623,0.3064182194616977,{'wikidata_sitelink': 1.0},{'same': 1.0}
+DEV_BGM,jel,483,0.0,1.0,0.0,0.0,{},{}
+DEV_Med,acm_ccs,2570,0.0011673151750972762,0.9836575875486381,0.0011673151750972762,0.0007782101167315176,"{'exact_norm_label': 0.833, 'exact_norm_alias+llm': 0.167}",{'same': 1.0}
+DEV_Med,gartner_hype_cycle,2570,0.0,0.0,0.0,0.0,{},{}
+DEV_Med,mesh,2570,0.6914396887159533,0.020622568093385214,0.6914396887159533,0.09766536964980545,"{'wikidata_property': 0.784, 'exact_norm_label+llm': 0.163, 'exact_norm_alias+llm': 0.053}","{'same': 0.98, 'narrower': 0.019, 'broader': 0.001}"
+DEV_Med,mit_tr10,2570,0.0038910505836575876,0.0,0.0038910505836575876,0.0,"{'embed+llm': 0.8, 'fuzzy+llm': 0.2}","{'narrower': 0.9, 'same': 0.1}"
+DEV_Med,msc,2570,0.0,0.9891050583657588,0.0,0.0,{},{}
+DEV_Med,nature_methods_moty,2570,0.0003891050583657588,0.0377431906614786,0.0003891050583657588,0.0,{'wikilink+llm': 1.0},{'same': 1.0}
+DEV_Med,pacs_physh,2570,0.007003891050583658,0.9237354085603113,0.007003891050583658,0.0007782101167315176,"{'exact_norm_alias+llm': 0.393, 'exact_norm_label': 0.393, 'fuzzy+llm': 0.214}","{'same': 0.786, 'narrower': 0.214}"
+DEV_Med,physics_world_boty,2570,0.0,0.9303501945525292,0.0,0.0,{},{}
+DEV_Med,research_fronts,2570,0.007392996108949416,0.0,0.007392996108949416,0.0,"{'embed+llm': 0.935, 'fuzzy+llm': 0.065}","{'narrower': 0.761, 'same': 0.239}"
+DEV_Med,science_boty,2570,0.0007782101167315176,0.0,0.0007782101167315176,0.0,"{'embed+llm': 0.5, 'wikilink+llm': 0.5}","{'narrower': 0.5, 'broader': 0.5}"
+DEV_Med,wikidata,2570,0.007003891050583658,0.0,0.005836575875486381,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+DEV_Med,wikipedia_en,2570,0.9953307392996109,0.0,0.7945525291828793,0.28171206225680934,{'wikidata_sitelink': 1.0},{'same': 1.0}
+DEV_Med,jel,2570,0.0,0.9778210116731517,0.0,0.0,{},{}
+PHYS,acm_ccs,742,0.004043126684636119,0.9204851752021563,0.004043126684636119,0.0026954177897574125,"{'wikidata_property': 0.4, 'exact_norm_alias+llm': 0.4, 'fuzzy+llm': 0.2}","{'same': 0.8, 'narrower': 0.2}"
+PHYS,gartner_hype_cycle,742,0.0,0.0,0.0,0.0,{},{}
+PHYS,mesh,742,0.16307277628032346,0.39892183288409705,0.16307277628032346,0.02021563342318059,"{'wikidata_property': 0.688, 'exact_norm_label+llm': 0.272, 'exact_norm_alias+llm': 0.04}",{'same': 1.0}
+PHYS,mit_tr10,742,0.005390835579514825,0.0,0.005390835579514825,0.0,"{'fuzzy+llm': 0.4, 'embed+llm': 0.4, 'exact_norm_label+llm': 0.2}","{'broader': 0.8, 'same': 0.2}"
+PHYS,msc,742,0.005390835579514825,0.9299191374663073,0.005390835579514825,0.0,"{'exact_norm_label': 0.333, 'fuzzy+llm': 0.222, 'wikidata_property': 0.222, 'exact_norm_alias+llm': 0.222}","{'same': 0.778, 'broader': 0.222}"
+PHYS,nature_methods_moty,742,0.0,0.4123989218328841,0.0,0.0,{},{}
+PHYS,pacs_physh,742,0.14690026954177898,0.3504043126684636,0.14690026954177898,0.016172506738544475,"{'exact_norm_label': 0.66, 'fuzzy+llm': 0.175, 'exact_norm_alias+llm': 0.165}","{'same': 0.985, 'narrower': 0.015}"
+PHYS,physics_world_boty,742,0.009433962264150943,0.3746630727762803,0.009433962264150943,0.0,"{'embed+llm': 0.9, 'wikilink+llm': 0.1}","{'narrower': 0.7, 'broader': 0.3}"
+PHYS,research_fronts,742,0.02830188679245283,0.0,0.02830188679245283,0.0,"{'embed+llm': 0.879, 'fuzzy+llm': 0.121}","{'narrower': 0.545, 'same': 0.455}"
+PHYS,science_boty,742,0.0013477088948787063,0.0,0.0013477088948787063,0.0,{'wikilink+llm': 1.0},{'same': 1.0}
+PHYS,wikidata,742,0.025606469002695417,0.0,0.025606469002695417,0.0013477088948787063,{'wikidata_property': 1.0},{'same': 1.0}
+PHYS,wikipedia_en,742,0.9986522911051213,0.0,0.7991913746630728,0.28706199460916443,{'wikidata_sitelink': 1.0},{'same': 1.0}
+PHYS,jel,742,0.0,0.9905660377358491,0.0,0.0,{},{}
+LIFEENV,acm_ccs,1113,0.0026954177897574125,0.9685534591194969,0.0026954177897574125,0.0017969451931716084,"{'fuzzy+llm': 0.571, 'wikidata_property': 0.286, 'exact_norm_label': 0.143}",{'same': 1.0}
+LIFEENV,gartner_hype_cycle,1113,0.0026954177897574125,0.0,0.0026954177897574125,0.0008984725965858042,"{'exact_norm_alias+llm': 0.462, 'fuzzy+llm': 0.385, 'embed+llm': 0.154}","{'same': 0.692, 'narrower': 0.308}"
+LIFEENV,mesh,1113,0.4088050314465409,0.04672057502246182,0.4088050314465409,0.04672057502246182,"{'wikidata_property': 0.716, 'exact_norm_label+llm': 0.229, 'exact_norm_alias+llm': 0.056}","{'same': 0.964, 'narrower': 0.032, 'broader': 0.004}"
+LIFEENV,mit_tr10,1113,0.0026954177897574125,0.0,0.0026954177897574125,0.0,"{'fuzzy+llm': 0.5, 'exact_norm_alias+llm': 0.25, 'embed+llm': 0.25}","{'same': 0.5, 'broader': 0.25, 'narrower': 0.25}"
+LIFEENV,msc,1113,0.0,0.9964061096136568,0.0,0.0,{},{}
+LIFEENV,nature_methods_moty,1113,0.0,0.05750224618149147,0.0,0.0,{},{}
+LIFEENV,pacs_physh,1113,0.009883198562443846,0.9182389937106918,0.009883198562443846,0.0026954177897574125,"{'exact_norm_label': 0.579, 'exact_norm_alias+llm': 0.263, 'fuzzy+llm': 0.158}",{'same': 1.0}
+LIFEENV,physics_world_boty,1113,0.0008984725965858042,0.9263252470799641,0.0008984725965858042,0.0,{'wikilink+llm': 1.0},{'narrower': 1.0}
+LIFEENV,research_fronts,1113,0.015274034141958671,0.0,0.015274034141958671,0.0008984725965858042,{'embed+llm': 1.0},"{'narrower': 0.6, 'same': 0.35, 'broader': 0.05}"
+LIFEENV,science_boty,1113,0.0,0.0,0.0,0.0,{},{}
+LIFEENV,wikidata,1113,0.009883198562443846,0.0,0.006289308176100629,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+LIFEENV,wikipedia_en,1113,0.9919137466307277,0.0,0.7870619946091644,0.22192273135669363,{'wikidata_sitelink': 1.0},{'same': 1.0}
+LIFEENV,jel,1113,0.0017969451931716084,0.9667565139263252,0.0,0.0,{},{}
+SOC,acm_ccs,1352,0.022189349112426034,0.893491124260355,0.022189349112426034,0.011094674556213017,"{'exact_norm_label': 0.358, 'wikidata_property': 0.34, 'exact_norm_alias+llm': 0.208, 'fuzzy+llm': 0.094}","{'same': 0.981, 'narrower': 0.019}"
+SOC,gartner_hype_cycle,1352,0.011834319526627219,0.0,0.011834319526627219,0.0029585798816568047,"{'embed+llm': 0.488, 'exact_norm_label+llm': 0.341, 'fuzzy+llm': 0.146, 'exact_norm_alias+llm': 0.024}","{'narrower': 0.488, 'same': 0.439, 'broader': 0.073}"
+SOC,mesh,1352,0.14644970414201183,0.6420118343195266,0.14644970414201183,0.019230769230769232,"{'wikidata_property': 0.77, 'exact_norm_label+llm': 0.17, 'exact_norm_alias+llm': 0.06}","{'same': 0.985, 'narrower': 0.01, 'broader': 0.005}"
+SOC,mit_tr10,1352,0.0,0.0,0.0,0.0,{},{}
+SOC,msc,1352,0.010355029585798817,0.9297337278106509,0.010355029585798817,0.0036982248520710057,"{'fuzzy+llm': 0.389, 'wikidata_property': 0.333, 'exact_norm_alias+llm': 0.222, 'exact_norm_label': 0.056}","{'same': 0.806, 'broader': 0.194}"
+SOC,nature_methods_moty,1352,0.0,0.8439349112426036,0.0,0.0,{},{}
+SOC,pacs_physh,1352,0.005177514792899409,0.9644970414201184,0.005177514792899409,0.0014792899408284023,"{'exact_norm_label': 0.5, 'fuzzy+llm': 0.4, 'exact_norm_alias+llm': 0.1}",{'same': 1.0}
+SOC,physics_world_boty,1352,0.0,0.9696745562130178,0.0,0.0,{},{}
+SOC,research_fronts,1352,0.0029585798816568047,0.0,0.0029585798816568047,0.0,{'embed+llm': 1.0},"{'same': 0.5, 'narrower': 0.5}"
+SOC,science_boty,1352,0.0007396449704142012,0.0,0.0007396449704142012,0.0,{'wikilink+llm': 1.0},{'broader': 1.0}
+SOC,wikidata,1352,0.026627218934911243,0.0,0.022189349112426034,0.0007396449704142012,{'wikidata_property': 1.0},{'same': 1.0}
+SOC,wikipedia_en,1352,0.9933431952662722,0.0,0.7877218934911243,0.15236686390532544,{'wikidata_sitelink': 1.0},{'same': 1.0}
+SOC,jel,1352,0.015532544378698224,0.6627218934911243,0.0,0.0,{},{}
+MATHDEC,acm_ccs,165,0.06060606060606061,0.8121212121212121,0.06060606060606061,0.006060606060606061,"{'exact_norm_label': 0.533, 'fuzzy+llm': 0.4, 'exact_norm_alias+llm': 0.067}",{'same': 1.0}
+MATHDEC,gartner_hype_cycle,165,0.0,0.0,0.0,0.0,{},{}
+MATHDEC,mesh,165,0.012121212121212121,0.9272727272727272,0.012121212121212121,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+MATHDEC,mit_tr10,165,0.0,0.0,0.0,0.0,{},{}
+MATHDEC,msc,165,0.2545454545454545,0.08484848484848485,0.2545454545454545,0.012121212121212121,"{'exact_norm_label': 0.472, 'fuzzy+llm': 0.25, 'wikidata_property': 0.204, 'exact_norm_alias+llm': 0.074}","{'same': 0.907, 'broader': 0.093}"
+MATHDEC,nature_methods_moty,165,0.0,0.9575757575757575,0.0,0.0,{},{}
+MATHDEC,pacs_physh,165,0.01818181818181818,0.7878787878787878,0.01818181818181818,0.0,"{'exact_norm_label': 0.75, 'exact_norm_alias+llm': 0.25}",{'same': 1.0}
+MATHDEC,physics_world_boty,165,0.0,0.8,0.0,0.0,{},{}
+MATHDEC,research_fronts,165,0.006060606060606061,0.0,0.006060606060606061,0.0,{'fuzzy+llm': 1.0},{'same': 1.0}
+MATHDEC,science_boty,165,0.0,0.0,0.0,0.0,{},{}
+MATHDEC,wikidata,165,0.04242424242424243,0.0,0.03636363636363636,0.0,{'wikidata_property': 1.0},{'same': 1.0}
+MATHDEC,wikipedia_en,165,1.0,0.0,0.8181818181818182,0.15757575757575756,{'wikidata_sitelink': 1.0},{'same': 1.0}
+MATHDEC,jel,165,0.0,0.9757575757575757,0.0,0.0,{},{}
+COHORT,acm_ccs,4356,0.01147842056932966,0.8689164370982553,0.01147842056932966,0.004591368227731864,"{'exact_norm_label': 0.292, 'wikidata_property': 0.271, 'fuzzy+llm': 0.25, 'exact_norm_alias+llm': 0.188}","{'same': 0.969, 'narrower': 0.021, 'broader': 0.01}"
+COHORT,gartner_hype_cycle,4356,0.011707988980716254,0.0,0.011707988980716254,0.0025252525252525255,"{'embed+llm': 0.521, 'exact_norm_label+llm': 0.225, 'fuzzy+llm': 0.16, 'exact_norm_alias+llm': 0.095}","{'narrower': 0.42, 'same': 0.355, 'broader': 0.225}"
+COHORT,mesh,4356,0.3007346189164371,0.3418273645546373,0.3007346189164371,0.05716253443526171,"{'wikidata_property': 0.781, 'exact_norm_label+llm': 0.156, 'exact_norm_alias+llm': 0.063}","{'same': 0.979, 'narrower': 0.019, 'broader': 0.002}"
+COHORT,mit_tr10,4356,0.008494031221303948,0.0,0.008494031221303948,0.0009182736455463728,"{'embed+llm': 0.644, 'exact_norm_label+llm': 0.2, 'fuzzy+llm': 0.156}","{'broader': 0.467, 'narrower': 0.289, 'same': 0.244}"
+COHORT,msc,4356,0.013085399449035813,0.9173553719008265,0.013085399449035813,0.0004591368227731864,"{'fuzzy+llm': 0.351, 'exact_norm_label': 0.297, 'wikidata_property': 0.264, 'exact_norm_alias+llm': 0.088}","{'same': 0.865, 'broader': 0.115, 'narrower': 0.02}"
+COHORT,nature_methods_moty,4356,0.0018365472910927456,0.4081726354453627,0.0018365472910927456,0.0002295684113865932,"{'wikilink+llm': 0.556, 'embed+llm': 0.444}","{'narrower': 0.444, 'same': 0.333, 'broader': 0.222}"
+COHORT,pacs_physh,4356,0.029843893480257115,0.7885674931129476,0.029843893480257115,0.020202020202020204,"{'exact_norm_label': 0.621, 'fuzzy+llm': 0.221, 'exact_norm_alias+llm': 0.158}","{'same': 0.971, 'narrower': 0.029}"
+COHORT,physics_world_boty,4356,0.0025252525252525255,0.7963728191000918,0.0025252525252525255,0.0002295684113865932,"{'embed+llm': 0.75, 'wikilink+llm': 0.167, 'exact_norm_label+llm': 0.083}","{'narrower': 0.667, 'same': 0.25, 'broader': 0.083}"
+COHORT,research_fronts,4356,0.02089072543617998,0.0,0.02089072543617998,0.007805325987144169,"{'embed+llm': 0.896, 'fuzzy+llm': 0.062, 'exact_norm_label+llm': 0.028, 'exact_norm_alias+llm': 0.014}","{'same': 0.535, 'narrower': 0.458, 'broader': 0.007}"
+COHORT,science_boty,4356,0.001147842056932966,0.0,0.001147842056932966,0.0,"{'embed+llm': 0.6, 'wikilink+llm': 0.2, 'fuzzy+llm': 0.2}",{'narrower': 1.0}
+COHORT,wikidata,4356,0.02157943067033976,0.0,0.018824609733700644,0.0006887052341597796,{'wikidata_property': 1.0},{'same': 1.0}
+COHORT,wikipedia_en,4356,0.9942607897153352,0.0,0.716712580348944,0.014692378328741965,{'wikidata_sitelink': 1.0},{'same': 1.0}
+COHORT,jel,4356,0.003443526170798898,0.9067952249770431,0.0,0.0,{},{}
+ALL,acm_ccs,12499,0.01768141451316105,0.8729498359868789,0.01768141451316105,0.00904072325786063,"{'exact_norm_label': 0.428, 'wikidata_property': 0.252, 'fuzzy+llm': 0.204, 'exact_norm_alias+llm': 0.115}","{'same': 0.983, 'narrower': 0.014, 'broader': 0.002}"
+ALL,gartner_hype_cycle,12499,0.010480838467077366,0.0,0.010480838467077366,0.0018401472117769422,"{'embed+llm': 0.545, 'exact_norm_label+llm': 0.18, 'fuzzy+llm': 0.168, 'exact_norm_alias+llm': 0.108}","{'narrower': 0.435, 'same': 0.308, 'broader': 0.258}"
+ALL,mesh,12499,0.3411472917833427,0.3333866709336747,0.3411472917833427,0.05456436514921194,"{'wikidata_property': 0.767, 'exact_norm_label+llm': 0.173, 'exact_norm_alias+llm': 0.06}","{'same': 0.979, 'narrower': 0.019, 'broader': 0.002}"
+ALL,mit_tr10,12499,0.007360588847107769,0.0,0.007360588847107769,0.0005600448035842868,"{'embed+llm': 0.664, 'fuzzy+llm': 0.159, 'exact_norm_label+llm': 0.159, 'exact_norm_alias+llm': 0.019}","{'narrower': 0.467, 'broader': 0.308, 'same': 0.224}"
+ALL,msc,12499,0.011440915273221858,0.9250340027202176,0.011440915273221858,0.0008000640051204096,"{'fuzzy+llm': 0.354, 'exact_norm_label': 0.3, 'wikidata_property': 0.253, 'exact_norm_alias+llm': 0.093}","{'same': 0.877, 'broader': 0.114, 'narrower': 0.008}"
+ALL,nature_methods_moty,12499,0.0011200896071685736,0.3909912793023442,0.0011200896071685736,0.00016001280102408193,"{'embed+llm': 0.611, 'wikilink+llm': 0.389}","{'narrower': 0.5, 'same': 0.278, 'broader': 0.222}"
+ALL,pacs_physh,12499,0.030162412993039442,0.7861428914313145,0.030162412993039442,0.009760780862468997,"{'exact_norm_label': 0.605, 'fuzzy+llm': 0.224, 'exact_norm_alias+llm': 0.171}","{'same': 0.956, 'narrower': 0.044}"
+ALL,physics_world_boty,12499,0.0019201536122889832,0.7959836786942955,0.0019201536122889832,8.000640051204096e-05,"{'embed+llm': 0.821, 'wikilink+llm': 0.143, 'exact_norm_label+llm': 0.036}","{'narrower': 0.714, 'broader': 0.179, 'same': 0.107}"
+ALL,research_fronts,12499,0.014481158492679414,0.0,0.014481158492679414,0.0028802304184334746,"{'embed+llm': 0.892, 'fuzzy+llm': 0.073, 'exact_norm_label+llm': 0.021, 'exact_norm_alias+llm': 0.014}","{'narrower': 0.545, 'same': 0.448, 'broader': 0.007}"
+ALL,science_boty,12499,0.0009600768061444916,0.0,0.0009600768061444916,0.0,"{'wikilink+llm': 0.5, 'embed+llm': 0.417, 'fuzzy+llm': 0.083}","{'narrower': 0.667, 'broader': 0.167, 'same': 0.167}"
+ALL,wikidata,12499,0.019681574525962076,0.0,0.01736138891111289,0.0005600448035842868,{'wikidata_property': 1.0},{'same': 1.0}
+ALL,wikipedia_en,12499,0.9945595647651813,0.0,0.767501400112009,0.16025282022561804,{'wikidata_sitelink': 1.0},{'same': 1.0}
+ALL,jel,12499,0.0033602688215057202,0.9140731258500681,0.0,0.0,{},{}

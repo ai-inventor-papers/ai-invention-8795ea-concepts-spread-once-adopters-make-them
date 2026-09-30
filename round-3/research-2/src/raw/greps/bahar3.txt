@@ -1,0 +1,34 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://scholar.harvard.edu/files/dbaharc/files/bhh-jie.pdf
+Type: PDF
+Pattern: needs to keep|restrict jumps|two conditions|at the end of the period (5 matches in 85101 chars)
+
+--- Content ---
+
+30028:...umber of countries in the dataset is
+100, and the total number of products is 777.
+We deﬁne a “jump” as a tenfold or more increase in the RCA of country
+c in product p, from RCAcp ≤0.1 to RCAcp ≥0.1 within a ten year period.10
+This setting allows us to explore the extensive margin of exports. We are
+interested in studying the probability of a product being exported in the
+next period, given that it was not being exported (or exported only in
+very small quantities) at the beginning of the current period. Further-
+more, we are interested in products that achieve an RCA above 1, imply-
+ing signiﬁcant gains in comparative advantage and increases in its share
+of world trade.11
+To avoid noise, we restrict jumps to two conditions: ﬁrst, a jump
+needs to keep RCA above 1 for four years after the end of the period,
+year T (the forward condition); second, we restrict jumps to products
+that had an RCA below 0.1 for two years before the beginning of the
+period (the backward condition).12 These two conditions help rule out
+the possibility of “temporary jumps” in the data driven by noise, errors,
+shocks in commodity prices or other exogenous reasons.13
+Table 5 presents the ten NPRB and PRB products with the largest
+frequency of “jumps” in our dataset. For instance, the NPRB product
+with the largest number of appearances in the data (i.e. with RCA
+going from less than 0.1 to above 1 in ten years) is SITC 8441 (men's un-
+dershirts), in the period 1980–1990. SITC 8441 had 6 occurrences (de-
+noted by O) out of the 74 countries that had an RCA b 0.1 in 1980
+(denoted by B). This means that 8% of the eligible countries acquired
+RCA N 1 for SITC 8441 over that period (denoted by P). Seven out of
+the top ...

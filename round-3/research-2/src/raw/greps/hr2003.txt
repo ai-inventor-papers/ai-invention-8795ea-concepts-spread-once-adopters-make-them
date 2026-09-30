@@ -1,0 +1,191 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nber.org/system/files/working_papers/w8952/w8952.pdf
+Type: PDF
+Pattern: fail|imitat|copycat|pioneer|social value (40 matches in 96243 chars)
+
+--- Content ---
+
+957:...  Short sections of text, not to exceed
+two paragraphs, may be quoted without explicit permission provided that full credit, including © notice, is
+given to the source.
+
+Economic Development as Self-Discovery
+Ricardo Hausmann and Dani Rodrik
+NBER Working Paper No. 8952
+May 2002
+JEL No. O0, L1
+ABSTRACT
+In the presence of uncertainty about what a country can be good at producing, there can be great
+social value to discovering costs of domestic activities because such discoveries can be easily imitated.
+We develop a general-equilibrium framework for a small open economy to clarify the analytical and
+normative issues.  We highlight two failures of the laissez-faire outcome: there is too little investment and
+entrepreneurship ex ante, and too much production diversification ex post.  Optimal policy consists of
+counteracting these distortions: to encourage investments in the modern sector ex ante, but to rationalize
+production ex post.  We provide some informal evidence on the building blocks of our model.
+Ricardo Hausmann
+Dani Rodrik...
+--
+2561:...is view is 
+that economic growth requires two things: foreign technology and good institutions.  This 
+perspective is well grounded in the neoclassical model of economic growth, which predicts that 
+poor countries will experience rapid convergence with advanced economies once they have 
+access to state-of-the-art technologies and their governments respect property rights.  From this 
+perspective, failure to grow can be attributed two one or both of two pathologies.  One is the 
+“closed-economy” pathology, in which governments retard technological progress by reducing 
+access to foreign investment and imported capital equipment and intermediate goods.  The other 
+is the “corruption” pathology, in which political leaders fail to respect property rights and screw 
+things up deliberately in order to enrich themselves and their cronies.  The natural remedies for 
+these pathologies are economic openness and improved governance.  With these remedies in 
+place, economic growth should follow naturally.  In the words of a recent paper on growth:  
+“Once a developing country government establishes the rules to a fair game and ...
+--
+7033:...in the early 1990s, the Indian economy remained 
+among the world’s most protected.  Of course heterodoxy did not produce payoffs everywhere.  
+Most countries with protected economies and poor protection of property rights languished or 
+retrogressed.  But the fact that the world’s most successful economies during the last four 
+decades prospered doing things that are more commonly associated with failure is something that 
+cannot be easily dismissed.      
+We present here a different perspective on economic development, one that has more 
+room for the Latin American and Asian “anomalies” noted above.  Our focus is on a particular 
+type of learning that we believe has not received enough attention in the literature on economic 
+development: learning what one is good at producing.2  We emphasize...
+--
+8221:...cts” or 
+“natural-resource based products.”  Yet making the right investment decisions is key to future 
+                                                 
+2 For a paper that is focused on learning about the institutions that are appropriate to the local setting, see Mukand 
+and Rodrik (2002). 
+ 
+
+ 
+4
+growth, as it determines the pattern of specialization.3  In these circumstances, there is great 
+social value to discovering that cut flowers, soccer balls, or computer software can be produced 
+at low cost, because this knowledge can orient the investments of other entrepreneurs.  But the 
+initial entrepreneur who makes the “discovery” can capture only a small part of the social value 
+that this knowledge generates.  As the cases we shall discuss in the empirical section of the paper 
+reveal, other entrepreneurs can quickly emulate such discoveries.  Consequently, 
+entrepreneurship of this type—learning what can be produced—will typically be undersupplied, 
+and economic transformation delayed.  
+This perspective differs from the standard view in an important way.  In the neocl...
+--
+12349:...uite different.  Typically, the intellectual property regime protects discoverers of new goods 
+through the issuance of temporary monopolies, i.e., patents.  But the investor in the developing 
+country who figures out that an existing good can be produced profitably at home does not 
+normally get such protection, no matter how high the social return.6  Indeed, ease of entry by 
+competitors (i.e., imitators) is normally judged to be an important indicator of how well markets 
+function—the lower the barriers to entry, the better.  Free entry makes the non-appropriability 
+problem worse, and undercuts the incentive to invest in discovering what a country is good at 
+producing.  Laissez-faire cannot be the optimal solution under these circumstances, just as it is 
+not in the case of R&D in new produ...
+--
+14660:...the third period, costs of all active firms become common knowledge and there is free 
+entry, eliminating (through adjustments in wages) all excess profits.  We characterize in this 
+setting both the laissez-faire equilibrium and the social optimum (in which the social planner can 
+allocate resources at will, but has no more information than is available to the private sector).  
+We highlight two failures of the laissez-faire outcome: there is too little investment and 
+entrepreneurship in the first period (unless the second period is “very long”), and too much 
+production diversification in the second.  Optimal policy consists of counteracting these 
+distortions: to encourage investments in the modern sector ex ante, but to rationalize production 
+ex post.   
+ 
+Let us now return to the anomal...
+--
+22078:...                                  
+8 Note that these are goods that are already being produced in other, more advanced countries.  So saying that there 
+are well-known, fixed prices is not at odds with the assumption that none of them are being produced at home 
+currently. 
+  
+
+ 
+10
+for the θi to become common knowledge.  Alternatively, θi can be immediately known, but it 
+could take time for an “imitator” to set up a firm.  We denote the length of period 2 as T. 
+ 
+Finally, in period 3 (which lasts until infinity), there is free entry into the modern sector, 
+and excess profits are eliminated.  The latter happens in our case via upward adjustments in the 
+wage rate w.   
+ 
+The model is closed by describing production in the traditional sector.  We assume that 
+the traditional sector operates un...
+--
+29743:...ve an interior solution.  It is 
+easy to verify, under these conditions, that the social planner’s choice of m, as defined implicitly 
+by (8), is increasing in p and decreasing in b.          
+
+ 
+14
+ 
+Decentralized equilibrium.  We now characterize the market equilibrium under the 
+conditions discussed previously, namely that the entrepreneurship decision is decentralized and 
+there is no entry (“imitation”) during period 2.  That means that any entrepreneur who decides to 
+produce in period 2 earns a monopoly profit during the length T of the second period.  Since the 
+expected productivity is θ = ½, expected profits equal π =
+2
+2
+2bw
+p
+bw
+p
+−
+=
+−θ
+, where w2 is the 
+(expected) equilibrium wage that prevails in period 2.  The present discounted value of these 
+profits, since they accrue only fo...
+--
+31854:... period 
+can then be written as 
+(11) 
+ 
+ 
+1
+2
+2
+]
+1[
+−
+
+
+
+
+
+
+−
+−
+=
+α
+α
+mb
+p
+bw
+l
+w
+. 
+Equations (9), (10), and (11) determine the three endogenous variables in the system, m, w1, and 
+w2.   
+Outcomes in period 3 can be determined separately, but are not needed for our purposes.  
+We just note that with free entry in the third period, all but the highest productivity firm close 
+down, and imitation drives profits in that activity down to zero.  The mechanism that achieves 
+rationalization of production is this:  lower productivity activities are driven out as wages get bid 
+up by the entry of more firms into the highest-productivity activity.  Since entrepreneurs make 
+zero profits in period 3, the investment level is determined only by outcomes in periods 1 and 2.       
+ 
+We now discuss the salient features of the decentralized equilibrium.  First, note from (9) 
+that m=0 for T sufficiently close to zero.  The interpretation is straightforward: entrepreneurs 
+earn monopoly profits only during the duration of the second period.  If the length of this period 
+shrinks to zero, there is no incentive to invest in discovering costs.  If imitation is immediate, the 
+equilibrium level of investment and entrepreneurship is zero.  Second, over the range of T for 
+which m>0, m, w1, and w2 are all increasing in T.  That is, investment increases as the monopoly 
+period is extended.  Third, as long as monopoly prevails, modern-sector production is diversified 
+and does not specialize in the good with the highest (known) productivity.  Once imitation kicks 
+in with free entry, production in the modern sector is rationalized and only highest-productivity 
+activity survives.  
+
+ 
+16
+Compared to the social optimum discussed previously, therefore, the decentralized 
+equilibrium suffers from two distinct inefficiencies.  First, the level of investment and 
+entrepreneurship in the market equilibrium (call it mc) does not coincide with that requi...
+--
+[25 more matches not shown]
