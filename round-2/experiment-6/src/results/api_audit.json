@@ -1,8 +1,0 @@
-{
- "n": 40,
- "median_rho_title_vs_api": 0.9992047712460461,
- "median_rho_grounded_vs_api": 0.9931191155863413,
- "median_ratio_grounded_to_api_early": 0.9478260869565217,
- "median_ratio_title_to_api_early": 1.0,
- "credits_used": 40
-}

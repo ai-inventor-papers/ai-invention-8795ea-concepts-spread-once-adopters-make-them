@@ -1,8 +1,0 @@
-05:24:28|INFO   |panel rebuilt (122793, 62) vs cached (122793, 61): equal=True
-05:25:08|INFO   |DEV: 35328 rows / 4661 concepts; density b=-0.0701 OPEN b=0.0154 H-M3 diff=0.0027 (34s)
-05:25:08|INFO   |G1 pass=True: max diff 0.00e+00
-05:26:38|INFO   |OLD_HELDOUT: 20314 rows / 3225 concepts; density b=0.0684 OPEN b=-0.0793 H-M3 diff=-0.0043 (89s)
-05:29:28|INFO   |COHORT: 25925 rows / 4159 concepts; density b=0.0030 OPEN b=0.0286 H-M3 diff=-0.0042 (170s)
-05:29:34|INFO   |robustness done
-05:29:43|INFO   |predictions for 81567 rows
-05:29:43|INFO   |completion done in 5.3 min
