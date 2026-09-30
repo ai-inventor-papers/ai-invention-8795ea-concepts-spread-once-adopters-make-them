@@ -1,0 +1,18 @@
+Pinheiro Hartmann Boschma Hidalgo 2022 The time and frequency of unrelated diversification Research Policy
+Yan Ding Cronin Leydesdorff 2013 A bird's-eye view of scientific trading dependency relations among fields of science Journal of Informetrics
+Kiss Broom Craze Rafols 2010 Can epidemic models describe the diffusion of topics across disciplines Journal of Informetrics
+Bettencourt Cintron-Arias Kaiser Castillo-Chavez 2006 The power of a good idea quantitative modeling of the spread of ideas from epidemiological models Physica A
+Bettencourt Kaiser Kaur Castillo-Chavez Wojick 2008 Population modeling of the emergence and development of scientific fields Scientometrics
+Leydesdorff Rafols 2011 Local emergence and global diffusion of research technologies an exploration of patterns of network formation
+Salatino Osborne Motta 2018 AUGUR forecasting the emergence of new research topics JCDL
+Hidalgo Klinger Barabasi Hausmann 2007 product space conditions the development of nations
+Neffke Henning Boschma 2011 How do regions diversify over time industry relatedness
+Knowledge transfer knowledge gaps and knowledge silos in citation networks
+Beyond borrowed concepts entropy Scientometrics 2026
+How academic hot topics emerge a bipartite mutualistic network analysis
+Costa Frigori 2024 Shannon entropy fractal dimension citation network artificial intelligence phase transitions Frontiers
+Besedes Prusa 2006 product differentiation and duration of US import trade
+Uzzi Mukherjee Stringer Jones 2013 Atypical combinations and scientific impact
+Hausmann Klinger 2007 structure of the product space and the evolution of comparative advantage
+Boschma Minondo Navarro 2013 The emergence of new industries at the regional level in Spain proximity approach based on product relatedness
+Xiao Ye Zhang Liu 2018 relatedness exit entry regional diversification
