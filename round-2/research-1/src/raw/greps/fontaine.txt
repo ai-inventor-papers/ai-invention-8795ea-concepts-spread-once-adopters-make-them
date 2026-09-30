@@ -1,0 +1,84 @@
+URL: https://arxiv.org/pdf/2310.01046
+Type: PDF
+Pattern: segregat|integrat|Zenodo|Availability|Competing|OpenAlex|citation network (18 matches in 85738 chars)
+
+--- Content ---
+
+10:Epistemic integration and social segregation of AI
+in neuroscience
+Sylvain Fontaine1*, Floriana Gargiulo1, Michel Dubois1,
+Paola Tubaro2
+1GEMASS, CNRS-Sorbonne Universit´e, 59-61 rue Pouchet, 75017 Paris,
+France.
+2CREST, CNRS-IPP, 5 avenue Henry Le Chatelier, 9...
+--
+1099:...amely the penetration of AI into a specific field of
+research. Taking neuroscience as a case study, we conduct a scientometric analysis
+of the development of AI in this field. We especially study the temporal egocentric
+citation network around the articles included in this literature, their represented
+journals and their authors linked together by a temporal collaboration network.
+We find that AI is driving the constitution of a particular disciplinary...
+--
+5793:...d also the main concepts mobilized
+in this paper, we detail in Section 3 the building of some relational structures and
+some metrics given by the corpus that will be analyzed afterwards, namely its tempo-
+ral egocentric citation network (composed of bibliographical references and citations
+of each paper), its peer-reviewed journals, and its temporal collaboration network,
+featured with the disciplinary profiles of the involved scientists.
+In Sections 4.1 and 4.2, we identify within the citation network the disciplines
+that are shaping the AI research in neuroscience, and the extent to which they differ
+from those that are characterizing other neuroscience’s subfields unrelated to AI. We
+especially show that some disci...
+--
+6911:...that
+AI research is building itself as a subfield (or specialty) inside neuroscience, which
+draws upon a disciplinary basis that is different from the other neuroscience subfields.
+We also confirm this partial cognitive integration in Section 4.3, which reveals the
+spreading of AI in almost all the journals of the database, but with different patterns of
+promotion of such research. In particular, we show that the journals that are publishing
+a ...
+--
+16235:...lication date and publisher (F¨arber,
+2019). These metadata are embedded as strings or numerical identifiers in a set of
+dump files linked together by link files, all of them being available on the data deposit
+platform Zenodo (F¨arber, 2020).
+To build an exhaustive database of the neuroscience literature from MAG, we draw
+upon a list of journals that we extracted from WOS, with the help of the database
+SCImago Journal Rank (SJR). We choose t...
+--
+20117:...and red zones corresponds to the set P ∩AI in the main text, while the blue zone excluded from this
+intersection represents the set P ∩AI. The green set P includes all papers added after the building of
+the ego-centered citation network that are not published in neuroscience journal. Right: Cumulative
+number Nc of publications in the two main subsets considered in this paper. The inset shows the
+instantaneous part of AI-related publications in the whol...
+--
+20673:...em
+After gathering the dataset under study, we build an exhaustive citation ecosystem
+around neuroscience publications, as illustrated in Fig. 2. We use the general reference
+link file of MAG – which is actually a giant citation network – for retrieving the
+references and citations of our identified papers. We thus add such papers citing or
+cited in those in our dataset, as long as they are published in a journal that belongs
+to the WOS journals database – we conserve here 84% of the original citation network
+centered on the neuroscience dataset P. The added papers could therefore be published
+either in neuroscience publications, therefore in the set P, or in others such that
+they join the set denoted by P, ie. the green bor...
+--
+32849:...es τobs, τsim, σ
+and z are therefore reduced to scalars defined with only the two groups Q and Qi.
+4 Results
+4.1 Citation homogenisation of the AI research specialty with
+general neuroscience
+First of all we explore the integration of AI technologies and knowledge within
+neuroscience through the dynamical interaction between the respective disciplinary
+environment of the two fields – AI and neuroscience. We especially compare year by
+year the b...
+--
+64802:... an exhaustive bibliometric database that aims to represent
+at best neuroscience research between 1970 and 2019. This analysis relies on many
+indicators.
+First, we have conducted a comparative analysis of the egocentric citation networks
+associated with respectively AI research and non-AI research within neuroscience.
+We have shown that the sets of disciplines influencing respectively the AI-related
+works and the non-AI ones tend to be similar over tim...
+--
+[6 more matches not shown]
