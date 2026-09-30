@@ -1,0 +1,162 @@
+{
+  "figure_id": "fig_field_entry",
+  "renderer": "scripts/render_fig_field_entry.py (hand-written matplotlib with the aii-data-fig-gen house style and layout passes; no catalogue type draws asymmetric CIs with a pooled diamond)",
+  "source_artifact": "gen_art_experiment_7 (iteration 3), results/frontier_result.json",
+  "aspect": "16:9",
+  "width_in": 6.5,
+  "panel_a": {
+    "title": "Retained-field relatedness",
+    "xlabel": "Coefficient $d_0$ (log-odds per SD)",
+    "xlim": [
+      -0.2,
+      0.5
+    ],
+    "null_line": 0.0,
+    "frame": "independent frame (EXP5 minus EXP6), held-out groups, R3 conditional logit",
+    "ci_kind": "95% concept-bootstrap CI (500 draws per group, 1,000 for pooled)",
+    "rows": [
+      {
+        "label": "Physical Sciences",
+        "estimate": 0.14819,
+        "ci": [
+          0.074,
+          0.21888
+        ],
+        "n_concepts": 656,
+        "color": "#0173B2",
+        "marker": "o",
+        "source": {
+          "estimate": "step2_heldout/units/PHYS/d0_R3/coef",
+          "ci": "step2_heldout/units/PHYS/d0_R3/boot_ci",
+          "n_concepts": "step2_heldout/units/PHYS/d0_R3/n_concepts"
+        }
+      },
+      {
+        "label": "Life & Environment",
+        "estimate": 0.40148,
+        "ci": [
+          0.34683,
+          0.45821
+        ],
+        "n_concepts": 1071,
+        "color": "#029E73",
+        "marker": "o",
+        "source": {
+          "estimate": "step2_heldout/units/LIFEENV/d0_R3/coef",
+          "ci": "step2_heldout/units/LIFEENV/d0_R3/boot_ci",
+          "n_concepts": "step2_heldout/units/LIFEENV/d0_R3/n_concepts"
+        }
+      },
+      {
+        "label": "Social Sciences",
+        "estimate": 0.29688,
+        "ci": [
+          0.24507,
+          0.34476
+        ],
+        "n_concepts": 1274,
+        "color": "#DE8F05",
+        "marker": "o",
+        "source": {
+          "estimate": "step2_heldout/units/SOC/d0_R3/coef",
+          "ci": "step2_heldout/units/SOC/d0_R3/boot_ci",
+          "n_concepts": "step2_heldout/units/SOC/d0_R3/n_concepts"
+        }
+      },
+      {
+        "label": "Math & Decision",
+        "estimate": 0.06495,
+        "ci": [
+          -0.1099,
+          0.23361
+        ],
+        "n_concepts": 161,
+        "color": "#CC78BC",
+        "marker": "o",
+        "source": {
+          "estimate": "step2_heldout/units/MATHDEC/d0_R3/coef",
+          "ci": "step2_heldout/units/MATHDEC/d0_R3/boot_ci",
+          "n_concepts": "step2_heldout/units/MATHDEC/d0_R3/n_concepts"
+        }
+      },
+      {
+        "label": "Pooled held-out",
+        "estimate": 0.32192,
+        "ci": [
+          0.29131,
+          0.3553
+        ],
+        "n_concepts": 3162,
+        "color": "#000000",
+        "marker": "D",
+        "source": {
+          "estimate": "step2_heldout/pooled4/ladder/frontier_primary_sample/models/R3_ret/coef/d0_ret_rel",
+          "ci": "step2_heldout/pooled4/boot/d0_R3/d0_ret_rel/ci",
+          "n_concepts": "step2_heldout/pooled4/specificity/c_dose/fit/d_ret_a4p/n_concepts"
+        }
+      }
+    ],
+    "heterogeneity": {
+      "I2": 0.917,
+      "label": "DerSimonian-Laird over the 4 groups",
+      "source": "step2_heldout/DL_4groups/d0/I2"
+    }
+  },
+  "panel_b": {
+    "title": "Dose-response by retention age",
+    "xlabel": "Retention age (years)",
+    "ylabel": "Coefficient $d_0$ (log-odds per SD)",
+    "ylim": [
+      0.0,
+      0.4
+    ],
+    "categories": [
+      "2",
+      "3",
+      "≥4"
+    ],
+    "error_bars": "95% Wald CI, 1.96 x concept-clustered SE",
+    "series": [
+      {
+        "label": "Development frame",
+        "color": "#B8B8B8",
+        "values": [
+          0.05628,
+          0.10335,
+          0.25139
+        ],
+        "se_concept": [
+          0.01835,
+          0.02256,
+          0.01246
+        ],
+        "source": [
+          "step2_dev/battery/specificity/c_dose/fit/d_ret_a2",
+          "step2_dev/battery/specificity/c_dose/fit/d_ret_a3",
+          "step2_dev/battery/specificity/c_dose/fit/d_ret_a4p"
+        ],
+        "n_concepts": 4302
+      },
+      {
+        "label": "Held-out frame",
+        "color": "#333333",
+        "values": [
+          0.09818,
+          0.07502,
+          0.30384
+        ],
+        "se_concept": [
+          0.02261,
+          0.03259,
+          0.01554
+        ],
+        "source": [
+          "step2_heldout/pooled4/specificity/c_dose/fit/d_ret_a2",
+          "step2_heldout/pooled4/specificity/c_dose/fit/d_ret_a3",
+          "step2_heldout/pooled4/specificity/c_dose/fit/d_ret_a4p"
+        ],
+        "n_concepts": 3162
+      }
+    ]
+  }
+}

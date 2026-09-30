@@ -1,0 +1,161 @@
+{
+ "figure_id": "fig_cheng_reversal",
+ "aspect": "16:9",
+ "width_in": 6.5,
+ "source_artifact": "gen_art_experiment_14 (iteration 5): results/cheng_panel_models.json, results/cheng_static.json",
+ "label": "selection data, not confirmation",
+ "panel_a": {
+  "title": "Consistency → next-year volume",
+  "ylabel": "Effect on next-year volume (% per SD)",
+  "ylim": [
+   0,
+   112
+  ],
+  "n_rows": 105839,
+  "n_concepts": 12311,
+  "bars": [
+   {
+    "name": "NB, no V(t)",
+    "note": "Cheng et al. specification (negative-binomial twin); CI model-based from b CI, pct = exp(b)-1",
+    "value": 53.49,
+    "ci": [
+     49.0,
+     58.11
+    ],
+    "source": "cheng_panel_models.json:builds.HOME.joint.A1_NB.coef.zCONS",
+    "tick_label": "NB\nno V(t)"
+   },
+   {
+    "name": "PPML, no V(t)",
+    "value": 83.1,
+    "ci": [
+     70.61,
+     96.5
+    ],
+    "source": "cheng_panel_models.json:builds.HOME.joint.A1.coef.zCONS (CRV1 by concept)",
+    "tick_label": "PPML\nno V(t)"
+   },
+   {
+    "name": "PPML + log V(t)",
+    "value": 1.27,
+    "ci": [
+     0.45,
+     2.09
+    ],
+    "source": "cheng_panel_models.json:builds.HOME.joint.A2.coef.zCONS",
+    "tick_label": "PPML\n+ log V(t)"
+   },
+   {
+    "name": "+ concept FE",
+    "value": 1.37,
+    "ci": [
+     0.69,
+     2.04
+    ],
+    "source": "cheng_panel_models.json:builds.HOME.joint.A3.coef.zCONS",
+    "tick_label": "+ log V(t)\n+ concept FE"
+   }
+  ],
+  "ratio": {
+   "value": 0.0208,
+   "ci": [
+    0.009,
+    0.0353
+   ],
+   "n_boot": 500,
+   "source": "cheng_panel_models.json:builds.HOME.joint.ratio_boot"
+  },
+  "yticks": [
+   0,
+   20,
+   40,
+   60,
+   80,
+   100
+  ],
+  "ci_note": "PPML CIs: CRV1 clustered by concept; NB CI: model-based, transformed from the b CI as exp(b)-1"
+ },
+ "panel_b": {
+  "title": "Early consistency → cross-field breadth",
+  "xlabel": "Partial Spearman ρ (95% CI)",
+  "xlim": [
+   -0.2,
+   0.1
+  ],
+  "rows": [
+   {
+    "name": "CS/Eng",
+    "group_key": "CS+Eng",
+    "rho": -0.078,
+    "ci": [
+     -0.1283,
+     -0.028
+    ],
+    "n": 1556
+   },
+   {
+    "name": "Bio/Gen/Med",
+    "group_key": "BGM+Med",
+    "rho": -0.0891,
+    "ci": [
+     -0.1225,
+     -0.0559
+    ],
+    "n": 2887
+   },
+   {
+    "name": "Physical Sci",
+    "group_key": "PHYS",
+    "rho": -0.021,
+    "ci": [
+     -0.1145,
+     0.0628
+    ],
+    "n": 541
+   },
+   {
+    "name": "Life & Env",
+    "group_key": "LIFEENV",
+    "rho": -0.1,
+    "ci": [
+     -0.1663,
+     -0.0297
+    ],
+    "n": 826
+   },
+   {
+    "name": "Social Sci",
+    "group_key": "SOC",
+    "rho": -0.0559,
+    "ci": [
+     -0.1191,
+     0.0018
+    ],
+    "n": 979
+   }
+  ],
+  "pooled": {
+   "name": "DL pooled",
+   "b": -0.0786,
+   "ci": [
+    -0.1016,
+    -0.0556
+   ],
+   "I2": 0.0,
+   "k": 5,
+   "n_negative": 5,
+   "source": "cheng_static.json:DL.EXP5_pooled.O2r_m50"
+  },
+  "excluded_report_only": {
+   "MATHDEC": 0.0544
+  },
+  "xticks": [
+   -0.2,
+   -0.1,
+   0.0,
+   0.1
+  ],
+  "ci_note": "per-group CIs: 1,000-draw concept bootstrap (cheng_static.json n_boot_group); DL CI: normal, from DL se; psp covariates: rank(B5) + onset-year, group and body dummies",
+  "source": "cheng_static.json:DL.EXP5_pooled.O2r_m50.per_group"
+ }
+}

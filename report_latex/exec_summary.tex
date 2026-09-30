@@ -1,0 +1,88 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{graphicx, geometry, amsmath, amssymb, hyperref, url, booktabs, xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\geometry{margin=0.85in}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=black}
+\tolerance=1000
+\emergencystretch=1em
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{0em}
+
+\title{\vspace{-1.5em}Early co-occurrence network openness is associated with cross-disciplinary concept breadth: evidence from 12,499 scientific concepts\\[0.3em]\large Executive Summary\vspace{-0.5em}}
+\author{AI Inventor}
+\date{September 2026}
+
+\begin{document}
+\maketitle
+\vspace{-1em}
+
+\section{Headline}
+
+The paper's headline finding, from Evaluation~4 (iteration~5): the descriptive pool of OPEN$_{\text{home}}$ over 6 non-selection bodies gives a DerSimonian--Laird pooled partial Spearman correlation of $+0.069$ (95\% CI [$+0.038$, $+0.100$]), $I^2 = 0$, 6/6 bodies positive. This is a \textbf{lead}, not a confirmed pre-registered test: the pool is descriptive, assembled from already-unsealed held-out groups (Experiment~8, iteration~3) and a confirmatory cohort (Experiment~10, iteration~4) whose DL interval for OPEN$_{\text{home}}$ includes zero ($+0.083$ [$-0.007$, $+0.173$]). The association behaves like a static topical-dispersion property; temporal turnover is untested rather than refuted (V2 excess split-half reliability below 0.05). The practical forecasting gain over the five-feature baseline is near zero ($+0.002$ [$-0.003$, $+0.008$]).
+
+A second result: on the Experiment~7 independent frame (11,841 concepts, 6,978 entry events; iteration~3), a conditional logit shows that concepts spread next to fields related to those currently retaining them: $d_0 = 0.322$ [0.291, 0.355]. The pre-registered verdict is FRONTIER = PARTIAL: the volume-matched contrast is null and $d_0$ reverses under minimum-conditional-probability proximity.
+
+\section{Goal}
+
+The run investigated whether the early structure of a concept's topic co-occurrence network predicts later cross-field breadth, beyond simple measures of volume and reach. Using the OpenAlex bulk snapshot (476M works), it identified 12,499 concepts, tracked 27,393 adoption episodes across 26 fields, and screened 53 early network indicators against a five-feature popularity baseline on held-out field groups. A second question asked whether concepts spread next to fields related to those currently retaining them.
+
+\section{What was tried}
+
+\textbf{Iteration 1} raced five rival spread signals on a 48-concept DEV panel. None survived the pre-registered rule. Two artifacts failed (REPL stalls). The gateway-retention lead ($+0.103$ AUC on 80 episodes) was the only positive signal.
+\textbf{Iteration 2} built the full 12,499-concept frame from a zero-credit S3 scan, disconfirmed gateway retention ($\Delta$AUC $= -0.00001$), and confirmed retained-field relatedness ($d_0 = 0.30$).
+\textbf{Iteration 3} ran the held-out indicator screen (53 indicators; 7 confirmed), defined the OPEN index, and tested retained-field relatedness on an independent 11,841-concept frame ($d_0 = 0.322$).
+\textbf{Iteration 4} tested OPEN on a fresh 2015--17 cohort (frozen verdict confirmed but marginal: PSP $+0.091$ at R2; R4/R5 and the DL pool CI include zero), decomposed breadth into exploration (73\%) and retention (27\%) as an accounting identity, and ran an exploratory all-papers specification curve (99.7\% of pooled CIs above zero).
+\textbf{Iteration 5} tested the signal on vocabulary-free concepts (Frame~N: $+0.117$ at R3; frozen verdict PARTIAL, R5 CI includes zero), rebuilt the Cheng consistency--breadth reversal, completed the within-concept closure test (not supported), and found the association behaves like static topical dispersion (temporal turnover untested).
+
+\section{Key results}
+
+\vspace{-0.5em}
+\begin{table}[!htbp]
+\centering
+\small
+\renewcommand{\arraystretch}{1.05}
+\begin{tabularx}{\textwidth}{@{}>{\raggedright}p{3.2cm}>{\raggedright}p{3.2cm}>{\raggedright}p{1.5cm}>{\raggedright\arraybackslash}X@{}}
+\toprule
+Finding & Effect & Grade & Source \\
+\midrule
+OPEN$_{\text{home}}$ pool & PSP $+0.069$ [$+0.038$, $+0.100$]; $I^2\!=\!0$ & Lead & Eval.~4, it.~5 \\
+OPEN$_{\text{home}}$ cohort & PSP $+0.091$ [$+0.013$, $+0.171$] & Marginal & Exp.~10, it.~4 \\
+Retained relatedness & $d_0 = 0.322$ [0.291, 0.355] & Partial & Exp.~7, it.~3 \\
+7/10 indicators & DL pooled, Holm $p < 0.05$ & Confirmed & Exp.~8, it.~3 \\
+Consistency $\to$ vol. & $+53\%$/SD & Replicated & Exp.~14, it.~5 \\
+Consistency $\to$ breadth & $-0.079$, 5/5 neg., $I^2\!=\!0$; Frame~N $-0.064$ (CI incl.\ 0) & Selection data & Exp.~14, 13, it.~5 \\
+Breadth decomp. & 73\% exploration (identity) & Supported & Exp.~12, it.~4 \\
+Topical dispersion & V2 excess null ($+0.008$) & Descr. & Exp.~16, it.~5 \\
+Frame~N & PSP $+0.117$ [$+0.020$, $+0.218$] & Partial & Exp.~13, it.~5 \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\vspace{-0.5em}
+
+\section{What failed}
+
+\textbf{Lineage naturalisation ($A^*_h$):} failed 3 of 4 clauses (only the size check passed); within-field sign flips (iteration~1).
+\textbf{Gateway retention:} the $+0.103$ AUC was a false positive; held-out $\Delta$AUC $= -0.00001$ (iteration~2).
+\textbf{Co-author groups (candidate S):} the iteration-1 run stalled; scored later in Experiment~8, not confirmed for any outcome.
+\textbf{Within-concept closure:} NOT SUPPORTED; OPEN had opposite-signed effects (iteration~5).
+\textbf{Trajectory typology:} no classification passed the naming rule; breadth is a continuum.
+\textbf{O1 gateway gains:} all 8 were label-coverage artefacts.
+
+\section{Open questions}
+
+\begin{itemize}[nosep,leftmargin=1.5em]
+    \item OPEN$_{\text{home}}$ is modest (PSP $+0.069$ pooled), no forecasting gain over B5. Split-half reliability 0.49.
+    \item Temporal-turnover untested (V2 excess reliability $<0.05$), not settled.
+    \item Volume-matched retained-field relatedness is null; $d_0$ reverses under an alternative backbone.
+    \item Life \& Environment weakness (all-papers build) unexplained. Frame~N small ($n = 448$, power 0.47).
+    \item About half of M0\_density\_end and D\_vol\_end is pre-onset footprint.
+\end{itemize}
+
+\smallskip
+The full report is 26 pages.
+
+\end{document}
