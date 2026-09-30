@@ -1,0 +1,161 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nature.com/articles/s41598-023-28179-x
+Type: HTML
+Pattern: best F1|PR-AUC|mean precision|auto-correlation|RCA values|previous years|the RCA of|input|feature importance (39 matches in 131016 chars)
+
+--- Content ---
+
+2631:...
+
+  * [Metrics details](/articles/s41598-023-28179-x/metrics)
+
+
+
+
+## Abstract
+
+Economic complexity methods, and in particular relatedness measures, lack a systematic evaluation and comparison framework. We argue that out-of-sample forecast exercises should play this role, and we compare various machine learning models to set the prediction benchmark. We find that the key object to forecast is the activation of new products, and that tree-based algorithms clearly outperform both the quite strong auto-correlation benchmark and the other supervised algorithms. Interestingly, we find that the best results are obtained in a cross-validation setting, when data about the predicted country was excluded from the training set. Our approach has direct policy implications, providing a quantitative and scientifically tested measure of the feasibility of introducing a new product in a given country.
+
+### Similar content being viewed by others
+
+###  [Optimizing energy, downtime, and throughput in footwear production...
+--
+17898:...literature of different approaches to measure the relatedness, it is natural to argue whether machine learning algorithm might play a role and build comparable or even better measures. In particular, given the present ubiquitous and successful use of artificial intelligence in many different contexts, it is natural to use machine learning algorithms to set the benchmark. A relevant by-product of this analysis is the investigation of the statistical properties of the database (namely, the strong auto-correlation and class imbalance), that has deep consequences on the choice of the most suitable algorithms, testing exercises, and performance indicators.
+
+Applying these methods we find two interesting results: 
+
+  1. 1.
+
+The best performing models for this task are based on decision trees. A fundamental property that separates these algorithms from the main approaches used in the literature[26](/articles/s41598-023-28179-x#ref-CR26 "Hidalgo, C. A., Klinger, B., Barabási, A.-L. & Hausmann, R. The product ...
+--
+24266:...textbf {R}}\\) and, by applying a threshold equal to 1, a set of matrices \\({\textbf {M}}\\) whose binary elements are equal to 1 if the given country competitively exports the given product. Here and in the following we use “competitively” in the Balassa sense, that is, \\(R_{cp}>1\\). In this paper we will discuss the prediction of two different situations: the unconditional presence of a “1” element in the \\({\textbf {M}}\\) matrix and the _appearance_ of such an element requiring that the RCA values were below a non-significance threshold t=0.25 in all the previous years. We will refer to the first case as the _full matrix_ and to the new product event as an _activation_. The definition of the activation is somehow arbitrary: one could think, for instance, to change the threshold t or the number of inactive years. We find however our choice to be a good trade-off to have both a good numerosity of the test set and avoid the influence of trivial 0/1 flips. We point out that our final aim is to detect, as much as possible, the appearance of really new products in the export basket of countries.
+
+In Fig. [1](/articles/s41598-023-28179-x#Fig1), left, we plot the probability that a matrix element \\(M_{cp}\\) in 1996 will change or not change its binary value in the future years. One can easily see that even after 5 years the probability that a country remains competitive in a product is relatively high (\\(\sim 0.64\\)); being the probability that a country remains not competitive \\(\sim 0.95\\), we conclude that there is a very strong auto-correlation: this is a reflection of the persistent nature of both the capabilities and the market conditions that are needed to competitively export a product. Moreover, the appearance of a new product in the export basket of a country is a rare event: the empirical frequency is about 0.047 after 5 years. A consequence of this persistence is that we can safely predict the presence of a 1 in the \\({\textbf {M}}\\) matrices by simply looking at the previous years, while the appearance of a new product that was not previously exported by a country is much more difficult and, in a sense, more interesting from an economical point of view, since it depends more on the presence of suitable, but unrevealed, capabilities in the country; but these capabilities can be traced by looking at the other products that country exports. Not least, an early detection of a future activation of a new product has a number of practical policy implications. Note in passing th...
+--
+26814:...chine learning based smoothing procedures[10](/articles/s41598-023-28179-x#ref-CR10 "Tacchella, A., Mazzilli, D. & Pietronero, L. A dynamical systems approach to gross domestic product forecasting. Nat. Phys. 14, 861–865 \(2018\)."),[44](/articles/s41598-023-28179-x#ref-CR44 "Angelini, O. & Di Matteo, T. Complexity of products: The effect of data regularisation. Entropy 20, 814 \(2018\).") may introduce extra spurious correlations, they should be avoided in prediction exercises, and so only the RCA values directly computed from the raw export data are considered.
+
+On the right side of Fig.[1](/articles/s41598-023-28179-x#Fig1) we plot the density of the matrices \\({\textbf {M}}\\), that is the number of nonzero elements with respect to the total number of elements. This ratio is roughly \\(10\%\\). This means that both the prediction of the _full_ , unconditional matrix elements and the prediction of the so-called _activations_ (i.e., conditioning to that element being 0 and with RCA below 0.25 in all the previous years) show a strong class imbalance. This has deep consequences regarding the choice of the performance indicators to compare the different predictive algorithms. For instance, the ROC-AUC score[45](/articles/s41598-023-28179-x#ref-CR45 "Fawcett, T. An introduction to roc analysis. Pattern Recognit. Lett. 27, 861–874 \(2006\)."), one of the most used measures of performance for binary classifiers, is well known to suffer from strong biases when a large class imbalance is present[46](/articles/s41598...
+--
+31350:...iled description can be found in[58](/articles/s41598-023-28179-x#ref-CR58 "Shalev-Shwartz, S. & Ben-David, S. Understanding Machine Learning: From Theory to Algorithms \(Cambridge University Press, 2014\).") and references therein and, in the following sections, we will elaborate more on the algorithms based on decision trees, which result to be the most performing ones.
+
+**Figure 2**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/2)
+
+An example of successful prediction. On the left, the RCA of Bhutan in electrical transformers as a function of time. Already in 2012, with RCA stably below 1, the progression probability of that matrix element was well above its country average, as shown by the histogram in the figure on the right. Bhutan will start to competitively export electrical transformers after 5 years.
+
+In Fig. [2](/articles/s41598-023-28179-x#Fig2) we show an example of the dynamics that our approach is able to unveil. On the left we show the RCA of Bhutan for the export of Electrical Transformers as a function of time. RCA is zero from 1996 to 2016, when a sharp increase begins. Was it possible to predict the activation of this matrix element? Let us train our machine learning algorithm XGBoost using the data from 1996 to 2012 to predict which products will Bhutan likely export in the future. The result is a set of scores, or _progression probabilities_ , one score for each possible product. Each of these scores measures the feasibility, ...
+--
+33821:...sess the goodness of the prediction algorithms, a number of performance indicators are available from the machine learning literature of binary classifiers. Here we focus on three of them, and we show the results in Fig. [3](/articles/s41598-023-28179-x#Fig3), where we show a different indicator in each row, while the two columns refer to the two prediction tasks, _full matrix_ (i.e., the presence of a matrix element equal to one) and _activations_ (a zero matrix element, with RCA below 0.25 in previous years, possibly becoming higher than one, that is the appearance of a new product in the export basket of a country). AUC-PR[46](/articles/s41598-023-28179-x#ref-CR46 "Saito, T. & Rehmsmeier, M. The precision–recall plot is more informative than the roc plot when evaluating binary classifiers on imbalanced datasets. PloS one 10, e0118432 \(2015\).") gives a parameter-free, comprehensive assessment of the prediction performance. The F1 Score[59](/articles/s41598-023-28179-x#ref-CR59 "Dice, L. R. Measu...
+--
+34867:...sociation between species. Ecology 26, 297–302 \(1945\)."),[60](/articles/s41598-023-28179-x#ref-CR60 "Van Rijsbergen, C. J. Foundation of evaluation. J. Docum. \(1974\).") is a harmonic mean of the Precision and Recall measures[61](/articles/s41598-023-28179-x#ref-CR61 "Powers, D. M. Evaluation: From precision, recall and f-measure to roc, informedness, markedness and correlation. J. Mach. Learn. Technol. \(2011\)."), and so takes into account both False Positives and False Negatives. Finally, mean Precision@10 considers each country separately and computes how many products, on average, are actually exported out of the top 10 predicted. All the indicators we used are discussed more in detail in the “[Methods](/articles/s41598-023-28179-x#Sec9)” section.
+
+We highlight with a red color the RCA benchmark model, which simply uses the RCA values in 2013 to predict the export matrix in 2018. From the analysis of Fig. [3](/articles/s41598-023-28179-x#Fig3) we can infer the following points: 
+
+  1. 1.
+
+The performance indicators are much higher for the full matrix. This means that predicting the unconditional presence of a product in the export basket of a country is a relatively simple task, being driven by the strong persistence of the **M** matrices through the years.
+
+  2. 2.
+
+On the contrary, the performance on the activations is rel...
+--
+36440:... all the indicators.
+
+  4. 4.
+
+Thanks to the strong autocorrelation of the matrices, the RCA-based prediction represents a very strong benchmark, also in the case of the activations. However, Random Forest, ExtraTreesClassifier and XGBoost perform better both in the full matrix prediction task and in the activations prediction task.
+
+
+
+
+We speculate that the machine learning algorithms perform much better in the full matrix case because, in a sense, they _recognize_ the single country and, when inputted with a similar export basket, they correctly reproduce the strong auto-correlation of the export matrices. We can deduce that using this approach we are not learning the complex interdependencies among products, as we should, and, as a consequence, we do not correctly predict the new products. In order to overcome this issue, we have to use a _k_ -fold Cross Validation (CV): we separately train our models to predict the outcome of _k_ countries using the remaining \\(C-k\\), where in our case \\(C=169\\) and \\(k=13\\). In this way, we prevent the algorithm to recognize the c...
+--
+38854:...s41598-023-28179-x#ref-CR39 "Tacchella, A., Zaccaria, A., Miccheli, M. & Pietronero, L. Relatedness in the era of machine learning. arXiv preprint 
+                  arXiv:2103.06017
+                  
+                 \(2021\).").
+
+In Fig. [4](/articles/s41598-023-28179-x#Fig4) (left) we show the relative improvements of various performance indicators when the CV is used to train the XGBoost model and the test is performed on the activations. All indicators improve; in particular, F1-score and mean Precision@10 increase by more than 10%. On the right, we compare the cross-validated XGBoost predictions with the RCA benchmark, showing a remarkable performance although the previously noted goodness of the benchmark.
+
+In Table [1](/articles/s41598-023-28179-x#Tab1) we report the values of the performance indicators for the non cross-validated Random Forest, the cross-validated XGBoost and the RCA benchmark model, once again tested on the activations. The last four rows represent the confusion matrix, w...
+--
+44085:...-28179-x#ref-CR64 "Breiman, L. Bagging predictors. Mach. Learn. 24, 123–140 \(1996\).") the trees, instead of building an actual Random Forest, which considers instead a random subset of the products[51](/articles/s41598-023-28179-x#ref-CR51 "Breiman, L. Random forests. Mach. Learn. 45, 5–32 \(2001\).") (the decision trees may be different also in this case, since the bagging procedure extracts the features with replacement). Moreover, the training procedure is cross validated, so the number of input countries is 156 \\(\times\\) 7 (156 countries and 7 years from 2007 to 2013).
+
+**Figure 6**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/6)
+
+A representative decision tree to forecast the export of the product _valves and tubes_. The root product, _chromium_ , has a well known technological relation with the target product, and in fact is able to discriminate against future exporters with high precision.
+
+The decision tree we show refers to the product with HS1992 code 854089; the ...
+--
+46138:...t export valves and tubes do not export washers.
+
+Looking at the other splits we find some of them more reasonable, like the one on particle accelerators, and some that seem coincidental, like the one on hides and skins of goats.
+
+From this example it is clear that the decision tree is a natural framework to deal with a set of data in which some features (i.e., products) may be by far more informative than others, and so a hierarchical structure is needed to take into account this heterogeneous feature importance.
+
+**Figure 7**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/7)
+
+Feature importance is a measure of how much a product is useful to predict the activation of the target product. Here we use the average reduction of the Gini impurity at each split. All important products are reasonably connected with the target.
+
+Feature importance may be evaluated by looking at the normalized average reduction of the impurity at each split that involves that feature[50](/articles/s41598-023-28179-x#ref-CR50 "Pedregosa, F. et al. Scikit-learn: Machine learning in python. J. Mach. Learn. Res. 12, 2825–2830 \(2011\)."). In our case, we are considering the Gini impurity. In Fig. [7](/articles/s41598-023-28179-x#Fig7) we plot this assessment of the feature importance to predict the activation of valves and tubes. One can easily see that the average over the different decision trees is even more meaningful than the single decision tree shown before, even if the each one of the former sees fewer products than the latter: all the top products are reasonably connected with the target product and so it is natural to expect them to be key elements to decide whether the given country will export valves and tubes or not.
+
+### Time dependence
+
+In the procedure discu...
+--
+47995:...s for the training, and we tested our out-of-sample forecasts using the same time interval \\(\Delta\\). Here we investigate how the choice of the forecast horizon \\(\Delta\\) affects the quality of the predictions. To make this analysis we used XGBoost models trained with the cross validation method and a lower \\(\Delta _{model} = 3\\). The machine learning algorithms are trained using data in the range \\(y \in [1996\dots 2008]\\) and their output, obtained giving **RCA** \\(^{(2008)}\\) as input, will be compared with the various **M** \\(^{(2008+\Delta )}\\) by varying \\(\Delta\\). Being the 2018 the last year of available data, we can explore a range of \\(\Delta\\)s from 1 to 10. All details about the training procedure of the machine learning algorithms are given in the “[Methods](/articles/s41598-023-28179-x#Sec9)” section.
+
+**Figure 8**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/8)
+
+In the plot on the left we show the performance indicators in the case of the activations prediction task. The performance on positive values improves, while the one on negative values gets worse. On the right we show the same performance indicators in the case of the full matrix prediction task. All the scores get worse due to the vanishing auto-correlation of the matrices.
+
+The quality of the predictions as a function of the forecast horizon \\(\Delta\\) are summarized in Fig. [8](/articles/s41598-023-28179-x#Fig8), where we normalized the indicators in such a way that they are all equal to 1 at \\(\Delta =1\\). In the left figure we have the plot for the activations prediction task: both _precision_ and _precision@10_ increase with \\(\Delta\\), while the _negative predictive value_ decreases and accuracy shows an erratic behavior. This means th...
+--
+50121:...g time develop new capabilities and start to export products we cannot predict with a \\(\Delta\\) interval too large.
+
+If we look to a score that includes both performances on positive values and performance on negative values, like accuracy, we have a (noisy) worsening with the increase of \\(\Delta\\).
+
+In the figure on the right we show instead the full matrix prediction task. In this case all the scores decrease with \\(\Delta\\) because the algorithm can not leverage anymore on the strong auto-correlation of the RCA matrix.
+
+Note that the steepness of the decreasing curves is higher when we look at precision scores, the reason being the high class imbalance and the large number of true negatives with respect to true positives as shown in Table [1](/articles/s41598-023-28179-x#Tab1).
+
+## Discussion
+
+One of the key issues in economic complexity and, more in general, in complexity science is the lack of systematic procedures to test, validate, and falsify theoretical models and empirical, data-driv...
+--
+52738:...f Artificial Intelligence: An Agenda. 507–547 \(University of Chicago Press, 2018\)."),[67](/articles/s41598-023-28179-x#ref-CR67 "Head, M. L., Holman, L., Lanfear, R., Kahn, A. T. & Jennions, M. D. The extent and consequences of p-hacking in science. PLoS Biol. 13, e1002106 \(2015\).").
+
+In this paper we systematically compare different machine learning algorithms in the framework of a supervised classification task. We find that the statistical properties of the export data, namely the strong auto-correlation and the class imbalance, imply that the appearance, or activation, of new products should be investigated, and some indicators of performance, such as ROC–AUC and accuracy, should be considered with extreme care. On the contrary, indicators such as the mean Precision@k have an immediate policy interpretation. In the prediction tasks tree-based models, such as Random Forest and Boosted Trees, clearly outperform the other algorithms and the quite strong benchmark provided by the simple RCA measure. The prediction performance of Boosted Trees can be further improved by training them in a cross validation setting, at the cost of a higher computational effort. The calibration curves, which show a high positive correlation between the machine learning scores and the actual probability of the activation of a new product, provide further support to the correctness of these approaches. A first step towards opening this black box is provided by the visual inspection of a sample decision tree and the feature importance analysis, which shows that the hierarchical organization of the decision tree is a key element to provide correct predictions but also insights about which products are more useful in this forecasting task.
+
+From a theoretical perspective, this exercise points out the relevance of context for the appearance of new products, in the spirit of the New Structural Economics[68](/articles/s41598-023-28179-x#ref-CR68 "Lin, J. Y. New Structural Economics: A Framework for Rethinking Development and Poli...
+--
+61018:...}\\) whose element \\(V_{cp}\\) is the amount, expressed in US dollars, of product p exported by country c. The total number of countries is 169 and the total number of products is 5040.
+
+To binarize the data we determine if a country competitively exports a product by computing the Revealed Comparative Advantage (RCA) introduced by Balassa[38](/articles/s41598-023-28179-x#ref-CR38 "Balassa, B. Trade liberalisation and “revealed” comparative advantage 1.  Manchester Sch. 33, 99–123 \(1965\)."). The RCA of a country c in product p in year y is given by:
+
+$$\begin{aligned} R^{(y)}_{cp} = \left. \frac{V^{(y)}_{cp}}{\sum _{p'}V^{(y)}_{cp'}} \bigg / \frac{\sum _{c'}V^{(y)}_{c'p}}{\sum _{c'p'}V^{(y)}_{c'p'}} \right. \end{aligned}$$
+
+(1) 
+
+\\(R^{(y)}_{cp}\\) is a continuous value and represents the ratio between the weight of product p in the export basket of country c and the total weight of that product in the international trade. Alternatively, the RCA can be seen as the ratio between the market sha...
+--
+65663:...ts. Then this procedure is repeated for all products, each of which thus needs a different training. In Fig. [9](/articles/s41598-023-28179-x#Fig9) we show a schematic diagram with the general functioning of the machine learning algorithms discussed here. As a first step, the algorithm is trained receiving the matrix of the RCAs of countries (\\(X_{train}\\)) and the information whether these countries will export a product or not (\\(Y_{train}\\)). Once the algorithm is trained, it receives in input the exports of countries in a year _y_ (not used during the training stage) and its output is the relatedness of countries with a product.
+
+**Figure 9**
+
+[ Full size image](/articles/s41598-023-28179-x/figures/9)
+
+Schematic diagram with the functioning of machine learning algorithms to assess the relatedness between countries and a target product. During the training phase the model receives an \\(X_{train}\\) matrix with the training samples (countries) and their features (products) for the years from 1996 to 2008; they are compared with the \\(Y_{train}\\) vector that contains the corresponding possible exports the target product in 2001–2013 (that is, a binary label for each sample). Once the model is trained, it can receive in input new data (that is, an export basket) and will provide the probability that the label (the possible export of the target product)) is 1. This progression score is our assessment of the relatedness.
+
+### Training and testing procedure
+
+We want to guess which products will be exported by a country after \\(\Delta\\) years. To do this, we exploit machine learning algorithms with the goal of (implicitly) understanding the capabilities needed to export a product from the analysis of the export basket...
+--
+[9 more matches not shown]

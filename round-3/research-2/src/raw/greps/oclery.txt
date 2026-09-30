@@ -1,0 +1,80 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.nature.com/articles/s41467-021-21689-0
+Type: HTML
+Pattern: exit|lose|lost|loss|transition|RCA|threshold|appear|disappear (142 matches in 120211 chars)
+
+--- Content ---
+
+3322:...oducts, the Eco Space, where the edge weight corresponds to capability overlap. We uncover a modular structure, and show that low- and middle-income countries move from product communities dominated by small Ecosystem products to advanced (large Ecosystem) product clusters over time. Finally, we show that our network model is predictive of product appearances.
+
+### Similar content being viewed by others
+
+###  [Capability accumulation patterns across economic, innovation, and knowledge-production activities ](https://www.nature.com/articles/s41598-023-29979-x?fromPaywallRec=false)
+
+Article Open access 10 August 2023
+
+###  [Reinvestigating the environmental Kuznets curve (EKC) of carbon emissions an...
+--
+4764:...economic growth, they change what they do and undergo structural transformation via diversification of their economic activities[1](/articles/s41467-021-21689-0#ref-CR1 "Imbs, J. & Wacziarg, R. Stages of diversification. Am. Economic Rev. 93, 63–86 \(2003\)."),[2](/articles/s41467-021-21689-0#ref-CR2 "Hausmann, R. et al. The Atlas of Economic Complexity: Mapping Paths to Prosperity \(The MIT Press, 2014\).") by increasing the number of industries that they have comparative advantage in. Emergence of a particular industry in a country depends on the availability of different combinations of capabilities, including various factors like capital, labour, and productive knowledge3,4,[5](/articles/s41...
+--
+5525:...elatedness and firm diversification. Strategic Manag. J. 34, 297–316 \(2013\)."). From this viewpoint, countries grow as they acquire productive knowledge and/or capabilities, and learn to combine these complementary capabilities in order to move into new economic activities. Hence, industrialisation is mostly a path-dependent process, whereby the appearance of new industries and economic activities is conditional on having or acquiring the relevant capabilities and know-how3,4,5,6,7,[8](/articles/s41467-021-21689-0#ref-CR8 "Ellison, G., Glaeser, E. L. & Kerr, W. R. What causes industry agglomeration? Evidence from coagglomeration patterns. Am. Economic Rev. 100, 1195–1213 \(2010\).").
+
+Drawing up...
+--
+8186:...9-0#ref-CR11 "Goh, K.-I. et al. The human disease network. Proc. Natl Acad. Sci. USA 104, 8685–8690 \(2007\).").
+
+Here we take an agnostic view on the identity of the capabilities and we derive a probabilistic model to describe the directed dynamic process of capability accumulation and product diversification of countries. We use the presence and appearance of industries in countries (phenotypes) to infer capability and know-how-based (genotypic) relationships between industries. Using our genetics-inspired industry capability distance, and modelling industrial diversification as a process by which countries accumulate capabilities and move into new industries that share existing capabilities, we...
+--
+11690:...ctural transformation at a detailed level.
+
+To date, two coupled but distinct modelling approaches have emerged aiming to describe the path-dependent process of diversification based on capabilities and productive knowledge using a phenotypic approach. The first is focused on empirically estimating the number of complementary capabilities, or complexity, needed to make a product (or present in a technology or place)[4](/articles/s41467-021-21689-0#ref-CR4 "Hidalgo, C. A. & Hausmann, R. The building blocks of economic complexity. Proc. Natl Acad. Sci. USA 106, 10570–10575 \(2009\)."),[20](/articles/s41467-021-21689-0#ref-CR20 "Balland, P.-A. & Rigby, D. The geography of complex knowledge. Economic Geogr. 93, 1–23 \(2017\)."). While a variety of approaches have been proposed, the foundational method to estimate product complexity[4](/articles/s41467-021-21689-0#ref-CR4 "Hidalgo, C. A. & Hausmann, R. The building blocks of economic complexity. Proc. Natl Acad. Sci. USA 106, 10570–10575 \(2009\)."),[21](/articles/s41467-021-21689-0#ref-CR21 "Bustos, S., Gomez, C., Hausmann, R. & Hidalgo, C. A. The dynamics of nestedness predicts the evolution of industrial ecosystems. PLoS ONE 7, e49393 \(2012\).") uses information on which countries make what products to infer product capability requirements. This model assumes that complex products can only be made by countries which have many capabilities, and hence, also make many other products. It has been shown that the aggregate complexity level of a country is a strong predictor of its future income growth compared to standard variables often associated with country sophistication such as education and quality of government.
+
+A second class of models seeks to map the path-dependent dynamical process by which countries move into new products[3](/articles/s41467-021-21689-0#ref-CR3 ...
+--
+15899:...rsification of countries. The ability of these network models, and others like it, to generate detailed metrics related to diversification processes has propelled the field into development and industrial policy-making at the global, national and regional level[2](/articles/s41467-021-21689-0#ref-CR2 "Hausmann, R. et al. The Atlas of Economic Complexity: Mapping Paths to Prosperity \(The MIT Press, 2014\)."),[23](/articles/s41467-021-21689-0#ref-CR23 "Boschma, R. Constructing regional advantage and smart specialisation: comparison of two european policy concepts. Scienze Regionali \(2014\).").
+
+Yet, these dual modelling approaches, capturing slightly different elements of the same underlying pro...
+--
+17298:...ernational export diversification.
+
+Building on Hausmann and Hidalgo[24](/articles/s41467-021-21689-0#ref-CR24 "Hausmann, R. & Hidalgo, C. A. The network structure of economic output. J. Economic Growth 16, 309–342 \(2011\)."), who developed a capability-based Leontief-like production function, we propose a model to describe the pattern of product appearances within and across countries based on capability accumulation. Within this framework, a country will jump to a new product with probability decreasing in the number of missing capabilities to make the product. We infer the capabilities possessed by a country by looking at the capabilities of the products it currently produces. The ability of a country to diversify is, hence, dependent on its current product basket. Countries with many existing products will have few missing capabilities, and many options for diversification. Hence, the pattern of product appearances contains information about the underlying capability overlap between products. We derive a relationship between the probability of a product presence (say product _i_) given the subsequent appearance of product _j_ , and use this to infer the extent of capability overlap between the product pair _i_ and _j_. The Ecosystem of a product _i_ is then the overlap of product _i_ with all other products _j_. We empirically estimate this capability overlap using product presences and appearances in international export data from 1984 to 2016.
+
+What does it mean for a product _j_ to have a large value in the Ecosystem of product _i_? There are several implications that come directly from the model. First, it means that products _i_ and _j_ share capabilities and the extent of overlap between the capabilities is captured by the value of the Ecosystem entry. Secondly, product _j_ often precedes the product _i_ in appearances in the world (if the value of the Ecosystem entry is large), giving us a directional relationship. Third, countries that have _j_ have a higher probability to jump to product _i_. This dynamic aspect of the Ecosystem as captured by this precedence relationship is one of the most important differences compared to the Product Space.
+
+In order t...
+--
+19847:...egree. Nodes with high in-degree (equivalent to the size of the product Ecosystem) are typically complex products, requiring many inputs. Nodes with high out-degree, on the other hand, are typically less sophisticated products which contribute to the Ecosystems of many other products. We show that the majority of non-zero directed edges (over 80%) transition from low complexity to high complexity products as we would expect under a capability-accumulation model. We also compute the node betweenness centrality, a measure of the number of shortest paths that transition through a node. Such nodes exhibit both high in- and out-degree - they are transition products typically produced by low and middle income countries as they move into more sophisticated products.
+
+We investigate the structure of this network, finding that it exhibits a modular structure composed of a number of well-defined product communities (clusters). These communities are composed of groups of products that share similar capabi...
+--
+21136:...ce, if let jump from node to node on a network with probability proportional to edge weight, a random walker will become trapped in regions of the network exhibiting high internal connectivity. Deploying this method, we identify five stable communities in the Ecosystem network. We explore the evolution of countries based on the location of product appearances in the network: countries tend to diversify along the arrow of development starting in an origin community which is composed of high out-degree products, and eventually concentrating in a variety of distinct but interconnected destination communities composed of high in-degree products.
+
+Finally, using an out-of-sample approach, we show that ...
+--
+22185:...ely to competitively export that product in the future. This model compares favourably in comparison to the Product Space[3](/articles/s41467-021-21689-0#ref-CR3 "Hidalgo, C. A., Klinger, B., Barabási, A.-L. & Hausmann, R. The product space conditions the development of nations. Science 317, 482–487 \(2007\).") in terms of the prediction of export appearances.
+
+## Results
+
+### Productive Ecosystems
+
+In order to model the process of product diversification via capability accumulation, we build on Hausmann and Hidalgo[24](/articles/s41467-021-21689-0#ref-CR24 "Hausmann, R. & Hidalgo, C. A. The network structure of economic output. J. Economic Growth 16, 309–342 \(2011\)."). According to this Leontie...
+--
+24446:... we are calculating inner products. Hence, country _n_ produces product _i_ if and only if **c****n** ⋅ **p****i** = ∥**p****i** ∥. The model is solved assuming that the probability that a country has/product requires a capability with a constant probability.
+
+Focusing on modelling the temporal dynamics of diversification, and specifically product appearances, here we assume that country _n_ will start making a product _i_ at a future time _t_ 1, which it does not currently make, with a probability that decreases with the number of capabilities that are not present in the country but required for product _i_ (at some initial time _t_ 0). Formally, if product _i_ requires ∥**p****i** ∥ capabilities...
+--
+25738:...42 \(2011\)."), we can assume that the probability of acquiring a capability is binomial with mean _q_. Hence,
+
+$$P({J}_{n,i}^{{t}_{0}\to {t}_{1}}=1)={q}^{\parallel {{\bf{p}}}_{{\bf{i}}}\parallel -{{\bf{c}}}_{{\bf{n}}}\cdot {{\bf{p}}}_{{\bf{i}}}}$$
+
+(1) 
+
+where \\({J}_{n,i}^{{t}_{0}\to {t}_{1}}=1\\) if product _i_ , which was absent in time _t_ 0, appears in country _n_ at time _t_ 1, and 0 otherwise (to minimize notational clutter, we will omit the time indices). Since 0 <  _q_ < 1, the probability of jump decreases with an increase in the capability gap.
+
+We show in the ‘Methods’ section that, if we assume that the probability of a country having each capability is _w_ by making a mean-field ass...
+--
+27246:...o a constant multiplicative factor.
+
+We refer to the row vector \\({{\bf{E}}}_{{\bf{i}}}={\\{{E}_{i,j}\\}}{\,}_{j = 1,...,n}\\) as the Ecosystem of a product _i_. This captures the extent of capability overlap between product _i_ and each product _j_ , and is calculated based on the probability that product _j_ was already present when product _i_ appeared. In the ‘Methods’ section, we outline how we empirically estimate the Ecosystem matrix using product presences and appearances (based on revealed comparative advantage[26](/articles/s41467-021-21689-0#ref-CR26 "Balassa, B. Trade liberalisation and “revealed” comparative advantage. Manch. Sch. 33, 99–123 \(1965\).")) in international trade data. ...
+--
+[117 more matches not shown]

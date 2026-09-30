@@ -1,0 +1,43 @@
+Search: neighbour export failure deters entry  [scholarly via openalex]
+Found: 10 results
+
+1. Export diversification in Uganda : developments in non-traditional agricultural exports
+   https://openalex.org/W1721374708
+   Data Archiving and Networked Services (DANS) · 2001 · cited by 34...
+
+2. Mauritius : dynamising export competitiveness
+   https://openalex.org/W590127928
+   OpenGrey (Institut de l'Information Scientifique et Technique) · 1998 · cited by 29...
+
+3. The impact of trade facilitation factors on South Africa's exports to a selection of African countries
+   https://doi.org/10.1080/0376835x.2014.907535
+   Development Southern Africa · 2014 · cited by 36...
+
+4. Blockchain technology in the energy sector: A systematic review of challenges and opportunities
+   https://doi.org/10.1016/j.rser.2018.10.014
+   Renewable and Sustainable Energy Reviews · 2018 · cited by 2443...
+
+5. REINVENTING INDUSTRIAL STRATEGY: THE ROLE OF GOVERNMENT POLICY IN BUILDING INDUSTRIAL COMPETITIVENESS
+   https://openalex.org/W2125545242
+   Oxford University Research Archive (ORA) (University of Oxford) · 2004 · cited by 282...
+
+6. Brexsea Trade and Uncertainty: Impact of Brexit on Seafood Exports
+   https://doi.org/10.1111/twec.13661
+   World Economy · 2024 · cited by 9...
+
+7. The effects of heterogeneous sanctions on exporting firms: Evidence from Denmark
+   https://doi.org/10.1111/roie.12705
+   Review of International Economics · 2023 · cited by 14...
+
+8. Botswana and Zimbabwe : Relative Success and Comparative Failure
+   https://openalex.org/W1521354448
+   RePEc: Research Papers in Economics · 2001 · cited by 10...
+
+9. Do Export Promotion Agencies Promote New Exporters?
+   https://doi.org/10.18235/0011636
+   2014 · cited by 11...
+
+10. Who creates international marketing agility? Diasporic agility guiding new market entry processes in emerging contexts
+   https://doi.org/10.1002/tie.22284
+   Thunderbird International Business Review · 2022 · cited by 18...
+

@@ -1,0 +1,85 @@
+{
+ "label": "executor-checked (LLM judge + executor reading + MediaWiki first-revision API); NOT a human expert annotation",
+ "n_items": 100,
+ "n_positive": 50,
+ "n_negative": 50,
+ "n_executor_read": 100,
+ "n_reused_verdicts": 0,
+ "positive_precision_strict": 0.86,
+ "positive_precision_strict_wilson95": [
+  0.7381380617631021,
+  0.9304916661082956
+ ],
+ "positive_precision_lenient_partial_counts": 0.96,
+ "precision_by_source_bucket": [
+  {
+   "bucket": "list",
+   "n": 7.0,
+   "precision_strict": 0.5714285714285714,
+   "precision_lenient": 1.0
+  },
+  {
+   "bucket": "mesh",
+   "n": 10.0,
+   "precision_strict": 0.8,
+   "precision_lenient": 1.0
+  },
+  {
+   "bucket": "tax",
+   "n": 8.0,
+   "precision_strict": 0.875,
+   "precision_lenient": 0.875
+  },
+  {
+   "bucket": "wikidata",
+   "n": 5.0,
+   "precision_strict": 0.8,
+   "precision_lenient": 0.8
+  },
+  {
+   "bucket": "wikipedia_en",
+   "n": 20.0,
+   "precision_strict": 1.0,
+   "precision_lenient": 1.0
+  }
+ ],
+ "wikipedia_date_error_years": {
+  "n": 20,
+  "median": 0.0,
+  "share_le_1": 0.95,
+  "share_eq_0": 0.95,
+  "distribution": {
+   "0": 19,
+   "4": 1
+  }
+ },
+ "non_wikipedia_date_first_recognition": {
+  "yes": 20,
+  "unclear": 9,
+  "no": 1
+ },
+ "date_error_le_1y_share_all_checked": 0.9512195121951219,
+ "n_date_checked": 41,
+ "negatives_false_negative_rate": 0.14,
+ "negatives_false_negative_wilson95": [
+  0.0695083338917044,
+  0.2618619382368978
+ ],
+ "negatives_wiki_page_any_in_window": 0.16,
+ "negatives_wiki_page_exists_share": 1.0,
+ "negatives_wiki_page_precedes_t0_share": 0.84,
+ "fn_note": "lower bound: only Wikipedia was checked for false negatives (not MeSH/taxonomies)",
+ "positives_emergence_meaningful_share": 0.42,
+ "positives_emergence_meaningful_note": "executor judgement: does the event plausibly mark recognition of a NEW concept (vs dating a long-known phenomenon)?",
+ "executor_vs_llm_kappa_same_concept": 0.4966442953020133,
+ "executor_vs_llm_pct_agree": 0.82,
+ "n_executor_llm_pairs": 50,
+ "llm": {
+  "model": "openai/gpt-4.1-mini",
+  "llm_cost_usd": 0.009030400000000001,
+  "n_llm_calls": 50,
+  "cap_usd": 1.0
+ },
+ "FIT_FOR_USE_rule": "precision_strict >= 0.85 AND date error <= 1 year in >= 80% of checked positives",
+ "FIT_FOR_USE": true
+}

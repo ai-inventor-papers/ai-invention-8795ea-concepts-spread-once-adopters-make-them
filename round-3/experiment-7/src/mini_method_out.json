@@ -1,0 +1,71 @@
+{
+ "metadata": {
+  "method_name": "Retained frontier (d0_ret_rel = mean relatedness of target field to off-home fields that RETAIN the concept)",
+  "baseline": "R2 = relatedness-to-home + log field size + Hidalgo density of entered fields + own gateway + RCA>1 density (annual, Hidalgo current portfolio) + share-weighted density",
+  "prediction": "within-stratum (concept-year) choice probability from the FROZEN DEV coefficients; output = 1 if the field was entered",
+  "rows": "held-out candidate rows in informative strata of the primary sample (non-empty retained set)",
+  "input_format": "concept_id|qid|year|target_field|a_phi_home|b_log_size|c_density|e_gate_own|D_rca_1y|D_vol|d0_ret_rel|d_lost|n_ret|n_lost (raw, unstandardised covariates at t-1; stratum = concept-year)",
+  "verdicts": "PARTIAL: persistence confounded with volume",
+  "abandonment": "INCONCLUSIVE (negative point estimate, CI includes 0)"
+ },
+ "datasets": [
+  {
+   "dataset": "entry_events_heldout_cohort",
+   "examples": [
+    {
+     "input": "C125502|Q1153279|2013|13|0|11.78|0.2459|0.419|0|0.01322|0.1545|0.8187|4|1",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.08415",
+     "predict_R3_retained_frontier": "0.08869",
+     "metadata_unit": "COHORT_NONDEVHOME",
+     "metadata_stratum": 1613
+    },
+    {
+     "input": "C125502|Q1153279|2013|15|0|5.017|0|0.9639|0|0|0|0|4|1",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.000488",
+     "predict_R3_retained_frontier": "0.0003667",
+     "metadata_unit": "COHORT_NONDEVHOME",
+     "metadata_stratum": 1613
+    },
+    {
+     "input": "C125502|Q1153279|2013|16|0|11.42|0|1|0|0|0|0|4|1",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.05675",
+     "predict_R3_retained_frontier": "0.0515",
+     "metadata_unit": "COHORT_NONDEVHOME",
+     "metadata_stratum": 1613
+    }
+   ]
+  },
+  {
+   "dataset": "entry_events_heldout_pooled4",
+   "examples": [
+    {
+     "input": "C339426|Q1151839|2005|11|0|11.38|0|0.2841|0|0|0|0|2|0",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.06271",
+     "predict_R3_retained_frontier": "0.06359",
+     "metadata_unit": "SOC",
+     "metadata_stratum": 3705
+    },
+    {
+     "input": "C339426|Q1151839|2005|12|0|11.45|0.1506|0.02535|0.1506|0.07532|0.1145|0|2|0",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.09197",
+     "predict_R3_retained_frontier": "0.09824",
+     "metadata_unit": "SOC",
+     "metadata_stratum": 3705
+    },
+    {
+     "input": "C339426|Q1151839|2005|13|0|11.51|0|0.419|0|0|0|0|2|0",
+     "output": "0",
+     "predict_R2_rca_vol_baseline": "0.07399",
+     "predict_R3_retained_frontier": "0.07357",
+     "metadata_unit": "SOC",
+     "metadata_stratum": 3705
+    }
+   ]
+  }
+ ]
+}

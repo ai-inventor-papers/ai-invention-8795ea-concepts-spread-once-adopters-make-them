@@ -1,0 +1,8 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://www.mdpi.com/2227-7390/14/11/1953
+Type: HTML
+Pattern: Abstract|AUC|RCA|exit|persist|entry|relative relatedness|consecutive (0 matches in 1 chars)
+
+--- Content ---
+
+No matches found for pattern: Abstract|AUC|RCA|exit|persist|entry|relative relatedness|consecutive

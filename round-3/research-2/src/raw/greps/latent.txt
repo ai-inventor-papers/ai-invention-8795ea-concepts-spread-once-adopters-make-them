@@ -1,0 +1,253 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2104.10812
+Type: PDF
+Pattern: RCA|threshold|exit|lose|lost|AUC|precision|consecutive|entry|density|persist (72 matches in 65512 chars)
+
+--- Content ---
+
+6473:...tion and showed that high GDP countries 
+specialize in biomedicine, formerly communist countries specialize in basic science and 
+engineering, and less developed countries specialize in agriculture. Cimini et al. (27) arrived at a 
+different conclusion, showing that—rather than specializing—technologically-leading countries 
+have been active in a diversity of scientific domains.  
+ 
+Economic complexity framework provides a useful lens to evaluate economic and scientific 
+transformations from a global perspective (28). This approach employs quantitative methods to 
+predict and explain economic trajectories of geographic regions (29–31), often employing 
+measures of relatedness, which inform changes in specialization and explain particular outcomes 
+based on existing specializations (28). These methods of complexity, relatedness, and application 
+of dimensionality reduction are well-served to examine the production and exportation of 
+knowledge. The economic complexity approach is closely aligned with contemporary 
+perspectives in economic geography, which focus on issues such as path dependence, lock-in, 
+and proximity (32, 33). Developments toward evolutionary economic geography (34) recognize 
+
+ 
+ 
+the relationship between macro- and micro-level perspectives: in the words of Boschma and 
+Frenken (33), how “spatial structure of the economy emerge from and are transformed by th...
+--
+8457:...ess with existing topics in cities. Guevara and 
+colleagues (11) constructed a research space by using career trajectories of scientists and 
+demonstrated that the research space could predict research evolution of individuals, 
+organizations, and countries. Chinazzi et al. (2019) used an embedding method to predict 
+research evolution in urban areas, providing evidence that the average knowledge density in 
+physics is correlated with scientific and economic development in a country. 
+ 
+The study of economic output with respect to the “product space”—i.e., the network of 
+relatedness between exported products—reveals that the networked structure of industrial 
+advantage is critical to understanding the economic development of nations (31). Following the 
+well-trodden path of Adam Smith, economists argue that division of labor—that is, 
+specialization—is related to economic efficiency; therefore, development is associated with 
+
+ 
+ 
+increased capacity and complexity (28, 35). This argument has been explored in regards to 
+economic exports (35); however, less attention has been paid to the relationship between the 
+complexity of scientific exports and economic development, as well as potential universal 
+aspects of these relationships.  
+ 
+In this study, we apply maps of science (30–33) and Revealed Comparative Advantage (RCA) 
+(23)—a common measure for quantifying the economic and production advantages of countries 
+(31)—to examine national science production, by considering scientific disciplines as types of 
+“products” that are exported by countries. That is, we investigate a nation’s scientific 
+development through scientific exports, in which research articles produced by a country and 
+indexed in international b...
+--
+10607:...e the best proxies for exportation. This is not to 
+diminish localized scientific activity, but to create a measurement that approximates economic 
+exportation. This allows us to examine how knowledge is constructed within and flows across 
+countries and can be used to inform science policy.  
+
+ 
+ 
+Results 
+Geography of revealed comparative advantage 
+We employ the Revealed Comparative Advantage (RCA) (23) to assess each nation’s relative 
+disciplinary strengths based on publications indexed by the Web of Science database (see Methods). 
+If country 𝑐 produces a greater share of its publications in field 𝑖 compared to the world average 
+share in the discipline, then RCA!,# > 1 and country 𝑐 is considered to have a revealed 
+comparative advantage (or specialization) in discipline 𝑖. 
+ 
+We calculated the RCA for all combinations of 143 disciplines and all countries in our dataset. 
+As expected, the patterns of relative advantage reflect a range of historical, geographical, and 
+cultural factors (see Figure 1). For instance, countries with relative strength in Botany are located 
+in tropical areas rich in botanical resources; Anthropology and Archaeology features both 
+wealthy and developing nations, ...
+--
+15912:...hods). Aggregating countries based on their income-level classification 
+(47) reveals that niches are largely related to national wealth (see Figure 2b-d). Low-income 
+countries (e.g., Afghanistan, Ethiopia, and South Sudan) tend to be confined to the Natural 
+cluster; some of the low-middle countries extend towards the Physical disciplines whereas 
+
+ 
+ 
+upper-middle income countries are located closer to the center. High-income countries 
+(e.g., United States, France, and Japan) tend to occupy the center and the space between Natural 
+and Societal, suggesting balanced exportation. This pattern suggests there might be a universal 
+tendency that as a nation’s economic power increases, their scientific exports move towards a 
+more balanced portfolio. 
+The principle of relatedness 
+To understand the temporal evolution of national research portfolios, we first examine whether the 
+development (or the loss) of revealed comparative advantage follows the principle of relatedness 
+(9–12), which predicts that countries are more likely to develop a new advantage in a discipline 
+that is close to their existing advantages (see Figure 2). By examining the entry (exit) of advantages 
+across each subsequent time step (see Methods), we show the principle of relatedness indeed holds 
+(see Figure 3a-b). The probability of a discipline’s entry increases with the density of proximate 
+specialized disciplines (b = 0.33, 95% CI=[0.30, 0.36]); the probability of a discipline’s exit 
+follows the opposite pattern (b = -0.93, 95% CI=[-0.94,-0.92]). 
+ 
+Moreover, if we aggregate countries based on income groups, we further discover that low-income 
+countries are more strongly constrained by the principle of relatedness than others (one-tailed t-
+test t19=34, P<0.001) (See Figure 3c-d). In other words, it is more difficult for low-income countries 
+to develop a new relative advan...
+--
+17812:...t in the vicinity of already existing advantage, while 
+wealthy countries are more likely to develop new advantage, thanks to the already existing diverse 
+and complex research portfolio with broader and higher disciplinary production, allowing them to 
+
+ 
+ 
+make less portfolio-dependent choices when building scientific capacity. Our result aligns with the 
+recently reported pattern that low-complexity economies experience stronger pull from relatedness 
+and are less likely to enter unrelated activities (48).  
+ 
+The principle of relatedness shapes scientific development, but to what extent? We compare the 
+actual trajectories with a null model that is solely based on the principle of relatedness (see 
+Methods). As shown in Figure 3e, the predicted research profiles converge towards the center...
+--
+20426:...h as China. 
+Relationships between scientific activities and economic growth 
+Motivated by the connection between the economic wealth and their scientific niches and the 
+increasing diversity shown above, we investigate the relationships among scientific diversity, 
+publication volume and economic performance. We measure the diversity of a scientific portfolio 
+with the Gini index of disciplinary RCA values (see Methods). For convenience, we define the 
+scientific diversity of a nation as one minus their Gini index. High scientific diversity corresponds 
+to a more balanced and diversified portfolio, whereas low scientific diversity indicates more 
+skewed and specialized exportation.  
+ 
+We find that the number of publications, scientific diversity, GDP and ECI (Economic Complexity 
+Indicator) are all strongly correlated with each other (publication and diversity: Pearson’s r=0.91, 
+publication and GDP: Pearson’s r=0.92, and publication and ECI: Pearson’s r=0.75) (see Figure 
+5). Over the past 40 years, the average number of publications as well as the average scientific 
+diversity of all income groups  have been steadily increasing  (see Figure 5d-e). However, this 
+
+ 
+ 
+steady growth is not enough to close the gap between income groups, the gap between high-income 
+countries and low-income countries remains wide. Although scientific diversity is correlated with 
+the number of publications, the diversification of research portfolio cannot be explained by the 
+increase in the number of publications alone (t1561=17.02, P<.001) (see Supplementary Figure 9 
+for the detail). 
+ 
+Our results with two-way f...
+--
+23702:...ter might have played an important role in its economic growth, our models do not 
+provide enough evidence to demonstrate whether the strength in Physical cluster is associated with 
+the future economic growth across countries. The relationship between scientific development and 
+economic development may be contingent on countries and complex.  
+ 
+In contrast to the theory that diversity and complexity of economy are closely linked to the 
+economic growth, we could not find strong associations between the diversity of scientific 
+portfolio and economic growth. Scientific diversity could neither predict GDP growth nor predict 
+the growth of publication (t704=-0.78, P=0.44, effect size=-0.08, 95% CI=[-0.27,0.11]) (see Table 
+1) and (t704 =-0.77, P=0.44, effect size=-0.10, 95% CI=[-0.36,0.16]) (see Supplementary Table...
+--
+28073:...estimates research from western 
+countries and publications in English while underestimating the production in other nations and 
+languages (see Supplementary Information). Still, we argue that our operationalization is 
+reasonable under the analogy to product exportation (31, 35) and the status of English as the de-
+facto lingua franca (58) of science. Second, many of our analyses considered the RCA matrix as 
+a bipartite network. This approximation is not strictly valid because the edges are not independent 
+from each other. Finally, our regression models are not free from multicollinearity issues as there 
+exist significant correlation between GDP and the number of publications. Moreover, we show that 
+the inferred relationships between scientific enterprise and economic growth can be easily driven 
+by a small number of countries by demonstrating that the association between the publications in 
+Physical cluster and economic growth is driven by China, which have achieved strong growth in 
+both scientific production in Physical cluster and economy. Due to the complexity of economic 
+and scientific development, we note that reliable causal inference with country-level data is often 
+infeasible, and our results do not necessarily confirm nor reject a direct causal relationship between 
+
+ 
+ 
+national scientific development and economic growth. There exist many unobserved hidden 
+confounders and complex feedback mechanisms between scientific and economic developmen...
+--
+33359:... Income classification 
+comes from World bank database (47) which contains 224 countries between 1987 and 2018. We 
+convert the annual classification to a time snapshot classification by assigning each country to its 
+most frequent income group during each period. See Supplementary Information’s data section 
+for more details. 
+ 
+Revealed Comparative Advantage. The revealed comparative advantage (RCA) of country 𝑐 in 
+discipline 𝑖 is defined as: 
+RCA!,# =
+𝒫(𝑐, 𝑖)/ ∑𝒫
+#
+(𝑐, 𝑖)
+∑𝒫
+!
+(𝑐, 𝑖)/ ∑
+𝒫
+!,#
+(𝑐, 𝑖) 
+where 𝒫(𝑐, 𝑖) is the number of publications produced and “exported”—the number of publications 
+which is indexed in the Web of Science—by country 𝑐 in discipline 𝑖, ∑𝒫
+#
+(𝑐, 𝑖) is the total 
+number of publications produced by country 𝑐, ∑𝒫
+!
+(𝑐, 𝑖) is the total number of publications 
+produced in a discipline globally, and ∑
+𝒫
+!,#
+(𝑐, 𝑖) is the total number of publications across all 
+countries and disciplines.  
+ 
+
+ 
+ 
+Disciplinary Proximity. The proximity between disciplines 𝑖 and 𝑗 is defined as the minimum of 
+the pairwise conditional probabilities of a country having an advantage (RCA > 1) in one 
+discipline given an advantage in another: 
+𝜙#$ = min{𝑃(RCA# > 1|RCA$ > 1), 𝑃(RCA$ > 1|RCA# > 1)} 
+𝜙 is a 143 × 143 matrix that captures the proximity between pairs of disciplines (see 
+Supplementary Figure 4). 
+ 
+Identifying the disciplinary clusters. The relatedness network is constructed from the 
+disciplinary proximity matrix derived from aggregating data across all years (from 1973 to 
+2017). The network is fixed over the analysis. Although the network structure changes over time, 
+networks derived from a snapshot of data closely resemble with the aggregated network (see 
+Supplementary  Figure 5). The multi-scale backbone extraction method (44) exposes three visual 
+clusters when laid out with a force-directed layout algorithm (Gephi’s ForceAtlas2). We formally 
+confirm the structure by applying a community detection algorithm (the Leiden algorithm (45)) 
+to the full network. We use modularity as the quality function an...
+--
+35463:...Other methods produce similar results although some partitions the network 
+into smaller communities (see Supplementary Information’s Disciplinary Relatedness Network 
+section).  
+ 
+Position within the simplex. Position within the simplex measure countries’ cluster-level 
+specialization concentration. We first calculate  𝐶# = 𝑛# 𝑁#
+⁄
+, where 𝑛# is the number of 
+
+ 
+ 
+disciplines in cluster 𝑖 with RCA > 1, 𝑁#  is the total number of disciplines in cluster 𝑖. Then we 
+normalize 𝐶# so that ∑𝐶# = 1
+#
+.    
+ 
+The Density of existing advantages and the null development model. The density of existing 
+advantages around a given discipline is defined as follows: 
+𝜔$
+% =
+∑𝑥#𝜙#$
+#
+∑𝜙#$
+#
+ 
+where 𝜙#$ is the proximity between discipline 𝑖 and 𝑗, and 𝑥# = 1 if 𝑅𝐶𝐴%# > 1 else 𝑥# = 0, and 
+the density of exi...
+--
+[37 more matches not shown]
