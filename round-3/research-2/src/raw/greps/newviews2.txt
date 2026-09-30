@@ -1,0 +1,171 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2203.16316
+Type: PDF
+Pattern: loss|lost|losing|lose (91 matches in 68814 chars)
+
+--- Content ---
+
+405:...ation 
+ 
+ 
+Önder Nomaler and Bart Verspagen 
+UNU-MERIT 
+ 
+ 
+Abstract: 
+We aim to contribute to the literature on product space and diversification by proposing 
+a number of extensions of the current literature: (1) we propose that the alternative but 
+related idea of a country space also has empirical and theoretical appeal; (2) we argue 
+that the loss of comparative advantage should be an integral part of (testing the empirical 
+relevance of) the product space idea; (3) we propose several new indicators for 
+measuring relatedness in product space; and (4) we propose a non-parametric statistical 
+test based on bootstrapping to test the empirical relevance of the product space idea. 
+ 
+Keywords: ...
+--
+2387:...ecialization pattern of the country or region.  
+Our aim in this paper is to extend and elaborate on the idea of product space in several 
+ways. In particular, we aim to develop the idea in four different ways: (1) we propose that 
+the alternative but related idea of a country space also has empirical and theoretical 
+appeal; (2) we argue that the loss of comparative advantage should be an integral part of 
+(testing the empirical relevance of) the product space idea; (3) we propose several new 
+indicators for measuring relatedness in product space, including one measure that 
+decomposes the probability of gaining new specializations into related and unrelated 
+diversification, and which, thereby, provides a more precise measure of path-dependency 
+in product space; and (4) we propose a non-parametric statistical test based on 
+bootstrapping to test the empirical relevance of the product space idea both at the 
+country- and product-level, and including both gains and losses of comparative 
+advantage. Before introducing these new ideas, we will first provide a brief overview of 
+the existing literature, and use this to position the proposed extensions that are developed 
+in the next sections. 
+The product space idea has profound implications for development. In a nutshell, it means 
+that developed and developing nat...
+--
+4819:... (or region) cannot, by definition, be 
+specialized in all products at the same time. Hence, if new specializations are added 
+
+2 
+ 
+(diversification), we must also expect that at some point old specializations will vanish. 
+This is clearly visible in the data that we will use below. In our dataset, 59 out of 155 
+countries have a higher number of losses than gains of comparative advantages over the 
+six-year period 2012 – 2018. China, which is a country that is often seen as an example of 
+development through diversification, did have a net gain of 143 comparative advantages 
+over the period, but it lost 224 as well as gained 367. The loss of comparative advantage 
+as an important part of the diversification process leads us to the second aim of the paper 
+as formulated above, and also inspires our newly proposed indicators (third aim above).  
+The empirical evidence tends to show that the product space is an attractive idea. 
+Hausman and Klinger (2007) introduce the so-called densi...
+--
+8844:...In this section, we develop a set of new measures for the relatedness between countries 
+(or regions) and products. We start by summarizing the formalization of the density 
+measure that is currently the most used measure. We then move on to propose new 
+measures based on two of our proposals that we introduced above: the inclusion of the 
+absence loss of comparative advantage, or, in other words, mutually exclusive 
+specializations,  in the analysis, and the idea of a “country space”.  
+ 
+2.1. The density measure 
+The most commonly used measure for a country’s opportunities for diversification is 
+referred to as density. This measure is based on the idea that a country’s current 
+specialization...
+--
+13407:...ch of the entries in the country’s column of the X 
+matrix are 0. The reason for this is that a country cannot be specialized in all products at 
+the same time, by construction of the RCA indicator.2 
+Thus, if we look at the development pattern of a country, the idea that it will gain 
+specializations as it acquires new capabilities implies also a loss of existing specializations 
+at some point of time. This does not necessarily mean that capabilities are lost, it results 
+ 
+1 Note that the computation underlying the density measure is somewhat arbitrary. For example, Coniglio 
+et al. (2021) use a different (and an equally arbitrary) metric where the proximity between a country and a 
+product is computed as the proximity between the given product and the closest one in the specialization 
+portfolio of the country. In a footnote, these authors also indicate that yet another alternative would be to 
+compute the average distance. 
+2 This also means that RCA of a country (in a specific product) can change as a result of changes outside the 
+country. For example, if a country k starts exporting more of a par...
+--
+26633:.... However, 
+rather than the specific test proposed by Coniglio et al, (2021), our test will be based on 
+bootstrapping. We will also follow Coniglio et al (2021) in applying the tests to a 
+subsample of the pooled country-product dataset, focusing both on individual countries, 
+and individual products. Finally, our tests will include tests for the loss of comparative 
+advantage as well as gains. 
+We have 12 possible indicators (in three groups of four: D, E, E2, 𝐷̃ are the product space 
+indicators; 𝐷∗, 𝐸∗, 𝐸2
+∗, 𝐷̃∗ are the country space indicators; and 𝐷𝑇𝑜𝑡, 𝐸𝑇𝑜𝑡, 𝐸2
+𝑇𝑜𝑡, 𝐷̃𝑇𝑜𝑡 are 
+the combined space indicators) that can be used to predict gains and losses of 
+specializations (RCA) in matrix X over time. Rather than applying a regression based that 
+is the most common approach in the literature, we propose a new non-parametric test, 
+and implement it for all 12 indicators.  
+ 
+3.1. Data 
+We apply the test to data on international trade by countries, for the period 2012 – 2018. 
+The data are taken ...
+--
+28268:...or each of the years 2012 – 2018. 
+We then construct changes of RCA over all possible combinations of years. Thus, if we look 
+at years t1 and t0, we calculate the matrix 𝑋1 −𝑋0, where the non-zero elements of this 
+matrix are of interest to our analysis: an element equal to 1 indicates an RCA gained, while 
+an element equal to –1 indicates an RCA lost.  
+The possible changes are grouped by the length of the period. Thus, we have 6 possible 1-
+year changes (2012-13, 2013-14, etc.), 1 possible 6-year change (2012-18), and all the 
+combinations in between. This yields 21 possible combinations of years, and we 
+implement our test for all 12 indicators with each of those 21 combinations, and for RCAs 
+gained as well as RCAs lost.  
+ 
+3.2. Method 
+We implement a bootstrapping test for evaluating the predictive power of a specific 
+indicator for either RCA gained or RCA lost. When applied to the entire matrix of RCA 
+changes (𝑋1 −𝑋0), this test can be formalized as follows: 
+H0: Again = Ano-gain 
+
+10 
+ 
+where Again denotes the average value of the indicator over cells with value 1 in matrix 
+𝑋1 −𝑋0, and Ano-gain denotes the average value of the indicator over cells with value not 
+equal to 1 in matrix 𝑋1 −𝑋0. Thus, th...
+--
+29537:...age value of the 
+indicator for cases that (ex post) reveal themselves as actual RCA-gainers is higher than 
+non-gainers.  
+We construct a p-value for the null-hypothesis by the following bootstrapping procedure 
+(Efron and Tibshirani, 1993, chapter 15): 
+1. Identify the potential RCA-gainers (if we are implementing the test for RCA-gains) 
+or RCA-losers (if we are implementing the test for RCA-losses). The potential RCA-
+gainers are cells in matrix 𝑋0 with value 0. The potential RCA-losers are cells in 
+matrix 𝑋0 with value 1. Call the number of potential gainers/losers N. 
+2. Divide the set of potential RCA-gainers or -losers into two subsets: the set of actual 
+gainers or losers, and the set of non-gainers or non-losers. Call the number of 
+actual gainers or losers N1 and note that the number of non-gainers or non-losers 
+is N – N1.  
+3. Repeat this step 5,000 times: randomly divide the total set of potential gainers or 
+losers (there are N members in this set) into one subset of N1 members and one 
+subset of N – N1 members. Calculate the average of the value in matrix 𝑋1 −𝑋0 of 
+the N1 members in the first subset. Call this average A1, and compare it to the 
+empirically observed average value Again.  
+4. When testing RCA-gains, calculate p = #A1 ≥ Again/ 5,000, where #A1 ≥ Again denotes 
+the number of times where A1 ≥ Again holds in step 3. When testing RCA-losses, 
+calculate p = #A1 ≤ Again/ 5,000, where #A1 ≤ Again denotes the number of times 
+where A1 ≤ Again holds in step 3.  p is the observed p-value for H0. 
+Note that the number of 5,000 repetitions in step 3 of the procedure is arbitrary (Efron 
+and Tibshirani, 1993 use 1,000 repetitions in their examples, so our 5,000 repetitions are 
+on the safe ...
+--
+31781:...(individual columns of matrix 𝑋1 −𝑋0; 5,197 
+observations enter at step 1).  
+Note also that small values of N1 will lead to weak test results: imagine the extreme case 
+where N= N1 = 1; this prevents any variety in step 3 of the procedure and hence reduces 
+the test to the question of whether the single value of the observation with RCA-gain or -
+loss is above or below (respectively) the non-gainers or non-losers. With N > 1 but still 
+“small”, we have a less extreme case, but still a relatively weak test. This happens 
+especially when we consider RCA-loss, because the group of potential RCA-losers 
+(observations that have RCA) is usually (much) smaller than the case of potential gainers. 
+The case of small N is also limited to cases where we implement tests on either individual 
+
+11 
+ 
+countries or products. In the empirical implementation of the tests below, we limit the 
+cases that we subject to the test to those where N > 15 (admittedl...
+--
+[61 more matches not shown]

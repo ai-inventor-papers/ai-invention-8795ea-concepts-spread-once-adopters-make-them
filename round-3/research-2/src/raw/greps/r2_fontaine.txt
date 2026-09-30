@@ -1,0 +1,188 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+URL: https://arxiv.org/pdf/2310.01046
+Type: PDF
+Pattern: trajector|typolog|cluster(s|ing) of|classes|exit|abandon|retain|retention|persist|stop|leave|lose|decline|fade|transient (19 matches in 85738 chars)
+
+--- Content ---
+
+3991:...latter
+(Kauffman, 2000; Monechi, Ruiz-Serrano, Tria, & Loreto, 2017).
+In this paper we address the process of penetration of AI inside a given field of
+research. We focus on neuroscience, which are part of such fields largely receiving AI,
+according to Gargiulo et al. (2023). We choose especially this field as it has a particular
+history which is closely intertwined with the AI one. Indeed neuroscience and AI
+are continuously providing feed-backs to each other toward the comprehension of the
+human brain and the artificial reproduction of some cognitive processes (Hassabis,
+Kumaran, Summerfield, & Botvinick, 2017; Savage, 2019). This lead us to also assume
+that neuroscience is not only a filed th...
+--
+10033:... and functional magnetic res-
+onance imaging (fMRI), both of which led to important discoveries on the functional
+biological mechanisms in the human brain that are induced by complex cognitive tasks
+(Cooper & Shallice, 2010). This contributed to the rise of the connectionist paradigm
+that is now dominant in brain sciences, even if some debates are persisting within
+cognitive science about the representations of knowledge and the logical operations
+to process them in interaction with the real world (Andler, 1990; McCarthy, 1981;
+Perconti & Plebe, 2020)
+In the recent big data era, a panel of AI tools enables the efficient processing of
+large datasets composed of various kinds of biomedical data (elec...
+--
+24634:...r the value of one axis, the better the associated rank and the higher the
+number of collected citations along this axis. The angle θ indicates the deviation of d
+from the diagonal in this space, where the ranks are exactly the same in each corpus.
+8
+
+From this map we define the common interest area between P ∩AI and P ∩AI
+(in grey) as the region close to the diagonal where the two rankings of the fields of
+study inside it are almost the same and not significantly varying over time. This zone
+is comprised between the two lines of respective equations rP∩AI = rP∩AI + τ (above
+the diagonal) and rP∩AI = rP∩AI −τ (below the diagonal), with τ a parameter set as
+10 in this paper.
+The blue zone over th...
+--
+31208:..., v)|u ∈Qi, v ∈Qj}|.
+Then we create a set of N alternative collaboration networks { ˜Gk} = {(S, ˜Ek)},
+with k = {1, ..., N}, which are all based on the same set of scientists but have differ-
+ent sets of edges obtained by perturbing the network with a uniform shuffling which
+conserves the degree distribution of the scientists. By applying the same clustering of
+scientists in Q groups for each network as for the real network G, we draw a set of
+matrices {τk} corresponding to the share of edges between the Q groups within the
+randomized networks { ˜Gk}. From this set we extract on the one hand the average
+matrix τsim where one element is defined as τsim(Qi, Qj) =
+1
+N
+P
+k τk(Qi, Qj), and
+on the other hand t...
+--
+37709:...s located with its respec-
+tive ranks in each corpus during the considered time period, in references (Fig. 6A)
+or citations (Fig. 6B). Lower the value of one axis, better the associated rank, and
+then higher the number of collected citations along this axis. From these maps we
+define the common interest area between P ∩AI and P ∩AI as the region close to
+the diagonal where the two rankings of the fields of study are almost the same and
+not significantly varying over time. These fields are colored in grey in these maps. The
+fields that are more dispersed around the diagonal are represented with two different
+colors, the blue ones having a better rank in P ∩AI than in P ∩AI and the purple
+ones ha...
+--
+39305:... compare their respective citation weights within each corpus. Grey points correspond
+to disciplines confined in the area between the two lines of respective equations rP∩AI = rP∩AI + τ
+(above the diagonal) and rP∩AI = rP∩AI −τ (below the diagonal), with τ = 10, and with no
+important variations of positions from one period to one another. The most persistent ones over the
+5 represented decades, with a rank lower than 20, are mentioned in the upper left box of each figure
+A and B. Finally, blue points are the most preferred disciplines of the P ∩AI corpus while purple
+ones are those for the corpus P ∩AI. Abbreviations of the apparent disciplines are given in App. C.
+14
+
+the null angle θ = 0. Then we...
+--
+41713:...ineering, Radiology, Neuroimaging and Audiology & Speech-
+Language pathology. A description of the evolution of the disciplinary landscape inside
+this zone is detailed in App. B.
+The special disciplinary ecosystem of the non-AI corpus P ∩AI, in blue in the
+rankings maps of Fig. 6, is also centered around biomedical fields of study that tend
+to be close to the disciplines that characterize the whole neuroscience as mentioned
+above. In particular, as shown in Fig. 7, the mean angles and the standard deviations
+of the disciplines in the associated zone are asserting a global concentration of them
+toward the common interest area, which includes on one hand the most influential
+fields of research (re...
+--
+44118:... Engineering and
+Mathematics for Computational Biology, the last one exhibiting especially a spectac-
+ular increase of its own rank between 1990 and 2019 (see Figs. 6A and B1). Moreover,
+these special disciplines that cite most the corpus P ∩AI in Fig. 6B are as dispersed
+as the most cited ones by this corpus in Fig. 6A, and remain over time less close to
+the common interest area than the disciplines preferring the other corpus P ∩AI (see
+the corresponding annual evolution of the average angle ⟨θ⟩, colored in purple in the
+impact side of Fig. 7). All these results thus show that AI research in neuroscience is
+situated in a particular disciplinary environment that is not shared by the core of the...
+--
+53259:...it between 1970 and 2019. Each point
+represents one journal in the horizontal aAI space, colored by the standard deviation of the fAI
+scores of their associated authors. The maximum average value of fAI is situated around 0,4.
+papers (included in the quartile Q) under two aspects, namely (1) their disciplinary
+background and (2) their disciplinary trajectory in academia.
+We define the disciplinary background of one author as the set of unique disci-
+plines corresponding to the journals in which he/she has published in his/her first
+year of academic life, namely the year of his/her very first publication(s). For exam-
+ple, a fictitious author publishing his/her three first papers in the same year y0 i...
+--
+54835:...ed in biomedical research around neuroscience,
+as well as in Multidisciplinary Sciences which is represented by 91 international jour-
+nals with a broad topical diversity. We recognize also the main fields of research that
+are shaping the common interest area of the disciplinary ecosystems of the two sep-
+arated AI and non-AI corpora (see the most persistent disciplines in references and
+citations in Fig. 6). These two profiles best represent the disciplinary spectrum of neu-
+roscience itself. We notice in addition the spectacular increase of the Neurosciences
+curve in the two plots until the 1970s (after having emerged in 1957 for Q and in 1962
+for Q0), followed by a quasi-linear progression until...
+--
+56432:...e consider their respective disciplinary profile as the disciplines
+corresponding to the journals in which they publish throughout their scientific life –
+that would not be ended for the youngest still publishing in 2019. We therefore draw
+from these two parameters – disciplinary background and career-related disciplines
+– the typical disciplinary trajectories in each quartile, which are shown in Fig. 12.
+Since the backgrounds are built from the publications at a given year, the authors
+who began their career in 2019 would have a disciplinary profile corresponding to it.
+For avoiding an over-representation of some confined disciplinary trajectories due to
+these newcomers, we therefore consider only the authors who began at the latest in
+2018. For the sake of clarity we select only the most significant trajectories.
+As a confirmation of the disciplinary background shown in Fig. 11, Fig. 12 shows
+that the studied authors in Q and Q0 are involved in a similar disciplinary landscape
+centered around Ophthalmology, Clinical Neurology and general Neurosciences, while
+Q1 and Q2 are more confined into Computer Science and Engineering. In particular, by
+considerin...
+--
+59759:...ar t is the number of authors who have published
+their first articles inside d during their very first year of academic career, since the year of first
+appearance of d. Only the top 10 native specialties in 2019 are shown in Q, Q0 and Q1, and the top
+6 for Q2 because of the insignificance of the following ones.
+22
+
+Fig. 12 Significant disciplinary trajectories of the authors belonging in each quartile. On each plot
+lie on the left the most significant disciplinary backgrounds, and on the right lie the career-related
+disciplines up to 2019.
+23
+
+community is taking root in the global neuroscience landscape, the more recent pro-
+files in neuroscience becoming insiders in this new technological specialty...
+--
+61421:...les Q and {Q0, Q1, Q2}, is lower than the average one com-
+puted from several random distributions of all the edges between the authors in TCN.
+This fact thus shows that the AI practitioners within neuroscience and the other neu-
+roscientists maintain few collaborations as TCN grows over time. Second this situation
+worsens over time, with a steady decline until the 1990s followed by a steeper one
+toward 2015. Although this tendency has reversed since 2015, these results indicates
+that the neuroscientists making AI, ie. in Qi and not in Q, are shaping an almost inde-
+pendent community inside neuroscience by widening progressively a gap with other
+neuroscientists belonging to the set Q. Furthermore, concerning especially the authors
+in Q0, who have similar disciplinary backgrounds and trajectories as the authors in
+Q (see Figs. 11 and 12), the results advanced above also suggest that the scientists in
+Q0 became progressively outsiders from the subset Q in the history of neuroscience
+by moving closer to AI – even if the scientists in Q0 have few AI-related publications.
+This social divide is confirmed with Fig. 13B, which represents the panorama of
+the links shared between the different quartiles in ACN (see also Section 3.3.3). This
+diagram represents a stabilized situation observed since the end of the 1990s (see
+Fig. D3 in App. D), where t...
+--
+63932:...se between Q2 and Q0. The
+scientists in Q1 thus appears to be the most interdisciplinary by assuring the bridge
+between these differentiated profiles inside AI community. These other outsiders in
+neuroscience are especially driving the diffusion of AI in neuroscience from computa-
+tion to medical and clinical applications, given their disciplinary trajectories shown in
+Fig. 12.
+Fig. 13 A: Temporal z-score applied to the edges in TCN between the scientists in Q and those
+in the other Qi, here aggregated together under the notation Qi. B: Z-score matrix of the edges
+between each quartile in the time-aggregated collaboration network ACN. The values are normalized
+with the absolute maximum one in the mat...
+--
+67091:...uroscience from the other neuroscience spe-
+cialists, we have shown that the first tend to not maintain links with the second in the
+temporal co-authorship network including the main collaborations in the field since
+1970. With the previous results we concluded that AI researchers are outsiders in
+neuroscience. We especially have distinguished two classes in this group of scientists,
+namely a first wave of outsiders including authors who are trained in the main dis-
+ciplines that are shaping the neuroscience field since the 1940s and who have a low
+AI activity, and a smallest second wave which emerged around the 1980s and that is
+including authors who are trained in other disciplines that are not r...
