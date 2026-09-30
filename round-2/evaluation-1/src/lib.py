@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 # Parent folder holding the three iteration-1 dependency artifacts as sub-folders gen_art_experiment_1
 # (art_xp8BGBJZsxeI), gen_art_experiment_3 (art_yrradSC27HtQ) and gen_art_experiment_4 (art_33_KKk_G8Gw5).
 ITER1 = Path(os.environ.get("AII_ITER1", Path(__file__).resolve().parent.parent.parent.parent / "round-1" / "."))
-EXP4 = ITER1 / "gen_art_experiment_4"
+EXP4 = ITER1 / "experiment-4/src"
 if str(EXP4) not in sys.path:
     sys.path.insert(0, str(EXP4))
 import screen as S4  # noqa: E402  exp4's own screen.py (logo_predict, _prep, _auc, dersimonian_laird)

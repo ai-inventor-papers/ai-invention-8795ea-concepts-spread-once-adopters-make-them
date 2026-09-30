@@ -11,9 +11,9 @@ import pandas as pd
 
 from lib import ITER1
 
-E1 = ITER1 / "gen_art_experiment_1" / "results"
-E3 = ITER1 / "gen_art_experiment_3" / "results"
-E4 = ITER1 / "gen_art_experiment_4"
+E1 = ITER1 / "experiment-1/src" / "results"
+E3 = ITER1 / "experiment-3/src" / "results"
+E4 = ITER1 / "experiment-4/src"
 HERE = Path(__file__).resolve().parent
 XW = json.loads((HERE / "prereg" / "crosswalk.json").read_text())
 G1 = XW["group_harmonisation"]["exp1_dev_group"]

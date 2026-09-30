@@ -101,7 +101,7 @@ Outputs are in `raw/greps/`.
 - Blocked: Wiley (twec.12835: 403), IOPscience (bot manager), nature.com (IdP redirect), and the epjdatascience PDF (JS).
 - Their abstracts were read through OpenAlex `abstract_inverted_index` instead, using `scripts/abs.py`.
 
-**Our own numbers** were re-read, read-only, from `3_invention_loop/iter_1/gen_art/gen_art_experiment_4/full_method_out.json` (keys `gateway_j`, `size_controlled_gateway_j`, `phi_home_j`, `all`).
+**Our own numbers** were re-read, read-only, from `round-1/experiment-4/src/full_method_out.json` (keys `gateway_j`, `size_controlled_gateway_j`, `phi_home_j`, `all`).
 
 ## 4. Novelty check (Step 4): WebSearch queries, in order
 

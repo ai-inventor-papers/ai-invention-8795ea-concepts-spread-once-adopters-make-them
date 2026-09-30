@@ -17,7 +17,7 @@ from loguru import logger
 
 from common import OUT, ROOT, WORK, norm_label, setup_logging
 
-P78 = ROOT.parents[2] / "round-1" / "." / "gen_art_experiment_4" / "outcomes.csv"
+P78 = ROOT.parents[2] / "round-1" / "." / "experiment-4/src" / "outcomes.csv"
 ACCEPT = {"same", "narrower_entry", "broader_entry"}
 PART_BYTES = 90_000_000
 
